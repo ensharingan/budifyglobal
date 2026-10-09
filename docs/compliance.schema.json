@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Budify compliance.config.json",
+  "type": "object",
+  "required": ["version", "consentVersion", "global", "languages", "markets"],
+  "properties": {
+    "version": { "type": "string" },
+    "consentVersion": { "type": "string", "description": "Bump to re-request consent from all visitors." },
+    "status": { "type": "string" },
+    "global": {
+      "type": "object",
+      "required": ["defaultLocale", "bannedClaims", "bannedImageryTags"],
+      "properties": {
+        "defaultLocale": { "type": "string" },
+        "bannedClaims": { "type": "array", "items": { "type": "string" } },
+        "bannedImageryTags": { "type": "array", "items": { "type": "string" } },
+        "allowedImageryTags": { "type": "array", "items": { "type": "string" } },
+        "requiredFooterTextKeys": { "type": "array", "items": { "type": "string" } },
+        "phase2Markets": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "languages": { "type": "object", "description": "Per-language meta (name, dir, font subset)." },
+    "markets": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["name", "languages", "defaultLocale", "minAge", "consentModel", "currency", "dataRegion", "requiredLinks", "requiredFooterText", "legalPages", "openQuestions"],
+        "properties": {
+          "name": { "type": "string" },
+          "languages": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "defaultLocale": { "type": "string", "pattern": "^[a-z]{2}-[A-Z]{2}$" },
+          "minAge": { "type": "integer", "enum": [18, 19, 21] },
+          "minAgeMedicalOnlyStates": { "type": ["string", "integer", "null"] },
+          "consentModel": { "enum": ["opt-in", "opt-out", "notice-only"] },
+          "honorGpc": { "type": "boolean" },
+          "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+          "dataRegion": { "type": "string" },
+          "vercelRegion": { "type": "string" },
+          "positioning": { "enum": ["dispensary", "association", "medical", "private-club", "pilot"] },
+          "solutions": { "type": "array", "items": { "type": "string" } },
+          "requiredLinks": { "type": "array", "items": { "type": "string" } },
+          "bannedClaims": { "type": "array", "items": { "type": "string" } },
+          "requiredFooterText": { "type": "array", "items": { "type": "string" } },
+          "legalPages": { "type": "array", "items": { "type": "string" } },
+          "forms": { "type": "object" },
+          "trackAndTrace": { "type": ["object", "string"] },
+          "privacy": { "type": "object" },
+          "overview": { "type": ["object", "string"] },
+          "openQuestions": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

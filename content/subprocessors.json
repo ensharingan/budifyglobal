@@ -1,0 +1,11 @@
+{
+  "_note": "Update before launch. Status: 'planned' = intended provider, contract/DPA not yet confirmed; 'optional' = only active if the environment variable is configured.",
+  "lastReviewed": "2026-10-09",
+  "items": [
+    { "name": "Vercel Inc.", "purpose": "Website hosting, edge network and serverless functions", "location": "Region selected per market (EU: Frankfurt; UK: London; US: Washington DC; AU: Sydney; SG: Singapore; ZA: Cape Town)", "data": "IP address, request metadata, form submissions in transit", "status": "planned", "transfer": "SCCs / EU–US Data Privacy Framework (verify)" },
+    { "name": "Resend (or equivalent transactional email provider)", "purpose": "Delivery of form confirmations and newsletter double opt-in emails", "location": "EU/US (verify and choose EU region)", "data": "Name, email address, message content", "status": "optional", "transfer": "SCCs (verify)" },
+    { "name": "Cloudflare, Inc. (Turnstile)", "purpose": "Bot protection on forms (only if TURNSTILE keys are configured)", "location": "Global", "data": "IP address, browser signals", "status": "optional", "transfer": "SCCs / DPF (verify)" },
+    { "name": "Plausible Insights OÜ or Google LLC (GA4)", "purpose": "Website analytics – loaded only after consent in opt-in regions", "location": "EU (Plausible) / US (Google)", "data": "Pseudonymous usage data", "status": "optional", "transfer": "Not applicable (Plausible EU) / SCCs + DPF (Google) (verify)" },
+    { "name": "Lead storage webhook / CRM (customer-chosen)", "purpose": "Storage and follow-up of demo requests, in the data region of the visitor's market", "location": "Per LEAD_WEBHOOK_URL_<REGION> configuration", "data": "Name, business email, company, country, message, consent record", "status": "planned", "transfer": "Per region (verify)" }
+  ]
+}

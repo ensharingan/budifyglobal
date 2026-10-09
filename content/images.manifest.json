@@ -1,0 +1,28 @@
+{
+  "_note": "Every image used on the site must be declared here with tags. The content linter fails the build if any tag is in compliance.config.json \u2192 global.bannedImageryTags, or if an image under /public is undeclared.",
+  "images": [
+    {
+      "path": "public/images/budify-logo.png",
+      "alt": "Budify",
+      "tags": [
+        "logo"
+      ],
+      "note": "Contains a leaf mark. Not used in the UI. Counsel to confirm whether it may be used in markets with promotion bans (e.g. DE KCanG)."
+    },
+    {
+      "path": "public/icon.svg",
+      "alt": "Budify",
+      "tags": [
+        "logo"
+      ]
+    },
+    {
+      "path": "public/og.png",
+      "alt": "Budify \u2013 POS and membership software for regulated operators",
+      "tags": [
+        "abstract",
+        "logo"
+      ]
+    }
+  ]
+}

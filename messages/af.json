@@ -1,0 +1,131 @@
+{
+  "_meta": {"language":"af","status":"core-only machine-draft – remaining keys fall back to English; requires professional review"},
+  "nav": {
+    "primary": "Hoofnavigasie",
+    "features": "Funksies",
+    "pricing": "Pryse",
+    "integrations": "Integrasies",
+    "solutions": "Oplossings",
+    "compliance": "Nakomingssentrum",
+    "resources": "Hulpbronne",
+    "caseStudies": "Gevallestudies",
+    "bookDemo": "Bespreek ’n demonstrasie",
+    "menu": "Kieslys",
+    "closeMenu": "Maak kieslys toe",
+    "home": "Budify tuisblad"
+  },
+  "ageGate": {
+    "title": "Slegs vir sakeoperateurs",
+    "body": "Hierdie webwerf is bedoel vir sakeoperateurs en professionele persone in die gereguleerde dagga-sektor. Dit bevat geen produkte, pryse of verbruikersaanbiedinge nie.",
+    "checkbox": "Ek is {age}+ en ’n sakeoperateur of professionele persoon.",
+    "enter": "Betree webwerf",
+    "leave": "Ek kwalifiseer nie",
+    "leftTitle": "Dankie",
+    "leftBody": "Hierdie webwerf is slegs bedoel vir sakeoperateurs van {age}+. U het nie die webwerf betree nie.",
+    "reconsider": "Ek het ’n fout gemaak – gaan terug",
+    "cookieNote": "Deur “Betree webwerf” te kies, word u antwoord in ’n eiepartykoekie gestoor wat streng noodsaaklik is vir hierdie funksie (30 dae).",
+    "mustConfirm": "Merk asseblief die blokkie om voort te gaan."
+  },
+  "cookie": {
+    "title": "Koekies en soortgelyke tegnologieë",
+    "body": "Ons gebruik streng noodsaaklike koekies om hierdie webwerf te laat werk. Met u toestemming wil ons ook analitiese koekies gebruik om te verstaan hoe die webwerf gebruik word. Ons gebruik nie advertensiekoekies nie, tensy u dit aanvaar.",
+    "bodyOptOut": "Ons gebruik streng noodsaaklike koekies om hierdie webwerf te laat werk en, tensy u uitsluit, analitiese hulpmiddels om dit te verbeter. Ons eerbiedig die Global Privacy Control-sein.",
+    "bodyNotice": "Ons gebruik koekies om hierdie webwerf te laat werk en om te verstaan hoe dit gebruik word. U kan u keuse enige tyd verander.",
+    "acceptAll": "Aanvaar alles",
+    "rejectAll": "Verwerp alles",
+    "customize": "Pas aan",
+    "save": "Stoor keuses",
+    "close": "Maak toe",
+    "necessary": {
+      "title": "Noodsaaklik",
+      "desc": "Nodig vir sekuriteit, u keuse van land en taal, die operateurbevestiging en om hierdie koekiekeuses te onthou. Altyd aan."
+    },
+    "analytics": {
+      "title": "Analitiese",
+      "desc": "Help ons om te verstaan watter bladsye nuttig is. Af totdat u dit aanvaar."
+    },
+    "marketing": {
+      "title": "Bemarking",
+      "desc": "Word gebruik om ons eie advertensies te meet en te verpersoonlik. Ons gebruik tans geen bemarkingskoekies nie."
+    },
+    "alwaysOn": "Altyd aan",
+    "readPolicy": "Lees ons koekiebeleid",
+    "settings": "Koekie-instellings",
+    "gpc": "U blaaier het ’n Global Privacy Control-sein gestuur, daarom is analitiese en bemarkingskoekies afgeskakel.",
+    "withdraw": "U kan u toestemming enige tyd verander of intrek deur “Koekie-instellings” in die voetskrif te gebruik.",
+    "region": "Banierwyse: {mode}",
+    "saved": "U koekiekeuses is gestoor."
+  },
+  "footer": {
+    "tagline": "Sagteware vir gereguleerde dagga-operateurs.",
+    "notice": "Budify is sagteware. Kliënte is verantwoordelik daarvoor om alle lisensies te hou en plaaslike wetgewing na te kom.",
+    "noteAssociation": "Budify verskaf administrasiesagteware vir verbouings- en lidmaatskapverenigings. Dit adverteer of bevorder nie enige vereniging of daggaproduk nie.",
+    "noteMedical": "Budify is sakesagteware vir gelisensieerde klinieke en apteke. Dit is nie ’n kliniese stelsel nie, verskaf nie mediese advies nie en adverteer nie enige medisyne nie.",
+    "notePrivate": "Budify verskaf administrasiesagteware vir private ledeklubs. Dit bevorder of fasiliteer nie die verkoop van dagga nie.",
+    "product": "Produk",
+    "company": "Maatskappy",
+    "legalTitle": "Regsinligting",
+    "links": {
+      "privacy": "Privaatheidsbeleid",
+      "cookies": "Koekiebeleid",
+      "terms": "Diensvoorwaardes",
+      "acceptableUse": "Aanvaarbare gebruik",
+      "dpa": "Dataverwerkingsooreenkoms",
+      "accessibility": "Toeganklikheid",
+      "cookieSettings": "Koekie-instellings",
+      "doNotSell": "Moenie my persoonlike inligting verkoop of deel nie",
+      "impressum": "Impressum",
+      "avisoLegal": "Aviso legal",
+      "companyDetails": "Maatskappybesonderhede",
+      "privacyOfficer": "Privaatheidsbeampte (Quebec)",
+      "informationOfficer": "Inligtingsbeampte",
+      "paiaManual": "PAIA-handleiding",
+      "subProcessors": "Subverwerkers",
+      "security": "Sekuriteit",
+      "status": "Status",
+      "legalHub": "Regsentrum"
+    },
+    "region": "Land en taal",
+    "copyright": "© {year} Budify. Alle regte voorbehou."
+  },
+  "hero": {
+    "eyebrow": "Slegs B2B-sagteware",
+    "title": {
+      "dispensary": "Die verkooppunt- en lidmaatskapplatform vir gereguleerde dagga-operateurs",
+      "association": "Lidmaatskapadministrasiesagteware vir dagga-verenigings",
+      "medical": "Uitreikings- en voorraadsagteware vir gelisensieerde klinieke en apteke",
+      "private-club": "Lidmaatskap- en voorraadsagteware vir private ledeklubs",
+      "pilot": "Rekordsagteware vir gemagtigde dagga-loodsprogramme"
+    },
+    "subtitle": {
+      "dispensary": "Bestuur kassa, lidmaatskappe, voorraad en ouditgereed rekords vanuit een stelsel – vir een winkel of baie.",
+      "association": "Bestuur lederegisters, lidmaatskapstatus, toekenningsrekords en dokumentasie-uitvoere – gebou vir die administratiewe pligte van verenigings.",
+      "medical": "Hou akkurate voorraad-, uitreikings- en verkooprekords met volledige ouditspore en uitvoere vir u nakomingsprosesse.",
+      "private-club": "Bestuur lederegisters, voorraad, rekords en finansies vir u klub, met ouditspore en duidelike toestemmings.",
+      "pilot": "Hou deelnemerregisters, rekords van beheerde uitreiking en uitvoerbare dokumentasie vir gemagtigde programme by."
+    },
+    "ctaPrimary": "Bespreek ’n demonstrasie",
+    "ctaSecondary": "Sien funksies",
+    "disclaimer": "Budify is sagteware vir gelisensieerde of wettig bedrywende organisasies. Dit is nie ’n markplein nie.",
+    "mockLabel": "Illustrasie van die Budify-paneelbord"
+  },
+  "selector": {
+    "button": "Land en taal: {country}, {language}",
+    "title": "Kies u land en taal",
+    "intro": "Budify pas sy regsinligting, privaatheidsinstellings en inhoud by u land aan. Ons kies vooraf ’n land op grond van u verbinding, maar u kan altyd ’n ander een kies.",
+    "country": "Land",
+    "language": "Taal",
+    "go": "Gaan",
+    "current": "Huidige keuse",
+    "close": "Maak toe",
+    "label": "Verander land of taal",
+    "remember": "Ons onthou u keuse in ’n koekie wat streng noodsaaklik is vir hierdie funksie."
+  },
+  "contact": {
+    "consent": {
+      "label": "Ek stem in dat Budify die persoonlike data wat ek invoer mag verwerk om my navraag te beantwoord, soos beskryf in die {privacy}.",
+      "privacyLink": "Privaatheidsbeleid",
+      "purpose": "Doel: ons gebruik u besonderhede slegs om u navraag te beantwoord en ’n demonstrasie te reël. Regsgrondslag: u toestemming. U kan u toestemming enige tyd intrek deur ’n e-pos aan {email} te stuur."
+    }
+  }
+}

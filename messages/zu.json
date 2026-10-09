@@ -1,0 +1,655 @@
+{
+  "_meta": {
+    "language": "zu",
+    "status": "machine-draft – requires professional review",
+    "note": "Have a qualified isiZulu translator review before launch."
+  },
+  "meta": {
+    "siteName": "Budify",
+    "titleTemplate": "{page} | Budify",
+    "home": {
+      "title": "Budify – isofthiwekhompyutha se-POS nokuphatha ubulungu sabaphathi bensangu elawulwayo",
+      "description": "Isofthiwekhompyutha yamabhizinisi kubaphathi bensangu abanelayisense nabalawulwayo: i-point of sale, ukuphatha ubulungu, isitoko, ama-audit trail nokuthekelelwa kwezincwadi zemibiko. Isofthiwekhompyutha kuphela – i-Budify ayithengisi insangu."
+    },
+    "features": {
+      "title": "Izici",
+      "description": "I-point of sale, ukuphatha ubulungu, isitoko, amarekhodi ezezimali, ukuhlaziya nokuphatha izindawo eziningi – kwakhelwe abaphathi bensangu abalawulwayo."
+    },
+    "pricing": {
+      "title": "Amanani",
+      "description": "Amanani alula ngokwe-akhawunti kubaphathi besitolo esisodwa nabezitolo eziningi. Amanani ambiswa ngemali yasendaweni yakho."
+    },
+    "integrations": {
+      "title": "Ukuxhumana namanye amasistimu",
+      "description": "Izinketho zehadiwe, zokukhokha, zokuthekelelwa kwezincwadi zobuhlanti nezemibiko ye-track-and-trace ngokwemakethe."
+    },
+    "solutions": {
+      "title": "Izixazululo",
+      "description": "I-Budify yezitolo ezidayisayo, amaklabhu amalungu nezinhlangano, amaqembu ezindawo eziningi nabalingani be-white-label."
+    },
+    "compliance": {
+      "title": "Isikhungo Sokuhambisana Nemithetho",
+      "description": "Indlela i-Budify esekela ngayo ukugcinwa kwamarekhodi nokubika emakethe ngayinye. Isofthiwekhompyutha kuphela – abaphathi basala banomthwalo wezimvume zabo."
+    },
+    "resources": {
+      "title": "Izinsiza",
+      "description": "Imihlahlandlela yamabhizinisi yabaphathi mayelana namarekhodi, ukulawula isitoko nokuphatha ubulungu."
+    },
+    "caseStudies": {
+      "title": "Izifundo zamacala",
+      "description": "Izindaba zamakhasimende eziqinisekisiwe, ezishicilelwe ngemvume."
+    },
+    "contact": {
+      "title": "Bhuka i-demo",
+      "description": "Khuluma neqembu le-Budify ngomsebenzi wakho. Imibuzo yebhizinisi kuphela."
+    },
+    "legal": {
+      "title": "Isikhungo somthetho",
+      "description": "Ubumfihlo, ama-cookie, imigomo nolunye ulwazi lomthetho lombuso wakho."
+    },
+    "subProcessors": {
+      "title": "Abahlinzeki abangaphansi (sub-processors)",
+      "description": "Abantu besithathu abacubungula imininingwane yomuntu egameni le-Budify."
+    },
+    "security": {
+      "title": "Ukuphepha",
+      "description": "Indlela i-Budify evikela ngayo imininingwane yabaphathi namalungu."
+    },
+    "status": {
+      "title": "Isimo",
+      "description": "Isimo sesevisi yeplathifomu ye-Budify."
+    },
+    "regions": {
+      "title": "Khetha izwe nolimi lwakho",
+      "description": "Khetha izwe nolimi lwakho lwe-Budify."
+    },
+    "notFound": {
+      "title": "Ikhasi alitholakali",
+      "description": "Leli khasi alikho."
+    }
+  },
+  "nav": {
+    "primary": "Ukuzulazula okuyinhloko",
+    "features": "Izici",
+    "pricing": "Amanani",
+    "integrations": "Ukuxhumana namanye amasistimu",
+    "solutions": "Izixazululo",
+    "compliance": "Isikhungo Sokuhambisana Nemithetho",
+    "resources": "Izinsiza",
+    "caseStudies": "Izifundo zamacala",
+    "bookDemo": "Bhuka i-demo",
+    "menu": "Imenyu",
+    "closeMenu": "Vala imenyu",
+    "home": "Ikhaya le-Budify"
+  },
+  "common": {
+    "learnMore": "Funda kabanzi",
+    "readMore": "Funda okuthe xaxa",
+    "bookDemo": "Bhuka i-demo",
+    "viewPricing": "Buka amanani",
+    "backTo": "Buyela ku-{page}",
+    "skipToContent": "Weqa uye kokuqukethwe okuyinhloko",
+    "englishOnly": "Lokhu okuqukethwe kutholakala ngesiNgisi kuphela okwamanje.",
+    "b2bOnly": "Isofthiwekhompyutha yamabhizinisi kuphela. I-Budify ayithengisi, ayikhuthazi futhi ayisizi ekudayisweni kwensangu.",
+    "status": {
+      "available": "Iyatholakala",
+      "export": "Ngokuthekelelwa (export)",
+      "roadmap": "Isendleleni (roadmap)",
+      "custom": "Uma kucelwa"
+    },
+    "opensNewTab": "(ivulwa kithebhu elisha)",
+    "required": "kuyadingeka",
+    "optional": "ngokuzikhethela"
+  },
+  "selector": {
+    "button": "Izwe nolimi: {country}, {language}",
+    "title": "Khetha izwe nolimi lwakho",
+    "intro": "I-Budify iguqulela ulwazi lwayo lomthetho, izilungiselelo zobumfihlo nokuqukethwe ezweni lakho. Sikhetha kusengaphambili izwe ngokususelwa ekuxhumekeni kwakho, kodwa ungakhetha elinye noma inini.",
+    "country": "Izwe",
+    "language": "Ulimi",
+    "go": "Hamba",
+    "current": "Okukhethiwe manje",
+    "close": "Vala",
+    "label": "Shintsha izwe noma ulimi",
+    "remember": "Sikhumbula ukukhetha kwakho ku-cookie edingekile ngokuphelele kulo msebenzi."
+  },
+  "ageGate": {
+    "title": "Abaphathi bamabhizinisi kuphela",
+    "body": "Le webhusayithi ingeyabaphathi bamabhizinisi nochwepheshe emkhakheni wensangu elawulwayo. Ayinabo imikhiqizo, amanani noma iziphakamiso zabathengi.",
+    "checkbox": "Ngineminyaka engu-{age}+ futhi ngiyisiphathi sebhizinisi noma uchwepheshe.",
+    "enter": "Ngena kusayithi",
+    "leave": "Angifaneleki",
+    "leftTitle": "Siyabonga",
+    "leftBody": "Le webhusayithi iyabantu abaphethe amabhizinisi abaneminyaka engu-{age}+ kuphela. Awungenanga kusayithi.",
+    "reconsider": "Ngenze iphutha – buyela emuva",
+    "cookieNote": "Ukukhetha othi “Ngena kusayithi” kugcina impendulo yakho ku-cookie yohlangothi lokuqala edingekile ngokuphelele kulo msebenzi (izinsuku ezingu-30).",
+    "mustConfirm": "Sicela ukhethe ibhokisi ukuze uqhubeke."
+  },
+  "cookie": {
+    "title": "Ama-cookie nobuchwepheshe obufanayo",
+    "body": "Sisebenzisa ama-cookie adingekile ngokuphelele ukuze lesi sayithi sisebenze. Ngemvume yakho, sifuna nokusebenzisa ama-cookie e-analytics ukuze siqonde ukuthi isayithi lisetshenziswa kanjani. Asisebenzisi ama-cookie ezikhangiso ngaphandle kokuthi uwamukele.",
+    "bodyOptOut": "Sisebenzisa ama-cookie adingekile ngokuphelele ukuze lesi sayithi sisebenze futhi, ngaphandle kokuthi ukhethe ukungabi yingxenye, i-analytics ukusithuthukisa. Siyalihlonipha uphawu lwe-Global Privacy Control.",
+    "bodyNotice": "Sisebenzisa ama-cookie ukuze lesi sayithi sisebenze nokuqonda ukuthi sisetshenziswa kanjani. Ungashintsha ukukhetha kwakho noma inini.",
+    "acceptAll": "Yamukela konke",
+    "rejectAll": "Yala konke",
+    "customize": "Linganisa",
+    "save": "Gcina ukukhetha",
+    "close": "Vala",
+    "necessary": {
+      "title": "Adingekile",
+      "desc": "Adingekile ekuphepheni, ekukhetheni kwakho izwe nolimi, ekuqinisekisweni komphathi nasekukhumbuleni lokhu kukhetha kwama-cookie. Ahlala evuliwe."
+    },
+    "analytics": {
+      "title": "I-analytics",
+      "desc": "Isisiza siqonde ukuthi yiwaphi amakhasi anosizo. Ivaliwe uze uyamukele."
+    },
+    "marketing": {
+      "title": "Ukumaketha",
+      "desc": "Asetshenziselwa ukukala nokwenza ngokwezifiso izikhangiso zethu. Asisebenzisi nhlobo ama-cookie okumaketha okwamanje."
+    },
+    "alwaysOn": "Ahlala evuliwe",
+    "readPolicy": "Funda Inqubomgomo Yethu Yama-cookie",
+    "settings": "Izilungiselelo zama-cookie",
+    "gpc": "Isiphequluli sakho sithumele uphawu lwe-Global Privacy Control, ngakho i-analytics nokumaketha kuvaliwe.",
+    "withdraw": "Ungashintsha noma ubuyise imvume yakho noma inini usebenzisa u-“Izilungiselelo zama-cookie” ngezansi ekhasini.",
+    "region": "Indlela yebhanela: {mode}",
+    "saved": "Ukukhetha kwakho kwama-cookie kugciniwe."
+  },
+  "footer": {
+    "tagline": "Isofthiwekhompyutha yabaphathi bensangu abalawulwayo.",
+    "notice": "I-Budify iyisofthiwekhompyutha. Amakhasimende anomthwalo wokubamba zonke izimvume nokuhambisana nomthetho wasendaweni.",
+    "noteAssociation": "I-Budify ihlinzeka ngesofthiwekhompyutha yokuphatha izinhlangano zokulima nobulungu. Ayikhangisi noma ikhuthaze noma iyiphi inhlangano noma imikhiqizo yensangu.",
+    "noteMedical": "I-Budify iyisofthiwekhompyutha yebhizinisi yezikhungo zezempilo nezemishanguzo ezinelayisense. Akuyona isistimu yomtholampilo futhi ayinikezi iseluleko sezokwelapha noma ukukhangisa noma yiliphi ikhambi.",
+    "notePrivate": "I-Budify ihlinzeka ngesofthiwekhompyutha yokuphatha amaklabhu amalungu azimele. Ayikhuthazi noma isize ekudayisweni kwensangu.",
+    "product": "Umkhiqizo",
+    "company": "Inkampani",
+    "legalTitle": "Okomthetho",
+    "links": {
+      "privacy": "Inqubomgomo Yobumfihlo",
+      "cookies": "Inqubomgomo Yama-cookie",
+      "terms": "Imigomo Yesevisi",
+      "acceptableUse": "Ukusetshenziswa Okwamukelekile",
+      "dpa": "Isivumelwano Sokucubungula Imininingwane",
+      "accessibility": "Ukufinyeleleka",
+      "cookieSettings": "Izilungiselelo zama-cookie",
+      "doNotSell": "Ungathengisi Noma Wabelane Ngemininingwane Yami Yomuntu",
+      "impressum": "Impressum",
+      "avisoLegal": "Aviso legal",
+      "companyDetails": "Imininingwane yenkampani",
+      "privacyOfficer": "Isikhulu sobumfihlo (Quebec)",
+      "informationOfficer": "Isikhulu Solwazi",
+      "paiaManual": "Incwadi yesiqondiso ye-PAIA",
+      "subProcessors": "Abahlinzeki abangaphansi (sub-processors)",
+      "security": "Ukuphepha",
+      "status": "Isimo",
+      "legalHub": "Isikhungo somthetho"
+    },
+    "region": "Izwe nolimi",
+    "copyright": "© {year} Budify. Wonke amalungelo agodliwe."
+  },
+  "hero": {
+    "eyebrow": "Isofthiwekhompyutha yamabhizinisi kuphela",
+    "title": {
+      "dispensary": "Ipulatifomu ye-point of sale nobulungu yabaphathi bensangu abalawulwayo",
+      "association": "Isofthiwekhompyutha yokuphatha ubulungu bezinhlangano zensangu",
+      "medical": "Isofthiwekhompyutha yokunikezela nesitoko yezikhungo zezempilo nezemishanguzo ezinelayisense",
+      "private-club": "Isofthiwekhompyutha yobulungu nesitoko samaklabhu amalungu azimele",
+      "pilot": "Isofthiwekhompyutha yamarekhodi yezinhlelo zokulinga zensangu ezigunyaziwe"
+    },
+    "subtitle": {
+      "dispensary": "Phatha ukukhokha, ubulungu, isitoko namarekhodi alungele ukuhlolwa esistimini esisodwa – isitolo esisodwa noma eziningi.",
+      "association": "Phatha amarejista amalungu, isimo sobulungu, amarekhodi okwabiwa nokuthekelelwa kwemibhalo – kwakhelwe imisebenzi yokuphatha yezinhlangano.",
+      "medical": "Gcina isitoko, ukunikezela namarekhodi ezithengiselwano aqondile ngama-audit trail aphelele nokuthekelelwa kwezinqubo zakho zokuhambisana nemithetho.",
+      "private-club": "Phatha amarejista amalungu, isitoko, amarekhodi nezezimali zeklabhu lakho, ngama-audit trail nezimvume ezicacile.",
+      "pilot": "Gcina amarejista abahlanganyeli, amarekhodi okunikezela akhethekile nemibhalo engathekelelwa yezinhlelo ezigunyaziwe."
+    },
+    "ctaPrimary": "Bhuka i-demo",
+    "ctaSecondary": "Buka izici",
+    "disclaimer": "I-Budify iyisofthiwekhompyutha yezinhlangano ezinelayisense noma ezisebenza ngokusemthethweni. Ayiyona imakethe.",
+    "mockLabel": "Isithombe sedeshibhodi ye-Budify"
+  },
+  "home": {
+    "pillarsTitle": "Konke umphathi akudingayo, endaweni eyodwa",
+    "pillarsIntro": "I-Budify ithatha indawo yamaspredishithi namathuluzi angaxhumene ngesistimu eyodwa engahloleka.",
+    "pillars": {
+      "pos": {
+        "title": "I-point of sale",
+        "body": "Ukukhokha okusheshayo ngokuskena ibhakhodi, ukuhlola ilungu ngaphambi kwesithengiselwano ngasinye nokubala imali ekupheleni kosuku."
+      },
+      "membership": {
+        "title": "Ukuphatha ubulungu",
+        "body": "Amaphrofayili amalungu, amakhadi obulungu edijithali, ukulandelela isimo nokuphelelwa isikhathi, nezimvume ezicacile."
+      },
+      "compliance": {
+        "title": "Imibiko yokuhambisana nemithetho",
+        "body": "Ama-audit trail namarekhodi angathekelelwa asiza ukulungisa imibiko ememezelwe umlawuli wakho."
+      },
+      "inventory": {
+        "title": "Ukulawula isitoko",
+        "body": "Isitoko ngezinga lebhetshi, amarekhodi abahlinzeki, ukubalwa kwesitoko nemibiko yokwehluka ezindaweni eziningi."
+      },
+      "multistore": {
+        "title": "Ukulawula izindawo eziningi",
+        "body": "Phatha izindawo eziningi, izindima zabasebenzi nemibiko emaphakathi ku-akhawunti eyodwa."
+      }
+    },
+    "audienceTitle": "Kwakhelwe uhlobo lwenhlangano yakho",
+    "audienceIntro": "Khetha isixazululo esihambisana nendlela osebenza ngayo.",
+    "complianceTitle": "Kwakhelwe emithethweni yasendaweni",
+    "complianceBody": "Imithetho yensangu iyahluka ezweni ngalinye. Isikhungo Sethu Sokuhambisana Nemithetho sichaza, ngemakethe ngayinye, ukuthi i-Budify isekela kanjani ukugcinwa kwamarekhodi nokubika – nokuthi umthwalo usala kuphi kuwe.",
+    "complianceCta": "Vula Isikhungo Sokuhambisana Nemithetho",
+    "ctaTitle": "Bona i-Budify isebenza",
+    "ctaBody": "Bhuka i-demo emfushane neqembu lethu. Sizoyilungiselela imakethe yakho nendlela osebenza ngayo."
+  },
+  "features": {
+    "title": "Izici ezifanele imisebenzi elawulwayo",
+    "intro": "Imojuli ngayinye yabelana ngesizindalwazi esisodwa, i-audit trail eyodwa nemodeli eyodwa yezimvume.",
+    "items": {
+      "pos": {
+        "title": "I-point of sale",
+        "body": "Ukukhokha okusheshayo ngokuskena ibhakhodi ne-QR, ukuqinisekisa ilungu ngaphambi kwesithengiselwano ngasinye, amathemineli amaningi nama-risidi anyathelisiwe noma edijithali.",
+        "bullets": [
+          "Ukuskena ibhakhodi ne-QR",
+          "Ukuqinisekisa ilungu ekukhokheni",
+          "Isekelo lamathemineli amaningi"
+        ],
+        "assoc": {
+          "title": "Amarekhodi okwabiwa",
+          "body": "Rekhoda ukwabiwa ngakunye kulungu, hlola isimo sobulungu nemikhawulo yokwabiwa ngaphambi kwesithengiselwano ngasinye, ugcine ilogi ebonisa ukuchezuka.",
+          "bullets": [
+            "Ukuhlola isimo sobulungu",
+            "Ukulandelela umkhawulo wokwabiwa",
+            "Ilogi yemisebenzi ebonisa ukuchezuka"
+          ]
+        }
+      },
+      "membership": {
+        "title": "Ukuphatha ubulungu",
+        "body": "Amaphrofayili amalungu anokuqinisekiswa kobuwena, amakhadi obulungu edijithali anamakhodi e-QR, ukulandelela ukuphelelwa isikhathi nokukhansela ngokushesha.",
+        "bullets": [
+          "Amarekhodi okuqinisekiswa kobuwena neminyaka",
+          "Amakhadi obulungu e-QR edijithali",
+          "Ukulandelela ukuphelelwa isikhathi nesimo"
+        ]
+      },
+      "inventory": {
+        "title": "Isitoko nokulawula isitoko",
+        "body": "Isitoko sesikhathi sangempela ngendawo ngayinye esinokulandelela ibhetshi, amarekhodi abahlinzeki, ukubuyiswa nokubalwa kwesitoko ngokungabonwa okuqhathaniswa namanani esistimu.",
+        "bullets": [
+          "Ukulandelela ibhetshi ne-SKU",
+          "Amarekhodi abahlinzeki nokubuyiswa",
+          "Ukubalwa kwesitoko nokwehluka"
+        ]
+      },
+      "compliance": {
+        "title": "Ama-audit trail nemibiko",
+        "body": "Ukuhamba ngakunye kwesitoko, ukuthengisa nokushintsha ubulungu kurekhodwa ngokuthi ngubani, yini nini. Thekelela imininingwane oyidingayo emibikweni yakho.",
+        "bullets": [
+          "Ilogi eyonke yemisebenzi",
+          "Ukuthekelelwa kwe-CSV",
+          "Ukufinyelela ngokwezindima"
+        ]
+      },
+      "finance": {
+        "title": "Amarekhodi ezezimali",
+        "body": "Ukulandelela ukuthengisa nezindleko, ukubala imali yansuku zonke, izindleko zokuthengisa nenzuzo eyinkulumbuso ngendawo ngayinye.",
+        "bullets": [
+          "Ukubala imali yansuku zonke",
+          "Imibiko yezindleko zokuthengisa nenzuzo",
+          "Ukuphatha ukubuyisela imali namakhredithi"
+        ],
+        "assoc": {
+          "title": "Izimali zobulungu nama-akhawunti amalungu",
+          "body": "Landelela izimali zobulungu, amabhalansi ama-akhawunti amalungu nezindleko zenhlangano ngemibiko ecacile yomgcini wezimali nemihlangano yamalungu.",
+          "bullets": [
+            "Ukulandelela izimali zobulungu",
+            "Amabhalansi ama-akhawunti amalungu",
+            "Amarekhodi ezindleko"
+          ]
+        }
+      },
+      "analytics": {
+        "title": "Ukuqonda umsebenzi",
+        "body": "Qonda ukuvakashelwa, izikhathi ezixakile nokuhamba kwesitoko ngamadeshibhodi akhelwe imininingwane yakho.",
+        "bullets": [
+          "Izindlela zokuvakasha nokusetshenziswa",
+          "Ukuhamba kwesitoko",
+          "Amadeshibhodi angathekelelwa"
+        ]
+      },
+      "multistore": {
+        "title": "Ukuphatha izindawo eziningi",
+        "body": "Phatha izindawo eziningi ngamakhathalogi aphakathi, isitoko ngendawo ngayinye, ukubelwa kwabasebenzi nemibiko ehlanganisiwe.",
+        "bullets": [
+          "Isitoko ngendawo ngayinye",
+          "Abasebenzi ezindaweni eziningi",
+          "Imibiko ehlanganisiwe"
+        ]
+      },
+      "security": {
+        "title": "Izindima nezimvume",
+        "body": "Nikeza abanikazi, abaphathi nabakhokhisi ukufinyelela abakudingayo kuphela. Izikrini ezibucayi zingakhawulelwa ngokwendima.",
+        "bullets": [
+          "Izindima zomnikazi, umphathi nomkhokhisi",
+          "Imikhawulo ngendawo ngayinye",
+          "Ukulawula iseshini nokubala imali"
+        ]
+      }
+    }
+  },
+  "pricing": {
+    "title": "Amanani alula futhi asobala",
+    "intro": "Khokha nge-akhawunti, ngenyanga. Akukho ukuboshwa kuhadiwe futhi akukho zimali zesithengiselwano ezivela ku-Budify.",
+    "monthly": "Ngenyanga",
+    "annual": "Ngonyaka",
+    "annualSave": "Onga {percent}%",
+    "perMonth": "ngenyanga",
+    "billedAnnually": "kukhokhiswa ngonyaka",
+    "currencyNote": "Amanani ambiswa nge-{currency}, ngaphandle kwezintela. Amanani eshaji angumlingiso – amanani okugcina aqinisekiswa kukhotheshini yakho.",
+    "popular": "Edume kakhulu",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "tagline": "Yendawo eyodwa",
+        "cta": "Qala nge-Starter",
+        "bullets": [
+          "Isitolo esingu-1",
+          "I-point of sale nobulungu",
+          "Isitoko nokubalwa kwesitoko",
+          "I-audit trail nokuthekelelwa kwe-CSV",
+          "Ukwesekwa nge-imeyili"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "tagline": "Yabaphathi abakhulayo",
+        "cta": "Khetha i-Growth",
+        "bullets": [
+          "Indlu yokugcina kanye nezitolo ezifika ku-5",
+          "Konke okukhona ku-Starter",
+          "Ukulandelela izindleko ngesitolo ngasinye",
+          "Abasebenzi ezitolo eziningi",
+          "Ukwesekwa okuza kuqala"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise ne-white-label",
+        "tagline": "Yamaqembu nabalingani",
+        "priceLabel": "Ngokwezifiso",
+        "cta": "Xhumana nathi",
+        "bullets": [
+          "Izitolo ezingenamkhawulo",
+          "Indawo ezinikele nesifunda semininingwane",
+          "Uphawu lwakho",
+          "Ukwesekwa kokuqala nokuthuthela",
+          "Ukuxhumana okwenziwe ngokwezifiso"
+        ]
+      }
+    },
+    "faqTitle": "Amanothi ngamanani",
+    "faq": [
+      "Amanani awafaki i-VAT, i-GST noma ezinye izintela ezisebenzayo.",
+      "Ihadiwe (amathemineli, amaskena, amaphrinta) ithengwa ngokwehlukile kumhlinzeki oyikhethayo.",
+      "Amaphlani angahluka ngemakethe kuye ngamamojuli atholakalayo."
+    ]
+  },
+  "integrations": {
+    "title": "Ukuxhumana nemibiko",
+    "intro": "I-Budify ixhumana nehadiwe namathuluzi ezezimali asetshenziswa ngabaphathi, futhi ikhiqiza izincwadi zokuthekelelwa zemibiko elawulwayo. Ukutholakala kuyahluka ngemakethe.",
+    "groups": {
+      "hardware": {
+        "title": "Ihadiwe",
+        "body": "Isebenza namathemineli e-POS e-Android, amaskena ebhakhodi namaphrinta ama-risidi. Izinsimbi ezihambisanayo ziyatholakala ngesikhathi sokuqala."
+      },
+      "payments": {
+        "title": "Izinkokhelo",
+        "body": "Rekhoda izinkokhelo zemali, zekhadi nezama-akhawunti. Ukuxhumana nabahlinzeki bezinkokhelo kuncike emakethe yakho futhi kuqinisekiswa ngesikhathi sokuqala."
+      },
+      "accounting": {
+        "title": "Ukuthekelelwa kwezabalo",
+        "body": "Thekelela ukuthengisa, izindleko nenani lesitoko nge-CSV kumcwaningi wakho wezimali noma kusofthiwekhompyutha yezabalo."
+      },
+      "api": {
+        "title": "Ukuthekelelwa kwemininingwane ne-API",
+        "body": "Ukuthekelelwa kwe-CSV okucwaningiwe namuhla; i-API enemibhalo ne-webhooks kusendleleni yethu (roadmap)."
+      }
+    },
+    "traceTitle": "I-track-and-trace nemibiko elawulwayo e-{country}",
+    "traceIntro": "Uhlu olungezansi lubonisa isimo senketho ngayinye yemakethe yakho. “Isendleleni (roadmap)” kusho kuhlelelwe kodwa kungakatholakali. I-Budify ayifayeli imibiko egameni lakho futhi ayiyona isistimu ye-seed-to-sale enelayisense.",
+    "legend": "Isichazi"
+  },
+  "solutions": {
+    "title": "Izixazululo ngohlobo lwenhlangano",
+    "intro": "Ipulatifomu efanayo, elungiselelwe indlela osebenza ngayo.",
+    "back": "Zonke izixazululo",
+    "items": {
+      "dispensaries": {
+        "title": "Izitolo ezidayisayo nabathengisi abanelayisense",
+        "summary": "Ukukhokha, isitoko namarekhodi abaphathi bokudayisa abanelayisense.",
+        "body": "Kubaphathi bokudayisa abanelayisense abadinga ukukhokha okusheshayo, isitoko esiqondile namarekhodi akwazi ukumelana nokuhlolwa.",
+        "points": [
+          "Ukukhokha ngebhakhodi nokuhlola amalungu",
+          "Isitoko ngezinga lebhetshi namarekhodi abahlinzeki",
+          "Ukubala imali yansuku zonke ne-audit trail"
+        ]
+      },
+      "clubs": {
+        "title": "Amaklabhu amalungu nezinhlangano",
+        "summary": "Amarejista amalungu, amarekhodi okwabiwa nokuphatha.",
+        "body": "Ezinhlanganweni nasemaklabhini amalungu azimele: phatha amarejista amalungu, isimo sobulungu, izimali namarekhodi ibhodi yakho nezinhlaka ezibusayo ezingawacela.",
+        "points": [
+          "Irejista yamalungu namakhadi edijithali",
+          "Ukulandelela ukwabiwa nemikhawulo",
+          "Izimali, ama-akhawunti nokuthekelelwa kwemibhalo"
+        ]
+      },
+      "groups": {
+        "title": "Amaqembu ezindawo eziningi",
+        "summary": "Ukulawula okuphakathi ezindaweni nasemagameni.",
+        "body": "Kubaphathi abanezindawo eziningi: amakhathalogi aphakathi, isitoko ngendawo ngayinye, izindima zabasebenzi nemibiko ehlanganisiwe.",
+        "points": [
+          "Isitoko nezimvume ngendawo ngayinye",
+          "Imibiko ehlanganisiwe",
+          "Abasebenzi ezindaweni eziningi"
+        ]
+      },
+      "white-label": {
+        "title": "Abalingani be-white-label",
+        "summary": "Uphawu lwakho, ipulatifomu yethu.",
+        "body": "Kumaqembu, ama-federation nabalingani bobuchwepheshe abafuna i-Budify ngaphansi kophawu lwabo, ngendawo ezinikele.",
+        "points": [
+          "Uphawu lwezifiso",
+          "Indawo ezinikele nesifunda semininingwane",
+          "Ukwesekwa kokuqala nokuthuthela"
+        ]
+      }
+    }
+  },
+  "compliance": {
+    "title": "Isikhungo Sokuhambisana Nemithetho",
+    "intro": "Indlela i-Budify esekela ngayo ukugcinwa kwamarekhodi nokubika emakethe ngayinye. Lolu ulwazi jikelele ngesofthiwekhompyutha yethu, hhayi iseluleko somthetho.",
+    "disclaimer": "Okusalungiswa – kubuyekezwe ngummeli wendawo onekhono ngaphambi kokuthi kuqalwe. Imithetho iyashintsha; i-Budify ayiqinisekisi ukuthi ukusebenzisa isofthiwekhompyutha kwenza noma yimuphi umphathi ahambisane nemithetho.",
+    "yourMarket": "Imakethe yakho",
+    "allMarkets": "Wonke amamakethe",
+    "laws": "Imithetho eyinhloko",
+    "regime": "Umongo wokulawula",
+    "advertising": "Ukukhangisa nokuma",
+    "support": "Indlela i-Budify esiza ngayo",
+    "caveat": "Okubalulekile",
+    "trace": "Izinketho zokubika",
+    "legalLinks": "Ulwazi lomthetho lale makethe",
+    "englishOnly": "Lokhu kubuka konke kungesiNgisi kuphela okwamanje futhi kulinde ukubuyekezwa ngochwepheshe.",
+    "viewMarket": "Buka i-{country}",
+    "ageLabel": "Iminyaka ephansi kunazo zonke kulesi sayithi: {age}",
+    "positioningLabel": "Ukuma kulesi sayithi",
+    "positioning": {
+      "dispensary": "Isofthiwekhompyutha yabaphathi bokudayisa abanelayisense",
+      "association": "Isofthiwekhompyutha yokuphatha izinhlangano",
+      "medical": "Isofthiwekhompyutha yezikhungo zezempilo nezemishanguzo ezinelayisense",
+      "private-club": "Isofthiwekhompyutha yokuphatha amaklabhu amalungu azimele",
+      "pilot": "Isofthiwekhompyutha yamarekhodi yezinhlelo zokulinga ezigunyaziwe"
+    }
+  },
+  "resources": {
+    "title": "Izinsiza",
+    "intro": "Imihlahlandlela esebenzayo yabaphathi. Okuqukethwe kwebhizinisi kuphela – akukho ulwazi lomkhiqizo, lohlobo noma lwamanani.",
+    "readTime": "Imizuzu engu-{minutes} yokufunda",
+    "englishOnly": "Izindatshana ziyatholakala ngesiNgisi kuphela okwamanje."
+  },
+  "caseStudies": {
+    "title": "Izifundo zamacala",
+    "intro": "Sishicilela kuphela izindaba zamakhasimende ezingaqinisekiswa nezivunywe yikhasimende.",
+    "emptyTitle": "Izindaba zamakhasimende ziyalungiswa",
+    "emptyBody": "Asishicileli ubufakazi bokuzenzela. Uma ufisa ukubona ukuthi abaphathi emakethe yakho bayisebenzisa kanjani i-Budify, sizojabula ukuhlela ucingo lwereferensi ngesikhathi se-demo yakho.",
+    "cta": "Bhuka i-demo"
+  },
+  "contact": {
+    "title": "Bhuka i-demo",
+    "intro": "Sitshele ngomsebenzi wakho futhi sizophendula ezinsukwini ezimbili zomsebenzi. Leli fomu lingelemibuzo yebhizinisi kuphela.",
+    "fields": {
+      "name": "Igama eliphelele",
+      "email": "I-imeyili yomsebenzi",
+      "company": "Inhlangano",
+      "role": "Indima yakho",
+      "country": "Izwe",
+      "phone": "Ucingo (ngokuzikhethela)",
+      "message": "Singakusiza kanjani?",
+      "type": "Uhlobo lwenhlangano"
+    },
+    "types": {
+      "dispensary": "Isitolo sokudayisa noma umthengisi onelayisense",
+      "club": "Iklabhu yamalungu noma inhlangano",
+      "group": "Iqembu lezindawo eziningi",
+      "partner": "Umlingani we-white-label noma wobuchwepheshe",
+      "other": "Elinye ibhizinisi"
+    },
+    "consent": {
+      "label": "Ngiyavuma ukuthi i-Budify ingacubungula imininingwane yomuntu engiyifakile ukuze iphendule umbuzo wami, njengoba kuchazwe ku-{privacy}.",
+      "privacyLink": "Inqubomgomo Yobumfihlo",
+      "purpose": "Inhloso: sisebenzisa imininingwane yakho kuphela ukuphendula umbuzo wakho nokuhlela i-demo. Isisekelo somthetho: imvume yakho. Ungayibuyisa imvume noma inini ngokuthumela i-imeyili ku-{email}."
+    },
+    "sms": {
+      "label": "Ngokuzikhethela: ngithumelele umlayezo ngesicelo sami se-demo. Imvume ayiyona imfuneko yanoma yikuphi ukuthenga. Izindleko zemiyalezo nedatha zingasebenza. Phendula ngo-STOP ukukhansela, HELP ukuthola usizo."
+    },
+    "newsletter": {
+      "label": "Ngokuzikhethela: ngithumelele izibuyekezo zebhizinisi ngezikhathi ezithile. Ngizothola i-imeyili engicela ukuqinisekisa ukubhalisa kwami.",
+      "casl": "Ungakhansela ukubhalisa noma inini. Umthumeli: Budify, {address}."
+    },
+    "submit": "Thumela isicelo",
+    "sending": "Iyathumela…",
+    "success": "Siyabonga. Samukele isicelo sakho futhi sizoxhumana nawe maduze.",
+    "successNewsletter": "Sicela uhlole ibhokisi lakho le-imeyili ukuze uqinisekise ukubhalisa kwakho.",
+    "error": "Kukhona okungahambanga kahle. Sicela uzame futhi noma uthumele i-imeyili ku-{email}.",
+    "rateLimited": "Izicelo eziningi kakhulu. Sicela ulinde imizuzu embalwa uzame futhi.",
+    "invalid": "Sicela uhlole izinkambu ezigqamisiwe.",
+    "consentRequired": "Imvume iyadingeka ukuze uthumele leli fomu.",
+    "businessOnly": "Imibuzo yebhizinisi kuphela. Asiphenduli izicelo zabathengi mayelana nemikhiqizo yensangu.",
+    "confirmed": "Siyabonga – ukubhalisela kwakho kuqinisekisiwe.",
+    "confirmInvalid": "Isixhumanisi sokuqinisekisa asisebenzi noma siphelelwe yisikhathi.",
+    "confirmEmail": {
+      "subject": "Sicela uqinisekise ukubhalisela kwakho izibuyekezo ze-Budify",
+      "body": "Sicela uqinisekise ukubhalisela kwakho ngokuvula lesi sixhumanisi: {link}",
+      "ignore": "Uma ungazicelanga lokhu, ungayinaki le imeyili – ngeke ubhaliswe."
+    }
+  },
+  "legal": {
+    "hubTitle": "Isikhungo somthetho",
+    "hubIntro": "Ulwazi lomthetho lwe-{country}. Ezinye izifunda zibhalwe ngezansi.",
+    "draftBanner": "Okusalungiswa – kubuyekezwe ngummeli wendawo onekhono ngaphambi kokuthi kuqalwe.",
+    "translationPending": "Ukuhumusha ngochwepheshe kwaleli khasi kuyalindwa. Umbhalo wesiNgisi uyabonisa futhi uyinguqulo yereferensi.",
+    "lastUpdated": "Inguqulo esalungiswa: {date}",
+    "jurisdiction": "Isifunda somthetho: {country}",
+    "otherJurisdictions": "Ezinye izifunda zomthetho",
+    "titles": {
+      "privacy": "Inqubomgomo Yobumfihlo",
+      "cookies": "Inqubomgomo Yama-cookie",
+      "terms": "Imigomo Yesevisi",
+      "acceptable-use": "Inqubomgomo Yokusetshenziswa Okwamukelekile",
+      "dpa": "Isivumelwano Sokucubungula Imininingwane",
+      "accessibility": "Isitatimende Sokufinyeleleka",
+      "impressum": "Impressum",
+      "aviso-legal": "Aviso legal",
+      "company-details": "Imininingwane yenkampani",
+      "paia-manual": "Incwadi yesiqondiso ye-PAIA"
+    },
+    "backToHub": "Buyela esikhungweni somthetho",
+    "onThisPage": "Kuleli khasi",
+    "privacyChoices": {
+      "title": "Ukukhetha kwakho kobumfihlo",
+      "analytics": "Vumela i-analytics",
+      "marketing": "Vumela ukumaketha",
+      "optOutAll": "Khetha ukungabi yingxenye yokuthengiswa/yokwabelana nama-cookie angeyona ewesidingo",
+      "save": "Gcina ukukhetha kwami",
+      "saved": "Ukukhetha kwakho kugciniwe."
+    },
+    "subProcessors": {
+      "title": "Abahlinzeki abangaphansi (sub-processors)",
+      "intro": "Laba bantu besithathu bacubungula imininingwane yomuntu egameni le-Budify. Sibuyekeza lolu hlu ngaphambi kokufaka noma ukuthatha indawo yomhlinzeki ongaphansi.",
+      "name": "Igama",
+      "purpose": "Inhloso",
+      "location": "Indawo",
+      "data": "Imininingwane",
+      "status": "Isimo",
+      "transfer": "Isisekelo sokudlulisa",
+      "reviewed": "Kubuyekezwe kokugcina: {date}",
+      "statuses": {
+        "planned": "Kuhlelwe – kuzoqinisekiswa",
+        "optional": "Kuphela uma kuvuliwe",
+        "active": "Iyasebenza"
+      }
+    },
+    "security": {
+      "title": "Ukuphepha",
+      "intro": "Sakha i-Budify ukuze imininingwane yomphathi ngamunye ihlukaniswe neyabanye abaphathi bonke.",
+      "items": [
+        {
+          "title": "Ukuhlukanisa abaqashi (tenant isolation)",
+          "body": "Imininingwane yenhlangano ngayinye ihlukaniswa ezingeni lesizindalwazi ngemithetho yokufinyelela ngomugqa (row-level)."
+        },
+        {
+          "title": "Ukufinyelela ngokwezindima",
+          "body": "Abanikazi, abaphathi nabakhokhisi babona kuphela lokho indima yabo evumela."
+        },
+        {
+          "title": "Ama-audit trail",
+          "body": "Izenzo eziyinhloko zirekhodwa ngomsebenzisi, isikhathi nokushintshiwe."
+        },
+        {
+          "title": "Ukubethela ngenkathi kudluliswa",
+          "body": "Wonke ithrafikhi eya kule webhusayithi nepulatifomu isebenzisa i-HTTPS."
+        },
+        {
+          "title": "Indawo yemininingwane",
+          "body": "Lapho kungenzeka khona, imininingwane igcinwa esifundeni sakho. Bheka uhlu lwabahlinzeki abangaphansi ukuthola izindawo."
+        },
+        {
+          "title": "Ukudalula ngokuziphendulela",
+          "body": "Uma ukholelwa ukuthi uthole ubuthakathaka, thumela i-imeyili ku-{email}. Sicela ungafinyeleli emininingwaneni yabanye abasebenzisi."
+        }
+      ],
+      "notice": "Asiyitsheli noma yisiphi isitifiketi sokuphepha sengxenye yesithathu okwamanje."
+    },
+    "status": {
+      "title": "Isimo seplathifomu",
+      "intro": "Isimo sesevisi esiphilayo nomlando wezigameko.",
+      "open": "Vula ikhasi lesimo",
+      "notConfigured": "Ikhasi lesimo lomphakathi alikalungiselelwa. Ezindabeni eziphuthumayo, thumela i-imeyili ku-{email}."
+    }
+  },
+  "a11y": {
+    "statement": {
+      "intro": "I-Budify izinikele ekwenzeni le webhusayithi isetshenziswe yiwo wonke umuntu. Sihlose ukuhlangabezana ne-Web Content Accessibility Guidelines (WCAG) 2.2 izinga le-AA.",
+      "feedback": "Uma unobunzima ekusebenziseni noma iyiphi ingxenye yalesi sayithi, thumela i-imeyili ku-{email} futhi sizophendula ezinsukwini ezinhlanu zomsebenzi.",
+      "limits": "Lesi sitatimende sisalungiswa. Ukuhlolwa okusemthethweni kokuhambisana kusabekwenziwa."
+    },
+    "externalLink": "Isixhumanisi sangaphandle",
+    "newWindow": "sivulwa kithebhu elisha",
+    "currentPage": "ikhasi lamanje"
+  },
+  "notFound": {
+    "title": "Ikhasi alitholakali",
+    "body": "Ikhasi olifunayo alikho noma lithuthiwe.",
+    "home": "Iya ekhasini lasekhaya",
+    "regions": "Khetha elinye izwe noma ulimi"
+  }
+}

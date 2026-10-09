@@ -1,0 +1,1154 @@
+{
+  "$schema": "./docs/compliance.schema.json",
+  "version": "2026.10.09-draft1",
+  "consentVersion": "2026-10-09.1",
+  "status": "DRAFT – every value below must be verified by qualified local counsel before launch. Laws change.",
+  "global": {
+    "defaultLocale": "en-US",
+    "bannedClaims": [
+      "buy weed",
+      "buy cannabis",
+      "buy marijuana",
+      "order weed",
+      "order cannabis",
+      "weed delivery",
+      "cannabis delivery",
+      "cheap weed",
+      "best strains",
+      "best strain",
+      "strain menu",
+      "strain reviews",
+      "get high",
+      "stoner",
+      "420 deals",
+      "free samples",
+      "dispensary near me",
+      "shop flower",
+      "edibles menu",
+      "cure",
+      "cures",
+      "heal",
+      "heals",
+      "pain relief",
+      "anxiety relief",
+      "treats cancer",
+      "medical benefits",
+      "therapeutic benefits",
+      "lifestyle brand"
+    ],
+    "bannedImageryTags": [
+      "cannabis-product",
+      "flower",
+      "bud",
+      "joint",
+      "bong",
+      "vape",
+      "edible",
+      "consumption",
+      "smoking",
+      "cartoon",
+      "candy",
+      "mascot",
+      "minor-appeal",
+      "strain",
+      "price-list",
+      "menu"
+    ],
+    "allowedImageryTags": [
+      "ui-screenshot",
+      "logo",
+      "abstract",
+      "icon",
+      "hardware",
+      "people-business",
+      "map"
+    ],
+    "requiredFooterTextKeys": [
+      "footer.notice"
+    ],
+    "phase2Markets": [
+      {
+        "country": "UY",
+        "locales": [
+          "es-UY"
+        ]
+      },
+      {
+        "country": "CO",
+        "locales": [
+          "es-CO"
+        ]
+      },
+      {
+        "country": "MT",
+        "locales": [
+          "en-MT",
+          "mt-MT"
+        ]
+      },
+      {
+        "country": "CZ",
+        "locales": [
+          "cs-CZ"
+        ]
+      },
+      {
+        "country": "LU",
+        "locales": [
+          "fr-LU",
+          "de-LU",
+          "lb-LU",
+          "en-LU"
+        ]
+      },
+      {
+        "country": "IL",
+        "locales": [
+          "he-IL",
+          "en-IL"
+        ],
+        "rtl": true
+      }
+    ]
+  },
+  "languages": {
+    "en": {
+      "name": "English",
+      "native": "English",
+      "dir": "ltr",
+      "script": "latin"
+    },
+    "es": {
+      "name": "Spanish",
+      "native": "Español",
+      "dir": "ltr",
+      "script": "latin"
+    },
+    "fr": {
+      "name": "French",
+      "native": "Français",
+      "dir": "ltr",
+      "script": "latin"
+    },
+    "de": {
+      "name": "German",
+      "native": "Deutsch",
+      "dir": "ltr",
+      "script": "latin"
+    },
+    "nl": {
+      "name": "Dutch",
+      "native": "Nederlands",
+      "dir": "ltr",
+      "script": "latin"
+    },
+    "it": {
+      "name": "Italian",
+      "native": "Italiano",
+      "dir": "ltr",
+      "script": "latin"
+    },
+    "ca": {
+      "name": "Catalan",
+      "native": "Català",
+      "dir": "ltr",
+      "script": "latin"
+    },
+    "af": {
+      "name": "Afrikaans",
+      "native": "Afrikaans",
+      "dir": "ltr",
+      "script": "latin"
+    },
+    "zu": {
+      "name": "isiZulu",
+      "native": "isiZulu",
+      "dir": "ltr",
+      "script": "latin"
+    },
+    "th": {
+      "name": "Thai",
+      "native": "ไทย",
+      "dir": "ltr",
+      "script": "thai"
+    }
+  },
+  "markets": {
+    "US": {
+      "name": "United States",
+      "languages": [
+        "en-US",
+        "es-US"
+      ],
+      "defaultLocale": "en-US",
+      "minAge": 21,
+      "minAgeMedicalOnlyStates": 18,
+      "consentModel": "opt-out",
+      "honorGpc": true,
+      "currency": "USD",
+      "dataRegion": "us",
+      "vercelRegion": "iad1",
+      "positioning": "dispensary",
+      "solutions": [
+        "dispensaries",
+        "clubs",
+        "groups",
+        "white-label"
+      ],
+      "requiredLinks": [
+        "privacy",
+        "terms",
+        "cookieSettings",
+        "doNotSell",
+        "accessibility"
+      ],
+      "bannedClaims": [
+        "medical marijuana card deals",
+        "legal everywhere",
+        "federally legal",
+        "doctor approved"
+      ],
+      "requiredFooterText": [
+        "footer.notice"
+      ],
+      "legalPages": [
+        "privacy",
+        "cookies",
+        "terms",
+        "acceptable-use",
+        "dpa",
+        "accessibility"
+      ],
+      "forms": {
+        "sms": true,
+        "casl": false,
+        "doubleOptInNewsletter": true
+      },
+      "trackAndTrace": [
+        {
+          "system": "METRC",
+          "status": "roadmap"
+        },
+        {
+          "system": "BioTrack",
+          "status": "roadmap"
+        },
+        {
+          "system": "CSV / API export for state reporting",
+          "status": "export"
+        }
+      ],
+      "privacy": {
+        "laws": [
+          "CCPA/CPRA (California)",
+          "Colorado Privacy Act",
+          "Connecticut Data Privacy Act",
+          "Virginia CDPA",
+          "Texas TDPSA",
+          "other US state privacy laws",
+          "CAN-SPAM",
+          "TCPA (SMS)"
+        ],
+        "regulator": {
+          "name": "State Attorneys General; California Privacy Protection Agency (CPPA)",
+          "url": "https://cppa.ca.gov"
+        },
+        "rights": [
+          "Know/access the personal information we hold",
+          "Delete personal information",
+          "Correct inaccurate information",
+          "Opt out of sale or sharing and of targeted advertising (including via Global Privacy Control)",
+          "Limit use of sensitive personal information (we do not use it beyond what is needed to provide the service)",
+          "Appeal a refusal (where the state law provides this)",
+          "Not be discriminated against for exercising these rights"
+        ],
+        "transfers": "Personal data is hosted in the United States by default.",
+        "special": [
+          {
+            "id": "privacy-choices",
+            "title": "Your Privacy Choices (Do Not Sell or Share My Personal Information)",
+            "body": "We do not sell personal information for money. We may use analytics and advertising cookies only if you accept them; sharing for cross-context behavioural advertising is off by default. We honour the Global Privacy Control (GPC) signal and treat it as a valid request to opt out of sale/sharing for the browser that sent it. You can change your choice at any time using the controls on this page."
+          },
+          {
+            "id": "sms",
+            "title": "SMS / text messages (TCPA)",
+            "body": "We send SMS only if you give separate, express written consent on a form. Consent is not a condition of purchase. Message and data rates may apply; reply STOP to cancel and HELP for help."
+          }
+        ]
+      },
+      "overview": {
+        "laws": "Cannabis remains a controlled substance under federal law; state regimes (and seed-to-sale rules) vary widely.",
+        "advertising": "State advertising rules differ (no minor targeting, no health claims). This site is B2B software marketing only.",
+        "support": "Budify records member and sales data, stock movements and audit trails, and can export reports in CSV so operators can supply data to their state track-and-trace and tax reporting.",
+        "caveat": "Budify does not file reports for you and is not a licensed seed-to-sale system. Track-and-trace integrations listed are roadmap items, not current features."
+      },
+      "openQuestions": [
+        "Which states may we market to, and does any state restrict B2B software marketing to cannabis licensees?",
+        "Should the age gate be 21 everywhere or 18 where only medical programmes exist (state-by-state gating needs state geolocation)?",
+        "Do ad platform policies (Google, Meta, LinkedIn) permit our B2B software ads if we run any?",
+        "Is the Do-Not-Sell/Share link plus GPC handling sufficient under CPRA regulations and the Colorado/Connecticut universal opt-out mechanism rules?",
+        "TCPA: is our SMS consent wording and record-keeping sufficient for B2B contacts?",
+        "Is our DPA/CCPA service-provider language adequate for customers' member data?"
+      ]
+    },
+    "CA": {
+      "name": "Canada",
+      "languages": [
+        "en-CA",
+        "fr-CA"
+      ],
+      "defaultLocale": "en-CA",
+      "minAge": 19,
+      "minAgeByLocale": {
+        "fr-CA": 21
+      },
+      "minAgeNotes": "19 default; 18 in Alberta; 21 in Quebec. fr-CA defaults to 21 because French-language visitors are predominantly in Quebec.",
+      "consentModel": "opt-in",
+      "honorGpc": true,
+      "currency": "CAD",
+      "dataRegion": "ca",
+      "vercelRegion": "iad1",
+      "positioning": "dispensary",
+      "solutions": [
+        "dispensaries",
+        "groups",
+        "white-label"
+      ],
+      "requiredLinks": [
+        "privacy",
+        "terms",
+        "cookieSettings",
+        "privacyOfficer",
+        "accessibility"
+      ],
+      "bannedClaims": [
+        "lifestyle",
+        "glamour",
+        "celebrity"
+      ],
+      "requiredFooterText": [
+        "footer.notice"
+      ],
+      "legalPages": [
+        "privacy",
+        "cookies",
+        "terms",
+        "acceptable-use",
+        "dpa",
+        "accessibility"
+      ],
+      "forms": {
+        "sms": false,
+        "casl": true,
+        "doubleOptInNewsletter": true
+      },
+      "trackAndTrace": [
+        {
+          "system": "Provincial wholesale / retail systems (e.g. OCS, AGLC, SQDC reporting)",
+          "status": "roadmap"
+        },
+        {
+          "system": "Health Canada Cannabis Tracking System export formats",
+          "status": "export"
+        }
+      ],
+      "privacy": {
+        "laws": [
+          "PIPEDA",
+          "Quebec Law 25 (Act respecting the protection of personal information in the private sector, as amended)",
+          "CASL (Canada's Anti-Spam Legislation)",
+          "Charter of the French Language (Quebec)"
+        ],
+        "regulator": {
+          "name": "Office of the Privacy Commissioner of Canada; Commission d'accès à l'information du Québec",
+          "url": "https://www.priv.gc.ca"
+        },
+        "rights": [
+          "Access your personal information",
+          "Correct inaccurate information",
+          "Withdraw consent",
+          "Request deletion or de-indexation where the law allows",
+          "Data portability in a structured, commonly used format (Quebec)",
+          "Be informed of automated decisions (Quebec)",
+          "Complain to the privacy regulator"
+        ],
+        "transfers": "Personal data may be processed in the United States. For Quebec residents we carry out a privacy impact assessment before transfers outside Quebec, as Law 25 requires.",
+        "special": [
+          {
+            "id": "privacy-officer",
+            "title": "Person in charge of the protection of personal information (Quebec Law 25)",
+            "body": "The person in charge of personal information protection can be reached at the contact shown on the Company details. [TO BE COMPLETED: name/title as required by Law 25.]"
+          },
+          {
+            "id": "casl",
+            "title": "Commercial electronic messages (CASL)",
+            "body": "We send marketing emails only with your express consent, identify ourselves in every message, and include a working unsubscribe mechanism that is honoured within 10 business days."
+          }
+        ]
+      },
+      "overview": {
+        "laws": "The Cannabis Act strictly limits promotion; provinces regulate retail. Quebec requires a full French version of commercial sites.",
+        "advertising": "No lifestyle or brand-appeal promotion. This site is B2B software marketing for licensed operators only.",
+        "support": "Budify keeps sales, stock movement and member-visit records with audit trails and CSV export so licensed operators can prepare provincial and federal reporting.",
+        "caveat": "Provincial system integrations listed are roadmap items. Operators remain responsible for provincial licensing and reporting."
+      },
+      "openQuestions": [
+        "Is a 19+ default (21+ for fr-CA) the correct per-province approach, or do we need province selection?",
+        "Does PIPEDA-based implied consent suffice for analytics outside Quebec, or should opt-in apply nationwide (current setting)?",
+        "Law 25: required content of the privacy policy, the named person in charge, and transfer impact assessments.",
+        "Charter of the French Language: is fr-CA complete and 'at least equally available' (including legal pages, forms and emails)?",
+        "CASL: validity of our express-consent wording and records; B2B exemptions that might apply.",
+        "Cannabis Act s.17 promotion limits: does B2B SaaS marketing to licence holders fall outside the promotion prohibition?"
+      ]
+    },
+    "DE": {
+      "name": "Germany",
+      "languages": [
+        "de-DE",
+        "en-DE"
+      ],
+      "defaultLocale": "de-DE",
+      "minAge": 18,
+      "consentModel": "opt-in",
+      "honorGpc": false,
+      "currency": "EUR",
+      "dataRegion": "eu",
+      "vercelRegion": "fra1",
+      "positioning": "association",
+      "solutions": [
+        "clubs"
+      ],
+      "requiredLinks": [
+        "privacy",
+        "terms",
+        "cookieSettings",
+        "impressum",
+        "accessibility"
+      ],
+      "bannedClaims": [
+        "cannabis kaufen",
+        "cannabis bestellen",
+        "angebot des monats",
+        "mitglied werden"
+      ],
+      "requiredFooterText": [
+        "footer.notice",
+        "footer.noteAssociation"
+      ],
+      "legalPages": [
+        "privacy",
+        "cookies",
+        "terms",
+        "acceptable-use",
+        "dpa",
+        "accessibility",
+        "impressum"
+      ],
+      "forms": {
+        "sms": false,
+        "casl": false,
+        "doubleOptInNewsletter": true
+      },
+      "trackAndTrace": [
+        {
+          "system": "Member register, dispensing limits and Anbauvereinigung documentation exports",
+          "status": "export"
+        }
+      ],
+      "privacy": {
+        "laws": [
+          "GDPR",
+          "BDSG",
+          "TDDDG (cookie and terminal-equipment consent)",
+          "DDG §5 (Impressum)",
+          "KCanG (Cannabis Act – advertising ban)"
+        ],
+        "regulator": {
+          "name": "Competent state data protection authority (Landesdatenschutzbehörde) – to be determined by registered seat",
+          "url": "https://www.bfdi.bund.de"
+        },
+        "rights": [
+          "Access (Art. 15 GDPR)",
+          "Rectification (Art. 16)",
+          "Erasure (Art. 17)",
+          "Restriction (Art. 18)",
+          "Data portability (Art. 20)",
+          "Object (Art. 21)",
+          "Withdraw consent at any time (Art. 7(3))",
+          "Lodge a complaint with a supervisory authority (Art. 77)"
+        ],
+        "transfers": "Data is hosted in the EU (Frankfurt). Transfers outside the EU/EEA rely on adequacy decisions or Standard Contractual Clauses.",
+        "special": []
+      },
+      "overview": {
+        "laws": "The Consumer Cannabis Act (KCanG) allows non-commercial cultivation associations (Anbauvereinigungen); advertising and promotion of cannabis and of clubs is prohibited.",
+        "advertising": "Budify is positioned strictly as administration software for associations. This site does not advertise any club or product, and shows no consumer-facing offers.",
+        "support": "Budify supports member registers, age and membership-status checks, allocation-limit tracking and documentation exports that associations can use for their own record-keeping duties.",
+        "caveat": "Associations remain solely responsible for their permit (Erlaubnis), prevention concept, reporting and record-keeping duties."
+      },
+      "openQuestions": [
+        "KCanG §6 (Werbeverbot): does marketing software to associations ever count as 'promotion' of clubs, and may we show case studies?",
+        "Is the club-only (no dispensary POS) positioning correct for Germany, and how should the 'POS' feature be framed?",
+        "Impressum content under DDG §5 for a non-German operator (representative, VAT ID, register entry).",
+        "TDDDG §25: confirm equal-weight consent banner design and that strictly-necessary storage (age gate, consent log) is exempt.",
+        "Which state data protection authority is competent, and do we need a German GDPR Art. 27 representative?",
+        "Whether DE legal pages must be exclusively in German to be effective."
+      ]
+    },
+    "ES": {
+      "name": "Spain",
+      "languages": [
+        "es-ES",
+        "ca-ES",
+        "en-ES"
+      ],
+      "defaultLocale": "es-ES",
+      "minAge": 18,
+      "consentModel": "opt-in",
+      "honorGpc": false,
+      "currency": "EUR",
+      "dataRegion": "eu",
+      "vercelRegion": "fra1",
+      "positioning": "association",
+      "solutions": [
+        "clubs"
+      ],
+      "requiredLinks": [
+        "privacy",
+        "cookies",
+        "terms",
+        "cookieSettings",
+        "avisoLegal",
+        "accessibility"
+      ],
+      "bannedClaims": [
+        "comprar cannabis",
+        "comprar marihuana",
+        "comprar hierba",
+        "mejores cepas",
+        "oferta",
+        "apúntate al club"
+      ],
+      "requiredFooterText": [
+        "footer.notice",
+        "footer.noteAssociation"
+      ],
+      "legalPages": [
+        "privacy",
+        "cookies",
+        "terms",
+        "acceptable-use",
+        "dpa",
+        "accessibility",
+        "aviso-legal"
+      ],
+      "forms": {
+        "sms": false,
+        "casl": false,
+        "doubleOptInNewsletter": true
+      },
+      "trackAndTrace": [
+        {
+          "system": "Member register and regional association documentation exports",
+          "status": "export"
+        }
+      ],
+      "privacy": {
+        "laws": [
+          "GDPR",
+          "LOPDGDD (Ley Orgánica 3/2018)",
+          "LSSI-CE (Ley 34/2002) arts. 10 and 22.2",
+          "AEPD cookie guidance"
+        ],
+        "regulator": {
+          "name": "Agencia Española de Protección de Datos (AEPD)",
+          "url": "https://www.aepd.es"
+        },
+        "rights": [
+          "Access",
+          "Rectification",
+          "Erasure",
+          "Restriction",
+          "Portability",
+          "Objection",
+          "Withdraw consent",
+          "Complain to the AEPD"
+        ],
+        "transfers": "Data is hosted in the EU. Transfers outside the EU/EEA rely on adequacy decisions or Standard Contractual Clauses.",
+        "special": []
+      },
+      "overview": {
+        "laws": "Cannabis associations operate in a legal grey area that differs between autonomous communities; public promotion is not permitted.",
+        "advertising": "Copy is limited to membership-administration software for associations. No promotion to the public.",
+        "support": "Budify supports member registers, membership status, allocation records and exportable documentation that associations can use for their own record-keeping.",
+        "caveat": "Associations are responsible for assessing the legality of their activities in their region."
+      },
+      "openQuestions": [
+        "Is it lawful to market membership software to cannabis associations in Spain, and do regional rules (e.g. Catalonia, Basque Country) restrict it?",
+        "Aviso legal content required by LSSI art. 10 for a non-Spanish provider.",
+        "AEPD cookie guidance (2023 update): confirm banner layout and the 'reject all' prominence.",
+        "Is Catalan (ca-ES) required for any legal page for Catalan users?",
+        "Do customers' member records count as special-category data, and what extra DPA terms are needed?"
+      ]
+    },
+    "NL": {
+      "name": "Netherlands",
+      "languages": [
+        "nl-NL",
+        "en-NL"
+      ],
+      "defaultLocale": "nl-NL",
+      "minAge": 18,
+      "consentModel": "opt-in",
+      "honorGpc": false,
+      "currency": "EUR",
+      "dataRegion": "eu",
+      "vercelRegion": "fra1",
+      "positioning": "dispensary",
+      "solutions": [
+        "dispensaries",
+        "groups"
+      ],
+      "requiredLinks": [
+        "privacy",
+        "cookies",
+        "terms",
+        "cookieSettings",
+        "companyDetails",
+        "accessibility"
+      ],
+      "bannedClaims": [
+        "wiet kopen",
+        "weed kopen",
+        "hasj kopen",
+        "beste wiet",
+        "aanbieding"
+      ],
+      "requiredFooterText": [
+        "footer.notice"
+      ],
+      "legalPages": [
+        "privacy",
+        "cookies",
+        "terms",
+        "acceptable-use",
+        "dpa",
+        "accessibility",
+        "company-details"
+      ],
+      "forms": {
+        "sms": false,
+        "casl": false,
+        "doubleOptInNewsletter": true
+      },
+      "trackAndTrace": [
+        {
+          "system": "Experiment closed-chain (Wietexperiment) reporting exports",
+          "status": "roadmap"
+        },
+        {
+          "system": "Sales and stock exports for coffeeshop bookkeeping",
+          "status": "export"
+        }
+      ],
+      "privacy": {
+        "laws": [
+          "GDPR",
+          "Uitvoeringswet AVG",
+          "Telecommunicatiewet art. 11.7a (cookies)",
+          "Autoriteit Persoonsgegevens guidance"
+        ],
+        "regulator": {
+          "name": "Autoriteit Persoonsgegevens (AP)",
+          "url": "https://autoriteitpersoonsgegevens.nl"
+        },
+        "rights": [
+          "Access",
+          "Rectification",
+          "Erasure",
+          "Restriction",
+          "Portability",
+          "Objection",
+          "Withdraw consent",
+          "Complain to the Autoriteit Persoonsgegevens"
+        ],
+        "transfers": "Data is hosted in the EU. Transfers outside the EU/EEA rely on adequacy decisions or Standard Contractual Clauses.",
+        "special": []
+      },
+      "overview": {
+        "laws": "Coffeeshops are tolerated under the gedoogbeleid; the licensed-supply 'Wietexperiment' is a separate closed-chain channel. Advertising is prohibited.",
+        "advertising": "B2B copy only, addressed to operators. No consumer-facing material.",
+        "support": "Budify supports point of sale, stock records, member/ID-check records and exports that operators can use for bookkeeping and for programme reporting.",
+        "caveat": "Operators remain responsible for compliance with gedoogcriteria or experiment requirements."
+      },
+      "openQuestions": [
+        "Does marketing POS software to coffeeshops conflict with the advertising ban (Opiumwet art. 3 / Opiumwet 'reclameverbod')?",
+        "Which KvK/company details and which Dutch entity should appear on the site?",
+        "Telecommunicatiewet 11.7a: confirm whether first-party analytics need consent.",
+        "Should experiment-shop (Wietexperiment) functionality be named, or only the generic 'closed-chain reporting export'?"
+      ]
+    },
+    "CH": {
+      "name": "Switzerland",
+      "languages": [
+        "de-CH",
+        "fr-CH",
+        "it-CH",
+        "en-CH"
+      ],
+      "defaultLocale": "de-CH",
+      "minAge": 18,
+      "consentModel": "opt-in",
+      "honorGpc": false,
+      "currency": "CHF",
+      "dataRegion": "eu",
+      "vercelRegion": "fra1",
+      "positioning": "pilot",
+      "solutions": [
+        "dispensaries",
+        "groups"
+      ],
+      "requiredLinks": [
+        "privacy",
+        "terms",
+        "cookieSettings",
+        "impressum",
+        "accessibility"
+      ],
+      "bannedClaims": [
+        "cannabis kaufen",
+        "acheter du cannabis",
+        "acquistare cannabis",
+        "bestes gras"
+      ],
+      "requiredFooterText": [
+        "footer.notice"
+      ],
+      "legalPages": [
+        "privacy",
+        "cookies",
+        "terms",
+        "acceptable-use",
+        "dpa",
+        "accessibility",
+        "impressum"
+      ],
+      "forms": {
+        "sms": false,
+        "casl": false,
+        "doubleOptInNewsletter": true
+      },
+      "trackAndTrace": [
+        {
+          "system": "Pilot-trial (Art. 8a BetmG) dispensing and participant records exports",
+          "status": "export"
+        }
+      ],
+      "privacy": {
+        "laws": [
+          "revFADP / nDSG (in force 1 Sep 2023)",
+          "UWG art. 3(1)(h) (cookie information duty)",
+          "FMG art. 45c (cookies)"
+        ],
+        "regulator": {
+          "name": "Federal Data Protection and Information Commissioner (FDPIC)",
+          "url": "https://www.edoeb.admin.ch"
+        },
+        "rights": [
+          "Information about processing",
+          "Access",
+          "Rectification",
+          "Deletion",
+          "Objection",
+          "Data portability",
+          "Complain to the FDPIC"
+        ],
+        "transfers": "Data is hosted in the EU, which Switzerland recognises as providing adequate protection. Other transfers rely on Standard Contractual Clauses or equivalent safeguards.",
+        "special": []
+      },
+      "overview": {
+        "laws": "Cannabis with more than 1% THC remains prohibited except in authorised pilot trials (Art. 8a Narcotics Act); public promotion is not permitted.",
+        "advertising": "Copy is limited to B2B software for authorised pilot-trial operators.",
+        "support": "Budify supports participant registers, controlled dispensing records and exportable documentation for authorised pilot programmes.",
+        "caveat": "Only organisations holding the relevant authorisation should use Budify for regulated cannabis supply."
+      },
+      "openQuestions": [
+        "Are pilot-trial operators the only legitimate customer segment in Switzerland, and does the new legislative framework change this?",
+        "Impressum requirements and whether a Swiss entity or representative is needed under the nDSG (art. 14).",
+        "Per-language legal pages: must all four languages carry legally binding text?",
+        "Opt-in versus opt-out for cookies under Swiss law (current setting is opt-in)."
+      ]
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "languages": [
+        "en-GB"
+      ],
+      "defaultLocale": "en-GB",
+      "minAge": 18,
+      "consentModel": "opt-in",
+      "honorGpc": false,
+      "currency": "GBP",
+      "dataRegion": "eu",
+      "vercelRegion": "lhr1",
+      "positioning": "medical",
+      "solutions": [
+        "dispensaries"
+      ],
+      "requiredLinks": [
+        "privacy",
+        "cookies",
+        "terms",
+        "cookieSettings",
+        "companyDetails",
+        "accessibility"
+      ],
+      "bannedClaims": [
+        "prescription deals",
+        "cheap prescriptions",
+        "get a prescription",
+        "cannabis oil for"
+      ],
+      "requiredFooterText": [
+        "footer.notice",
+        "footer.noteMedical"
+      ],
+      "legalPages": [
+        "privacy",
+        "cookies",
+        "terms",
+        "acceptable-use",
+        "dpa",
+        "accessibility",
+        "company-details"
+      ],
+      "forms": {
+        "sms": false,
+        "casl": false,
+        "doubleOptInNewsletter": true
+      },
+      "trackAndTrace": [
+        {
+          "system": "Prescription-only medicine dispensing records and stock exports",
+          "status": "export"
+        }
+      ],
+      "privacy": {
+        "laws": [
+          "UK GDPR",
+          "Data Protection Act 2018",
+          "PECR (Privacy and Electronic Communications Regulations)",
+          "Companies Act 2006 / Business Names and Company Details Regulations"
+        ],
+        "regulator": {
+          "name": "Information Commissioner's Office (ICO)",
+          "url": "https://ico.org.uk"
+        },
+        "rights": [
+          "Access",
+          "Rectification",
+          "Erasure",
+          "Restriction",
+          "Portability",
+          "Object",
+          "Withdraw consent",
+          "Complain to the ICO"
+        ],
+        "transfers": "Data is hosted in the UK/EU. Transfers outside the UK rely on adequacy regulations, the UK IDTA or the UK Addendum to the EU SCCs.",
+        "special": []
+      },
+      "overview": {
+        "laws": "Cannabis-based products for medicinal use are available only on specialist prescription; advertising prescription-only medicines to the public is prohibited.",
+        "advertising": "Copy is addressed to clinics and pharmacies, not to patients or the public.",
+        "support": "Budify supports stock, dispensing and sales records with audit trails and exports for clinic or pharmacy compliance processes.",
+        "caveat": "Budify is not a clinical system and does not provide prescribing or clinical-record functionality."
+      },
+      "openQuestions": [
+        "Is the UK realistically a medical-only (clinic/pharmacy) market for us, and does our software fall within any MHRA/CQC expectations?",
+        "ICO registration reference and the company details to show (Companies Act).",
+        "Wording compliance with the Human Medicines Regulations 2012 advertising rules."
+      ]
+    },
+    "AU": {
+      "name": "Australia",
+      "languages": [
+        "en-AU"
+      ],
+      "defaultLocale": "en-AU",
+      "minAge": 18,
+      "consentModel": "notice-only",
+      "honorGpc": true,
+      "currency": "AUD",
+      "dataRegion": "au",
+      "vercelRegion": "syd1",
+      "positioning": "medical",
+      "solutions": [
+        "dispensaries"
+      ],
+      "requiredLinks": [
+        "privacy",
+        "terms",
+        "cookieSettings",
+        "companyDetails",
+        "accessibility"
+      ],
+      "bannedClaims": [
+        "buy medicinal cannabis",
+        "get medicinal cannabis",
+        "tga approved"
+      ],
+      "requiredFooterText": [
+        "footer.notice",
+        "footer.noteMedical"
+      ],
+      "legalPages": [
+        "privacy",
+        "cookies",
+        "terms",
+        "acceptable-use",
+        "dpa",
+        "accessibility",
+        "company-details"
+      ],
+      "forms": {
+        "sms": false,
+        "casl": false,
+        "doubleOptInNewsletter": true
+      },
+      "trackAndTrace": [
+        {
+          "system": "TGA Special Access Scheme / Authorised Prescriber dispensing record exports",
+          "status": "export"
+        }
+      ],
+      "privacy": {
+        "laws": [
+          "Privacy Act 1988 (Cth) and the Australian Privacy Principles (APPs)",
+          "Spam Act 2003 (Cth)",
+          "Disability Discrimination Act 1992"
+        ],
+        "regulator": {
+          "name": "Office of the Australian Information Commissioner (OAIC)",
+          "url": "https://www.oaic.gov.au"
+        },
+        "rights": [
+          "Access to personal information (APP 12)",
+          "Correction (APP 13)",
+          "Complain to us, then to the OAIC",
+          "Opt out of direct marketing (APP 7)"
+        ],
+        "transfers": "Data is hosted in Australia (Sydney). Disclosures overseas follow APP 8.",
+        "special": [
+          {
+            "id": "app-statements",
+            "title": "APP statements",
+            "body": "This policy addresses APP 1 (open and transparent management), APP 5 (notification), APP 7 (direct marketing), APP 8 (cross-border disclosure), APP 11 (security) and APPs 12–13 (access and correction)."
+          }
+        ]
+      },
+      "overview": {
+        "laws": "Medicinal cannabis is available through the TGA's schemes under prescription; therapeutic advertising of controlled drugs to the public is prohibited.",
+        "advertising": "Copy is addressed to authorised prescribers' clinics and pharmacies only.",
+        "support": "Budify supports stock, dispensing and sales records with audit trails and exports.",
+        "caveat": "Budify is not a clinical system. Operators remain responsible for TGA and state/territory permit obligations."
+      },
+      "openQuestions": [
+        "Does the Privacy Act small-business exemption or the 2024 reform affect our policy content?",
+        "TGA advertising rules: does any wording on this site qualify as advertising a therapeutic good?",
+        "ABN/ACN details and whether an Australian entity is required.",
+        "Confirm that notice-only cookie consent is acceptable for AU (current setting) or use opt-in."
+      ]
+    },
+    "TH": {
+      "name": "Thailand",
+      "languages": [
+        "th-TH",
+        "en-TH"
+      ],
+      "defaultLocale": "th-TH",
+      "minAge": 20,
+      "consentModel": "opt-in",
+      "honorGpc": false,
+      "currency": "THB",
+      "dataRegion": "sg",
+      "vercelRegion": "sin1",
+      "positioning": "dispensary",
+      "solutions": [
+        "dispensaries",
+        "groups"
+      ],
+      "requiredLinks": [
+        "privacy",
+        "terms",
+        "cookieSettings",
+        "accessibility"
+      ],
+      "bannedClaims": [
+        "ซื้อกัญชา",
+        "สั่งกัญชา",
+        "โปรโมชั่นกัญชา",
+        "รักษาโรค"
+      ],
+      "requiredFooterText": [
+        "footer.notice"
+      ],
+      "legalPages": [
+        "privacy",
+        "cookies",
+        "terms",
+        "acceptable-use",
+        "dpa",
+        "accessibility"
+      ],
+      "forms": {
+        "sms": false,
+        "casl": false,
+        "doubleOptInNewsletter": true
+      },
+      "trackAndTrace": [
+        {
+          "system": "Prescription and sales record exports for licensed dispensaries",
+          "status": "export"
+        }
+      ],
+      "privacy": {
+        "laws": [
+          "Personal Data Protection Act B.E. 2562 (2019) (PDPA)",
+          "Cannabis and hemp regulations and Ministry of Public Health notifications (2025)"
+        ],
+        "regulator": {
+          "name": "Personal Data Protection Committee (PDPC)",
+          "url": "https://www.pdpc.or.th"
+        },
+        "rights": [
+          "Access and obtain a copy",
+          "Data portability",
+          "Object",
+          "Erasure",
+          "Restrict processing",
+          "Rectification",
+          "Withdraw consent",
+          "Complain to the PDPC"
+        ],
+        "transfers": "Data is hosted in Singapore. Cross-border transfers follow PDPA section 28 safeguards.",
+        "special": []
+      },
+      "overview": {
+        "laws": "Rules were tightened in 2025: flower requires a prescription and advertising is restricted.",
+        "advertising": "Copy is addressed to licensed operators; no product promotion.",
+        "support": "Budify supports sales, prescription-reference, stock and customer-record keeping with audit trails and exports.",
+        "caveat": "Operators remain responsible for their licences and for any prescription verification duties."
+      },
+      "openQuestions": [
+        "Confirm the age threshold used in the gate (20) against the latest notification, including any 21+ guidance.",
+        "PDPA: required content of the Thai-language notice; whether a representative or DPO is needed.",
+        "Whether the Thai text must be the governing language for legal pages.",
+        "Any additional advertising restriction that reaches B2B software marketing."
+      ]
+    },
+    "ZA": {
+      "name": "South Africa",
+      "languages": [
+        "en-ZA",
+        "af-ZA",
+        "zu-ZA"
+      ],
+      "defaultLocale": "en-ZA",
+      "minAge": 18,
+      "consentModel": "opt-in",
+      "honorGpc": false,
+      "currency": "ZAR",
+      "dataRegion": "za",
+      "vercelRegion": "cpt1",
+      "positioning": "private-club",
+      "solutions": [
+        "clubs",
+        "groups",
+        "white-label"
+      ],
+      "requiredLinks": [
+        "privacy",
+        "terms",
+        "cookieSettings",
+        "informationOfficer",
+        "paiaManual",
+        "companyDetails",
+        "accessibility"
+      ],
+      "bannedClaims": [
+        "buy dagga",
+        "dagga for sale",
+        "koop dagga",
+        "thenga insangu",
+        "sale on flower"
+      ],
+      "requiredFooterText": [
+        "footer.notice",
+        "footer.notePrivate"
+      ],
+      "legalPages": [
+        "privacy",
+        "cookies",
+        "terms",
+        "acceptable-use",
+        "dpa",
+        "accessibility",
+        "company-details",
+        "paia-manual"
+      ],
+      "forms": {
+        "sms": false,
+        "casl": false,
+        "doubleOptInNewsletter": true
+      },
+      "trackAndTrace": [
+        {
+          "system": "Member register, cultivation/private-use records and sales ledger exports",
+          "status": "export"
+        }
+      ],
+      "privacy": {
+        "laws": [
+          "POPIA (Protection of Personal Information Act 4 of 2013)",
+          "ECTA (Electronic Communications and Transactions Act 25 of 2002)",
+          "CPA (Consumer Protection Act 68 of 2008)",
+          "PAIA (Promotion of Access to Information Act 2 of 2000)",
+          "Cannabis for Private Purposes Act 7 of 2024"
+        ],
+        "regulator": {
+          "name": "Information Regulator (South Africa)",
+          "url": "https://inforegulator.org.za"
+        },
+        "rights": [
+          "Be notified that personal information is collected",
+          "Access personal information",
+          "Request correction or deletion",
+          "Object to processing, including direct marketing",
+          "Withdraw consent",
+          "Lodge a complaint with the Information Regulator (complaints.IR@inforegulator.org.za)"
+        ],
+        "transfers": "Data is hosted in South Africa where possible and otherwise in the EU. Cross-border transfers follow POPIA section 72 (adequate protection, consent or contractual safeguards).",
+        "special": [
+          {
+            "id": "information-officer",
+            "title": "Information Officer (POPIA)",
+            "body": "Our Information Officer can be reached at the contact details on the Company details page. [TO BE COMPLETED: name, registration with the Information Regulator.]"
+          }
+        ]
+      },
+      "overview": {
+        "laws": "The Cannabis for Private Purposes Act (2024) permits private use and cultivation by adults; commercial sale is not authorised by the Act.",
+        "advertising": "Copy avoids any promotion of sales. Budify is positioned as administration software for private member clubs and their groups.",
+        "support": "Budify supports member registers, stock and cultivation records, financial records and audit trails, with exports for operators' own record-keeping.",
+        "caveat": "Whether and how a club may operate is for the operator and its legal advisers to determine."
+      },
+      "openQuestions": [
+        "How does the Cannabis for Private Purposes Act (2024) affect software that includes a POS/sales function for clubs?",
+        "Is the 'private club' positioning safe, or should POS references be reworded further?",
+        "Information Officer name and registration; PAIA manual content (section 51 / Form).",
+        "ECTA section 43 supplier information requirements for our entity.",
+        "Whether isiZulu and Afrikaans legal pages are required for validity or are courtesy translations only."
+      ]
+    }
+  }
+}

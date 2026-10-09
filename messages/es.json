@@ -1,0 +1,655 @@
+{
+  "_meta": {
+    "language": "es",
+    "status": "machine-draft – requires professional review",
+    "note": "Review before launch."
+  },
+  "meta": {
+    "siteName": "Budify",
+    "titleTemplate": "{page} | Budify",
+    "home": {
+      "title": "Budify – software de TPV y gestión de socios para operadores de cannabis regulados",
+      "description": "Software B2B para operadores de cannabis con licencia y regulados: punto de venta, gestión de socios, inventario, registros de auditoría y exportaciones de informes. Solo software – Budify no vende cannabis."
+    },
+    "features": {
+      "title": "Funciones",
+      "description": "Punto de venta, gestión de socios, inventario, registros financieros, analítica y control multicentro – diseñado para operadores de cannabis regulados."
+    },
+    "pricing": {
+      "title": "Precios",
+      "description": "Precios sencillos por cuenta para operadores de un solo establecimiento y de varios. Precios mostrados en su moneda local."
+    },
+    "integrations": {
+      "title": "Integraciones",
+      "description": "Opciones de hardware, pagos, exportaciones contables y trazabilidad según el mercado."
+    },
+    "solutions": {
+      "title": "Soluciones",
+      "description": "Budify para dispensarios, clubes de socios y asociaciones, grupos multicentro y socios white-label."
+    },
+    "compliance": {
+      "title": "Centro de cumplimiento",
+      "description": "Cómo Budify apoya el mantenimiento de registros y la elaboración de informes locales en cada mercado. Solo software – los operadores siguen siendo responsables de sus licencias."
+    },
+    "resources": {
+      "title": "Recursos",
+      "description": "Guías B2B para operadores sobre registros, control de existencias y administración de socios."
+    },
+    "caseStudies": {
+      "title": "Casos de éxito",
+      "description": "Historias de clientes verificadas, publicadas con su permiso."
+    },
+    "contact": {
+      "title": "Solicitar una demostración",
+      "description": "Hable con el equipo de Budify sobre su actividad. Solo consultas comerciales."
+    },
+    "legal": {
+      "title": "Centro legal",
+      "description": "Privacidad, cookies, condiciones y demás información legal para su jurisdicción."
+    },
+    "subProcessors": {
+      "title": "Subencargados del tratamiento",
+      "description": "Terceros que tratan datos personales por cuenta de Budify."
+    },
+    "security": {
+      "title": "Seguridad",
+      "description": "Cómo protege Budify los datos de operadores y socios."
+    },
+    "status": {
+      "title": "Estado",
+      "description": "Estado del servicio de la plataforma Budify."
+    },
+    "regions": {
+      "title": "Elija su país e idioma",
+      "description": "Seleccione su país e idioma para Budify."
+    },
+    "notFound": {
+      "title": "Página no encontrada",
+      "description": "Esta página no existe."
+    }
+  },
+  "nav": {
+    "primary": "Navegación principal",
+    "features": "Funciones",
+    "pricing": "Precios",
+    "integrations": "Integraciones",
+    "solutions": "Soluciones",
+    "compliance": "Centro de cumplimiento",
+    "resources": "Recursos",
+    "caseStudies": "Casos de éxito",
+    "bookDemo": "Solicitar una demostración",
+    "menu": "Menú",
+    "closeMenu": "Cerrar menú",
+    "home": "Inicio de Budify"
+  },
+  "common": {
+    "learnMore": "Más información",
+    "readMore": "Leer más",
+    "bookDemo": "Solicitar una demostración",
+    "viewPricing": "Ver precios",
+    "backTo": "Volver a {page}",
+    "skipToContent": "Saltar al contenido principal",
+    "englishOnly": "Este contenido solo está disponible actualmente en inglés.",
+    "b2bOnly": "Solo software para empresas. Budify no vende, promociona ni facilita la venta de cannabis.",
+    "status": {
+      "available": "Disponible",
+      "export": "Mediante exportación",
+      "roadmap": "En hoja de ruta",
+      "custom": "Bajo petición"
+    },
+    "opensNewTab": "(se abre en una pestaña nueva)",
+    "required": "obligatorio",
+    "optional": "opcional"
+  },
+  "selector": {
+    "button": "País e idioma: {country}, {language}",
+    "title": "Elija su país e idioma",
+    "intro": "Budify adapta su información legal, la configuración de privacidad y el contenido a su país. Preseleccionamos un país a partir de su conexión, pero puede elegir otro en cualquier momento.",
+    "country": "País",
+    "language": "Idioma",
+    "go": "Ir",
+    "current": "Selección actual",
+    "close": "Cerrar",
+    "label": "Cambiar país o idioma",
+    "remember": "Recordamos su elección mediante una cookie estrictamente necesaria para esta función."
+  },
+  "ageGate": {
+    "title": "Solo para operadores profesionales",
+    "body": "Este sitio web está dirigido a operadores y profesionales del sector del cannabis regulado. No contiene productos, precios ni ofertas para consumidores.",
+    "checkbox": "Tengo {age} años o más y soy operador o profesional del sector.",
+    "enter": "Entrar al sitio",
+    "leave": "No cumplo los requisitos",
+    "leftTitle": "Gracias",
+    "leftBody": "Este sitio web está destinado únicamente a operadores profesionales de {age} años o más. No ha accedido al sitio.",
+    "reconsider": "Me equivoqué – volver atrás",
+    "cookieNote": "Al seleccionar “Entrar al sitio”, su respuesta se guarda en una cookie propia estrictamente necesaria para esta función (30 días).",
+    "mustConfirm": "Marque la casilla para continuar."
+  },
+  "cookie": {
+    "title": "Cookies y tecnologías similares",
+    "body": "Utilizamos cookies estrictamente necesarias para el funcionamiento de este sitio. Con su permiso, también querríamos utilizar cookies analíticas para comprender cómo se usa el sitio. No utilizamos cookies publicitarias salvo que usted las acepte.",
+    "bodyOptOut": "Utilizamos cookies estrictamente necesarias para el funcionamiento de este sitio y, salvo que usted se oponga, analítica para mejorarlo. Respetamos la señal Global Privacy Control.",
+    "bodyNotice": "Utilizamos cookies para el funcionamiento de este sitio y para comprender cómo se usa. Puede cambiar su elección en cualquier momento.",
+    "acceptAll": "Aceptar todas",
+    "rejectAll": "Rechazar todas",
+    "customize": "Personalizar",
+    "save": "Guardar preferencias",
+    "close": "Cerrar",
+    "necessary": {
+      "title": "Necesarias",
+      "desc": "Necesarias para la seguridad, la elección de país e idioma, la confirmación de operador profesional y el recuerdo de estas preferencias de cookies. Siempre activas."
+    },
+    "analytics": {
+      "title": "Analíticas",
+      "desc": "Nos ayudan a comprender qué páginas resultan útiles. Desactivadas hasta que las acepte."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "desc": "Se utilizan para medir y personalizar nuestra propia publicidad. Actualmente no utilizamos ninguna cookie de marketing."
+    },
+    "alwaysOn": "Siempre activas",
+    "readPolicy": "Leer nuestra Política de cookies",
+    "settings": "Configuración de cookies",
+    "gpc": "Su navegador ha enviado una señal Global Privacy Control, por lo que la analítica y el marketing están desactivados.",
+    "withdraw": "Puede modificar o retirar su consentimiento en cualquier momento mediante “Configuración de cookies” en el pie de página.",
+    "region": "Modo del banner: {mode}",
+    "saved": "Sus preferencias de cookies se han guardado."
+  },
+  "footer": {
+    "tagline": "Software para operadores de cannabis regulados.",
+    "notice": "Budify es software. Los clientes son responsables de disponer de todas las licencias y de cumplir la legislación local.",
+    "noteAssociation": "Budify ofrece software de administración para asociaciones de cultivo y de socios. No anuncia ni promociona ninguna asociación ni ningún producto de cannabis.",
+    "noteMedical": "Budify es software empresarial para clínicas y farmacias con licencia. No es un sistema clínico ni ofrece asesoramiento médico, y no anuncia ningún medicamento.",
+    "notePrivate": "Budify ofrece software de administración para clubes de socios privados. No promociona ni facilita la venta de cannabis.",
+    "product": "Producto",
+    "company": "Empresa",
+    "legalTitle": "Legal",
+    "links": {
+      "privacy": "Política de privacidad",
+      "cookies": "Política de cookies",
+      "terms": "Condiciones del servicio",
+      "acceptableUse": "Uso aceptable",
+      "dpa": "Acuerdo de encargo del tratamiento de datos",
+      "accessibility": "Accesibilidad",
+      "cookieSettings": "Configuración de cookies",
+      "doNotSell": "No vender ni compartir mi información personal",
+      "impressum": "Impressum",
+      "avisoLegal": "Aviso legal",
+      "companyDetails": "Datos de la empresa",
+      "privacyOfficer": "Responsable de privacidad (Quebec)",
+      "informationOfficer": "Responsable de información",
+      "paiaManual": "Manual PAIA",
+      "subProcessors": "Subencargados del tratamiento",
+      "security": "Seguridad",
+      "status": "Estado",
+      "legalHub": "Centro legal"
+    },
+    "region": "País e idioma",
+    "copyright": "© {year} Budify. Todos los derechos reservados."
+  },
+  "hero": {
+    "eyebrow": "Solo software B2B",
+    "title": {
+      "dispensary": "La plataforma de punto de venta y gestión de socios para operadores de cannabis regulados",
+      "association": "Software de administración de socios para asociaciones de cannabis",
+      "medical": "Software de dispensación y existencias para clínicas y farmacias con licencia",
+      "private-club": "Software de gestión de socios y existencias para clubes de socios privados",
+      "pilot": "Software de registros para programas piloto de cannabis autorizados"
+    },
+    "subtitle": {
+      "dispensary": "Gestione caja, membresías, inventario y registros listos para auditoría desde un único sistema, en uno o en varios establecimientos.",
+      "association": "Gestione registros de socios, estado de la membresía, registros de asignación y exportaciones de documentación, pensado para las obligaciones administrativas de las asociaciones.",
+      "medical": "Mantenga registros precisos de existencias, dispensación y ventas, con pistas de auditoría completas y exportaciones para sus procesos de cumplimiento.",
+      "private-club": "Gestione el registro de socios, las existencias, los registros y las finanzas de su club, con pistas de auditoría y permisos claros.",
+      "pilot": "Mantenga registros de participantes, registros de dispensación controlada y documentación exportable para programas autorizados."
+    },
+    "ctaPrimary": "Solicitar una demostración",
+    "ctaSecondary": "Ver funciones",
+    "disclaimer": "Budify es software para organizaciones con licencia o que operan legalmente. No es un mercado en línea.",
+    "mockLabel": "Ilustración del panel de Budify"
+  },
+  "home": {
+    "pillarsTitle": "Todo lo que necesita un operador, en un solo lugar",
+    "pillarsIntro": "Budify sustituye las hojas de cálculo y las herramientas desconectadas por un único sistema auditable.",
+    "pillars": {
+      "pos": {
+        "title": "Punto de venta",
+        "body": "Cobro rápido con lectura de códigos de barras, comprobación del socio antes de cada transacción y cierre de caja diario."
+      },
+      "membership": {
+        "title": "Gestión de socios",
+        "body": "Perfiles de socios, carnés de socio digitales, seguimiento del estado y de la caducidad, y permisos claros."
+      },
+      "compliance": {
+        "title": "Informes de cumplimiento",
+        "body": "Pistas de auditoría y registros exportables que le ayudan a preparar los informes que exige su regulador."
+      },
+      "inventory": {
+        "title": "Control de inventario",
+        "body": "Existencias por lote, registros de proveedores, recuentos de existencias e informes de diferencias entre ubicaciones."
+      },
+      "multistore": {
+        "title": "Control multicentro",
+        "body": "Gestione varias ubicaciones, funciones del personal e informes centralizados desde una sola cuenta."
+      }
+    },
+    "audienceTitle": "Diseñado para su tipo de organización",
+    "audienceIntro": "Elija la solución que se ajuste a su forma de operar.",
+    "complianceTitle": "Diseñado en torno a la normativa local",
+    "complianceBody": "La regulación del cannabis es distinta en cada país. Nuestro Centro de cumplimiento explica, mercado por mercado, cómo apoya Budify el mantenimiento de registros y la elaboración de informes, y en qué aspectos la responsabilidad sigue siendo suya.",
+    "complianceCta": "Abrir el Centro de cumplimiento",
+    "ctaTitle": "Vea Budify en acción",
+    "ctaBody": "Solicite una breve demostración con nuestro equipo. La adaptaremos a su mercado y a su forma de trabajar."
+  },
+  "features": {
+    "title": "Funciones adaptadas a las operaciones reguladas",
+    "intro": "Todos los módulos comparten una misma base de datos, una misma pista de auditoría y un mismo modelo de permisos.",
+    "items": {
+      "pos": {
+        "title": "Punto de venta",
+        "body": "Cobro rápido con lectura de códigos de barras y QR, validación del socio antes de cada transacción, varios terminales y recibos impresos o digitales.",
+        "bullets": [
+          "Lectura de códigos de barras y QR",
+          "Validación del socio en caja",
+          "Compatibilidad con varios terminales"
+        ],
+        "assoc": {
+          "title": "Registros de asignación",
+          "body": "Registre cada asignación a un socio, compruebe el estado de la membresía y los límites de asignación antes de cada transacción y conserve un registro a prueba de manipulación.",
+          "bullets": [
+            "Comprobación del estado de la membresía",
+            "Seguimiento de límites de asignación",
+            "Registro de actividad a prueba de manipulación"
+          ]
+        }
+      },
+      "membership": {
+        "title": "Gestión de socios",
+        "body": "Perfiles de socios con verificación de identidad, carnés de socio digitales con códigos QR, seguimiento de la caducidad y desactivación inmediata.",
+        "bullets": [
+          "Registros de verificación de identidad y edad",
+          "Carnés de socio digitales con QR",
+          "Seguimiento de caducidad y estado"
+        ]
+      },
+      "inventory": {
+        "title": "Inventario y control de existencias",
+        "body": "Existencias en tiempo real por ubicación con seguimiento por lote, registros de proveedores, devoluciones y recuentos ciegos comparados con las cantidades del sistema.",
+        "bullets": [
+          "Seguimiento por lote y SKU",
+          "Registros de proveedores y devoluciones",
+          "Recuentos de existencias con diferencias"
+        ]
+      },
+      "compliance": {
+        "title": "Pistas de auditoría e informes",
+        "body": "Cada movimiento de existencias, venta y cambio de membresía queda registrado con quién, qué y cuándo. Exporte los datos que necesite para sus propios informes.",
+        "bullets": [
+          "Registro de actividad completo",
+          "Exportaciones CSV",
+          "Acceso basado en funciones"
+        ]
+      },
+      "finance": {
+        "title": "Registros financieros",
+        "body": "Seguimiento de ventas y gastos, cierre de caja diario, coste de ventas y beneficio bruto por ubicación.",
+        "bullets": [
+          "Cierre de caja diario",
+          "Informes de coste de ventas y margen",
+          "Gestión de reembolsos y abonos"
+        ],
+        "assoc": {
+          "title": "Cuotas y cuentas de socios",
+          "body": "Controle las cuotas de socio, los saldos de las cuentas de los socios y los gastos de la asociación con informes claros para su tesorero y para las asambleas de socios.",
+          "bullets": [
+            "Seguimiento de cuotas de socio",
+            "Saldos de cuentas de socios",
+            "Registros de gastos"
+          ]
+        }
+      },
+      "analytics": {
+        "title": "Información operativa",
+        "body": "Comprenda las visitas, los periodos de mayor afluencia y la rotación de existencias con paneles creados a partir de sus propios datos.",
+        "bullets": [
+          "Tendencias de visitas y uso",
+          "Rotación de existencias",
+          "Paneles exportables"
+        ]
+      },
+      "multistore": {
+        "title": "Gestión multicentro",
+        "body": "Gestione varias ubicaciones con catálogos centralizados, existencias por centro, asignación de personal e informes consolidados.",
+        "bullets": [
+          "Existencias por centro",
+          "Personal en varias ubicaciones",
+          "Informes consolidados"
+        ]
+      },
+      "security": {
+        "title": "Funciones y permisos",
+        "body": "Otorgue a propietarios, gerentes y cajeros exactamente el acceso que necesitan. Las pantallas sensibles pueden restringirse por función.",
+        "bullets": [
+          "Funciones de propietario, gerente y cajero",
+          "Restricciones por centro",
+          "Controles de sesión y de cierre de caja"
+        ]
+      }
+    }
+  },
+  "pricing": {
+    "title": "Precios sencillos y transparentes",
+    "intro": "Pague por cuenta y por mes. Sin dependencia de hardware y sin comisiones por transacción por parte de Budify.",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "annualSave": "Ahorre un {percent}%",
+    "perMonth": "al mes",
+    "billedAnnually": "facturado anualmente",
+    "currencyNote": "Precios mostrados en {currency}, sin impuestos. Precios de lista orientativos; los precios definitivos se confirman en su presupuesto.",
+    "popular": "Más popular",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "tagline": "Para una sola ubicación",
+        "cta": "Empezar con Starter",
+        "bullets": [
+          "1 establecimiento",
+          "Punto de venta y gestión de socios",
+          "Inventario y recuentos de existencias",
+          "Pista de auditoría y exportaciones CSV",
+          "Soporte por correo electrónico"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "tagline": "Para operadores en crecimiento",
+        "cta": "Elegir Growth",
+        "bullets": [
+          "Almacén y hasta 5 establecimientos",
+          "Todo lo incluido en Starter",
+          "Seguimiento de gastos por establecimiento",
+          "Personal en varios establecimientos",
+          "Soporte prioritario"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise y white-label",
+        "tagline": "Para grupos y socios tecnológicos",
+        "priceLabel": "Personalizado",
+        "cta": "Contacte con nosotros",
+        "bullets": [
+          "Establecimientos ilimitados",
+          "Entorno dedicado y región de datos",
+          "Su propia marca",
+          "Soporte de incorporación y migración",
+          "Integraciones personalizadas"
+        ]
+      }
+    },
+    "faqTitle": "Notas sobre los precios",
+    "faq": [
+      "Los precios no incluyen IVA, GST ni otros impuestos aplicables.",
+      "El hardware (terminales, lectores, impresoras) se adquiere por separado al proveedor que usted elija.",
+      "Los planes pueden variar según el mercado, en función de los módulos disponibles."
+    ]
+  },
+  "integrations": {
+    "title": "Integraciones e informes",
+    "intro": "Budify se conecta con el hardware y las herramientas financieras que utilizan los operadores y genera exportaciones para informes regulatorios. La disponibilidad varía según el mercado.",
+    "groups": {
+      "hardware": {
+        "title": "Hardware",
+        "body": "Compatible con terminales POS Android, lectores de códigos de barras e impresoras de recibos. Los dispositivos compatibles se indican durante la incorporación."
+      },
+      "payments": {
+        "title": "Pagos",
+        "body": "Registre pagos en efectivo, con tarjeta y a cuenta. Las integraciones con proveedores de pago dependen de su mercado y se confirman durante la incorporación."
+      },
+      "accounting": {
+        "title": "Exportaciones contables",
+        "body": "Exporte ventas, gastos y valoración de existencias en CSV para su contable o su software de contabilidad."
+      },
+      "api": {
+        "title": "Exportación de datos y API",
+        "body": "Exportaciones CSV programadas hoy; una API documentada y webhooks figuran en nuestra hoja de ruta."
+      }
+    },
+    "traceTitle": "Trazabilidad e informes regulatorios en {country}",
+    "traceIntro": "La lista siguiente muestra el estado de cada opción en su mercado. “Hoja de ruta” significa previsto pero aún no disponible. Budify no presenta informes en su nombre y no es un sistema de trazabilidad de la semilla a la venta con licencia.",
+    "legend": "Leyenda"
+  },
+  "solutions": {
+    "title": "Soluciones por tipo de organización",
+    "intro": "La misma plataforma, configurada según su forma de operar.",
+    "back": "Todas las soluciones",
+    "items": {
+      "dispensaries": {
+        "title": "Dispensarios y minoristas con licencia",
+        "summary": "Caja, existencias y registros para operadores minoristas con licencia.",
+        "body": "Para operadores minoristas con licencia que necesitan un cobro rápido, existencias precisas y registros que resistan una inspección.",
+        "points": [
+          "Cobro con códigos de barras y comprobación del socio",
+          "Existencias por lote y registros de proveedores",
+          "Cierre de caja diario y pista de auditoría"
+        ]
+      },
+      "clubs": {
+        "title": "Clubes de socios y asociaciones",
+        "summary": "Registros de socios, registros de asignación y administración.",
+        "body": "Para asociaciones y clubes de socios privados: gestione los registros de socios, el estado de la membresía, las cuotas y los registros que su junta directiva y las autoridades puedan solicitar.",
+        "points": [
+          "Registro de socios y carnés digitales",
+          "Seguimiento de asignaciones y límites",
+          "Cuotas, cuentas y exportaciones de documentación"
+        ]
+      },
+      "groups": {
+        "title": "Grupos multicentro",
+        "summary": "Control centralizado de ubicaciones y marcas.",
+        "body": "Para operadores con varias ubicaciones: catálogos centralizados, existencias por centro, funciones del personal e informes consolidados.",
+        "points": [
+          "Existencias y permisos por centro",
+          "Informes consolidados",
+          "Personal en varias ubicaciones"
+        ]
+      },
+      "white-label": {
+        "title": "Socios white-label",
+        "summary": "Su marca, nuestra plataforma.",
+        "body": "Para grupos, federaciones y socios tecnológicos que desean ofrecer Budify bajo su propia marca, con un entorno dedicado.",
+        "points": [
+          "Marca personalizada",
+          "Entorno dedicado y región de datos",
+          "Soporte de incorporación y migración"
+        ]
+      }
+    }
+  },
+  "compliance": {
+    "title": "Centro de cumplimiento",
+    "intro": "Cómo apoya Budify el mantenimiento de registros y la elaboración de informes en cada mercado. Se trata de información general sobre nuestro software, no de asesoramiento jurídico.",
+    "disclaimer": "Borrador – debe ser revisado por asesoría jurídica local cualificada antes del lanzamiento. Las leyes cambian; Budify no garantiza que el uso del software convierta a ningún operador en cumplidor de la normativa.",
+    "yourMarket": "Su mercado",
+    "allMarkets": "Todos los mercados",
+    "laws": "Leyes principales",
+    "regime": "Contexto regulatorio",
+    "advertising": "Publicidad y posicionamiento",
+    "support": "Cómo ayuda Budify",
+    "caveat": "Importante",
+    "trace": "Opciones de informes",
+    "legalLinks": "Información legal para este mercado",
+    "englishOnly": "Este resumen está disponible actualmente solo en inglés y pendiente de revisión profesional.",
+    "viewMarket": "Ver {country}",
+    "ageLabel": "Edad mínima en este sitio: {age}",
+    "positioningLabel": "Posicionamiento en este sitio",
+    "positioning": {
+      "dispensary": "Software para operadores minoristas con licencia",
+      "association": "Software de administración para asociaciones",
+      "medical": "Software para clínicas y farmacias con licencia",
+      "private-club": "Software de administración para clubes de socios privados",
+      "pilot": "Software de registros para programas piloto autorizados"
+    }
+  },
+  "resources": {
+    "title": "Recursos",
+    "intro": "Guías prácticas para operadores. Solo contenido empresarial: sin información sobre productos, variedades ni precios.",
+    "readTime": "{minutes} min de lectura",
+    "englishOnly": "Los artículos están disponibles actualmente solo en inglés."
+  },
+  "caseStudies": {
+    "title": "Casos de éxito",
+    "intro": "Solo publicamos historias de clientes verificables y aprobadas por el propio cliente.",
+    "emptyTitle": "Las historias de clientes están en preparación",
+    "emptyBody": "No publicamos testimonios de relleno. Si desea ver cómo utilizan Budify los operadores de su mercado, con gusto organizaremos una llamada de referencia durante su demostración.",
+    "cta": "Solicitar una demostración"
+  },
+  "contact": {
+    "title": "Solicitar una demostración",
+    "intro": "Cuéntenos sobre su actividad y le responderemos en un plazo de dos días hábiles. Este formulario es solo para consultas comerciales.",
+    "fields": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico de trabajo",
+      "company": "Organización",
+      "role": "Su cargo",
+      "country": "País",
+      "phone": "Teléfono (opcional)",
+      "message": "¿En qué podemos ayudarle?",
+      "type": "Tipo de organización"
+    },
+    "types": {
+      "dispensary": "Dispensario o minorista con licencia",
+      "club": "Club de socios o asociación",
+      "group": "Grupo multicentro",
+      "partner": "Socio white-label o tecnológico",
+      "other": "Otra empresa"
+    },
+    "consent": {
+      "label": "Acepto que Budify trate los datos personales que introduzco para responder a mi consulta, según se describe en la {privacy}.",
+      "privacyLink": "Política de privacidad",
+      "purpose": "Finalidad: utilizamos sus datos únicamente para responder a su consulta y organizar una demostración. Base jurídica: su consentimiento. Puede retirar su consentimiento en cualquier momento escribiendo a {email}."
+    },
+    "sms": {
+      "label": "Opcional: deseo recibir SMS sobre mi solicitud de demostración. El consentimiento no es condición para ninguna compra. Pueden aplicarse tarifas de mensajes y datos. Responda STOP para cancelar o HELP para obtener ayuda."
+    },
+    "newsletter": {
+      "label": "Opcional: deseo recibir novedades empresariales ocasionales. Recibiré un correo electrónico para confirmar mi suscripción.",
+      "casl": "Puede darse de baja en cualquier momento. Remitente: Budify, {address}."
+    },
+    "submit": "Enviar solicitud",
+    "sending": "Enviando…",
+    "success": "Gracias. Hemos recibido su solicitud y nos pondremos en contacto con usted en breve.",
+    "successNewsletter": "Revise su bandeja de entrada para confirmar su suscripción.",
+    "error": "Se ha producido un error. Inténtelo de nuevo o escriba a {email}.",
+    "rateLimited": "Demasiadas solicitudes. Espere unos minutos e inténtelo de nuevo.",
+    "invalid": "Revise los campos resaltados.",
+    "consentRequired": "Se requiere el consentimiento para enviar este formulario.",
+    "businessOnly": "Solo consultas comerciales. No respondemos a solicitudes de consumidores sobre productos de cannabis.",
+    "confirmed": "Gracias: su suscripción está confirmada.",
+    "confirmInvalid": "Este enlace de confirmación no es válido o ha caducado.",
+    "confirmEmail": {
+      "subject": "Confirme su suscripción a las novedades de Budify",
+      "body": "Confirme su suscripción abriendo este enlace: {link}",
+      "ignore": "Si no lo solicitó, ignore este mensaje: no se le suscribirá."
+    }
+  },
+  "legal": {
+    "hubTitle": "Centro legal",
+    "hubIntro": "Información legal para {country}. Otras jurisdicciones se indican a continuación.",
+    "draftBanner": "Borrador – debe ser revisado por asesoría jurídica local cualificada antes del lanzamiento.",
+    "translationPending": "La traducción profesional de esta página está pendiente. Se muestra el texto en inglés, que es la versión de referencia.",
+    "lastUpdated": "Versión borrador: {date}",
+    "jurisdiction": "Jurisdicción: {country}",
+    "otherJurisdictions": "Otras jurisdicciones",
+    "titles": {
+      "privacy": "Política de privacidad",
+      "cookies": "Política de cookies",
+      "terms": "Condiciones del servicio",
+      "acceptable-use": "Política de uso aceptable",
+      "dpa": "Acuerdo de encargo del tratamiento de datos",
+      "accessibility": "Declaración de accesibilidad",
+      "impressum": "Impressum",
+      "aviso-legal": "Aviso legal",
+      "company-details": "Datos de la empresa",
+      "paia-manual": "Manual PAIA"
+    },
+    "backToHub": "Volver al centro legal",
+    "onThisPage": "En esta página",
+    "privacyChoices": {
+      "title": "Sus opciones de privacidad",
+      "analytics": "Permitir analítica",
+      "marketing": "Permitir marketing",
+      "optOutAll": "Oponerme a la venta o al uso compartido y a las cookies no esenciales",
+      "save": "Guardar mis preferencias",
+      "saved": "Sus preferencias se han guardado."
+    },
+    "subProcessors": {
+      "title": "Subencargados del tratamiento",
+      "intro": "Estos terceros tratan datos personales por cuenta de Budify. Actualizamos esta lista antes de incorporar o sustituir a un subencargado.",
+      "name": "Nombre",
+      "purpose": "Finalidad",
+      "location": "Ubicación",
+      "data": "Datos",
+      "status": "Estado",
+      "transfer": "Base de la transferencia",
+      "reviewed": "Última revisión: {date}",
+      "statuses": {
+        "planned": "Previsto – por confirmar",
+        "optional": "Solo si se activa",
+        "active": "Activo"
+      }
+    },
+    "security": {
+      "title": "Seguridad",
+      "intro": "Diseñamos Budify para que los datos de cada operador estén separados de los de cualquier otro operador.",
+      "items": [
+        {
+          "title": "Aislamiento de inquilinos",
+          "body": "Los datos de cada organización se separan a nivel de base de datos mediante reglas de acceso por fila."
+        },
+        {
+          "title": "Acceso basado en funciones",
+          "body": "Propietarios, gerentes y cajeros solo ven lo que permite su función."
+        },
+        {
+          "title": "Pistas de auditoría",
+          "body": "Las acciones clave se registran con el usuario, la hora y el cambio realizado."
+        },
+        {
+          "title": "Cifrado en tránsito",
+          "body": "Todo el tráfico hacia este sitio web y la plataforma utiliza HTTPS."
+        },
+        {
+          "title": "Ubicación de los datos",
+          "body": "Siempre que es posible, los datos se almacenan en su región. Consulte la lista de subencargados para conocer las ubicaciones."
+        },
+        {
+          "title": "Divulgación responsable",
+          "body": "Si cree haber encontrado una vulnerabilidad, escriba a {email}. Por favor, no acceda a los datos de otros usuarios."
+        }
+      ],
+      "notice": "Actualmente no declaramos ninguna certificación de seguridad de terceros."
+    },
+    "status": {
+      "title": "Estado de la plataforma",
+      "intro": "Estado del servicio en directo e historial de incidencias.",
+      "open": "Abrir la página de estado",
+      "notConfigured": "La página pública de estado aún no está configurada. Para asuntos urgentes, escriba a {email}."
+    }
+  },
+  "a11y": {
+    "statement": {
+      "intro": "Budify se compromete a que este sitio web sea utilizable por todas las personas. Nuestro objetivo es cumplir las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.2 de nivel AA.",
+      "feedback": "Si tiene dificultades para utilizar cualquier parte de este sitio, escriba a {email} y le responderemos en un plazo de cinco días hábiles.",
+      "limits": "Esta declaración es un borrador. Todavía no se ha completado una evaluación formal de conformidad."
+    },
+    "externalLink": "Enlace externo",
+    "newWindow": "se abre en una pestaña nueva",
+    "currentPage": "página actual"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "body": "La página que busca no existe o ha cambiado de ubicación.",
+    "home": "Ir a la página de inicio",
+    "regions": "Elegir otro país o idioma"
+  }
+}

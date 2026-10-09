@@ -1,0 +1,9 @@
+{
+  "_note": "Indicative list prices per currency (ex tax, per month, per account). Starter/Growth ZAR prices mirror the current Budify price list; all other currencies are marketing placeholders – confirm before launch. Growth = warehouse plus up to 5 stores.",
+  "annualDiscountPercent": 20,
+  "plans": {
+    "starter": { "prices": { "ZAR": 499, "USD": 29, "CAD": 39, "EUR": 27, "CHF": 26, "GBP": 24, "AUD": 45, "THB": 990 }, "stores": 1 },
+    "growth": { "prices": { "ZAR": 999, "USD": 59, "CAD": 79, "EUR": 55, "CHF": 52, "GBP": 47, "AUD": 89, "THB": 1990 }, "stores": 5 },
+    "enterprise": { "prices": null, "stores": null }
+  }
+}

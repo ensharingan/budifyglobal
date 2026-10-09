@@ -1,0 +1,131 @@
+{
+  "_meta": {"language":"nl","status":"core-only machine-draft – remaining keys fall back to English; requires professional review"},
+  "nav": {
+    "primary": "Hoofdnavigatie",
+    "features": "Functies",
+    "pricing": "Prijzen",
+    "integrations": "Integraties",
+    "solutions": "Oplossingen",
+    "compliance": "Compliancecentrum",
+    "resources": "Bronnen",
+    "caseStudies": "Casestudy’s",
+    "bookDemo": "Demo aanvragen",
+    "menu": "Menu",
+    "closeMenu": "Menu sluiten",
+    "home": "Budify startpagina"
+  },
+  "ageGate": {
+    "title": "Uitsluitend voor zakelijke gebruikers",
+    "body": "Deze website is bedoeld voor ondernemers en professionals in de gereguleerde cannabissector. Zij bevat geen producten, prijzen of aanbiedingen voor consumenten.",
+    "checkbox": "Ik ben {age}+ en een ondernemer of professional in deze sector.",
+    "enter": "Site betreden",
+    "leave": "Ik kom niet in aanmerking",
+    "leftTitle": "Dank u wel",
+    "leftBody": "Deze website is uitsluitend bedoeld voor zakelijke gebruikers van {age}+. U heeft de site niet betreden.",
+    "reconsider": "Ik heb een fout gemaakt – terug",
+    "cookieNote": "Door “Site betreden” te selecteren, wordt uw antwoord opgeslagen in een first-party cookie die strikt noodzakelijk is voor deze functie (30 dagen).",
+    "mustConfirm": "Vink het vakje aan om door te gaan."
+  },
+  "cookie": {
+    "title": "Cookies en vergelijkbare technologieën",
+    "body": "Wij gebruiken strikt noodzakelijke cookies om deze site te laten functioneren. Met uw toestemming willen wij ook analytische cookies gebruiken om te begrijpen hoe de site wordt gebruikt. Wij gebruiken geen advertentiecookies, tenzij u deze accepteert.",
+    "bodyOptOut": "Wij gebruiken strikt noodzakelijke cookies om deze site te laten functioneren en, tenzij u zich hiervoor afmeldt, analyses om de site te verbeteren. Wij respecteren het Global Privacy Control-signaal.",
+    "bodyNotice": "Wij gebruiken cookies om deze site te laten functioneren en om te begrijpen hoe de site wordt gebruikt. U kunt uw keuze op elk moment wijzigen.",
+    "acceptAll": "Alles accepteren",
+    "rejectAll": "Alles weigeren",
+    "customize": "Aanpassen",
+    "save": "Keuzes opslaan",
+    "close": "Sluiten",
+    "necessary": {
+      "title": "Noodzakelijk",
+      "desc": "Nodig voor beveiliging, uw keuze van land en taal, de bevestiging als zakelijke gebruiker en het onthouden van deze cookiekeuzes. Altijd actief."
+    },
+    "analytics": {
+      "title": "Analytisch",
+      "desc": "Helpt ons te begrijpen welke pagina’s nuttig zijn. Uitgeschakeld totdat u accepteert."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "desc": "Wordt gebruikt om onze eigen advertenties te meten en te personaliseren. Wij gebruiken momenteel geen marketingcookies."
+    },
+    "alwaysOn": "Altijd actief",
+    "readPolicy": "Lees ons cookiebeleid",
+    "settings": "Cookie-instellingen",
+    "gpc": "Uw browser heeft een Global Privacy Control-signaal verzonden, daarom zijn analytische en marketingcookies uitgeschakeld.",
+    "withdraw": "U kunt uw toestemming op elk moment wijzigen of intrekken via “Cookie-instellingen” in de footer.",
+    "region": "Bannermodus: {mode}",
+    "saved": "Uw cookiekeuzes zijn opgeslagen."
+  },
+  "footer": {
+    "tagline": "Software voor gereguleerde cannabisondernemers.",
+    "notice": "Budify is software. Klanten zijn zelf verantwoordelijk voor het bezit van alle vereiste vergunningen en voor naleving van de lokale wetgeving.",
+    "noteAssociation": "Budify levert beheersoftware voor teelt- en ledenverenigingen. Budify maakt geen reclame voor en promoot geen vereniging of cannabisproduct.",
+    "noteMedical": "Budify is bedrijfssoftware voor erkende klinieken en apotheken. Het is geen klinisch systeem, geeft geen medisch advies en maakt geen reclame voor geneesmiddelen.",
+    "notePrivate": "Budify levert beheersoftware voor besloten ledenclubs. Budify promoot of faciliteert de verkoop van cannabis niet.",
+    "product": "Product",
+    "company": "Bedrijf",
+    "legalTitle": "Juridisch",
+    "links": {
+      "privacy": "Privacybeleid",
+      "cookies": "Cookiebeleid",
+      "terms": "Servicevoorwaarden",
+      "acceptableUse": "Acceptabel gebruik",
+      "dpa": "Verwerkersovereenkomst",
+      "accessibility": "Toegankelijkheid",
+      "cookieSettings": "Cookie-instellingen",
+      "doNotSell": "Mijn persoonsgegevens niet verkopen of delen",
+      "impressum": "Impressum",
+      "avisoLegal": "Aviso legal",
+      "companyDetails": "Bedrijfsgegevens",
+      "privacyOfficer": "Privacyfunctionaris (Quebec)",
+      "informationOfficer": "Informatiefunctionaris",
+      "paiaManual": "PAIA-handleiding",
+      "subProcessors": "Subverwerkers",
+      "security": "Beveiliging",
+      "status": "Status",
+      "legalHub": "Juridisch centrum"
+    },
+    "region": "Land en taal",
+    "copyright": "© {year} Budify. Alle rechten voorbehouden."
+  },
+  "hero": {
+    "eyebrow": "Uitsluitend B2B-software",
+    "title": {
+      "dispensary": "Het kassa- en ledenplatform voor gereguleerde cannabisondernemers",
+      "association": "Ledenadministratiesoftware voor cannabisverenigingen",
+      "medical": "Software voor uitgifte en voorraadbeheer voor erkende klinieken en apotheken",
+      "private-club": "Leden- en voorraadsoftware voor besloten ledenclubs",
+      "pilot": "Registratiesoftware voor erkende cannabisproefprogramma’s"
+    },
+    "subtitle": {
+      "dispensary": "Beheer kassa, lidmaatschappen, voorraad en auditklare registraties vanuit één systeem – voor één vestiging of meerdere.",
+      "association": "Beheer ledenregisters, lidmaatschapsstatus, toewijzingsregistraties en documentatie-exports – ontwikkeld voor de administratieve verplichtingen van verenigingen.",
+      "medical": "Houd nauwkeurige voorraad-, uitgifte- en verkoopregistraties bij met volledige audittrails en exports voor uw compliance-processen.",
+      "private-club": "Beheer ledenregisters, voorraad, registraties en financiën van uw club, met audittrails en duidelijke autorisaties.",
+      "pilot": "Houd deelnemersregisters, registraties van gecontroleerde uitgifte en exporteerbare documentatie bij voor erkende programma’s."
+    },
+    "ctaPrimary": "Demo aanvragen",
+    "ctaSecondary": "Bekijk de functies",
+    "disclaimer": "Budify is software voor organisaties met een vergunning of die rechtmatig actief zijn. Het is geen marktplaats.",
+    "mockLabel": "Illustratie van het Budify-dashboard"
+  },
+  "selector": {
+    "button": "Land en taal: {country}, {language}",
+    "title": "Kies uw land en taal",
+    "intro": "Budify past juridische informatie, privacy-instellingen en inhoud aan op uw land. Wij selecteren vooraf een land op basis van uw verbinding, maar u kunt altijd een ander land kiezen.",
+    "country": "Land",
+    "language": "Taal",
+    "go": "Ga",
+    "current": "Huidige selectie",
+    "close": "Sluiten",
+    "label": "Land of taal wijzigen",
+    "remember": "Wij onthouden uw keuze in een cookie die strikt noodzakelijk is voor deze functie."
+  },
+  "contact": {
+    "consent": {
+      "label": "Ik geef toestemming aan Budify om de door mij ingevoerde persoonsgegevens te verwerken om mijn aanvraag te beantwoorden, zoals beschreven in het {privacy}.",
+      "privacyLink": "Privacybeleid",
+      "purpose": "Doel: wij gebruiken uw gegevens uitsluitend om uw aanvraag te beantwoorden en een demo te plannen. Rechtsgrond: uw toestemming. U kunt uw toestemming op elk moment intrekken via een e-mail aan {email}."
+    }
+  }
+}

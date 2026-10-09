@@ -1,0 +1,131 @@
+{
+  "_meta": {"language":"it","status":"core-only machine-draft – remaining keys fall back to English; requires professional review"},
+  "nav": {
+    "primary": "Navigazione principale",
+    "features": "Funzionalità",
+    "pricing": "Prezzi",
+    "integrations": "Integrazioni",
+    "solutions": "Soluzioni",
+    "compliance": "Centro conformità",
+    "resources": "Risorse",
+    "caseStudies": "Casi di studio",
+    "bookDemo": "Prenota una demo",
+    "menu": "Menu",
+    "closeMenu": "Chiudi il menu",
+    "home": "Pagina iniziale di Budify"
+  },
+  "ageGate": {
+    "title": "Solo per operatori professionali",
+    "body": "Questo sito web è destinato a operatori e professionisti del settore regolamentato della cannabis. Non contiene prodotti, prezzi né offerte per i consumatori.",
+    "checkbox": "Ho almeno {age} anni e sono un operatore o un professionista del settore.",
+    "enter": "Accedi al sito",
+    "leave": "Non ne ho i requisiti",
+    "leftTitle": "Grazie",
+    "leftBody": "Questo sito web è destinato esclusivamente a operatori professionali di almeno {age} anni. Non ha effettuato l’accesso al sito.",
+    "reconsider": "Ho commesso un errore – torna indietro",
+    "cookieNote": "Selezionando «Accedi al sito», la Sua risposta viene memorizzata in un cookie proprio, strettamente necessario per questa funzione (30 giorni).",
+    "mustConfirm": "Spunti la casella per continuare."
+  },
+  "cookie": {
+    "title": "Cookie e tecnologie simili",
+    "body": "Utilizziamo cookie strettamente necessari per il funzionamento di questo sito. Con il Suo consenso desideriamo inoltre utilizzare cookie analitici per comprendere come viene utilizzato il sito. Non utilizziamo cookie pubblicitari, a meno che Lei non li accetti.",
+    "bodyOptOut": "Utilizziamo cookie strettamente necessari per il funzionamento di questo sito e, salvo Sua opposizione, strumenti di analisi per migliorarlo. Rispettiamo il segnale Global Privacy Control.",
+    "bodyNotice": "Utilizziamo i cookie per far funzionare questo sito e per comprenderne l’utilizzo. Può modificare la Sua scelta in qualsiasi momento.",
+    "acceptAll": "Accetta tutti",
+    "rejectAll": "Rifiuta tutti",
+    "customize": "Personalizza",
+    "save": "Salva le scelte",
+    "close": "Chiudi",
+    "necessary": {
+      "title": "Necessari",
+      "desc": "Indispensabili per la sicurezza, la scelta del Paese e della lingua, la conferma dell’operatore e per ricordare queste scelte sui cookie. Sempre attivi."
+    },
+    "analytics": {
+      "title": "Analitici",
+      "desc": "Ci aiutano a capire quali pagine sono utili. Disattivati finché non li accetta."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "desc": "Utilizzati per misurare e personalizzare la nostra pubblicità. Al momento non utilizziamo alcun cookie di marketing."
+    },
+    "alwaysOn": "Sempre attivi",
+    "readPolicy": "Legga la nostra Cookie Policy",
+    "settings": "Impostazioni dei cookie",
+    "gpc": "Il Suo browser ha inviato un segnale Global Privacy Control, pertanto i cookie analitici e di marketing sono disattivati.",
+    "withdraw": "Può modificare o revocare il Suo consenso in qualsiasi momento tramite «Impostazioni dei cookie» nel piè di pagina.",
+    "region": "Modalità del banner: {mode}",
+    "saved": "Le Sue scelte sui cookie sono state salvate."
+  },
+  "footer": {
+    "tagline": "Software per operatori del settore regolamentato della cannabis.",
+    "notice": "Budify è un software. I clienti sono responsabili del possesso di tutte le licenze e del rispetto della normativa locale.",
+    "noteAssociation": "Budify fornisce software gestionale per associazioni di coltivazione e di soci. Non pubblicizza né promuove alcuna associazione né alcun prodotto a base di cannabis.",
+    "noteMedical": "Budify è un software gestionale per cliniche e farmacie autorizzate. Non è un sistema clinico, non fornisce consulenza medica e non pubblicizza alcun medicinale.",
+    "notePrivate": "Budify fornisce software gestionale per circoli privati di soci. Non promuove né agevola la vendita di cannabis.",
+    "product": "Prodotto",
+    "company": "Azienda",
+    "legalTitle": "Note legali",
+    "links": {
+      "privacy": "Informativa sulla privacy",
+      "cookies": "Cookie Policy",
+      "terms": "Condizioni di servizio",
+      "acceptableUse": "Utilizzo accettabile",
+      "dpa": "Accordo sul trattamento dei dati",
+      "accessibility": "Accessibilità",
+      "cookieSettings": "Impostazioni dei cookie",
+      "doNotSell": "Non vendere né condividere i miei dati personali",
+      "impressum": "Impressum",
+      "avisoLegal": "Aviso legal",
+      "companyDetails": "Dati societari",
+      "privacyOfficer": "Responsabile della privacy (Québec)",
+      "informationOfficer": "Responsabile dell’informazione",
+      "paiaManual": "Manuale PAIA",
+      "subProcessors": "Sub-responsabili del trattamento",
+      "security": "Sicurezza",
+      "status": "Stato",
+      "legalHub": "Centro legale"
+    },
+    "region": "Paese e lingua",
+    "copyright": "© {year} Budify. Tutti i diritti riservati."
+  },
+  "hero": {
+    "eyebrow": "Solo software B2B",
+    "title": {
+      "dispensary": "La piattaforma di punto vendita e gestione dei soci per gli operatori del settore regolamentato della cannabis",
+      "association": "Software di gestione dei soci per le associazioni del settore della cannabis",
+      "medical": "Software di dispensazione e gestione delle scorte per cliniche e farmacie autorizzate",
+      "private-club": "Software di gestione dei soci e delle scorte per circoli privati",
+      "pilot": "Software di registrazione per programmi pilota autorizzati nel settore della cannabis"
+    },
+    "subtitle": {
+      "dispensary": "Gestisca cassa, iscrizioni, inventario e registri pronti per gli audit da un unico sistema, per un solo punto vendita o per molti.",
+      "association": "Gestisca registri dei soci, stato di iscrizione, registrazioni delle assegnazioni ed esportazioni documentali, pensati per gli adempimenti amministrativi delle associazioni.",
+      "medical": "Mantenga registrazioni accurate di scorte, dispensazione e vendite, con tracciabilità completa ed esportazioni per i Suoi processi di conformità.",
+      "private-club": "Gestisca registri dei soci, scorte, registrazioni e finanze del Suo circolo, con tracciabilità e autorizzazioni chiare.",
+      "pilot": "Tenga registri dei partecipanti, registrazioni di dispensazione controllata e documentazione esportabile per programmi autorizzati."
+    },
+    "ctaPrimary": "Prenota una demo",
+    "ctaSecondary": "Scopra le funzionalità",
+    "disclaimer": "Budify è un software per organizzazioni autorizzate o che operano legalmente. Non è un marketplace.",
+    "mockLabel": "Illustrazione della dashboard di Budify"
+  },
+  "selector": {
+    "button": "Paese e lingua: {country}, {language}",
+    "title": "Scelga il Paese e la lingua",
+    "intro": "Budify adatta le informazioni legali, le impostazioni sulla privacy e i contenuti al Suo Paese. Preselezioniamo un Paese in base alla Sua connessione, ma può sempre sceglierne un altro.",
+    "country": "Paese",
+    "language": "Lingua",
+    "go": "Vai",
+    "current": "Selezione attuale",
+    "close": "Chiudi",
+    "label": "Cambia Paese o lingua",
+    "remember": "Memorizziamo la Sua scelta in un cookie strettamente necessario per questa funzione."
+  },
+  "contact": {
+    "consent": {
+      "label": "Acconsento a che Budify tratti i dati personali da me inseriti per rispondere alla mia richiesta, come descritto nell’{privacy}.",
+      "privacyLink": "Informativa sulla privacy",
+      "purpose": "Finalità: utilizziamo i Suoi dati esclusivamente per rispondere alla Sua richiesta e organizzare una demo. Base giuridica: il Suo consenso. Può revocare il consenso in qualsiasi momento scrivendo a {email}."
+    }
+  }
+}

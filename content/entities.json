@@ -1,0 +1,27 @@
+{
+  "_note": "Company identification data shown on Impressum / Aviso legal / Company details pages. Replace every [TO BE COMPLETED] before launch. `npm run check` warns about placeholders; with STRICT_LAUNCH=1 it fails the build.",
+  "global": {
+    "brand": "Budify",
+    "legalName": "[TO BE COMPLETED – Budify legal entity]",
+    "registeredAddress": "[TO BE COMPLETED]",
+    "registrationNumber": "[TO BE COMPLETED]",
+    "vatNumber": "[TO BE COMPLETED]",
+    "directors": "[TO BE COMPLETED]",
+    "generalEmail": "info@budify.co.za",
+    "privacyEmail": "privacy@budify.co.za",
+    "legalEmail": "legal@budify.co.za",
+    "phone": "[TO BE COMPLETED]"
+  },
+  "markets": {
+    "US": {},
+    "CA": { "privacyOfficerName": "[TO BE COMPLETED – person in charge of protection of personal information (Quebec)]" },
+    "DE": { "authorisedRepresentative": "[TO BE COMPLETED]", "registerEntry": "[TO BE COMPLETED – Handelsregister / court / number]", "vatId": "[TO BE COMPLETED – USt-IdNr.]", "supervisoryAuthority": "n/a" },
+    "ES": { "registerEntry": "[TO BE COMPLETED – Registro Mercantil]", "taxId": "[TO BE COMPLETED – NIF/CIF]" },
+    "NL": { "kvk": "[TO BE COMPLETED – KvK number]", "btw": "[TO BE COMPLETED – BTW-id]" },
+    "CH": { "uid": "[TO BE COMPLETED – UID (CHE-xxx.xxx.xxx)]", "representative": "[TO BE COMPLETED]" },
+    "GB": { "companiesHouseNumber": "[TO BE COMPLETED]", "registeredOffice": "[TO BE COMPLETED]", "icoRegistration": "[TO BE COMPLETED – ICO registration reference]", "vatNumber": "[TO BE COMPLETED]" },
+    "AU": { "abn": "[TO BE COMPLETED – ABN]", "acn": "[TO BE COMPLETED – ACN]" },
+    "TH": { "taxId": "[TO BE COMPLETED]" },
+    "ZA": { "informationOfficer": "[TO BE COMPLETED – Information Officer name]", "informationOfficerEmail": "privacy@budify.co.za", "regulatorRegistration": "[TO BE COMPLETED – Information Regulator registration no.]", "registrationNumber": "[TO BE COMPLETED – CIPC reg. no.]", "paiaManualUrl": "[TO BE COMPLETED – URL of PAIA manual PDF]" }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "_meta": {"language":"ca","status":"core-only machine-draft – remaining keys fall back to English; requires professional review"},
+  "nav": {
+    "primary": "Navegació principal",
+    "features": "Funcionalitats",
+    "pricing": "Preus",
+    "integrations": "Integracions",
+    "solutions": "Solucions",
+    "compliance": "Centre de compliment normatiu",
+    "resources": "Recursos",
+    "caseStudies": "Casos d’estudi",
+    "bookDemo": "Sol·liciti una demostració",
+    "menu": "Menú",
+    "closeMenu": "Tanca el menú",
+    "home": "Pàgina d’inici de Budify"
+  },
+  "ageGate": {
+    "title": "Només per a operadors professionals",
+    "body": "Aquest lloc web està destinat a operadors i professionals del sector regulat del cànnabis. No conté productes, preus ni ofertes per a consumidors.",
+    "checkbox": "Tinc {age}+ anys i sóc un operador o professional del sector.",
+    "enter": "Accedeix al lloc",
+    "leave": "No compleixo els requisits",
+    "leftTitle": "Gràcies",
+    "leftBody": "Aquest lloc web està destinat exclusivament a operadors professionals de {age}+ anys. No ha accedit al lloc.",
+    "reconsider": "M’he equivocat – torna enrere",
+    "cookieNote": "En seleccionar «Accedeix al lloc», la seva resposta es desa en una galeta pròpia estrictament necessària per a aquesta funció (30 dies).",
+    "mustConfirm": "Marqui la casella per continuar."
+  },
+  "cookie": {
+    "title": "Galetes i tecnologies similars",
+    "body": "Utilitzem galetes estrictament necessàries per fer funcionar aquest lloc. Amb el seu permís, també voldríem utilitzar galetes analítiques per entendre com s’utilitza el lloc. No utilitzem galetes publicitàries tret que les accepti.",
+    "bodyOptOut": "Utilitzem galetes estrictament necessàries per fer funcionar aquest lloc i, tret que s’hi oposi, eines d’analítica per millorar-lo. Respectem el senyal Global Privacy Control.",
+    "bodyNotice": "Utilitzem galetes per fer funcionar aquest lloc i per entendre com s’utilitza. Pot canviar la seva elecció en qualsevol moment.",
+    "acceptAll": "Accepta-ho tot",
+    "rejectAll": "Rebutja-ho tot",
+    "customize": "Personalitza",
+    "save": "Desa les opcions",
+    "close": "Tanca",
+    "necessary": {
+      "title": "Necessàries",
+      "desc": "Imprescindibles per a la seguretat, l’elecció de país i idioma, la confirmació d’operador i el recordatori d’aquestes opcions de galetes. Sempre activades."
+    },
+    "analytics": {
+      "title": "Analítiques",
+      "desc": "Ens ajuden a entendre quines pàgines són útils. Desactivades fins que les accepti."
+    },
+    "marketing": {
+      "title": "Màrqueting",
+      "desc": "S’utilitzen per mesurar i personalitzar la nostra publicitat. Actualment no utilitzem cap galeta de màrqueting."
+    },
+    "alwaysOn": "Sempre activades",
+    "readPolicy": "Llegeixi la nostra Política de galetes",
+    "settings": "Configuració de galetes",
+    "gpc": "El seu navegador ha enviat un senyal Global Privacy Control, de manera que les galetes analítiques i de màrqueting estan desactivades.",
+    "withdraw": "Pot canviar o retirar el seu consentiment en qualsevol moment mitjançant «Configuració de galetes» al peu de pàgina.",
+    "region": "Mode del bàner: {mode}",
+    "saved": "S’han desat les seves opcions de galetes."
+  },
+  "footer": {
+    "tagline": "Programari per a operadors regulats del cànnabis.",
+    "notice": "Budify és programari. Els clients són responsables de disposar de totes les llicències i de complir la normativa local.",
+    "noteAssociation": "Budify ofereix programari d’administració per a associacions de cultiu i de persones sòcies. No fa publicitat ni promociona cap associació ni cap producte de cànnabis.",
+    "noteMedical": "Budify és programari de gestió per a clíniques i farmàcies autoritzades. No és un sistema clínic, no ofereix assessorament mèdic i no fa publicitat de cap medicament.",
+    "notePrivate": "Budify ofereix programari d’administració per a clubs privats de persones sòcies. No promociona ni facilita la venda de cànnabis.",
+    "product": "Producte",
+    "company": "Empresa",
+    "legalTitle": "Informació legal",
+    "links": {
+      "privacy": "Política de privacitat",
+      "cookies": "Política de galetes",
+      "terms": "Condicions del servei",
+      "acceptableUse": "Ús acceptable",
+      "dpa": "Contracte d’encarregat del tractament",
+      "accessibility": "Accessibilitat",
+      "cookieSettings": "Configuració de galetes",
+      "doNotSell": "No venguis ni comparteixis la meva informació personal",
+      "impressum": "Impressum",
+      "avisoLegal": "Aviso legal",
+      "companyDetails": "Dades de l’empresa",
+      "privacyOfficer": "Responsable de privacitat (Quebec)",
+      "informationOfficer": "Responsable d’informació",
+      "paiaManual": "Manual PAIA",
+      "subProcessors": "Subencarregats del tractament",
+      "security": "Seguretat",
+      "status": "Estat",
+      "legalHub": "Centre legal"
+    },
+    "region": "País i idioma",
+    "copyright": "© {year} Budify. Tots els drets reservats."
+  },
+  "hero": {
+    "eyebrow": "Només programari B2B",
+    "title": {
+      "dispensary": "La plataforma de punt de venda i gestió de persones sòcies per a operadors regulats del cànnabis",
+      "association": "Programari d’administració de persones sòcies per a associacions de cànnabis",
+      "medical": "Programari de dispensació i estoc per a clíniques i farmàcies autoritzades",
+      "private-club": "Programari de gestió de persones sòcies i estoc per a clubs privats",
+      "pilot": "Programari de registres per a programes pilot de cànnabis autoritzats"
+    },
+    "subtitle": {
+      "dispensary": "Gestioni la caixa, les afiliacions, l’inventari i els registres preparats per a auditoria des d’un sol sistema, en un únic establiment o en molts.",
+      "association": "Gestioni els registres de persones sòcies, l’estat d’afiliació, els registres d’assignació i les exportacions documentals, pensats per a les obligacions administratives de les associacions.",
+      "medical": "Mantingui registres precisos d’estoc, dispensació i vendes, amb traçabilitat completa i exportacions per als seus processos de compliment normatiu.",
+      "private-club": "Gestioni els registres de persones sòcies, l’estoc, els registres i les finances del seu club, amb traçabilitat i permisos clars.",
+      "pilot": "Mantingui registres de participants, registres de dispensació controlada i documentació exportable per a programes autoritzats."
+    },
+    "ctaPrimary": "Sol·liciti una demostració",
+    "ctaSecondary": "Vegi les funcionalitats",
+    "disclaimer": "Budify és programari per a organitzacions amb llicència o que operen legalment. No és un marketplace.",
+    "mockLabel": "Il·lustració del tauler de Budify"
+  },
+  "selector": {
+    "button": "País i idioma: {country}, {language}",
+    "title": "Triï el seu país i idioma",
+    "intro": "Budify adapta la informació legal, la configuració de privacitat i el contingut al seu país. Preseleccionem un país a partir de la seva connexió, però sempre en pot triar un altre.",
+    "country": "País",
+    "language": "Idioma",
+    "go": "Vés-hi",
+    "current": "Selecció actual",
+    "close": "Tanca",
+    "label": "Canvia el país o l’idioma",
+    "remember": "Recordem la seva elecció en una galeta estrictament necessària per a aquesta funció."
+  },
+  "contact": {
+    "consent": {
+      "label": "Accepto que Budify tracti les dades personals que he introduït per respondre a la meva consulta, tal com es descriu a la {privacy}.",
+      "privacyLink": "Política de privacitat",
+      "purpose": "Finalitat: utilitzem les seves dades únicament per respondre a la seva consulta i organitzar una demostració. Base jurídica: el seu consentiment. Pot retirar el consentiment en qualsevol moment enviant un correu electrònic a {email}."
+    }
+  }
+}
