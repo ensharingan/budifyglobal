@@ -1,8 +1,8 @@
 import type { MetadataRoute } from 'next';
-import { LOCALES, marketOf } from '@/i18n/locales';
+import { LOCALES, marketOf, countryOf } from '@/i18n/locales';
 import { localizedPath } from '@/i18n/paths';
 import { COUNTRY_CODES } from '@/lib/compliance';
-import { ARTICLES } from '@root/content/articles';
+import { articlesFor } from '@root/content/articles';
 import { abs } from '@/lib/site';
 
 // One sitemap per locale: /sitemap/<locale>.xml, each URL carrying hreflang alternates.
@@ -17,7 +17,7 @@ function pathsFor(locale: string): string[] {
     '/legal', '/sub-processors', '/security', '/status', '/regions',
     ...m.solutions.map((s) => `/solutions/${s}`),
     ...COUNTRY_CODES.map((c) => `/compliance/${c.toLowerCase()}`),
-    ...ARTICLES.map((a) => `/resources/${a.slug}`),
+    ...articlesFor(countryOf(locale)).map((a) => `/resources/${a.slug}`),
     ...m.legalPages.map((p) => `/legal/${p}`)
   ];
 }

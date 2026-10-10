@@ -1,0 +1,1042 @@
+[
+ {
+  "slug": "gb-controlled-medicines-register-basics",
+  "title": "Controlled Medicines Register Basics for UK Clinics",
+  "description": "A practical guide to keeping a controlled medicines register in a UK clinic or pharmacy: entries, running balances, corrections and who signs what.",
+  "minutes": 5,
+  "published": "2026-01-05",
+  "category": "Records & compliance",
+  "keywords": [
+   "controlled medicines register uk",
+   "clinic record keeping software uk",
+   "pharmacy stock register",
+   "controlled drug record keeping",
+   "clinic compliance records uk"
+  ],
+  "sections": [
+   {
+    "heading": "Why the register is the spine of your records",
+    "paras": [
+     "For a licensed clinic or pharmacy in the UK, the controlled medicines register is the document an inspector or auditor is most likely to ask for first. It shows, line by line, what came in, what went out and what should be on the shelf. If it is neat, contemporaneous and internally consistent, it signals a well-run operation. If it is patchy, every other record is read with suspicion.",
+     "The register should never be treated as an afterthought completed at the end of a shift. Build it into the workflow so that each movement is recorded at the moment it happens, by the person who handled it, with a second person confirming where your internal procedure requires it."
+    ]
+   },
+   {
+    "heading": "What every entry should capture",
+    "paras": [
+     "A reliable entry records the date and time, the item and strength as described on your supplier documents, the quantity moved, the running balance after the movement, the reason for the movement, and the names or user IDs of the people involved. Use consistent units throughout so that a balance never needs to be converted by hand.",
+     "Keep a separate section for each item and presentation rather than mixing lines. This makes the running balance meaningful and lets you reconcile a single line in minutes. Where your licence conditions or professional standards specify extra fields, add them as mandatory rather than optional."
+    ]
+   },
+   {
+    "heading": "Corrections without damaging the audit trail",
+    "paras": [
+     "Mistakes happen, and the register must show them honestly. Never overwrite or delete an entry. Instead, add a dated correcting entry that references the original, states the reason and carries the signature or user ID of the person making the correction and, where appropriate, a witness.",
+     "On paper this means strike-throughs that remain legible. In an electronic system it means append-only logging, where the original value, the new value, the user and the timestamp are all preserved. Either way, an unexplained gap or an altered figure is far more damaging than a clearly explained correction."
+    ]
+   },
+   {
+    "heading": "A weekly routine that keeps the register inspection-ready",
+    "paras": [
+     "Set a fixed weekly slot for a register check. Pick a sample of lines, count the physical stock, compare it with the running balance, and record the result with the date and the counter. Rotate the sample so every line is tested over a quarter. Escalate any variance the same day, however small.",
+     "Finally, keep the register retrievable. Decide how long you retain records according to your licence conditions and professional guidance, store older volumes or exports securely, and make sure at least two named people can produce any period on request. Retention periods differ by record type, so confirm yours with the regulator or your adviser."
+    ]
+   },
+   {
+    "heading": "Common register mistakes to avoid",
+    "paras": [
+     "Frequent errors include batching up entries at the end of the day, using abbreviations that only one person understands, recording a balance without checking it against the shelf, and leaving blank lines that could later be filled in. Each of these weakens the register as evidence. A blank line is especially risky because it invites later insertion; draw a line through unused space or use a system that numbers entries sequentially.",
+     "Another trap is relying on memory when a colleague is absent. Provide a written cover arrangement naming who may make entries during leave, and brief them on the format. Finally, make sure keys, passwords and access to the register are controlled, because a register anyone can reach is a register nobody can fully trust. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-daily-stock-reconciliation-routine",
+  "title": "Daily Stock Reconciliation for Licensed UK Pharmacies",
+  "description": "Build a short daily stock reconciliation routine for a licensed clinic or pharmacy that catches variances early and leaves a clear audit trail.",
+  "minutes": 4,
+  "published": "2026-01-19",
+  "category": "Stock & inventory",
+  "keywords": [
+   "stock reconciliation uk pharmacy",
+   "daily stock count routine",
+   "inventory variance report",
+   "clinic inventory management uk",
+   "pharmacy stock control software"
+  ],
+  "sections": [
+   {
+    "heading": "Reconcile daily, not quarterly",
+    "paras": [
+     "A variance found on the day it occurs usually has a simple explanation: a missed entry, a transposed number or an item put on the wrong shelf. A variance found three months later has usually been compounded by dozens of subsequent movements and is close to impossible to untangle.",
+     "A daily reconciliation need not be long. For a small clinic or pharmacy it can be a ten minute task at close of business, focused on controlled or high-risk lines, with a wider rotating count for everything else."
+    ]
+   },
+   {
+    "heading": "The four-step routine",
+    "paras": [
+     "Step one: freeze movements for the line being counted, so nothing is added or removed mid-count. Step two: count the physical stock, ideally by someone other than the person who made the day's entries. Step three: compare the count with the system balance. Step four: record the result, the counter and the time.",
+     "If the figures match, sign off and move on. If they do not, do not adjust the balance straight away. Recount, check the day's movements for omissions, and look at neighbouring lines for a mix-up before raising a variance entry."
+    ]
+   },
+   {
+    "heading": "Recording variances properly",
+    "paras": [
+     "A variance record should state the item, the expected and counted quantities, the difference, the suspected cause if known, the person who investigated, and the outcome. Adjustments should be made through a dedicated adjustment entry with a reason code, never by editing past movements.",
+     "Define an internal tolerance policy in writing. For some lines the tolerance should be zero. Anything outside tolerance should be escalated to a named manager and, where your licence conditions or professional standards require, reported onward. Check the reporting duties that apply to your licence with the regulator."
+    ]
+   },
+   {
+    "heading": "Using trends to improve",
+    "paras": [
+     "Once you have a few months of reconciliation data, review it monthly. Look for repeated variances on the same line, the same shift or the same storage location. Patterns point to process problems such as unclear unit sizes, awkward shelf layouts or handover gaps, not just to individual error.",
+     "Feed the findings back into procedures and training. Keep a short log of changes made and why. During an inspection, evidence that you detect, investigate and learn from variances is more persuasive than a record that appears never to have had any."
+    ]
+   },
+   {
+    "heading": "Making the routine stick",
+    "paras": [
+     "Routines fail when they depend on goodwill. Put the reconciliation on the rota, name the person responsible and a deputy, and have the manager check the completion log weekly. If a day is missed, record why and complete it the next morning rather than quietly skipping.",
+     "Keep tools simple: a count sheet or tablet view that lists expected balances only after the count is entered reduces the temptation to count towards a known figure. Share monthly completion rates with the team so that the habit is visible and valued, not an invisible chore. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-uk-gdpr-patient-records-checklist",
+  "title": "UK GDPR Checklist for Clinic Patient Records",
+  "description": "A practical UK GDPR checklist for clinics and pharmacies covering lawful basis, access controls, retention, subject requests and breach readiness.",
+  "minutes": 4,
+  "published": "2026-02-02",
+  "category": "Data protection",
+  "keywords": [
+   "uk gdpr clinic records",
+   "patient data protection uk",
+   "data protection act 2018 clinic",
+   "special category data records",
+   "clinic data breach procedure uk"
+  ],
+  "sections": [
+   {
+    "heading": "Know what you hold and why",
+    "paras": [
+     "Clinics and pharmacies in the UK handle special category personal data, and that raises the bar under UK GDPR and the Data Protection Act 2018. Start with a simple data map: what categories of data you hold, where each is stored, who can access it, who you share it with and how long you keep it.",
+     "For each category, document the lawful basis and the additional condition for special category data that you rely on. Do not copy a template without checking that it matches what you actually do. Your data protection officer, if you have one, or your adviser should confirm the position."
+    ]
+   },
+   {
+    "heading": "Access control and least privilege",
+    "paras": [
+     "Most real-world breaches in small organisations come from over-broad access. Give each role only the screens and exports it needs. Reception staff rarely need full records; stock controllers rarely need patient identifiers at all.",
+     "Insist on individual logins, never shared accounts, with multi-factor authentication where available. Review the user list monthly and remove leavers the same day. Keep an access log so that you can answer who viewed or exported a record and when."
+    ]
+   },
+   {
+    "heading": "Retention, subject requests and sharing",
+    "paras": [
+     "Set a retention schedule per record type, based on your professional obligations and licence conditions, and apply it. Holding data indefinitely just in case is itself a risk. When the period ends, delete or anonymise in a documented way.",
+     "Prepare a standard process for subject access requests: who receives them, how identity is verified, how the data is gathered and who approves the response. Build the process now so you are not improvising within the statutory response window. Where you share data with suppliers or software providers, make sure there is a written processor agreement."
+    ]
+   },
+   {
+    "heading": "Being ready for a breach",
+    "paras": [
+     "Write a one-page breach response plan. It should say who decides whether an incident is notifiable, how to contain it, how to record it, and how and when to inform the Information Commissioner's Office and affected individuals where required. Keep the contact details for your key people on the same page.",
+     "Run a short tabletop exercise once a year, for example a lost laptop or an email sent to the wrong recipient. Record what you learn. Regulators generally respond better to organisations that can show preparation, prompt action and honest record-keeping."
+    ]
+   },
+   {
+    "heading": "Documentation that proves you did the work",
+    "paras": [
+     "Compliance is judged on evidence. Keep a short folder with your data map, lawful basis notes, retention schedule, processor agreements, training records, access reviews and breach log. Date every document and record its owner and next review.",
+     "Appoint a named lead for data protection even where a formal officer is not required, and give that person time in the diary. Check the Information Commissioner's Office guidance for current requirements, including any registration or fee duties that apply to your organisation, and confirm details with your adviser. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-batch-and-supplier-traceability",
+  "title": "Batch and Supplier Traceability Records for UK Clinics",
+  "description": "How licensed clinics and pharmacies can record batch numbers, supplier details and expiry dates so any item can be traced from goods-in to final use.",
+  "minutes": 4,
+  "published": "2026-02-16",
+  "category": "Records & compliance",
+  "keywords": [
+   "batch traceability records uk",
+   "supplier record keeping clinic",
+   "goods in checklist uk",
+   "expiry date tracking system",
+   "stock traceability software uk"
+  ],
+  "sections": [
+   {
+    "heading": "What traceability means in practice",
+    "paras": [
+     "Traceability means being able to answer, quickly, where a specific batch came from and where every unit of it went. It protects you when a supplier issues a recall notice and it reassures inspectors that you control your supply chain.",
+     "The test is simple: pick any batch number on your shelf and see how long it takes to produce the supplier, the date of receipt, the person who received it, the quantity received, the quantity remaining and the movements in between."
+    ]
+   },
+   {
+    "heading": "A goods-in checklist",
+    "paras": [
+     "Every receipt should follow the same checklist: check the consignment against the supplier paperwork, confirm the supplier is on your approved list, inspect packaging for damage, record batch and expiry details, and store items in the correct conditions immediately.",
+     "Record discrepancies on the spot. If the quantity differs or the paperwork is missing, note it, notify the supplier in writing and hold the items apart until resolved. Attach photographs or scanned documents to the receipt record so the evidence stays with the entry."
+    ]
+   },
+   {
+    "heading": "Keeping the supplier file in purchase",
+    "paras": [
+     "Maintain a file per supplier with the licence or authorisation details you have verified, the date of verification, a named contact, agreed terms and any quality issues raised. Set a diary reminder to re-verify authorisations periodically, since a supplier's status can change.",
+     "Keep the supplier list in one place and share it with everyone who receives stock. Receiving from an unlisted source should be a stop-and-escalate event, not something staff solve themselves on a busy afternoon."
+    ]
+   },
+   {
+    "heading": "Recall readiness",
+    "paras": [
+     "Run a mock recall twice a year. Choose a batch, trace it forward and back, and time the exercise. Record how many units were found, how many were already used or transferred, and what actions you took.",
+     "Whether your records are on paper or in a system such as Budify, the principle is the same: batch and expiry data captured at receipt, carried through every movement and searchable on demand. Gaps found in the drill are cheap to fix; gaps found in a real recall are not."
+    ]
+   },
+   {
+    "heading": "Keeping traceability data clean",
+    "paras": [
+     "Traceability is only as good as the data entered. Standardise how batch numbers and expiry dates are written, for example a single date format, and require double-checking at receipt. Typos in a batch number can make a recall search miss stock that is on your shelf.",
+     "Use scanning where the packaging carries a machine-readable code, since it removes keying errors. If you key by hand, have a second person verify the entry for higher-risk lines. Review a sample of records each month against the physical packs. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-choosing-clinic-inventory-software-uk",
+  "title": "Choosing Inventory Software for a UK Licensed Clinic",
+  "description": "A buyer's checklist for UK clinics and pharmacies assessing stock and records software: audit trails, permissions, exports, hosting and support.",
+  "minutes": 4,
+  "published": "2026-03-02",
+  "category": "Technology",
+  "keywords": [
+   "clinic inventory software uk",
+   "pharmacy records software uk",
+   "audit trail software",
+   "stock management system uk",
+   "compliance record keeping software"
+  ],
+  "sections": [
+   {
+    "heading": "Start from your records, not the feature list",
+    "paras": [
+     "Before you look at any product, list the records you must keep and the checks you run: registers, goods-in, reconciliations, adjustments, supplier files and exports for audits. Software should make those jobs quicker and harder to get wrong, not introduce new ones.",
+     "Write down five or six real scenarios, such as correcting a miskeyed receipt or producing a period report for an inspector, and ask each vendor to walk through them live."
+    ]
+   },
+   {
+    "heading": "Non-negotiables: audit trail and permissions",
+    "paras": [
+     "Insist on an immutable audit trail. Every create, edit and delete should record who, what, when and the previous value. Adjustments should require a reason. Nothing should be silently overwritten.",
+     "Look for role-based permissions that match your structure: who can receive stock, who can adjust, who can approve, who can export. Check that approvals can require two different people, and that administrators cannot quietly bypass their own controls."
+    ]
+   },
+   {
+    "heading": "Hosting, data protection and exports",
+    "paras": [
+     "Ask where data is hosted, how it is backed up, how quickly it can be restored and how access is secured. Because the records may include personal data, request the supplier's data processing terms and check they fit UK GDPR obligations. Your own adviser should review them.",
+     "Confirm you can export your data in a standard format at any time, with no extra charge and without the vendor's help. An exit route matters as much as an entry point. Regular exports also make a sensible extra backup."
+    ]
+   },
+   {
+    "heading": "Running a sensible trial",
+    "paras": [
+     "Pilot with one location or one product line for a month, running the old process in parallel for the first weeks. Compare the system balances with physical counts every day and log every difference.",
+     "At the end, score the trial against your scenarios and ask frontline staff what slowed them down. Adoption fails when the system is accurate but awkward. Choose the tool your team will actually use consistently."
+    ]
+   },
+   {
+    "heading": "Total cost and support",
+    "paras": [
+     "Look beyond the subscription. Consider onboarding time, training, data migration, any hardware such as scanners and printers, and the cost of parallel running. Ask for a clear statement of what support is included, the response times offered and how outages are communicated.",
+     "Request references from organisations of a similar size and ask what went wrong during their rollout, not just what went well. Check the contract for notice periods, data return terms and change-of-control provisions, and have it reviewed before signing. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-role-based-access-clinic-staff",
+  "title": "Role-Based Access Control for Clinic and Pharmacy Staff",
+  "description": "Design practical role-based access for clinic and pharmacy teams so staff see only what they need, and every sensitive action is attributable.",
+  "minutes": 4,
+  "published": "2026-03-16",
+  "category": "Data protection",
+  "keywords": [
+   "role based access control clinic",
+   "staff permissions stock system",
+   "least privilege uk gdpr",
+   "clinic user access review",
+   "segregation of duties records"
+  ],
+  "sections": [
+   {
+    "heading": "The principle: least privilege",
+    "paras": [
+     "Role-based access means permissions follow the job, not the individual. A receptionist, a stock controller, a dispensing lead and a manager each need different views and different powers. Granting everyone administrator rights for convenience is the most common error in small organisations.",
+     "This is also a data protection matter. Under UK GDPR, access to personal data should be limited to what is necessary. A clear role matrix is easy evidence that you have thought about it."
+    ]
+   },
+   {
+    "heading": "Building a simple role matrix",
+    "paras": [
+     "Use a table with roles down one side and actions across the top: view records, create entries, edit entries, approve adjustments, export reports, manage users. Mark each cell yes, no or approval needed. Keep it to a handful of roles.",
+     "Review the matrix with the people who do the work. They will spot actions you forgot, such as covering for a colleague. Plan an approved cover procedure so no one resorts to sharing a login."
+    ]
+   },
+   {
+    "heading": "Segregation of duties",
+    "paras": [
+     "Where practical, the person who receives stock should not be the only person who can adjust its balance, and the person who requests an adjustment should not approve it. This creates natural checks without extra paperwork.",
+     "In very small teams complete separation is impossible. Compensate with extra review: a manager checks the adjustment log weekly and signs it off. Document the compensating control so it is visible in an inspection."
+    ]
+   },
+   {
+    "heading": "Joiners, movers and leavers",
+    "paras": [
+     "Create a checklist for onboarding, role changes and departures. Accounts should be created from an approved request, changed when duties change and disabled on the last day of employment, not the following week.",
+     "Hold a monthly access review. Print or export the user list, ask each line manager to confirm every name and role, and record the sign-off. Disabled accounts should be kept, not deleted, so the audit trail still shows who did what."
+    ]
+   },
+   {
+    "heading": "Evidence for auditors",
+    "paras": [
+     "Keep three artefacts: the current role matrix, the latest signed access review and the log of changes to permissions. Together they show that access is designed, checked and controlled.",
+     "When an auditor asks who could amend a balance on a given date, you should be able to answer from these records within minutes. If you cannot, tighten the process before the question is asked for real. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-monthly-finance-exports-for-accountants",
+  "title": "Monthly Finance Exports Your Accountant Will Welcome",
+  "description": "What a UK clinic or pharmacy should include in monthly sales, stock valuation and VAT-ready exports so bookkeeping stays accurate and quick.",
+  "minutes": 4,
+  "published": "2026-03-30",
+  "category": "Finance & reporting",
+  "keywords": [
+   "monthly finance export uk",
+   "vat ready reports uk business",
+   "stock valuation report",
+   "bookkeeping exports clinic",
+   "accountant reporting pack uk"
+  ],
+  "sections": [
+   {
+    "heading": "Why a standard pack saves time",
+    "paras": [
+     "Accountants spend much of their time chasing missing figures and reformatting spreadsheets. A consistent monthly pack, produced on the same day each month in the same layout, reduces queries and cuts the fees you pay for clean-up work.",
+     "Agree the contents with your accountant once, then treat it as a checklist. Changes should be rare and deliberate."
+    ]
+   },
+   {
+    "heading": "The contents of a good pack",
+    "paras": [
+     "Include a summary of takings by payment type, a VAT summary showing standard, reduced and zero-rated or exempt amounts as applicable to your services, a list of refunds and voids, a stock valuation at cost as at month end, and a list of adjustments with reason codes.",
+     "Add a bank reconciliation note matching card and cash totals to deposits. All figures should be in pounds sterling, and totals should tie across reports. If the VAT summary and the sales summary disagree, fix the cause before sending."
+    ]
+   },
+   {
+    "heading": "Cut-off discipline",
+    "paras": [
+     "Month-end cut-off is where many errors arise. Agree a precise cut-off time, finish all open transactions, complete the end-of-day cash-up and run a final stock count for the key lines before exporting.",
+     "Lock the period afterwards so figures cannot change silently. If a late correction is unavoidable, record it as an adjustment in the next period with a clear explanation. Whether VAT treatment applies to a particular service depends on your circumstances, so confirm with your accountant."
+    ]
+   },
+   {
+    "heading": "Linking finance to stock records",
+    "paras": [
+     "Stock valuation should come from the same quantities that appear in your reconciled registers. A valuation based on unreconciled balances overstates or understates assets and distorts margins.",
+     "A system like Budify can export sales, adjustments and stock movements together with consistent identifiers, which helps an accountant trace a figure back to its source. Whatever tool you use, keep the export settings documented so the pack is reproducible by a colleague."
+    ]
+   },
+   {
+    "heading": "A short month-end checklist",
+    "paras": [
+     "Run through the same list every month: close the final day, complete cash-up, finish the stock count for key lines, run the exports, compare totals across reports, save the pack to a dated folder and send it with a brief covering note flagging anything unusual.",
+     "Keep a running list of recurring queries from your accountant and fix their causes at source. Over a year, the pack becomes faster to produce and cheaper to review, and your year-end work is far smoother. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-preparing-for-regulator-inspection",
+  "title": "Inspection Readiness for UK Licensed Clinics: A Records View",
+  "description": "A general, records-focused readiness plan for UK clinics and pharmacies preparing for a regulator visit, from evidence folders to staff briefings.",
+  "minutes": 4,
+  "published": "2026-04-07",
+  "category": "Records & compliance",
+  "keywords": [
+   "inspection readiness uk clinic",
+   "cqc style inspection records",
+   "regulator audit preparation",
+   "evidence folder compliance",
+   "clinic documentation checklist"
+  ],
+  "sections": [
+   {
+    "heading": "Think in terms of evidence",
+    "paras": [
+     "Regulators of care services in the UK generally want to see that you do what your policies say. Policies on a shelf are not enough; inspectors look for records that show the policy being followed day after day. This article covers only the records side and makes no comment on clinical matters.",
+     "Build an evidence folder, physical or electronic, organised by theme: stock control, supplier checks, staff training, data protection, incident logs and complaints. For each theme, keep the policy, the latest review date and a recent sample of live records."
+    ]
+   },
+   {
+    "heading": "The records inspectors commonly ask to see",
+    "paras": [
+     "Expect requests for registers and reconciliation logs, goods-in and supplier files, adjustment and variance records, staff access lists, training records and incident reports. Make sure you can produce any of them for a date range within minutes.",
+     "Test this yourself. Ask a colleague to request three random records and time how long it takes. Slow retrieval is itself a finding, and the fix is almost always better filing or better search."
+    ]
+   },
+   {
+    "heading": "Staff briefing and mock walkthrough",
+    "paras": [
+     "Every team member should know where the evidence is kept, who is responsible for what and how to answer questions truthfully. Staff should never guess; they should say who can answer and fetch that person.",
+     "Hold a mock walkthrough quarterly. A manager plays the inspector and follows a record from receipt to use, asking to see the paperwork at each step. Note the gaps, assign owners and close them within a set time."
+    ]
+   },
+   {
+    "heading": "After the visit",
+    "paras": [
+     "Keep notes of what was asked, what was shown and any feedback. Treat suggestions as an action list, with owners and dates, and keep evidence that actions were completed.",
+     "Even a positive visit is a chance to improve. Update procedures, brief staff on changes and diarise the next internal review. The standards and processes that apply to you depend on your regulator and your licence conditions, so confirm them directly."
+    ]
+   },
+   {
+    "heading": "Common weak spots",
+    "paras": [
+     "Typical weaknesses in records include out-of-date policies, undated or unsigned entries, training records that do not match actual duties, and supplier files without evidence of verification. None are hard to fix, but all take time if left to the last minute.",
+     "Assign each weak spot to a named person with a due date and track progress at your monthly management meeting. Readiness is a habit maintained all year, not a rush in the week before a visit. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-handling-stock-write-offs-and-expired-items",
+  "title": "Handling Expired and Written-Off Stock in Clinic Records",
+  "description": "How to record expiry, damage and write-offs in a clinic or pharmacy stock system with approvals, witnesses and a clean audit trail.",
+  "minutes": 4,
+  "published": "2026-04-21",
+  "category": "Finance & reporting",
+  "keywords": [
+   "expired stock write off",
+   "stock disposal records uk",
+   "clinic waste stock register",
+   "inventory adjustment approval",
+   "expiry date management"
+  ],
+  "sections": [
+   {
+    "heading": "Why write-offs deserve special attention",
+    "paras": [
+     "Write-offs are where stock leaves your books without a sale or a use. Unsupervised, they can hide errors or misconduct, so inspectors and auditors tend to look at them closely.",
+     "The solution is a controlled process: a defined set of reasons, mandatory approvals and a complete record of what happened to the physical item."
+    ]
+   },
+   {
+    "heading": "Define reason codes",
+    "paras": [
+     "Use a short list of reason codes such as expired, damaged in storage, damaged in transit, recalled by supplier, found missing at count and returned to supplier. Avoid a catch-all category that lets any loss be explained away.",
+     "Review the proportion of each code monthly. A growing share of expired items points to over-purchasing or poor rotation; a growing share of damaged items points to handling or storage issues."
+    ]
+   },
+   {
+    "heading": "Approvals, witnesses and disposal",
+    "paras": [
+     "Require a second person to witness the physical segregation of the items and approve the write-off record. For controlled lines, follow whatever extra witnessing and disposal requirements your licence conditions and professional guidance set out.",
+     "Record who handled the items, how they were rendered unusable or returned, where the disposal documentation is stored, and the date. Attach the carrier or disposal contractor paperwork to the entry so the chain is complete."
+    ]
+   },
+   {
+    "heading": "Prevent expiry in the first place",
+    "paras": [
+     "Run a weekly near-expiry report listing items expiring within a threshold you define. Use first-expiry-first-out rotation on the shelf and label clearly.",
+     "Feed the results back into purchasing rules, adjusting par levels and purchase frequency so you hold what you use. Fewer write-offs mean cleaner records and lower cost."
+    ]
+   },
+   {
+    "heading": "Reporting and review",
+    "paras": [
+     "Produce a monthly write-off summary showing totals by reason code, by item and by location, in pounds at cost. Managers should review and sign it, and anything unusual should have a note explaining what was done about it.",
+     "Compare write-offs with buying and usage volumes. If losses rise faster than activity, investigate. Share the summary with your accountant so that stock valuation and the profit and loss account reflect the true position. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-patient-data-minimisation-in-stock-systems",
+  "title": "Keeping Patient Data Out of Your Stock System",
+  "description": "Data minimisation for UK clinics and pharmacies: keep patient identifiers out of stock and operational records to reduce risk under UK GDPR.",
+  "minutes": 4,
+  "published": "2026-05-05",
+  "category": "Data protection",
+  "keywords": [
+   "data minimisation uk gdpr",
+   "patient identifiers stock records",
+   "clinic data protection software",
+   "privacy by design records",
+   "uk gdpr operational records"
+  ],
+  "sections": [
+   {
+    "heading": "Do you need identifiers at all?",
+    "paras": [
+     "Many stock and operational tasks do not require patient identity. Counting, receiving, reconciling and valuing items can all be done without a name. Yet it is common to find patient details copied into notes fields, spreadsheets or email chains.",
+     "UK GDPR asks organisations to collect only what is adequate, relevant and limited to what is necessary. A good starting question for every field in every system is: what would break if we removed this?"
+    ]
+   },
+   {
+    "heading": "Use references, not names",
+    "paras": [
+     "Where a stock movement must link to a patient record held elsewhere, use an internal reference number instead of a name or date of birth. Access to the underlying record stays restricted to authorised staff in the clinical or dispensing system.",
+     "This reduces the damage if an export is lost or emailed in error, since the reference alone reveals nothing. Train staff never to type identifiers into free-text boxes."
+    ]
+   },
+   {
+    "heading": "Controlling exports and sharing",
+    "paras": [
+     "Exports are the main leak route. Limit who can export, log each export and prefer reports that are already de-identified. When an accountant, auditor or supplier needs data, send only the columns they need.",
+     "Use secure sharing methods with expiry rather than attaching files to ordinary email. Agree in writing what recipients may do with data and when it will be deleted."
+    ]
+   },
+   {
+    "heading": "Reviewing for drift",
+    "paras": [
+     "Over time, systems accumulate fields and habits. Schedule a six-monthly review of every place personal data might sit: the stock system, shared drives, messaging apps, paper notes and spreadsheets.",
+     "Record what you found and what you removed. This documentation supports accountability under data protection law and gives you a ready answer if asked how you apply minimisation."
+    ]
+   },
+   {
+    "heading": "Practical quick wins",
+    "paras": [
+     "Start with three actions this month: search shared drives for spreadsheets containing identifiers and move or remove them, switch off free-text fields where a drop-down will do, and brief staff on what must never be typed into stock notes.",
+     "Then add a standing agenda item to your monthly meeting asking whether any new data has crept into operational records. Small, regular checks are more effective than a single large clean-up. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-end-of-day-cash-up-and-till-controls",
+  "title": "End-of-Day Cash-Up and Till Controls for Clinics and Pharmacies",
+  "description": "A step-by-step end-of-day cash-up routine for UK clinics and pharmacies, with float checks, card reconciliation and variance logging.",
+  "minutes": 4,
+  "published": "2026-05-19",
+  "category": "Operations",
+  "keywords": [
+   "cash up routine uk",
+   "till reconciliation clinic",
+   "end of day report",
+   "float management",
+   "card payment reconciliation"
+  ],
+  "sections": [
+   {
+    "heading": "Make cash-up a fixed ritual",
+    "paras": [
+     "A consistent end-of-day routine catches mistakes while memories are fresh. Choose a set time, a quiet area and two people, one to count and one to witness and sign.",
+     "Close the register for new transactions before counting. Print or export the day's report first so that nobody can count towards an expected number."
+    ]
+   },
+   {
+    "heading": "Counting and comparing",
+    "paras": [
+     "Count cash by denomination, record the totals in pounds and pence and compare them with the takings report. Separately total card payments from the terminal and compare them with the system's card total.",
+     "Record any difference immediately, along with the likely cause. Resist rounding it away or topping up from your own pocket. A recorded small variance is acceptable; a hidden one erodes trust."
+    ]
+   },
+   {
+    "heading": "Floats, banking and safe handling",
+    "paras": [
+     "Keep a standard opening float, documented and verified each morning. After counting, record the amount left in the till and the amount to be banked, and seal the deposit with a tamper-evident bag.",
+     "Log every safe access with the time and names. Deposits should be reconciled with bank statements, and any delay in banking should be noted and explained."
+    ]
+   },
+   {
+    "heading": "Review and escalation",
+    "paras": [
+     "A manager should review cash-up sheets weekly, looking for repeated variances by day, till or operator. Patterns suggest training needs or process gaps rather than bad luck.",
+     "Set a written escalation threshold. Variances above it are investigated the next working day, with the findings recorded. Keep the sheets for the retention period your accountant advises."
+    ]
+   },
+   {
+    "heading": "Handling shortfalls and surpluses",
+    "paras": [
+     "Surpluses deserve the same attention as shortfalls, because both mean a transaction was recorded wrongly. Log both in the same variance sheet with the same fields and the same review.",
+     "If a pattern ties to one operator, handle it as a training conversation first and document it. Only escalate to a formal process where the facts and your policies call for it, and take advice on employment matters. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-onboarding-new-staff-onto-records-procedures",
+  "title": "Onboarding Staff Onto Records Procedures Without Errors",
+  "description": "A structured first-month plan for training new clinic and pharmacy staff on stock records, access rules and data protection duties.",
+  "minutes": 4,
+  "published": "2026-06-02",
+  "category": "Membership & access",
+  "keywords": [
+   "staff training records uk",
+   "onboarding clinic staff",
+   "sop training checklist",
+   "new starter access rights",
+   "records procedure training"
+  ],
+  "sections": [
+   {
+    "heading": "Why records training fails",
+    "paras": [
+     "New starters are often shown the system once on a busy day and then expected to cope. Errors that follow are blamed on the individual, when the real fault is an informal induction.",
+     "A structured plan turns knowledge that lives in people's heads into a repeatable standard, and the completed plan doubles as training evidence."
+    ]
+   },
+   {
+    "heading": "A four-week plan",
+    "paras": [
+     "Week one: orientation, data protection basics, confidentiality commitments and shadowing. Week two: supervised practice on low-risk tasks such as stock counts. Week three: supervised practice on registers and adjustments. Week four: independent work with spot checks.",
+     "At the end of each week, the trainer and trainee sign a short checklist of competencies achieved. Anything not signed off carries forward rather than being assumed."
+    ]
+   },
+   {
+    "heading": "Access that grows with competence",
+    "paras": [
+     "Start new users with minimal permissions and widen them only as competencies are signed off. Never lend a colleague's login for convenience, even in week one.",
+     "Record the date each permission was granted and who authorised it. This links training evidence to system access, which is exactly what an auditor will want to see."
+    ]
+   },
+   {
+    "heading": "Refreshers and written procedures",
+    "paras": [
+     "Keep procedures short, illustrated and stored where staff can find them. Version them, note the date of each change and require a quick read-and-sign when something is updated.",
+     "Run an annual refresher on data protection and stock procedures for everyone, and a targeted refresher after any significant variance or incident."
+    ]
+   },
+   {
+    "heading": "Measuring whether training works",
+    "paras": [
+     "Track a few simple indicators for new starters: number of corrected entries in their first month, completion of competency sign-offs and results of spot checks. Share them with the trainee as support, not punishment.",
+     "Ask new staff what confused them and feed the answers into your procedure documents. Fresh eyes are the best test of whether instructions are clear. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-setting-up-par-levels-and-reorder-points",
+  "title": "Par Levels and Reorder Points for Small UK Clinics",
+  "description": "Set sensible par levels and reorder points for clinic and pharmacy supplies using usage history, lead times and safety buffers to cut waste.",
+  "minutes": 4,
+  "published": "2026-06-16",
+  "category": "Growth",
+  "keywords": [
+   "par levels clinic",
+   "reorder point calculation",
+   "stock replenishment uk",
+   "inventory forecasting small business",
+   "safety stock clinic"
+  ],
+  "sections": [
+   {
+    "heading": "What par levels do",
+    "paras": [
+     "A par level is the quantity you aim to hold; a reorder point is the level at which you trigger replenishment. Together they prevent both stock-outs and over-holding, which ties up cash and increases expiry waste.",
+     "Without defined levels, purchasing depends on whoever notices a gap. With them, replenishment becomes a routine, checkable task."
+    ]
+   },
+   {
+    "heading": "A simple calculation",
+    "paras": [
+     "Take average daily usage over a representative period, multiply by the supplier lead time in days, and add a safety buffer to cover variability. The result is your reorder point. Set the par level at reorder point plus the quantity you usually receive per consignment.",
+     "Use real usage figures from your movement history, not guesses. Exclude one-off spikes, and revisit the figures each quarter."
+    ]
+   },
+   {
+    "heading": "Supplier and storage constraints",
+    "paras": [
+     "Check minimum consignment sizes, storage capacity and shelf life. A par level that would hold more than you can use before expiry is a plan for write-offs.",
+     "For controlled lines, keep the holding as low as is operationally safe and make sure higher holdings are consistent with your security arrangements and licence conditions."
+    ]
+   },
+   {
+    "heading": "Review and exceptions",
+    "paras": [
+     "Produce a monthly report of lines below reorder point, lines above par and lines with no movement. Each flagged line needs a short explanation or an action.",
+     "Track near-misses, such as emergency top-ups, in a log. Repeated emergency purchases signal that a reorder point is set too low or a lead time has lengthened."
+    ]
+   },
+   {
+    "heading": "Using exception reports",
+    "paras": [
+     "Rather than reviewing every line, use exception reports: below reorder point, above par, no movement in 90 days and expiring soon. Each exception gets an action and a name.",
+     "Record the outcome so that the next review can see what was decided. Over time, exceptions should shrink as levels are tuned, and the discussion moves from firefighting to planning. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-membership-style-access-lists-for-staff-and-suppliers",
+  "title": "Managing Access Lists for Staff, Locums and Suppliers",
+  "description": "Keep accurate, reviewable access lists for staff, locums and visiting suppliers at a licensed clinic or pharmacy, with sign-in logs and expiry dates.",
+  "minutes": 4,
+  "published": "2026-06-29",
+  "category": "Membership & access",
+  "keywords": [
+   "access list management clinic",
+   "locum access records",
+   "visitor log uk",
+   "supplier site access",
+   "user account review"
+  ],
+  "sections": [
+   {
+    "heading": "Who is on site, and who is on your system",
+    "paras": [
+     "Two lists matter: the people allowed physically on your premises and the people with logins to your systems. Both change frequently with locums, agency staff, contractors and suppliers, and both are prone to going stale.",
+     "Maintain one master register for each. Each entry should hold the name, organisation, role, reason for access, start date, planned end date and the name of the approving manager."
+    ]
+   },
+   {
+    "heading": "Temporary access with expiry",
+    "paras": [
+     "Give locums and contractors accounts with end dates, so access lapses automatically rather than relying on someone remembering. Restrict their permissions to what the placement requires.",
+     "For physical visits, use a sign-in log recording arrival and departure times, who they visited and whether they were escorted. Store the log securely, since it contains personal data."
+    ]
+   },
+   {
+    "heading": "Verifying identity and credentials",
+    "paras": [
+     "Before granting access, check identity and, where relevant, professional registration and references, and record that you did so and when. Avoid storing copies of identity documents unless necessary, and if you do, protect them tightly.",
+     "Set re-verification dates for credentials that expire. A simple spreadsheet or system report of upcoming expiries, reviewed monthly, is enough."
+    ]
+   },
+   {
+    "heading": "Quarterly review",
+    "paras": [
+     "Every quarter, circulate both lists to managers for confirmation. They mark each entry as continue, change or remove, then sign. Actions are completed within a week and logged.",
+     "Keep the signed reviews with your compliance evidence. They show that access is deliberate, current and proportionate."
+    ]
+   },
+   {
+    "heading": "Handling exceptions safely",
+    "paras": [
+     "Urgent access requests will occur. Define an emergency procedure: a named approver, a short-lived account, a reason recorded and a retrospective review within one working day.",
+     "Never let urgency become the default. Count emergency requests each quarter, and if they are frequent, redesign the normal process so that it is fast enough to use. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-audit-trails-that-stand-up",
+  "title": "Audit Trails That Stand Up to Scrutiny",
+  "description": "What a robust audit trail looks like in clinic and pharmacy record systems: fields captured, tamper resistance, review routines and retention.",
+  "minutes": 4,
+  "published": "2026-07-13",
+  "category": "Technology",
+  "keywords": [
+   "audit trail clinic software",
+   "tamper evident records",
+   "system logging compliance",
+   "who changed what record",
+   "uk records audit log"
+  ],
+  "sections": [
+   {
+    "heading": "What an audit trail must answer",
+    "paras": [
+     "An audit trail is the chronological record that answers four questions about any change: who did it, what changed, when it happened and why. If any of these is missing, the trail is weaker than it looks.",
+     "Good trails are generated automatically by the system, not typed by the user afterwards, and cannot be edited by the people whose actions they record."
+    ]
+   },
+   {
+    "heading": "Fields and structure",
+    "paras": [
+     "Capture the user ID, timestamp, action type, record identifier, previous value, new value and reason or comment where applicable. Use a consistent time standard across systems so entries from different tools line up.",
+     "Log failed login attempts, permission changes and exports as well as stock movements. These events often reveal problems before a stock variance does."
+    ]
+   },
+   {
+    "heading": "Protecting the trail",
+    "paras": [
+     "Store logs separately from the data they describe and restrict who can see them. Administrators should not be able to delete entries; if deletion is ever necessary, it should itself be logged and approved at a senior level.",
+     "Back up logs with the same care as primary data. A trail lost in a failure is as bad as no trail."
+    ]
+   },
+   {
+    "heading": "Reviewing routinely",
+    "paras": [
+     "Logs are only useful if somebody reads them. Schedule a weekly review of unusual events: out-of-hours activity, large adjustments, repeated edits to the same record and exports.",
+     "Document each review with the date, reviewer and findings. A tool such as Budify records movements and user actions in this way, but the review habit is what turns a log into a control."
+    ]
+   },
+   {
+    "heading": "Questions to ask your software provider",
+    "paras": [
+     "Ask whether logs can be edited by administrators, how long they are kept, whether they can be exported and whether time stamps are synchronised. Ask for a demonstration of tracing a single balance change from start to finish.",
+     "Request written confirmation of how the log is protected, and keep that response with your compliance evidence. If answers are vague, treat that as a finding in your selection process. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-business-continuity-for-records",
+  "title": "Business Continuity for Clinic Records and Stock Systems",
+  "description": "A practical continuity plan for UK clinics and pharmacies covering backups, downtime procedures, restore tests and catch-up entries.",
+  "minutes": 4,
+  "published": "2026-07-27",
+  "category": "Operations",
+  "keywords": [
+   "business continuity records",
+   "backup and restore test",
+   "system downtime procedure",
+   "clinic it resilience uk",
+   "disaster recovery small business"
+  ],
+  "sections": [
+   {
+    "heading": "Plan for the day the system is unavailable",
+    "paras": [
+     "Power cuts, network failures, software outages and ransomware are realistic risks. If your stock register or access system disappears for an afternoon or a week, you still need to record movements accurately.",
+     "Define in advance what you will do: switch to numbered paper forms, who is responsible, where the forms are kept and how entries will be transferred when systems return."
+    ]
+   },
+   {
+    "heading": "Backups that actually restore",
+    "paras": [
+     "Follow a simple rule: keep several copies, on different media, with at least one held away from the premises and protected from tampering. Automate backups and monitor them for failure.",
+     "Test restores at least twice a year by restoring to a separate environment and checking that recent records are present and readable. An untested backup is only a hope."
+    ]
+   },
+   {
+    "heading": "Downtime procedures and catch-up",
+    "paras": [
+     "Prepare a downtime pack: numbered forms, instructions and a log sheet for who started and ended the downtime. Number the forms so that missing sheets are obvious.",
+     "When service resumes, enter paper records promptly in the original sequence, marking each as a late entry with the date of entry and the person entering. Reconcile stock for the affected period immediately."
+    ]
+   },
+   {
+    "heading": "Roles, contacts and review",
+    "paras": [
+     "Keep a one-page continuity plan listing decision-makers, supplier support contacts, and escalation steps, printed and stored off-system. Make sure at least two people know where it is.",
+     "Review the plan annually and after any incident. Record the date, the changes made and the person who approved them. Where an incident involves personal data, follow your breach procedure and consider whether notification duties apply."
+    ]
+   },
+   {
+    "heading": "Cyber hygiene basics",
+    "paras": [
+     "Many outages are caused by avoidable weaknesses: unpatched devices, weak passwords and phishing. Apply updates promptly, use multi-factor authentication, restrict admin rights and train staff to spot suspicious messages.",
+     "Consider whether cyber insurance and professional IT support suit your size of operation, and read the policy conditions carefully, since insurers often require specific security measures to be in place. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-returns-transfers-and-inter-site-movements",
+  "title": "Recording Returns, Transfers and Inter-Site Movements",
+  "description": "Controls for recording stock returns to suppliers and transfers between sites in a multi-location clinic or pharmacy group, with clear sign-offs.",
+  "minutes": 4,
+  "published": "2026-08-10",
+  "category": "Stock & inventory",
+  "keywords": [
+   "inter site stock transfer",
+   "supplier returns record",
+   "multi location clinic inventory",
+   "stock transfer documentation",
+   "chain of custody records"
+  ],
+  "sections": [
+   {
+    "heading": "Movements without a sale are risk points",
+    "paras": [
+     "Returns and transfers are the moments when stock is outside anyone's direct custody. Documentation gaps here cause balances at two locations to be wrong at once.",
+     "Treat every movement as a pair of entries: one out at the source, one in at the destination, linked by a shared reference."
+    ]
+   },
+   {
+    "heading": "Transfer procedure",
+    "paras": [
+     "The sending site creates a transfer record with items, batches, quantities, the courier or person carrying them, and the time dispatched. Items are sealed and the seal number is recorded.",
+     "The receiving site checks the seal, counts the items against the record and signs. Until then, the stock sits in a clearly labelled in-transit status that appears in neither site's available balance."
+    ]
+   },
+   {
+    "heading": "Handling discrepancies",
+    "paras": [
+     "If counts differ, the receiving site records the discrepancy at once, photographs packaging where useful and notifies the sender. Neither site adjusts its balance until both have agreed the facts.",
+     "Unresolved in-transit items should be reported daily. Anything open longer than your internal limit is escalated to a manager."
+    ]
+   },
+   {
+    "heading": "Supplier returns",
+    "paras": [
+     "For returns to suppliers, record the reason, authorisation reference from the supplier, batch details and carrier. Keep the credit note and match it to the return entry once received.",
+     "Review open returns monthly. Credits outstanding for a long time are a finance problem and a records problem, and they should be chased like any debtor."
+    ]
+   },
+   {
+    "heading": "Reporting on movements",
+    "paras": [
+     "Produce a weekly list of open transfers and returns with age in days, value and owner. Anything stale gets chased. A simple dashboard or spreadsheet is enough.",
+     "Reconcile total stock across sites monthly. If the sum of site balances plus in-transit stock does not match the group total, there is an unrecorded movement somewhere, and the search should begin immediately. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-complaint-and-incident-logs-for-operations",
+  "title": "Incident and Complaint Logs: A Records Approach",
+  "description": "How to design an incident and complaint log for a clinic or pharmacy that captures facts, owners and outcomes without exposing personal data.",
+  "minutes": 4,
+  "published": "2026-08-24",
+  "category": "Growth",
+  "keywords": [
+   "incident log template",
+   "complaints record keeping uk",
+   "clinic quality improvement records",
+   "near miss log",
+   "operational risk register"
+  ],
+  "sections": [
+   {
+    "heading": "Why log everything, including near misses",
+    "paras": [
+     "Organisations that log only serious incidents miss the pattern building beneath. Near misses are cheap lessons: a mislabelled shelf, a misread unit size, a delayed supplier note. Recording them lets you fix the cause before it causes harm.",
+     "A positive reporting culture matters. Staff should know that logging an issue is welcomed and that the aim is to improve process, not to assign blame."
+    ]
+   },
+   {
+    "heading": "Fields for a useful log",
+    "paras": [
+     "Record a unique reference, date, location, category, factual description, immediate action, person responsible, due date for follow-up, outcome and date closed. Write descriptions in neutral language.",
+     "Keep personal data out of the main log wherever possible. Refer to a case number held in a restricted record instead, in line with data minimisation."
+    ]
+   },
+   {
+    "heading": "From log to improvement",
+    "paras": [
+     "Review the log monthly with the team. Group entries by category and look for repeats. A cluster of similar entries justifies a procedure change, extra training or a layout change.",
+     "Record what changed and later check whether the same category of entry reduced. This closes the loop and demonstrates a functioning quality system."
+    ]
+   },
+   {
+    "heading": "Linking to regulators and insurers",
+    "paras": [
+     "Some incidents carry reporting duties to the regulator, your insurer or the data protection authority. Your log should contain a field showing whether reporting was considered, the decision and the reason.",
+     "Establish these thresholds with your regulator and advisers rather than assuming. Keep the log for the retention period your adviser sets, and protect it as a sensitive record."
+    ]
+   },
+   {
+    "heading": "Keeping the log trustworthy",
+    "paras": [
+     "Restrict who can edit closed entries, and keep amendments visible. A log that is tidied up after the fact loses its value as evidence.",
+     "Hold a short annual review of the whole log with senior leadership, looking at themes, time to close and learning actions completed. Record the minutes and any resulting policy changes. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-multi-site-clinic-reporting-and-governance",
+  "title": "Multi-Site Reporting and Governance for UK Clinic Groups",
+  "description": "How clinic and pharmacy groups can consolidate stock, variance and access reporting across locations while keeping local accountability clear.",
+  "minutes": 4,
+  "published": "2026-09-14",
+  "category": "Finance & reporting",
+  "keywords": [
+   "multi site clinic reporting",
+   "group governance records uk",
+   "consolidated stock reporting",
+   "clinic group compliance dashboard",
+   "branch variance report"
+  ],
+  "sections": [
+   {
+    "heading": "Local accountability, central visibility",
+    "paras": [
+     "Groups need each site to own its records while head office can see the whole picture. Without that, problems stay hidden until an inspection or an audit finds them.",
+     "Define clearly who owns each record at site level, typically a named site manager, and who reviews at group level, typically an operations or compliance lead."
+    ]
+   },
+   {
+    "heading": "A common reporting pack",
+    "paras": [
+     "Standardise a monthly pack across sites: reconciliation completion rate, variances by value and count, adjustments by reason code, write-offs, overdue supplier verifications, access review completion and open incidents.",
+     "Use identical definitions everywhere. If one site counts a variance differently, comparisons mislead. Publish a short data dictionary and stick to it."
+    ]
+   },
+   {
+    "heading": "Reading the numbers sensibly",
+    "paras": [
+     "Look at trends, not single months. A site with a rising variance rate, many late entries or frequent out-of-hours edits deserves a conversation and a supportive visit before it becomes a finding.",
+     "Beware of vanity metrics. A site with zero variances may be reporting well or not looking. Cross-check with spot counts by someone from another site."
+    ]
+   },
+   {
+    "heading": "Governance rhythm",
+    "paras": [
+     "Hold a monthly group review, a quarterly deep dive into one theme and an annual policy refresh. Minute decisions and track actions with owners and dates.",
+     "Keep consolidated exports in pounds sterling with clear entity names for each location, so the finance team can map them to the correct company in the group structure. Group reporting duties depend on your corporate form, so confirm with your accountant."
+    ]
+   },
+   {
+    "heading": "Handling data and access across sites",
+    "paras": [
+     "Group dashboards should show aggregates by default, with drill-down restricted to those who need it. Site staff should not see other sites' sensitive records unless there is a clear reason.",
+     "Document which data flows between sites and to head office, confirm the lawful basis, and keep processor agreements current. Review roles whenever the group adds a site or restructures. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "gb-planning-a-records-system-migration",
+  "title": "Planning a Records System Migration Without Losing History",
+  "description": "A cautious plan for moving clinic or pharmacy stock and access records between systems: mapping, cleansing, parallel running and sign-off.",
+  "minutes": 4,
+  "published": "2026-10-05",
+  "category": "Technology",
+  "keywords": [
+   "records system migration",
+   "data migration plan clinic",
+   "legacy data cleansing",
+   "parallel run stock system",
+   "uk clinic software change"
+  ],
+  "sections": [
+   {
+    "heading": "Decide what must move",
+    "paras": [
+     "Not every historic record needs to be imported. Split the data into three groups: records that must be live in the new system, such as current balances and open batches; records that must be retained and retrievable, such as closed registers; and data that can be disposed of under your retention schedule.",
+     "Write the decision down and have the compliance lead approve it. Archived records can often live in a read-only export, provided you can still search and produce them on request."
+    ]
+   },
+   {
+    "heading": "Mapping and cleansing",
+    "paras": [
+     "Map every field in the old system to the new one. Note differences in units, naming and date formats. Cleanse before importing: remove duplicates, standardise item names and fix obviously wrong dates or quantities.",
+     "Run the import first on a copy. Compare record counts, balances and totals between old and new, and keep the comparison as evidence."
+    ]
+   },
+   {
+    "heading": "Parallel running and cut-over",
+    "paras": [
+     "For a few weeks, enter movements in both systems or at least compare daily balances. Differences are resolved immediately and logged.",
+     "Choose a cut-over time when activity is low, complete a full stock count, load closing balances and freeze the old system in read-only mode. Brief staff on the date and give them a quick reference sheet."
+    ]
+   },
+   {
+    "heading": "After go-live",
+    "paras": [
+     "Hold a daily huddle in the first fortnight to collect issues, and keep a log of fixes. Confirm backups, permissions and audit trails work as designed in the new environment.",
+     "Keep the old system or its export for the retention period, with named owners and restricted access. Where personal data is involved, confirm the new provider's data protection terms before going live and document your decision."
+    ]
+   },
+   {
+    "heading": "Communication and risk register",
+    "paras": [
+     "Maintain a short risk register for the project: data loss, extended downtime, mismatched balances, staff resistance and supplier delay. Give each risk an owner, a mitigation and a trigger for escalation.",
+     "Communicate early and often. Tell staff what is changing, when and what support they will have. People who understand the plan make fewer errors, and their feedback improves the cut-over. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ }
+]

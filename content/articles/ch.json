@@ -1,0 +1,1062 @@
+[
+ {
+  "slug": "ch-pilot-participant-register-design",
+  "title": "Participant Register Design for Swiss Pilot Programmes",
+  "description": "How to structure a participant register for an authorised pilot programme in Switzerland: fields, identifiers, status changes and a clean audit trail.",
+  "minutes": 5,
+  "published": "2026-01-05",
+  "category": "Records & compliance",
+  "keywords": [
+   "participant register pilot programme switzerland",
+   "pilot programme record keeping ch",
+   "participant register software",
+   "authorised pilot programme administration",
+   "swiss pilot programme compliance records",
+   "study participant register template"
+  ],
+  "sections": [
+   {
+    "heading": "Why the register is the backbone of a pilot",
+    "paras": [
+     "Every authorised pilot programme in Switzerland rests on one core document: the participant register. Whoever runs the programme, whether a municipality partner, a research institution or an operating organisation, will be asked at some point to show who took part, when they joined, under which conditions and when they left. A register that is complete, consistent and traceable answers those questions in minutes rather than days.",
+     "Start from your authorisation and study protocol rather than from a blank spreadsheet. List every data point those documents require you to hold, then add only the operational fields you genuinely need. The register should describe the person's status in the programme, not their whole life. Keeping it narrow now makes data protection and audits much easier later."
+    ]
+   },
+   {
+    "heading": "Fields that belong in the register",
+    "paras": [
+     "A practical register usually holds a unique participant code, the enrolment date, the eligibility check outcome with the date and the staff member who performed it, the consent version signed, the current status (active, paused, withdrawn, completed) and the date of each status change. Add the site or canton of enrolment if your programme spans more than one location. Use a code that carries no personal meaning, so exports can circulate internally without exposing identity.",
+     "Keep identity data such as name and date of birth in a separate, access-restricted table linked by the code. Contact preferences, including the participant's language of correspondence in German, French or Italian, are useful operational fields. Avoid free-text notes fields that invite staff to record opinions or sensitive details; use controlled drop-down reasons for status changes instead."
+    ]
+   },
+   {
+    "heading": "Status changes and the audit trail",
+    "paras": [
+     "Registers fail audits most often because of silent edits. If a participant is paused or withdrawn, the record should show who changed the status, when, and why, while the previous value remains visible. Overwriting a cell destroys exactly the evidence an inspector wants. Whether you use a database or a dedicated system, insist on append-only history for status, consent and eligibility fields.",
+     "Define a small number of allowed transitions. For example, a withdrawn participant cannot return to active without a new enrolment record and a fresh consent. Writing these rules into the system, rather than relying on staff memory, reduces errors during busy periods and gives you a simple answer when the supervising body asks how you prevent unauthorised changes."
+    ]
+   },
+   {
+    "heading": "Common mistakes to avoid",
+    "paras": [
+     "One frequent mistake is duplicating the register across a spreadsheet and a database, so that two versions of the truth drift apart. Choose a single master and treat everything else as a read-only extract with a date on it.",
+     "Another is collecting fields just in case. Each extra field must be maintained, protected and eventually deleted. If nobody can name the decision that depends on a field, remove it before the programme starts."
+    ]
+   },
+   {
+    "heading": "Daily and monthly routines",
+    "paras": [
+     "Assign one named person per site to review the register each working day for incomplete entries: missing consent versions, unexplained status gaps or duplicate codes. A five-minute check prevents a backlog of corrections. At month end, reconcile the number of active participants against any cap set in your authorisation and against the counts used elsewhere, such as scheduling and attendance records.",
+     "Once a quarter, run a sample check: pick ten records at random and trace each from eligibility through consent to current status, confirming every document exists and dates are consistent. Record the result and any corrective action. A system like Budify can keep status histories and who-changed-what logs automatically, but the review routine remains a human responsibility. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-study-protocol-record-keeping-routines",
+  "title": "Study Protocol Record-Keeping: A Practical Routine for Operators",
+  "description": "Turn a pilot study protocol into daily record-keeping tasks: version control, deviations, sign-offs and how to keep files ready for review in Switzerland.",
+  "minutes": 6,
+  "published": "2026-01-19",
+  "category": "Records & compliance",
+  "keywords": [
+   "study protocol record keeping",
+   "pilot study documentation switzerland",
+   "protocol deviation log",
+   "pilot programme version control documents",
+   "authorised pilot programme documentation",
+   "swiss pilot programme audit file"
+  ],
+  "sections": [
+   {
+    "heading": "From protocol text to operating tasks",
+    "paras": [
+     "A study protocol is usually written by researchers and read once by operations staff. The risk is that its requirements never become routine tasks. Sit down with the protocol and extract every sentence that contains an obligation to record, report or retain something. Turn each into a line on a task list with an owner, a frequency and a storage location.",
+     "This translation exercise often reveals gaps, such as a required log that nobody has been keeping or two staff members each assuming the other holds a document. Do it before the first participant is enrolled, and repeat it whenever the protocol is amended. Keep the resulting matrix as a controlled document in its own right."
+    ]
+   },
+   {
+    "heading": "Version control for protocol and procedures",
+    "paras": [
+     "Pilot programmes tend to amend documents as they learn. Each change needs a version number, an effective date, a short description of what changed and evidence that staff were informed. Store superseded versions rather than deleting them, because you may need to show which rules applied on a given date. A simple naming convention with version and date prevents the common problem of two teams working from different files.",
+     "Link records to the version in force when they were created. If a consent form changes in March, the register should show which version each participant signed. When an inspector asks about a record from February, you can answer without guesswork. This linking is far easier in a structured system than in scattered folders."
+    ]
+   },
+   {
+    "heading": "Deviations and corrective actions",
+    "paras": [
+     "Deviations from the protocol will happen; hiding them is the real problem. Create a deviation log with date, description, who discovered it, immediate containment, root cause and corrective action, plus a sign-off by the responsible manager. Keep the language factual and short. Staff should feel safe reporting, so review the log in a team meeting focused on fixing processes rather than assigning blame.",
+     "Classify deviations by seriousness according to your own written procedure and agree in advance which ones must be reported to the supervising body. Where you are unsure about a reporting duty, ask your counsel or the contact named in your authorisation instead of waiting. Trend the log every quarter: repeated deviations of the same type point to a procedure that needs redesign."
+    ]
+   },
+   {
+    "heading": "Roles and sign-offs",
+    "paras": [
+     "Name a responsible person for protocol compliance and a deputy, and write their duties down. Without a name, tasks that belong to everybody are done by nobody. Review the assignment whenever staffing changes.",
+     "Use sign-offs sparingly but meaningfully: a manager signs the deviation log monthly, the responsible person signs the quarterly review. Signatures that are routinely applied without reading carry no evidential value."
+    ]
+   },
+   {
+    "heading": "Keeping the file review-ready",
+    "paras": [
+     "Maintain an index of the programme file: authorisation documents, protocol versions, staff training records, registers, logs, and correspondence with authorities. Review the index monthly and confirm each listed item exists and is current. A file that is always nearly ready is far less stressful than one assembled in a panic the week before a visit.",
+     "Agree retention periods with counsel, since they depend on your authorisation and applicable law, and note them in the index. Define who may access the file and log each access to sensitive parts. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-audit-ready-pilot-file-checklist",
+  "title": "Audit-Ready Pilot File: A Checklist for Swiss Operators",
+  "description": "A practical checklist for keeping your authorised pilot programme file inspection-ready: documents, logs, sign-offs and who is responsible for each.",
+  "minutes": 5,
+  "published": "2026-03-02",
+  "category": "Records & compliance",
+  "keywords": [
+   "audit ready pilot file",
+   "pilot programme inspection checklist switzerland",
+   "compliance records checklist",
+   "authorised pilot programme audit",
+   "inspection preparation operators",
+   "pilot programme documentation checklist"
+  ],
+  "sections": [
+   {
+    "heading": "What an inspector tends to ask first",
+    "paras": [
+     "Inspectors and supervising bodies generally want to see that you do what your authorisation says you do. The first questions are therefore usually simple: who is responsible, where are the records, and can you show a recent example from start to finish. If the answers are crisp, the rest of the visit tends to go more smoothly.",
+     "Prepare a one-page overview that names the responsible person, deputies, sites, languages of operation and where each record type is kept. Update it whenever personnel change. This single page often does more to build confidence than a thick folder, because it shows that the organisation understands its own system."
+    ]
+   },
+   {
+    "heading": "The core document set",
+    "paras": [
+     "Group documents into five bundles: authorisation and correspondence, protocol and procedures, people and training, operational registers and logs, and incident and deviation records. For each bundle, name an owner and a review interval. A staff training record should show who was trained on which procedure version, when, and by whom, with a signature or equivalent acknowledgement.",
+     "Check that every procedure in force exists in the languages your staff actually work in. In Switzerland, teams often operate in German, French or Italian, and a procedure understood by only half the team is a weak control. Keep translations under the same version control as the originals so that they never drift apart."
+    ]
+   },
+   {
+    "heading": "Walking one record end to end",
+    "paras": [
+     "The most revealing exercise is a trace: choose a participant record and follow it through enrolment, eligibility check, consent, status history and any exports or reports that included it. Each step should point to an evidence document with a date and an author. Gaps found during your own trace are cheap to fix; gaps found during an inspection are not.",
+     "Repeat the trace for a stock movement if your programme handles inventory: from receipt through storage records to reconciliation. Note any step where a person had to guess or rely on memory, and turn it into a documented step. Keep the trace results themselves as evidence of internal control."
+    ]
+   },
+   {
+    "heading": "Behaviour on the day",
+    "paras": [
+     "Nominate one person to host the visit and one to retrieve records, so that the inspector is never left waiting. Answer questions directly and honestly, and if you do not know, say so and promise a dated follow-up rather than guessing.",
+     "Keep a log of what was requested and shown. After the visit, hold a short debrief, record any commitments made and add them to the action list with owners."
+    ]
+   },
+   {
+    "heading": "Rehearsal and follow-up",
+    "paras": [
+     "Run a mock inspection twice a year using someone who does not work daily in the programme, such as a manager from another site or an external adviser. Give them the overview page and ask them to request records at random. Time how long retrieval takes and write down every hesitation.",
+     "Capture findings in an action list with owners and dates, and review progress at the next management meeting. Treat the checklist as a living document rather than a one-off project. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-daily-stock-reconciliation-pilot",
+  "title": "Daily Stock Reconciliation for Pilot Programme Sites",
+  "description": "A simple daily reconciliation routine for authorised pilot programme inventory: counts, movements, variances and sign-off, in grams and CHF.",
+  "minutes": 5,
+  "published": "2026-01-26",
+  "category": "Stock & inventory",
+  "keywords": [
+   "daily stock reconciliation",
+   "pilot programme inventory records",
+   "stock count routine",
+   "inventory variance sign off",
+   "controlled stock records switzerland",
+   "stock reconciliation software"
+  ],
+  "sections": [
+   {
+    "heading": "Why reconcile every day",
+    "paras": [
+     "Stock records drift quietly. A missed entry on Monday becomes a puzzling shortfall on Friday, and by month end nobody remembers what happened. Reconciling daily keeps the distance between the physical count and the system record small enough to explain. In a regulated pilot, where you may need to account for every unit, that discipline is part of showing control.",
+     "Daily does not have to mean heavy. For most sites a focused count of the day's moving lines plus a rotating sample of the remainder takes fifteen to twenty minutes. The important part is that the routine is fixed, written down and performed by someone other than the person who made most of the day's movements, where staffing allows."
+    ]
+   },
+   {
+    "heading": "The routine in five steps",
+    "paras": [
+     "First, close the day's transactions so that no movements are in progress. Second, print or open the expected quantities from the system. Third, count physically, with a second person verifying or at least witnessing for higher-risk lines. Fourth, record counted quantities against expected ones and calculate each difference. Fifth, sign and date the sheet, or its digital equivalent, with both names.",
+     "Use consistent units and decimal precision throughout. Weighing in grams while the system records in kilograms is a classic source of apparent variances. Settle the unit for each line once, document it, and make scales part of a calibration schedule with records, because a count is only as reliable as the instrument."
+    ]
+   },
+   {
+    "heading": "Handling differences",
+    "paras": [
+     "Set tolerance bands in your written procedure: differences within a defined margin are recorded and explained briefly; anything above triggers a recount, a review of the day's movements and escalation to a manager. Never adjust a quantity to make the sheet balance. Every correction should be a separate, labelled adjustment with a reason code and an approver.",
+     "Keep reason codes short and meaningful: counting error, unrecorded movement, damaged or expired item, supplier discrepancy, unexplained. Review the unexplained category weekly. A cluster of unexplained differences on the same line or shift is a signal for process review, not accusations."
+    ]
+   },
+   {
+    "heading": "Training and segregation of duties",
+    "paras": [
+     "New staff should shadow several reconciliations before performing one alone, and the trainer should sign off the competence. Document this in the training matrix so that you can show who is qualified.",
+     "Where team size allows, separate the people who record movements from those who verify counts. Where it does not, add a periodic review by a manager from another site, which restores some independence at modest cost."
+    ]
+   },
+   {
+    "heading": "Reporting and tooling",
+    "paras": [
+     "Summarise reconciliation results weekly in one page: number of counts, number of differences, total adjustments and open investigations. Report the monetary value of adjustments in CHF for management, even if the pilot is not driven by revenue, since it makes patterns easier for finance colleagues to see. Store sheets with the same retention rule as other programme records.",
+     "A system like Budify can store counted versus expected quantities and keep the adjustment history locked against edits. Whatever tool you use, make sure it records who did what and when. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-investigating-stock-variances",
+  "title": "Investigating Stock Variances Without Guesswork",
+  "description": "A structured method for investigating inventory variances in an authorised pilot programme: evidence, timeline, root cause and corrective action.",
+  "minutes": 6,
+  "published": "2026-03-16",
+  "category": "Stock & inventory",
+  "keywords": [
+   "stock variance investigation",
+   "inventory discrepancy root cause",
+   "pilot programme stock control",
+   "inventory audit trail",
+   "variance report template",
+   "stock control switzerland"
+  ],
+  "sections": [
+   {
+    "heading": "Treat each variance as a small case file",
+    "paras": [
+     "When a count does not match the record, the instinct is to recount until the number looks right. A better approach is to open a short case file: date, line affected, expected versus counted quantity, who counted, who last moved the line. This gives the investigation a starting point and leaves a trail if the matter is reviewed later.",
+     "Resist the urge to name a cause before gathering evidence. Many variances turn out to be recording issues, such as a transfer logged at the wrong site, rather than physical loss. Keeping the first hour factual prevents unfair assumptions about colleagues and keeps the investigation credible with management and any supervising body."
+    ]
+   },
+   {
+    "heading": "Building the timeline",
+    "paras": [
+     "Pull every movement on the line since the last matching count: receipts, transfers, adjustments, write-offs and any returns. Lay them in time order with the user who entered each. Compare with paper delivery notes, handover sheets and shift rosters. Often the break is visible immediately, a missing entry, a duplicated entry or a transposed number.",
+     "If the timeline does not explain the difference, extend the search to adjacent lines with similar names or units, since mislabelled selections are common. Check scale calibration records and recent software changes. Document each check even when it finds nothing, because eliminated causes are part of the evidence."
+    ]
+   },
+   {
+    "heading": "Root cause and corrective action",
+    "paras": [
+     "Once a cause is identified, ask why the process allowed it. A transposed number points to a data entry control; a missing receipt points to goods-in routines; a repeated mislabelling points to storage layout. Write the corrective action with an owner and a date, and verify afterwards that the action actually reduced similar variances.",
+     "Distinguish between corrections of records and actions on the process. Correcting the record fixes today's balance; changing the process protects tomorrow's. Where a variance cannot be explained at all, escalate according to your written procedure and consider whether reporting to the competent authority is required under your authorisation. Ask counsel if unsure."
+    ]
+   },
+   {
+    "heading": "Communicating outcomes",
+    "paras": [
+     "Share conclusions with the people involved before they appear in a report. Colleagues often supply the missing detail, and fair treatment keeps the team willing to report problems early. Keep the tone focused on process.",
+     "Summarise each closed case in two or three lines for management: what happened, the amount in CHF where relevant, what changes. Escalate promptly if the case suggests deliberate misconduct, and involve counsel before taking action against any person."
+    ]
+   },
+   {
+    "heading": "Learning from patterns",
+    "paras": [
+     "Review closed cases monthly and tag them by cause, line, shift and site. Patterns appear quickly: perhaps most differences occur on Mondays after weekend handovers, or involve one storage area. Share the findings with the team in plain terms, focusing on the fixes.",
+     "Set a simple indicator, such as the share of counts with unexplained variances, and watch its trend. A falling figure shows the controls working. Keep investigation files for the period your retention policy requires. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-batch-lot-traceability-records",
+  "title": "Batch and Lot Traceability Records for Regulated Stock",
+  "description": "How to keep batch and lot traceability records that link receipts, storage, transfers and disposal for authorised pilot programme inventory.",
+  "minutes": 5,
+  "published": "2026-05-11",
+  "category": "Stock & inventory",
+  "keywords": [
+   "batch traceability records",
+   "lot tracking inventory software",
+   "pilot programme traceability",
+   "stock movement audit trail",
+   "traceability documentation switzerland",
+   "batch record keeping"
+  ],
+  "sections": [
+   {
+    "heading": "What traceability means in practice",
+    "paras": [
+     "Traceability is the ability to follow an item from the moment it enters your premises to the moment it leaves your stock, and to say who handled it in between. For an authorised pilot, this is often an explicit expectation of the supervising body. Even where it is not, it is the best protection you have when a question arises about a particular quantity.",
+     "Think of each batch or lot as having a life story with a few fixed chapters: receipt, identification, storage, internal movement, release and, where relevant, disposal or return. A record for each chapter, with date, quantity, location and person, is enough to reconstruct that story without needing anyone's memory."
+    ]
+   },
+   {
+    "heading": "Identifiers and labelling",
+    "paras": [
+     "Assign every batch an internal identifier at goods-in, even when the supplier supplies its own. The internal code should be unique, short and printed on a label attached to the container. Record the supplier reference alongside it so that you can cross-refer. Avoid reusing codes, and never relabel without logging the change.",
+     "Keep the label format consistent across sites. If your team works in German, French and Italian, use codes and symbols rather than words, so a colleague reading a label at another site is never uncertain. Test the labelling by asking someone from another shift to find a batch using only the code and the record."
+    ]
+   },
+   {
+    "heading": "Movements and locations",
+    "paras": [
+     "Log every internal transfer, even a move from one shelf to another, if your procedure treats locations as controlled. Include the from and to location, quantity, time and both people involved where two-person control applies. Movements between sites need documented dispatch and receipt entries, with a check that quantities match on both ends.",
+     "Reconcile location records periodically by walking the store with a list and confirming each batch is where the record says. Differences between recorded and actual locations are early warnings of loose practice. Treat them with the same seriousness as quantity variances."
+    ]
+   },
+   {
+    "heading": "Testing your traceability",
+    "paras": [
+     "Once a quarter, run a mock recall exercise: pick a batch and, within a set time, list where every quantity went. The exercise exposes gaps in records far better than reading procedures. Record the time taken and any quantities that could not be accounted for.",
+     "Use the results to refine forms and training. Aim to shorten the retrieval time each quarter, and keep the exercise reports in the programme file as evidence of active control."
+    ]
+   },
+   {
+    "heading": "Disposal, returns and closure",
+    "paras": [
+     "Close every batch with a final record. Disposal needs its own documented procedure: reason, witnesses, method and quantity, with a signature. Returns require the same traceability as receipts. Never let a batch simply disappear from the report; a zero balance with a closing entry tells a complete story.",
+     "A single linked history per batch makes inspector queries quick to answer. If you use paper or spreadsheets, add a cross-check step so that records and labels agree. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-participant-enrolment-eligibility-checks",
+  "title": "Participant Enrolment and Eligibility Checks: Record Them Properly",
+  "description": "A step-by-step approach to documenting enrolment and eligibility checks in an authorised pilot programme, with consent versions and staff sign-off.",
+  "minutes": 5,
+  "published": "2026-01-12",
+  "category": "Membership & access",
+  "keywords": [
+   "participant enrolment process",
+   "eligibility check records",
+   "pilot programme enrolment switzerland",
+   "consent version tracking",
+   "membership administration software",
+   "participant onboarding checklist"
+  ],
+  "sections": [
+   {
+    "heading": "Enrolment as a controlled process",
+    "paras": [
+     "Enrolment is the moment when the programme takes on obligations towards an individual, so it deserves a fixed sequence. Write the sequence down: information given, eligibility criteria checked, consent obtained, register entry created, participant code issued. Each step produces a record, and no step is skipped for convenience, even on a busy day.",
+     "Only staff who have completed training on the current procedure should enrol participants. Keep a list of authorised enrolment staff with their training dates. If a staff member is absent, the replacement must come from that list. This simple rule prevents the situation where an untrained temporary colleague performs a critical step."
+    ]
+   },
+   {
+    "heading": "Documenting eligibility",
+    "paras": [
+     "Eligibility criteria come from your authorisation and protocol, not from local custom. Convert them into a checklist that staff tick, with the date and the checker's name. Record only the outcome and the type of document viewed, for example that an identity document was seen, and avoid copying documents into files unless your procedure explicitly requires it.",
+     "Where criteria depend on dates or residence, record the date of the check, because circumstances change. Define what happens when someone fails a criterion: the outcome is recorded without retaining unnecessary detail, and the person is informed in their language. Rejected applicants should not linger in the active register."
+    ]
+   },
+   {
+    "heading": "Consent and information in three languages",
+    "paras": [
+     "Consent forms and information sheets must exist in the languages used by your participants, typically German, French or Italian in Switzerland, and each version must be controlled. Record the version signed, the date, and the staff member present. If the form changes, plan how existing participants are re-informed and re-consented, and record that too.",
+     "Make sure the staff member can explain the contents in the participant's language, or arrange an interpreter and note it. A signature on a form the person did not understand is weak evidence. Provide a copy to the participant and keep the original under the retention rule."
+    ]
+   },
+   {
+    "heading": "Handling exceptions and withdrawals",
+    "paras": [
+     "Exceptions need a documented route. If a person cannot provide a required document at the first visit, the record stays pending and a date is set for completion. No exception should allow a participant to be active before the checklist is complete.",
+     "Withdrawals follow their own short procedure: record the date and reason code, deactivate the code, inform the person of what happens to their data and archive according to the retention schedule."
+    ]
+   },
+   {
+    "heading": "Quality checks and tooling",
+    "paras": [
+     "Run a weekly sample of new enrolments, checking that all five records exist and are consistent. Look for patterns such as missing times or repeated omissions by one team member, which indicate training needs. Feed findings into refresher sessions.",
+     "A membership module in a system like Budify can enforce required steps before a participant record becomes active, which removes reliance on memory. Whatever you use, keep the rule that incomplete enrolments stay in a pending state. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-participant-ids-and-access-logs",
+  "title": "Participant IDs and Access Logs: Keeping Attendance Records Clean",
+  "description": "How to design participant identifiers and access logs for a pilot programme site: attendance records, visitor entries and data minimisation in practice.",
+  "minutes": 5,
+  "published": "2026-03-30",
+  "category": "Membership & access",
+  "keywords": [
+   "participant id system",
+   "access log records",
+   "attendance records pilot programme",
+   "membership access control software",
+   "site access log switzerland",
+   "member card administration"
+  ],
+  "sections": [
+   {
+    "heading": "The purpose of an access log",
+    "paras": [
+     "An access log answers a narrow question: who entered the site, when, and under what authority. It supports safety, accountability and, in a pilot, the evidence that only enrolled participants used the service. It is not a tool for observing people's habits, and it should be designed with that boundary in mind.",
+     "Decide in writing what the log is for before choosing its content. If the purpose is to confirm enrolment status and capacity, the log needs participant code, date, time and result of the check. Name, photograph or detailed notes are rarely necessary and add risk without adding control."
+    ]
+   },
+   {
+    "heading": "Designing participant identifiers",
+    "paras": [
+     "Use a participant code that is random or sequential, not derived from birth date or name. Print it on a card, or display it digitally, with a check digit or similar feature to catch typing errors. Keep the link to personal details in a separate table available only to a small group.",
+     "Plan for lost cards: a replacement process with identity verification, deactivation of the old code, and a log entry. Never reissue the same code to a different person. When a participant withdraws, the code is deactivated immediately and the log shows the date."
+    ]
+   },
+   {
+    "heading": "Check-in routine and exceptions",
+    "paras": [
+     "At the door, staff verify that the code is active, that the person matches the identification you hold under your procedure, and that capacity rules are respected. The result is recorded automatically or by a quick entry. Keep the routine short enough that queues do not tempt staff to skip it.",
+     "Exceptions will occur: an expired card, a system outage, a visitor with a legitimate reason such as an inspector or contractor. Provide a paper fallback form with sequential numbers, and require that fallback entries are keyed into the system the same day. Visitors get their own log with name, organisation, purpose and escort."
+    ]
+   },
+   {
+    "heading": "Common design errors",
+    "paras": [
+     "Avoid sharing one terminal login among all front-desk staff, because the log then cannot show who admitted whom. Avoid free-text remarks at check-in, which attract personal comments that do not belong in the record.",
+     "Avoid keeping access logs indefinitely just because storage is cheap. A log that is useful for months can become a liability after years. Align the retention period with the purpose and document it."
+    ]
+   },
+   {
+    "heading": "Reviewing and retiring the data",
+    "paras": [
+     "Review the log weekly for anomalies: entries by deactivated codes, entries outside opening times, repeated failed checks. Each anomaly gets a short note and, if needed, an incident record. Monthly, report totals only, such as attendance counts and capacity peaks, to management.",
+     "Set a retention period for detailed access entries, agree it with your data protection adviser under the FADP, and delete or aggregate on schedule. Scheduled deletion and aggregate counts can be automated. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-multilingual-sops-de-fr-it",
+  "title": "Multilingual SOPs for German, French and Italian Teams",
+  "description": "How to write and maintain standard operating procedures in German, French and Italian for pilot programme sites, with version control and training records.",
+  "minutes": 6,
+  "published": "2026-02-09",
+  "category": "Operations",
+  "keywords": [
+   "multilingual sop switzerland",
+   "standard operating procedures german french italian",
+   "pilot programme staff training",
+   "swiss multilingual operations",
+   "sop version control",
+   "operations manual translation"
+  ],
+  "sections": [
+   {
+    "heading": "The multilingual reality of Swiss operations",
+    "paras": [
+     "A Swiss organisation may have a head office in German, a site in the French-speaking part of the country and a participant base that includes Italian speakers. Procedures in one language leave the others dependent on informal translation, which is where misunderstandings arise. For regulated work, this is a control weakness rather than a convenience issue.",
+     "Start by identifying who needs which language for which procedure. Safety, records and incident procedures should exist in the working language of every site. Management policies might exist in one master language with summaries elsewhere. Write this language matrix down and review it annually."
+    ]
+   },
+   {
+    "heading": "Master text and translations",
+    "paras": [
+     "Choose a master language for each procedure and treat translations as controlled copies. The master carries the version number; translations carry the same number and refer to it. When the master changes, all translations are flagged as outdated until updated and checked. Never allow a translation to be edited independently.",
+     "Use professional translators or bilingual staff who understand the subject, and have a second person check terminology. Build a short glossary of key terms in all languages so that words such as register, batch or adjustment are rendered consistently. Store the glossary with the procedures."
+    ]
+   },
+   {
+    "heading": "Writing procedures people follow",
+    "paras": [
+     "Good procedures are short, in numbered steps, with one action per step and the responsible role named. Include the record to be produced at the end of each step. Use screenshots or forms sparingly and keep them updated, since outdated images undermine trust in the whole document.",
+     "Test each procedure by asking someone who does not normally perform it to follow the steps without help. Note where they hesitate. Revise before release. This test usually exposes unspoken assumptions faster than any review meeting."
+    ]
+   },
+   {
+    "heading": "Governance and review cycle",
+    "paras": [
+     "Set a review cycle, commonly annual, with an owner for each procedure. Reviews should check content against current authorisation conditions, incidents of the past year and staff feedback. Record the outcome even if nothing changes.",
+     "Provide a simple route for staff to suggest improvements in their own language, and acknowledge each suggestion. Procedures that people help shape are followed more reliably."
+    ]
+   },
+   {
+    "heading": "Training and evidence",
+    "paras": [
+     "Record who was trained on which version and language, with date and trainer. Include a short comprehension check, such as a task demonstration. For temporary or part-time staff, training before first independent shift is a firm rule.",
+     "Review the training matrix quarterly against the staff roster to catch gaps after turnover. When a procedure changes, schedule refresher sessions in all languages within the same period so that sites do not run on different rules. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-shift-handover-routines",
+  "title": "Shift Handover Routines That Protect Your Records",
+  "description": "A practical handover routine for pilot programme sites: what to hand over, how to log it, and how to avoid lost information between shifts.",
+  "minutes": 4,
+  "published": "2026-04-06",
+  "category": "Operations",
+  "keywords": [
+   "shift handover checklist",
+   "handover log operations",
+   "pilot programme site operations",
+   "operations routines switzerland",
+   "shift change records",
+   "site management checklist"
+  ],
+  "sections": [
+   {
+    "heading": "Where information gets lost",
+    "paras": [
+     "Most operational errors happen at transitions. The outgoing person knows a count was interrupted, a card was reported lost or a supplier consignment is awaiting verification. The incoming person does not, and acts on the system as it stands. A structured handover costs ten minutes and removes this whole class of problem.",
+     "Treat handover as a records activity. Verbal conversations are fine as support, but the content that matters must be written, dated and signed by both people, so that it can be reviewed if something goes wrong later."
+    ]
+   },
+   {
+    "heading": "A one-page handover form",
+    "paras": [
+     "Design a single page with fixed headings: open tasks, unresolved variances, equipment issues, participant matters needing follow-up, security or safety observations, and messages from management. Each heading has either a note or the word none. Blank fields are not allowed, because blank could mean forgotten.",
+     "Participant matters must be written with codes rather than names, in line with data minimisation. Keep detailed information in the proper record and use the handover note only to point to it. This habit keeps the handover document low-risk if it is left on a desk."
+    ]
+   },
+   {
+    "heading": "Physical and system checks",
+    "paras": [
+     "Pair the written handover with a short physical routine: confirm that stores are locked, keys are accounted for, cash or payment terminals are reconciled where applicable in CHF, and counts due that day are done. The incoming person signs only after checking the items they take over.",
+     "Check the system status too: pending transactions, failed syncs, backup messages and open alerts. If the system is down at handover time, record it and switch to the fallback procedure. Resist handing over problems silently."
+    ]
+   },
+   {
+    "heading": "Digital or paper",
+    "paras": [
+     "Paper forms are robust and quick, but they are hard to search and can be mislaid. Digital forms add time stamps and searchability but need devices and logins. Choose according to site conditions and keep a paper fallback for outages.",
+     "Whichever you choose, standardise the headings across all sites and languages, and train every new starter on the form during their first week."
+    ]
+   },
+   {
+    "heading": "Reviewing the handovers",
+    "paras": [
+     "A manager should read the week's handover forms every Friday, looking for repeated issues. Repeated equipment faults, recurring late counts or the same unresolved variance suggest a root cause that needs resolution beyond the shift level.",
+     "Keep the forms in the site file for the period set by your retention rule. Digital forms with timestamps are easier to search than paper. Whichever format you choose, make sure everyone uses the same one. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-multi-site-operations-across-cantons",
+  "title": "Running Multi-Site Pilot Operations Across Swiss Cantons",
+  "description": "How to keep records, stock and staffing consistent across several sites in different cantons while respecting local conditions and your authorisation.",
+  "minutes": 6,
+  "published": "2026-06-08",
+  "category": "Operations",
+  "keywords": [
+   "multi site operations switzerland",
+   "cantonal differences pilot programme",
+   "pilot programme multiple sites",
+   "consistent records across sites",
+   "swiss operators site management",
+   "centralised reporting pilot"
+  ],
+  "sections": [
+   {
+    "heading": "Consistency versus local conditions",
+    "paras": [
+     "Switzerland is a federation, and authorities in different cantons can set or interpret conditions differently. An operator with several sites must therefore separate what is common to all sites, such as record formats and control routines, from what is local, such as reporting contacts or site-specific conditions in the authorisation.",
+     "Create a simple site profile for each location: responsible person, applicable conditions, language, contact at the competent authority, opening times and capacity. Keep it under version control and review whenever conditions change. Do not assume that what one canton accepted will be accepted by another; confirm locally."
+    ]
+   },
+   {
+    "heading": "A common core of records",
+    "paras": [
+     "Define a minimum record set that every site must produce in the same format: participant register, stock reconciliation, incident log, deviation log, training matrix and handover forms. Common formats allow central review without translation of structure, even if free text differs by language.",
+     "Use the same participant code format and the same reason codes across sites. This makes it possible to compare variance rates between locations and to spot a site that is drifting from the standard. Central teams can then support rather than police."
+    ]
+   },
+   {
+    "heading": "Central oversight",
+    "paras": [
+     "Appoint a central quality owner who reviews each site's weekly summary and monthly sample of records. Rotate the reviewed samples so that every site is checked regularly. Document the review, including findings and follow-up, since it demonstrates that management supervises the programme actively.",
+     "Plan site visits and internal audits at least annually. Visiting staff should use the same checklist for every site to ensure comparability. Share good practice discovered during visits through short bulletins in the languages of the sites."
+    ]
+   },
+   {
+    "heading": "Communication and escalation",
+    "paras": [
+     "Schedule a short weekly call between site leads with a fixed agenda: incidents, variances, staffing, upcoming changes. Record decisions in a shared log in the languages needed. Short regular contact prevents sites from drifting apart.",
+     "Define an escalation ladder with names and response times, so that a site facing an incident knows whom to call, and when central management must inform the authority. Test contact details every quarter."
+    ]
+   },
+   {
+    "heading": "Transfers, staffing and finance",
+    "paras": [
+     "Transfers of stock between sites need dispatch and receipt entries and a reconciliation of in-transit quantities at each day end. Staff moving between sites should confirm they have training on local differences. Costs by site should be reported in CHF using a consistent allocation method, so management can see which sites need support.",
+     "Centralised data must follow your data protection design: limit who at head office can see identifiable participant details, and log access. Site-level permissions in a shared system help, but the permission design remains yours to decide. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-chf-reporting-vat-exports-pilot",
+  "title": "CHF Reporting and VAT-Ready Exports for Pilot Operators",
+  "description": "How to structure finance records and exports in CHF for a pilot programme: categories, VAT-type tagging, reconciliations and accountant-friendly files.",
+  "minutes": 5,
+  "published": "2026-02-23",
+  "category": "Finance & reporting",
+  "keywords": [
+   "chf reporting pilot programme",
+   "vat ready exports switzerland",
+   "finance exports accountant",
+   "pilot programme bookkeeping",
+   "swiss vat records operators",
+   "financial reporting software"
+  ],
+  "sections": [
+   {
+    "heading": "Why finance records matter in a pilot",
+    "paras": [
+     "Even a pilot programme that is not designed for profit has a financial trail: staff costs, premises, equipment, software, insurance, testing and administration. Funders, partners and the tax authority may all ask for figures, and each may want a different cut. Clean records let you answer all of them from one source.",
+     "Agree at the start which reports are needed, how often and in which format. Typically that is a monthly management summary in CHF, a quarterly report for partners and an annual set for the accountant. Having these defined prevents last-minute spreadsheet assembly."
+    ]
+   },
+   {
+    "heading": "Categories and tagging",
+    "paras": [
+     "Design a chart of cost categories that mirrors the programme structure: personnel, premises, equipment, software, compliance and audit, training, consumables and overheads. Tag each entry with the site and the funding source where relevant. Keep categories stable throughout the year so that comparisons are meaningful.",
+     "Value added tax in Switzerland is a specialist area, with different rates and treatments. Tag each transaction with the tax treatment as advised by your accountant rather than guessing, and keep supporting invoices. If your programme has activities with different treatments, separate them in the books from the start."
+    ]
+   },
+   {
+    "heading": "Reconciliation routines",
+    "paras": [
+     "Reconcile bank and payment terminal records to the books at least monthly. Differences are investigated and documented in the same way as stock variances. If you take payments in francs, record the settlement dates and fees from payment providers separately from the gross amounts.",
+     "Keep a reconciliation checklist: bank statement matched, terminal batches matched, outstanding items listed with age, adjustments authorised. A second person reviews and signs. This is one of the simplest and most effective financial controls available to small teams."
+    ]
+   },
+   {
+    "heading": "Month-end close routine",
+    "paras": [
+     "Use a fixed month-end checklist: all invoices entered, bank and terminal reconciled, stock valuation exported, accruals reviewed, report issued by a set working day. A repeatable close reduces errors and gives partners predictable timing.",
+     "After issue, lock the period and record any later corrections as separate adjustments in the following month with an explanation. This preserves the integrity of reports already shared with third parties."
+    ]
+   },
+   {
+    "heading": "Exports for accountants and auditors",
+    "paras": [
+     "Ask your accountant which file formats they prefer, and set up a recurring export with consistent column order, date format and currency fields. Include a data dictionary explaining each column. Always export with the period locked, so that figures do not change after the report has been issued.",
+     "A system like Budify can produce transaction and stock-value exports for a chosen period, which the accountant can import into the books. Check the first few exports carefully against source records and keep the check as evidence. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-budgeting-pilot-programme-costs",
+  "title": "Budgeting a Pilot Programme: Costs, Contingency and Reporting",
+  "description": "A practical guide to building and monitoring a pilot programme budget in CHF: cost drivers, contingency, variance review and stakeholder reporting.",
+  "minutes": 5,
+  "published": "2026-07-13",
+  "category": "Finance & reporting",
+  "keywords": [
+   "pilot programme budget",
+   "budget template chf",
+   "cost control pilot operators",
+   "financial planning pilot switzerland",
+   "variance review budget",
+   "programme cost reporting"
+  ],
+  "sections": [
+   {
+    "heading": "Start from activities, not from totals",
+    "paras": [
+     "A reliable pilot budget starts with a list of activities required by the authorisation and protocol: enrolment, record-keeping, stock control, staff training, internal audits, reporting and data protection measures. Estimate the time and resources each needs, then cost them in CHF. Top-down figures such as a percentage of an assumed total tend to miss compliance work.",
+     "Write the assumptions beside every line: number of participants, number of sites, hours per week, hourly rates, licence fees. When reality differs, you can see which assumption failed, rather than facing a mysterious overrun."
+    ]
+   },
+   {
+    "heading": "Cost drivers to watch",
+    "paras": [
+     "Staff time is usually the largest driver. Record-keeping and training consume more hours than first-time operators expect, especially in the early months. Premises, security, insurance and equipment calibration follow. Software and storage costs are comparatively modest but should be budgeted over the full term, including data retention after the pilot ends.",
+     "Add lines for external advice: legal, accounting, data protection and translation. In a country with several working languages, translation and review of forms and procedures is a recurring cost that is easy to omit."
+    ]
+   },
+   {
+    "heading": "Contingency and scenarios",
+    "paras": [
+     "Include a contingency line, commonly expressed as a percentage of the total, and state what it is for. Prepare at least two scenarios: lower and higher participation than planned. Show how staffing and costs change in each. This helps decision makers understand fixed versus variable costs.",
+     "Define triggers for action, for example if monthly spending exceeds the plan by a stated margin for two months running, a review meeting is called. Pre-agreed triggers avoid debates about whether a deviation is serious."
+    ]
+   },
+   {
+    "heading": "Linking budget to records",
+    "paras": [
+     "Tie budget lines to the operational records that drive them, such as hours logged for training or the number of reconciliations performed. When a cost grows, the records often explain why, and you can adjust the process rather than just the number.",
+     "Keep supporting documents for material costs in the programme file, indexed by budget line, so that questions from funders can be answered quickly."
+    ]
+   },
+   {
+    "heading": "Monitoring and reporting",
+    "paras": [
+     "Compare actual to budget monthly by category and site. Explain differences in a sentence each, separating timing differences from real overruns. Forecast the remainder of the year rather than only reporting the past.",
+     "Keep the budget versions: original, revised, with dates and reasons. Partners appreciate a clear explanation of changes. Align your report format with what funders or supervising bodies expect, and ask them early what they need. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-data-minimisation-participant-records",
+  "title": "Data Minimisation for Participant Records Under the FADP",
+  "description": "How to apply data minimisation to participant registers and logs in a Swiss pilot programme: purpose mapping, field reviews and safe exports.",
+  "minutes": 6,
+  "published": "2026-02-16",
+  "category": "Data protection",
+  "keywords": [
+   "data minimisation participant records",
+   "fadp pilot programme",
+   "swiss data protection operators",
+   "participant data protection",
+   "data mapping pilot programme",
+   "privacy by design records"
+  ],
+  "sections": [
+   {
+    "heading": "What data minimisation asks of you",
+    "paras": [
+     "Swiss data protection law, generally referred to as the FADP, expects personal data to be processed only as far as needed for a clear purpose. For a pilot programme, this means that every field in every register should be there because the authorisation, the protocol or a genuine operational need requires it. Convenience alone is not a good reason.",
+     "Because participants' involvement in a regulated programme may itself be sensitive, the care you take with their information is part of your credibility. Ask your data protection adviser how the law applies to your particular facts; this article offers a practical method, not an interpretation of the statute."
+    ]
+   },
+   {
+    "heading": "Map purposes to fields",
+    "paras": [
+     "Create a table with three columns: the field, the purpose it serves and the source requirement. Walk through each register, form and export. Fields without a purpose are deleted from forms and databases. Fields with a purpose but a weaker justification are reviewed with your adviser.",
+     "Do the mapping for each system, including spreadsheets used by managers, email attachments and messaging groups. Shadow copies are where minimisation usually fails. A clear rule that identifiable participant data lives only in designated systems is easier to enforce than countless small instructions."
+    ]
+   },
+   {
+    "heading": "Design choices that reduce exposure",
+    "paras": [
+     "Use participant codes in operational documents, with the key table held separately. Prefer ranges or yes-no outcomes to exact values where the purpose allows, for example confirming eligibility rather than storing the underlying document. Restrict free-text fields and give staff guidance about what must not be written.",
+     "Set role-based access: front-desk staff see what they need for check-in, managers see aggregates, only a small group sees identity details. Log every access to identity tables. Reduced visibility protects participants and also protects staff from suspicion if an incident occurs."
+    ]
+   },
+   {
+    "heading": "Training and culture",
+    "paras": [
+     "Staff need practical rules rather than abstract principles: do not photograph registers, do not send participant lists by messaging apps, do not keep personal notebooks. Explain why, and give them approved alternatives.",
+     "Include data protection in induction and in annual refreshers, and record attendance. Make it easy to report mistakes, such as an email sent to the wrong person, so that they can be assessed promptly."
+    ]
+   },
+   {
+    "heading": "Exports and sharing",
+    "paras": [
+     "Before any export leaves the system, ask what the recipient needs and whether coded or aggregate data would do. Produce reports for partners and evaluators at the lowest level of detail that answers their question. Record each external disclosure with date, recipient, content and legal or contractual basis.",
+     "Review fields and access every six months, and whenever the protocol changes. Document the review. Most systems let you configure which fields exist and who may view them, but the decisions are for your organisation. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-retention-and-deletion-schedules",
+  "title": "Retention and Deletion Schedules for Pilot Programme Data",
+  "description": "Build a retention and deletion schedule for pilot records: categories, periods set with counsel, deletion routines and evidence that deletion took place.",
+  "minutes": 5,
+  "published": "2026-05-25",
+  "category": "Data protection",
+  "keywords": [
+   "retention schedule pilot records",
+   "data deletion routine",
+   "record retention switzerland",
+   "pilot programme end of study data",
+   "data lifecycle management",
+   "delete participant data procedure"
+  ],
+  "sections": [
+   {
+    "heading": "Why a schedule is needed",
+    "paras": [
+     "Two pressures pull in opposite directions. Authorities and protocols may require you to keep certain records for a defined period; data protection principles say not to keep personal data longer than necessary. A written retention schedule reconciles the two by assigning each record type a justified period and an end-of-life action.",
+     "Without a schedule, data tends to accumulate indefinitely in forgotten folders, which increases both risk and cost. With one, staff know what to keep, what to delete and who decides in unusual cases."
+    ]
+   },
+   {
+    "heading": "Building the schedule",
+    "paras": [
+     "List record categories: participant register, consent forms, eligibility checks, access logs, stock records, finance records, incident logs, training records, correspondence. For each, note the trigger for the clock, such as end of participation or end of the pilot, the retention period and its source.",
+     "Retention periods depend on your authorisation, contract terms and legal obligations such as bookkeeping rules. Do not copy periods from another country or from a template. Have counsel confirm each one, record the date of confirmation and revisit if requirements change."
+    ]
+   },
+   {
+    "heading": "Deletion and anonymisation routines",
+    "paras": [
+     "Schedule periodic deletion runs, for example quarterly, with a named person responsible. The run identifies records past their period, a second person reviews the list, deletion is executed and a log entry records date, category and count. Include backups and copies in the routine or document how they expire.",
+     "Where aggregate figures are needed afterwards, anonymise rather than delete, and test that anonymisation really prevents re-identification given small numbers in a pilot. Small cohorts make this harder than it appears; take advice."
+    ]
+   },
+   {
+    "heading": "Governance of the schedule",
+    "paras": [
+     "Assign an owner for the schedule and review it at least annually, and whenever your authorisation or contracts change. Record versions and the reasons for amendments, just as you do for procedures.",
+     "Build exceptions handling into the process: a legal hold or an ongoing inquiry can suspend deletion. Document who can instruct a hold, how it is recorded and how it is lifted."
+    ]
+   },
+   {
+    "heading": "Participant withdrawal and the end of the pilot",
+    "paras": [
+     "When a participant withdraws, decide in advance which records must be kept and for how long, and which can be removed immediately. Inform the participant in clear language in their own language about what remains and why.",
+     "At the end of the pilot, run a close-out: final reconciliation, archive of required records in a secured location, deletion of everything else, and a certificate of deletion signed by the responsible person. A system like Budify can support scheduled deletion and keep the deletion log, though the schedule itself must come from your counsel. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-handling-data-subject-requests",
+  "title": "Handling Participant Data Requests: A Workflow for Operators",
+  "description": "A clear workflow for receiving, verifying and answering participant requests for access, correction or deletion of their data in a Swiss pilot programme.",
+  "minutes": 5,
+  "published": "2026-08-03",
+  "category": "Data protection",
+  "keywords": [
+   "participant data access request",
+   "data subject request workflow",
+   "fadp access requests",
+   "pilot programme privacy procedure",
+   "correction and deletion requests",
+   "data protection officer operators"
+  ],
+  "sections": [
+   {
+    "heading": "Be ready before the first request",
+    "paras": [
+     "Participants have rights over their personal data under Swiss data protection law, commonly referred to as the FADP. A request may arrive by letter, email or at the front desk, in German, French or Italian. If nobody knows what to do with it, deadlines slip and trust is damaged. Prepare a written procedure and make sure all staff know the first step: pass it on immediately to the named responsible person.",
+     "Name that person and a deputy, publish a contact address in the participant information, and record in the procedure the response time your adviser has confirmed. Do not rely on memory of deadlines; ask counsel for the correct period and document it."
+    ]
+   },
+   {
+    "heading": "Log, verify, scope",
+    "paras": [
+     "Open a request log entry on the day of receipt: date, channel, type of request, language and responsible handler. Verify the identity of the requester proportionately, without collecting more data than needed. A participant code plus a reference known only to them may suffice in some cases; decide this in your procedure.",
+     "Define the scope: which systems, registers, logs and mailboxes may hold the person's data. A data map prepared for minimisation purposes makes this step quick. Search each location and record that the search was made, even when nothing is found."
+    ]
+   },
+   {
+    "heading": "Preparing the response",
+    "paras": [
+     "Assemble the data in a readable form, remove information about other people, and check whether any legal or contractual obligation requires you to retain or refuse part of the request. Have counsel or your data protection adviser review non-routine cases before sending.",
+     "Write the answer in the requester's language, in plain wording, and explain what was provided, what was withheld and why. For correction requests, change the record with a visible history. For deletion requests, apply the retention schedule and tell the person which records must remain."
+    ]
+   },
+   {
+    "heading": "Special situations",
+    "paras": [
+     "Some requests are unusual: from a representative, from a former participant after the pilot ended, or covering a very broad scope. Treat these as non-routine and consult counsel before responding.",
+     "Complaints about how data was handled should be logged separately and answered by someone not involved in the original processing. Keep an eye out for contact from supervisory authorities and route it to management immediately."
+    ]
+   },
+   {
+    "heading": "Closing the loop",
+    "paras": [
+     "Record the date of the response, the content sent and the method used. Keep the file for the period set in your retention schedule. Review the log quarterly to identify patterns, such as many requests on the same topic, which may indicate unclear participant information.",
+     "Test the procedure once a year with a mock request to see how long it takes and where it stalls. Locating a participant's records by code speeds this up, but the response remains a human decision. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-choosing-compliance-software-checklist",
+  "title": "Choosing Compliance Software: A Checklist for Pilot Operators",
+  "description": "A vendor-neutral checklist for evaluating record-keeping and inventory software for a pilot programme: audit trails, permissions, languages and exit terms.",
+  "minutes": 6,
+  "published": "2026-03-09",
+  "category": "Technology",
+  "keywords": [
+   "compliance software checklist",
+   "choosing record keeping software",
+   "pilot programme software requirements",
+   "audit trail software features",
+   "vendor evaluation checklist",
+   "swiss data hosting software"
+  ],
+  "sections": [
+   {
+    "heading": "Start with requirements, not demos",
+    "paras": [
+     "Before talking to any vendor, write down what your authorisation, protocol and procedures require the system to do: keep participant registers, preserve histories, control stock, produce exports, limit access. Rank each requirement as essential or desirable. Demonstrations are persuasive, and a prepared list stops you from buying features you do not need.",
+     "Involve the people who will use the system daily and the person responsible for compliance. Operators notice workflow friction; compliance staff notice missing controls. Both views matter for the final decision."
+    ]
+   },
+   {
+    "heading": "Records and audit trail features",
+    "paras": [
+     "Essential features usually include append-only histories for key fields, user identification on every change, time stamps, locked periods for finance and stock reports, and the ability to export complete records. Ask to see what the system shows when a value is changed and then corrected. If the earlier value disappears, that is a warning sign.",
+     "Check reporting flexibility: can you export in the formats your accountant and the supervising body request, with dates, amounts in CHF and the units you use? Ask how corrections are handled and whether reports can be regenerated for any past date."
+    ]
+   },
+   {
+    "heading": "Access, languages and data location",
+    "paras": [
+     "Verify role-based permissions at field level where needed, individual logins, strong authentication and session controls. Ask where data is hosted, who can access it and what happens in a support case. Swiss and European data protection expectations make data location and transfer questions important; involve your adviser.",
+     "Check language support for the interface and for printed output in German, French and Italian. Staff should not have to work in a language they do not command, as that raises error rates. Test with real examples including umlauts and accented characters."
+    ]
+   },
+   {
+    "heading": "Implementation planning",
+    "paras": [
+     "Plan the rollout in phases: configuration, data migration, training, parallel running, go-live. Appoint a project owner and set acceptance criteria for each phase. Migrations of historical records deserve special care, with sample checks comparing old and new figures.",
+     "Budget time for staff training in each working language and keep the training records. After go-live, hold a review at thirty and ninety days to list fixes and update procedures."
+    ]
+   },
+   {
+    "heading": "Contract, exit and testing",
+    "paras": [
+     "Review the contract for service levels, backup commitments, incident notification, sub-processors and your rights to your data. Insist on a defined exit route: a full export in documented formats, and confirmed deletion afterwards. A system you cannot leave is a risk to continuity.",
+     "Run a trial with realistic data before committing. Define success criteria in advance, for example complete a reconciliation, produce a month-end export and trace a participant from enrolment to status change. A system like Budify, like any other, should be judged by such tests rather than by claims. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-backups-and-audit-trails",
+  "title": "Backups, Audit Trails and Business Continuity for Pilot Records",
+  "description": "Protect pilot programme records with tested backups, immutable audit trails and a continuity plan covering outages, device loss and staff absence.",
+  "minutes": 6,
+  "published": "2026-06-22",
+  "category": "Technology",
+  "keywords": [
+   "backup and recovery records",
+   "audit trail integrity",
+   "business continuity pilot programme",
+   "data security operators switzerland",
+   "disaster recovery small business",
+   "record integrity software"
+  ],
+  "sections": [
+   {
+    "heading": "Records are only as good as their recovery",
+    "paras": [
+     "A compliant pilot depends on records being available years after they are created. A lost database, a failed laptop or a ransomware attack can erase that evidence in minutes. Backups, audit trails and a continuity plan are not luxuries; they are how you keep the promise made in your authorisation to maintain reliable records.",
+     "Begin with an inventory of systems holding programme records, including spreadsheets and cloud drives. Rank them by importance and define how much data loss and downtime each can tolerate. These two numbers drive every later decision."
+    ]
+   },
+   {
+    "heading": "Backup design",
+    "paras": [
+     "Follow a simple pattern: several copies, on at least two kinds of storage, with at least one copy kept separately from the main environment, and encrypted. Automate the schedule and log each run. A backup nobody monitors can fail silently for months.",
+     "Test restoration at least twice a year by recovering a sample to a separate environment and checking that records open and history is intact. Keep the test report. Many organisations discover backup problems only on the day they need the data."
+    ]
+   },
+   {
+    "heading": "Audit trails you can trust",
+    "paras": [
+     "An audit trail records who did what and when. For it to have value, ordinary users must not be able to edit or remove entries, and administrator actions must also be logged. Time stamps should come from a reliable source. Review the trail regularly for unusual patterns, such as changes at odd hours or by shared accounts.",
+     "Ban shared logins. Every person has an individual account with only the permissions required. When staff leave, deactivate accounts the same day and document it. This single habit closes many gaps."
+    ]
+   },
+   {
+    "heading": "Roles and responsibilities",
+    "paras": [
+     "Name an owner for backups, one for access management and one for incident response, with deputies. Small teams often combine roles, which is acceptable if the duties are written down and reviews are done by someone else.",
+     "Document the contacts of service providers and the steps for escalating technical incidents. Schedule an annual review of the whole security arrangement with an adviser."
+    ]
+   },
+   {
+    "heading": "Continuity planning",
+    "paras": [
+     "Write a short continuity plan covering power or internet loss, system failure, device theft and key staff absence. Include paper fallback forms with sequential numbers, a rule that fallback entries are entered into the system within a day, and contact details of the vendor and adviser.",
+     "Rehearse the plan annually with a realistic scenario and record what you learned. Include the data protection angle: lost devices should be encrypted and remotely lockable, and incidents involving personal data should follow your breach procedure and be assessed with counsel. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-preparing-evaluation-reports-for-authorities",
+  "title": "Preparing Evaluation Reports for Supervising Bodies",
+  "description": "How to assemble clear, evidence-based periodic reports for supervising bodies and evaluators of a pilot programme using the records you already keep.",
+  "minutes": 5,
+  "published": "2026-04-27",
+  "category": "Growth",
+  "keywords": [
+   "pilot programme evaluation report",
+   "reporting to supervising authority",
+   "swiss pilot programme reporting",
+   "operator evidence pack",
+   "programme metrics records",
+   "annual report pilot operators"
+  ],
+  "sections": [
+   {
+    "heading": "Report from records, not from memory",
+    "paras": [
+     "Reports to supervising bodies and evaluators carry the most weight when each statement can be traced to a record. Build the report structure early and feed it from your registers and logs throughout the year. A monthly extract of key counts takes little time and spares you a frantic assembly period before the due date.",
+     "Ask the recipient what they need. Request their template, definitions and deadlines in writing. If definitions are ambiguous, for example what counts as an active participant, agree an interpretation and apply it consistently across periods."
+    ]
+   },
+   {
+    "heading": "Core indicators",
+    "paras": [
+     "Typical indicators drawn from operational records include number of enrolled and active participants by period, withdrawals, completion of protocol tasks, deviations and corrective actions, stock reconciliation outcomes, incidents and staff training coverage. Present each with the definition and the data source.",
+     "Keep indicators about the programme, not about individuals. Use aggregates and avoid small cell counts that could identify people. Your data protection adviser can help set thresholds below which figures are grouped or suppressed."
+    ]
+   },
+   {
+    "heading": "Writing honestly",
+    "paras": [
+     "Include problems. A report that lists deviations, explains root causes and shows corrective actions is more persuasive than one that claims perfection, which readers rarely believe. State limitations of the data, such as periods when a log was incomplete, and what you did to address them.",
+     "Use plain language and short paragraphs, and provide versions in the language required by the recipient. Numbers in CHF should state the period and whether figures include tax. Have a second person check every figure against its source."
+    ]
+   },
+   {
+    "heading": "Timeline and quality control",
+    "paras": [
+     "Work backwards from the deadline: data extraction, internal review, adviser review, sign-off, submission, with buffers for each. Confirm the submission method and file format in advance to avoid technical surprises on the day.",
+     "Apply a final checklist: figures tie to sources, definitions are consistent with earlier reports, names and dates are correct, language is correct and no identifiable details slipped in."
+    ]
+   },
+   {
+    "heading": "Evidence packs and follow-up",
+    "paras": [
+     "Prepare an evidence pack of extracts supporting the key claims, indexed and ready to supply on request. Avoid sending more than asked; give what is requested and note that further records are available.",
+     "After submission, log questions received and answers given, and track any commitments you made. Hold a short internal lessons-learned session. Quick period extracts free time for reviewing the quality of the narrative. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-pilot-wind-down-and-close-out",
+  "title": "Pilot Wind-Down and Close-Out: Records, Stock and Data",
+  "description": "A close-out plan for the end of a pilot programme: final reconciliations, record archiving, participant communication, staff handover and deletion evidence.",
+  "minutes": 6,
+  "published": "2026-10-08",
+  "category": "Growth",
+  "keywords": [
+   "pilot programme close out",
+   "end of pilot records archive",
+   "pilot wind down checklist",
+   "final stock reconciliation",
+   "pilot programme exit plan",
+   "swiss pilot programme end"
+  ],
+  "sections": [
+   {
+    "heading": "Plan the ending from the beginning",
+    "paras": [
+     "Every pilot ends, either with a transition to a new framework, an extension or a stop. In all cases, the operator remains responsible for records, stock and participant data. A close-out plan prepared months ahead avoids rushed decisions. Ask your supervising body early which steps it expects and by when.",
+     "Appoint a close-out lead, set a timeline backwards from the end date and list dependencies: final reports, last enrolments, last stock movements, last payments. Communicate the plan to staff and, where appropriate, to participants."
+    ]
+   },
+   {
+    "heading": "Participants and communication",
+    "paras": [
+     "Participants deserve clear, timely information about the end of the programme, the fate of their data and whom to contact afterwards. Prepare notices in German, French and Italian, have them reviewed by your adviser and keep a record of when and how they were issued.",
+     "Update the register as participants exit, with status and date. Make sure that rights requests received around the end are handled to the normal standard. Do not shorten procedures because the programme is closing."
+    ]
+   },
+   {
+    "heading": "Final stock and finance",
+    "paras": [
+     "Run a final stock reconciliation with two signatories and a full report. Document the disposition of every remaining quantity strictly according to your authorisation and the instructions of the competent authority. Never improvise; if instructions are missing, ask in writing and keep the answer.",
+     "On the finance side, settle open invoices, reconcile the final accounts in CHF and prepare a closing report with a year-by-year comparison to budget. Export ledgers and reports in documented formats and give your accountant a complete set."
+    ]
+   },
+   {
+    "heading": "Staff and contracts",
+    "paras": [
+     "Staff need clear information about their roles during the close-out and afterwards. Keep knowledgeable people available until the final reconciliation and archive are complete, and record handover of responsibilities to the person who remains accountable.",
+     "Review contracts with landlords, suppliers and software providers for notice periods and data return clauses, and diarise each date. Ensure that access rights of departing staff and vendors are removed and logged."
+    ]
+   },
+   {
+    "heading": "Archiving, deletion and lessons",
+    "paras": [
+     "Move records that must be retained into a secure archive with an index, access list and retention end date. Delete the rest under your schedule, and produce a signed deletion record. Check that backups, shared drives and email folders are covered.",
+     "Hold a lessons-learned review while staff are still available, and write it down: what worked, what failed, what you would change. These notes are valuable for any later application or successor programme. A system like Budify can export complete histories for archive purposes before accounts are closed. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ }
+]

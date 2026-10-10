@@ -1,0 +1,1062 @@
+[
+ {
+  "slug": "es-member-register-spanish-associations",
+  "title": "Member Register for Spanish Associations: A Practical Guide",
+  "description": "How non-profit associations in Spain can keep an accurate, auditable member register (libro de socios): fields, change control and review routines.",
+  "minutes": 5,
+  "published": "2026-01-06",
+  "category": "Records & compliance",
+  "keywords": [
+   "member register spain association",
+   "libro registro de socios",
+   "association administration software spain",
+   "non-profit association records",
+   "club membership database spain",
+   "member register audit trail"
+  ],
+  "sections": [
+   {
+    "heading": "Why the member register comes first",
+    "paras": [
+     "In a Spanish non-profit association, the member register (libro registro de socios) is the document that proves who belongs to the organisation, since when, and under which category. Board members, auditors and public bodies all rely on it. If it is incomplete or inconsistent, almost every other record, from fee ledgers to assembly attendance lists, becomes hard to defend.",
+     "Treat the register as a controlled record rather than a spreadsheet anyone can edit. Decide who may create, amend and archive entries, and write that rule into your internal procedures. A single accountable person, usually the secretary (secretario/a), should own the register, with a named deputy for absences."
+    ]
+   },
+   {
+    "heading": "Fields worth capturing, and fields to avoid",
+    "paras": [
+     "Keep the register to what your statutes and administration genuinely need: full name, identity document reference, contact details, admission date, membership category, the board decision or sponsor reference that led to admission, and status (active, suspended, resigned, expelled). Add a unique member number that never gets reused, even after someone leaves.",
+     "Resist collecting extras just because a form has room for them. Data minimisation is a core principle under GDPR and the Spanish data protection law (LOPDGDD), and every additional field is something you must protect, justify and eventually delete. Photographs, copies of documents and free-text notes deserve particular caution and a clear stated purpose."
+    ]
+   },
+   {
+    "heading": "Change control and audit trail",
+    "paras": [
+     "Every amendment should record who changed what, when and why. On paper this means dated, initialled corrections with the original entry still legible. In a digital system it means an append-only history: a name correction should leave the previous value visible to authorised reviewers rather than overwrite it silently.",
+     "Link each status change to its authority. A resignation needs the member's written notice; a suspension or expulsion needs the board or assembly minute that decided it. When an inspector or a member asks why someone was removed, you should be able to open the entry and reach the supporting document in under a minute."
+    ]
+   },
+   {
+    "heading": "Handling corrections, duplicates and deceased members",
+    "paras": [
+     "Duplicates are the most common defect in any register: the same person entered twice under slightly different spellings, or a returning member given a fresh number. Before creating an entry, search by identity reference and surname. If a former member rejoins, reactivate the old record with a new status line instead of starting over, so history remains continuous.",
+     "Handle sensitive status changes with care. When a member dies or becomes incapable, record the date and the source of the information, close access, and apply the retention table. Keep a short written procedure for the secretary so these situations are handled calmly and the same way every time."
+    ]
+   },
+   {
+    "heading": "A monthly and annual review routine",
+    "paras": [
+     "Run a short monthly check: new admissions match board minutes, no duplicate identity references exist, lapsed members are flagged, and every active member has a current fee status. Record the check itself with a date and the reviewer's name. A system like Budify can produce exception lists for these checks, but the habit matters more than the tool.",
+     "Once a year, before the general assembly, reconcile the register against the accounting records and the attendance list. Number of members in good standing should agree across all three. Note regional differences: registration and filing expectations vary between autonomous communities, so confirm your own obligations with your regional association register or an adviser. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-closed-circle-admission-records",
+  "title": "Admission Records for Closed-Circle Membership in Spain",
+  "description": "A structured approach to documenting how new members are admitted to a Spanish non-profit association: sponsor checks, board decisions and retention.",
+  "minutes": 5,
+  "published": "2026-01-21",
+  "category": "Records & compliance",
+  "keywords": [
+   "closed circle membership records",
+   "association admission procedure spain",
+   "new member admission log",
+   "sponsor referral record association",
+   "spanish cannabis social club administration",
+   "admission decision minutes"
+  ],
+  "sections": [
+   {
+    "heading": "What an admission record must show",
+    "paras": [
+     "An association that restricts membership to a defined, closed circle needs to show, member by member, that the restriction is applied consistently. The admission record is your evidence. It should state who applied, who introduced them, what checks were carried out, who decided, and on what date the decision took effect.",
+     "Avoid informal approvals by message or verbal agreement at the door. If it is not written down and dated, in practice it did not happen. Use one standard admission form and one admission log, so any reviewer can compare entries and spot gaps quickly."
+    ]
+   },
+   {
+    "heading": "The sponsor and verification step",
+    "paras": [
+     "Many associations require an existing member to introduce a candidate. Record the sponsor's member number, the date of introduction and a short note that the sponsor confirmed the relationship. This creates a traceable chain without storing unnecessary personal detail about either person.",
+     "Verification of identity and age should follow your statutes and internal rules. Note that you checked an identity document, which type, and who checked it, but think carefully before keeping a scanned copy. If you do keep one, define where it is stored, who can open it and when it will be deleted."
+    ]
+   },
+   {
+    "heading": "Board decision and cooling-off period",
+    "paras": [
+     "Admission is normally a decision of the board or a designated committee, and it belongs in the minutes. A good habit is a short cooling-off interval between application and decision, so nobody is admitted on the spot under pressure. Record the application date and decision date separately.",
+     "Where a candidate is declined, keep a brief record of the decision and reason in neutral wording. This protects the board if the decision is later questioned, and it prevents the same application being quietly reconsidered by a different person."
+    ]
+   },
+   {
+    "heading": "Reporting on admissions to the board",
+    "paras": [
+     "A monthly admissions summary keeps the board informed and creates a regular checkpoint. List applications received, admissions decided, declines, and any admissions pending longer than the agreed period. Include the total active membership and compare it with any maximum the board has set.",
+     "Use the summary to spot drift. If admissions are decided faster than your own cooling-off rule allows, or if one sponsor appears repeatedly, raise it at the next meeting and minute the discussion. Small corrections early prevent a pattern from becoming a compliance question later on."
+    ]
+   },
+   {
+    "heading": "Onboarding documents and acknowledgements",
+    "paras": [
+     "At admission, members typically acknowledge the statutes, house rules and the association's privacy notice. File the signed or digitally confirmed acknowledgement against the member entry, with the version number of each document. When rules change, you can then show which members accepted which version.",
+     "Test the whole file quarterly by sampling five recent admissions and checking that every step has evidence. Gaps found in a sample are cheap to fix; gaps found by an inspector are not. Rules differ between autonomous communities and municipalities, so check local expectations before settling your procedure. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-minutes-and-books-spanish-associations",
+  "title": "Meeting Minutes and Statutory Books for Associations in Spain",
+  "description": "Keeping minutes (libro de actas), member and accounting books in good shape: structure, signatures, storage and what boards should check each quarter.",
+  "minutes": 5,
+  "published": "2026-02-10",
+  "category": "Records & compliance",
+  "keywords": [
+   "libro de actas asociacion",
+   "association minutes spain",
+   "statutory books non-profit association",
+   "board meeting records spain",
+   "general assembly minutes",
+   "association governance records"
+  ],
+  "sections": [
+   {
+    "heading": "The books an association is expected to keep",
+    "paras": [
+     "Spanish non-profit associations are generally expected to keep a member register, accounting records and a minutes book (libro de actas), in addition to whatever their own statutes require. Together these tell the story of who the members are, what was decided and how money moved.",
+     "Check your statutes for the exact list and the form the books must take. Some organisations still keep bound paper volumes, others keep digital records. Either can work if the record is complete, dated, attributable and protected against alteration, but confirm any formal requirements with your regional register or an adviser."
+    ]
+   },
+   {
+    "heading": "Writing minutes people can rely on",
+    "paras": [
+     "Good minutes record the date, place, attendees, quorum, agenda, each decision and the result of any vote. They do not need to be a transcript. Aim for neutral wording, with decisions clearly separated from discussion, and responsible persons and deadlines named for each action.",
+     "Circulate a draft within a week while memories are fresh, approve it at the next meeting, then have the secretary and president sign. Number every set of minutes sequentially so a missing one is obvious. If a decision affects members individually, such as a suspension, keep the personal detail to the minimum necessary."
+    ]
+   },
+   {
+    "heading": "Linking decisions to other records",
+    "paras": [
+     "Minutes are most useful when other records point back to them. An admission entry should cite the board meeting that authorised it; a fee change should cite the assembly that set it; a major expense should cite the authorising decision. This cross-referencing turns separate files into a coherent audit trail.",
+     "A simple approach is to give every decision a short reference such as 2026-JD-07 (year, body, sequence). Use that reference in the register, the ledger and any correspondence, and keep an index sheet listing every reference with its date and subject."
+    ]
+   },
+   {
+    "heading": "Digital books and long-term preservation",
+    "paras": [
+     "Where books are kept digitally, treat format and preservation as part of governance. Export signed minutes to a stable format such as PDF, store the signed scan alongside the editable draft, and record a checksum or at least the file size and date so later tampering is detectable. Keep access limited to officers.",
+     "Plan for the long term. Software and storage change over the years, but your minutes may need to be readable long after. Test that old files still open, migrate them when systems change, and keep a note of where every book physically or digitally lives in a single inventory of records."
+    ]
+   },
+   {
+    "heading": "Quarterly board checklist",
+    "paras": [
+     "Each quarter, the secretary can run through a short list: all meetings held are minuted, all minutes are signed, actions from the previous quarter are closed or carried forward, the index is current, and backups of digital books exist and have been test-restored.",
+     "Store originals in a locked location with access limited to named officers, and keep a log of who consulted them. Digital books should have role-based access and a retained change history. Practice varies by region, so verify local rules before changing how you keep official books. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-stock-records-reconciliation-association",
+  "title": "Stock Records and Reconciliation for Association Supplies",
+  "description": "How associations can keep reliable inventory records for supplies and equipment: receiving, adjustments, counts and variance review.",
+  "minutes": 5,
+  "published": "2026-02-26",
+  "category": "Stock & inventory",
+  "keywords": [
+   "association inventory records",
+   "stock reconciliation procedure",
+   "inventory management non-profit club",
+   "stock count variance log",
+   "internal stock records spain",
+   "inventory audit trail software"
+  ],
+  "sections": [
+   {
+    "heading": "Why an association needs stock discipline",
+    "paras": [
+     "Even a non-profit association holds items that must be accounted for: consumable supplies, equipment, printed materials and, depending on the activity and local rules, regulated goods that require stricter records. Without a stock record, losses go unnoticed and the treasurer cannot explain differences between spending and holdings.",
+     "The aim is not commercial optimisation. It is traceability: for every item you hold, you can say where it came from, where it is now, and what happened to any difference. Regulators and members both expect that level of clarity from an organisation managing shared resources."
+    ]
+   },
+   {
+    "heading": "Receiving and recording movements",
+    "paras": [
+     "Record every receipt the same day it arrives. Capture the item description, quantity, supplier or source, date, the person receiving and a reference to the supporting document such as a delivery note or invoice. Reject undocumented receipts until someone can explain them.",
+     "Record every outgoing movement and every internal transfer in the same way, with a reason code and the person responsible. Keep the codes short and agreed in advance: used, transferred, damaged, expired, returned, adjusted. A clean code list makes later reporting straightforward."
+    ]
+   },
+   {
+    "heading": "Counts, variances and adjustments",
+    "paras": [
+     "Run a full count on a fixed schedule, for example monthly, and spot counts on a rotating subset weekly. Two people should count independently, then compare. Record expected quantity, counted quantity and the difference for each line, with the date and both counters named.",
+     "Never correct a difference by overwriting the original figure. Post a separate, dated adjustment with an explanation and the approver's name. Set a tolerance appropriate to the item type, and require escalation to a board member whenever a variance exceeds it."
+    ]
+   },
+   {
+    "heading": "Storage, labelling and physical controls",
+    "paras": [
+     "Records only work if the physical world is organised to match them. Give each storage location a name, keep like items together, label shelves and containers, and restrict keys or codes to named people. A cluttered store makes accurate counts impossible and masks loss.",
+     "Record who holds keys and when codes change. Photograph storage layouts after any reorganisation and file the photo with the stock records, so counters know what to expect. Where items have expiry dates or batch references, capture them on receipt and check them at every count."
+    ]
+   },
+   {
+    "heading": "Reviewing patterns over time",
+    "paras": [
+     "Single variances matter less than patterns. If the same category shows repeated small losses, or differences cluster on particular shifts or locations, investigate procedure before blaming individuals. Unclear labelling and shared storage are common causes.",
+     "Report a short stock summary to the board each quarter: opening position, receipts, movements, adjustments and closing position, with notable variances explained. For regulated items, check what your licence conditions or local rules require in addition. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-shrinkage-and-adjustment-log",
+  "title": "Building an Adjustment and Discrepancy Log That Stands Up",
+  "description": "A design for the adjustment log that sits beside your inventory: reason codes, approvals, thresholds and review cadence for association administrators.",
+  "minutes": 4,
+  "published": "2026-03-12",
+  "category": "Stock & inventory",
+  "keywords": [
+   "inventory adjustment log",
+   "stock discrepancy report",
+   "variance approval workflow",
+   "association stock control",
+   "inventory reason codes",
+   "inventory audit software spain"
+  ],
+  "sections": [
+   {
+    "heading": "The log is your credibility record",
+    "paras": [
+     "When quantities on hand do not match the books, the adjustment log is where the explanation lives. A well-run log shows reviewers that differences are noticed, investigated and closed by someone with authority, rather than quietly written off.",
+     "Keep the log separate from the stock ledger itself. The ledger shows the numbers; the log shows the story behind any number that had to be changed. Each log line should be traceable to a ledger entry and vice versa."
+    ]
+   },
+   {
+    "heading": "Fields for every entry",
+    "paras": [
+     "Capture a sequential reference, date and time, item, quantity before and after, the difference, a reason code, a free-text explanation, the person who found it, the person who authorised it, and any supporting evidence reference such as a photo of damaged packaging or an incident number.",
+     "Use a closed list of reason codes and add new codes only through a board decision. A free-form reason alone makes analysis impossible. Include an explicit unexplained code, and report on how many entries carry it, because a growing unexplained total is an early warning."
+    ]
+   },
+   {
+    "heading": "Approval thresholds",
+    "paras": [
+     "Define tiers in writing. For instance, small differences within a stated tolerance may be authorised by the shift supervisor; larger ones require the treasurer; anything above a defined limit goes to the board and is minuted. Pick numbers that fit your own volumes and review them annually.",
+     "Separation of duties matters: the person who counted should not be the sole approver of the adjustment they proposed. Where staffing is thin, have a second board member review the log at each meeting and initial the page or digital record."
+    ]
+   },
+   {
+    "heading": "Using the log to improve procedures",
+    "paras": [
+     "The log is also a learning tool. Each quarter, group entries by reason code and by location, then ask what single process change would remove the biggest category. Often it is something simple: a missing label, a shared tray, a count done in a rush at closing time.",
+     "Record the change, its date and who owns it, then watch whether the relevant code declines in the following quarter. Presenting that before-and-after view to the board shows that the log is driving real control rather than only recording losses for the sake of it."
+    ]
+   },
+   {
+    "heading": "Reviewing and closing the loop",
+    "paras": [
+     "Review the log monthly. Look for repeated reason codes, repeated times or places, and entries lacking evidence. Record the review itself, including any follow-up action and who owns it.",
+     "At year end, summarise the log for the assembly in plain terms: number of adjustments, total quantity by reason code, and actions taken. If any item is subject to specific record-keeping rules from the regulator or your regional authority, confirm the expected format with an adviser. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-sponsor-referral-records",
+  "title": "Sponsor and Referral Records in Membership Administration",
+  "description": "Why associations in Spain document who introduced each member, how to store sponsor links safely, and how to review referral chains for consistency.",
+  "minutes": 5,
+  "published": "2026-03-24",
+  "category": "Membership & access",
+  "keywords": [
+   "sponsor referral records",
+   "member introduction log",
+   "closed membership administration",
+   "association member vetting records",
+   "membership access control spain",
+   "member sponsor audit"
+  ],
+  "sections": [
+   {
+    "heading": "The role of a sponsor in a closed circle",
+    "paras": [
+     "Associations that keep membership to a closed circle often rely on personal introduction: an existing member vouches that a candidate is known to them and understands the association's rules. The sponsor link is therefore part of your evidence that membership is not open to the general public.",
+     "A link is only useful if it is recorded in a consistent form. Store the sponsor's member number, the date of introduction and the admission reference, not a loose note in a margin. Keep the information in the candidate's file and also reflected in the sponsor's file."
+    ]
+   },
+   {
+    "heading": "Setting sponsor rules in writing",
+    "paras": [
+     "Write down who may sponsor: for example, active members with a minimum period of membership and no open disciplinary matters. State how many candidates one member may introduce within a period, so that sponsorship cannot become a back door to rapid expansion.",
+     "Add an acknowledgement that the sponsor has explained the statutes and house rules to the candidate. Some boards also record that the sponsor accepts a degree of responsibility for how the introduced member conducts themselves in the first months."
+    ]
+   },
+   {
+    "heading": "Reviewing referral chains",
+    "paras": [
+     "Once a quarter, pull a list of all admissions with their sponsors and look for anomalies: one member sponsoring unusually many candidates, circular sponsorship, or admissions with no sponsor recorded. Each anomaly deserves a one-line explanation in the review notes.",
+     "Chains also help when something goes wrong. If a member is suspended, the board can see quickly who introduced them and whether other relationships need attention, without searching through paper files or chat history."
+    ]
+   },
+   {
+    "heading": "Handling disputes and withdrawn sponsorships",
+    "paras": [
+     "Sometimes a sponsor wishes to withdraw support, or the relationship between sponsor and candidate changes after admission. Provide a simple form for this, and record the date and the reason in neutral terms. The board decides whether anything follows, and that decision goes in the minutes.",
+     "Similarly, if a sponsor leaves the association, do not erase the link. Mark the sponsor as former, keep the historical reference for the retention period you have set, and review whether the introduced members need any additional attention. Consistent treatment avoids accusations of selective enforcement."
+    ]
+   },
+   {
+    "heading": "Privacy and proportionality",
+    "paras": [
+     "Sponsor records link two people, so apply data minimisation under GDPR and the Spanish data protection law. Store only the member numbers and dates in routine views, and restrict the names behind them to officers who need them.",
+     "Tell members in the privacy notice that sponsor information is recorded and why. Delete or archive according to your retention schedule when the underlying membership ends. Local expectations differ between autonomous communities, so verify details with an adviser. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-member-cards-and-entry-logs",
+  "title": "Member ID Cards and Entry Logs for Association Premises",
+  "description": "How associations can control premises access with member cards, a door log and clear exceptions handling, while respecting privacy and house rules.",
+  "minutes": 5,
+  "published": "2026-04-07",
+  "category": "Membership & access",
+  "keywords": [
+   "member id cards association",
+   "entry log association premises",
+   "access control for membership clubs",
+   "guest and visitor register",
+   "membership verification at door",
+   "association premises access records"
+  ],
+  "sections": [
+   {
+    "heading": "Why access control is a records question",
+    "paras": [
+     "For a members-only association, the door is where your membership rules meet reality. A card check and an entry log show that only people on the register enter, and they give the board a factual basis if a question arises about who was present on a given day.",
+     "The log does not need to capture everything. Decide what you need, which is normally member number, date and time, and the staff member on duty, and leave out whatever you cannot justify."
+    ]
+   },
+   {
+    "heading": "Designing the card",
+    "paras": [
+     "A useful member card carries a name or member number, an expiry or validity indicator and a machine-readable code that links to the register. Avoid printing sensitive details. A lost card should be cancellable immediately, with the replacement logged and the old code rendered void.",
+     "Issue cards only after admission is complete and fees are settled. Keep a card issue log: card number, member number, date issued, issuing person, and date of return or cancellation. Reconcile the number of live cards against the number of active members each month."
+    ]
+   },
+   {
+    "heading": "Door procedures and exceptions",
+    "paras": [
+     "Write a short door procedure: scan or check the card, verify it against the photo or another agreed identifier, confirm the member status is active, record the entry. Define what the door team does when the card fails, the member has lapsed or the person has no card at all.",
+     "Exceptions should be rare and recorded. Whether guests are permitted at all is a matter for your statutes and local rules; if they are, require a prior record of who invited them and keep a visitor register separate from the member log."
+    ]
+   },
+   {
+    "heading": "Capacity checks and emergency procedures",
+    "paras": [
+     "An entry log doubles as a headcount. If your premises have a maximum occupancy under local conditions or your own rules, display the current figure to the door team and record any moment it is reached. Check what your premises licence or municipal conditions require rather than assuming.",
+     "In an emergency, the log should tell you who is inside. Keep a printable evacuation list procedure and test it. Staff should know where the list is, who reads it out and how departures are recorded. Practise it once a year and note the result in the operations file."
+    ]
+   },
+   {
+    "heading": "Retention, review and privacy",
+    "paras": [
+     "Entry logs are personal data. Set a retention period that matches a stated purpose, such as investigating incidents or checking capacity, and delete or anonymise afterwards. Restrict access to officers who need it and record each time the log is consulted.",
+     "Review weekly for anomalies: repeated failed scans, entries outside opening hours, cards used twice in quick succession. A system like Budify can store the card and entry data with role-based access, but whichever tool you use, your privacy notice must explain the logging. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-renewals-lapses-and-offboarding",
+  "title": "Membership Renewals, Lapses and Offboarding Records",
+  "description": "A lifecycle approach to membership status for Spanish associations: renewal notices, grace periods, resignations and clean offboarding of records.",
+  "minutes": 5,
+  "published": "2026-04-22",
+  "category": "Membership & access",
+  "keywords": [
+   "membership renewal process association",
+   "member lapse and resignation records",
+   "membership status management",
+   "offboarding members data",
+   "annual membership fee tracking spain",
+   "member lifecycle administration"
+  ],
+  "sections": [
+   {
+    "heading": "Define the status model first",
+    "paras": [
+     "Before tracking renewals, agree the list of statuses your association uses: applicant, active, in arrears, suspended, resigned, expelled, deceased. Each status should have a written definition and a named decision-maker. Ambiguity here causes most disputes later.",
+     "Make sure the model matches your statutes. If the statutes say that non-payment for a stated period ends membership, the process must match that wording, including who notifies the member and how."
+    ]
+   },
+   {
+    "heading": "Renewal notices and grace periods",
+    "paras": [
+     "Send renewal reminders at fixed intervals, for example thirty days before, on the due date and after a short grace period. Keep a copy or log of each notice and the method used. A member who says they were never told should be answerable with a dated record.",
+     "Apply the same grace period to everyone. Exceptions, such as a hardship arrangement, need a board decision recorded in the minutes. Uniform rules protect the association from accusations of favouritism and make your treasurer's arrears report meaningful."
+    ]
+   },
+   {
+    "heading": "Resignation and removal",
+    "paras": [
+     "A resignation should be in writing, dated and acknowledged by the secretary. Update the register on the date it takes effect and cancel access credentials the same day. Where the board suspends or expels a member, record the decision, the procedure followed and the date the member was informed.",
+     "Respect procedural rights set out in the statutes, such as the right to be heard. Keeping the paper trail neat is not bureaucracy for its own sake; it is what lets you defend the decision if it is challenged."
+    ]
+   },
+   {
+    "heading": "Reporting the lifecycle to the board",
+    "paras": [
+     "A quarterly lifecycle report brings the whole process into view: new members, renewals completed, lapses, resignations, suspensions and expulsions, with counts by month. The totals should tie out: opening members plus admissions minus departures equals closing members.",
+     "Include a short narrative on any trend, such as a rise in lapses after a fee change. Reconcile the closing count to the register and to the fee ledger, and record who performed that reconciliation. Boards that see these figures regularly make better decisions than those relying on impressions."
+    ]
+   },
+   {
+    "heading": "Offboarding the data",
+    "paras": [
+     "When membership ends, do not delete everything at once. Some records, such as fee history and the fact of membership, may need to be kept for accounting or limitation periods. Others, such as contact preferences and entry logs, can usually go sooner. Write a retention table and apply it.",
+     "Tools like Budify can mark a member as archived, remove active access and schedule deletion of fields by category, but the retention periods themselves must come from your own analysis under GDPR and the Spanish data protection law. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-volunteer-rota-and-shift-handover",
+  "title": "Volunteer Rotas and Shift Handover in Member Associations",
+  "description": "Practical routines for rotas, role cards and handover notes so that association premises run consistently when volunteers and staff change over.",
+  "minutes": 5,
+  "published": "2026-05-05",
+  "category": "Operations",
+  "keywords": [
+   "shift handover checklist",
+   "volunteer rota association",
+   "association operations management",
+   "handover notes template",
+   "club staff scheduling spain",
+   "association day to day administration"
+  ],
+  "sections": [
+   {
+    "heading": "Why handover is where records break",
+    "paras": [
+     "Associations often run on volunteers and a few part-time staff, which means responsibility changes hands several times a day. Most lost items, unrecorded movements and unexplained cash differences trace back to a handover where nobody knew what had already been done.",
+     "A written handover is the fix. It does not need to be long, but it must be consistent, dated and signed by both the outgoing and the incoming person."
+    ]
+   },
+   {
+    "heading": "Building the rota",
+    "paras": [
+     "Publish the rota at least two weeks ahead, with named backups for each role. Give each role a one-page role card listing its tasks, the records it updates and who it reports to: door check, cash point, stock room, supervisor.",
+     "Keep a record of who actually worked, not just who was scheduled. Actual attendance matters for insurance questions, for any incident review and for any arrangement under which the association reimburses expenses. Employment or volunteer status has legal consequences, so take advice on how each person is engaged."
+    ]
+   },
+   {
+    "heading": "A handover note that works",
+    "paras": [
+     "Use a single template with fixed headings: open items, incidents since the last shift, stock or equipment anomalies, cash position, keys and alarm status, and messages for the next person. Fill it in before leaving, not from memory the next day.",
+     "The incoming person reads it, checks the cash and any stock items listed, and signs. If the numbers differ from the note, the difference is recorded right then with both people present, which prevents blame drifting to whoever came later."
+    ]
+   },
+   {
+    "heading": "Training, onboarding and insurance records",
+    "paras": [
+     "Every volunteer should complete a short onboarding before working alone: house rules, emergency procedures, confidentiality, how to use the records system and who to call. Record the date, content and trainer, and keep a signed acknowledgement on file.",
+     "Keep a list of who is trained for which role, and check that cover for each role always exists. Ask your insurer or adviser how volunteers and staff are covered and whether attendance records are needed, and file the policy documents with your operations records for easy reference during an audit."
+    ]
+   },
+   {
+    "heading": "Reviewing operations monthly",
+    "paras": [
+     "Once a month a board member should read a sample of handover notes. Look for repeated problems, unfilled fields and sign-offs by the same person on both sides, which suggests the check was not truly done.",
+     "Feed the findings into training. A short refresher for volunteers, using real anonymised examples from the notes, does more for consistency than a long manual. Keep the notes for the period set in your retention schedule and store them where only authorised officers can read them. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-opening-closing-checklists",
+  "title": "Opening and Closing Checklists for Association Premises",
+  "description": "Design simple, auditable opening and closing checklists covering premises, equipment, records and cash for non-profit associations.",
+  "minutes": 4,
+  "published": "2026-05-20",
+  "category": "Operations",
+  "keywords": [
+   "opening and closing checklist",
+   "association premises procedures",
+   "daily operations checklist",
+   "closing cash and records procedure",
+   "club premises management spain",
+   "operations audit trail"
+  ],
+  "sections": [
+   {
+    "heading": "What a checklist is for",
+    "paras": [
+     "A checklist converts good intentions into repeatable behaviour. For an association with changing volunteers, it ensures premises are safe, records are updated and nothing is left undone at the end of the day. It also leaves a dated trail that shows the board how the place is actually run.",
+     "Keep each list to one page. Long lists get skimmed; short ones get used. Separate the opening list from the closing list and assign each to a named role."
+    ]
+   },
+   {
+    "heading": "Opening routine",
+    "paras": [
+     "A sensible opening list covers: alarm and keys logged, premises inspected for anything unusual, safety equipment checked, devices powered and connected, the previous day's closing note read, float counted and recorded, and the register or access system confirmed working.",
+     "Add a line for any local requirements, such as displaying required notices or house rules where members can see them. Each item gets a tick, initials and a time. Any item that cannot be ticked becomes an entry in the issues log."
+    ]
+   },
+   {
+    "heading": "Closing routine",
+    "paras": [
+     "The closing list reverses the process: final count of cash and any stock items against records, entry log reconciled to the number of people recorded as leaving, records saved and backed up, waste handled according to your procedures, equipment off, doors and alarm set, keys returned.",
+     "Require two people for cash and stock counts where possible. When only one person is available, photograph the count sheet or record it in the system with a timestamp, and have the supervisor countersign the next morning."
+    ]
+   },
+   {
+    "heading": "Keeping the paper trail useful",
+    "paras": [
+     "Completed checklists are only valuable if they can be found. File them by date in a binder or digital folder, with a monthly index. Digital forms should record the user and timestamp automatically and should not allow back-dating without a visible edit.",
+     "Decide how long to keep them. Routine operational checklists rarely need to be held for years, but those connected to an incident, a cash difference or an inspection should be copied to that file and kept for its period. Record the rule in your retention table."
+    ]
+   },
+   {
+    "heading": "Reviewing and improving the lists",
+    "paras": [
+     "Collect completed lists weekly and scan for gaps. A box that is always blank is either unnecessary or being ignored; decide which, then remove it or enforce it. Update the template after any incident so the lesson is built in.",
+     "Version-control each template with a date and number, and keep old versions. If an inspector or insurer asks what the procedure was on a given day, you can show the list in force at that time. Check whether your premises licence, municipal rules or insurance policy impose further requirements. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-incident-log-and-house-rules",
+  "title": "House Rules and Incident Logs for Spanish Member Associations",
+  "description": "How to write enforceable house rules and keep an incident log that supports fair board decisions in a non-profit association in Spain.",
+  "minutes": 5,
+  "published": "2026-06-03",
+  "category": "Operations",
+  "keywords": [
+   "association house rules",
+   "incident log association",
+   "member conduct procedure",
+   "association premises incident report",
+   "reglamento de regimen interno",
+   "club governance spain"
+  ],
+  "sections": [
+   {
+    "heading": "House rules as part of the governing documents",
+    "paras": [
+     "Most associations in Spain adopt internal rules (reglamento de régimen interno) alongside their statutes. These set out member conduct, use of premises and consequences of breaches. They are only fair if members have seen and accepted them, so record the version each member acknowledged.",
+     "Write rules in plain language and keep them short. Rules that nobody can remember cannot be applied consistently. Make the board, rather than an individual volunteer, responsible for deciding sanctions."
+    ]
+   },
+   {
+    "heading": "What belongs in the incident log",
+    "paras": [
+     "An incident is anything outside normal operation: a dispute, a safety event, a breach of house rules, damaged equipment, a stock or cash discrepancy, a data protection concern. Log each with a sequence number, date, time, location, people involved by member number, a factual description and immediate action taken.",
+     "Stick to facts and avoid opinions or speculation. Write what was seen or reported, by whom, and what was done. This is the single most important discipline in incident recording."
+    ]
+   },
+   {
+    "heading": "From incident to decision",
+    "paras": [
+     "Each incident gets an owner and a status: open, under review, closed. Minor matters can be closed by the supervisor with a note; matters touching a member's standing go to the board. Before any sanction, follow the procedure in your statutes, including notification and the chance for the member to respond.",
+     "Keep the decision, its date and the communication to the member in the file. If the matter led to a change in procedure, note that too. Over time, this builds a record the board can use to improve rules rather than just react."
+    ]
+   },
+   {
+    "heading": "Training the team to write good entries",
+    "paras": [
+     "The quality of an incident log depends on the people writing it. Run a short exercise: give volunteers a fictional event and ask them to record it, then compare entries. Highlight the difference between observation and interpretation and agree a standard phrasing.",
+     "Provide a quick reference card at the front desk with the minimum fields and the escalation contacts. Congratulate good entries at team meetings. A culture that records problems without blame produces better information than one where people avoid writing things down."
+    ]
+   },
+   {
+    "heading": "Privacy and review",
+    "paras": [
+     "Incident logs include personal data about people who may not have been members. Restrict access, avoid unnecessary names, and set a retention period. Where a serious incident requires you to inform an authority, take advice on timing and content.",
+     "Review the log quarterly. Count incidents by type and location, check that every open item has an owner, and report the totals to the board without personal detail. A system like Budify can store incidents against member numbers with permission controls, but the habit of timely, factual entries is what makes any log valuable. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-internal-accounting-for-associations",
+  "title": "Internal Accounting for Non-Profit Associations in Spain",
+  "description": "Practical bookkeeping for Spanish non-profit associations: income and expense categories, supporting documents, EUR cash controls and monthly close.",
+  "minutes": 6,
+  "published": "2026-06-17",
+  "category": "Finance & reporting",
+  "keywords": [
+   "association accounting spain",
+   "non-profit bookkeeping eur",
+   "treasurer duties association",
+   "asociacion sin animo de lucro contabilidad",
+   "internal accounts for associations",
+   "monthly close association"
+  ],
+  "sections": [
+   {
+    "heading": "What the accounts must demonstrate",
+    "paras": [
+     "A non-profit association in Spain is expected to keep accounts that give a true picture of its assets, income, expenses and results, and to present them to its members. The exact format depends on size and on the accounting rules applicable to the organisation, so ask your adviser which model applies to you.",
+     "Whatever the format, the underlying principle is the same: every euro in or out must be traceable to a document and to a decision. Treasurers who keep that principle simple tend to have trouble-free years."
+    ]
+   },
+   {
+    "heading": "Chart of categories",
+    "paras": [
+     "Set up a short list of income categories, such as membership fees and donations, and expense categories, such as rent, utilities, insurance, equipment, professional fees and administration. Add separate lines for any restricted funds. Keep the list stable from year to year so comparisons make sense.",
+     "Avoid a catch-all miscellaneous category beyond a small threshold. If more than a few percent of spending lands there, it is time to add a proper category."
+    ]
+   },
+   {
+    "heading": "Supporting documents and approvals",
+    "paras": [
+     "Keep an invoice or receipt for each expense, filed under the same reference as the ledger entry. Set spending limits: below a limit the treasurer pays, above it a second signatory or a board decision is needed, and the minute number is noted on the entry.",
+     "Pay from the association's own bank account, not personal accounts. Where cash is handled, count it twice, record the count, bank it promptly and keep deposit slips. Keep taxes in mind: VAT, withholding and corporate tax treatment of associations depend on circumstances, so seek tailored advice rather than assuming an exemption."
+    ]
+   },
+   {
+    "heading": "Budgeting, restricted funds and controls",
+    "paras": [
+     "Prepare an annual budget for the assembly and track actual results against it monthly. Note any funds given for a specific purpose and keep them visibly separate in the ledger, so that spending can be shown to match the purpose. Unspent amounts should be carried forward as restricted.",
+     "Add basic controls: two signatories on the bank account, regular rotation of who reconciles, and a rule that nobody approves their own expense. Keep a register of fixed assets with purchase date and location. These measures protect volunteers as much as the association itself."
+    ]
+   },
+   {
+    "heading": "The monthly close",
+    "paras": [
+     "At month end, reconcile the bank statement to the ledger, review unpaid invoices, check that cash on hand matches the cash book and lock the month so entries cannot change without a trace. A one-page summary for the board should show income, expenditure, balance and any items needing decisions.",
+     "Archive the supporting documents in an organised structure and back up digital copies. Retention periods for accounting records are set by law and differ by document type, so confirm them rather than guessing. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-fee-ledger-and-cash-reconciliation",
+  "title": "Membership Fee Ledgers and Cash Reconciliation in Associations",
+  "description": "How to track membership fees by member, reconcile cash and bank takings daily, and report arrears to the board without accounting surprises.",
+  "minutes": 5,
+  "published": "2026-07-01",
+  "category": "Finance & reporting",
+  "keywords": [
+   "membership fee ledger",
+   "cash reconciliation association",
+   "daily cash up procedure",
+   "member arrears report",
+   "association finance reporting eur",
+   "fee tracking software"
+  ],
+  "sections": [
+   {
+    "heading": "One ledger line per member per period",
+    "paras": [
+     "The most reliable way to manage fees is a ledger with one line per member per period: amount due, date due, amount received, date received, method and receipt number. Arrears then become a simple filter rather than a detective exercise.",
+     "Fee amounts should come from an assembly decision recorded in the minutes. Never allow individual volunteers to negotiate amounts at the counter; exceptions go to the board and are minuted."
+    ]
+   },
+   {
+    "heading": "Receipts and cash handling",
+    "paras": [
+     "Issue a numbered receipt for every payment, whether by cash, card or transfer. Use sequential numbering with no gaps; a voided receipt is retained and marked void rather than discarded. Keep the cash float small and record its amount at the start and end of every shift.",
+     "Make deposits regularly and avoid keeping large sums on the premises. Two people should count cash at close, record the total and sign. Euro cash handling carries its own risks, so agree a clear limit above which cash is banked the same day."
+    ]
+   },
+   {
+    "heading": "Daily reconciliation",
+    "paras": [
+     "At close, compare three figures: receipts issued, cash and card totals actually held, and ledger postings. They should be identical. If they are not, record the difference immediately, investigate the same day if possible and do not wait for month end.",
+     "A modest difference caused by change-giving errors should be logged and explained in the same way as stock variances. Persistent patterns point to training needs or process flaws. A system like Budify can produce an end-of-day report that lines up receipts and ledger entries, which shortens this step."
+    ]
+   },
+   {
+    "heading": "Refunds, corrections and disputes",
+    "paras": [
+     "Fees paid by mistake or amounts entered incorrectly need a clear path. Never delete the original line. Post a reversing entry with a reference to the original, the reason and the approver, then post the correct amount. A refund requires the same approval level as the original fee setting.",
+     "If a member disputes a balance, provide a statement from the ledger showing each charge and payment with receipt numbers. Most disagreements disappear when both sides look at the same record. Log the dispute and its resolution, and report patterns to the treasurer."
+    ]
+   },
+   {
+    "heading": "Arrears reporting",
+    "paras": [
+     "Each month, produce an arrears list showing member number, amount owed, time overdue and last reminder sent. Share a version without names at board level where possible. Follow your statutes on reminders and on the consequences of non-payment.",
+     "Reconcile the fee ledger to the member register quarterly, so that every active member has a fee status and nobody on the fee ledger has dropped off the register. Note that tax and accounting treatment of fees depend on your circumstances. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-annual-accounts-and-assembly-reporting",
+  "title": "Annual Accounts and General Assembly Reporting for Associations",
+  "description": "Prepare the treasurer's report, annual accounts and member information pack for the general assembly, with a timeline and review checklist.",
+  "minutes": 6,
+  "published": "2026-07-15",
+  "category": "Finance & reporting",
+  "keywords": [
+   "annual accounts association spain",
+   "general assembly reporting",
+   "treasurer report template",
+   "asamblea general asociacion",
+   "association financial statements",
+   "year end checklist non-profit"
+  ],
+  "sections": [
+   {
+    "heading": "What the assembly needs to see",
+    "paras": [
+     "The general assembly (asamblea general) of an association usually approves the annual accounts and the activity report, and decides on the budget. Members therefore need a pack that is complete, understandable and delivered in good time before the meeting, according to your statutes.",
+     "Build the pack from records you already keep: the ledger, the bank reconciliations, the member register and the minutes. If the year's records were maintained monthly, preparation is assembly, not reconstruction."
+    ]
+   },
+   {
+    "heading": "A timeline that works",
+    "paras": [
+     "Work backwards from the assembly date. Two months before, finish the year-end close and bank confirmations. Six weeks before, produce draft accounts and the activity summary. Four weeks before, have the board review and agree the final pack. Two weeks before, send the notice and papers by the method your statutes prescribe.",
+     "Record each step in the minutes or a project log. Check the notice period and quorum rules in your statutes carefully, because a defective notice can undermine the decisions taken."
+    ]
+   },
+   {
+    "heading": "Contents of the treasurer's report",
+    "paras": [
+     "Include the income and expenditure for the year compared with budget and the previous year, the closing balance, a note on unpaid fees, major transactions and any restricted funds. Add the number of members at start and end of year with admissions and departures, tying back to the register.",
+     "Explain variances in plain language. Members rarely object to a deficit that is clearly explained; they object to surprises. Draw attention to the proposed budget and any change in fees that requires a vote."
+    ]
+   },
+   {
+    "heading": "Member questions and transparency",
+    "paras": [
+     "Anticipate the questions members will ask: why a cost rose, where the cash balance went, how fees are used. Prepare short answers with figures and document references. Offer members a reasonable way to inspect the books, consistent with your statutes and privacy duties.",
+     "Where the accounts include data about individuals, such as payments to named people, apply proportionality. Present categories and totals in the pack and keep the underlying details available to those entitled to see them. Clear, calm answers build trust in the board."
+    ]
+   },
+   {
+    "heading": "After the meeting",
+    "paras": [
+     "Minute the approval, the vote counts and any questions raised. Sign and file the final accounts together with the supporting documents. Update the register of officers if the assembly elected anyone and make any filings required by your regional or national association register.",
+     "Obligations and deadlines for filing differ between regions and sometimes between types of association, so confirm yours with the relevant registry or an adviser. Keep the finished pack for the retention period applicable to accounting records. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-access-control-and-roles-gdpr",
+  "title": "Role-Based Access to Member Data under GDPR and LOPDGDD",
+  "description": "Limit who can see member data in a Spanish association: role design, least privilege, access reviews and logging that support GDPR and LOPDGDD duties.",
+  "minutes": 5,
+  "published": "2026-08-03",
+  "category": "Data protection",
+  "keywords": [
+   "gdpr association member data",
+   "lopdgd association compliance",
+   "role based access control",
+   "member data protection spain",
+   "access review log",
+   "association data protection officer"
+  ],
+  "sections": [
+   {
+    "heading": "Why access design matters",
+    "paras": [
+     "Associations hold identity details, contact data and records of participation that members expect to stay private. Under GDPR and the Spanish data protection law (LOPDGDD), the association is the controller and must show it limits access to what each person needs. A leaked spreadsheet shared by chat is the typical failure.",
+     "Design access around roles, not individuals. People change, roles persist, and role definitions can be reviewed and minuted by the board."
+    ]
+   },
+   {
+    "heading": "A simple role model",
+    "paras": [
+     "Start with four or five roles: administrator (very few people), secretary (register and minutes), treasurer (fees and ledger), door or front-desk staff (status check only), and read-only auditor. For each, list which screens, exports and files it may open.",
+     "Front-desk roles should see only what is needed to confirm that someone is an active member, not their address or payment history. Exports of the full register should be limited to the secretary and recorded each time they are generated."
+    ]
+   },
+   {
+    "heading": "Joiners, movers and leavers",
+    "paras": [
+     "Link access to the officer list. When someone is elected, they receive the access of their role; when their term ends, access is removed the same day. Use individual accounts with strong passwords and a second factor where available, and never share a login.",
+     "Write a one-page acceptable use rule for volunteers covering confidentiality, personal devices, photographs of records and what to do if they suspect a problem. Have each person sign and file it."
+    ]
+   },
+   {
+    "heading": "Devices, messaging apps and paper",
+    "paras": [
+     "Many breaches in small organisations come from everyday tools: personal phones holding member lists, chat groups used to share photos of documents, printed registers left on a desk. Set rules for each. Use organisation-managed accounts, lock screens, and avoid sending personal data over informal messaging.",
+     "Paper deserves equal attention. Keep printed registers in locked storage, shred what is no longer needed and log any removal from the premises. Record these rules in the same acceptable-use document and remind volunteers of them at each annual refresher."
+    ]
+   },
+   {
+    "heading": "Reviewing and logging",
+    "paras": [
+     "Every quarter, list who has access to what and ask each role owner to confirm. Remove anything not needed. Keep a log of sensitive actions such as exports, deletions and permission changes, and review it for unusual activity.",
+     "Consider whether your association needs a designated data protection contact or officer; this depends on its activities and size, so seek advice. A system like Budify can enforce roles and record access events, but the policy decisions belong to your board. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-retention-requests-and-breach-log",
+  "title": "Retention Schedules, Member Requests and Breach Logs",
+  "description": "Set retention periods, handle access and deletion requests, and keep a breach register as a Spanish non-profit association under GDPR and LOPDGDD.",
+  "minutes": 6,
+  "published": "2026-08-19",
+  "category": "Data protection",
+  "keywords": [
+   "data retention schedule association",
+   "data subject access request association",
+   "breach register",
+   "gdpr spain non-profit",
+   "lopdgdd member requests",
+   "personal data deletion policy"
+  ],
+  "sections": [
+   {
+    "heading": "Retention: decide, write down, apply",
+    "paras": [
+     "A retention schedule lists each category of record, why you hold it, how long, and what happens at the end. Examples are the member register, fee history, minutes, entry logs, incident logs and applicant files for declined candidates. Different categories justify different periods.",
+     "Some periods are driven by accounting or limitation rules, others by your own purpose. Ask an adviser to confirm the required minimums, then set your shorter periods for everything else and put the whole table in front of the board for approval."
+    ]
+   },
+   {
+    "heading": "Applying deletion in practice",
+    "paras": [
+     "A schedule helps only if someone runs it. Assign a named officer to review due items each quarter, delete or anonymise them and record what was done. Include backups in your thinking: records removed from the live system should disappear from backups within a stated cycle.",
+     "Keep a short deletion log showing the category, the date and the person responsible, without repeating the deleted personal data."
+    ]
+   },
+   {
+    "heading": "Handling member requests",
+    "paras": [
+     "Members have rights under GDPR to access their data, correct it and, in appropriate cases, ask for erasure or restriction. Define a single contact point, a form or email address, and a procedure: log the request, verify identity, locate the data, reply within the statutory period, and record the outcome.",
+     "Not every request requires deletion; some data must be retained for legal reasons, and you should explain that clearly. A tidy register and ledger make search and response far quicker."
+    ]
+   },
+   {
+    "heading": "Documenting your lawful basis and notices",
+    "paras": [
+     "For each category of personal data, write down the purpose and the legal basis you rely on, and make sure your privacy notice matches. Members should be able to read, in plain Spanish or the relevant regional language, what you collect and why.",
+     "Review the notice when you introduce a new process, such as entry logging or cards. Keep dated versions and note which members received which. Where you are unsure whether a basis is suitable, ask an adviser before starting, not after a complaint arrives."
+    ]
+   },
+   {
+    "heading": "The breach register",
+    "paras": [
+     "A personal data breach includes loss of a device, misdirected email and unauthorised access. Keep a register with the date discovered, what happened, data and people affected, assessment of risk, actions taken and whether the supervisory authority or individuals were notified.",
+     "The rules on notification are time-sensitive, so decide in advance who assesses incidents and who contacts the authority. Run a short drill annually. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-choosing-association-software-checklist",
+  "title": "Choosing Administration Software for a Spanish Association",
+  "description": "A neutral evaluation checklist for software that manages members, records and accounts in a non-profit association: data location, audit trail and exports.",
+  "minutes": 5,
+  "published": "2026-09-02",
+  "category": "Technology",
+  "keywords": [
+   "association management software spain",
+   "membership software checklist",
+   "software evaluation non-profit",
+   "club administration software",
+   "eu data hosting association",
+   "audit trail software"
+  ],
+  "sections": [
+   {
+    "heading": "Start from your records, not from features",
+    "paras": [
+     "Before looking at any product, list the records your association must keep: member register, admission records, minutes, fee ledger, stock or equipment records, incident log and access logs. Then note who uses each, how often and what the board expects to see.",
+     "Software is a means of keeping those records more reliably. If a product does not map cleanly to your list, it will create work rather than save it."
+    ]
+   },
+   {
+    "heading": "Questions on data and hosting",
+    "paras": [
+     "Ask where data is stored and which provider processes it. For an association under GDPR, a data processing agreement should be available, and you should know about any transfers outside the European Economic Area. Ask how the vendor handles deletion at the end of the contract.",
+     "Check that you can export everything in open formats such as CSV at any time. A tool that keeps your register hostage is a governance risk. Test an export during the trial and open the file."
+    ]
+   },
+   {
+    "heading": "Audit trail, roles and reporting",
+    "paras": [
+     "Look for an immutable change history, role-based permissions, and reports that match your needs: member lists with status, fee arrears, stock movement summaries, adjustment logs and end-of-day reconciliations. A platform such as Budify is built around these record-keeping functions, but compare any candidate against the same list.",
+     "Ask for a demonstration using your own awkward cases: a member who resigns and rejoins, a fee corrected after the event, a stock count with a variance. The way a product handles edge cases tells you more than a feature list."
+    ]
+   },
+   {
+    "heading": "Costs, exit terms and continuity",
+    "paras": [
+     "Compare total cost over several years, including set-up, training, add-ons and support, not just the headline price. Ask what happens on termination: how long you have to export, in what format, and whether data is deleted and confirmed in writing.",
+     "Check the supplier's stability and support arrangements, including service hours in your time zone and language. Ask for a service history or a status page. Make sure at least two officers know how to reach support and hold the administrative credentials."
+    ]
+   },
+   {
+    "heading": "Rollout and governance",
+    "paras": [
+     "Run a pilot with a small group for a month, in parallel with your existing records, and compare outputs. Document the procedures, train every role and keep a rollback plan. Record the board decision to adopt the tool, along with the data protection assessment.",
+     "Review the arrangement annually: usage, incidents, costs and whether the tool still fits. Software does not replace local advice on your obligations, which vary by autonomous community and activity. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-backups-resilience-and-audit-trails",
+  "title": "Backups, Offline Resilience and Audit Trails for Association Records",
+  "description": "Practical resilience for association records: backup rules, restore tests, offline fallback procedures and audit trails that survive staff changes.",
+  "minutes": 5,
+  "published": "2026-09-16",
+  "category": "Technology",
+  "keywords": [
+   "association data backup",
+   "offline fallback procedure",
+   "audit trail records",
+   "restore test backup",
+   "business continuity association",
+   "digital records spain"
+  ],
+  "sections": [
+   {
+    "heading": "What failure looks like for an association",
+    "paras": [
+     "For a small association, the realistic risks are a lost laptop, a failed disk, an account locked after an officer leaves, or an internet outage on a busy evening. Each threatens the register, the ledger or the door procedure.",
+     "Resilience starts by identifying which records are critical and how long you could operate without them. Write that down; the board will then understand why the backup routine deserves attention."
+    ]
+   },
+   {
+    "heading": "The backup rule",
+    "paras": [
+     "Use the common 3-2-1 approach: three copies, on two kinds of storage, one kept off-site or in a separate cloud account. Automate backups and make a named officer responsible for checking that they ran.",
+     "Encrypt backups and keep the keys or passwords in a place at least two officers can reach. A backup nobody can open is not a backup. Include exports of the register, ledger and logs, not only the system itself."
+    ]
+   },
+   {
+    "heading": "Restore tests and offline fallback",
+    "paras": [
+     "Twice a year, restore a backup to a clean device and verify that a sample of records is intact. Time the exercise and write the result down. Failures found during a test cost an afternoon; failures found in a crisis cost far more.",
+     "Prepare a one-page offline procedure for outages: paper entry sheets with the same fields as the system, a rule for who keys them in afterwards, and a way to check no entry was lost. Number the sheets so gaps are visible."
+    ]
+   },
+   {
+    "heading": "Account recovery and key people",
+    "paras": [
+     "Dependence on a single person is a quiet risk. Document who holds administrator rights, where recovery codes are stored and how the association regains access if that person is unavailable. Store them in a sealed envelope or a managed vault accessible by two officers.",
+     "Review this arrangement at every change of board. A short checklist covering email accounts, domain names, banking, record systems and cloud storage can be run in an hour and prevents a surprising number of emergencies."
+    ]
+   },
+   {
+    "heading": "Audit trails that outlast people",
+    "paras": [
+     "An audit trail records who did what and when. Make sure logs cannot be edited by ordinary users, are retained for a set period and are reviewed. When an officer leaves, their account is closed rather than deleted, so their past actions remain attributable.",
+     "Treat logs as personal data too, with defined access and retention. A system like Budify keeps change history and access events, which supports this, though you remain responsible for the policy. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-capacity-governance-and-orderly-growth",
+  "title": "Governance Limits and Orderly Growth for Member Associations",
+  "description": "How associations can plan membership size, waiting lists and officer succession responsibly, with records that show decisions were deliberate.",
+  "minutes": 5,
+  "published": "2026-09-29",
+  "category": "Growth",
+  "keywords": [
+   "association governance spain",
+   "membership capacity planning",
+   "waiting list records association",
+   "board succession planning",
+   "non-profit association growth",
+   "member association administration"
+  ],
+  "sections": [
+   {
+    "heading": "Growth as a governance question",
+    "paras": [
+     "For a member association, growth is not simply more of the same. More members mean more records, more fees to reconcile, more incidents to log and a heavier load on volunteers. Your statutes and your premises may also set practical or formal limits.",
+     "Treat any increase in size as a board decision, minuted with the reasons and the safeguards, rather than something that just happens."
+    ]
+   },
+   {
+    "heading": "Setting and recording a capacity policy",
+    "paras": [
+     "Agree a target maximum membership and a maximum for premises at one time, based on your statutes, local conditions and honest assessment of volunteer capacity. Review the figures each year at the assembly.",
+     "Track actual numbers against the policy monthly: active members, applicants in progress, and peak attendance. If you approach a limit, the board decides whether to pause admissions, and the pause is recorded."
+    ]
+   },
+   {
+    "heading": "Waiting lists done fairly",
+    "paras": [
+     "If you cannot admit everyone who qualifies, keep a dated waiting list. Record the application date, the sponsor and the sequence of consideration, and apply the same criteria each time. Tell applicants how the list works so expectations are realistic.",
+     "Review the list quarterly and remove entries that lapse. Keep personal data on the list to a minimum and delete entries for people who withdraw."
+    ]
+   },
+   {
+    "heading": "Measuring workload honestly",
+    "paras": [
+     "Before any expansion, measure the load on your team: hours of volunteer time for admissions, reconciliations, door duty and reporting. Divide by the number of active volunteers. If the same few people carry most of it, growth will worsen burnout and increase mistakes.",
+     "Use these figures to set priorities. Perhaps the next improvement is not more members but better tools, clearer procedures or an additional trained officer. Record the analysis and the board's response so future boards understand the reasoning."
+    ]
+   },
+   {
+    "heading": "Succession and continuity",
+    "paras": [
+     "Many associations stall when a founding officer steps back and takes the only knowledge with them. Write down procedures, keep a handover file for each office and stagger terms so that not everyone leaves at once.",
+     "When officers change, hand over the books, accounts and credentials in a minuted meeting and notify the relevant registry if required. Requirements differ between regions, so confirm local filing duties. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-regional-differences-multi-site-reporting",
+  "title": "Regional Differences and Multi-Site Reporting in Spain",
+  "description": "Spain's autonomous communities differ in association administration. Build a records framework that adapts to regions and consolidates reporting.",
+  "minutes": 6,
+  "published": "2026-10-08",
+  "category": "Growth",
+  "keywords": [
+   "regional differences association spain",
+   "autonomous communities association rules",
+   "multi site association reporting",
+   "federation of associations records",
+   "consolidated reporting non-profit",
+   "spanish association compliance"
+  ],
+  "sections": [
+   {
+    "heading": "Why one national template is not enough",
+    "paras": [
+     "Spain's autonomous communities have their own administrative practices, and associations may deal with a regional registry, a municipality and national bodies at the same time. Expectations for registers, filings and premises can differ from one territory to another.",
+     "For that reason, avoid assuming that a procedure that works in one region transfers unchanged to another. Keep a short regional requirements sheet for each place where you operate, reviewed with an adviser."
+    ]
+   },
+   {
+    "heading": "A common core of records",
+    "paras": [
+     "Despite the variation, the core records are very similar everywhere: a member register, admission records, minutes, accounts, stock or equipment records, incident logs and data protection documentation. Standardise those and let the regional layer sit on top.",
+     "Use shared templates, reason codes and naming conventions across sites so that reports can be compared. Differences are then genuine differences, not artefacts of how each site keeps its books."
+    ]
+   },
+   {
+    "heading": "The regional overlay",
+    "paras": [
+     "For each site, record the registry where the association is entered, the filing calendar, any municipal conditions on premises, and named contacts. Keep copies of official correspondence in one place, indexed by date and subject.",
+     "Treat the overlay as a living document. When a regional rule changes, record the date you learned of it, the adviser's view and the internal procedure you changed as a result."
+    ]
+   },
+   {
+    "heading": "Working with advisers and local contacts",
+    "paras": [
+     "Retain an adviser who knows the registries and administrative practice in each region where you operate. Agree what you will ask them each year: confirmation of filing calendars, review of statutes after changes, and opinion on any new activity before you start it.",
+     "Keep a log of advice received with date, topic and conclusion. When a board member leaves, this log preserves institutional knowledge and shows that decisions were taken with proper input. Advice is specific to facts, so never reuse it in another region without checking."
+    ]
+   },
+   {
+    "heading": "Consolidated reporting for a federation or group",
+    "paras": [
+     "If several associations cooperate in a federation, agree a reporting pack: membership counts, fee arrears, stock reconciliation status, incident counts and open audit actions, in euros and standard units. Produce it monthly with the same cut-off date for every site.",
+     "Make clear which entity owns which data and who is the controller under GDPR for each dataset; federation sharing needs a proper basis and agreements. A multi-site system such as Budify can consolidate reports by site, but each association keeps its own legal identity and duties. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ }
+]

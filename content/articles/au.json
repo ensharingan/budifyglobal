@@ -1,0 +1,1042 @@
+[
+ {
+  "slug": "au-controlled-substance-register-running-balance",
+  "title": "Controlled Substance Register: Running Balance Records in Australia",
+  "description": "How Australian licensed clinics and pharmacies can keep a controlled substance register with a clear running balance, tidy entries and a correction trail.",
+  "minutes": 5,
+  "published": "2026-01-05",
+  "category": "Records & compliance",
+  "keywords": [
+   "controlled substance register australia",
+   "running balance record pharmacy",
+   "clinic controlled drug record keeping",
+   "dispensing register audit trail",
+   "pharmacy stock register software australia"
+  ],
+  "sections": [
+   {
+    "heading": "Why the running balance is the heart of the register",
+    "paras": [
+     "A controlled substance register is only as useful as its running balance. Every receipt, dispensing event, transfer and write-off should move the balance by a known amount, and the balance after each entry should be visible without recalculation. Australian licensed clinics and pharmacies are usually expected to keep this record continuously, so a gap in the sequence is itself a finding.",
+     "Treat the register as a ledger, not a notebook. A ledger has one line per movement, a date and time, a quantity in a consistent unit, the resulting balance and the person responsible. If any of those five elements is missing, the line is hard to defend later. Agree on the standard once, write it into your procedures and apply it to every item line."
+    ]
+   },
+   {
+    "heading": "The fields every entry should carry",
+    "paras": [
+     "Build a short template: date and time, item line, batch reference, movement type, quantity in, quantity out, balance, the person who performed the movement, and a witness where your licence conditions call for one. Add a free-text reference for the prescription, supplier invoice or transfer note that justifies the movement, so the entry can be traced back to its source document.",
+     "Keep units strict. Mixing tablets, millilitres and grams in a single line is the quickest way to corrupt a balance. Record each item line in one base unit and convert at the point of entry, not afterwards. Where fractional quantities are possible, decide on the number of decimal places up front and use it everywhere."
+    ]
+   },
+   {
+    "heading": "Corrections without erasing history",
+    "paras": [
+     "Mistakes will happen, so design for them. The rule of thumb is that a wrong entry is never overwritten. Instead, a second entry reverses it and a third records the correct figure, each with a reason and an initial or user stamp. A reader should be able to reconstruct what was originally written and why it was changed.",
+     "On paper this means strike-through with a legible original and a dated note. In software it means append-only logging, where edits create new lines rather than altering old ones. A system like Budify can keep those reversal entries linked to the original, which makes the explanation visible to whoever reviews the register."
+    ]
+   },
+   {
+    "heading": "Common pitfalls to design out",
+    "paras": [
+     "Three faults recur in registers: batching entries at the end of the day, copying balances forward without recalculating them, and leaving blank lines that could later be filled. Each undermines confidence in the whole record. Require entries at the time of the movement, recalculate the balance on every line, and draw a line through unused space on paper pages or lock the sequence in software.",
+     "Also watch page and volume transitions. When a register book fills or a new period begins, carry the closing balance to the new page with a witnessed entry, and file the old volume where it remains retrievable. A broken carry-forward is one of the first things a reviewer checks, and it is easy to get right with a simple two-person step."
+    ]
+   },
+   {
+    "heading": "A weekly routine that keeps the register honest",
+    "paras": [
+     "Set a fixed weekly check. Pick every controlled item line, count the physical stock, compare it to the register balance and sign the comparison. Differences should be explained the same day. A weekly cadence keeps variances small enough to trace to a handful of transactions rather than a month of them.",
+     "Pair the check with a short review of unusual patterns: entries made outside opening hours, many small adjustments by the same user, or balances that repeatedly land on round numbers. These are prompts for questions, not conclusions. Record the outcome of each review so that the routine itself leaves evidence. Requirements differ by state, territory and licence, so confirm your exact obligations with the regulator or local counsel. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-state-territory-federal-record-keeping-differences",
+  "title": "State, Territory and Federal Record-Keeping Differences: Operator Guide",
+  "description": "A general guide for Australian clinics and pharmacies on handling differing state, territory and federal record-keeping expectations across sites.",
+  "minutes": 5,
+  "published": "2026-01-19",
+  "category": "Records & compliance",
+  "keywords": [
+   "state and territory compliance australia",
+   "federal vs state record keeping clinics",
+   "multi-state pharmacy records australia",
+   "controlled substance record requirements by state",
+   "licence conditions record keeping"
+  ],
+  "sections": [
+   {
+    "heading": "Why Australian operators face layered obligations",
+    "paras": [
+     "Australia regulates controlled substances through a mix of federal and state or territory arrangements. In general terms, federal bodies set frameworks for what may be supplied, while states and territories administer licensing, premises, storage and many day-to-day record requirements. The practical effect is that two sites run by the same business can carry different obligations.",
+     "For an operator, the lesson is not to memorise every rule but to build a map. List each site, the authority that regulates it, the licence or authority it holds and the conditions attached. That map becomes the starting point for every procedure, because a procedure written for one jurisdiction may be inadequate or excessive in another."
+    ]
+   },
+   {
+    "heading": "Build a requirements register, not a folklore",
+    "paras": [
+     "Create a simple requirements register with one row per obligation: what must be recorded, how long it must be kept, who may sign, and which document is the source. Cite the licence condition or regulator guidance by name and date rather than by memory. Where an obligation is unclear, record the question and the answer you received.",
+     "Assign an owner to the register, ideally the compliance officer or site manager, and review it on a schedule, for example quarterly. Regulators update guidance, and licences can be varied. A dated review log shows an inspector that you track change deliberately rather than discovering it during an inspection."
+    ]
+   },
+   {
+    "heading": "Designing one standard that satisfies the strictest site",
+    "paras": [
+     "A practical approach is to design a single internal standard at the level of your most demanding jurisdiction, then add site-specific extras where needed. This reduces training burden and avoids staff moving between sites and applying the wrong routine. The extra cost is some additional recording at lighter-touch sites.",
+     "Be careful with that shortcut. A stricter internal standard does not replace local requirements that differ in kind, such as different report recipients, different forms or different retention periods. Keep a short site addendum listing those differences so that managers do not assume the master procedure is complete."
+    ]
+   },
+   {
+    "heading": "Handling change and uncertainty",
+    "paras": [
+     "Rules and guidance evolve, so build a small change process. Subscribe to regulator notices for each jurisdiction, assign someone to read them, and log any change with a date, a summary and the action taken. Even a single-line entry shows that you are watching.",
+     "When you cannot tell which requirement applies, ask in writing and keep the reply. Regulators and advisers generally prefer a clear question to a quiet assumption. File the exchange in your requirements register so that the next manager does not have to repeat the enquiry, and so that your reasoning is visible if it is ever reviewed."
+    ]
+   },
+   {
+    "heading": "Evidence, retention and transfers between sites",
+    "paras": [
+     "Records that move between sites, such as transfers of stock or shared staff rosters, create a joint trail. Make sure both ends of a transfer are recorded with matching quantities and references, and that each site can produce its own side of the story independently. Shared systems help, provided access is limited to what each site needs.",
+     "Retention periods can differ, so set your retention schedule to the longest period that applies and note any exceptions. When a site closes or changes hands, plan the handover of records early. Confirm all of this with the relevant regulator or local counsel. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-audit-ready-records-regulator-inspection",
+  "title": "Audit-Ready Records: Preparing for a Regulator Inspection",
+  "description": "A practical preparation plan for Australian licensed clinics and pharmacies facing an inspection, covering document packs, stock proof and staff readiness.",
+  "minutes": 6,
+  "published": "2026-02-02",
+  "category": "Records & compliance",
+  "keywords": [
+   "regulator inspection preparation australia",
+   "audit ready pharmacy records",
+   "licensed clinic inspection checklist",
+   "compliance officer record review",
+   "controlled substance audit trail"
+  ],
+  "sections": [
+   {
+    "heading": "Assume an inspection is always one week away",
+    "paras": [
+     "The most reliable way to pass an inspection is to behave as if one is scheduled for next week, every week. That does not mean constant frantic tidying. It means building small habits that leave the records in a presentable state at all times: entries completed the same day, reconciliations signed, documents filed where anyone can find them.",
+     "Inspectors, whether state, territory or federal in origin, tend to follow the paper trail from a physical item back to a record, or from a record back to a physical item. Prepare for both directions. If you can show a counted balance matching a register line, and a register line matching a source document, most questions answer themselves."
+    ]
+   },
+   {
+    "heading": "Build an inspection pack",
+    "paras": [
+     "Keep a ready folder, physical or digital, containing your licence and any conditions, current procedures with version dates, the staff roster with roles and training records, the latest reconciliation sign-offs, and the incident log. Add a one-page site overview with floor layout, storage arrangements and contacts for the compliance officer.",
+     "Review the pack monthly and note the review date on the cover. An out-of-date procedure with a recent review stamp is better than a perfect procedure with no evidence anyone looked at it. Remove drafts from the pack so that the inspector sees only approved material."
+    ]
+   },
+   {
+    "heading": "Stock proof: counts, variances and explanations",
+    "paras": [
+     "Expect to be asked for a live count of selected item lines. Practise this internally by running a surprise count of two or three lines each month and comparing the result with the register. Record who counted, who witnessed and what the difference was, even when the difference is zero.",
+     "For every variance in the last period, have a short written explanation and the corrective action taken. A variance that was found, investigated and closed is a sign of a working control. A variance that nobody can explain is the finding that tends to escalate. Keep the variance log sorted by date with links to supporting entries."
+    ]
+   },
+   {
+    "heading": "A monthly self-inspection",
+    "paras": [
+     "Run your own mini-inspection every month using the same approach an inspector would. Pick five random register entries and trace each to its source document. Pick three physical item lines and trace each to the register. Pick one staff member and check their training file and access level.",
+     "Record the findings in a short report with owners and due dates for fixes, and review the previous month's actions first. Over a year this builds a trail of continuous improvement, which is far more convincing than a last-minute clean-up. It also trains managers to see their own records the way an outsider would."
+    ]
+   },
+   {
+    "heading": "Staff readiness and the day itself",
+    "paras": [
+     "Brief staff on how to behave: be courteous, answer what is asked, and hand questions beyond their role to the compliance officer. Nominate a single escort for the inspector and a deputy. Make sure everyone knows where the pack lives and who can access the register at short notice.",
+     "Afterwards, record what was asked, what was requested and any follow-up with dates. Treat verbal feedback as something to confirm in writing. A system like Budify can export register history and user activity for a date range, which saves time when documents are requested. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-stock-reconciliation-routine-clinics-pharmacies",
+  "title": "Stock Reconciliation Routines for Australian Clinics and Pharmacies",
+  "description": "Daily, weekly and monthly stock reconciliation routines for licensed Australian clinics and pharmacies, with roles, evidence and variance thresholds.",
+  "minutes": 6,
+  "published": "2026-02-16",
+  "category": "Stock & inventory",
+  "keywords": [
+   "stock reconciliation australia",
+   "pharmacy stock count routine",
+   "clinic inventory reconciliation",
+   "daily stock check checklist",
+   "variance threshold inventory control"
+  ],
+  "sections": [
+   {
+    "heading": "Three tiers of reconciliation",
+    "paras": [
+     "A sound reconciliation programme works in tiers. A daily check covers high-movement or high-risk item lines, a weekly check covers all controlled lines, and a monthly check expands to the full range including consumables. Each tier has a different purpose: catch quick errors, confirm balances, and validate the entire inventory.",
+     "Write the schedule down and assign roles. Daily checks can be done by the person closing the dispensary, weekly checks by a senior staff member, and monthly checks by someone independent of dispensing, such as the compliance officer. Separating counting from recording reduces the chance that an error repeats unnoticed."
+    ]
+   },
+   {
+    "heading": "How to run a count that means something",
+    "paras": [
+     "Count blind where possible. If the counter sees the expected balance first, the human tendency is to confirm it. Print or display a count sheet that shows item name and unit but hides the system balance, then compare afterwards. Count sealed and open stock separately and record both.",
+     "Use the same unit throughout and count in a consistent location order so that nothing is skipped or double counted. Lock the item lines being counted during the count so that no movements occur mid-process, or record the time of the count and reconcile movements around it."
+    ]
+   },
+   {
+    "heading": "Setting variance thresholds",
+    "paras": [
+     "Decide in advance what counts as an acceptable difference. For controlled lines the sensible internal threshold is often zero: any difference is investigated. For low-risk consumables you may allow a small tolerance expressed as a number of units or a percentage of throughput. Document the thresholds and who may approve a write-off.",
+     "Escalate by rule, not by feeling. A difference above threshold triggers an investigation within a stated time, and repeated differences on the same line or by the same user trigger a wider review. Keep the escalation steps on a single page near the count station."
+    ]
+   },
+   {
+    "heading": "Making the routine stick",
+    "paras": [
+     "Routines fail when they depend on goodwill. Put the count schedule in the roster, give each count a named owner and a due time, and track completion on a simple board or report. An overdue count should be as visible as an overdue invoice.",
+     "Review results monthly. Which lines show repeated differences? Which counters produce the most variances? Use the answers to adjust training, relabel confusing containers or change storage layout. Reconciliation is most valuable as a feedback loop, not as a ritual performed for its own sake, and the numbers tell you where to look."
+    ]
+   },
+   {
+    "heading": "Evidence and sign-off",
+    "paras": [
+     "Each reconciliation should end with a signed record: date, counter, witness, lines counted, differences found and actions taken. Store these chronologically and link them to any adjustment entries made in the register. A reviewer should be able to move from a sign-off sheet to the underlying movements in a few minutes.",
+     "Software can help by generating count sheets, flagging lines overdue for a count and keeping adjustment history. A system like Budify can hold these records alongside the stock ledger. Whatever you use, ensure your routine meets your licence conditions and state or territory expectations. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-stock-discrepancy-investigation-workflow",
+  "title": "Investigating Stock Discrepancies: A Step-by-Step Workflow",
+  "description": "A repeatable workflow for Australian licensed operators to investigate stock discrepancies, document root causes and decide when to escalate or report.",
+  "minutes": 5,
+  "published": "2026-03-02",
+  "category": "Stock & inventory",
+  "keywords": [
+   "stock discrepancy investigation",
+   "inventory variance workflow",
+   "pharmacy discrepancy report",
+   "controlled substance discrepancy australia",
+   "stock write off documentation"
+  ],
+  "sections": [
+   {
+    "heading": "Freeze, then confirm the difference is real",
+    "paras": [
+     "When a count and a register disagree, the first step is to pause activity on that item line and recount, ideally with a different person. A surprising number of differences disappear on recount because of a miscounted container, a transposed digit or an unrecorded unit conversion.",
+     "If the difference persists, record it immediately with the time, the people involved and the size of the gap. Do not adjust the register yet. Adjusting first and investigating later destroys the evidence you need and looks poor to any reviewer."
+    ]
+   },
+   {
+    "heading": "Trace the movements around the gap",
+    "paras": [
+     "Pull every movement on the line since the last agreed-good count. Check each against a source document: invoice, transfer note, dispensing record or destruction record. Look for entries made late, entries reversed and re-entered, and movements recorded in the wrong unit or against the wrong batch.",
+     "Compare the pattern against the roster. Differences concentrated in one shift are a prompt to review procedure and training before anything else. Most discrepancies trace to process faults such as handover gaps or unclear unit conventions rather than anything more serious."
+    ]
+   },
+   {
+    "heading": "Decide the cause category",
+    "paras": [
+     "Use a short list of causes so that trends become visible: counting error, data entry error, unit conversion, damaged or expired stock, unrecorded transfer, supplier shortfall, and unexplained. Choosing a category forces a conclusion, and the totals by category tell you where to invest in training or system changes.",
+     "If the cause is unexplained after a reasonable investigation, say so plainly. Escalate to the compliance officer, and consider whether your licence conditions or the regulator require notification. Obligations vary by state, territory and licence, so check the exact requirement and timing in advance rather than in the middle of an incident."
+    ]
+   },
+   {
+    "heading": "Writing the investigation note",
+    "paras": [
+     "A good note fits on one page. It states the line, the size of the difference, the time window, the movements reviewed, the people interviewed, the cause category and the corrective action. Avoid speculation, and keep the language factual so that anyone reading it later reaches the same understanding.",
+     "Interview staff as colleagues, not suspects. Ask what they saw and what the usual routine is, and take notes. People are more candid when the focus is on the process. Where a pattern suggests a deliberate act, stop and involve senior management and counsel before taking further steps."
+    ]
+   },
+   {
+    "heading": "Close out properly",
+    "paras": [
+     "Once the cause is documented, post the adjustment as a separate, visible entry that references the investigation, with approval from the person authorised to sign off write-offs. File the investigation note with the count sheet and the supporting documents.",
+     "Finish with a lesson. If a handover form was unclear, change it. If two units were confusing, standardise them. Review the discrepancy log quarterly for patterns. Good records show not only that a problem occurred but that the business responded. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-batch-expiry-quarantine-destruction-records",
+  "title": "Batch, Expiry and Destruction Records for Licensed Operators",
+  "description": "How Australian clinics and pharmacies can track batches, expiry dates, quarantine and destruction events so every unit of stock has a documented end point.",
+  "minutes": 6,
+  "published": "2026-03-16",
+  "category": "Stock & inventory",
+  "keywords": [
+   "batch tracking pharmacy australia",
+   "expiry date management software",
+   "stock destruction record",
+   "quarantine stock records",
+   "batch traceability clinic"
+  ],
+  "sections": [
+   {
+    "heading": "Why batch-level records matter",
+    "paras": [
+     "Batch references turn a stock count into a traceable story. If every receipt records the batch, supplier, quantity and expiry, you can answer questions about where a particular lot went, how much remains and when it must leave the shelf. Without batches, you can only say how much of an item line exists in total.",
+     "Capture the batch reference at receipt, not later. Staff should scan or type it from the label while the supplier paperwork is in hand. Reject the habit of recording batches from memory at the end of the day, which is where transposition errors come from. Reconcile the batch listing to the item-line total every month: the sum of batch quantities should equal the line balance exactly. A mismatch usually points to a receipt entered without a batch or a movement posted to the wrong one, and it is far easier to fix within weeks than months."
+    ]
+   },
+   {
+    "heading": "Expiry management as a routine",
+    "paras": [
+     "Run a monthly expiry review: list batches expiring within a window you define, such as the next ninety days, and decide what happens to each. Use first-expiry-first-out rotation on the shelf and mark short-dated stock clearly. Record the review itself with a date and the person responsible.",
+     "Make expired stock leave circulation immediately. Move it to a labelled quarantine location, post a movement entry that shifts the quantity from available to quarantined, and keep that separate from the main balance so it cannot be used by mistake."
+    ]
+   },
+   {
+    "heading": "Destruction and write-off records",
+    "paras": [
+     "Destruction is a record event as much as a physical one. Document the item line, batch, quantity, reason, method, date, the people present and any external witness or authority your conditions require. Retain the supporting form with the register entry that removes the stock.",
+     "Arrange the process so that the register is updated only once the physical event is complete and witnessed, and so that two people cannot be the same person. Keep the quantity reconciliation: balance before, quantity destroyed, balance after, all in the same unit."
+    ]
+   },
+   {
+    "heading": "Reporting that supports decisions",
+    "paras": [
+     "Useful reports are simple: a list of batches by expiry date, quarantined quantity by reason, and a log of destruction events by month. Review them at the monthly meeting and look for trends such as repeated short-dated receipts from one supplier.",
+     "Use the trends to adjust ordering quantities and receipt checks. If short-dated stock keeps arriving, agree a minimum remaining life with the supplier and record the check on receipt. Fewer expiries mean fewer destruction events, and fewer opportunities for record errors."
+    ]
+   },
+   {
+    "heading": "Linking quarantine to the ledger",
+    "paras": [
+     "Quarantine should appear in your ledger as a status rather than a hidden shelf. When stock is placed in quarantine, record why, who authorised it and what the exit conditions are: return to available, return to supplier, or destruction. Each exit should generate its own entry.",
+     "A system like Budify can hold batch and expiry fields against stock lines and show quarantined quantity separately from available quantity, which makes month-end reviews faster. Confirm destruction and return requirements with your regulator. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-role-based-access-pharmacy-clinic-staff",
+  "title": "Role-Based Access Control for Clinic and Pharmacy Staff Records",
+  "description": "Design role-based access for Australian licensed clinics and pharmacies so staff see only the records they need, with clean joiner, mover and leaver steps.",
+  "minutes": 5,
+  "published": "2026-03-30",
+  "category": "Membership & access",
+  "keywords": [
+   "role based access control pharmacy",
+   "staff access levels clinic software",
+   "least privilege records australia",
+   "user permissions audit trail",
+   "joiner mover leaver process"
+  ],
+  "sections": [
+   {
+    "heading": "Start from tasks, not job titles",
+    "paras": [
+     "Role design works best when it starts from what people actually do. List the tasks in the dispensary or clinic: receiving stock, recording dispensing, performing counts, approving adjustments, running reports, managing users. Then group the tasks into a small number of roles, each with the minimum access needed.",
+     "Keep the number of roles low. Three to five is typical: front-of-house, dispensing, supervisor, compliance and administrator. A sprawling list of custom roles becomes impossible to review and tends to accumulate exceptions that nobody remembers granting. Write the role definitions in plain language and share them with staff, so everyone understands why access differs. People accept restrictions more readily when they see the reasoning, and they are more likely to flag a permission that no longer fits their duties instead of quietly working around it."
+    ]
+   },
+   {
+    "heading": "Separate duties that should not sit together",
+    "paras": [
+     "Certain pairs of capabilities should rarely sit with one person: recording a movement and approving its write-off, or creating a user and reviewing the user log. Separation does not imply distrust. It means that no single mistake or lapse can pass unseen.",
+     "Where a small team cannot separate everything, compensate with review. For example, the owner may review all adjustments weekly. Write the compensating control down so that it is a real duty and not an assumption."
+    ]
+   },
+   {
+    "heading": "Joiners, movers and leavers",
+    "paras": [
+     "Tie access changes to HR events. When someone joins, the manager requests a role, the administrator creates the account and training is logged before first use. When someone moves, the old role is removed at the same time the new one is granted. When someone leaves, access is disabled on the final day, not the following week.",
+     "Use named accounts for everyone. Shared logins destroy the audit trail and make it impossible to say who performed an entry. If a shared workstation is unavoidable, use fast user switching rather than a shared credential."
+    ]
+   },
+   {
+    "heading": "Documenting the access model",
+    "paras": [
+     "Write a one-page access matrix showing each role and what it can view, create, edit, approve and export. Keep it with your procedures, and update it whenever the system changes. New managers can then understand the model without guessing.",
+     "Test the matrix. Log in as each role in a training environment and try tasks that should be blocked. Record the results. It is common to discover that a role has more access than intended, and it is much better to find that during a test than during an incident or an inspection."
+    ]
+   },
+   {
+    "heading": "Reviewing access regularly",
+    "paras": [
+     "Schedule a quarterly access review. Export the list of users and roles, ask each manager to confirm or amend it, and record the outcome. Pay special attention to administrator rights, dormant accounts and temporary access granted for locum or agency staff.",
+     "Keep the review evidence with your compliance files. A system like Budify can log who changed which permission and when, which gives the review something factual to work from. Align your approach with your privacy obligations under the Privacy Act and your licence conditions. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-patient-register-prescriber-authority-records",
+  "title": "Patient Register and Prescriber Authority Records: A Records Guide",
+  "description": "A records-only guide for Australian clinics and pharmacies on keeping patient registers and prescriber authority files accurate, minimal and access-restricted.",
+  "minutes": 6,
+  "published": "2026-04-13",
+  "category": "Membership & access",
+  "keywords": [
+   "patient register records australia",
+   "prescriber authority records",
+   "clinic registration records",
+   "pharmacy patient file management",
+   "restricted access patient data"
+  ],
+  "sections": [
+   {
+    "heading": "What belongs in a register and what does not",
+    "paras": [
+     "A register is an administrative record. For a licensed clinic or pharmacy it typically holds identification details, the date a person was registered, references to supporting authority documents and a status such as active or suspended. Resist adding anything beyond what your licence conditions and genuine operational needs require.",
+     "Collect the minimum. Every extra field is something you must store, protect, keep accurate and eventually dispose of. A field that no process uses is a liability. Review your forms annually and drop fields that have become redundant. Decide at the outset who owns the register. A named owner, usually a compliance officer or senior manager, approves changes to fields, handles requests for corrections and reports on data quality, which prevents the slow drift that affects registers nobody feels responsible for."
+    ]
+   },
+   {
+    "heading": "Prescriber authority files",
+    "paras": [
+     "Where your operation relies on authority held by a prescriber, keep a file that shows the prescriber's details, the authority reference, the date it was received, its validity period and the person who verified it. Store a copy of the source document and note where the original is held.",
+     "Set renewal reminders well ahead of expiry dates, and decide what staff do when an authority lapses: the register status changes, and affected records are flagged for review. A calendar entry owned by a named person is more reliable than collective awareness."
+    ]
+   },
+   {
+    "heading": "Accuracy, identity checks and status changes",
+    "paras": [
+     "Define how identity is checked at registration and how often details are confirmed. Record which document was sighted, by whom and when, without copying more than needed. When details change, update the record with a dated change note rather than overwriting history.",
+     "Status changes such as suspension, closure or transfer to another site should each generate a dated entry with a reason code. These entries let you answer later questions about who was registered at a given time and on what basis."
+    ]
+   },
+   {
+    "heading": "Periodic data quality review",
+    "paras": [
+     "Once a quarter, sample a number of register entries and check them against source documents. Look for missing fields, outdated statuses, duplicate records and inconsistent spellings. Record the error rate and the fixes made, and track whether it improves.",
+     "Duplicates deserve special attention. Two records for one person can split history and cause the wrong status to be shown. Agree a merge procedure that keeps both histories visible, requires approval and leaves a note of what was combined and by whom."
+    ]
+   },
+   {
+    "heading": "Keeping access narrow",
+    "paras": [
+     "Registers contain personal information, so limit who can open them. Front-desk staff may need to confirm a status, while only a supervisor needs to view supporting documents. Log views of sensitive records where your system allows it, and review the log for unusual patterns.",
+     "A system like Budify can restrict register fields by role and keep a change history, but the discipline is organisational. Treat registers in line with the Privacy Act and the Australian Privacy Principles, and confirm state or territory specifics locally. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-dispensary-opening-closing-checklists",
+  "title": "Opening and Closing Checklists for a Licensed Dispensary",
+  "description": "Practical opening and closing checklists for Australian licensed clinics and pharmacies, covering storage checks, register sign-off and end-of-day balances.",
+  "minutes": 4,
+  "published": "2026-04-27",
+  "category": "Operations",
+  "keywords": [
+   "dispensary opening checklist",
+   "closing procedure pharmacy australia",
+   "end of day reconciliation clinic",
+   "daily operations checklist licensed",
+   "storage check record"
+  ],
+  "sections": [
+   {
+    "heading": "Why checklists beat memory",
+    "paras": [
+     "Checklists turn good intentions into evidence. A signed opening and closing list shows that required checks were done every day, by whom and at what time. They are also an easy way to onboard new staff, because the routine is written down rather than carried in someone's head.",
+     "Keep each list to a single page and use short verbs. If a list takes more than ten minutes, people will skip items. Review the lists every six months and remove steps that no longer matter. Assign the checklist to a role rather than a person, so it still happens when someone is on leave. Store a blank master in the procedures folder with a version date, and print fresh copies from it rather than photocopying marked-up sheets, which tend to carry old errors forward."
+    ]
+   },
+   {
+    "heading": "Opening routine",
+    "paras": [
+     "At opening, confirm that storage areas and cabinets are as left the night before, that alarms and access devices are working, and that the register's closing balance matches the opening count of controlled lines. Record any difference before the first transaction.",
+     "Check that scales, scanners, printers and terminals are working, that the clock is correct, and that the day's roster matches the people logged in. Note any equipment fault in a log with a reference, so repairs and workarounds are traceable."
+    ]
+   },
+   {
+    "heading": "Closing routine",
+    "paras": [
+     "At close, finish pending entries, reconcile the day's movements with the physical count of high-risk lines, and print or export the end-of-day summary. Compare quantities in and out with the source documents from the day: dispensing records, receipts, transfers.",
+     "Return all stock to its storage location, lock up as your procedures describe, and have a second person confirm. Sign the closing sheet with time and name. If the second person is not available, record who authorised the exception."
+    ]
+   },
+   {
+    "heading": "Keeping the lists useful",
+    "paras": [
+     "Review completed lists weekly. Look for items that are always ticked without any comment, since those may be redundant, and items that are often skipped, since those may be impractical. Adjust the list to match reality, then train to the revised version.",
+     "Rotate who reviews the lists so that fresh eyes spot habits. When the same fault appears repeatedly, such as a missing second signature at close, raise it at the team meeting and agree a fix rather than relying on reminders alone."
+    ]
+   },
+   {
+    "heading": "Exceptions and escalation",
+    "paras": [
+     "Include a short section on what to do if something does not match: stop, recount, record, tell the supervisor. The aim is to make the right behaviour automatic when staff are tired at the end of a shift.",
+     "Store completed lists in date order and keep them for the period your retention schedule requires. A system like Budify can hold digital checklists with timestamps, but paper works when it is complete and legible. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-shift-handover-locum-staff-records",
+  "title": "Shift Handover and Locum Staff: Keeping Records Continuous",
+  "description": "How Australian licensed clinics and pharmacies can structure shift handovers and onboard locum or agency staff without breaking the record trail.",
+  "minutes": 5,
+  "published": "2026-05-11",
+  "category": "Operations",
+  "keywords": [
+   "shift handover record",
+   "locum staff onboarding pharmacy",
+   "agency staff access records",
+   "handover checklist clinic",
+   "continuity of records"
+  ],
+  "sections": [
+   {
+    "heading": "Handover is where records break",
+    "paras": [
+     "Many stock and record errors cluster at shift changes. One person leaves with a half-finished entry, another arrives not knowing what has been counted. A short structured handover removes most of the risk and creates a record of who held responsibility at each moment.",
+     "Fix the time and place of the handover, and require both people to be present. Remote handovers by message are a weak control unless the content is captured in the same system as the records. Where several handovers occur in a day, consider a lighter mid-day form and a fuller end-of-day one. The aim is proportionate effort: enough to prove continuity of responsibility without turning the handover into a bottleneck that staff are tempted to skip when the queue is long."
+    ]
+   },
+   {
+    "heading": "What a good handover contains",
+    "paras": [
+     "Use a form with fixed headings: open tasks, pending deliveries or transfers, any variance under investigation, equipment faults, and special instructions. Add the controlled-line balances as counted at handover, with both people initialling the figures.",
+     "Keep the form short enough to complete in five minutes. A long handover form gets filled in by habit, not attention. Retain the forms with the day's records."
+    ]
+   },
+   {
+    "heading": "Onboarding locum and agency staff",
+    "paras": [
+     "Temporary staff need a defined induction before they touch the register: a walk-through of the procedures, a named buddy, a limited-permission account and confirmation of any credentials your conditions require. Record the induction with the date and the content covered.",
+     "Give locums the role with the narrowest access that lets them do the job. Set an end date on the account when you create it, so access lapses automatically if nobody remembers to remove it."
+    ]
+   },
+   {
+    "heading": "Handling interrupted or disputed handovers",
+    "paras": [
+     "Sometimes a handover is rushed or one person must leave suddenly. Define a fallback: the outgoing person records the balances and open tasks in writing, the incoming person verifies the balances before starting, and the supervisor is notified of the exception.",
+     "If a difference is found shortly after a handover, the record of who counted what, and when, determines where the investigation starts. That is why signed handover forms matter. Keep them organised by date and link them to any discrepancy notes."
+    ]
+   },
+   {
+    "heading": "Reviewing the first few shifts",
+    "paras": [
+     "Check the entries made by new or temporary staff more closely during their first shifts. This is a support measure, not a suspicion. Common issues are unit confusion and missing references, and both are cheap to correct early.",
+     "Collect feedback from the locum about unclear procedures and update the documents. A system like Budify can tag entries by user and show a per-user activity summary, which makes the early review quick. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-gst-record-keeping-clinics-pharmacies",
+  "title": "GST Record-Keeping for Licensed Clinics and Pharmacies in Australia",
+  "description": "A general guide to GST-ready records in AUD for Australian clinics and pharmacies: tax invoices, adjustments, write-offs and what to confirm with an accountant.",
+  "minutes": 6,
+  "published": "2026-05-25",
+  "category": "Finance & reporting",
+  "keywords": [
+   "gst record keeping australia",
+   "aud accounting clinics",
+   "tax invoice records pharmacy",
+   "gst coded transactions",
+   "accountant ready exports"
+  ],
+  "sections": [
+   {
+    "heading": "Why GST coding belongs at the transaction",
+    "paras": [
+     "GST outcomes depend on how each supply and purchase is treated, and the treatment can differ between lines. Coding the treatment at the time of the transaction is far more reliable than trying to reconstruct it at quarter end. Your accountant will thank you for it.",
+     "Do not assume how a particular item or service is treated. Ask your registered tax agent to confirm the treatment for each category you handle, and record that confirmation in a short policy table that staff and your system follow. Remember that GST registration and reporting arrangements depend on your turnover and entity structure, and your tax agent will confirm what applies. Your part is to keep clean, consistently coded records in AUD from the first day, because correcting months of uncoded entries later is slow and costly."
+    ]
+   },
+   {
+    "heading": "Documents that support the entries",
+    "paras": [
+     "Keep tax invoices for purchases where you intend to claim credits, with the supplier name, date, description and amounts visible. For your own supplies, issue documents that carry the information the tax rules expect, and number them in an unbroken sequence.",
+     "Store these in AUD, with any foreign currency purchases recorded with the rate used and its source. File documents so that a ledger line can be matched to its document within a minute."
+    ]
+   },
+   {
+    "heading": "Adjustments, returns and write-offs",
+    "paras": [
+     "Credits, returns and write-offs need to flow through to the tax records. Each should reference the original document and carry the same coding as the original line unless there is a reason to change it. Unlinked adjustments are a common source of reconciliation pain.",
+     "When stock is destroyed or written off, record the quantity and value in your inventory ledger and flag it for your accountant, who will advise on the tax effect. Do not guess at the treatment."
+    ]
+   },
+   {
+    "heading": "Training staff on coding discipline",
+    "paras": [
+     "Even a good policy table fails if the person at the counter picks the wrong code. Keep the number of codes small, label them clearly, and use defaults that match the most common case. Where staff must choose, give examples on a single reference card.",
+     "Spot-check coded transactions weekly and share the errors found, without blame. A few minutes of feedback typically removes recurring mistakes, and it spares your accountant a pile of corrections at quarter end."
+    ]
+   },
+   {
+    "heading": "A quarterly routine for BAS time",
+    "paras": [
+     "Set a monthly review: reconcile bank, tie income and purchase totals to the ledger, and clear uncoded lines. By the time a Business Activity Statement is due, only a quick review should remain, not a clean-up project.",
+     "Export transaction detail in a format your accountant can open. A system like Budify can export coded transactions with dates, document references and totals. Confirm all treatments with a registered tax agent. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-month-end-close-stock-valuation-aud",
+  "title": "Month-End Close and Stock Valuation in AUD for Licensed Operators",
+  "description": "A month-end close checklist for Australian clinics and pharmacies, tying the stock ledger to the general ledger and documenting valuation in AUD.",
+  "minutes": 6,
+  "published": "2026-06-08",
+  "category": "Finance & reporting",
+  "keywords": [
+   "month end close australia",
+   "stock valuation aud",
+   "inventory to general ledger reconciliation",
+   "clinic finance reporting",
+   "closing checklist accountant"
+  ],
+  "sections": [
+   {
+    "heading": "The goal: stock records and accounts that agree",
+    "paras": [
+     "The month-end close has one core aim for stock-holding operators: the quantity records and the accounting records must tell the same story. Quantities live in the stock ledger. Values live in the general ledger. The bridge between the two is a valuation method applied consistently.",
+     "Agree the valuation method with your accountant and write it down. Whatever method you choose, apply it the same way each month and note any change with the reason and effective date. Keep the same reviewer for the close where possible, and rotate only with a handover note. Familiarity with last month's explanations helps spot repeat issues quickly, and a stable reviewer builds the institutional memory that spreadsheets alone cannot hold."
+    ]
+   },
+   {
+    "heading": "Cut-off discipline",
+    "paras": [
+     "Choose a firm cut-off time. All receipts, dispensing records and transfers dated before the cut-off must be entered, and nothing dated after it should appear in the month. Late entries are the main reason a closed month needs to be reopened.",
+     "Hold a short cut-off meeting or message on the last working day: confirm outstanding deliveries, pending invoices and any stock in transit. Record the status of each item."
+    ]
+   },
+   {
+    "heading": "Reconcile quantity, then value",
+    "paras": [
+     "Complete the physical count first and resolve variances. Only then calculate the closing stock value in AUD. Compare it to the general ledger inventory balance and investigate any difference larger than your tolerance.",
+     "Typical causes of differences are timing of invoices, unrecorded write-offs, and rounding in unit costs. Keep a reconciliation sheet showing opening value, additions, reductions, closing value and explained differences."
+    ]
+   },
+   {
+    "heading": "Timeline and ownership",
+    "paras": [
+     "Set a close calendar with working-day targets: day one for cut-off and entries, day two for counts and variance resolution, day three for valuation and reconciliation, day four for review and sign-off. Name an owner for each step so that nothing is left to chance.",
+     "Track how long the close takes each month. A shortening cycle is a sign that routines are improving. A lengthening one points to a bottleneck, often late documents or unresolved variances, which you can then address directly."
+    ]
+   },
+   {
+    "heading": "Sign-off and the audit file",
+    "paras": [
+     "Finish with a signed close checklist and a folder containing the count sheets, the reconciliation, the variance explanations and the exports used. Next month's opening figures should match this month's closing figures exactly, and any change needs a note.",
+     "A system like Budify can produce the stock movement summary and valuation export in one step, which saves hours of spreadsheet work. Always have an accountant review the treatment of write-offs and adjustments. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-accountant-exports-bas-preparation",
+  "title": "Accountant-Ready Exports and BAS Preparation for Licensed Operators",
+  "description": "How Australian clinics and pharmacies can prepare clean exports for accountants and Business Activity Statement time, with consistent coding and an audit trail.",
+  "minutes": 5,
+  "published": "2026-06-22",
+  "category": "Finance & reporting",
+  "keywords": [
+   "bas preparation australia",
+   "accountant ready exports",
+   "bookkeeping export clinic software",
+   "xero myob export records",
+   "transaction export audit trail"
+  ],
+  "sections": [
+   {
+    "heading": "Design the export before you need it",
+    "paras": [
+     "Accountants prefer boring, consistent data. Decide which fields every export must contain: date, document number, counterparty, description, net amount, tax amount, gross amount, tax code and payment method. Agree the file layout with your accountant once and reuse it.",
+     "Test the export on a small period first. Open it in the tool your accountant uses, whether that is a spreadsheet or accounting package, and check that totals match your system reports before sending a full quarter. If you use accounting software, keep the chart of accounts aligned with your operational categories, so each stock or dispensing category maps to one account. A clear mapping table, reviewed annually, prevents the quiet divergence that creates confusion at reporting time."
+    ]
+   },
+   {
+    "heading": "Keep operational and financial records linked",
+    "paras": [
+     "Every financial line should be traceable to an operational record: a dispensing event, a receipt or an adjustment. Include the reference number in the export so that the accountant can ask a question and you can answer it quickly.",
+     "Avoid free-text descriptions that vary from one person to another. Use fixed categories, and let notes supplement rather than replace them."
+    ]
+   },
+   {
+    "heading": "Pre-BAS review routine",
+    "paras": [
+     "Two weeks before the lodgement date, run a review: clear uncoded transactions, check for duplicates, confirm that voided and refunded items are paired, and reconcile payment totals to bank statements. Record who completed each step.",
+     "Send the export with a short cover note listing known issues and unusual items. This makes the accountant's work faster and reduces back-and-forth, which is usually where time is lost."
+    ]
+   },
+   {
+    "heading": "Questions to settle with your accountant",
+    "paras": [
+     "Agree early which items need extra detail, how write-offs and returns should appear, and how foreign currency purchases should be shown. Ask which period boundaries they use and how they want adjustments flagged.",
+     "Ask what evidence they expect you to hold for the key balances, and how long. Write the answers into a short working agreement. It saves repeated explanations and protects continuity if either side changes staff."
+    ]
+   },
+   {
+    "heading": "Version control and retention",
+    "paras": [
+     "Keep exact copies of what you sent, with the date and the period covered. If you later correct an error, produce a new version and note what changed. Never overwrite the original file.",
+     "Retain financial records for the period the tax authorities and your licence conditions require, and set a calendar review. A system like Budify can regenerate an export for any period, but archived copies still matter. Confirm all tax treatment with your registered tax agent. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-privacy-act-app-patient-records-operators",
+  "title": "Privacy Act and APPs: Handling Patient Records in Licensed Clinics",
+  "description": "A general operator guide to Privacy Act obligations and the Australian Privacy Principles for clinics and pharmacies handling patient and prescriber records.",
+  "minutes": 6,
+  "published": "2026-07-06",
+  "category": "Data protection",
+  "keywords": [
+   "privacy act australia clinics",
+   "australian privacy principles records",
+   "patient data protection pharmacy",
+   "personal information handling operators",
+   "privacy policy licensed clinic"
+  ],
+  "sections": [
+   {
+    "heading": "Know what personal information you hold",
+    "paras": [
+     "Start with a data inventory. List every place patient, prescriber and staff information is held: the registration system, dispensing records, paper files, email, backups, spreadsheets and phones. For each, note what is held, why, who can access it and how long it is kept.",
+     "The Privacy Act 1988 and the Australian Privacy Principles set expectations on collection, use, disclosure, quality, protection and access. Whether and how they apply to your business depends on its size and activities, and records relating to individuals' sensitive information are generally treated with greater care. Keep a short register of the information-handling decisions you make, such as why a field is collected or why a supplier was chosen, with dates and approvers. If a question arises later, you can show that decisions were considered and not accidental, which is the heart of accountable practice."
+    ]
+   },
+   {
+    "heading": "Collect less, explain more",
+    "paras": [
+     "Collect only what you need for a stated purpose and tell people at the point of collection. A short collection notice on forms and screens should say who you are, why you are collecting the information, who it may be passed to and how people can access or correct it.",
+     "Review forms for needless fields. If staff cannot explain why a field is required, remove it. Fewer fields mean less to protect and less to disclose if something goes wrong."
+    ]
+   },
+   {
+    "heading": "Use, disclosure and access rules inside the business",
+    "paras": [
+     "Define which roles can see which records and why. A front-desk employee rarely needs to see supporting documents; a supervisor might. Apply least privilege in the system and review it regularly.",
+     "Create a simple route for individuals to request access or correction of their information, with a named contact and a response timeline set in your procedure. Log each request and its outcome."
+    ]
+   },
+   {
+    "heading": "Training and culture",
+    "paras": [
+     "Policies change behaviour only when people understand them. Include privacy in induction, run a short annual refresher and use real examples such as an email sent to the wrong recipient. Encourage staff to report mistakes quickly, and make clear that prompt reporting is valued.",
+     "Review your privacy policy and collection notices at least annually. Check that they describe current practice, that contact details work and that someone is responsible for answering enquiries. A policy that matches reality is far more useful than a long one that does not."
+    ]
+   },
+   {
+    "heading": "Protecting information in practice",
+    "paras": [
+     "Practical protections include unique logins, automatic screen locks, encrypted devices, limited printing, locked paper storage and tested backups. Agree rules for taking information off site, and prohibit informal channels such as personal messaging for patient details.",
+     "Review your suppliers too. If a software provider stores your information, understand where it is hosted and what contract terms apply. A system like Budify can limit field access by role and keep an access log, but policies and training carry equal weight. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-notifiable-data-breach-readiness-clinics",
+  "title": "Notifiable Data Breach Readiness for Australian Clinics and Pharmacies",
+  "description": "Build a data breach response plan for an Australian licensed clinic or pharmacy: roles, containment, assessment steps, record-keeping and rehearsal.",
+  "minutes": 5,
+  "published": "2026-07-20",
+  "category": "Data protection",
+  "keywords": [
+   "notifiable data breaches scheme",
+   "data breach response plan australia",
+   "clinic breach readiness",
+   "privacy incident register",
+   "oaic notification process"
+  ],
+  "sections": [
+   {
+    "heading": "Plan before an incident",
+    "paras": [
+     "Australia has a notifiable data breaches scheme under privacy law, and whether it applies to your business, and when you must notify, depends on your circumstances. The sensible approach is to have a plan ready, so that decisions in a stressful hour are guided by something already agreed.",
+     "Your plan should name a response lead, a deputy, a person responsible for communications and a technical contact. Keep their out-of-hours contact details on one page, stored where it can be found even if systems are down. Print the plan. In a real incident, systems you rely on may be unavailable, and a paper copy with contact numbers and a decision flow can save valuable time. Review it after every personnel change so that the named roles are always filled by someone who knows the plan."
+    ]
+   },
+   {
+    "heading": "The first hours: contain and record",
+    "paras": [
+     "The initial steps are to stop the loss where possible, preserve evidence and start a written log. Examples include disabling an account, recalling a misdirected email, or isolating a device. Record each action with time and person.",
+     "Do not delete logs or wipe devices before the response lead decides, as that can destroy evidence you need to understand what happened."
+    ]
+   },
+   {
+    "heading": "Assess what happened",
+    "paras": [
+     "Work through a structured assessment: what information was involved, how many people, who may have gained access, whether the information was protected, and whether the incident is likely to result in serious harm. Document the reasoning even when the conclusion is that notification is not required.",
+     "Take legal advice early where the situation is unclear. Timelines for assessment and notification are set by law, so confirm them in advance rather than when an incident is under way."
+    ]
+   },
+   {
+    "heading": "Supplier and contract considerations",
+    "paras": [
+     "Many incidents occur at suppliers, so your plan should cover them. Know which suppliers hold your information, how they will tell you about an incident and how quickly. Ask for these commitments in writing and file them with the contract.",
+     "Keep a current contact list for each supplier's incident team. When an incident involves a supplier, your own assessment and record-keeping duties continue, so ask for the facts you need and log what you receive."
+    ]
+   },
+   {
+    "heading": "Keep a register and rehearse",
+    "paras": [
+     "Keep a register of all incidents, including near misses: date, description, cause, people affected, actions and lessons. Near misses are valuable because they reveal weaknesses cheaply.",
+     "Rehearse once a year with a tabletop exercise. Walk the team through a scenario such as a lost laptop and check that everyone knows what to do. A system like Budify can provide access logs that help establish what was viewed. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-record-retention-schedule-safe-disposal",
+  "title": "Record Retention Schedules and Safe Disposal for Licensed Operators",
+  "description": "How Australian clinics and pharmacies can set a retention schedule, apply legal holds and dispose of records safely, with documented evidence of each step.",
+  "minutes": 5,
+  "published": "2026-08-03",
+  "category": "Data protection",
+  "keywords": [
+   "record retention schedule australia",
+   "safe disposal of records",
+   "data retention clinic",
+   "document destruction log",
+   "legal hold records"
+  ],
+  "sections": [
+   {
+    "heading": "Why a schedule beats ad hoc decisions",
+    "paras": [
+     "Keeping everything forever is a risk; discarding too early is another. A retention schedule resolves the tension by stating, for each record type, how long it is kept, why and who decides on disposal. It converts a vague worry into a routine.",
+     "Build the schedule by listing record types: registers, dispensing records, stock counts, invoices, staff files, incident reports and system logs. For each, record the source of the retention period, whether that is your licence conditions, tax requirements or internal policy. Include system logs and audit trails in the schedule. They are records too, and they can be large. Decide how long they are kept online, when they move to archive and when they are destroyed, and make sure the archive remains readable after software changes."
+    ]
+   },
+   {
+    "heading": "Setting periods with care",
+    "paras": [
+     "Retention periods vary by record type, state or territory and licence, so verify them. Where several periods apply to the same record, use the longest. Note any exceptions, such as records relating to a dispute or an investigation.",
+     "Review the schedule annually and when you change systems or open a new site. Record the review date and the reviewer."
+    ]
+   },
+   {
+    "heading": "Legal holds and exceptions",
+    "paras": [
+     "If a regulator inquiry, complaint or legal claim arises, suspend disposal of related records until the matter is resolved. Make the hold explicit with a written notice that lists record types and date ranges, and tell the people who run disposal.",
+     "Lift the hold in writing when the matter closes, and resume normal disposal."
+    ]
+   },
+   {
+    "heading": "Making disposal routine",
+    "paras": [
+     "Schedule disposal reviews twice a year. Pull the list of records past their retention date, check for holds, get approval from the record owner and then destroy. Doing this regularly avoids a large backlog that nobody wants to handle.",
+     "Record the approval and the method used. If an old record is later requested, the disposal log shows that it was destroyed under policy rather than lost. That distinction matters to regulators and to the individuals concerned."
+    ]
+   },
+   {
+    "heading": "Disposal that leaves evidence",
+    "paras": [
+     "Dispose of paper by shredding or a contracted service that provides a certificate, and of digital records by deletion methods that match the sensitivity of the information. Keep a disposal log with date, record type, volume, method and person responsible.",
+     "Do not forget backups, old devices and email archives. A system like Budify can support scheduled archiving and export, but physical media and personal devices need separate attention. Limit retention of personal information to what the Privacy Act and your obligations require. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-audit-trail-software-evaluation-checklist",
+  "title": "Audit Trail Software: An Evaluation Checklist for Licensed Operators",
+  "description": "A checklist for Australian clinics and pharmacies assessing record-keeping software: audit trails, exports, access control, hosting and support questions.",
+  "minutes": 6,
+  "published": "2026-08-17",
+  "category": "Technology",
+  "keywords": [
+   "audit trail software",
+   "pharmacy record keeping software australia",
+   "compliance software evaluation",
+   "software vendor checklist clinic",
+   "immutable log records"
+  ],
+  "sections": [
+   {
+    "heading": "Start with the records you must keep",
+    "paras": [
+     "Before looking at any vendor, list the records your licence and procedures require, and the reports you produce. Software should be judged on how well it supports those, not on how many features it advertises. A short list of must-haves prevents distraction.",
+     "Include the people who will use the system daily in the evaluation. Their ability to enter an accurate record under time pressure matters more than a polished demo. Involve your accountant and, if relevant, your privacy adviser in the evaluation. They will ask questions that operational staff may not think of, such as export formats, data location and contract terms, and their input is cheaper at selection time than after contracts are signed."
+    ]
+   },
+   {
+    "heading": "Audit trail questions",
+    "paras": [
+     "Ask how the system records who did what and when. Can entries be edited or deleted, and if so, is the original preserved? Are timestamps system-generated? Can you export the full history for a date range, including user and device?",
+     "Look for append-only behaviour: corrections create new entries linked to the old ones. Ask to see the log of a real correction in a demo. If a vendor cannot show it, treat that as an answer."
+    ]
+   },
+   {
+    "heading": "Access, hosting and data questions",
+    "paras": [
+     "Ask about role-based permissions, unique logins and extra authentication steps. Ask where data is hosted, how it is backed up and how quickly it can be restored. Ask what happens to your data if you leave, and in what format you can take it with you.",
+     "Check how the vendor handles personal information under the Privacy Act, and ask for their breach notification commitments in writing."
+    ]
+   },
+   {
+    "heading": "Implementation and change control",
+    "paras": [
+     "Plan the switch as a project. Decide how historical records will be migrated or archived, who will validate the migrated data, and how you will run parallel records for a short period. Compare balances at cut-over and sign them off.",
+     "After go-live, treat configuration changes as controlled events: request, approve, test, record. Settings such as roles, units and approval thresholds affect your compliance posture and deserve the same discipline as procedures."
+    ]
+   },
+   {
+    "heading": "Run a pilot and score it",
+    "paras": [
+     "Pilot with real scenarios: a receipt, a count with a variance, a correction, a destruction event and an inspector-style export request. Score each against your must-haves and record who scored.",
+     "A system like Budify can be assessed in the same way as any other. Keep the evaluation file, as it shows how the decision was reached. Confirm the contract terms with a lawyer before signing. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-offline-backups-barcode-scale-integration",
+  "title": "Barcode Scanners, Scales and Backups: Reliable Record-Keeping Tech",
+  "description": "Practical technology guidance for Australian licensed clinics and pharmacies: scanners, scales, offline resilience, backups and recovery testing.",
+  "minutes": 5,
+  "published": "2026-09-07",
+  "category": "Technology",
+  "keywords": [
+   "barcode scanner stock control",
+   "scales integration records",
+   "backup and recovery clinic",
+   "offline resilience pos",
+   "inventory hardware australia"
+  ],
+  "sections": [
+   {
+    "heading": "Reduce typing to reduce errors",
+    "paras": [
+     "Most record errors come from manual typing. Barcode scanners for batch labels and item codes remove a large share of them. Choose scanners that handle the codes your suppliers use, and test them on worn or curved labels before committing.",
+     "Where weighing is part of your process, connect scales to the system if possible, or at least define a tolerance and calibration schedule. Record each calibration with date, weights used and the person responsible. Label storage locations and item codes clearly, with large, legible print. Scanners help little if labels are faded or damaged, and a small labelling routine, such as reprinting worn labels during the weekly check, keeps the scanning process dependable and the records clean."
+    ]
+   },
+   {
+    "heading": "Plan for the connection dropping",
+    "paras": [
+     "Internet outages happen. Decide in advance what staff do: continue on a paper fallback form with numbered pages, then enter the records once service returns, noting the original time. Keep the forms near the dispensing station and check stock levels weekly.",
+     "Where your software supports offline operation, test it under real conditions. Ensure that when the connection returns, entries sync in the right order and without duplicates."
+    ]
+   },
+   {
+    "heading": "Backups that actually restore",
+    "paras": [
+     "A backup you have never restored is a hope, not a control. Define how often data is copied, where copies are held and who can access them. Keep at least one copy separate from the primary location.",
+     "Once a quarter, perform a restore test to a spare environment and check that the records are complete. Log the date, the data restored and the result."
+    ]
+   },
+   {
+    "heading": "Documenting technology as part of compliance",
+    "paras": [
+     "Maintain a short technology register covering systems, owners, hosting, backup arrangements and recovery contacts. Include the paper fallback process and the date it was last practised.",
+     "Test the fallback at least annually with a short simulated outage. Note what went wrong, such as missing forms or unclear steps, and fix it. Regulators and insurers alike appreciate evidence that continuity has been thought through and tested."
+    ]
+   },
+   {
+    "heading": "Device hygiene and support",
+    "paras": [
+     "Keep devices updated, use screen locks and unique logins, and retire old equipment with documented data wiping. Maintain an asset list with serial numbers, owners and warranty dates.",
+     "Ask vendors for clear support hours and escalation paths. A system like Budify runs in a browser, which reduces device-specific problems, but the surrounding hardware still needs care. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-multi-site-expansion-consistent-records",
+  "title": "Multi-Site Expansion: Keeping Records Consistent Across Locations",
+  "description": "How Australian operators adding a second or third licensed site can keep records, stock and procedures consistent across state and territory differences.",
+  "minutes": 6,
+  "published": "2026-09-21",
+  "category": "Growth",
+  "keywords": [
+   "multi site clinic management",
+   "multi state pharmacy operations australia",
+   "consistent records across sites",
+   "expansion compliance checklist",
+   "central reporting multiple locations"
+  ],
+  "sections": [
+   {
+    "heading": "Standardise the core, flex the edges",
+    "paras": [
+     "Expansion is easiest when most things are the same. Write a core set of procedures covering registers, counts, corrections, access and incident handling, then add a site addendum for local requirements. Staff moving between sites then recognise the routine.",
+     "Be clear about what can vary: layout, opening hours, local contacts and any state or territory-specific obligations. Everything else should follow the core. Resist the urge to customise procedures for every manager's preference. Each variation adds training cost and reviewing effort, so allow changes only when they are justified by a local requirement or a clear operational reason, and record the justification in the site addendum."
+    ]
+   },
+   {
+    "heading": "Licensing and readiness before opening",
+    "paras": [
+     "Each new site generally needs its own authorisations, and the process and timing vary by state and territory. Build a readiness checklist: licence status, premises requirements, storage, staff credentials, procedures, system set-up and training. Do not hold the opening date as fixed until each item is signed off.",
+     "Appoint a site lead and a compliance contact early, and run a mock inspection a few weeks before opening."
+    ]
+   },
+   {
+    "heading": "Central view, local ownership",
+    "paras": [
+     "Give head office a consolidated view of stock levels, variances, overdue counts and open incidents, while keeping site managers accountable for their own records. Dashboards help only if people act on them, so agree who responds to which signal.",
+     "Use the same item codes, units and category names at every site. Inconsistent naming makes consolidation painful and hides patterns."
+    ]
+   },
+   {
+    "heading": "Learning from each opening",
+    "paras": [
+     "After each new site opens, hold a review at thirty and ninety days. Collect what went well, what delayed the opening, and which procedures needed local changes. Feed the lessons into the checklist for the next site.",
+     "Track a few simple measures across sites: overdue counts, open variances, training completion and incident numbers. Comparing sites sensibly, with attention to size and context, helps you spot where support is needed before problems escalate."
+    ]
+   },
+   {
+    "heading": "Inter-site transfers and shared staff",
+    "paras": [
+     "Transfers between sites need matching entries at both ends: out at the sender, in at the receiver, with the same quantity, batch and reference. Investigate any transfer not received within an agreed window.",
+     "Shared staff should have access limited to the sites they work at. A system like Budify can run multiple locations under one account with per-site permissions. Review costs and entity structure with your accountant, including GST registration implications. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "au-sop-training-scaling-compliance-team",
+  "title": "SOPs and Training Records: Scaling a Compliance Team",
+  "description": "How growing Australian clinics and pharmacies can maintain standard operating procedures, training records and competency checks as headcount increases.",
+  "minutes": 6,
+  "published": "2026-10-08",
+  "category": "Growth",
+  "keywords": [
+   "standard operating procedures clinic",
+   "staff training records compliance",
+   "competency checks pharmacy",
+   "sop version control",
+   "onboarding compliance australia"
+  ],
+  "sections": [
+   {
+    "heading": "Procedures people can follow",
+    "paras": [
+     "A procedure that nobody reads is worse than none, because it creates a false sense of safety. Write steps in plain language, with one action per line, and include a short purpose and scope at the top. Use screenshots or photos where they save words.",
+     "Number each document and carry a version, effective date and owner. When a procedure changes, withdraw the old copy from circulation and keep an archived copy for reference. Keep the library small. A handful of well-maintained procedures covering registers, counts, corrections, access, incidents and closing will do more for compliance than a large folder of documents that nobody can keep current, so merge or retire documents that overlap."
+    ]
+   },
+   {
+    "heading": "Training that leaves evidence",
+    "paras": [
+     "For each role, define the procedures that must be read and practised before independent work. Record the date, trainer, trainee and method, and keep the signed record. A simple matrix of roles against procedures makes gaps visible at a glance.",
+     "Schedule refreshers, for example annually, and after any significant change or incident. Record attendance and outcomes."
+    ]
+   },
+   {
+    "heading": "Competency checks",
+    "paras": [
+     "Reading is not the same as doing. Observe each new staff member performing core tasks such as a count, a correction and a closing reconciliation, and sign off the competency. Reassess when someone returns from extended leave.",
+     "Use the checks to improve procedures. If several people stumble at the same step, the step is probably unclear."
+    ]
+   },
+   {
+    "heading": "Using incidents to improve procedures",
+    "paras": [
+     "Every incident or near miss is a chance to improve a procedure. After each one, ask whether the document was unclear, whether training missed something or whether the system allowed an error. Record the answer and the change made.",
+     "Share anonymised lessons at team meetings. Staff who see that reports lead to practical fixes are more likely to report next time, and that is how a compliance culture grows beyond a single manager."
+    ]
+   },
+   {
+    "heading": "Governance as the team grows",
+    "paras": [
+     "Name a document owner, a reviewer and an approver for each procedure, and meet quarterly to review changes, incidents and training gaps. Keep minutes. This turns compliance from a heroic individual effort into a shared system.",
+     "A system like Budify can store role permissions and timestamped activity, but the training record is an organisational file. Check what your licence and regulator expect for training evidence. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ }
+]

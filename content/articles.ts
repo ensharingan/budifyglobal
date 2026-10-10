@@ -2,9 +2,14 @@
 export interface Article {
   slug: string; title: string; description: string; minutes: number; published: string;
   sections: { heading: string; paras: string[] }[];
+  /** SEO keyphrases (shown as tags + meta keywords). */
+  keywords?: string[];
+  category?: string;
+  /** Country codes this article is published for; undefined = every market. */
+  markets?: string[];
 }
 
-export const ARTICLES: Article[] = [
+const SHARED: Article[] = [
   {
     slug: 'audit-ready-records',
     title: 'Audit-ready records: what regulated operators should log, and why',
@@ -68,3 +73,27 @@ export const ARTICLES: Article[] = [
     ]
   }
 ];
+
+import us from './articles/us.json';
+import ca from './articles/ca.json';
+import de from './articles/de.json';
+import es from './articles/es.json';
+import nl from './articles/nl.json';
+import ch from './articles/ch.json';
+import gb from './articles/gb.json';
+import au from './articles/au.json';
+import th from './articles/th.json';
+import za from './articles/za.json';
+
+const BY_COUNTRY: Record<string, Article[]> = { US: us, CA: ca, DE: de, ES: es, NL: nl, CH: ch, GB: gb, AU: au, TH: th, ZA: za } as Record<string, Article[]>;
+for (const [cc, list] of Object.entries(BY_COUNTRY)) for (const a of list) a.markets = [cc];
+
+export const ARTICLES: Article[] = [...SHARED, ...Object.values(BY_COUNTRY).flat()];
+export const CATEGORIES = ['Records & compliance', 'Stock & inventory', 'Membership & access', 'Operations', 'Finance & reporting', 'Data protection', 'Technology', 'Growth'] as const;
+
+/** Articles published for a market (country-specific first, newest first, then shared guides). */
+export function articlesFor(cc: string): Article[] {
+  const own = ARTICLES.filter((a) => a.markets?.includes(cc)).sort((a, b) => b.published.localeCompare(a.published));
+  return [...own, ...SHARED];
+}
+export function isPublishedIn(a: Article, cc: string) { return !a.markets || a.markets.includes(cc); }

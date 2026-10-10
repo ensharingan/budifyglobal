@@ -1,0 +1,1062 @@
+[
+ {
+  "slug": "za-private-club-member-register",
+  "title": "Private Member Club Register in South Africa: A Practical Guide",
+  "description": "How South African private member clubs can build a clean, consistent member register: fields to hold, who maintains it, and how to keep it audit-ready.",
+  "minutes": 5,
+  "published": "2026-01-05",
+  "category": "Records & compliance",
+  "keywords": [
+   "private member club register south africa",
+   "club membership register software",
+   "member records management south africa",
+   "private club administration software",
+   "membership database for clubs",
+   "club record-keeping system"
+  ],
+  "sections": [
+   {
+    "heading": "Why the register is the backbone of a private club",
+    "paras": [
+     "A private member club in South Africa is, at its core, a list of people who have joined under a set of club rules. Everything else, from access control to fee collection to committee reporting, hangs off that list. If the register is incomplete or scattered across spreadsheets, WhatsApp groups and paper forms, every other process inherits the weakness.",
+     "Treat the register as a controlled record rather than a convenience. It should have a single owner, a defined way of adding and changing entries, and a history showing who changed what and when. That discipline is what lets a committee answer a question about membership numbers with confidence instead of a best guess."
+    ]
+   },
+   {
+    "heading": "Fields every club register should hold",
+    "paras": [
+     "Start with the basics: full legal name, a unique member number, date of joining, membership category, status (active, suspended, lapsed, resigned) and a preferred contact method. Add the date the member accepted the club rules and the version of the rules they accepted, because rules change and you may need to show which version applied.",
+     "Hold only what you genuinely need. If an identity document number or copy is required by your club rules or licence conditions, record that it was sighted, by whom and on what date, and store the minimum necessary. Avoid free-text notes about personal circumstances; they create risk and rarely add value."
+    ]
+   },
+   {
+    "heading": "Keeping the register accurate day to day",
+    "paras": [
+     "Set a routine. New applications go through one intake form, one approval step and one data entry point. Changes of address, phone number or category come through a request that is logged, not a quick edit by whoever happens to be on shift. Run a monthly check that compares active member counts against card issue records and fee payments.",
+     "Duplicate records are the commonest fault. Agree a matching rule, such as name plus date of birth plus mobile number, and merge duplicates deliberately, keeping the older member number. A system like Budify can enforce unique member numbers and keep an audit trail, but the rule itself must be set by the club."
+    ]
+   },
+   {
+    "heading": "Retention, access and sign-off",
+    "paras": [
+     "Decide in writing how long records of resigned or lapsed members are kept and who may view them. Not everyone on staff needs full access; a door host may only need a name, photo and status, while the administrator sees contact details. Review these permissions every quarter and remove access for anyone who has left.",
+     "Finally, have the committee sign off a short register report each month: total members by category, joins, resignations and exceptions. Because personal information is involved, align your practice with POPIA in general terms."
+    ]
+   },
+   {
+    "heading": "A simple annual register review",
+    "paras": [
+     "Once a year, take a snapshot of the register and walk through it with the committee. Count members by category, check that every active member has a recorded joining date and rule acceptance, and list records with missing or doubtful contact details.",
+     "Agree a clean-up plan with owners and dates. Contact members whose details look stale, update or close records, and note the outcome in the minutes. This turns the register from an administrative burden into a trusted source. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-audit-ready-records-routine",
+  "title": "Audit-Ready Club Records: A Weekly Routine for South African Clubs",
+  "description": "A simple weekly and monthly routine that keeps member, stock and cash records consistent, so a South African private club is ready for any review.",
+  "minutes": 5,
+  "published": "2026-01-19",
+  "category": "Records & compliance",
+  "keywords": [
+   "audit ready records south africa",
+   "club compliance record keeping",
+   "private club audit trail",
+   "record retention for clubs south africa",
+   "internal controls for member clubs",
+   "club compliance checklist"
+  ],
+  "sections": [
+   {
+    "heading": "What audit-ready actually means",
+    "paras": [
+     "Audit-ready does not mean perfect; it means that any figure or decision can be traced back to a source record without a scramble. A committee member, accountant or external reviewer should be able to pick a date and see who joined, what moved in or out of stock, and how the day's takings were reconciled.",
+     "For private member clubs in South Africa, the expectation usually comes from three places: your club constitution, your licence or permit conditions where they apply, and your accountant. Because requirements differ, write down which records each source expects and review that list once a year with local counsel."
+    ]
+   },
+   {
+    "heading": "The weekly routine",
+    "paras": [
+     "Pick a fixed weekday. First, reconcile the member register: new joins against signed applications, status changes against committee decisions. Second, run a stock movement report and compare it with physical checks on a sample of lines. Third, confirm that every cash and card total on the till system matches the bank and terminal settlement reports.",
+     "Log exceptions in one place. An exception is anything that did not match: a missing signature, a stock variance, a card batch that did not settle. Each gets an owner, a note of the cause and a date closed. A short, honest exceptions list is far more credible than a record of no problems. Put the routine in the diary as a recurring appointment with the named owner, so it survives staff changes and busy weeks."
+    ]
+   },
+   {
+    "heading": "The monthly close",
+    "paras": [
+     "At month end, lock the period. Export the member summary, stock valuation and income report, save them as read-only files and note the date and who prepared them. Anyone correcting something afterwards should post an adjustment dated in the new month rather than rewriting history.",
+     "Have a second person review. Segregation of duties matters even in a small club: the person who counts stock should not be the only person who approves the variance, and the person who banks cash should not be the only one who reconciles it."
+    ]
+   },
+   {
+    "heading": "Evidence you should be able to produce",
+    "paras": [
+     "Keep a folder, physical or digital, for each month: signed applications, rule acceptance records, stock count sheets, supplier delivery paperwork, terminal settlement reports, bank statements, and the exceptions log. Name files consistently so they sort by date.",
+     "Systems help by recording timestamps and user names automatically, but the habit is what matters. Review your retention periods against your accountant's advice and tax record rules in general, and agree a single destruction process."
+    ]
+   },
+   {
+    "heading": "Common weak points to watch",
+    "paras": [
+     "The usual weak points are undocumented adjustments, shared logins, handwritten corrections without initials and files saved in personal folders. Each makes it difficult to prove who did what. Fix them one at a time, starting with shared logins and unexplained adjustments. Whatever routine you adopt, keep it light enough to survive a busy season, because a simple routine done every week beats an ambitious one abandoned after a month.",
+     "Finish each quarter with a short self-review: pick five records at random and trace each back to its source. Note what you found, correct the process rather than the individual record, and share the lesson with staff so the same gap does not reappear. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-regulator-inspection-readiness",
+  "title": "Preparing for a Regulator Visit: Records Checklist for Private Clubs",
+  "description": "A calm, practical checklist for South African private member clubs preparing records for any authority visit: what to organise, who answers, and what to avoid.",
+  "minutes": 5,
+  "published": "2026-03-02",
+  "category": "Records & compliance",
+  "keywords": [
+   "regulator inspection checklist south africa",
+   "private club compliance records",
+   "club licence conditions record keeping",
+   "inspection readiness for member clubs",
+   "club policies and procedures register",
+   "south africa club compliance"
+  ],
+  "sections": [
+   {
+    "heading": "Start with your licence or permit conditions",
+    "paras": [
+     "Before any visit, you should be able to say in one page what conditions apply to your club and where the evidence for each sits. The exact conditions depend on your arrangements and on the authority concerned, so do not rely on hearsay from other clubs. Ask your adviser or local counsel for a written summary and keep it with your compliance file.",
+     "Turn each condition into a plain-language control: what we do, who does it, how often and where the record lives. Where a condition is unclear, record the question and the answer you received rather than assuming."
+    ]
+   },
+   {
+    "heading": "Organise the evidence by theme",
+    "paras": [
+     "Group documents under member records, stock and movement records, financial records, staff records and policies. Under member records, include the register, applications and rule acceptance. Under stock, include count sheets, adjustments and supplier paperwork. Under financial, include till reports, terminal settlements and VAT or tax filings handled by your accountant.",
+     "Create an index at the front listing each document, its date range and its location. Reviewers appreciate a clear index, and the exercise exposes gaps you can fix before anyone asks. Keep an electronic and a printed copy of the index, because a power cut or a flat battery should not stop you from showing your records. Update the index whenever a new document type is introduced, and record the date of each update."
+    ]
+   },
+   {
+    "heading": "Who speaks and how",
+    "paras": [
+     "Nominate one primary contact and one deputy. They should know where everything is, understand the policies, and answer only what is asked. Staff should be told that visitors are to be welcomed politely, asked for identification, and directed to the nominated contact.",
+     "Rehearse the visit once a year with a short mock walkthrough. Pick a random day and see how long it takes to produce the member changes, stock movements and cash reconciliation for that day. Timing the exercise shows whether your filing is really working."
+    ]
+   },
+   {
+    "heading": "Fixing gaps without rewriting history",
+    "paras": [
+     "If you find a gap, note it, correct going forward and document the corrective action with a date. Never backdate or alter existing records to hide a lapse. A system that keeps an audit trail, such as Budify, can show when an entry was made and by whom, which protects honest operators.",
+     "Keep a short register of corrective actions: issue, cause, fix, owner, date closed. Review it at committee level each quarter. Add a quick pre-visit check: confirm the compliance file is current, certificates and permits are displayed where required, equipment is working, and staff know who the contact person is. A calm, organised club makes a good impression and finds problems before others do."
+    ]
+   },
+   {
+    "heading": "After the visit",
+    "paras": [
+     "Once the visit ends, write a brief note while memory is fresh: who attended, what was asked, what documents were provided, and any follow-up promised. Diarise every commitment with a date and an owner.",
+     "Share lessons with the committee and update procedures where the visit showed a weakness. Over time, a short record of each review builds a credible compliance history that shows continuous improvement. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-stock-count-variance-routine",
+  "title": "Club Stock Counts and Variance Control in Rands",
+  "description": "How private member clubs in South Africa can run stock counts, investigate variances and value inventory in rand without guesswork.",
+  "minutes": 5,
+  "published": "2026-01-27",
+  "category": "Stock & inventory",
+  "keywords": [
+   "stock count procedure south africa",
+   "inventory variance control",
+   "club stock management software",
+   "stock reconciliation rand",
+   "inventory counts for member clubs",
+   "stock take checklist"
+  ],
+  "sections": [
+   {
+    "heading": "Why counts drift and what it costs",
+    "paras": [
+     "Every club that holds stock sees differences between the system and the shelf. Causes are usually mundane: an item moved without being recorded, a unit of measure confusion, a damaged item not written off, or a data entry slip. Left alone, small gaps compound and make the books unreliable. Many clubs also keep a small list of high-risk or high-value lines that are counted more often than the rest.",
+     "The cost is not just rands. Unexplained variances erode confidence, make cost reporting meaningless and, where your conditions require accurate stock records, can create real exposure. A regular count routine is cheap insurance."
+    ]
+   },
+   {
+    "heading": "Designing the count",
+    "paras": [
+     "Split stock into zones and count in a fixed sequence. Use a blind count: the counter records what they see without knowing the system quantity. A second person recounts any line where the first count differs from the system by more than your tolerance, for example one unit or two percent. Agree the tolerance in writing so that counters and approvers apply it the same way.",
+     "Count at the same time each week for fast-moving lines and monthly for the full list. Freeze movements during the count, or record a cut-off time, so receipts and issues around that moment are not double counted."
+    ]
+   },
+   {
+    "heading": "Investigating a variance",
+    "paras": [
+     "Work backwards through the movement history for that item since the last good count: deliveries, transfers, adjustments, wastage and member transactions. Often the cause surfaces in minutes. Check unit of measure first, then look for a transfer logged against the wrong location. Keep a note of the usual causes you find so that training addresses the real problems.",
+     "If no cause is found, post a documented adjustment with a reason code, the approver's name and the date. Never overwrite quantities directly. Reason codes such as damaged, expired, miscount or unexplained allow you to spot patterns."
+    ]
+   },
+   {
+    "heading": "Valuing and reporting",
+    "paras": [
+     "Value stock at cost in rand using one consistent method agreed with your accountant, such as weighted average. Report opening stock, receipts, issues, adjustments and closing stock each month, and show variance as a percentage of throughput. Present variances in rand and as a percentage so the committee sees scale.",
+     "Set a committee threshold above which variances must be escalated. A system like Budify can capture counts on a tablet and lock approved adjustments, but the review is a human responsibility."
+    ]
+   },
+   {
+    "heading": "Training the team",
+    "paras": [
+     "Counts are only as good as the people doing them. Give new staff a short walkthrough: how to read the count sheet, how to handle units of measure, what to do when something looks wrong and why they should never adjust figures to make a count match. Keep count sheets, adjustment approvals and variance reports together for each period so the whole story is in one place.",
+     "Review results with the team after each full count. Praise accurate counts, discuss patterns and agree one improvement for the next cycle. Over a few months the variance trend should settle. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-batch-lot-traceability-records",
+  "title": "Batch and Lot Records: Traceability for South African Member Clubs",
+  "description": "How to keep batch and lot records for stock held by a private member club: receiving, labelling, movements, expiry and clear paperwork trails.",
+  "minutes": 5,
+  "published": "2026-04-13",
+  "category": "Stock & inventory",
+  "keywords": [
+   "batch traceability records",
+   "lot tracking inventory software",
+   "stock receiving procedure south africa",
+   "inventory audit trail",
+   "club stock labelling records",
+   "supplier delivery records"
+  ],
+  "sections": [
+   {
+    "heading": "What a batch record is for",
+    "paras": [
+     "A batch or lot record ties a quantity of stock to its source and its journey: who delivered it, when it arrived, what documents came with it and where each unit went afterwards. It lets you answer questions quickly, such as which delivery a particular unit came from.",
+     "For a private club, this is a records discipline, not a promotional one. The aim is to prove that what you hold is accounted for, from receipt to final movement, and that nothing appears or disappears without a trace. It also helps when a supplier raises a query about a delivery, because you can show exactly what was received and what has since been issued."
+    ]
+   },
+   {
+    "heading": "Receiving procedure",
+    "paras": [
+     "At receipt, two people check the delivery against the paperwork: description, quantity, condition and any supplier documents your conditions require. Record the supplier, delivery note number, date and time, and assign an internal batch number that appears on every label and system entry.",
+     "Quarantine anything that does not match. A short hold area with a visible tag prevents questionable items from entering normal stock. Record the discrepancy, photograph it where useful, and notify the supplier in writing the same day."
+    ]
+   },
+   {
+    "heading": "Movements and labelling",
+    "paras": [
+     "Every transfer between storage, working area and member-facing areas should create a movement record with the batch number, quantity, from, to, time and user. Labels should be printed from the system, not handwritten, to avoid transposed digits.",
+     "Run a monthly traceability test: pick three batches at random and follow them from receipt to current location or final issue. If the quantities do not reconcile, investigate straight away and note the finding in your exceptions log. Where a unit is split into smaller quantities, give each portion a child reference linked to the original batch so that totals still add up. Record the person who made the split and the date, and reconcile the parts to the whole at the next count."
+    ]
+   },
+   {
+    "heading": "Expiry, disposal and retention",
+    "paras": [
+     "Where items have a shelf life, track expiry dates by batch and review a short-dated list weekly. Disposal should be witnessed, documented and reflected in the system with a reason code.",
+     "Keep batch records for the period advised by your accountant and counsel. A system like Budify can hold batch numbers and movement history in one place, which simplifies the monthly test. Appoint a deputy for the traceability process so records stay complete during leave or illness, and make sure the deputy has been trained on the receiving and labelling steps."
+    ]
+   },
+   {
+    "heading": "Practical tips for small teams",
+    "paras": [
+     "Small teams can keep traceability workable by limiting the number of storage locations and giving each a clear code. Fewer locations mean fewer movements to record and less room for confusion.",
+     "Walk through the process with every new starter, and test it during busy periods too, since shortcuts usually appear under pressure. Keep a laminated one-page guide at the receiving area so the steps are always at hand. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-membership-cards-access",
+  "title": "Membership Cards and Door Access for Private Clubs in South Africa",
+  "description": "Choosing and managing membership cards for a South African private member club: card types, issue records, lost cards and door check routines.",
+  "minutes": 5,
+  "published": "2026-01-12",
+  "category": "Membership & access",
+  "keywords": [
+   "membership cards for clubs south africa",
+   "club access control cards",
+   "member card issue records",
+   "private club door access",
+   "qr code membership card",
+   "membership card management software"
+  ],
+  "sections": [
+   {
+    "heading": "What a membership card should do",
+    "paras": [
+     "A membership card is proof that a person is on your register and in good standing, nothing more. It should carry a member number and a way to verify status at the door, whether a printed number, a QR code or a chip. The card itself should hold as little personal information as possible.",
+     "Verification should always happen against the live register. A card that shows a name and photo but cannot be checked against current status invites problems when memberships are suspended or lapse. Decide early whether the card will also be used for other member services, since extra uses increase what is stored and who needs access."
+    ]
+   },
+   {
+    "heading": "Card types compared",
+    "paras": [
+     "Printed paper cards are cheap but easy to copy. Plastic cards with a printed number and photo are sturdier. QR codes can be shown on a phone or printed, and are checked by scanning against the register. Chip or proximity cards suit clubs with turnstiles or electronic locks.",
+     "Think about your actual conditions: South African venues often have patchy mobile data, so a QR scan that depends on a live connection can fail at the door. Prefer approaches that can verify offline against a recently synced list."
+    ]
+   },
+   {
+    "heading": "Issue, replacement and cancellation",
+    "paras": [
+     "Keep a card issue log: card number, member number, date issued, issuing staff member and date returned or cancelled. A lost card must be cancelled immediately in the register so it cannot be used, and a replacement issued with a new number after identity is confirmed.",
+     "Charge a replacement fee only if your rules provide for it, and record it properly in your income reports. Deactivate cards for resigned and suspended members the same day the status changes."
+    ]
+   },
+   {
+    "heading": "Door routine",
+    "paras": [
+     "Train door staff to check three things: the card is valid, the person matches the photo or other agreed identifier, and the status shows active. Anything else goes to a supervisor, not a negotiation at the door.",
+     "Review the entry log weekly for patterns such as repeated failed scans or the same card used at odd times. A system like Budify can log each check with a timestamp; the club must still decide what action to take. Keep a spare supply of blank cards in a locked cabinet and count them monthly against the issue log, because missing blanks are a simple way for unrecorded cards to enter circulation."
+    ]
+   },
+   {
+    "heading": "Reviewing the card programme",
+    "paras": [
+     "Every six months, compare cards issued against active members, and investigate any card marked active that belongs to a member who has resigned or lapsed. Check that photos still look like the members, and ask for updated photos when they do not. Revisit your choice of card technology every few years, as costs and reliability change.",
+     "Report to the committee on lost cards, failed scans and any attempts to use cancelled cards. If the same issue keeps occurring, adjust the process or the technology rather than relying on staff to compensate. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-member-onboarding-verification",
+  "title": "Member Onboarding: Application and Identity Records for Clubs",
+  "description": "A step-by-step onboarding workflow for South African private member clubs, covering application forms, identity checks, rule acceptance and approval records.",
+  "minutes": 6,
+  "published": "2026-02-16",
+  "category": "Membership & access",
+  "keywords": [
+   "member onboarding process south africa",
+   "club application form",
+   "identity verification records",
+   "membership approval workflow",
+   "private club joining procedure",
+   "club rules acceptance record"
+  ],
+  "sections": [
+   {
+    "heading": "Why onboarding records matter",
+    "paras": [
+     "The first hour of a membership sets the quality of everything that follows. A complete application, a verified identity and a recorded acceptance of the rules mean you can later show exactly how and when a person became a member and what they agreed to. Time each stage for a month to see where applications stall, and focus on the slowest step.",
+     "Skipping steps to speed up a busy evening is the usual cause of messy registers. A short, consistent process takes minutes and avoids hours of clean-up later."
+    ]
+   },
+   {
+    "heading": "The application",
+    "paras": [
+     "Use one standard form, paper or digital. Capture legal name, contact details, date of birth where your rules require it, the membership category requested, and the name of any proposer or sponsor if your constitution calls for one. Include a clear notice explaining what personal information you collect, why, and who can see it. Do not let a member in on a promise that the paperwork will follow.",
+     "Keep the form short. Every extra field is something you must protect and justify. If a field does not feed a decision, a report or a legal requirement, leave it out."
+    ]
+   },
+   {
+    "heading": "Verifying identity",
+    "paras": [
+     "Where your rules or licence conditions require identity verification, define who may do it, what documents are acceptable and what is recorded. A good practice is to record the document type, that it was sighted, the staff member and the date, rather than keeping copies unless a copy is needed. Spot-check ten files each month to ensure documents were sighted and recorded properly.",
+     "If copies are needed, store them in a restricted location and set a retention period. Never leave identity documents in shared folders or message threads."
+    ]
+   },
+   {
+    "heading": "Approval and activation",
+    "paras": [
+     "Route applications to an approver who is not the person who captured them. Record the decision, date and reason for refusals. Only once approved should a member number, card and access be issued. Where your rules allow it, set a standard response time so applicants know what to expect.",
+     "Close the loop by sending a welcome message confirming the category, fees due in rand and how to update details. A system like Budify can hold each stage as a status so nothing is activated early."
+    ]
+   },
+   {
+    "heading": "Common onboarding mistakes",
+    "paras": [
+     "The classic mistakes are allowing access before approval, capturing details on scraps of paper, and forgetting to record rule acceptance. Another is storing identity copies in photo galleries on personal phones, which creates a data protection risk. Review the process annually with the committee, check it against your rules and licence conditions, and update forms and notices when anything changes.",
+     "Reduce errors by making the digital or paper process the only route in. If someone wants to join urgently, the answer is that the process is quick, not that it can be skipped. Keep a log of exceptions and review it monthly. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-renewals-lapsed-memberships",
+  "title": "Membership Renewals and Lapsed Accounts: A Club Admin Routine",
+  "description": "A clear monthly routine for handling membership renewals, grace periods and lapsed accounts in South African member clubs without awkward disputes.",
+  "minutes": 4,
+  "published": "2026-05-18",
+  "category": "Membership & access",
+  "keywords": [
+   "membership renewals club software",
+   "lapsed membership process",
+   "membership fee reminders south africa",
+   "club subscription management",
+   "member status management",
+   "annual membership renewal workflow"
+  ],
+  "sections": [
+   {
+    "heading": "Set the rules before the dates",
+    "paras": [
+     "Renewal problems usually come from unclear rules. Your constitution or fee policy should state when membership expires, whether there is a grace period, what happens to access during it, and how reinstatement works. Put these in plain words in the member handbook and on renewal notices. Use plain language and avoid threats; a courteous tone retains goodwill.",
+     "Agree fee amounts in rand well ahead of the year and have the committee minute the decision. Changing a fee mid-cycle without notice is the quickest route to a dispute. Share the renewal calendar with the treasurer and door team, so everyone knows what is due and what happens next."
+    ]
+   },
+   {
+    "heading": "A monthly renewal calendar",
+    "paras": [
+     "Run a list of memberships expiring in the next 60 days. Send a first notice 30 days before expiry, a second at 7 days, and a final one on the day. Each notice should state the fee, due date, how to pay and who to contact with questions. Publish the schedule on the club notice board and website so nobody can claim surprise.",
+     "Record every notice sent. If a dispute arises, you can show that the member was informed on specific dates through a specific channel. Where members pay by card or bank transfer, include the member number as the payment reference to simplify matching, and keep a short list of payments that could not be matched until they are resolved."
+    ]
+   },
+   {
+    "heading": "Handling lapse and reinstatement",
+    "paras": [
+     "On the day after any grace period ends, change the status to lapsed and deactivate the card. Do not delete the record; keep it according to your retention policy. Lapsed members may have outstanding balances or be eligible for reinstatement, so history matters. Keep reminders short, with one clear action.",
+     "For reinstatement, decide whether the original member number is restored or a new one is issued, and apply the rule consistently. Record the date and who approved."
+    ]
+   },
+   {
+    "heading": "Reporting and reconciliation",
+    "paras": [
+     "Report monthly: members due, renewed, lapsed and reinstated, with fee income compared against bank and terminal reports. Differences point to unrecorded payments or misapplied receipts. Run a quick sample check of lapsed accounts every month.",
+     "Automation helps. A system like Budify can flag expiring memberships and block expired cards, but the policy must be set by your committee. Look at renewal rates year on year. A sudden drop may signal a service problem, a change in fees or a communication gap, and is worth discussing at committee level before it becomes a trend."
+    ]
+   },
+   {
+    "heading": "Dealing with disputes",
+    "paras": [
+     "When a member disputes a lapse, review the notices sent, the payment records and the rules. If the club made an error, correct it promptly, record the reason and thank the member for raising it. Keep the documented process simple enough for a new administrator to follow without help.",
+     "If the club was right, explain calmly with reference to the policy and offer the reinstatement route. Record the conversation so the committee can see how the matter was resolved. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-load-shedding-resilience",
+  "title": "Load-Shedding Resilience for Club Till and Member Systems",
+  "description": "Keep your club's till, member check-in and stock records working through load-shedding: power backup, offline modes and recovery routines for South Africa.",
+  "minutes": 6,
+  "published": "2026-02-02",
+  "category": "Operations",
+  "keywords": [
+   "load shedding pos south africa",
+   "offline pos for clubs",
+   "ups backup for point of service",
+   "power outage business continuity",
+   "load shedding business continuity plan",
+   "offline member check-in"
+  ],
+  "sections": [
+   {
+    "heading": "Plan for the outage, not the schedule",
+    "paras": [
+     "Load-shedding schedules help, but outages also arrive unannounced through faults and cable theft. A club's continuity plan should assume that at some point power and connectivity will both fail during a busy period, and staff must know exactly what to do.",
+     "Write a one-page outage procedure: who decides to switch to fallback mode, what is recorded manually, and how long you will operate before closing safely. Print it and keep it near the main desk. Share the plan with every staff member and include it in induction, so nobody has to guess when the lights go out."
+    ]
+   },
+   {
+    "heading": "Power backup basics",
+    "paras": [
+     "Start with the essentials: the till device, router, card payment terminal, label printer and door equipment. A small UPS keeps these alive through short interruptions, while an inverter and battery covers longer outages. Size the backup by adding up the watts of critical items and adding a safety margin.",
+     "Test it. Switch off the mains monthly and see how long the equipment really runs. Replace aging batteries on a schedule and keep a record of tests with dates."
+    ]
+   },
+   {
+    "heading": "Offline operation and manual fallback",
+    "paras": [
+     "Choose systems that continue to record transactions and member checks locally and sync when connectivity returns. Check what the system can and cannot do offline: for example, can it verify a member card against a cached list, and does it queue stock movements?",
+     "Keep a pre-printed manual log with numbered pages for transaction time, member number, amount and initials. Numbered pages make later capture and review straightforward. Check that tablets and phones used for check-in are charged at the start of each shift, and keep a charged power bank at each station as a second layer of cover."
+    ]
+   },
+   {
+    "heading": "Recovery after power returns",
+    "paras": [
+     "When power returns, do not rush. Confirm that the device synced, compare the offline log with system records, and capture any gaps in the sequence they occurred. Reconcile card terminal batches separately, since terminals may settle on their own schedule.",
+     "Record each incident in an outage log: start, end, impact, actions and follow-ups. Patterns will justify further investment. A system like Budify with offline capability can reduce manual work, but your routine is what protects your records."
+    ]
+   },
+   {
+    "heading": "Training and rehearsal",
+    "paras": [
+     "Run a short outage drill each quarter. Announce to staff that it is a test, cut power to the till area and observe whether they follow the written procedure. Time how long it takes to switch to manual logs and how smoothly the team returns to the system. Keep a copy of the municipal or utility schedule for your area where staff can see it, but treat it as a guide rather than a guarantee.",
+     "Debrief afterwards and update the procedure. Keep spare batteries, torches and charging banks in a labelled box, and check them at the same time. Preparation is cheap compared with a chaotic evening. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-wifi-mobile-data-venues",
+  "title": "Wi-Fi and Mobile Data Realities for South African Club Venues",
+  "description": "Practical network planning for private clubs in South Africa: Wi-Fi layout, LTE failover, data costs and what to do when connectivity drops.",
+  "minutes": 5,
+  "published": "2026-04-27",
+  "category": "Operations",
+  "keywords": [
+   "wifi for club venues south africa",
+   "lte failover router",
+   "mobile data business connectivity",
+   "club network setup",
+   "reliable internet for pos",
+   "fibre and lte backup"
+  ],
+  "sections": [
+   {
+    "heading": "Know your actual connectivity",
+    "paras": [
+     "Before buying hardware, measure what you have. Test download, upload and latency at the till, at the door and in storage areas at busy and quiet times. Many venues find that the signal is strong at the router and weak where staff actually work.",
+     "Record results on a simple floor plan. This is the baseline against which every improvement is judged. Repeat the test after any renovation, since new walls, shelving or equipment can change coverage in ways nobody expects."
+    ]
+   },
+   {
+    "heading": "Layout and equipment",
+    "paras": [
+     "Place access points centrally and, if the venue is large or has thick walls, add a second one connected by cable rather than relying on repeaters. Separate networks for staff devices, payment terminals and guest use keep sensitive traffic away from casual users.",
+     "Use sensible passwords, change them when staff leave, and keep router firmware updated. Label cables and keep a simple diagram so anyone can troubleshoot. Avoid placing routers on the floor or inside cabinets, because signal suffers. Mount them high and clear of metal, and give each access point a label that matches your diagram so faults can be traced quickly."
+    ]
+   },
+   {
+    "heading": "Failover and data costs",
+    "paras": [
+     "If fibre or fixed wireless fails, an LTE router with a data SIM can take over automatically. Choose a data plan for business use and monitor consumption, since background updates can use more than expected.",
+     "Prioritise essential traffic: transaction sync, card terminals and member verification. Block streaming and large downloads on the business network during opening hours."
+    ]
+   },
+   {
+    "heading": "Designing for drops",
+    "paras": [
+     "Even good networks drop. Make sure the till and check-in systems can operate offline and sync later, and that card terminals can use their own mobile connection if needed. Do not make the whole shift depend on a single link.",
+     "Test failover quarterly by unplugging the main line and recording what happens. A system like Budify designed for intermittent connections will queue records, but you should still confirm behaviour in your own venue. Keep screenshots or notes of the settings on each device, so replacement hardware can be configured in minutes rather than hours."
+    ]
+   },
+   {
+    "heading": "Security and housekeeping",
+    "paras": [
+     "Keep a short register of network equipment: model, location, firmware date and admin contact. Change default passwords, disable features you do not use and restrict who can change router settings. Finally, agree a monthly cost review of fibre, mobile data and hardware leases in rand, comparing what you pay with what you actually use, and note any outages with dates so you can raise them with providers on a factual basis.",
+     "Review who is connected each month and remove devices you do not recognise. Document your network diagram, SIM details and provider support numbers in one place so that anyone on duty can restore service quickly. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-shift-handover-till-reconciliation",
+  "title": "Shift Handover and Till Reconciliation for Member Clubs",
+  "description": "A clean shift handover and till reconciliation routine for South African member clubs: counts, variances, sign-offs and records that stand up to review.",
+  "minutes": 5,
+  "published": "2026-06-08",
+  "category": "Operations",
+  "keywords": [
+   "shift handover checklist",
+   "till reconciliation procedure",
+   "cash up routine south africa",
+   "club operations checklist",
+   "staff shift reports",
+   "end of day reconciliation"
+  ],
+  "sections": [
+   {
+    "heading": "Why handover is where errors hide",
+    "paras": [
+     "Most cash and stock discrepancies surface at shift change, because that is when responsibility passes from one person to another. A structured handover creates a clear moment where figures are agreed and accountability is fixed. Rotate the person counting with the person verifying so that no one is always alone with the cash.",
+     "Without it, nobody can say whose shift a problem belongs to, and honest staff carry the blame for others' errors. A recorded handover also helps when staff are absent, because the next person can see exactly where things stood."
+    ]
+   },
+   {
+    "heading": "The handover checklist",
+    "paras": [
+     "Outgoing and incoming staff count the float together, compare it with the system opening balance and sign a handover sheet. Review open items: pending member requests, equipment faults, low stock notes and any incidents. Print the checklist on one page and keep a signed copy with each day's records.",
+     "Keep the checklist short enough to be used every time. Ten lines done properly beat thirty lines skipped. If a handover is missed because the venue is busy, note it in the exceptions log and complete it as soon as the rush passes, rather than leaving the gap unrecorded."
+    ]
+   },
+   {
+    "heading": "Closing the till",
+    "paras": [
+     "At close, run the system's end-of-shift report before counting, to avoid bias. Count cash by denomination, compare with the expected figure, and record any variance in rand with a reason. Run the card terminal settlement and match it to the system card total. Agree a standard way to describe variances so reports are consistent.",
+     "Set a variance tolerance and escalate anything beyond it to a manager. Repeated small shortages on one till or shift also deserve attention."
+    ]
+   },
+   {
+    "heading": "Banking and records",
+    "paras": [
+     "Bank cash according to a fixed schedule with a deposit slip numbered and filed. A second person should verify the bagged amount. The daily summary, variance note and deposit reference should be stored together. Keep deposit bags tamper-evident and logged.",
+     "Review weekly: totals, variances by staff and by shift, and unresolved items. A system like Budify can lock closed shifts and produce the reports, but the sign-off remains a human step. Where the club is small, the treasurer or a committee member can act as the second person on a rota, which keeps the control in place without hiring extra staff."
+    ]
+   },
+   {
+    "heading": "Using the data",
+    "paras": [
+     "Once handover records accumulate, patterns emerge. A variance that always falls on one shift may point to a procedural problem rather than a person, such as a crowded door period or a confusing price entry. Review the checklist twice a year with the team, remove steps that add no value and add any that incidents have shown to be necessary.",
+     "Present monthly figures to the committee and agree improvements. Keep it constructive: the goal is clean records and fair treatment of staff, not blame. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-vat-membership-fees-clubs",
+  "title": "VAT and Membership Fees: Questions Club Treasurers Should Ask",
+  "description": "A treasurer's guide to VAT and membership fee questions for South African private clubs: registration, invoicing, records and what to confirm with advisers.",
+  "minutes": 6,
+  "published": "2026-02-23",
+  "category": "Finance & reporting",
+  "keywords": [
+   "vat for clubs south africa",
+   "membership fees vat treatment",
+   "club treasurer checklist",
+   "sars records for clubs",
+   "vat invoice requirements",
+   "club finance reporting rand"
+  ],
+  "sections": [
+   {
+    "heading": "Start with your status",
+    "paras": [
+     "Whether a club is registered for VAT, and how its fees are treated, depends on its structure, its income and its activities. A private member club may be an association, a company or another entity, and the answer differs. Do not copy another club's treatment without checking.",
+     "Ask your accountant to document in writing: whether you must or may register, which income streams are included, and what evidence SARS expects. Keep that note in your finance file and revisit it when income or activities change. Remember that thresholds and rules change from time to time, so check the current position with your adviser each year rather than relying on memory."
+    ]
+   },
+   {
+    "heading": "Separating income streams",
+    "paras": [
+     "Record each income stream under its own code: joining fees, annual subscriptions, replacement cards, event income, and any other charges. Accurate coding is what lets your accountant apply the right treatment, rather than guessing from a lump sum.",
+     "Make sure every receipt in rand shows what it was for. Vague descriptions cause trouble later, especially if treatment differs between streams. Where fees are paid in instalments, record the full commitment and each instalment separately so income and receivables can be tracked accurately."
+    ]
+   },
+   {
+    "heading": "Invoices, receipts and credit notes",
+    "paras": [
+     "If VAT applies, tax invoices must contain the elements required in the rules, which your accountant can confirm. Number documents sequentially, never delete, and issue credit notes for corrections.",
+     "For members who pay by card, make sure the terminal slip, the system receipt and the bank settlement can be matched. Keep proofs of payment for refunds and note the reason in the record."
+    ]
+   },
+   {
+    "heading": "Reporting to your accountant",
+    "paras": [
+     "Provide a monthly pack: income by stream, receipts and credit notes, terminal settlements, bank statements and a reconciliation. Include a list of unusual items with explanations.",
+     "Review whether your system produces exports in a format the accountant can use. A system like Budify can export income reports by category, but VAT decisions remain with your adviser. Share a calendar of filing and payment dates with the committee, so nobody is surprised by a deadline, and record who is responsible for each one."
+    ]
+   },
+   {
+    "heading": "Keeping the paper trail tidy",
+    "paras": [
+     "Create a finance folder for each tax period with invoices issued, credit notes, supplier invoices, bank statements and your accountant's working papers. Use consistent filenames that include the date and document number. Treat any change in fee structure, new service or new income stream as a trigger to ask your adviser whether the tax position changes, and record the answer. Reviewing this each year is far cheaper than correcting several periods later.",
+     "If you receive a query from the tax authority, respond through your adviser and supply records promptly. Having a monthly routine means you are never searching for documents in a hurry. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-card-terminal-reconciliation",
+  "title": "Card Payment Terminal Reconciliation for South African Clubs",
+  "description": "How to reconcile card payment terminal settlements with your till system and bank statements, including fees, chargebacks and offline queue issues.",
+  "minutes": 5,
+  "published": "2026-05-04",
+  "category": "Finance & reporting",
+  "keywords": [
+   "card payment terminal reconciliation",
+   "card settlement matching south africa",
+   "merchant fees club accounting",
+   "bank reconciliation for clubs",
+   "chargeback handling",
+   "payment terminal reports"
+  ],
+  "sections": [
+   {
+    "heading": "Three records, one truth",
+    "paras": [
+     "Every card payment leaves three traces: the system receipt, the terminal batch and the bank settlement. Reconciliation is proving that all three agree, after allowing for fees and timing. If you can do this daily or weekly, month end becomes simple.",
+     "Start by agreeing who owns the task, ideally someone who does not operate the tills. A simple spreadsheet or the reports from your club system is enough to start with, provided the same steps are followed every time."
+    ]
+   },
+   {
+    "heading": "Daily matching",
+    "paras": [
+     "After closing, print or download the terminal batch report and compare the total with the system card total for the same period. Any difference gets investigated that day: a manual entry, a voided sale on one side only, or a batch not closed.",
+     "Close terminal batches at a set time each day so settlements arrive predictably and match a defined period. Keep paper slips and terminal reports together with the day's records and file them by date, since they are the first thing an accountant or provider will ask for."
+    ]
+   },
+   {
+    "heading": "Fees, timing and chargebacks",
+    "paras": [
+     "Settlements arrive net of fees on a delay that depends on your provider. Record the gross takings, the fee in rand and the net deposit separately so costs are visible. Create a timing schedule so you know which deposits to expect on which days.",
+     "Disputed payments should be logged with date, member, amount, reason and outcome. Keep supporting records such as receipts and entry logs for the period your provider and accountant advise. Review your terminal contract once a year, checking fee structure, settlement times and the cost of any rental, and diarise the notice period so you are not locked in by default."
+    ]
+   },
+   {
+    "heading": "Connectivity and offline queues",
+    "paras": [
+     "Terminals may store transactions when connectivity drops and send them later, so a transaction might appear in a later batch. Note this in your reconciliation rather than treating it as an error.",
+     "Review fee statements annually and compare providers if costs are high. A system like Budify can hold card totals per shift to speed matching."
+    ]
+   },
+   {
+    "heading": "Making it routine",
+    "paras": [
+     "Put the reconciliation on the weekly calendar with a named owner and a backup. Use a simple template with columns for date, system total, terminal total, difference, explanation and sign-off. Where several terminals are used, label each one and reconcile them separately, so that a problem can be traced to a particular device, location or shift without searching through combined totals.",
+     "Escalate differences that remain open after seven days. Over a quarter, track the average time to clear differences. A shrinking number signals that the process works, while a growing one shows where staff need support or the setup needs changing. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-month-end-exports-accountant",
+  "title": "Month-End Exports Your Accountant Will Actually Use",
+  "description": "What to include in a monthly pack for your accountant: income, stock, member and cash reports for a South African private club, with naming and checks.",
+  "minutes": 4,
+  "published": "2026-07-06",
+  "category": "Finance & reporting",
+  "keywords": [
+   "month end reporting for clubs",
+   "accountant reports south africa",
+   "club bookkeeping exports",
+   "stock valuation report",
+   "income report by category",
+   "financial reporting software for clubs"
+  ],
+  "sections": [
+   {
+    "heading": "Agree the pack once",
+    "paras": [
+     "Sit down with your accountant and agree a standard monthly pack: what reports, in what format, by what date. Once agreed, it becomes a routine rather than a monthly negotiation. Agree a deadline that suits both sides, such as the fifth working day.",
+     "Confirm file types, since most accountants prefer spreadsheets or CSV files that can be imported rather than screenshots or PDFs of screens. A shared folder with restricted access works well, provided permissions are reviewed regularly and former staff are removed."
+    ]
+   },
+   {
+    "heading": "The core reports",
+    "paras": [
+     "A typical pack includes an income report by category in rand, a card settlement reconciliation, a cash and banking summary, a stock movement and valuation report, and a member summary showing joins, resignations and fees due. Add a list of adjustments and write-offs with reasons. Include member numbers only where the accountant genuinely needs them.",
+     "Keep category names consistent from month to month so comparisons are meaningful. Where the system allows it, include a stock movement summary by reason code, because adjustments and write-offs are what accountants most often query."
+    ]
+   },
+   {
+    "heading": "Checks before sending",
+    "paras": [
+     "Verify that totals tie: system income to bank deposits, stock movements to valuation, and member fees to income. Check that the period is closed and that no later edits changed figures. Keep one master list of report definitions so the pack never changes by accident.",
+     "Add a one-page cover note listing unusual items and open questions. It saves the accountant time and shows that the club has reviewed its own numbers. If you find an error after sending, send a corrected file with a clear note on what changed and why, rather than silently replacing the earlier one."
+    ]
+   },
+   {
+    "heading": "Filing and retention",
+    "paras": [
+     "Save the pack in a dated folder, mark it read-only and record who prepared and approved it. Use the same folder structure for every month. Record who approved the pack.",
+     "A system like Budify can generate these exports, but confirm they match your accountant's expectations. Retention periods for financial records should be confirmed with your accountant."
+    ]
+   },
+   {
+    "heading": "Improving the pack over time",
+    "paras": [
+     "After a few months, ask your accountant what questions they still raise. Each recurring question is a candidate for a new column, a clearer label or an extra note in the cover page. Keep a short log of each month's delivery date against the agreed deadline. A club that consistently delivers on time tends to receive faster, cheaper and more useful advice in return.",
+     "Review the pack once a year with the committee and drop anything nobody uses. A lean pack that is always on time is worth more than a long one that arrives late. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-popia-member-data-basics",
+  "title": "POPIA Basics for Private Member Club Administrators",
+  "description": "General POPIA-aware practice for private clubs in South Africa: collecting member information, purpose, security, access requests and breach readiness.",
+  "minutes": 6,
+  "published": "2026-03-16",
+  "category": "Data protection",
+  "keywords": [
+   "popia compliance for clubs",
+   "member data protection south africa",
+   "information officer duties",
+   "personal information security club",
+   "data subject access requests",
+   "popia record keeping"
+  ],
+  "sections": [
+   {
+    "heading": "Why clubs hold sensitive data",
+    "paras": [
+     "A member register holds names, contact details and often identity details. In South Africa, POPIA governs how organisations handle personal information, and clubs are no exception. The Information Regulator is the authority that oversees the regime.",
+     "This article offers general operating habits, not a legal opinion. Your club should obtain advice on its specific obligations, including whether an information officer must be registered. The aim is not to frighten committees but to build modest, repeatable habits that protect people and reduce risk."
+    ]
+   },
+   {
+    "heading": "Collect less, explain more",
+    "paras": [
+     "Review every field on your application form and ask whether it is needed. Remove anything that is merely nice to have. Explain in plain words why each category of information is collected, who sees it and how long you keep it.",
+     "Keep a short processing register: what you hold, where it sits, who has access, which suppliers handle it and when it is deleted."
+    ]
+   },
+   {
+    "heading": "Security in everyday terms",
+    "paras": [
+     "Protect the register with unique logins, role-based access, strong passwords and, where possible, two-step verification. Do not share accounts. Back up data and test restores. Lock paper files away.",
+     "Be careful with suppliers: any software provider, accountant or messaging platform that handles member data should be covered by a written agreement describing how it protects that data."
+    ]
+   },
+   {
+    "heading": "Requests and incidents",
+    "paras": [
+     "Prepare a simple process for members who ask what you hold about them or want corrections made. Log the request, verify identity, respond within a stated time and record what was done.",
+     "Prepare for incidents too. A one-page plan should say who investigates, who is notified and how decisions are recorded. A system like Budify can restrict access and keep an audit trail, but policy is yours to set. Remember that members may also complain to the Information Regulator, so a documented, courteous response process is in the club's own interest."
+    ]
+   },
+   {
+    "heading": "Building a habit of review",
+    "paras": [
+     "Put a data protection item on the committee agenda each quarter. Review the processing register, any requests received, supplier changes and any incidents or near misses. Keep the written material short and practical: a one-page privacy notice for applicants, a one-page staff guide, and a one-page incident checklist are usually more effective than a long policy that nobody reads. Review all three annually and record the date.",
+     "Train staff at induction and annually afterwards, using real examples from the club, such as screenshots sent to the wrong chat or a laptop left unlocked. Practical reminders change habits better than long policies. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-access-control-retention-schedule",
+  "title": "Staff Access Levels and Retention Schedules for Club Data",
+  "description": "Define who can see what in your club systems, and set a sensible retention schedule for member, stock and financial records in South Africa.",
+  "minutes": 5,
+  "published": "2026-06-22",
+  "category": "Data protection",
+  "keywords": [
+   "role based access control for clubs",
+   "data retention schedule south africa",
+   "staff permissions member data",
+   "club data security",
+   "audit trail user activity",
+   "records disposal policy"
+  ],
+  "sections": [
+   {
+    "heading": "Least privilege in practice",
+    "paras": [
+     "Give each person the minimum access needed to do their job. Door staff need to see status and a name; administrators need contact details; only a small group should be able to export the full register or change fees. Include contractors and temporary staff in the matrix.",
+     "Write a one-page access matrix listing roles and permissions, and have the committee approve it. Review it every quarter. Where possible, pair access reviews with the committee calendar so they are not forgotten."
+    ]
+   },
+   {
+    "heading": "Joiners, movers and leavers",
+    "paras": [
+     "When someone joins, create their own login and train them. When they change role, adjust permissions immediately. When they leave, disable access the same day, including shared mailboxes, messaging groups and cloud storage. Make sure the person who approves access is not the person who receives it.",
+     "Keep a log of changes with dates and approvers. It is evidence that access is actually managed."
+    ]
+   },
+   {
+    "heading": "Building a retention schedule",
+    "paras": [
+     "List each record type: applications, member register, card logs, entry logs, stock records, financial records and CCTV where used. For each, record purpose, owner, retention period and disposal method. Retention periods should be confirmed with your accountant and counsel, as they vary. Keep the list of systems comprehensive, including email and messaging.",
+     "Where in doubt, keep less personal information for less time, but never delete records you are required to hold. Take particular care with backups, since copies of old data may sit in places that the retention schedule does not cover. Record where backups are held, how long they are kept and how they are destroyed."
+    ]
+   },
+   {
+    "heading": "Disposal and review",
+    "paras": [
+     "Run disposal annually. Generate a list of records past their retention date, have it approved, delete or shred securely and record the date and method. Document any exceptions and who approved them.",
+     "Use audit trails to review who accessed what. A system like Budify logs user actions, which helps spot unusual activity."
+    ]
+   },
+   {
+    "heading": "Making it stick",
+    "paras": [
+     "Policies only work if staff know them. Summarise the access matrix and the retention schedule on a single sheet and discuss it at induction. Ask staff to confirm in writing that they understand their responsibilities. Consider keeping a simple one-page log of every export of the full member list, noting who requested it, why and where the file was stored, then deleting the file once it has served its purpose.",
+     "Audit lightly each quarter: sample five accounts and confirm they match the matrix, then sample five old records and confirm they are within their retention period. Report results to the committee. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-offline-first-club-systems",
+  "title": "Offline-First Software: What It Means for Club Operations",
+  "description": "Understand offline-first design for club and POS software in South Africa: local storage, sync conflicts, data integrity and how to test before you commit.",
+  "minutes": 6,
+  "published": "2026-03-30",
+  "category": "Technology",
+  "keywords": [
+   "offline first software",
+   "offline pos south africa",
+   "sync conflicts inventory",
+   "club software requirements",
+   "local data storage resilience",
+   "pos data integrity"
+  ],
+  "sections": [
+   {
+    "heading": "Offline-first is not the same as offline-capable",
+    "paras": [
+     "Some systems stop working when connectivity drops and offer a limited emergency mode. Offline-first systems are designed so that the device does its work locally and synchronises in the background. For venues facing load-shedding and patchy data, the difference is substantial. Ask for references from venues in similar conditions.",
+     "Ask vendors to demonstrate, not just describe. Switch off the router during a demo and see which functions survive. Remember to include card payment terminals in the test, since they depend on their own connection and may behave differently from the main system."
+    ]
+   },
+   {
+    "heading": "What must work offline",
+    "paras": [
+     "List your essential tasks: checking member status, recording a transaction, adjusting stock, closing a shift. For each, confirm whether it works offline, how it is recorded and when it syncs. Also check what does not work offline, such as new member approval or card terminal authorisation. Document which functions are unavailable offline and brief staff accordingly.",
+     "Make sure the device holds a recent copy of the member list and that cancelled memberships are included once synced. Make a one-page staff guide that shows, in plain language, what to do when the device shows an offline indicator and what to do when it reconnects."
+    ]
+   },
+   {
+    "heading": "Sync, conflicts and integrity",
+    "paras": [
+     "When two devices change the same record offline, the system needs a rule. Ask how conflicts are resolved and whether the result is logged. For stock, additive movements are safer than overwriting quantities. Request a description of how data is encrypted on the device.",
+     "Verify that timestamps stay accurate when the device clock drifts, and that duplicates are not created when a sync is interrupted."
+    ]
+   },
+   {
+    "heading": "Testing in your venue",
+    "paras": [
+     "Run a trial: disconnect for an hour during a quiet period, process typical activity, reconnect and reconcile. Compare totals, stock and member records with a manual log. Keep the trial notes as part of your records.",
+     "Document the result and train staff on the findings. A system like Budify with local-first storage should pass this test, but run it yourself."
+    ]
+   },
+   {
+    "heading": "Questions to ask a vendor",
+    "paras": [
+     "Ask where data is stored, how often it syncs, how it is backed up and how you can export everything if you leave. Ask what happens if a device is lost, and whether it can be locked or wiped remotely. Keep a record of your trial, the vendor's answers and the decision taken. If you later change systems or add venues, that record shortens the next evaluation and protects the committee if questions arise.",
+     "Request a written description of support arrangements and incident response, and find out whether the vendor has experience with operators who face regular power cuts. Compare answers between suppliers in a simple table. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-choosing-club-software-checklist",
+  "title": "Choosing Club Management Software: A South African Checklist",
+  "description": "A practical checklist for evaluating member club management and POS software in South Africa: records, offline use, support, data protection and costs in rand.",
+  "minutes": 6,
+  "published": "2026-05-25",
+  "category": "Technology",
+  "keywords": [
+   "club management software south africa",
+   "membership software checklist",
+   "pos software evaluation",
+   "software vendor due diligence",
+   "club software selection",
+   "membership and stock software"
+  ],
+  "sections": [
+   {
+    "heading": "Define the job first",
+    "paras": [
+     "List what the system must do: member register, cards and access, stock, till, reports and exports. Rank by importance. Many projects fail because the buyer was swayed by features that the club never needed. Give each requirement a weight so you can compare suppliers fairly.",
+     "Involve the people who will use it daily, from door staff to the treasurer, and capture their pain points. Keep the list short; a dozen clear requirements are easier to evaluate than fifty vague ones."
+    ]
+   },
+   {
+    "heading": "Records and controls",
+    "paras": [
+     "Check for audit trails, role-based permissions, locked periods and reason-coded adjustments. Ask how history is kept and whether records can be altered without a trace. Write down your current process so you can see what changes.",
+     "Test the exports: can your accountant use them? Are batch and stock records exportable in full? Pay attention to how corrections are handled. Good systems post a reversing entry with a reason rather than overwriting the original, which keeps the history intact."
+    ]
+   },
+   {
+    "heading": "Resilience and support",
+    "paras": [
+     "Test offline behaviour, card terminal integration and hardware requirements. Ask about local support hours, response times and whether support understands South African conditions such as load-shedding. Ask for a sandbox account and test real scenarios, not demo data.",
+     "Check data hosting, backups and what happens to your data if you leave. Request a written exit process."
+    ]
+   },
+   {
+    "heading": "Cost and contract",
+    "paras": [
+     "Compare total cost over three years in rand, including subscriptions, hardware, training and support. Watch for per-device or per-member charges that rise as you grow. Check that reports can be filtered by date, site and user.",
+     "Run a pilot before signing and have your counsel review the contract, including data processing terms. A system like Budify can be evaluated against this list like any other. Ask for written confirmation of any promises made during demonstrations, and keep it with your decision record."
+    ]
+   },
+   {
+    "heading": "Rolling out",
+    "paras": [
+     "Plan the switch carefully: clean your member and stock data first, choose a start date away from peak periods and run old and new systems in parallel for a short time. Train staff in small groups with real tasks. Score each supplier against your weighted list, record the totals and the reasons, and have two people score independently before comparing. This reduces bias and leaves a clear record of why the final choice was made.",
+     "After go-live, review weekly for the first month: errors, support tickets, staff feedback and reconciliation results. Keep a record of decisions so the next review is easier, and agree a date to assess whether the system meets the goals you set. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-club-governance-communications",
+  "title": "Committee Governance and Member Communications for Private Clubs",
+  "description": "Good governance habits for South African private member clubs: committee reporting, minutes, member notices and consent-aware communication.",
+  "minutes": 5,
+  "published": "2026-04-06",
+  "category": "Growth",
+  "keywords": [
+   "club governance south africa",
+   "committee reporting pack",
+   "member communication policy",
+   "private club constitution",
+   "club minutes and resolutions",
+   "member engagement for clubs"
+  ],
+  "sections": [
+   {
+    "heading": "Governance gives the club stability",
+    "paras": [
+     "Clubs grow healthier when decisions are visible and recorded. A clear constitution, regular committee meetings with minutes and a defined approval path for fees and rules prevent disputes. Keep copies of signed minutes in a safe place.",
+     "Review the constitution every year and update it formally, with members notified and the revision date recorded. Appoint a secretary who owns the calendar, the agenda and the minutes, and give them a deputy."
+    ]
+   },
+   {
+    "heading": "A monthly committee pack",
+    "paras": [
+     "Use a standard pack: membership numbers by category, joins and exits, income and costs in rand, stock variances, incidents and compliance actions. Keep it to two pages so people read it. Define who may speak for the club to outside parties.",
+     "Record decisions as numbered resolutions with date, proposer and outcome. Store them in one place. Include a short section on risks and incidents so that problems are discussed before they grow, and record actions with owners and dates."
+    ]
+   },
+   {
+    "heading": "Communicating with members",
+    "paras": [
+     "Decide channels and purposes: service notices, renewals, rule changes and event details. Keep tone factual and respectful. Offer a way to update contact preferences and to opt out of non-essential messages. Agree a conflict of interest process and record declarations.",
+     "Avoid group chats that expose members' phone numbers to one another; use broadcast lists or system messages. Keep an archive of notices sent, so you can show what members were told and when."
+    ]
+   },
+   {
+    "heading": "Growth that stays orderly",
+    "paras": [
+     "If you add a second venue or expand membership, scale the controls first: roles, approval processes and reporting. Growth without records discipline multiplies problems. Circulate the pack at least two days before the meeting.",
+     "A system like Budify can support multiple sites with shared reporting, but governance is a human task."
+    ]
+   },
+   {
+    "heading": "Record keeping for governance",
+    "paras": [
+     "Maintain a governance file with the constitution, policies, minutes, resolutions, committee appointments and annual reports. Date every version and archive superseded ones rather than deleting them. Remember that good governance is a habit rather than a project. A club that meets regularly, records decisions, reports openly and reviews its own practice tends to handle growth, disputes and inspections with far less stress.",
+     "Record declarations of interest and how each was handled. This protects the club and individuals and shows a fair process. Review the file annually with the secretary and update the index. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "za-multi-venue-club-reporting",
+  "title": "Multi-Venue Club Reporting: Consistent Records Across Sites",
+  "description": "How associations running more than one venue in South Africa can keep member, stock and cash reporting consistent, comparable and easy for committees to review.",
+  "minutes": 5,
+  "published": "2026-08-17",
+  "category": "Growth",
+  "keywords": [
+   "multi venue club management",
+   "multi site reporting south africa",
+   "consolidated club reports",
+   "inventory transfers between sites",
+   "club expansion controls",
+   "group reporting for member clubs"
+  ],
+  "sections": [
+   {
+    "heading": "Standardise before you scale",
+    "paras": [
+     "If each venue keeps records differently, consolidated reports will be unreliable. Define common member categories, stock item names, reason codes and shift procedures, then apply them everywhere. Pilot the standard manual at one site first.",
+     "Publish a short operations manual and a single reporting calendar, so each site closes its month on the same day. Where a venue has special local conditions, add a clearly marked annex to the manual rather than creating a separate version."
+    ]
+   },
+   {
+    "heading": "Transfers between sites",
+    "paras": [
+     "Stock moving between venues should be a two-step record: dispatched by one site and received by the other, with quantities confirmed on both sides. Items in transit are tracked until receipt, and differences are investigated promptly. Use a shared calendar for month-end dates.",
+     "Never adjust quantities silently to make a transfer balance. Use documented adjustments with approvals. Reconcile transfers weekly rather than monthly, so differences are investigated while the details are fresh."
+    ]
+   },
+   {
+    "heading": "Consolidated and site-level views",
+    "paras": [
+     "Committees need both: a consolidated summary of members, income in rand, variances and incidents, and a per-site breakdown for drill-down. Compare sites on the same measures such as variance percentage and card reconciliation timing. Name a single owner for the master list of reason codes.",
+     "Look for outliers rather than blaming individuals; process gaps are usually the root cause. Use the same date cut-off for all sites, and note any site that closes late, so the consolidated figures can be trusted."
+    ]
+   },
+   {
+    "heading": "Controls and local conditions",
+    "paras": [
+     "Assign a responsible manager per site, with permissions limited to that site's data. Group administrators should have wider access, tightly controlled. Review the manual annually.",
+     "Each site may have different local requirements, so confirm them site by site. A system like Budify can hold multiple locations under one account, but conditions are set by your authority."
+    ]
+   },
+   {
+    "heading": "Review and improvement",
+    "paras": [
+     "Hold a monthly call between site managers to compare results, discuss incidents and share fixes. Rotate the chair so that every site contributes. Be wary of letting each site customise reports for its own convenience. A short change-control process, where any new report or reason code is proposed, approved and then rolled out to all sites, keeps comparisons honest and saves repeated rework.",
+     "Once a year, visit each site with a checklist and compare practice against the manual. Record findings, agree actions and follow up. Consistency is built through repeated, friendly checking. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ }
+]

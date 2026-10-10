@@ -1,0 +1,1062 @@
+[
+ {
+  "slug": "nl-daily-compliance-records-licensed-retail",
+  "title": "Daily Compliance Records for Dutch Licensed Retail Operators",
+  "description": "A practical routine for Dutch licensed retail operators to keep daily compliance records consistent, timestamped and ready for review by the relevant authority.",
+  "minutes": 5,
+  "published": "2026-01-05",
+  "category": "Records & compliance",
+  "keywords": [
+   "compliance records netherlands",
+   "licensed retail operator software",
+   "daily record keeping checklist",
+   "pos compliance nederland",
+   "audit trail retail software",
+   "operator compliance routine"
+  ],
+  "sections": [
+   {
+    "heading": "Why daily records beat periodic catch-up",
+    "paras": [
+     "Operators in the Netherlands run under conditions set by the local authority and, where relevant, national rules. Whatever the exact wording of your licence conditions, inspectors tend to ask the same practical question: can you show what happened on a given day? Records written at the time are far more credible than records reconstructed weeks later from memory, till slips and chat messages. Treat the first month as a pilot: note which fields staff leave blank, which they misuse, and simplify the forms accordingly.",
+     "A daily routine also spreads the workload. Ten minutes at closing is easier than a full weekend before a scheduled visit. The goal is not more paperwork but a small set of records that are always complete, always dated and always attributable to a named staff member."
+    ]
+   },
+   {
+    "heading": "The core daily record set",
+    "paras": [
+     "Most licensed retail operators benefit from five daily records: a shift log naming who worked and in what role, a transaction summary reconciled to the till, a stock movement summary, an incident log for anything out of the ordinary, and a note of any access or entry exceptions. Each should carry a date, a time and the initials or login of the person who completed it. Add a weekly manager review of the shift logs so patterns such as repeated late closes or short-staffed shifts are noticed.",
+     "Keep the incident log deliberately low-threshold. A refused entry, a damaged item, a till difference or a delivery discrepancy all belong there, even if nothing came of it. A log that only contains serious events looks curated; a log that contains small events looks honest."
+    ]
+   },
+   {
+    "heading": "Making records attributable and tamper-evident",
+    "paras": [
+     "Paper binders can work, but they are easy to alter and hard to search. Whichever format you use, avoid overwriting: corrections should be new entries that reference the original, with a reason. Digital systems should store who changed what and when, and should not allow silent deletion of historic entries. If you run several tills, make sure each till produces its own summary so differences can be traced to a station and a person.",
+     "A system like Budify can keep this audit trail automatically, recording the user, the timestamp and the previous value for each change. Whatever tool you choose, test it by asking a colleague to find a specific entry from three weeks ago and see how long it takes."
+    ]
+   },
+   {
+    "heading": "A ten-minute closing routine",
+    "paras": [
+     "Build the routine into the closing checklist so it does not depend on one conscientious person. Step one: close the shift and confirm the till reconciliation. Step two: review the stock movement summary for anything unexpected. Step three: read the incident log aloud and sign it off. Step four: confirm the day's records are saved and backed up. Store scans of any handwritten sheets the same day, named by date, so paper and digital records stay together.",
+     "Review the routine monthly. If staff skip a step, ask why before reminding them; usually the step is unclear, or the tool makes it slow. Fix the process first, and enforce it second."
+    ]
+   },
+   {
+    "heading": "Retention and what to confirm locally",
+    "paras": [
+     "Decide in writing how long each record type is kept, who may access it and how it is disposed of. Financial records usually carry longer retention expectations than operational notes, and personal data is subject to the AVG (the Dutch name for GDPR), so keep only what you need.",
+     "Requirements differ by municipality and by licence conditions, so treat this article as a framework for your own routine rather than a statement of what applies to you. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-audit-ready-records-municipal-inspection",
+  "title": "Audit-Ready Records: Preparing for an Inspection as a Dutch Operator",
+  "description": "How licensed retail operators in the Netherlands can organise records, roles and evidence so an unannounced or scheduled inspection runs calmly and quickly.",
+  "minutes": 6,
+  "published": "2026-01-22",
+  "category": "Records & compliance",
+  "keywords": [
+   "inspection preparation netherlands",
+   "audit ready records",
+   "operator inspection checklist",
+   "compliance documentation retail",
+   "licensed operator audit trail",
+   "inspection readiness software"
+  ],
+  "sections": [
+   {
+    "heading": "Think like the inspector",
+    "paras": [
+     "An inspection is a request for evidence that you operate within your licence conditions. Inspectors rarely want everything; they want specific items quickly and a sense that your systems are controlled. Ask yourself what you would want to see if you were checking a business like yours: licence documents, staff lists, stock records, incident logs and financial records. Include a short organisation chart showing who holds which responsibility, since inspectors often want to know who is accountable for what.",
+     "Write the list down and keep it in one place, physical or digital, that any manager can reach. The most common inspection stress comes from a single person knowing where everything is and being unavailable on the day."
+    ]
+   },
+   {
+    "heading": "The evidence binder, digital or physical",
+    "paras": [
+     "Create a standing index with sections: business registration details (your KvK extract and legal entity information), licence and conditions, staff roster and training records, written policies, stock and reconciliation records, incident log, and financial summaries. Add a one-page contents sheet with a named owner for each section. Keep the most recent three months of daily records in an easy-to-reach folder, with older months archived but retrievable.",
+     "Keep a dated copy of the index and check it quarterly. An index that points to missing documents is worse than no index, because it shows a gap you knew about."
+    ]
+   },
+   {
+    "heading": "Staff readiness",
+    "paras": [
+     "Every person on shift should know who the designated contact is for inspections, where the evidence index lives, and what they may and may not do alone. Brief them to be courteous, to ask for identification, to call the manager on duty and to avoid guessing when they do not know an answer. Practise producing a month of stock reconciliations as a single export, because requests for a whole period are common.",
+     "Run a short drill twice a year. Pick a random date and ask a manager to produce that day's shift log, stock summary and incident entries within fifteen minutes. Record the time taken and what slowed you down."
+    ]
+   },
+   {
+    "heading": "Fixing gaps before they are found",
+    "paras": [
+     "A gap you have documented and are fixing is very different from one an inspector discovers. Keep a simple corrective action log: what was wrong, when it was noticed, who owns the fix, and when it was closed. Close items in writing, with a date. Make sure printed copies carry a date and page numbers, so a partial handover cannot be mistaken for the full record.",
+     "Where software supports it, use exports and read-only reports so you can show records without handing over editing access. A system like Budify can generate dated exports of stock and transaction history, which makes the drill above much faster."
+    ]
+   },
+   {
+    "heading": "After the visit",
+    "paras": [
+     "Debrief within a week. Note any questions you struggled to answer, any documents you could not find and any instructions given. Turn each into an action with an owner. Share a short summary with the team so lessons spread beyond the managers.",
+     "Inspection practice varies between authorities and municipalities, so confirm what applies to your situation. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-controlled-supply-chain-programme-record-keeping",
+  "title": "Record-Keeping for Operators in a Controlled Programme",
+  "description": "Where Dutch operators take part in a controlled supply chain programme, here is how to structure internal records so traceability stays clear and complete.",
+  "minutes": 6,
+  "published": "2026-02-12",
+  "category": "Records & compliance",
+  "keywords": [
+   "controlled supply chain programme records",
+   "participating licensed operators",
+   "traceability records netherlands",
+   "supply chain documentation retail",
+   "regulated programme compliance",
+   "operator batch records"
+  ],
+  "sections": [
+   {
+    "heading": "What participation changes for your records",
+    "paras": [
+     "Participating licensed operators in a controlled programme typically take on additional documentation expectations compared with ordinary trading: traceability from receipt to sale, clearer supplier documentation and tighter reporting rhythms. The exact obligations come from the programme rules and your licence conditions, which you should read closely and keep on file. Give one named person responsibility for programme correspondence, and keep a log of every notice received and every action taken in response.",
+     "The practical effect is that informal habits stop working. A delivery note in a drawer and a quantity in someone's head no longer suffice. You need a repeatable receiving process that produces the same record every time."
+    ]
+   },
+   {
+    "heading": "Receiving and supplier documentation",
+    "paras": [
+     "Design a receiving checklist: confirm the supplier identity against your approved list, check the delivery note against what physically arrived, count and weigh according to your internal procedure, note any discrepancy, and record the receiver's name and time. Photograph or scan the delivery paperwork and attach it to the receipt record. Photograph the condition of deliveries on arrival, as a dated picture settles many later arguments about damage or shortfalls.",
+     "Never correct a receipt silently. If a count changes after the fact, create an adjustment entry with a reason and an approver, so the original receipt remains visible."
+    ]
+   },
+   {
+    "heading": "Linking batches through to the point of sale",
+    "paras": [
+     "Traceability means you can follow a unit from receipt to its final recorded movement. Give each received batch an internal reference, record it against every stock line, and make sure the point-of-sale record captures which batch reference was used when stock left your control. Keep programme-related stock in clearly labelled areas, and reflect those areas as locations in your records so physical and recorded positions match.",
+     "Test traceability quarterly with a mock recall exercise. Pick a batch reference and time how long it takes to list every movement. If the answer is hours, your records are probably too fragmented."
+    ]
+   },
+   {
+    "heading": "Reporting rhythms and internal reviews",
+    "paras": [
+     "Set a calendar for the reports your programme requires and a separate internal calendar that runs a few days earlier, so your own review happens before any external deadline. Assign a preparer and a reviewer who are different people. Hold a short monthly meeting dedicated to the programme records, with minutes, so decisions and open points are traceable.",
+     "Use the same figures for operational, financial and regulatory views. A system like Budify can keep a single stock ledger that feeds all three, which reduces the risk of numbers that disagree between reports."
+    ]
+   },
+   {
+    "heading": "Keeping scope honest",
+    "paras": [
+     "Keep programme records separate from general trading notes so each can be exported cleanly. Resist adding commentary to official records; place opinions and operational chatter elsewhere.",
+     "Because programme rules can change and are specific to participants, confirm current requirements directly with the relevant authority. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-daily-stock-reconciliation-routine",
+  "title": "A Daily Stock Reconciliation Routine for Dutch Retail Operators",
+  "description": "Learn how to run a quick, repeatable daily stock reconciliation so variances surface within hours, not weeks, with sensible tolerances and clear sign-off.",
+  "minutes": 5,
+  "published": "2026-01-14",
+  "category": "Stock & inventory",
+  "keywords": [
+   "stock reconciliation netherlands",
+   "daily stock count routine",
+   "inventory variance retail",
+   "stock control software nl",
+   "retail inventory reconciliation",
+   "opening and closing stock"
+  ],
+  "sections": [
+   {
+    "heading": "What reconciliation actually proves",
+    "paras": [
+     "Reconciliation compares what your records say you hold with what you physically hold, and explains the difference. Done daily it takes minutes; done monthly it takes days and rarely finds the cause, because too many movements have piled up in between. Keep the counting sheet simple, with line name, unit, counted quantity, counter initials and checker initials, and nothing else to fill in.",
+     "The aim is not to catch people out. It is to detect errors early: a mis-keyed quantity, a transfer not recorded, a damaged item left on the books. Every one of these is easy to fix on the day and painful to untangle later."
+    ]
+   },
+   {
+    "heading": "The opening and closing count",
+    "paras": [
+     "Count at opening and at closing for the lines that matter most, and rotate the rest. A sensible pattern is a full count of high-risk or high-value lines every day, a third of the remaining lines on a rotating cycle, and a full count monthly. Two people should be involved for the full counts: one counts, one records. Where lines are weighed, calibrate scales on a schedule and record the date, because an unreliable scale creates variances that no process can fix.",
+     "Record the expected quantity from the system only after the physical count is written, so the counter is not influenced by the expected figure. This single habit improves accuracy more than almost any other."
+    ]
+   },
+   {
+    "heading": "Setting tolerances and thresholds",
+    "paras": [
+     "Not every variance deserves an investigation. Define a tolerance per line type, expressed in units or weight, below which the manager signs off and moves on. Anything above tolerance triggers a documented check of the day's receipts, transfers, adjustments and voids. Rotate who performs the counts, so the same pair does not become blind to the same habits and any shortcut is noticed.",
+     "Review tolerances every quarter. If most lines sit comfortably inside them, tighten them; if staff constantly breach them, find out whether measuring equipment, process or training is to blame."
+    ]
+   },
+   {
+    "heading": "Recording adjustments properly",
+    "paras": [
+     "An adjustment is a correction with a reason, never a quiet overwrite. Use reason codes such as count error, damage, supplier shortfall, transfer error or unknown, and require an approver for adjustments above a threshold. Over time the reason codes show you where your process leaks. Chart variance by line each month, since a handful of lines usually account for most of the discrepancies and deserve extra attention.",
+     "A system like Budify can store each adjustment with the user, time and reason code, and can show a variance history per line. Use that history in your monthly management meeting rather than relying on anecdotes."
+    ]
+   },
+   {
+    "heading": "Closing the loop",
+    "paras": [
+     "Print or save the signed reconciliation, link it to the day's shift log and file it with your financial records. If a variance remains unexplained for several days, escalate it to the owner or director.",
+     "Record-keeping duties differ by licence conditions, so confirm what your authority expects. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-shrinkage-variance-investigation-steps",
+  "title": "Investigating Stock Variances: A Step-by-Step Guide for Operators",
+  "description": "When counts do not match the system, a structured investigation saves time. Follow these steps to find causes, document findings and prevent repeats.",
+  "minutes": 5,
+  "published": "2026-03-04",
+  "category": "Stock & inventory",
+  "keywords": [
+   "stock variance investigation",
+   "inventory shrinkage retail",
+   "stock discrepancy causes",
+   "inventory audit trail",
+   "variance report nl",
+   "stock control procedure"
+  ],
+  "sections": [
+   {
+    "heading": "Start with the data, not the people",
+    "paras": [
+     "When a count does not match, resist the urge to suspect individuals. Most variances come from process errors: units entered in the wrong measure, a delivery booked twice, a transfer recorded at only one end, or a return posted to the wrong line. Write the investigation findings on a standard one-page form so that results from different sites and months can be compared.",
+     "Begin by pulling every movement for the affected line since the last clean count. Sort by time. Look for entries that are duplicated, round numbers that look suspicious, or movements entered outside normal trading hours."
+    ]
+   },
+   {
+    "heading": "The five common root causes",
+    "paras": [
+     "Check in sequence: receiving errors, unit-of-measure mistakes, unrecorded transfers or internal use, wrongly voided or refunded transactions, and physical loss or damage. Each has a typical signature. Receiving errors cluster around delivery days; unit mistakes produce variances that are neat multiples; transfer errors appear in pairs across two locations. Check your measuring equipment early in the investigation, as a drifting scale can mimic a loss across many lines at once.",
+     "Document the finding for each line, even when the answer is simply that the cause remains unknown after review."
+    ]
+   },
+   {
+    "heading": "Interviewing and recounting",
+    "paras": [
+     "Recount the line with a second person before drawing any conclusion. Then speak with the staff who handled the line, framing the conversation around the process: what did you do, in what sequence, with what paperwork. Take notes and share them back for confirmation. Set a time limit for each investigation, such as five working days, after which unresolved items are escalated rather than left open.",
+     "If the cause points toward conduct rather than process, pause and involve the owner or HR adviser. Keep the evidence factual, dated and unembellished, and follow employment law guidance for your situation."
+    ]
+   },
+   {
+    "heading": "Fixing the process",
+    "paras": [
+     "Every investigation should end with at least one process change: a clearer receiving form, a mandatory second signature for adjustments, a lock on editing closed periods, or a change to how units are labelled. Record the change, the owner and the review date. Keep a library of past root causes, so new staff can learn from earlier incidents instead of rediscovering the same errors.",
+     "A system like Budify can restrict who may adjust stock, require reason codes and keep a full history, which narrows the field of possible causes in the next investigation."
+    ]
+   },
+   {
+    "heading": "Reporting upward",
+    "paras": [
+     "Summarise variances monthly: total variance as a percentage of throughput, top five lines by variance, root causes, and actions taken. Trend lines tell a clearer story than individual incidents.",
+     "Where a variance may carry regulatory or tax implications, take advice before adjusting official records. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-batch-lot-traceability-records",
+  "title": "Batch and Lot Traceability Records for Dutch Operators",
+  "description": "How Dutch operators can design simple batch and lot reference schemes that link receipts, movements and sales records and survive a mock recall exercise.",
+  "minutes": 6,
+  "published": "2026-05-19",
+  "category": "Stock & inventory",
+  "keywords": [
+   "batch traceability records",
+   "lot tracking software",
+   "stock traceability netherlands",
+   "recall readiness retail",
+   "batch reference system",
+   "inventory traceability audit"
+  ],
+  "sections": [
+   {
+    "heading": "Why batch references matter",
+    "paras": [
+     "A batch or lot reference is a short code that ties a group of received units to their supplier documentation and onward movements. It turns a vague question such as where did this come from into a query you can answer in minutes. Agree a rule for splitting batches, for example when stock is repackaged, so that child references always point back to the parent reference.",
+     "Even where regulations do not spell out a format, a consistent reference scheme supports your own quality control, your accountant's stock valuation and any review by an authority. It also makes supplier disputes far easier to resolve."
+    ]
+   },
+   {
+    "heading": "Designing a reference format",
+    "paras": [
+     "Keep it human-readable: a supplier code, a receipt date and a sequence number, for example SUP-20260519-01. Avoid codes that encode sensitive details. Decide who generates the reference and make it automatic wherever possible, so staff do not invent their own formats. Train receiving staff to reject a delivery that arrives without the paperwork needed to create the batch record, or to quarantine it until it does.",
+     "Print or label the reference at receiving, and require it when stock is moved, transferred or adjusted. A reference that is optional will soon be missing from half your records."
+    ]
+   },
+   {
+    "heading": "Following a batch end to end",
+    "paras": [
+     "For each batch, your records should show the receipt, any quality or count checks, internal moves between storage areas or locations, adjustments with reasons, and final recorded movements at the point of sale. Gaps between these steps are where traceability fails. Include batch references in internal transfer documents between sites, so the chain stays intact when stock crosses a premises boundary.",
+     "Review one random batch a month. Walk it from receipt to its latest movement and note any missing link. Fix the process, not just the record."
+    ]
+   },
+   {
+    "heading": "Mock recall exercise",
+    "paras": [
+     "Twice a year, simulate a supplier notice affecting a specific batch. Time how long it takes to list current holdings, past movements and affected transaction dates. Record who did what and where information was hard to find. Review the reference scheme annually and record any change with an effective date, so older batches remain understandable.",
+     "A system like Budify can hold the batch reference against each stock line and make the history exportable, which shortens the exercise from hours to minutes. Whichever tool you use, confirm exports are complete and dated."
+    ]
+   },
+   {
+    "heading": "Housekeeping and retention",
+    "paras": [
+     "Archive closed batches rather than deleting them, and keep supplier documents attached to the batch record. Define retention periods with your accountant and counsel, since financial and regulatory expectations may differ.",
+     "Local conditions vary, so check what your licence and any programme rules require. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-age-verification-entry-records",
+  "title": "Entry Checks and Age Verification Records for Operators",
+  "description": "Set up consistent entry checks and minimal, privacy-conscious records so staff apply your licence age rules the same way every time.",
+  "minutes": 5,
+  "published": "2026-01-28",
+  "category": "Membership & access",
+  "keywords": [
+   "age verification records",
+   "entry check procedure",
+   "customer id check retail",
+   "access control retail netherlands",
+   "minimum age licence conditions",
+   "door staff procedure"
+  ],
+  "sections": [
+   {
+    "heading": "Start with your licence conditions",
+    "paras": [
+     "Your licence conditions set the minimum age and any other entry criteria that apply to your premises. Write them into a one-page entry procedure that front-of-house staff can read in two minutes. Confirm the wording with counsel so the document reflects what actually applies to you. Position the entry check where there is good light and a clear surface, which makes document checks quicker and more accurate.",
+     "Consistency is the point. Two staff members checking differently is how a business ends up with an incident and no clear policy to point to."
+    ]
+   },
+   {
+    "heading": "What a good check looks like",
+    "paras": [
+     "The procedure should specify acceptable identity documents, how to check validity and photo match, how to handle a document that looks altered, and what to say when entry is refused. Script the refusal in polite, neutral language so staff are not improvising under pressure. Remind staff that the same procedure applies to regulars, since familiarity is the most common reason checks are skipped.",
+     "Train new starters on the procedure before their first solo shift, record the training date, and refresh annually."
+    ]
+   },
+   {
+    "heading": "Recording the minimum necessary",
+    "paras": [
+     "Under the AVG, the Dutch implementation of GDPR, you should collect only what you need. For many operators that means recording that a check was done, the outcome and the staff member, rather than copying identity documents. Decide deliberately whether you need to store any document data, and if so, why. Review your procedure whenever licence conditions are renewed or varied, and record the date of each review.",
+     "If you hold copies or data from identity documents, treat them as high-risk records: restrict access, set a short retention period and document the justification in your records of processing."
+    ]
+   },
+   {
+    "heading": "Logging refusals and exceptions",
+    "paras": [
+     "Keep a simple refusal log with date, time, reason category and staff member, with no unnecessary personal details. Reviewing it monthly shows patterns, such as peak times when checks get rushed or frequent attempts using the same type of document. Give staff a way to raise concerns about pressure to skip checks, and make sure managers respond to those concerns promptly.",
+     "A system like Budify can keep entry and membership status checks tied to the staff login, so you have evidence of process without building a large personal-data store."
+    ]
+   },
+   {
+    "heading": "Managing queues and disputes",
+    "paras": [
+     "Plan staffing so checks are never skipped for speed. Give door staff a clear escalation route to the duty manager and log each escalation outcome.",
+     "Rules on entry and identification vary by local authority and licence, so confirm requirements before adopting any procedure. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-member-and-customer-accounts-data-minimisation",
+  "title": "Customer Account Records Without Over-Collecting Data",
+  "description": "How Dutch retail operators can keep useful account records for visits and service while applying data minimisation principles under the AVG.",
+  "minutes": 5,
+  "published": "2026-06-09",
+  "category": "Membership & access",
+  "keywords": [
+   "customer account records",
+   "data minimisation retail",
+   "avg customer data",
+   "customer register software",
+   "visit records privacy",
+   "account management retail nl"
+  ],
+  "sections": [
+   {
+    "heading": "Why account data needs a purpose",
+    "paras": [
+     "Every field in a customer record should answer a question: why do we hold this? If the answer is just in case, remove the field. The AVG expects a defined purpose and a lawful basis for each category of data, and a lean record is cheaper to secure and easier to explain. Run a yearly clean-up in which every field in the account template must be justified again by an owner, or removed from the form.",
+     "Start by listing what staff actually use at the counter and in back-office reports. In many businesses, that is a name or alias, an account reference and a status marker, not a full personal profile."
+    ]
+   },
+   {
+    "heading": "Designing a lean account record",
+    "paras": [
+     "Group fields into essential, optional and prohibited. Essential fields support operation of the account; optional fields need a clear reason and, where relevant, consent; prohibited fields are things you decide never to collect, such as unnecessary sensitive details. Make sure that any import of customer data from older systems is checked against the lean template, not copied across wholesale.",
+     "Keep free-text notes under control. Staff comments often contain more personal information than any structured field, so give guidance on what is acceptable and review a sample regularly."
+    ]
+   },
+   {
+    "heading": "Access, roles and need-to-know",
+    "paras": [
+     "Not every employee needs every field. Counter staff might see account status and visit history, while managers see more and only an administrator can edit core details. Document the permission matrix and review it when staff roles change or people leave. Train staff not to write personal remarks in free-text fields, and to use neutral, factual language where notes are genuinely needed.",
+     "Log who views or exports account data. A system like Budify can apply role-based permissions and keep access logs, which supports your accountability duties without adding manual work."
+    ]
+   },
+   {
+    "heading": "Keeping accounts accurate and current",
+    "paras": [
+     "Build a simple routine to correct errors, merge duplicates and archive dormant accounts. Decide the period after which an inactive account is archived or deleted and apply it consistently. Check that exported lists leave the system only via approved channels, and that downloaded files are deleted once the task is done.",
+     "When customers ask to see or correct their data, you will be far better placed to respond if your records are small, structured and searchable."
+    ]
+   },
+   {
+    "heading": "Communicating clearly",
+    "paras": [
+     "Provide a short privacy notice at the point of data collection explaining what you hold, why, for how long and how to contact you. Keep wording plain and avoid legal jargon.",
+     "The Autoriteit Persoonsgegevens is the Dutch data protection authority, and its guidance is a good starting point for your own review. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-opening-closing-checklists-retail-operations",
+  "title": "Opening and Closing Checklists That Staff Actually Follow",
+  "description": "Design opening and closing checklists for licensed retail premises in the Netherlands that are short, signed, reviewable and tied to your daily records.",
+  "minutes": 4,
+  "published": "2026-02-26",
+  "category": "Operations",
+  "keywords": [
+   "opening closing checklist retail",
+   "shift handover procedure",
+   "retail operations netherlands",
+   "store opening procedure",
+   "daily operations checklist",
+   "licensed premises routine"
+  ],
+  "sections": [
+   {
+    "heading": "Why checklists work",
+    "paras": [
+     "Checklists remove reliance on memory and make quality independent of who is on shift. They also create evidence: a signed checklist shows that routine checks were done, which matters if something later goes wrong or an authority asks about your procedures. Place the checklist where it cannot be missed, for example clipped to the till or displayed on the first screen after login.",
+     "The trick is length. A checklist of forty items gets ticked without reading. Aim for eight to twelve items per list, each one specific enough to be verified."
+    ]
+   },
+   {
+    "heading": "A workable opening list",
+    "paras": [
+     "Cover security and premises first: alarm status, doors, lighting, safety equipment. Then systems: till and POS online, printer and card terminal tested, time and date correct, backups confirmed. Then stock and records: opening counts for key lines recorded, yesterday's incident log reviewed, shift roster confirmed. Number the items so a gap in the sequence is obvious, and require a signature only at the end rather than item by item.",
+     "Finish with a brief team huddle covering expected busy periods, absences and any specific reminders. Record who attended."
+    ]
+   },
+   {
+    "heading": "A workable closing list",
+    "paras": [
+     "Close the shift in the POS, reconcile the till, complete the stock reconciliation for key lines, review the incident log, secure storage areas, and confirm alarms and locks. Require two sign-offs: the person who did the work and the duty manager who checked. Use plain, active wording such as confirm the alarm is set, rather than general statements that different staff will read differently.",
+     "Do not let the list become a punishment. Treat missed items as a signal that the list or the layout needs changing."
+    ]
+   },
+   {
+    "heading": "Digital versus paper",
+    "paras": [
+     "Paper is simple and robust; digital is searchable and harder to backdate. If you go digital, make sure timestamps come from the system and entries cannot be silently edited. A system like Budify can hold the shift records alongside sales and stock data so the checklist and the numbers sit together. Photograph the layout of the premises when properly closed, as a reference image for the closing team to compare against.",
+     "Whichever format you choose, store completed lists for a defined period and test retrieval of one old list each quarter."
+    ]
+   },
+   {
+    "heading": "Keeping it alive",
+    "paras": [
+     "Review lists quarterly with the staff who use them. Remove items that never fail, add items from recent incidents, and date each version.",
+     "Obligations differ by licence and municipality, so adapt these examples to your conditions. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-staff-roles-permissions-shift-handover",
+  "title": "Staff Roles, Permissions and Shift Handover in Regulated Retail",
+  "description": "Set up role-based permissions and clean shift handovers so only the right people can adjust stock, void sales or export records at your Dutch premises.",
+  "minutes": 5,
+  "published": "2026-04-07",
+  "category": "Operations",
+  "keywords": [
+   "staff permissions pos",
+   "role based access retail",
+   "shift handover log",
+   "pos user roles netherlands",
+   "separation of duties retail",
+   "operator staff training records"
+  ],
+  "sections": [
+   {
+    "heading": "The principle of least privilege",
+    "paras": [
+     "Every staff member should have the minimum access needed to do their job. Counter staff process transactions; supervisors approve voids and small adjustments; managers run reports and approve larger changes; only owners or administrators change system settings. Document who holds override rights during absences, and revoke temporary rights in writing once the absence ends.",
+     "Map this on one page before configuring any system. Starting from roles, rather than from individuals, keeps the model stable when people join or leave."
+    ]
+   },
+   {
+    "heading": "Separating duties",
+    "paras": [
+     "Where one person can receive stock, adjust the count and approve the adjustment, errors and misconduct are harder to detect. Separate these steps across at least two people for any change above a defined threshold. Use individual logins for every user, because shared credentials make it impossible to say who performed an action.",
+     "Small teams cannot always separate everything. In that case, add compensating checks: the owner reviews an exception report weekly, or a second manager signs the monthly adjustment summary."
+    ]
+   },
+   {
+    "heading": "Shift handover essentials",
+    "paras": [
+     "A good handover covers five points: till and cash status, stock issues, open incidents, pending deliveries and any instructions from management. Use a short written template and keep it in the same place every day. Include a line in the handover template for equipment faults, so the next shift knows what is out of order and what has been reported.",
+     "The outgoing and incoming staff should both sign. Disagreements at handover, such as a till that does not match, are far easier to resolve while both people are still present."
+    ]
+   },
+   {
+    "heading": "Training and access reviews",
+    "paras": [
+     "Keep a training record per employee showing procedures covered, date and trainer. Review system access monthly and immediately on departure. Disable accounts rather than deleting them so history remains attributable. Review the list of administrators every quarter, and keep that group as small as the business can sensibly operate with.",
+     "A system like Budify can apply roles and log actions by user, which supports both separation of duties and later review. Test your permissions by logging in as each role and trying actions that should be blocked."
+    ]
+   },
+   {
+    "heading": "Employment and privacy considerations",
+    "paras": [
+     "Monitoring of staff should be proportionate and explained in advance. Dutch employment and data protection rules affect how you log and review employee activity, so get advice before introducing detailed monitoring.",
+     "Details differ between employers and sectors. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-btw-vat-ready-sales-exports",
+  "title": "BTW-Ready Sales Exports: Preparing Retail Data for Your Accountant",
+  "description": "How Dutch retail operators can structure daily sales summaries and exports so BTW (VAT) returns and bookkeeping run smoothly, with fewer accountant queries.",
+  "minutes": 6,
+  "published": "2026-01-19",
+  "category": "Finance & reporting",
+  "keywords": [
+   "btw sales export",
+   "vat reporting retail netherlands",
+   "pos accounting export",
+   "bookkeeping export software",
+   "daily sales summary",
+   "accountant ready reports"
+  ],
+  "sections": [
+   {
+    "heading": "Start with what your accountant needs",
+    "paras": [
+     "Ask your accountant, or bookkeeper, which format and level of detail they want before designing anything. Most need period totals by tax rate, payment method breakdowns and refunds or voids, together with supporting detail on request. Save each export with a consistent file name containing the site, the period and the date it was produced, so versions are never confused.",
+     "Agreeing this once, in writing, saves repeated back-and-forth every filing period. It also ensures you are exporting what is useful rather than everything the system can produce."
+    ]
+   },
+   {
+    "heading": "Structure your daily sales summary",
+    "paras": [
+     "A good daily summary shows gross sales, tax collected per rate, net sales, payment method totals, refunds, voids, discounts and the till difference. Every figure should reconcile: payments received should equal sales less refunds, within a documented tolerance. Ask your accountant to review a sample export in your first month, and adjust the layout based on what they find awkward.",
+     "Lock each day after sign-off. Corrections made later should be posted as dated adjustments, not edits to the closed day, so your accountant can follow the trail."
+    ]
+   },
+   {
+    "heading": "Rates, rounding and categories",
+    "paras": [
+     "Confirm with your accountant which BTW rates apply to which categories of sale and make sure your categories in the POS match. Rounding rules matter when many small transactions are summed, so check that line-level and total-level rounding agree. Keep refunds visible as separate lines, rather than netting them off sales, so the effect on each tax rate can be followed.",
+     "Keep category mapping documented and version-controlled. When a rate or category changes, record the effective date and who approved the change."
+    ]
+   },
+   {
+    "heading": "Monthly and period-end routine",
+    "paras": [
+     "At period end, export the sales summary, payment settlement reports and adjustment log. Compare card settlements to bank statements and investigate differences. Reconcile stock valuation movements to cost of sales if your accountant uses them. Record any manual journal or correction that follows an export, and note who authorised it, so the books and the exports can be reconciled.",
+     "A system like Budify can produce period exports with consistent totals and keep the adjustment history alongside. Review one export each period against source data before it goes to your accountant."
+    ]
+   },
+   {
+    "heading": "Retention and responsibility",
+    "paras": [
+     "Financial records generally carry longer retention expectations than operational notes; your accountant can confirm the period that applies to your entity. Store exports with the supporting reports in a controlled, backed-up location.",
+     "Tax treatment depends on your specific facts, so rely on your adviser rather than this general overview. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-daily-cash-up-till-reconciliation",
+  "title": "Daily Cash-Up and Till Reconciliation Procedures for Operators",
+  "description": "A straightforward cash-up procedure for Dutch retail operators covering floats, counts, card settlements and documented handling of differences in euros.",
+  "minutes": 5,
+  "published": "2026-03-17",
+  "category": "Finance & reporting",
+  "keywords": [
+   "cash up procedure",
+   "till reconciliation",
+   "daily cash reconciliation retail",
+   "float management pos",
+   "card settlement reconciliation",
+   "cash handling controls"
+  ],
+  "sections": [
+   {
+    "heading": "Set the float and the rules",
+    "paras": [
+     "Define a standard opening float per till in euros, in specific denominations, and record it at the start of each shift. A consistent float makes differences easier to spot and speeds up counting. Use a counting tray or mat and a fixed counting order so that staff follow the same pattern each time and make fewer errors.",
+     "Write down who may open a till, who may remove cash, and where cash is held between counts. Restrict access to the safe to a small named group and log each access."
+    ]
+   },
+   {
+    "heading": "The cash-up count",
+    "paras": [
+     "Count blind: staff write down the physical total before seeing the expected figure from the POS. Two people should be present for the final count, and both sign the sheet. Record notes, coins and any vouchers separately. Keep the cash-up area out of public view and away from doors, and make sure cameras, where installed, cover the count itself.",
+     "Compare the count to the expected cash total, calculated as opening float plus cash sales less cash refunds and paid-outs. Record the difference whatever its size."
+    ]
+   },
+   {
+    "heading": "Handling differences",
+    "paras": [
+     "Set a tolerance for small differences and a threshold above which the owner is told the same day. Investigate by checking voids, refunds, paid-outs and transactions entered in the wrong payment method. Repeated small shortages at one till or one shift deserve a conversation, framed around process. Record paid-outs on a numbered slip with a reason and an approver, and never allow an unrecorded removal of cash.",
+     "Never top up a till from personal money to make the numbers match. Document the difference and let the investigation run."
+    ]
+   },
+   {
+    "heading": "Card and other payment settlements",
+    "paras": [
+     "Cash is only part of the picture. Compare daily card totals in the POS to the terminal's batch report, and compare weekly payment provider settlements to bank deposits. Differences often come from timing, fees and refunds posted on different days. Rotate who performs the count and who checks it, so no single pair always handle the same till.",
+     "A system like Budify can show payment method totals per shift next to the cash count, giving one place to start each reconciliation. Keep the settlement reports with the daily records."
+    ]
+   },
+   {
+    "heading": "Banking and safekeeping",
+    "paras": [
+     "Bank cash regularly and keep deposit slips with the reconciliation. Avoid holding large cash balances on site; ask your insurer what limits apply.",
+     "Cash handling rules may also relate to anti-money-laundering obligations depending on your business, so seek advice. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-month-end-close-multi-location-operators",
+  "title": "Month-End Close for Multi-Location Operators: A Practical Calendar",
+  "description": "A day-by-day month-end close calendar for operators running more than one licensed retail location, covering stock, sales, payments and management reporting.",
+  "minutes": 6,
+  "published": "2026-07-14",
+  "category": "Finance & reporting",
+  "keywords": [
+   "month end close retail",
+   "multi location operator reporting",
+   "management reporting retail",
+   "stock valuation month end",
+   "financial close checklist",
+   "retail finance netherlands"
+  ],
+  "sections": [
+   {
+    "heading": "Why a calendar helps",
+    "paras": [
+     "Month-end close tends to expand to fill the time available. A fixed calendar with named owners and deadlines keeps it to a few working days and gives your accountant predictable inputs. Use one template for every site, so a manager moving between locations finds the same layout and the same definitions.",
+     "Build the calendar backwards from the date your accountant needs figures, and include a buffer for the corrections that always appear."
+    ]
+   },
+   {
+    "heading": "Day one: sales and payments",
+    "paras": [
+     "Confirm that every trading day in the month has a signed daily summary at each location. Check for missing days, reopened days and unusual adjustments. Reconcile card settlements and cash banking to bank statements for each site. Keep a running list of recurring adjustments, because items that appear every month usually point to a process fix.",
+     "Resolve unmatched items with a short log: item, amount, suspected cause and owner. Anything unresolved at close moves to a suspense list with a due date."
+    ]
+   },
+   {
+    "heading": "Day two: stock",
+    "paras": [
+     "Run a full count at each location or the agreed cycle count, reconcile to the system and post approved adjustments with reason codes. Review inter-location transfers to ensure both ends are recorded and that nothing remains in transit without explanation. Agree a cut-off rule for transactions that straddle midnight or the month boundary, and apply it consistently at all sites.",
+     "Value closing stock using the method agreed with your accountant, and keep the working papers. Consistency of method from month to month matters more than elegance."
+    ]
+   },
+   {
+    "heading": "Day three: review and report",
+    "paras": [
+     "Produce a one-page summary per site: net sales, gross margin, variances, adjustments, cash differences and open issues. Compare to the previous month and to the same month last year where available. Ask site managers to explain the three largest movements in writing. Share the finished pack with site managers, so they see the numbers that group management is using.",
+     "A system like Budify can consolidate sites into common reports, so group management sees the same definitions everywhere. Check that site-level totals add up to the consolidated figures."
+    ]
+   },
+   {
+    "heading": "Lock, archive and learn",
+    "paras": [
+     "After sign-off, lock the period so later edits require a documented adjustment. Archive the pack in a controlled location with the supporting exports. Hold a ten-minute retrospective: what slowed the close, and what will you change next month?",
+     "Tax and statutory deadlines are specific to your entity, so rely on your adviser for them. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-avg-gdpr-basics-for-licensed-retail-operators",
+  "title": "AVG and GDPR Basics for Licensed Retail Operators in the Netherlands",
+  "description": "A plain-language overview of AVG (GDPR) principles for Dutch retail operators: lawful basis, records of processing, security measures and practical first steps.",
+  "minutes": 6,
+  "published": "2026-02-09",
+  "category": "Data protection",
+  "keywords": [
+   "avg gdpr retail operators",
+   "data protection netherlands business",
+   "records of processing",
+   "gdpr compliance checklist",
+   "autoriteit persoonsgegevens guidance",
+   "customer data security"
+  ],
+  "sections": [
+   {
+    "heading": "The principles in practice",
+    "paras": [
+     "The AVG is the Dutch name for the GDPR. Its core principles are lawfulness, fairness and transparency; purpose limitation; data minimisation; accuracy; storage limitation; integrity and confidentiality; and accountability. Each translates into everyday decisions about what you collect, how long you keep it and who can see it. Set a clear route for staff to report suspected data incidents immediately, as notification duties to the regulator can run on tight timelines.",
+     "Operators who record customer visits, accounts or staff activity are processing personal data. Treat this as a normal operational discipline, like cash handling, rather than a one-off project."
+    ]
+   },
+   {
+    "heading": "Map what you hold",
+    "paras": [
+     "Start with a simple inventory: what personal data you collect, from whom, for what purpose, where it is stored, who can access it, who else receives it and how long it is kept. This becomes your record of processing, which many organisations are expected to maintain. Make sure CCTV signage and retention periods are reviewed with the same care as any other personal data processing.",
+     "Include staff data, supplier contacts and CCTV footage alongside customer records. Gaps are common in the areas people forget."
+    ]
+   },
+   {
+    "heading": "Lawful basis and notices",
+    "paras": [
+     "For each purpose, identify and document the lawful basis relied on, such as contract, legal obligation, legitimate interests or consent. Different purposes may need different bases, and consent must be specific and withdrawable. Where you rely on a processor, keep a contact for security matters and a record of the date on which the agreement was last reviewed.",
+     "Publish a privacy notice that is accurate and readable, and give a short version at the point of collection. If your practice changes, update the notice first."
+    ]
+   },
+   {
+    "heading": "Security and suppliers",
+    "paras": [
+     "Apply sensible technical and organisational measures: strong unique passwords, multi-factor authentication, encrypted devices, role-based access, regular updates and tested backups. Limit exports and keep a log of who ran them. Include data protection in induction and in yearly refresher training, with a short quiz or acknowledgment recorded on file.",
+     "Where a software provider processes data for you, a processor agreement should be in place. A system like Budify, like any SaaS tool, should be assessed on where data is hosted, how access is controlled and what its agreements say."
+    ]
+   },
+   {
+    "heading": "First steps this quarter",
+    "paras": [
+     "Pick three actions: complete the data inventory, review access permissions, and write down a retention schedule. Assign owners and dates. Check whether you need a data protection officer or other formal appointments with counsel.",
+     "The Autoriteit Persoonsgegevens publishes guidance for businesses, which is worth reading. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-data-retention-schedule-deletion-routine",
+  "title": "Building a Data Retention Schedule and Deletion Routine",
+  "description": "Create a practical data retention schedule for customer, staff and transaction records so Dutch operators keep what they must and delete what they should.",
+  "minutes": 5,
+  "published": "2026-05-05",
+  "category": "Data protection",
+  "keywords": [
+   "data retention schedule",
+   "records retention netherlands",
+   "avg storage limitation",
+   "data deletion procedure",
+   "retention policy retail",
+   "personal data lifecycle"
+  ],
+  "sections": [
+   {
+    "heading": "Why retention is a two-sided duty",
+    "paras": [
+     "Operators must keep some records for as long as financial, tax or licence expectations require, yet the AVG storage limitation principle says personal data should not be kept longer than necessary. A retention schedule reconciles the two by recording a period and a reason for each record type. Label backups with their creation date and apply the same disposal logic to them as to live data, accepting that deletion may take a documented cycle.",
+     "Without a schedule, data accumulates indefinitely, which increases risk and the cost of responding to requests."
+    ]
+   },
+   {
+    "heading": "Drafting the schedule",
+    "paras": [
+     "List record types in rows: transaction records, stock ledgers, staff files, customer accounts, entry and refusal logs, CCTV, supplier documents, incident reports and backups. For each, add the purpose, the retention period, the trigger that starts the clock, the owner and the disposal method. Where records are held by a service provider, check that deletion or export on your instruction is possible and how long it takes.",
+     "Ask your accountant for the financial retention periods and counsel for licence-related ones. Do not rely on rules of thumb for these."
+    ]
+   },
+   {
+    "heading": "Separating financial from personal data",
+    "paras": [
+     "Where possible, design records so the part you must keep long-term does not carry unnecessary personal details. For example, a sales total may be kept for years while the link to an individual account is removed earlier. Include paper records in the schedule, since filing cabinets are a common place where old personal data lingers.",
+     "Pseudonymisation and aggregation can help, but they must be real: if the data can still be tied to a person easily, treat it as personal data."
+    ]
+   },
+   {
+    "heading": "Running the deletion routine",
+    "paras": [
+     "Schedule a quarterly review. Generate a list of records past their retention date, have the owner confirm nothing is on hold for a dispute or inspection, delete or anonymise, and log what was removed without keeping the content. Give each retention owner a calendar reminder for the review date, so the schedule does not rely on anyone remembering.",
+     "A system like Budify can support archiving and export before deletion, but the decision rules remain yours. Do not forget backups, which should age out on a documented cycle."
+    ]
+   },
+   {
+    "heading": "Legal holds and exceptions",
+    "paras": [
+     "If you receive notice of a dispute, investigation or inspection, suspend deletion for related records and note who authorised the hold and when. Release holds in writing when the matter ends.",
+     "Retention rules vary by data type and situation, so confirm periods with your advisers. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-choosing-pos-software-audit-trail-checklist",
+  "title": "Choosing POS Software: An Audit-Trail and Controls Checklist",
+  "description": "What Dutch licensed retail operators should test when evaluating POS and back-office software: audit trails, permissions, exports, support and data location.",
+  "minutes": 6,
+  "published": "2026-03-26",
+  "category": "Technology",
+  "keywords": [
+   "pos software evaluation",
+   "audit trail pos",
+   "retail software checklist netherlands",
+   "inventory system selection",
+   "pos vendor due diligence",
+   "back office software retail"
+  ],
+  "sections": [
+   {
+    "heading": "Define requirements before demos",
+    "paras": [
+     "List your must-haves first: tills and users, locations, stock handling, tax rates, payment methods, reporting, and record-keeping that your licence conditions imply. Separate must-have from nice-to-have, and ask a manager and an accountant to review the list. Score each candidate against the same weighted list, and have two people score independently before comparing results.",
+     "Demos are designed to impress. Your list keeps the evaluation on what you need to run safely."
+    ]
+   },
+   {
+    "heading": "Test the audit trail",
+    "paras": [
+     "Ask the vendor to show what happens when a stock quantity is changed, a sale is voided and a user is deactivated. You should see who, when, what changed and the previous value, with no way to delete history silently. Ask for the vendor's support hours, escalation route and typical response time, and test them with a real question during the trial.",
+     "Run your own scenario in a trial account: make an error, correct it, then find the evidence trail. If it takes more than a couple of minutes, expect pain at inspection time."
+    ]
+   },
+   {
+    "heading": "Permissions and segregation",
+    "paras": [
+     "Check that roles are configurable, that sensitive actions such as adjustments, voids, price changes and exports can be restricted, and that approvals can be required. Confirm that shared logins are not needed. Check how changes to the software are announced, because unexpected changes to screens or reports can disrupt a busy day.",
+     "Look for activity reports by user and exception reports that a manager can actually read weekly."
+    ]
+   },
+   {
+    "heading": "Exports, integration and data location",
+    "paras": [
+     "Test exports into the formats your accountant uses, and confirm you can retrieve all your data if you leave. Ask where data is hosted, how backups work, how long they are retained, and what the processor agreement covers under the AVG. Confirm the exit process before you sign: what format your data leaves in, how quickly, and what happens to your data afterwards.",
+     "Tools such as Budify are examples of software built around stock, membership and record-keeping workflows; evaluate any candidate against your own list rather than a brochure."
+    ]
+   },
+   {
+    "heading": "Reference checks and rollout",
+    "paras": [
+     "Speak to at least two existing customers of similar size. Ask about outages, support response, how changes are communicated and what they wish they had known. Plan a pilot at one location with a rollback option before full rollout.",
+     "Software cannot make an operator compliant by itself; obligations stay with you. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-offline-resilience-backups-hardware",
+  "title": "Offline Resilience, Backups and Hardware for Retail Operators",
+  "description": "Keep trading and keep records when the internet drops: practical guidance on offline modes, backups, hardware spares and recovery tests for operators.",
+  "minutes": 5,
+  "published": "2026-06-23",
+  "category": "Technology",
+  "keywords": [
+   "pos offline mode",
+   "backup and recovery retail",
+   "retail hardware checklist",
+   "business continuity pos",
+   "internet outage procedure",
+   "data backup operators"
+  ],
+  "sections": [
+   {
+    "heading": "Plan for failure, not for perfection",
+    "paras": [
+     "Connections drop, tablets freeze and printers jam. A short continuity plan decides in advance what staff do when systems fail, so trading and record-keeping continue in an orderly way. Store the continuity page, supplier support numbers and login recovery steps in a place that does not depend on the failed system.",
+     "Write the plan on a single page and keep it at each till. Staff under pressure follow what is in front of them."
+    ]
+   },
+   {
+    "heading": "Offline capability and manual fallback",
+    "paras": [
+     "Check whether your POS works offline, what it can and cannot do in that state and how data syncs afterwards. Test it by deliberately unplugging the network at a quiet time. Keep a small supply of paper slips, pens and a calculator at each till, so the fallback is available at once.",
+     "Prepare a paper fallback: numbered sales slips or a simple log, with fields for time, items, amount and staff initials. After the outage, enter the slips into the system, mark them as late entries and reconcile totals."
+    ]
+   },
+   {
+    "heading": "Backups that you have actually restored",
+    "paras": [
+     "A backup you have never restored is a hope, not a control. Confirm what is backed up, how often, where it is stored and who can restore it. Cloud services usually handle this, but ask for the frequency and retention in writing. Check battery backup on key devices, and replace worn batteries on a schedule rather than waiting for a failure.",
+     "For any local files such as spreadsheets and exports, use an automated backup to a separate location and review the log monthly. Restore one file each quarter to prove the process works."
+    ]
+   },
+   {
+    "heading": "Hardware spares and maintenance",
+    "paras": [
+     "Keep a spare of the items whose failure stops trading: a card terminal, a receipt printer or a tablet. Label cables, document settings and keep a simple asset register with purchase dates and serial numbers. Record each outage in the incident log with start time, end time, impact and follow-up, to build evidence for supplier conversations.",
+     "Use screen locks and updates on all devices. Remove access promptly when devices are lost or staff leave."
+    ]
+   },
+   {
+    "heading": "Recovery drills",
+    "paras": [
+     "Twice a year, run a short drill: simulate an outage, trade on fallback for thirty minutes, then sync. Note what went wrong, update the plan and sign it off.",
+     "Systems such as Budify store data centrally, which simplifies recovery, but your local procedures still matter. Assumptions about uptime and data handling should be checked with your provider and advisers. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-opening-second-location-operational-readiness",
+  "title": "Opening a Second Location: An Operational Readiness Checklist",
+  "description": "Before adding another licensed premises, Dutch operators should check licensing, staffing, systems, stock controls and finance readiness. A planning checklist.",
+  "minutes": 6,
+  "published": "2026-04-21",
+  "category": "Growth",
+  "keywords": [
+   "second location operational readiness",
+   "multi site retail operations",
+   "expansion planning operator",
+   "new premises checklist netherlands",
+   "scaling licensed retail",
+   "multi location stock control"
+  ],
+  "sections": [
+   {
+    "heading": "Confirm the licensing position first",
+    "paras": [
+     "Licence conditions are usually tied to premises and entity, and authorities may assess each location separately. Do not assume the first location's approval carries over. Take advice from local counsel on the process, timeline and conditions before signing a lease or hiring staff. Prepare a pre-opening audit using the same checklists as an inspection, and fix the gaps before the doors open.",
+     "Keep a record of every conversation and submission with the authority for each site, with dates and contact names."
+    ]
+   },
+   {
+    "heading": "Standardise before you replicate",
+    "paras": [
+     "If your first location runs on tribal knowledge, a second will multiply the problems. Document the procedures that matter: opening and closing, entry checks, cash-up, reconciliation, incident logging and complaints. Test whether a new manager could run them from the documents alone. Decide how stock will be allocated between sites at the start, and set opening counts that both managers sign.",
+     "Standard operating procedures should be short, dated and owned. Version them, so both sites can show they work from the same current set."
+    ]
+   },
+   {
+    "heading": "People and training",
+    "paras": [
+     "Plan the management structure: a site manager with clear authority, a deputy and defined escalation to the owner. Train the new team at the existing site first where possible, and record sign-off for each competence. Plan the first-day staffing with spare capacity, so checks and records are never compromised by queues.",
+     "Budget for the first three months of heavier supervision. Variance and incident rates are typically highest in the early weeks."
+    ]
+   },
+   {
+    "heading": "Systems, stock and finance",
+    "paras": [
+     "Decide whether the second site shares one system tenant with the first or has separate reporting. Shared stock controls need clear rules for inter-location transfers: who initiates, who receives, how differences are handled. A system like Budify can track transfers and report per site and consolidated. Agree reporting lines and weekly meetings between the two sites from the start, to avoid parallel and inconsistent practices.",
+     "Set up the second site's cash-up, bank accounts and BTW treatment with your accountant before opening day, not after the first filing period."
+    ]
+   },
+   {
+    "heading": "Launch review",
+    "paras": [
+     "Hold reviews at weeks one, four and twelve covering reconciliation results, incidents, staff turnover and customer feedback. Decide in advance what results would trigger additional support.",
+     "Plans depend on your corporate structure and local requirements. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-operator-kpis-dashboard-metrics",
+  "title": "Operator KPIs: Dashboard Metrics That Support Better Decisions",
+  "description": "Which operational and financial metrics matter for licensed retail operators? A focused KPI set covering stock accuracy, reconciliation, labour and margin.",
+  "minutes": 5,
+  "published": "2026-08-11",
+  "category": "Growth",
+  "keywords": [
+   "operator kpis",
+   "retail dashboard metrics",
+   "stock accuracy kpi",
+   "management reporting netherlands",
+   "retail performance metrics",
+   "operations dashboard"
+  ],
+  "sections": [
+   {
+    "heading": "Choose few, measure well",
+    "paras": [
+     "A dashboard with thirty numbers is ignored. Pick six to ten metrics that connect to decisions you actually make, define each precisely, and agree the data source. Review them weekly at site level and monthly at group level. Display targets and tolerances beside each metric, so a reader can tell at a glance whether a number needs attention.",
+     "Precise definitions prevent arguments. Does margin include discounts? Is labour cost measured at payroll or rostered? Write it down once."
+    ]
+   },
+   {
+    "heading": "Control metrics",
+    "paras": [
+     "Stock accuracy is the percentage of counted lines that match the system within tolerance. Reconciliation completion rate is the share of trading days with a signed reconciliation. Adjustment rate is the value or count of adjustments relative to throughput, split by reason code. Review whether each metric still drives a decision every quarter, and retire any that do not.",
+     "Together these tell you whether your controls work. A high adjustment rate with a good completion rate suggests process issues; a low completion rate suggests discipline issues."
+    ]
+   },
+   {
+    "heading": "Financial and labour metrics",
+    "paras": [
+     "Track net sales, gross margin, average transaction value, refunds and voids as a percentage of sales, and cash differences per shift. Add labour cost as a percentage of sales and sales per labour hour to schedule staff sensibly. Make sure the underlying data is cleaned the same way every month, otherwise trends will reflect changes in method instead of performance.",
+     "Look at trends and ranges, not single days. Compare like with like: same weekday, same season, same site."
+    ]
+   },
+   {
+    "heading": "Customer and operational service levels",
+    "paras": [
+     "Measure queue times, entry check times at peak, complaint counts and time to resolve. These show whether your controls are slowing service, and give you evidence when you adjust staffing. Share a short written commentary with each dashboard, because numbers alone leave room for conflicting interpretations.",
+     "A system like Budify can supply many of these figures from transaction and stock data; manual measures such as complaint logs can be added to the same review."
+    ]
+   },
+   {
+    "heading": "Using metrics well",
+    "paras": [
+     "Use KPIs to ask questions, not to assign blame. When a number moves, ask what changed in process, staffing or supplier behaviour before drawing conclusions. Record decisions and revisit them next month.",
+     "Keep data protection in mind when reporting staff-level metrics, and take advice where needed. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nl-supplier-and-delivery-documentation-review",
+  "title": "Supplier Management and Delivery Documentation: A Quarterly Review",
+  "description": "How operators can keep an approved supplier list, check delivery paperwork and run a quarterly supplier review that supports compliance and cost control.",
+  "minutes": 5,
+  "published": "2026-09-15",
+  "category": "Growth",
+  "keywords": [
+   "supplier management retail",
+   "delivery documentation checks",
+   "approved supplier list",
+   "supplier review quarterly",
+   "goods in procedure",
+   "procurement records operator"
+  ],
+  "sections": [
+   {
+    "heading": "Why supplier discipline pays off",
+    "paras": [
+     "Your records are only as reliable as the documents that feed them. If supplier paperwork is inconsistent, your stock ledger starts wrong and every later reconciliation inherits the problem. Record the delivery time window and the name of the driver or representative, as these details help when a dispute arises.",
+     "A simple supplier management routine also supports negotiation: with data on accuracy and lead times, you can raise problems calmly and with evidence."
+    ]
+   },
+   {
+    "heading": "Maintaining an approved supplier list",
+    "paras": [
+     "Keep a register of approved suppliers with legal entity name, contact, registration details, relevant authorisations you are required to check, payment terms and the date of the last review. Only receive deliveries from suppliers on the list, and require manager approval to add one. Keep a short list of questions to ask at each quarterly review, such as changes in ownership, address or contact details.",
+     "Check authorisations against your licence conditions and programme rules, and keep copies with dates. Diarise renewal or expiry dates so nothing lapses unnoticed."
+    ]
+   },
+   {
+    "heading": "Goods-in checks",
+    "paras": [
+     "Define a goods-in procedure: verify supplier identity and delivery note, compare against the purchase record, count and weigh using calibrated equipment, record discrepancies on the day and have the receiver sign. Hold anything doubtful in a separate area until resolved. Document how you handle a rejected delivery, including who is notified and how the stock is returned or disposed of.",
+     "Scan paperwork into the receipt record the same day. Keep calibration certificates for scales on file."
+    ]
+   },
+   {
+    "heading": "The quarterly supplier scorecard",
+    "paras": [
+     "Score each supplier on delivery accuracy, discrepancy frequency, timeliness, documentation quality, invoice accuracy and responsiveness. Keep the scale simple, for example one to five, and note comments with dates. Archive superseded supplier documents rather than deleting them, so you can show what applied at any point in time.",
+     "A system like Budify can store receipt discrepancies by supplier, which makes the scorecard factual instead of anecdotal. Share results with suppliers and agree actions."
+    ]
+   },
+   {
+    "heading": "Invoices, payments and disputes",
+    "paras": [
+     "Match each invoice to its receipt before payment, and log any dispute with dates, amounts and correspondence. Confirm VAT details on invoices with your accountant.",
+     "Contract terms and supply arrangements are specific to your situation. This is general information for operators, not legal advice; confirm requirements with qualified local counsel."
+    ]
+   }
+  ]
+ }
+]
