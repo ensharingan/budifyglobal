@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
+import { createPortal } from 'react-dom';
 import { useLocale, useTranslations } from 'next-intl';
 import { LOCALE_COOKIE } from '@/i18n/locales-shared';
 import { setCookie } from '@/lib/consent/storage';
@@ -61,8 +62,10 @@ export default function RegionSelector({ options }: { options: RegionOption[] })
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20" /></svg>
         <span aria-hidden="true">{country0} · {lang0.toUpperCase()}</span>
       </button>
-      {open && (
-        <div className="fixed inset-0 z-[75] flex items-center justify-center bg-black/50 p-4">
+      {/* Portal to <body>: the header uses backdrop-blur, which makes it the containing block for
+          position:fixed children and would otherwise clip/size the modal to the header. */}
+      {open && typeof document !== 'undefined' && createPortal(
+        <div className="fixed inset-0 z-[75] flex items-center justify-center overflow-y-auto bg-black/50 p-4">
           <div ref={ref} role="dialog" aria-modal="true" aria-labelledby="sel-title" className="w-full max-w-md rounded-xl bg-white p-6 shadow-xl">
             <h2 id="sel-title" className="text-lg font-semibold">{t('title')}</h2>
             <p className="mt-2 text-sm text-ink-muted">{t('intro')}</p>
@@ -86,7 +89,8 @@ export default function RegionSelector({ options }: { options: RegionOption[] })
               <button type="button" className="min-h-[44px] flex-1 rounded-md border-2 border-ink-muted px-4 py-2 font-semibold hover:bg-surface-alt" onClick={() => { setOpen(false); btnRef.current?.focus(); }}>{t('close')}</button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body,
       )}
     </>
   );
