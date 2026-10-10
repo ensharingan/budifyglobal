@@ -5,7 +5,7 @@ import { buildMetadata } from '@/lib/seo';
 import { LocaleLink } from '@/components/LocaleLink';
 import { Container, Notice } from '@/components/ui/Page';
 import JsonLd from '@/components/JsonLd';
-import { ARTICLES, articlesFor, isPublishedIn } from '@root/content/articles';
+import { ARTICLES, articlesFor, isPublishedIn, localize, categoryLabel } from '@root/content/articles';
 import { coverFor } from '@/lib/articleCover';
 import { SITE_URL } from '@/lib/site';
 import { localizedPath } from '@/i18n/paths';
@@ -15,26 +15,28 @@ export function generateStaticParams() { return LOCALES.flatMap((locale) => ARTI
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
-  const a = ARTICLES.find((x) => x.slug === slug);
-  if (!isLocale(locale) || !a || !isPublishedIn(a, countryOf(locale))) return {};
+  const a0 = ARTICLES.find((x) => x.slug === slug);
+  if (!isLocale(locale) || !a0 || !isPublishedIn(a0, countryOf(locale))) return {};
+  const a = localize(a0, locale);
   const t = await getTranslations({ locale, namespace: 'meta' });
   return { keywords: a.keywords, ...buildMetadata({ locale, internalPath: `/resources/${slug}`, title: a.title, description: a.description, siteName: t('siteName'), titleTemplate: t('titleTemplate') }) };
 }
 
 export default async function Article({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
-  const a = ARTICLES.find((x) => x.slug === slug);
-  if (!isLocale(locale) || !a || !isPublishedIn(a, countryOf(locale))) notFound();
+  const a0 = ARTICLES.find((x) => x.slug === slug);
+  if (!isLocale(locale) || !a0 || !isPublishedIn(a0, countryOf(locale))) notFound();
+  const a = localize(a0, locale);
   setRequestLocale(locale);
   const t = await getTranslations();
   const cover = coverFor(a.category, marketOf(locale).visuals === 'sa');
-  const related = articlesFor(countryOf(locale)).filter((x) => x.slug !== a.slug && x.category === a.category).slice(0, 3);
+  const related = articlesFor(countryOf(locale)).map((x) => localize(x, locale)).filter((x) => x.slug !== a.slug && x.category === a.category).slice(0, 3);
   return (
     <Container className="max-w-3xl py-12">
       <LocaleLink href="/resources" className="text-sm font-medium text-brand-dark underline">← {t('common.backTo', { page: t('nav.resources') })}</LocaleLink>
-      {locale.split('-')[0] !== 'en' && <div className="mt-4"><Notice>{t('resources.englishOnly')}</Notice></div>}
-      <article lang="en" className="mt-6">
-        {a.category && <span className="rounded-full bg-brand/10 px-3 py-1 text-xs font-bold text-brand-dark">{a.category}</span>}
+      {locale.split('-')[0] !== 'en' && !a.translated && <div className="mt-4"><Notice>{t('resources.englishOnly')}</Notice></div>}
+      <article lang={a.lang} className="mt-6">
+        {a.category && <span className="rounded-full bg-brand/10 px-3 py-1 text-xs font-bold text-brand-dark">{categoryLabel(a.category, a.lang)}</span>}
         <h1 className="mt-4 text-3xl font-extrabold tracking-tight sm:text-5xl">{a.title}</h1>
         <p className="mt-3 text-sm text-ink-muted"><time dateTime={a.published}>{a.published}</time> · {t('resources.readTime', { minutes: a.minutes })}</p>
         {a.keywords && <div className="mt-4 flex flex-wrap gap-1.5">{a.keywords.map((k) => (<span key={k} className="rounded-full bg-brand/5 px-2.5 py-0.5 text-xs text-brand-dark">{k}</span>))}</div>}
@@ -55,12 +57,12 @@ export default async function Article({ params }: { params: Promise<{ locale: st
         <LocaleLink href="/contact" className="mt-6 inline-flex min-h-[48px] items-center rounded-lg bg-white px-8 text-sm font-bold uppercase tracking-wider text-brand-dark hover:bg-brand-soft">{t('common.bookDemo')}</LocaleLink>
       </div>
       {related.length > 0 && (
-        <aside lang="en" className="mt-12"><h2 className="text-xl font-bold">More in {a.category}</h2>
+        <aside lang={a.lang} className="mt-12"><h2 className="text-xl font-bold">{categoryLabel(a.category, a.lang)}</h2>
           <ul className="mt-4 grid gap-4 sm:grid-cols-3">{related.map((r) => (<li key={r.slug}><LocaleLink href={`/resources/${r.slug}`} className="block h-full rounded-xl border border-brand/10 bg-white p-4 text-sm font-semibold hover:border-brand/40">{r.title}</LocaleLink></li>))}</ul>
         </aside>
       )}
       <p className="mt-10 text-sm text-ink-muted">{t('common.b2bOnly')}</p>
-      <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: a.title, description: a.description, datePublished: a.published, inLanguage: 'en', mainEntityOfPage: SITE_URL + localizedPath(locale, `/resources/${slug}`), publisher: { '@type': 'Organization', name: 'Budify' } }} />
+      <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: a.title, description: a.description, datePublished: a.published, inLanguage: a.lang, mainEntityOfPage: SITE_URL + localizedPath(locale, `/resources/${slug}`), publisher: { '@type': 'Organization', name: 'Budify' } }} />
     </Container>
   );
 }

@@ -1,0 +1,1002 @@
+[
+  {
+    "slug": "ch-pilot-participant-register-design",
+    "title": "Concevoir le registre des participants d'un projet pilote suisse",
+    "description": "Comment structurer le registre des participants d'un projet pilote autorisé en Suisse : champs, identifiants, changements de statut et piste d'audit fiable.",
+    "keywords": [
+      "registre des participants projet pilote suisse",
+      "tenue des dossiers projet pilote",
+      "logiciel registre des participants",
+      "administration projet pilote autorisé",
+      "conformité documentaire projet pilote suisse",
+      "modèle registre participants étude"
+    ],
+    "sections": [
+      {
+        "heading": "Pourquoi le registre est la colonne vertébrale d'un projet pilote",
+        "paras": [
+          "Tout projet pilote autorisé en Suisse repose sur un document central : le registre des participants. Que le projet soit conduit par une commune partenaire, une institution de recherche ou une organisation exploitante, on lui demandera tôt ou tard de montrer qui a participé, quand, à quelles conditions et à quelle date la personne est sortie du programme. Un registre complet, cohérent et traçable répond à ces questions en quelques minutes plutôt qu'en plusieurs jours.",
+          "Partez de votre autorisation et de votre protocole d'étude plutôt que d'un tableur vierge. Dressez la liste de toutes les données que ces documents exigent de conserver, puis n'ajoutez que les champs opérationnels dont vous avez réellement besoin. Le registre doit décrire le statut de la personne dans le programme, pas toute sa vie. Rester sobre dès le départ facilite beaucoup la protection des données et les audits."
+        ]
+      },
+      {
+        "heading": "Les champs qui ont leur place dans le registre",
+        "paras": [
+          "Un registre pratique contient en général un code de participant unique, la date d'inscription, le résultat du contrôle d'éligibilité avec sa date et le nom de la personne qui l'a effectué, la version du consentement signée, le statut actuel (actif, suspendu, retiré, terminé) et la date de chaque changement de statut. Ajoutez le site ou le canton d'inscription si votre programme couvre plusieurs lieux. Utilisez un code sans signification personnelle, afin que les exports puissent circuler en interne sans révéler d'identité.",
+          "Conservez les données d'identité, comme le nom et la date de naissance, dans une table distincte à accès restreint, reliée par le code. Les préférences de contact, dont la langue de correspondance du participant (allemand, français ou italien), sont des champs opérationnels utiles. Évitez les champs de notes en texte libre, qui poussent le personnel à consigner des opinions ou des détails sensibles ; privilégiez des motifs prédéfinis, à choisir dans une liste déroulante, pour les changements de statut."
+        ]
+      },
+      {
+        "heading": "Changements de statut et piste d'audit",
+        "paras": [
+          "Les registres échouent le plus souvent aux audits à cause de modifications silencieuses. Lorsqu'un participant est suspendu ou retiré, la fiche doit indiquer qui a modifié le statut, quand et pourquoi, tout en laissant la valeur précédente visible. Écraser une cellule détruit précisément la preuve que recherche un inspecteur. Que vous utilisiez une base de données ou un système dédié, exigez un historique en ajout seul (append-only) pour les champs de statut, de consentement et d'éligibilité.",
+          "Définissez un petit nombre de transitions autorisées. Par exemple, un participant retiré ne peut pas redevenir actif sans une nouvelle fiche d'inscription et un nouveau consentement. Inscrire ces règles dans le système plutôt que de compter sur la mémoire du personnel réduit les erreurs en période chargée et vous donne une réponse simple lorsque l'organe de surveillance demande comment vous empêchez les modifications non autorisées."
+        ]
+      },
+      {
+        "heading": "Erreurs courantes à éviter",
+        "paras": [
+          "Une erreur fréquente consiste à dupliquer le registre entre un tableur et une base de données, de sorte que deux versions de la vérité divergent peu à peu. Choisissez une seule source de référence et considérez tout le reste comme un extrait en lecture seule, daté.",
+          "Une autre consiste à collecter des champs « au cas où ». Chaque champ supplémentaire doit être tenu à jour, protégé et, un jour, supprimé. Si personne ne sait nommer la décision qui dépend d'un champ, supprimez-le avant le début du programme."
+        ]
+      },
+      {
+        "heading": "Routines quotidiennes et mensuelles",
+        "paras": [
+          "Désignez une personne nommément responsable par site pour contrôler chaque jour ouvrable le registre à la recherche de saisies incomplètes : versions de consentement manquantes, lacunes de statut inexpliquées ou codes en double. Un contrôle de cinq minutes évite l'accumulation de corrections. En fin de mois, rapprochez le nombre de participants actifs du plafond éventuel fixé par votre autorisation ainsi que des effectifs utilisés ailleurs, par exemple dans la planification et les registres de présence.",
+          "Une fois par trimestre, effectuez un contrôle par échantillonnage : choisissez dix dossiers au hasard et suivez chacun de l'éligibilité au consentement puis au statut actuel, en vérifiant que chaque document existe et que les dates concordent. Consignez le résultat et les mesures correctives éventuelles. Un système comme Budify peut tenir automatiquement les historiques de statut et les journaux « qui a modifié quoi », mais la routine de contrôle reste une responsabilité humaine. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-study-protocol-record-keeping-routines",
+    "title": "Tenue des dossiers du protocole d'étude : une routine pratique pour les exploitants",
+    "description": "Transformez le protocole d'un projet pilote en tâches quotidiennes de documentation : versions, écarts, validations et dossier prêt à être examiné en Suisse.",
+    "keywords": [
+      "tenue des dossiers protocole d'étude",
+      "documentation projet pilote suisse",
+      "registre des écarts au protocole",
+      "gestion des versions documents projet pilote",
+      "documentation projet pilote autorisé",
+      "dossier d'audit projet pilote suisse"
+    ],
+    "sections": [
+      {
+        "heading": "Du texte du protocole aux tâches d'exploitation",
+        "paras": [
+          "Un protocole d'étude est généralement rédigé par des chercheurs et lu une seule fois par le personnel d'exploitation. Le risque est que ses exigences ne deviennent jamais des tâches de routine. Prenez le protocole et extrayez chaque phrase qui contient une obligation de consigner, de déclarer ou de conserver quelque chose. Transformez chacune en une ligne d'une liste de tâches, avec un responsable, une fréquence et un lieu de stockage.",
+          "Cet exercice de traduction révèle souvent des lacunes, comme un journal exigé que personne ne tient, ou deux collaborateurs qui supposent chacun que l'autre détient un document. Faites-le avant l'inscription du premier participant et recommencez à chaque modification du protocole. Gardez la matrice qui en résulte comme document maîtrisé à part entière."
+        ]
+      },
+      {
+        "heading": "Gestion des versions du protocole et des procédures",
+        "paras": [
+          "Les projets pilotes modifient volontiers leurs documents au fil de l'apprentissage. Chaque modification exige un numéro de version, une date d'entrée en vigueur, une brève description du changement et la preuve que le personnel en a été informé. Conservez les versions remplacées au lieu de les supprimer, car vous pourriez devoir démontrer quelles règles s'appliquaient à une date donnée. Une convention de nommage simple, avec version et date, évite le problème courant de deux équipes travaillant à partir de fichiers différents.",
+          "Reliez les enregistrements à la version en vigueur lors de leur création. Si un formulaire de consentement change en mars, le registre doit montrer quelle version chaque participant a signée. Lorsqu'un inspecteur interroge un dossier de février, vous pouvez répondre sans tâtonner. Ce lien est bien plus facile à établir dans un système structuré que dans des dossiers dispersés."
+        ]
+      },
+      {
+        "heading": "Écarts et mesures correctives",
+        "paras": [
+          "Des écarts par rapport au protocole se produiront ; les dissimuler est le vrai problème. Créez un registre des écarts avec la date, la description, la personne qui l'a découvert, la mesure de confinement immédiate, la cause profonde et la mesure corrective, ainsi que la validation du responsable. Gardez un langage factuel et bref. Le personnel doit se sentir en sécurité pour signaler, alors examinez le registre en réunion d'équipe, avec pour but de corriger les processus et non de désigner des coupables.",
+          "Classez les écarts selon leur gravité d'après votre propre procédure écrite et convenez à l'avance de ceux qui doivent être annoncés à l'organe de surveillance. En cas de doute sur une obligation d'annonce, interrogez votre conseil ou l'interlocuteur indiqué dans votre autorisation plutôt que d'attendre. Analysez la tendance du registre chaque trimestre : des écarts répétés du même type signalent une procédure à repenser."
+        ]
+      },
+      {
+        "heading": "Rôles et validations",
+        "paras": [
+          "Désignez un responsable de la conformité au protocole et un suppléant, et consignez leurs tâches par écrit. Sans nom, les tâches qui incombent à tous ne sont faites par personne. Revoyez cette attribution à chaque changement d'effectif.",
+          "Utilisez les signatures avec parcimonie mais de façon significative : un responsable signe le registre des écarts chaque mois, la personne responsable signe la revue trimestrielle. Des signatures apposées machinalement, sans lecture, n'ont aucune valeur probante."
+        ]
+      },
+      {
+        "heading": "Garder le dossier prêt à l'examen",
+        "paras": [
+          "Tenez un index du dossier du programme : documents d'autorisation, versions du protocole, attestations de formation du personnel, registres, journaux et correspondance avec les autorités. Révisez l'index chaque mois et vérifiez que chaque élément listé existe et est à jour. Un dossier toujours presque prêt est bien moins stressant qu'un dossier constitué dans la précipitation la semaine précédant une visite.",
+          "Convenez des durées de conservation avec votre conseil, car elles dépendent de votre autorisation et du droit applicable, et notez-les dans l'index. Définissez qui peut accéder au dossier et journalisez chaque accès aux parties sensibles. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-audit-ready-pilot-file-checklist",
+    "title": "Dossier de projet pilote prêt pour l'audit : liste de contrôle pour les exploitants suisses",
+    "description": "Une liste de contrôle pratique pour garder le dossier de votre projet pilote autorisé prêt à l'inspection : documents, journaux, validations et responsabilités.",
+    "keywords": [
+      "dossier projet pilote prêt pour l'audit",
+      "liste de contrôle inspection projet pilote suisse",
+      "liste de contrôle documents de conformité",
+      "audit projet pilote autorisé",
+      "préparation à l'inspection exploitants",
+      "liste de contrôle documentation projet pilote"
+    ],
+    "sections": [
+      {
+        "heading": "Ce que demande d'abord un inspecteur",
+        "paras": [
+          "Les inspecteurs et les organes de surveillance veulent en général constater que vous faites ce que votre autorisation dit que vous faites. Les premières questions sont donc le plus souvent simples : qui est responsable, où se trouvent les documents et pouvez-vous présenter un exemple récent du début à la fin. Si les réponses sont nettes, le reste de la visite se déroule généralement mieux.",
+          "Préparez une vue d'ensemble d'une page qui indique le responsable, les suppléants, les sites, les langues de travail et l'emplacement de chaque type de document. Mettez-la à jour à chaque changement de personnel. Cette seule page inspire souvent plus confiance qu'un classeur épais, car elle montre que l'organisation comprend son propre système."
+        ]
+      },
+      {
+        "heading": "L'ensemble documentaire de base",
+        "paras": [
+          "Regroupez les documents en cinq lots : autorisation et correspondance, protocole et procédures, personnel et formation, registres et journaux opérationnels, dossiers d'incidents et d'écarts. Pour chaque lot, désignez un responsable et un intervalle de révision. Le dossier de formation d'un collaborateur doit indiquer qui a été formé à quelle version de procédure, quand et par qui, avec une signature ou une attestation équivalente.",
+          "Vérifiez que chaque procédure en vigueur existe dans les langues dans lesquelles votre personnel travaille réellement. En Suisse, les équipes opèrent souvent en allemand, en français ou en italien, et une procédure comprise par la moitié seulement de l'équipe constitue un contrôle faible. Soumettez les traductions à la même gestion des versions que les originaux, afin qu'elles ne divergent jamais."
+        ]
+      },
+      {
+        "heading": "Suivre un dossier de bout en bout",
+        "paras": [
+          "L'exercice le plus révélateur est le test de traçabilité : choisissez un dossier de participant et suivez-le à travers l'inscription, le contrôle d'éligibilité, le consentement, l'historique des statuts et tous les exports ou rapports qui l'ont inclus. Chaque étape doit renvoyer à un document probant daté et signé d'un auteur. Les lacunes décelées lors de votre propre contrôle coûtent peu à corriger ; celles découvertes lors d'une inspection coûtent cher.",
+          "Répétez ce contrôle pour un mouvement de stock si votre programme gère des stocks : de la réception aux enregistrements de stockage puis au rapprochement. Notez chaque étape où une personne a dû deviner ou se fier à sa mémoire, et transformez-la en étape documentée. Conservez les résultats de ces contrôles comme preuve de maîtrise interne."
+        ]
+      },
+      {
+        "heading": "Comportement le jour de la visite",
+        "paras": [
+          "Désignez une personne pour accueillir la visite et une autre pour aller chercher les documents, afin que l'inspecteur n'attende jamais. Répondez aux questions directement et honnêtement ; si vous ne savez pas, dites-le et promettez un suivi daté plutôt que de deviner.",
+          "Tenez un journal de ce qui a été demandé et présenté. Après la visite, organisez un court débriefing, consignez les engagements pris et ajoutez-les à la liste d'actions avec leurs responsables."
+        ]
+      },
+      {
+        "heading": "Répétition et suivi",
+        "paras": [
+          "Organisez une inspection simulée deux fois par an avec une personne qui ne travaille pas quotidiennement dans le programme, par exemple un responsable d'un autre site ou un conseiller externe. Remettez-lui la page de synthèse et demandez-lui de réclamer des documents au hasard. Chronométrez le temps de recherche et notez chaque hésitation.",
+          "Consignez les constats dans une liste d'actions avec responsables et échéances, et suivez l'avancement à la réunion de direction suivante. Traitez la liste de contrôle comme un document vivant et non comme un projet ponctuel. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-daily-stock-reconciliation-pilot",
+    "title": "Rapprochement quotidien des stocks sur les sites d'un projet pilote",
+    "description": "Une routine simple de rapprochement quotidien pour le stock d'un projet pilote autorisé : comptages, mouvements, écarts et validation, en grammes et en CHF.",
+    "keywords": [
+      "rapprochement quotidien des stocks",
+      "registres de stock projet pilote",
+      "routine de comptage de stock",
+      "validation des écarts d'inventaire",
+      "registres de stock contrôlé suisse",
+      "logiciel de rapprochement des stocks"
+    ],
+    "sections": [
+      {
+        "heading": "Pourquoi rapprocher chaque jour",
+        "paras": [
+          "Les registres de stock dérivent en silence. Une saisie oubliée le lundi devient un manque inexplicable le vendredi, et en fin de mois plus personne ne se souvient de ce qui s'est passé. Un rapprochement quotidien maintient l'écart entre le comptage physique et l'enregistrement du système assez réduit pour pouvoir être expliqué. Dans un projet pilote réglementé, où vous pouvez devoir rendre compte de chaque unité, cette discipline fait partie de la démonstration de votre maîtrise.",
+          "Quotidien ne signifie pas lourd. Pour la plupart des sites, un comptage ciblé des lignes mouvementées du jour, complété par un échantillon tournant du reste, prend quinze à vingt minutes. L'essentiel est que la routine soit fixe, écrite et exécutée, lorsque l'effectif le permet, par une personne autre que celle qui a effectué l'essentiel des mouvements de la journée."
+        ]
+      },
+      {
+        "heading": "La routine en cinq étapes",
+        "paras": [
+          "Premièrement, clôturez les transactions de la journée afin qu'aucun mouvement ne soit en cours. Deuxièmement, imprimez ou ouvrez les quantités attendues dans le système. Troisièmement, comptez physiquement, avec une seconde personne qui vérifie ou au moins assiste pour les lignes à risque plus élevé. Quatrièmement, consignez les quantités comptées face aux quantités attendues et calculez chaque différence. Cinquièmement, signez et datez la feuille, ou son équivalent numérique, avec les deux noms.",
+          "Utilisez partout des unités et une précision décimale cohérentes. Peser en grammes alors que le système enregistre en kilogrammes est une source classique d'écarts apparents. Fixez une fois pour toutes l'unité de chaque ligne, documentez-la et intégrez les balances dans un plan d'étalonnage avec enregistrements, car un comptage n'est aussi fiable que l'instrument utilisé."
+        ]
+      },
+      {
+        "heading": "Traiter les différences",
+        "paras": [
+          "Fixez des seuils de tolérance dans votre procédure écrite : les différences dans une marge définie sont consignées et brièvement expliquées ; au-delà, elles déclenchent un nouveau comptage, un examen des mouvements de la journée et une escalade vers un responsable. N'ajustez jamais une quantité pour faire équilibrer la feuille. Chaque correction doit être un ajustement distinct, étiqueté, avec un code de motif et un approbateur.",
+          "Gardez des codes de motif courts et parlants : erreur de comptage, mouvement non enregistré, article endommagé ou périmé, divergence fournisseur, inexpliqué. Examinez chaque semaine la catégorie « inexpliqué ». Un groupe de différences inexpliquées sur la même ligne ou le même service est un signal pour revoir le processus, pas pour lancer des accusations."
+        ]
+      },
+      {
+        "heading": "Formation et séparation des tâches",
+        "paras": [
+          "Les nouveaux collaborateurs doivent observer plusieurs rapprochements avant d'en réaliser un seuls, et le formateur doit valider leur compétence. Documentez cela dans la matrice de formation pour pouvoir montrer qui est qualifié.",
+          "Lorsque la taille de l'équipe le permet, séparez les personnes qui enregistrent les mouvements de celles qui vérifient les comptages. Sinon, ajoutez un contrôle périodique par un responsable d'un autre site, ce qui rétablit une certaine indépendance à moindre coût."
+        ]
+      },
+      {
+        "heading": "Rapports et outils",
+        "paras": [
+          "Résumez chaque semaine les résultats du rapprochement sur une page : nombre de comptages, nombre de différences, total des ajustements et enquêtes en cours. Indiquez la valeur monétaire des ajustements en CHF à l'intention de la direction, même si le projet pilote n'est pas piloté par le chiffre d'affaires, car cela aide les collègues des finances à repérer les tendances. Conservez les feuilles selon la même règle de conservation que les autres documents du programme.",
+          "Un système comme Budify peut enregistrer les quantités comptées par rapport aux quantités attendues et verrouiller l'historique des ajustements contre toute modification. Quel que soit l'outil, assurez-vous qu'il consigne qui a fait quoi et quand. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-investigating-stock-variances",
+    "title": "Enquêter sur les écarts de stock sans conjectures",
+    "description": "Une méthode structurée pour enquêter sur les écarts d'inventaire dans un projet pilote autorisé : preuves, chronologie, cause profonde et mesure corrective.",
+    "keywords": [
+      "enquête sur écart de stock",
+      "cause profonde écart d'inventaire",
+      "contrôle de stock projet pilote",
+      "piste d'audit inventaire",
+      "modèle de rapport d'écart",
+      "contrôle des stocks suisse"
+    ],
+    "sections": [
+      {
+        "heading": "Traiter chaque écart comme un petit dossier",
+        "paras": [
+          "Lorsqu'un comptage ne correspond pas à l'enregistrement, l'instinct est de recompter jusqu'à ce que le chiffre paraisse juste. Une meilleure approche consiste à ouvrir un court dossier : date, ligne concernée, quantité attendue et quantité comptée, qui a compté, qui a mouvementé la ligne en dernier. Cela donne un point de départ à l'enquête et laisse une trace si l'affaire est réexaminée plus tard.",
+          "Résistez à l'envie de désigner une cause avant d'avoir réuni des preuves. De nombreux écarts s'avèrent être des problèmes d'enregistrement, comme un transfert saisi sur le mauvais site, plutôt qu'une perte physique. Rester factuel pendant la première heure évite des soupçons injustes envers des collègues et préserve la crédibilité de l'enquête auprès de la direction et de tout organe de surveillance."
+        ]
+      },
+      {
+        "heading": "Reconstituer la chronologie",
+        "paras": [
+          "Extrayez tous les mouvements de la ligne depuis le dernier comptage concordant : réceptions, transferts, ajustements, passages en perte et retours éventuels. Classez-les par ordre chronologique avec l'utilisateur qui a saisi chacun. Comparez avec les bons de livraison papier, les feuilles de remise et les plannings d'équipes. Souvent la rupture saute aux yeux : une saisie manquante, une saisie en double ou deux chiffres inversés.",
+          "Si la chronologie n'explique pas la différence, étendez la recherche aux lignes voisines aux noms ou unités similaires, car les confusions d'étiquetage sont fréquentes. Vérifiez les enregistrements d'étalonnage des balances et les modifications récentes du logiciel. Documentez chaque vérification même lorsqu'elle ne donne rien, car les causes écartées font partie de la preuve."
+        ]
+      },
+      {
+        "heading": "Cause profonde et mesure corrective",
+        "paras": [
+          "Une fois la cause identifiée, demandez-vous pourquoi le processus l'a permise. Deux chiffres inversés renvoient à un contrôle de saisie ; une réception manquante renvoie aux routines d'entrée des marchandises ; un étiquetage erroné répété renvoie à l'aménagement du stockage. Rédigez la mesure corrective avec un responsable et une date, puis vérifiez ensuite qu'elle a effectivement réduit les écarts similaires.",
+          "Distinguez la correction des enregistrements de l'action sur le processus. Corriger l'enregistrement rétablit le solde d'aujourd'hui ; modifier le processus protège demain. Lorsqu'un écart reste totalement inexpliqué, escaladez selon votre procédure écrite et examinez si une annonce à l'autorité compétente est requise par votre autorisation. En cas de doute, consultez votre conseil."
+        ]
+      },
+      {
+        "heading": "Communiquer les résultats",
+        "paras": [
+          "Partagez les conclusions avec les personnes concernées avant qu'elles ne figurent dans un rapport. Les collègues apportent souvent le détail manquant, et un traitement équitable maintient l'équipe disposée à signaler tôt les problèmes. Gardez un ton centré sur le processus.",
+          "Résumez chaque cas clos en deux ou trois lignes pour la direction : ce qui s'est passé, le montant en CHF le cas échéant, ce qui change. Escaladez sans délai si le cas laisse supposer un comportement délibérément fautif, et impliquez votre conseil avant toute mesure à l'encontre d'une personne."
+        ]
+      },
+      {
+        "heading": "Apprendre des tendances",
+        "paras": [
+          "Examinez chaque mois les cas clos et classez-les par cause, ligne, service et site. Des tendances apparaissent vite : peut-être la plupart des différences surviennent-elles le lundi après les remises du week-end, ou concernent-elles une zone de stockage. Partagez les constats avec l'équipe en termes simples, en insistant sur les correctifs.",
+          "Fixez un indicateur simple, comme la part des comptages présentant des écarts inexpliqués, et suivez son évolution. Un chiffre en baisse montre que les contrôles fonctionnent. Conservez les dossiers d'enquête pendant la durée exigée par votre politique de conservation. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-batch-lot-traceability-records",
+    "title": "Registres de traçabilité par lot pour les stocks réglementés",
+    "description": "Comment tenir des registres de traçabilité par lot qui relient réceptions, stockage, transferts et élimination pour le stock d'un projet pilote autorisé.",
+    "keywords": [
+      "registres de traçabilité par lot",
+      "logiciel de suivi des lots stock",
+      "traçabilité projet pilote",
+      "piste d'audit mouvements de stock",
+      "documentation de traçabilité suisse",
+      "tenue des dossiers de lots"
+    ],
+    "sections": [
+      {
+        "heading": "Ce que signifie la traçabilité en pratique",
+        "paras": [
+          "La traçabilité est la capacité de suivre un article depuis son entrée dans vos locaux jusqu'à sa sortie du stock, et d'indiquer qui l'a manipulé entre-temps. Pour un projet pilote autorisé, c'est souvent une attente explicite de l'organe de surveillance. Même lorsqu'elle ne l'est pas, c'est la meilleure protection dont vous disposez lorsqu'une question se pose au sujet d'une quantité précise.",
+          "Imaginez que chaque lot ait une histoire en quelques chapitres fixes : réception, identification, stockage, mouvement interne, mise à disposition et, le cas échéant, élimination ou retour. Un enregistrement par chapitre, avec date, quantité, emplacement et personne, suffit à reconstituer cette histoire sans dépendre de la mémoire de quiconque."
+        ]
+      },
+      {
+        "heading": "Identifiants et étiquetage",
+        "paras": [
+          "Attribuez à chaque lot un identifiant interne dès l'entrée des marchandises, même si le fournisseur fournit le sien. Le code interne doit être unique, court et imprimé sur une étiquette apposée sur le contenant. Consignez la référence du fournisseur à côté pour pouvoir faire le lien. Ne réutilisez jamais un code et ne rééquetez jamais sans journaliser le changement.",
+          "Gardez un format d'étiquette homogène sur tous les sites. Si votre équipe travaille en allemand, en français et en italien, utilisez des codes et des symboles plutôt que des mots, de sorte qu'un collègue lisant une étiquette sur un autre site n'ait jamais de doute. Testez l'étiquetage en demandant à une personne d'une autre équipe de retrouver un lot à l'aide du seul code et de l'enregistrement."
+        ]
+      },
+      {
+        "heading": "Mouvements et emplacements",
+        "paras": [
+          "Journalisez chaque transfert interne, même d'une étagère à une autre, si votre procédure considère les emplacements comme contrôlés. Indiquez l'emplacement de départ et d'arrivée, la quantité, l'heure et les deux personnes concernées lorsqu'un contrôle à deux personnes s'applique. Les mouvements entre sites exigent des saisies documentées d'expédition et de réception, avec vérification que les quantités concordent aux deux extrémités.",
+          "Rapprochez périodiquement les emplacements en parcourant le stock avec une liste et en confirmant que chaque lot se trouve où l'enregistrement l'indique. Les différences entre emplacements enregistrés et réels sont des signes avant-coureurs d'un relâchement des pratiques. Traitez-les avec le même sérieux que les écarts de quantité."
+        ]
+      },
+      {
+        "heading": "Tester votre traçabilité",
+        "paras": [
+          "Une fois par trimestre, réalisez un exercice de rappel simulé : choisissez un lot et, dans un délai donné, listez où est parvenue chaque quantité. L'exercice révèle les lacunes des enregistrements bien mieux que la lecture des procédures. Notez le temps nécessaire et les quantités qui n'ont pas pu être justifiées.",
+          "Servez-vous des résultats pour affiner les formulaires et la formation. Visez une réduction du temps de recherche à chaque trimestre et conservez les rapports d'exercice dans le dossier du programme comme preuve d'un contrôle actif."
+        ]
+      },
+      {
+        "heading": "Élimination, retours et clôture",
+        "paras": [
+          "Clôturez chaque lot par un enregistrement final. L'élimination exige sa propre procédure documentée : motif, témoins, méthode et quantité, avec signature. Les retours demandent la même traçabilité que les réceptions. Ne laissez jamais un lot simplement disparaître du rapport ; un solde nul assorti d'une écriture de clôture raconte une histoire complète.",
+          "Un historique unique et lié pour chaque lot permet de répondre rapidement aux questions d'un inspecteur. Si vous utilisez du papier ou des tableurs, ajoutez une étape de recoupement pour que les enregistrements et les étiquettes concordent. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-participant-enrolment-eligibility-checks",
+    "title": "Inscription des participants et contrôles d'éligibilité : bien les consigner",
+    "description": "Une démarche pas à pas pour documenter l'inscription et l'éligibilité dans un projet pilote autorisé, avec versions du consentement et validation du personnel.",
+    "keywords": [
+      "processus d'inscription des participants",
+      "registres de contrôle d'éligibilité",
+      "inscription projet pilote suisse",
+      "suivi des versions du consentement",
+      "logiciel de gestion des membres",
+      "liste de contrôle accueil des participants"
+    ],
+    "sections": [
+      {
+        "heading": "L'inscription comme processus maîtrisé",
+        "paras": [
+          "L'inscription est le moment où le programme assume des obligations envers une personne ; elle mérite donc une séquence fixe. Mettez-la par écrit : information donnée, critères d'éligibilité vérifiés, consentement recueilli, fiche créée au registre, code de participant attribué. Chaque étape produit un enregistrement, et aucune n'est omise par commodité, même un jour chargé.",
+          "Seul le personnel ayant suivi la formation à la procédure en vigueur doit inscrire des participants. Tenez une liste du personnel autorisé à inscrire, avec ses dates de formation. En cas d'absence, le remplaçant doit figurer sur cette liste. Cette règle simple évite qu'un collègue temporaire non formé n'exécute une étape critique."
+        ]
+      },
+      {
+        "heading": "Documenter l'éligibilité",
+        "paras": [
+          "Les critères d'éligibilité proviennent de votre autorisation et de votre protocole, pas des usages locaux. Convertissez-les en une liste de contrôle que le personnel coche, avec la date et le nom du contrôleur. Consignez uniquement le résultat et le type de document consulté, par exemple qu'une pièce d'identité a été vue, et évitez de copier des documents dans les dossiers sauf si votre procédure l'exige expressément.",
+          "Lorsque les critères dépendent de dates ou du lieu de résidence, consignez la date du contrôle, car les situations évoluent. Définissez ce qui se passe lorsqu'une personne ne remplit pas un critère : le résultat est consigné sans conserver de détails superflus, et la personne est informée dans sa langue. Les candidats refusés ne doivent pas rester dans le registre actif."
+        ]
+      },
+      {
+        "heading": "Consentement et information en trois langues",
+        "paras": [
+          "Les formulaires de consentement et les notices d'information doivent exister dans les langues utilisées par vos participants, en Suisse typiquement l'allemand, le français ou l'italien, et chaque version doit être maîtrisée. Consignez la version signée, la date et le collaborateur présent. Si le formulaire change, prévoyez comment informer de nouveau les participants existants et recueillir un nouveau consentement, et consignez-le aussi.",
+          "Assurez-vous que le collaborateur peut expliquer le contenu dans la langue du participant, ou faites appel à un interprète et notez-le. Une signature sur un formulaire que la personne n'a pas compris constitue une preuve fragile. Remettez une copie au participant et conservez l'original selon la règle de conservation."
+        ]
+      },
+      {
+        "heading": "Gérer les exceptions et les retraits",
+        "paras": [
+          "Les exceptions exigent une voie documentée. Si une personne ne peut pas fournir un document requis lors de la première visite, le dossier reste en attente et une date de finalisation est fixée. Aucune exception ne doit permettre à un participant d'être actif avant que la liste de contrôle ne soit complète.",
+          "Les retraits suivent leur propre procédure succincte : consigner la date et le code de motif, désactiver le code, informer la personne du sort réservé à ses données et archiver selon le calendrier de conservation."
+        ]
+      },
+      {
+        "heading": "Contrôles qualité et outils",
+        "paras": [
+          "Effectuez chaque semaine un échantillon de nouvelles inscriptions en vérifiant que les cinq enregistrements existent et sont cohérents. Cherchez des tendances, comme des heures manquantes ou des omissions répétées d'un même collaborateur, qui révèlent des besoins de formation. Intégrez les constats dans des séances de rappel.",
+          "Un module de gestion des membres dans un système comme Budify peut imposer les étapes obligatoires avant qu'une fiche de participant ne devienne active, ce qui supprime la dépendance à la mémoire. Quel que soit votre outil, maintenez la règle selon laquelle les inscriptions incomplètes restent en attente. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-participant-ids-and-access-logs",
+    "title": "Identifiants des participants et journaux d'accès : des registres de présence propres",
+    "description": "Concevoir identifiants de participants et journaux d'accès pour un site pilote : registres de présence, entrées de visiteurs et minimisation des données.",
+    "keywords": [
+      "système d'identifiants des participants",
+      "journal des accès",
+      "registre de présence projet pilote",
+      "logiciel de contrôle d'accès des membres",
+      "journal d'accès au site suisse",
+      "gestion des cartes de membre"
+    ],
+    "sections": [
+      {
+        "heading": "L'objectif d'un journal d'accès",
+        "paras": [
+          "Un journal d'accès répond à une question étroite : qui est entré sur le site, quand et en vertu de quelle autorisation. Il soutient la sécurité, la responsabilité et, dans un projet pilote, la preuve que seuls des participants inscrits ont utilisé le service. Ce n'est pas un outil pour observer les habitudes des personnes, et il doit être conçu en tenant compte de cette limite.",
+          "Décidez par écrit à quoi sert le journal avant d'en choisir le contenu. Si le but est de confirmer le statut d'inscription et la capacité d'accueil, le journal a besoin du code du participant, de la date, de l'heure et du résultat du contrôle. Le nom, la photographie ou des notes détaillées sont rarement nécessaires et ajoutent du risque sans ajouter de contrôle."
+        ]
+      },
+      {
+        "heading": "Concevoir les identifiants des participants",
+        "paras": [
+          "Utilisez un code de participant aléatoire ou séquentiel, jamais dérivé de la date de naissance ou du nom. Imprimez-le sur une carte, ou affichez-le numériquement, avec un chiffre de contrôle ou un dispositif similaire pour détecter les erreurs de frappe. Conservez le lien avec les données personnelles dans une table distincte, accessible à un petit groupe seulement.",
+          "Prévoyez les cartes perdues : un processus de remplacement avec vérification d'identité, désactivation de l'ancien code et inscription au journal. Ne réattribuez jamais le même code à une autre personne. Lorsqu'un participant se retire, son code est désactivé immédiatement et le journal indique la date."
+        ]
+      },
+      {
+        "heading": "Routine d'enregistrement à l'entrée et exceptions",
+        "paras": [
+          "À l'entrée, le personnel vérifie que le code est actif, que la personne correspond à l'identification que vous détenez selon votre procédure, et que les règles de capacité sont respectées. Le résultat est enregistré automatiquement ou par une saisie rapide. Gardez la routine assez courte pour que les files d'attente ne tentent pas le personnel de la sauter.",
+          "Des exceptions surviendront : une carte périmée, une panne du système, un visiteur ayant un motif légitime comme un inspecteur ou un prestataire. Prévoyez un formulaire papier de secours aux numéros séquentiels et exigez que les saisies de secours soient reportées dans le système le jour même. Les visiteurs ont leur propre journal avec nom, organisation, motif et accompagnant."
+        ]
+      },
+      {
+        "heading": "Erreurs de conception courantes",
+        "paras": [
+          "Évitez de partager un seul identifiant de terminal entre tous les collaborateurs de l'accueil, car le journal ne peut alors pas montrer qui a admis qui. Évitez les remarques en texte libre à l'enregistrement, qui attirent des commentaires personnels n'ayant pas leur place dans le dossier.",
+          "Évitez de conserver les journaux d'accès indéfiniment au motif que le stockage est bon marché. Un journal utile pendant quelques mois peut devenir un risque après des années. Alignez la durée de conservation sur la finalité et documentez-la."
+        ]
+      },
+      {
+        "heading": "Contrôler et supprimer les données",
+        "paras": [
+          "Examinez le journal chaque semaine à la recherche d'anomalies : entrées avec des codes désactivés, entrées hors des heures d'ouverture, contrôles échoués à répétition. Chaque anomalie reçoit une courte note et, si nécessaire, un dossier d'incident. Chaque mois, ne remontez à la direction que des totaux, comme les effectifs de fréquentation et les pics de capacité.",
+          "Fixez une durée de conservation pour les entrées d'accès détaillées, convenez-en avec votre conseiller en protection des données au regard de la LPD, et supprimez ou agrégez selon le calendrier. La suppression planifiée et les comptages agrégés peuvent être automatisés. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-multilingual-sops-de-fr-it",
+    "title": "Procédures opérationnelles multilingues pour équipes germanophones, francophones et italophones",
+    "description": "Rédiger et tenir à jour des procédures en allemand, français et italien pour les sites d'un projet pilote, avec gestion des versions et formation.",
+    "keywords": [
+      "procédures opérationnelles multilingues suisse",
+      "procédures opérationnelles standard allemand français italien",
+      "formation du personnel projet pilote",
+      "exploitation multilingue suisse",
+      "gestion des versions des procédures",
+      "traduction du manuel d'exploitation"
+    ],
+    "sections": [
+      {
+        "heading": "La réalité multilingue de l'exploitation en Suisse",
+        "paras": [
+          "Une organisation suisse peut avoir un siège en allemand, un site en Suisse romande et une base de participants comptant des italophones. Des procédures rédigées dans une seule langue laissent les autres dépendants d'une traduction informelle, source de malentendus. Dans un travail réglementé, c'est une faiblesse de contrôle et non une question de confort.",
+          "Commencez par déterminer qui a besoin de quelle langue pour quelle procédure. Les procédures de sécurité, de tenue des registres et de gestion des incidents doivent exister dans la langue de travail de chaque site. Les politiques de direction peuvent exister dans une langue de référence avec des résumés ailleurs. Consignez cette matrice des langues par écrit et révisez-la chaque année."
+        ]
+      },
+      {
+        "heading": "Texte de référence et traductions",
+        "paras": [
+          "Choisissez une langue de référence pour chaque procédure et traitez les traductions comme des copies maîtrisées. Le texte de référence porte le numéro de version ; les traductions portent le même numéro et s'y réfèrent. Lorsque le texte de référence change, toutes les traductions sont signalées comme périmées jusqu'à leur mise à jour et leur vérification. N'autorisez jamais la modification indépendante d'une traduction.",
+          "Faites appel à des traducteurs professionnels ou à du personnel bilingue qui connaît le sujet, et faites vérifier la terminologie par une seconde personne. Constituez un court glossaire des termes clés dans toutes les langues afin que des mots comme registre, lot ou ajustement soient rendus de façon cohérente. Conservez le glossaire avec les procédures."
+        ]
+      },
+      {
+        "heading": "Rédiger des procédures que l'on suit",
+        "paras": [
+          "Une bonne procédure est courte, en étapes numérotées, avec une action par étape et le rôle responsable nommé. Indiquez l'enregistrement à produire à la fin de chaque étape. Utilisez captures d'écran et formulaires avec modération et tenez-les à jour, car des images périmées minent la confiance dans l'ensemble du document.",
+          "Testez chaque procédure en demandant à une personne qui ne l'exécute pas habituellement d'en suivre les étapes sans aide. Notez où elle hésite. Corrigez avant la diffusion. Ce test révèle généralement les hypothèses implicites plus vite que n'importe quelle réunion de relecture."
+        ]
+      },
+      {
+        "heading": "Gouvernance et cycle de révision",
+        "paras": [
+          "Fixez un cycle de révision, le plus souvent annuel, avec un responsable pour chaque procédure. Les révisions doivent confronter le contenu aux conditions d'autorisation en vigueur, aux incidents de l'année écoulée et aux retours du personnel. Consignez le résultat même si rien ne change.",
+          "Donnez au personnel un moyen simple de proposer des améliorations dans sa propre langue et accusez réception de chaque suggestion. Les procédures que les gens contribuent à façonner sont suivies plus fidèlement."
+        ]
+      },
+      {
+        "heading": "Formation et preuves",
+        "paras": [
+          "Consignez qui a été formé à quelle version et dans quelle langue, avec la date et le formateur. Ajoutez un bref contrôle de compréhension, comme une démonstration de tâche. Pour le personnel temporaire ou à temps partiel, la formation avant le premier service en autonomie est une règle ferme.",
+          "Révisez la matrice de formation chaque trimestre par rapport au tableau du personnel pour détecter les lacunes après un départ. Lorsqu'une procédure change, planifiez les séances de rappel dans toutes les langues sur la même période afin que les sites ne fonctionnent pas selon des règles différentes. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-shift-handover-routines",
+    "title": "Routines de remise de service qui protègent vos registres",
+    "description": "Une routine de remise de service pour les sites d'un projet pilote : quoi transmettre, comment le consigner et comment éviter les pertes d'information.",
+    "keywords": [
+      "liste de contrôle remise de service",
+      "journal de transmission exploitation",
+      "exploitation site projet pilote",
+      "routines d'exploitation suisse",
+      "registre de changement d'équipe",
+      "liste de contrôle gestion de site"
+    ],
+    "sections": [
+      {
+        "heading": "Où l'information se perd",
+        "paras": [
+          "La plupart des erreurs d'exploitation surviennent lors des transitions. La personne sortante sait qu'un comptage a été interrompu, qu'une carte a été déclarée perdue ou qu'une livraison d'un fournisseur attend sa vérification. La personne entrante l'ignore et agit selon l'état du système. Une remise structurée coûte dix minutes et supprime toute cette catégorie de problèmes.",
+          "Traitez la remise comme une activité d'enregistrement. Les échanges oraux sont utiles en appui, mais le contenu important doit être écrit, daté et signé par les deux personnes, afin de pouvoir être relu si un problème survient plus tard."
+        ]
+      },
+      {
+        "heading": "Un formulaire de remise d'une page",
+        "paras": [
+          "Concevez une page unique aux rubriques fixes : tâches en cours, écarts non résolus, problèmes d'équipement, questions de participants à suivre, observations de sécurité, messages de la direction. Chaque rubrique contient soit une note, soit le mot « néant ». Les champs vides sont interdits, car vide peut signifier oublié.",
+          "Les questions de participants doivent être rédigées avec des codes plutôt que des noms, conformément à la minimisation des données. Conservez les informations détaillées dans le dossier approprié et n'utilisez la note de remise que pour y renvoyer. Cette habitude rend le document de remise peu risqué s'il est laissé sur un bureau."
+        ]
+      },
+      {
+        "heading": "Contrôles physiques et système",
+        "paras": [
+          "Associez la remise écrite à une courte routine physique : confirmer que les réserves sont fermées à clé, que les clés sont toutes présentes, que la caisse ou les terminaux de paiement sont rapprochés en CHF le cas échéant, et que les comptages prévus ce jour-là sont faits. La personne entrante ne signe qu'après avoir vérifié les éléments qu'elle reprend.",
+          "Vérifiez aussi l'état du système : transactions en attente, synchronisations échouées, messages de sauvegarde et alertes ouvertes. Si le système est hors service au moment de la remise, consignez-le et passez à la procédure de secours. Évitez de transmettre les problèmes en silence."
+        ]
+      },
+      {
+        "heading": "Numérique ou papier",
+        "paras": [
+          "Les formulaires papier sont robustes et rapides, mais difficiles à rechercher et peuvent être égarés. Les formulaires numériques ajoutent l'horodatage et la recherche, mais exigent des appareils et des identifiants. Choisissez selon les conditions du site et gardez un formulaire papier de secours en cas de panne.",
+          "Quel que soit votre choix, uniformisez les rubriques sur tous les sites et dans toutes les langues, et formez chaque nouvelle recrue au formulaire dès sa première semaine."
+        ]
+      },
+      {
+        "heading": "Contrôler les remises",
+        "paras": [
+          "Un responsable doit lire chaque vendredi les formulaires de remise de la semaine, à la recherche de problèmes récurrents. Des pannes d'équipement répétées, des comptages tardifs récurrents ou le même écart non résolu suggèrent une cause profonde à traiter au-delà du niveau de l'équipe.",
+          "Conservez les formulaires dans le dossier du site pendant la durée fixée par votre règle de conservation. Les formulaires numériques horodatés sont plus faciles à rechercher que le papier. Quel que soit le format choisi, veillez à ce que tout le monde utilise le même. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-multi-site-operations-across-cantons",
+    "title": "Gérer un projet pilote multi-sites dans plusieurs cantons suisses",
+    "description": "Comment garder registres, stocks et effectifs cohérents sur plusieurs sites de cantons différents, en respectant les conditions locales et votre autorisation.",
+    "keywords": [
+      "exploitation multi-sites suisse",
+      "différences cantonales projet pilote",
+      "projet pilote plusieurs sites",
+      "registres cohérents entre sites",
+      "gestion de sites exploitants suisses",
+      "reporting centralisé projet pilote"
+    ],
+    "sections": [
+      {
+        "heading": "Cohérence et conditions locales",
+        "paras": [
+          "La Suisse est une fédération, et les autorités de différents cantons peuvent fixer ou interpréter les conditions différemment. Un exploitant disposant de plusieurs sites doit donc distinguer ce qui est commun à tous, comme les formats d'enregistrement et les routines de contrôle, de ce qui est local, comme les interlocuteurs pour les annonces ou les conditions propres à un site dans l'autorisation.",
+          "Créez un profil simple pour chaque site : responsable, conditions applicables, langue, interlocuteur auprès de l'autorité compétente, heures d'ouverture et capacité. Gardez-le sous gestion de versions et révisez-le à chaque changement de conditions. Ne supposez pas que ce qu'un canton a accepté le sera dans un autre ; confirmez localement."
+        ]
+      },
+      {
+        "heading": "Un socle commun de registres",
+        "paras": [
+          "Définissez un ensemble minimal de registres que chaque site doit produire dans le même format : registre des participants, rapprochement des stocks, journal des incidents, registre des écarts, matrice de formation et formulaires de remise. Des formats communs permettent une revue centrale sans traduire la structure, même si le texte libre varie selon la langue.",
+          "Utilisez le même format de code de participant et les mêmes codes de motif sur tous les sites. Cela permet de comparer les taux d'écarts entre les lieux et de repérer un site qui s'éloigne de la norme. Les équipes centrales peuvent alors soutenir plutôt que surveiller."
+        ]
+      },
+      {
+        "heading": "Supervision centrale",
+        "paras": [
+          "Nommez un responsable qualité central qui examine le résumé hebdomadaire de chaque site et un échantillon mensuel de registres. Faites tourner les échantillons contrôlés pour que chaque site soit vérifié régulièrement. Documentez la revue, avec constats et suites données, car elle démontre que la direction supervise activement le programme.",
+          "Prévoyez des visites de sites et des audits internes au moins une fois par an. Le personnel en visite doit utiliser la même liste de contrôle pour chaque site afin d'assurer la comparabilité. Partagez les bonnes pratiques découvertes lors des visites par de courts bulletins dans les langues des sites."
+        ]
+      },
+      {
+        "heading": "Communication et escalade",
+        "paras": [
+          "Planifiez un court appel hebdomadaire entre les responsables de site avec un ordre du jour fixe : incidents, écarts, effectifs, changements à venir. Consignez les décisions dans un journal partagé, dans les langues nécessaires. Un contact court et régulier empêche les sites de s'éloigner les uns des autres.",
+          "Définissez une échelle d'escalade avec noms et délais de réponse, afin qu'un site confronté à un incident sache qui appeler et quand la direction centrale doit informer l'autorité. Testez les coordonnées chaque trimestre."
+        ]
+      },
+      {
+        "heading": "Transferts, effectifs et finances",
+        "paras": [
+          "Les transferts de stock entre sites exigent des saisies d'expédition et de réception ainsi qu'un rapprochement des quantités en transit à la fin de chaque journée. Le personnel qui change de site doit confirmer avoir été formé aux différences locales. Les coûts par site doivent être présentés en CHF selon une méthode d'imputation constante, afin que la direction voie quels sites ont besoin de soutien.",
+          "Les données centralisées doivent respecter votre concept de protection des données : limitez les personnes du siège qui peuvent voir des données identifiables de participants et journalisez les accès. Des droits par site dans un système partagé aident, mais la conception des droits reste de votre ressort. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-chf-reporting-vat-exports-pilot",
+    "title": "Reporting en CHF et exports prêts pour la TVA à l'intention des exploitants de projets pilotes",
+    "description": "Structurer les registres financiers et exports en CHF d'un projet pilote : catégories, marquage TVA, rapprochements et fichiers adaptés aux comptables.",
+    "keywords": [
+      "reporting chf projet pilote",
+      "exports prêts pour la tva suisse",
+      "export financier pour fiduciaire",
+      "comptabilité projet pilote",
+      "registres tva suisse exploitants",
+      "logiciel de reporting financier"
+    ],
+    "sections": [
+      {
+        "heading": "Pourquoi les registres financiers comptent dans un projet pilote",
+        "paras": [
+          "Même un projet pilote non conçu pour réaliser un bénéfice laisse une trace financière : frais de personnel, locaux, équipement, logiciels, assurances, analyses et administration. Bailleurs de fonds, partenaires et administration fiscale peuvent tous demander des chiffres, chacun avec une découpe différente. Des registres propres permettent de répondre à tous à partir d'une seule source.",
+          "Convenez dès le départ des rapports nécessaires, de leur fréquence et de leur format. Typiquement : une synthèse mensuelle de gestion en CHF, un rapport trimestriel pour les partenaires et un jeu annuel pour la fiduciaire. Les définir d'avance évite de monter des tableurs à la dernière minute."
+        ]
+      },
+      {
+        "heading": "Catégories et marquage",
+        "paras": [
+          "Concevez un plan de catégories de coûts qui reflète la structure du programme : personnel, locaux, équipement, logiciels, conformité et audit, formation, consommables et frais généraux. Marquez chaque écriture du site et, le cas échéant, de la source de financement. Gardez des catégories stables toute l'année pour que les comparaisons aient un sens.",
+          "La taxe sur la valeur ajoutée en Suisse est un domaine spécialisé, avec des taux et des traitements différents. Marquez chaque transaction du traitement fiscal indiqué par votre fiduciaire plutôt que de deviner, et conservez les factures justificatives. Si votre programme comporte des activités à traitements différents, séparez-les dans la comptabilité dès le début."
+        ]
+      },
+      {
+        "heading": "Routines de rapprochement",
+        "paras": [
+          "Rapprochez au moins une fois par mois les relevés bancaires et ceux des terminaux de paiement avec la comptabilité. Les différences sont examinées et documentées comme les écarts de stock. Si vous encaissez des paiements en francs, consignez séparément les dates de règlement et les frais des prestataires de paiement par rapport aux montants bruts.",
+          "Tenez une liste de contrôle de rapprochement : relevé bancaire pointé, lots de terminaux pointés, positions ouvertes listées avec leur ancienneté, ajustements autorisés. Une seconde personne relit et signe. C'est l'un des contrôles financiers les plus simples et les plus efficaces à la portée de petites équipes."
+        ]
+      },
+      {
+        "heading": "Routine de clôture mensuelle",
+        "paras": [
+          "Utilisez une liste de clôture mensuelle fixe : toutes les factures saisies, banque et terminaux rapprochés, valorisation du stock exportée, comptes de régularisation examinés, rapport émis à un jour ouvrable déterminé. Une clôture reproductible réduit les erreurs et donne aux partenaires un calendrier prévisible.",
+          "Après l'émission, verrouillez la période et consignez toute correction ultérieure comme ajustement distinct le mois suivant, avec une explication. Cela préserve l'intégrité des rapports déjà transmis à des tiers."
+        ]
+      },
+      {
+        "heading": "Exports pour comptables et réviseurs",
+        "paras": [
+          "Demandez à votre fiduciaire quels formats de fichier elle préfère, et configurez un export récurrent avec un ordre de colonnes, un format de date et des champs de devise constants. Joignez un dictionnaire de données expliquant chaque colonne. Exportez toujours avec la période verrouillée, afin que les chiffres ne changent pas après l'émission du rapport.",
+          "Un système comme Budify peut produire des exports de transactions et de valeur de stock pour une période choisie, que la fiduciaire peut importer dans la comptabilité. Contrôlez soigneusement les premiers exports par rapport aux pièces sources et conservez ce contrôle comme preuve. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-budgeting-pilot-programme-costs",
+    "title": "Budgéter un projet pilote : coûts, réserve et reporting",
+    "description": "Un guide pratique pour élaborer et suivre le budget d'un projet pilote en CHF : facteurs de coûts, réserve, analyse des écarts et rapports.",
+    "keywords": [
+      "budget projet pilote",
+      "modèle de budget chf",
+      "contrôle des coûts exploitants projet pilote",
+      "planification financière projet pilote suisse",
+      "analyse des écarts budgétaires",
+      "reporting des coûts du programme"
+    ],
+    "sections": [
+      {
+        "heading": "Partir des activités, non des totaux",
+        "paras": [
+          "Un budget de projet pilote fiable part de la liste des activités exigées par l'autorisation et le protocole : inscription, tenue des registres, contrôle des stocks, formation du personnel, audits internes, rapports et mesures de protection des données. Estimez le temps et les ressources de chacune, puis chiffrez-les en CHF. Les chiffres descendants, comme un pourcentage d'un total supposé, tendent à oublier le travail de conformité.",
+          "Notez les hypothèses à côté de chaque ligne : nombre de participants, nombre de sites, heures par semaine, taux horaires, frais de licence. Quand la réalité diffère, vous voyez quelle hypothèse a failli, au lieu de subir un dépassement mystérieux."
+        ]
+      },
+      {
+        "heading": "Les facteurs de coûts à surveiller",
+        "paras": [
+          "Le temps du personnel est généralement le premier facteur. La tenue des registres et la formation absorbent plus d'heures que les exploitants novices ne l'imaginent, surtout durant les premiers mois. Viennent ensuite les locaux, la sécurité, les assurances et l'étalonnage du matériel. Les coûts de logiciel et de stockage sont comparativement modestes mais doivent être budgétés sur toute la durée, y compris la conservation des données après la fin du projet pilote.",
+          "Ajoutez des lignes pour le conseil externe : juridique, comptable, protection des données et traduction. Dans un pays aux langues de travail multiples, la traduction et la relecture des formulaires et procédures sont un coût récurrent facile à oublier."
+        ]
+      },
+      {
+        "heading": "Réserve et scénarios",
+        "paras": [
+          "Prévoyez une ligne de réserve, souvent exprimée en pourcentage du total, et indiquez à quoi elle sert. Préparez au moins deux scénarios : participation inférieure et supérieure aux prévisions. Montrez comment les effectifs et les coûts évoluent dans chacun. Cela aide les décideurs à comprendre les coûts fixes et variables.",
+          "Définissez des seuils de déclenchement, par exemple : si les dépenses mensuelles dépassent le plan d'une marge donnée deux mois de suite, une réunion de revue est convoquée. Des seuils convenus d'avance évitent les débats sur la gravité d'un écart."
+        ]
+      },
+      {
+        "heading": "Relier le budget aux registres",
+        "paras": [
+          "Reliez les lignes budgétaires aux registres opérationnels qui les déterminent, comme les heures consignées pour la formation ou le nombre de rapprochements effectués. Quand un coût augmente, les registres en donnent souvent la raison, et vous pouvez ajuster le processus plutôt que le seul chiffre.",
+          "Conservez les pièces justificatives des coûts significatifs dans le dossier du programme, indexées par ligne budgétaire, afin de répondre rapidement aux questions des bailleurs de fonds."
+        ]
+      },
+      {
+        "heading": "Suivi et reporting",
+        "paras": [
+          "Comparez chaque mois le réel au budget par catégorie et par site. Expliquez les écarts en une phrase chacun, en distinguant décalages de calendrier et vrais dépassements. Prévoyez le reste de l'année au lieu de seulement rendre compte du passé.",
+          "Conservez les versions du budget : initiale, révisée, avec dates et motifs. Les partenaires apprécient une explication claire des modifications. Alignez le format de vos rapports sur les attentes des bailleurs de fonds ou des organes de surveillance, et demandez-leur tôt ce dont ils ont besoin. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-data-minimisation-participant-records",
+    "title": "Minimisation des données dans les dossiers de participants selon la LPD",
+    "description": "Appliquer la minimisation des données aux registres et journaux des participants d'un projet pilote suisse : finalités, revue des champs et exports sûrs.",
+    "keywords": [
+      "minimisation des données dossiers participants",
+      "lpd projet pilote",
+      "protection des données exploitants suisse",
+      "protection des données des participants",
+      "cartographie des données projet pilote",
+      "protection des données dès la conception"
+    ],
+    "sections": [
+      {
+        "heading": "Ce que la minimisation des données exige de vous",
+        "paras": [
+          "Le droit suisse de la protection des données, généralement désigné par l'abréviation LPD, attend que les données personnelles ne soient traitées que dans la mesure nécessaire à une finalité claire. Pour un projet pilote, cela signifie que chaque champ de chaque registre doit exister parce que l'autorisation, le protocole ou un véritable besoin opérationnel l'exige. La simple commodité n'est pas une bonne raison.",
+          "La participation à un programme réglementé pouvant elle-même être sensible, le soin que vous apportez aux informations des participants fait partie de votre crédibilité. Demandez à votre conseiller en protection des données comment la loi s'applique à votre situation particulière ; cet article propose une méthode pratique et non une interprétation de la loi."
+        ]
+      },
+      {
+        "heading": "Relier finalités et champs",
+        "paras": [
+          "Créez un tableau à trois colonnes : le champ, la finalité qu'il sert et l'exigence d'origine. Passez en revue chaque registre, formulaire et export. Les champs sans finalité sont supprimés des formulaires et des bases de données. Ceux dont la justification est faible sont examinés avec votre conseiller.",
+          "Faites ce travail pour chaque système, y compris les tableurs des responsables, les pièces jointes d'e-mails et les groupes de messagerie. Les copies fantômes sont là où la minimisation échoue le plus souvent. Une règle claire selon laquelle les données identifiables des participants ne résident que dans des systèmes désignés est plus facile à faire respecter que d'innombrables petites consignes."
+        ]
+      },
+      {
+        "heading": "Choix de conception qui réduisent l'exposition",
+        "paras": [
+          "Utilisez des codes de participant dans les documents opérationnels, la table de correspondance étant conservée séparément. Préférez des fourchettes ou des résultats oui/non aux valeurs exactes lorsque la finalité le permet, par exemple confirmer l'éligibilité plutôt que de conserver le document sous-jacent. Restreignez les champs en texte libre et donnez au personnel des consignes sur ce qu'il ne faut pas écrire.",
+          "Définissez des accès par rôle : le personnel d'accueil voit ce qu'il lui faut pour l'enregistrement, les responsables voient des agrégats, seul un petit groupe voit les données d'identité. Journalisez chaque accès aux tables d'identité. Une visibilité réduite protège les participants et protège aussi le personnel des soupçons en cas d'incident."
+        ]
+      },
+      {
+        "heading": "Formation et culture",
+        "paras": [
+          "Le personnel a besoin de règles pratiques plutôt que de principes abstraits : ne pas photographier les registres, ne pas envoyer de listes de participants par messagerie instantanée, ne pas tenir de carnets personnels. Expliquez pourquoi et proposez des alternatives approuvées.",
+          "Intégrez la protection des données à l'accueil des nouveaux et aux rappels annuels, et consignez les présences. Facilitez le signalement des erreurs, comme un e-mail envoyé à la mauvaise personne, afin de pouvoir les évaluer rapidement."
+        ]
+      },
+      {
+        "heading": "Exports et partage",
+        "paras": [
+          "Avant qu'un export ne quitte le système, demandez-vous ce dont le destinataire a besoin et si des données codées ou agrégées suffiraient. Produisez les rapports pour les partenaires et les évaluateurs au niveau de détail le plus bas qui répond à leur question. Consignez chaque communication externe avec la date, le destinataire, le contenu et la base légale ou contractuelle.",
+          "Révisez les champs et les accès tous les six mois, et à chaque modification du protocole. Documentez la revue. La plupart des systèmes permettent de configurer les champs existants et les personnes autorisées à les consulter, mais les décisions appartiennent à votre organisation. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-retention-and-deletion-schedules",
+    "title": "Calendriers de conservation et de suppression des données d'un projet pilote",
+    "description": "Établissez un calendrier de conservation et de suppression pour les registres d'un projet pilote : catégories, durées, suppression et preuves.",
+    "keywords": [
+      "calendrier de conservation registres projet pilote",
+      "routine de suppression des données",
+      "conservation des documents suisse",
+      "fin de projet pilote données",
+      "gestion du cycle de vie des données",
+      "procédure de suppression des données des participants"
+    ],
+    "sections": [
+      {
+        "heading": "Pourquoi un calendrier est nécessaire",
+        "paras": [
+          "Deux pressions tirent en sens opposés. Les autorités et les protocoles peuvent exiger la conservation de certains documents pendant une durée définie ; les principes de protection des données interdisent de conserver des données personnelles plus longtemps que nécessaire. Un calendrier de conservation écrit concilie les deux en attribuant à chaque type de document une durée justifiée et une action de fin de vie.",
+          "Sans calendrier, les données tendent à s'accumuler indéfiniment dans des dossiers oubliés, ce qui augmente à la fois le risque et le coût. Avec un calendrier, le personnel sait quoi conserver, quoi supprimer et qui décide dans les cas inhabituels."
+        ]
+      },
+      {
+        "heading": "Construire le calendrier",
+        "paras": [
+          "Listez les catégories de documents : registre des participants, formulaires de consentement, contrôles d'éligibilité, journaux d'accès, registres de stock, documents financiers, journaux d'incidents, dossiers de formation, correspondance. Pour chacune, notez le fait déclencheur du délai, comme la fin de la participation ou la fin du projet pilote, la durée de conservation et sa source.",
+          "Les durées de conservation dépendent de votre autorisation, des termes contractuels et d'obligations légales telles que les règles comptables. Ne copiez pas des durées d'un autre pays ou d'un modèle. Faites confirmer chacune par votre conseil, notez la date de confirmation et réexaminez-la si les exigences changent."
+        ]
+      },
+      {
+        "heading": "Routines de suppression et d'anonymisation",
+        "paras": [
+          "Planifiez des passages de suppression périodiques, par exemple trimestriels, avec une personne responsable désignée. Le passage identifie les documents dont la durée est échue, une seconde personne relit la liste, la suppression est exécutée et une écriture au journal consigne la date, la catégorie et le nombre. Intégrez les sauvegardes et les copies à la routine ou documentez la façon dont elles expirent.",
+          "Lorsque des chiffres agrégés sont nécessaires ensuite, anonymisez plutôt que de supprimer, et vérifiez que l'anonymisation empêche réellement la réidentification compte tenu des petits effectifs d'un projet pilote. Les petites cohortes rendent la chose plus difficile qu'il n'y paraît ; demandez conseil."
+        ]
+      },
+      {
+        "heading": "Gouvernance du calendrier",
+        "paras": [
+          "Désignez un responsable du calendrier et révisez-le au moins une fois par an, ainsi qu'à chaque changement de votre autorisation ou de vos contrats. Consignez les versions et les motifs des modifications, comme pour les procédures.",
+          "Intégrez la gestion des exceptions au processus : un blocage juridique ou une enquête en cours peut suspendre la suppression. Documentez qui peut ordonner un blocage, comment il est enregistré et comment il est levé."
+        ]
+      },
+      {
+        "heading": "Retrait d'un participant et fin du projet pilote",
+        "paras": [
+          "Lorsqu'un participant se retire, décidez d'avance quels documents doivent être conservés et pour combien de temps, et lesquels peuvent être supprimés immédiatement. Informez le participant, dans un langage clair et dans sa propre langue, de ce qui subsiste et pourquoi.",
+          "À la fin du projet pilote, procédez à une clôture : rapprochement final, archivage des documents requis dans un lieu sécurisé, suppression de tout le reste et attestation de suppression signée par la personne responsable. Un système comme Budify peut soutenir la suppression planifiée et tenir le journal de suppression, mais le calendrier lui-même doit venir de votre conseil. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-handling-data-subject-requests",
+    "title": "Traiter les demandes des participants sur leurs données : un flux de travail pour les exploitants",
+    "description": "Un flux clair pour recevoir, vérifier et traiter les demandes d'accès, de rectification ou de suppression de données des participants d'un projet pilote suisse.",
+    "keywords": [
+      "demande d'accès aux données des participants",
+      "flux de traitement des demandes de personnes concernées",
+      "demande d'accès lpd",
+      "procédure de confidentialité projet pilote",
+      "demandes de rectification et de suppression",
+      "conseiller à la protection des données exploitants"
+    ],
+    "sections": [
+      {
+        "heading": "Être prêt avant la première demande",
+        "paras": [
+          "Les participants disposent de droits sur leurs données personnelles en vertu du droit suisse de la protection des données, communément désigné par l'abréviation LPD. Une demande peut arriver par courrier, par e-mail ou à l'accueil, en allemand, en français ou en italien. Si personne ne sait quoi en faire, les délais dérapent et la confiance est entamée. Préparez une procédure écrite et veillez à ce que tout le personnel connaisse la première étape : la transmettre immédiatement à la personne responsable désignée.",
+          "Désignez cette personne et un suppléant, publiez une adresse de contact dans l'information aux participants et inscrivez dans la procédure le délai de réponse confirmé par votre conseiller. Ne vous fiez pas à votre mémoire pour les délais ; demandez le bon délai à votre conseil et documentez-le."
+        ]
+      },
+      {
+        "heading": "Enregistrer, vérifier, délimiter",
+        "paras": [
+          "Ouvrez une écriture dans le journal des demandes le jour de réception : date, canal, type de demande, langue et responsable du traitement. Vérifiez l'identité du demandeur de façon proportionnée, sans collecter plus de données que nécessaire. Un code de participant associé à une référence que lui seul connaît peut suffire dans certains cas ; décidez-le dans votre procédure.",
+          "Définissez le périmètre : quels systèmes, registres, journaux et boîtes de messagerie peuvent contenir les données de la personne. Une cartographie des données établie pour la minimisation rend cette étape rapide. Fouillez chaque emplacement et consignez que la recherche a été faite, même si rien n'est trouvé."
+        ]
+      },
+      {
+        "heading": "Préparer la réponse",
+        "paras": [
+          "Rassemblez les données sous une forme lisible, retirez les informations relatives à d'autres personnes et vérifiez si une obligation légale ou contractuelle vous impose de conserver ou de refuser une partie de la demande. Faites relire les cas non courants par votre conseil ou votre conseiller en protection des données avant l'envoi.",
+          "Rédigez la réponse dans la langue du demandeur, en termes simples, et expliquez ce qui a été fourni, ce qui a été retenu et pourquoi. Pour les demandes de rectification, modifiez le dossier en laissant un historique visible. Pour les demandes de suppression, appliquez le calendrier de conservation et indiquez à la personne quels documents doivent subsister."
+        ]
+      },
+      {
+        "heading": "Situations particulières",
+        "paras": [
+          "Certaines demandes sont inhabituelles : émanant d'un représentant, d'un ancien participant après la fin du projet pilote, ou couvrant un périmètre très large. Traitez-les comme des cas non courants et consultez votre conseil avant de répondre.",
+          "Les plaintes relatives à la manière dont les données ont été traitées doivent être consignées séparément et traitées par une personne qui n'a pas participé au traitement initial. Soyez attentif à tout contact des autorités de surveillance et transmettez-le immédiatement à la direction."
+        ]
+      },
+      {
+        "heading": "Boucler la boucle",
+        "paras": [
+          "Consignez la date de la réponse, le contenu envoyé et le moyen utilisé. Conservez le dossier pendant la durée fixée par votre calendrier de conservation. Examinez le journal chaque trimestre pour repérer des tendances, comme de nombreuses demandes sur le même sujet, qui peuvent indiquer une information aux participants peu claire.",
+          "Testez la procédure une fois par an avec une demande fictive pour voir combien de temps elle prend et où elle se bloque. Retrouver les dossiers d'un participant grâce à son code accélère le travail, mais la réponse reste une décision humaine. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-choosing-compliance-software-checklist",
+    "title": "Choisir un logiciel de conformité : liste de contrôle pour les exploitants de projets pilotes",
+    "description": "Une liste de contrôle neutre pour évaluer un logiciel de registres et de stock pour un projet pilote : piste d'audit, droits, langues et sortie.",
+    "keywords": [
+      "liste de contrôle logiciel de conformité",
+      "choisir un logiciel de tenue des registres",
+      "exigences logiciel projet pilote",
+      "fonctions de piste d'audit logiciel",
+      "liste de contrôle évaluation des fournisseurs",
+      "hébergement des données en suisse logiciel"
+    ],
+    "sections": [
+      {
+        "heading": "Partir des exigences, pas des démonstrations",
+        "paras": [
+          "Avant de parler à un fournisseur, écrivez ce que votre autorisation, votre protocole et vos procédures exigent du système : tenir les registres des participants, conserver les historiques, contrôler les stocks, produire des exports, limiter les accès. Classez chaque exigence comme essentielle ou souhaitable. Les démonstrations sont persuasives, et une liste préparée vous évite d'acquérir des fonctions dont vous n'avez pas besoin.",
+          "Associez les personnes qui utiliseront le système chaque jour et la personne responsable de la conformité. Les exploitants remarquent les frictions de flux de travail ; le personnel de conformité remarque les contrôles manquants. Les deux points de vue comptent pour la décision finale."
+        ]
+      },
+      {
+        "heading": "Fonctions de registres et de piste d'audit",
+        "paras": [
+          "Les fonctions essentielles comprennent généralement des historiques en ajout seul pour les champs clés, l'identification de l'utilisateur pour chaque modification, l'horodatage, des périodes verrouillées pour les rapports financiers et de stock, et la possibilité d'exporter les enregistrements complets. Demandez à voir ce que le système affiche lorsqu'une valeur est modifiée puis corrigée. Si la valeur antérieure disparaît, c'est un signal d'alerte.",
+          "Vérifiez la souplesse des rapports : pouvez-vous exporter dans les formats demandés par votre fiduciaire et par l'organe de surveillance, avec les dates, les montants en CHF et les unités que vous utilisez ? Demandez comment les corrections sont traitées et si les rapports peuvent être régénérés pour n'importe quelle date passée."
+        ]
+      },
+      {
+        "heading": "Accès, langues et localisation des données",
+        "paras": [
+          "Vérifiez les droits par rôle, au niveau du champ si nécessaire, les identifiants individuels, l'authentification forte et la gestion des sessions. Demandez où les données sont hébergées, qui peut y accéder et ce qui se passe en cas de support. Les exigences suisses et européennes en matière de protection des données rendent les questions de localisation et de transfert importantes ; associez votre conseiller.",
+          "Vérifiez la prise en charge des langues pour l'interface et pour les impressions en allemand, en français et en italien. Le personnel ne devrait pas avoir à travailler dans une langue qu'il ne maîtrise pas, car cela augmente le taux d'erreurs. Testez avec des exemples réels comprenant des trémas et des caractères accentués."
+        ]
+      },
+      {
+        "heading": "Planifier la mise en œuvre",
+        "paras": [
+          "Planifiez le déploiement par phases : configuration, migration des données, formation, fonctionnement en parallèle, mise en service. Nommez un responsable de projet et fixez des critères d'acceptation pour chaque phase. Les migrations d'historiques méritent une attention particulière, avec des contrôles par échantillon comparant anciens et nouveaux chiffres.",
+          "Prévoyez le temps de formation du personnel dans chaque langue de travail et conservez les attestations de formation. Après la mise en service, tenez une revue à trente et à nonante jours pour lister les corrections et mettre à jour les procédures."
+        ]
+      },
+      {
+        "heading": "Contrat, sortie et essais",
+        "paras": [
+          "Examinez le contrat quant aux niveaux de service, aux engagements de sauvegarde, à la notification des incidents, aux sous-traitants et à vos droits sur vos données. Exigez une voie de sortie définie : un export complet dans des formats documentés, puis une suppression confirmée. Un système que l'on ne peut pas quitter menace la continuité.",
+          "Réalisez un essai avec des données réalistes avant de vous engager. Définissez à l'avance les critères de réussite, par exemple mener à bien un rapprochement, produire un export de fin de mois et suivre un participant de l'inscription au changement de statut. Un système comme Budify, comme tout autre, doit être jugé sur de tels essais plutôt que sur des affirmations. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-backups-and-audit-trails",
+    "title": "Sauvegardes, pistes d'audit et continuité d'activité pour les registres d'un projet pilote",
+    "description": "Protégez les registres d'un projet pilote par des sauvegardes testées, des pistes d'audit infalsifiables et un plan de continuité face aux pannes.",
+    "keywords": [
+      "sauvegarde et restauration des registres",
+      "intégrité de la piste d'audit",
+      "continuité d'activité projet pilote",
+      "sécurité des données exploitants suisse",
+      "reprise après sinistre petite entreprise",
+      "logiciel d'intégrité des registres"
+    ],
+    "sections": [
+      {
+        "heading": "Des registres ne valent que par leur récupération",
+        "paras": [
+          "Un projet pilote conforme dépend de la disponibilité des registres des années après leur création. Une base de données perdue, un ordinateur portable en panne ou une attaque par rançongiciel peuvent effacer ces preuves en quelques minutes. Sauvegardes, pistes d'audit et plan de continuité ne sont pas un luxe : c'est ainsi que vous tenez la promesse faite dans votre autorisation de maintenir des registres fiables.",
+          "Commencez par un inventaire des systèmes contenant des registres du programme, y compris les tableurs et les espaces de stockage en ligne. Classez-les par importance et définissez la perte de données et l'interruption que chacun peut tolérer. Ces deux valeurs orientent toutes les décisions ultérieures."
+        ]
+      },
+      {
+        "heading": "Conception des sauvegardes",
+        "paras": [
+          "Suivez un schéma simple : plusieurs copies, sur au moins deux types de support, dont au moins une conservée séparément de l'environnement principal, et chiffrées. Automatisez le calendrier et journalisez chaque exécution. Une sauvegarde que personne ne surveille peut échouer en silence pendant des mois.",
+          "Testez la restauration au moins deux fois par an en récupérant un échantillon dans un environnement séparé et en vérifiant que les enregistrements s'ouvrent et que l'historique est intact. Conservez le rapport d'essai. De nombreuses organisations ne découvrent les problèmes de sauvegarde que le jour où elles ont besoin des données."
+        ]
+      },
+      {
+        "heading": "Des pistes d'audit fiables",
+        "paras": [
+          "Une piste d'audit consigne qui a fait quoi et quand. Pour avoir de la valeur, les utilisateurs ordinaires ne doivent pas pouvoir modifier ou supprimer des entrées, et les actions des administrateurs doivent aussi être journalisées. Les horodatages doivent provenir d'une source fiable. Examinez régulièrement la piste à la recherche de schémas inhabituels, comme des modifications à des heures inhabituelles ou par des comptes partagés.",
+          "Interdisez les identifiants partagés. Chaque personne dispose d'un compte individuel avec les seuls droits nécessaires. Lorsque des collaborateurs partent, désactivez leurs comptes le jour même et documentez-le. Cette seule habitude comble de nombreuses failles."
+        ]
+      },
+      {
+        "heading": "Rôles et responsabilités",
+        "paras": [
+          "Désignez un responsable des sauvegardes, un de la gestion des accès et un de la réponse aux incidents, avec des suppléants. Les petites équipes cumulent souvent les rôles, ce qui est acceptable si les tâches sont écrites et si les contrôles sont faits par quelqu'un d'autre.",
+          "Documentez les coordonnées des prestataires de services et les étapes d'escalade des incidents techniques. Planifiez une revue annuelle de l'ensemble du dispositif de sécurité avec un conseiller."
+        ]
+      },
+      {
+        "heading": "Planification de la continuité",
+        "paras": [
+          "Rédigez un court plan de continuité couvrant la coupure d'électricité ou d'internet, la défaillance du système, le vol d'appareil et l'absence de personnel clé. Prévoyez des formulaires papier de secours aux numéros séquentiels, une règle selon laquelle les saisies de secours sont reportées dans le système dans un délai d'un jour, ainsi que les coordonnées du fournisseur et du conseiller.",
+          "Répétez le plan chaque année avec un scénario réaliste et consignez ce que vous avez appris. Intégrez l'aspect protection des données : les appareils perdus doivent être chiffrés et verrouillables à distance, et les incidents touchant des données personnelles doivent suivre votre procédure en cas de violation et être évalués avec votre conseil. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-preparing-evaluation-reports-for-authorities",
+    "title": "Préparer les rapports d'évaluation destinés aux organes de surveillance",
+    "description": "Élaborer des rapports périodiques clairs et fondés sur des preuves pour les organes de surveillance d'un projet pilote, à partir de vos registres.",
+    "keywords": [
+      "rapport d'évaluation projet pilote",
+      "rapport à l'autorité de surveillance",
+      "rapport projet pilote suisse",
+      "dossier de preuves exploitant",
+      "indicateurs du programme registres",
+      "rapport annuel exploitants projet pilote"
+    ],
+    "sections": [
+      {
+        "heading": "Rendre compte à partir des registres, pas de la mémoire",
+        "paras": [
+          "Les rapports aux organes de surveillance et aux évaluateurs pèsent le plus lourd lorsque chaque affirmation peut être rattachée à un enregistrement. Construisez tôt la structure du rapport et alimentez-la à partir de vos registres et journaux tout au long de l'année. Un extrait mensuel des chiffres clés prend peu de temps et vous épargne une période d'assemblage frénétique avant l'échéance.",
+          "Demandez au destinataire ce dont il a besoin. Réclamez par écrit son modèle, ses définitions et ses échéances. Si des définitions sont ambiguës, par exemple ce qui compte comme participant actif, convenez d'une interprétation et appliquez-la de façon constante d'une période à l'autre."
+        ]
+      },
+      {
+        "heading": "Indicateurs essentiels",
+        "paras": [
+          "Les indicateurs typiques tirés des registres opérationnels comprennent le nombre de participants inscrits et actifs par période, les retraits, l'exécution des tâches du protocole, les écarts et mesures correctives, les résultats des rapprochements de stock, les incidents et la couverture de formation du personnel. Présentez chacun avec sa définition et sa source de données.",
+          "Gardez des indicateurs portant sur le programme et non sur des individus. Utilisez des agrégats et évitez les effectifs de cellules trop faibles, qui pourraient identifier des personnes. Votre conseiller en protection des données peut aider à fixer des seuils en dessous desquels les chiffres sont regroupés ou supprimés."
+        ]
+      },
+      {
+        "heading": "Écrire avec honnêteté",
+        "paras": [
+          "Mentionnez les problèmes. Un rapport qui liste les écarts, explique les causes profondes et présente les mesures correctives convainc davantage qu'un rapport qui prétend à la perfection, ce que les lecteurs croient rarement. Indiquez les limites des données, comme les périodes où un journal était incomplet, et ce que vous avez fait pour y remédier.",
+          "Utilisez un langage simple et des paragraphes courts, et fournissez des versions dans la langue exigée par le destinataire. Les chiffres en CHF doivent préciser la période et indiquer s'ils incluent les taxes. Faites vérifier chaque chiffre par une seconde personne par rapport à sa source."
+        ]
+      },
+      {
+        "heading": "Calendrier et contrôle qualité",
+        "paras": [
+          "Travaillez à rebours depuis l'échéance : extraction des données, relecture interne, relecture du conseiller, validation, remise, avec des marges pour chaque étape. Confirmez à l'avance le mode de remise et le format de fichier pour éviter les surprises techniques le jour même.",
+          "Appliquez une liste de contrôle finale : les chiffres correspondent aux sources, les définitions sont cohérentes avec les rapports précédents, les noms et les dates sont corrects, la langue est correcte et aucun détail identifiable ne s'est glissé."
+        ]
+      },
+      {
+        "heading": "Dossiers de preuves et suivi",
+        "paras": [
+          "Préparez un dossier de preuves composé d'extraits à l'appui des affirmations clés, indexé et prêt à être fourni sur demande. Évitez d'envoyer plus que ce qui est demandé ; donnez ce qui est requis et indiquez que d'autres registres sont disponibles.",
+          "Après la remise, consignez les questions reçues et les réponses données, et suivez les engagements pris. Tenez une courte séance interne de retour d'expérience. Des extraits de période rapides libèrent du temps pour contrôler la qualité du récit. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ch-pilot-wind-down-and-close-out",
+    "title": "Fin et clôture d'un projet pilote : registres, stock et données",
+    "description": "Un plan de clôture pour la fin d'un projet pilote : rapprochements finaux, archivage, information des participants, passation et preuves de suppression.",
+    "keywords": [
+      "clôture d'un projet pilote",
+      "archivage des registres fin de projet pilote",
+      "liste de contrôle fin de projet pilote",
+      "rapprochement final des stocks",
+      "plan de sortie projet pilote",
+      "fin d'un projet pilote suisse"
+    ],
+    "sections": [
+      {
+        "heading": "Planifier la fin dès le début",
+        "paras": [
+          "Tout projet pilote prend fin, soit par un passage à un nouveau cadre, soit par une prolongation, soit par un arrêt. Dans tous les cas, l'exploitant reste responsable des registres, du stock et des données des participants. Un plan de clôture préparé plusieurs mois à l'avance évite les décisions précipitées. Demandez tôt à votre organe de surveillance quelles étapes il attend et pour quand.",
+          "Nommez un responsable de la clôture, établissez un calendrier à rebours depuis la date de fin et listez les dépendances : rapports finaux, dernières inscriptions, derniers mouvements de stock, derniers paiements. Communiquez le plan au personnel et, le cas échéant, aux participants."
+        ]
+      },
+      {
+        "heading": "Participants et communication",
+        "paras": [
+          "Les participants méritent une information claire et opportune sur la fin du programme, le sort de leurs données et la personne à contacter ensuite. Préparez des avis en allemand, en français et en italien, faites-les relire par votre conseiller et conservez la trace de la date et du mode de leur diffusion.",
+          "Mettez à jour le registre au fur et à mesure des sorties, avec le statut et la date. Veillez à ce que les demandes de droits reçues vers la fin soient traitées selon la norme habituelle. Ne raccourcissez pas les procédures parce que le programme se termine."
+        ]
+      },
+      {
+        "heading": "Stock et finances finaux",
+        "paras": [
+          "Effectuez un rapprochement final des stocks avec deux signataires et un rapport complet. Documentez le sort de chaque quantité restante strictement selon votre autorisation et les instructions de l'autorité compétente. N'improvisez jamais ; si les instructions manquent, demandez-les par écrit et conservez la réponse.",
+          "Côté finances, réglez les factures ouvertes, rapprochez les comptes finaux en CHF et préparez un rapport de clôture avec une comparaison annuelle au budget. Exportez les grands livres et les rapports dans des formats documentés et remettez un jeu complet à votre fiduciaire."
+        ]
+      },
+      {
+        "heading": "Personnel et contrats",
+        "paras": [
+          "Le personnel a besoin d'informations claires sur son rôle pendant la clôture et après. Gardez disponibles les personnes compétentes jusqu'à l'achèvement du rapprochement final et de l'archivage, et consignez la passation des responsabilités à la personne qui reste redevable.",
+          "Examinez les contrats avec les bailleurs, les fournisseurs et les éditeurs de logiciels quant aux délais de résiliation et aux clauses de restitution des données, et agendez chaque échéance. Veillez à ce que les droits d'accès du personnel et des prestataires sortants soient retirés et journalisés."
+        ]
+      },
+      {
+        "heading": "Archivage, suppression et enseignements",
+        "paras": [
+          "Transférez les documents à conserver dans une archive sécurisée avec un index, une liste d'accès et une date de fin de conservation. Supprimez le reste selon votre calendrier et établissez une attestation de suppression signée. Vérifiez que les sauvegardes, les lecteurs partagés et les dossiers de messagerie sont couverts.",
+          "Tenez une revue des enseignements tant que le personnel est encore disponible, et consignez-la par écrit : ce qui a fonctionné, ce qui a échoué, ce que vous changeriez. Ces notes sont précieuses pour toute demande ultérieure ou tout programme successeur. Un système comme Budify peut exporter des historiques complets à des fins d'archivage avant la fermeture des comptes. Ce document ne constitue qu'une information générale à l'intention des exploitants et non un avis juridique ; confirmez les exigences auprès d'un conseil juridique local qualifié."
+        ]
+      }
+    ]
+  }
+]

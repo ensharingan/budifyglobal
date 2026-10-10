@@ -1,0 +1,1089 @@
+[
+ {
+  "slug": "ca-retail-pos-records-checklist",
+  "title": "Liste de contrôle des registres du point de vente pour les détaillants canadiens de cannabis",
+  "description": "Liste de contrôle des registres de transactions, de personnel et d'inventaire qu'un détaillant canadien titulaire d'un permis doit garder prêts à examiner.",
+  "keywords": [
+   "registres point de vente détaillant cannabis canada",
+   "tenue de registres détaillant titulaire de permis",
+   "logiciel de conformité cannabis canada",
+   "piste de vérification caisse enregistreuse",
+   "liste de contrôle registres exploitant commerce de détail"
+  ],
+  "sections": [
+   {
+    "heading": "Partez des registres que nomment les conditions de votre permis",
+    "paras": [
+     "Tout détaillant titulaire d'un permis au Canada exerce ses activités selon des conditions fixées par un organisme de réglementation provincial ou territorial, et ces conditions constituent le point de départ de toute conception de la tenue de registres. Avant de configurer un système de point de vente, lisez ligne par ligne les conditions de votre permis et les directives publiées par l'organisme, puis dressez la liste de tous les registres qu'elles mentionnent : transactions, réception de marchandises, ajustements, incidents, formation du personnel, etc.",
+     "Transformez cette liste en un registre simple à trois colonnes : le document, qui le crée et où il se trouve. Tout ce qui existe en même temps dans un cartable, un chiffrier et un rouleau de caisse représente un risque. L'objectif est d'avoir un seul système de référence par élément, le reste étant considéré comme des copies."
+    ]
+   },
+   {
+    "heading": "Des registres de transactions qui résistent à l'examen",
+    "paras": [
+     "Un bon registre de transaction indique la date et l'heure, la caisse et le terminal, l'employé, les articles, les quantités, le traitement fiscal, le mode de paiement et le total final en dollars canadiens (CAD). Les remboursements, les annulations et les dérogations manuelles doivent être des écritures distinctes et motivées plutôt que des modifications discrètes, afin qu'un examinateur puisse voir ce qui s'est passé et qui l'a approuvé.",
+     "Vérifiez que votre système ne permet jamais d'écraser une vente conclue. Toute correction doit créer un nouvel enregistrement lié. Testez cela chaque mois en choisissant cinq transactions au hasard et en suivant chacune d'elles depuis l'écran de la caisse jusqu'au rapport de fin de journée, puis jusqu'à la ligne du grand livre exporté."
+    ]
+   },
+   {
+    "heading": "Registres d'inventaire et de réception",
+    "paras": [
+     "La réception est l'étape où naissent bien des lacunes. Consignez chaque livraison en la rattachant à ses documents : fournisseur, date, quantités attendues par rapport aux quantités comptées, identifiants des emballages et personne qui a signé la réception. Les écarts exigent une note écrite et un suivi, et non un ajustement discret en fin de semaine.",
+     "Les ajustements pour dommages, péremption, destruction ou perte devraient toujours comporter un code de motif et un approbateur. Un système comme Budify peut imposer les codes de motif et conserver un historique d'ajustements inaltérable, ce qui facilite grandement les réponses aux questions ultérieures d'un organisme de réglementation ou d'un vérificateur."
+    ]
+   },
+   {
+    "heading": "Une autoévaluation mensuelle réalisable en une heure",
+    "paras": [
+     "Choisissez un jour fixe chaque mois et menez toujours le même examen succinct : échantillonnez dix transactions, trois registres de réception, trois ajustements et la liste actuelle des utilisateurs. Pour chacun, demandez-vous si une personne extérieure pourrait comprendre ce qui s'est passé, qui l'a fait et pourquoi, en se fiant uniquement au registre du système. Notez chaque élément non conforme et attribuez-lui un responsable et une date.",
+     "Conservez les fiches d'examen elles-mêmes. Un dossier daté de petits examens mensuels démontre que vos contrôles sont vivants plutôt que théoriques, et il donne aux nouveaux gestionnaires une image claire de ce qu'est une bonne pratique. Sur une année, la tendance des correctifs vous indique quelles procédures doivent être réécrites et quels employés ont besoin d'un accompagnement supplémentaire."
+    ]
+   },
+   {
+    "heading": "Registres du personnel, des incidents et des accès",
+    "paras": [
+     "Tenez à jour la liste des personnes qui ont accès au système et de ce que chaque rôle peut faire. Quand quelqu'un quitte l'entreprise, retirez ses accès le jour même et consignez-le. Associez cela aux dossiers de formation, afin de pouvoir démontrer que chaque personne qui manipule les ventes ou l'inventaire a suivi la formation que les conditions de votre permis laissent attendre.",
+     "Les incidents tels que les écarts, les soupçons de vol, les refus de vente ou les pannes de système méritent un court journal daté faisant état des mesures prises. Passez-le en revue chaque mois avec votre gestionnaire. Les exigences diffèrent selon les provinces et les territoires; confirmez donc les détails propres à votre territoire auprès de l'organisme de réglementation ou d'un conseiller juridique qualifié. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-provincial-licensing-differences-software",
+  "title": "Différences provinciales en matière de permis : configurer le logiciel de vente au détail",
+  "description": "Les règles varient selon la province et le territoire. Configurez logiciel, rôles et rapports pour que chaque magasin respecte les conditions de son permis.",
+  "keywords": [
+   "différences permis provinciaux cannabis canada",
+   "logiciel de vente au détail multiprovincial",
+   "exploitation commerce de détail cannabis canada",
+   "configuration conditions de permis caisse",
+   "conformité exploitant détaillant canadien"
+  ],
+  "sections": [
+   {
+    "heading": "Pourquoi un modèle national unique ne fonctionne pas",
+    "paras": [
+     "Le cadre canadien du commerce de détail est façonné à l'échelle fédérale, mais mis en œuvre par les provinces et les territoires. Chaque territoire a son propre organisme de réglementation, ses propres conditions de permis et sa propre approche de l'approvisionnement, de la production de rapports et de l'exploitation des magasins. Un exploitant qui a des établissements dans plus d'une province ne peut pas présumer qu'un processus qui fonctionne dans l'une satisfera les exigences d'une autre.",
+     "La conséquence pratique est que la configuration de votre logiciel doit se faire par permis et non par entreprise. Traitez chaque local autorisé comme un profil distinct, avec ses propres paramètres, utilisateurs, rapports et règles de tenue de registres."
+    ]
+   },
+   {
+    "heading": "Créez un profil de permis pour chaque établissement",
+    "paras": [
+     "Préparez un profil d'une page pour chaque magasin : dénomination sociale du titulaire du permis, adresse de l'établissement, organisme de réglementation, résumé des conditions du permis, obligations de déclaration telles que vous les comprenez et personnes responsables désignées. Joignez-y les documents sources et notez la date de la dernière révision.",
+     "À partir de ce profil, déduisez les paramètres du système : les rôles à créer, les ajustements qui exigent un deuxième approbateur, ce que la procédure de fermeture requiert et les exportations qu'attendent l'organisme de réglementation ou votre comptable. Quand vous n'êtes pas certain du sens d'une condition, posez la question à l'organisme de réglementation ou à un conseiller juridique plutôt que de deviner."
+    ]
+   },
+   {
+    "heading": "Rôles, approbations et rapports selon l'emplacement",
+    "paras": [
+     "Séparez les tâches différemment là où vos conditions l'exigent. Dans un magasin, un chef d'équipe peut être autorisé à approuver les radiations de stock; dans un autre, seul le délégué du titulaire du permis peut le faire. Configurez les seuils d'approbation par emplacement afin que le logiciel applique la règle au lieu de miser sur la mémoire.",
+     "Les calendriers de déclaration diffèrent eux aussi. Tenez un calendrier partagé des déclarations récurrentes pour chaque établissement, avec un responsable et un suppléant. Un système comme Budify peut conserver les rapports et les exportations propres à chaque emplacement, mais l'obligation de savoir ce qui est exigible demeure celle de l'exploitant."
+    ]
+   },
+   {
+    "heading": "Un exemple concret : deux magasins, deux ensembles de règles",
+    "paras": [
+     "Imaginez un exploitant qui a un magasin en Ontario et un autre en Alberta. Chaque magasin relève d'un organisme de réglementation différent, a des documents différents et, possiblement, des attentes différentes quant à la personne qui peut approuver les ajustements ou valider une réception. Plutôt que d'imposer une seule procédure, l'exploitant conserve un socle commun, comme la désignation des articles et les étapes de fermeture, et y ajoute une courte annexe propre à chaque magasin.",
+     "L'annexe énumère les approbations locales, les rapports locaux et les personnes-ressources locales. Quand un gestionnaire passe d'un magasin à l'autre, il lit d'abord l'annexe. Cette approche abrège la formation et montre clairement quelles différences sont voulues, plutôt que le fruit d'habitudes, lorsque quelqu'un demande plus tard pourquoi les deux magasins fonctionnent différemment."
+    ]
+   },
+   {
+    "heading": "Gardez les changements sous contrôle",
+    "paras": [
+     "Les règles changent. Désignez une personne chargée de suivre les bulletins de l'organisme de réglementation de chaque territoire et consignez chaque changement avec sa date d'entrée en vigueur et le paramètre qu'il touche. Mettez d'abord à jour le profil de permis, puis le système, puis informez le personnel.",
+     "Effectuez une vérification croisée trimestrielle : choisissez un magasin, comparez ses paramètres actuels à son profil de permis et notez tout écart. Cette petite routine détecte les dérives avant qu'une inspection ne le fasse. Comme toujours, confirmez ce qui s'applique à vous auprès de l'organisme de réglementation concerné et d'un conseiller juridique local qualifié. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-excise-stamp-inventory-tracking",
+  "title": "Suivi des timbres d'accise et des emballages dans les systèmes d'inventaire de détail",
+  "description": "Comment les détaillants canadiens peuvent suivre un inventaire emballé et estampillé : contrôles à la réception, identifiants, rapprochement et ajustements.",
+  "keywords": [
+   "suivi timbre d'accise canada",
+   "suivi d'inventaire cannabis canada",
+   "inventaire par emballage commerce de détail",
+   "rapprochement des stocks canada",
+   "logiciel d'inventaire détaillant titulaire de permis"
+  ],
+  "sections": [
+   {
+    "heading": "Pourquoi le suivi par emballage est important",
+    "paras": [
+     "Au Canada, les produits emballés qui parviennent aux détaillants titulaires d'un permis sont assujettis aux règles fédérales d'accise, et les emballages portent des marques liées à ces règles. Les détaillants ne gèrent pas eux-mêmes le régime d'accise, mais on leur demande souvent de démontrer que ce qui se trouve sur les tablettes correspond à ce qui a été reçu et à ce qui a été vendu.",
+     "C'est une question qui se pose à l'échelle de l'emballage, et pas seulement de la quantité. Un suivi uniquement fondé sur le nombre d'unités masque des problèmes comme un article mal étiqueté, une unité endommagée ou un écart entre le bordereau d'expédition et la caisse réelle."
+    ]
+   },
+   {
+    "heading": "Des contrôles à la réception qui protègent le registre",
+    "paras": [
+     "À la réception, vérifiez chaque caisse en la comparant aux documents d'expédition. Confirmez les descriptions des articles, les quantités et les identifiants d'emballage indiqués, et assurez-vous que les emballages semblent intacts et conformes. Photographiez et consignez tout ce qui est inhabituel avant le rangement.",
+     "Inscrivez le nom de l'employé qui reçoit la marchandise et celui d'un deuxième vérificateur lorsque c'est possible. Si le décompte diffère des documents, signalez la ligne comme un écart, avisez votre contact chez le fournisseur par écrit et conservez l'échange avec le registre de réception."
+    ]
+   },
+   {
+    "heading": "Rapprocher les stocks et les ventes",
+    "paras": [
+     "Un rapprochement hebdomadaire compare le stock d'ouverture plus les réceptions, moins les ventes et les ajustements approuvés, avec le décompte physique. Les différences reçoivent un code de motif ou font l'objet d'une enquête ouverte, jamais d'un chiffre bouche-trou glissé discrètement.",
+     "Un système comme Budify peut conserver l'historique de chaque article afin que vous puissiez suivre une UGS depuis la réception jusqu'à la caisse. Quel que soit l'outil utilisé, assurez-vous que les ventes déduisent le stock au moment de la vente et que les retours et les radiations suivent un parcours distinct et approuvé."
+    ]
+   },
+   {
+    "heading": "Points de défaillance courants à surveiller",
+    "paras": [
+     "Trois problèmes reviennent sans cesse : des articles reçus mais jamais saisis, des articles saisis sous une mauvaise description et des unités endommagées laissées dans le stock vendable. Chacun fausse discrètement les chiffres jusqu'à ce qu'un décompte le révèle. Un simple coup d'œil quotidien aux articles reçus mais non rangés permet de déceler le premier; un examen hebdomadaire des fiches d'articles nouvellement créées permet de déceler le deuxième; et une étagère de quarantaine physique permet de déceler le troisième.",
+     "Un autre point faible tient aux transferts non étiquetés entre les pièces, par exemple le déplacement de stock de l'arrière-boutique vers la surface de vente sans l'enregistrer. Même si le stock demeure dans un seul local autorisé, traitez chaque mouvement comme un événement consigné avec un emplacement, de façon à pouvoir rapprocher séparément les décomptes de la surface de vente et de la réserve et à rattacher les écarts à un lieu, et non seulement à un total."
+    ]
+   },
+   {
+    "heading": "Ajustements, destruction et approbation finale",
+    "paras": [
+     "Les articles endommagés, périmés ou autrement invendables devraient être déplacés vers un emplacement de quarantaine dans le système avant toute radiation. Ils sont ainsi exclus des décomptes de stock vendable, tout en préservant la piste de vérification.",
+     "L'élimination finale suit les conditions de votre permis et les directives de l'organisme de réglementation, qui varient. Consignez qui l'a approuvée, qui en a été témoin et la date. Les obligations en matière d'accise et d'emballage sont techniques; confirmez donc vos devoirs précis auprès de l'organisme de réglementation, de l'autorité fédérale compétente ou d'un conseiller juridique qualifié. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-pipeda-customer-data-retail",
+  "title": "La LPRPDE et les données des clients : guide pour les détaillants canadiens",
+  "description": "Ce que les détaillants canadiens doivent savoir sur le traitement des renseignements des clients et des membres selon la LPRPDE et les lois provinciales.",
+  "keywords": [
+   "LPRPDE détaillant cannabis",
+   "protection des données clients canada",
+   "conformité vie privée commerce de détail canada",
+   "logiciel confidentialité données des membres",
+   "politique de confidentialité exploitant détaillant canada"
+  ],
+  "sections": [
+   {
+    "heading": "Sachez quelles règles de protection de la vie privée s'appliquent à vous",
+    "paras": [
+     "Les entreprises canadiennes du secteur privé traitent couramment les renseignements personnels en vertu de la LPRPDE, la loi fédérale, tandis que certaines provinces ont leurs propres lois sur la protection des renseignements personnels dans le secteur privé. Celle qui s'applique à votre magasin peut dépendre de l'endroit où les renseignements sont recueillis et utilisés; demandez donc conseil avant de présumer.",
+     "Quelle que soit la source juridique, les principes pratiques sont bien connus : être responsable, expliquer pourquoi on recueille des renseignements, ne recueillir que ce qui est nécessaire, les protéger, ne pas les conserver plus longtemps que nécessaire et permettre aux gens de consulter leurs propres dossiers."
+    ]
+   },
+   {
+    "heading": "Recueillez moins, et expliquez clairement pourquoi",
+    "paras": [
+     "Dressez la carte de tous les champs de données que vous saisissez au comptoir ou sur un formulaire d'adhésion. Pour chacun, indiquez par écrit la raison d'être. Si vous ne pouvez pas nommer la finalité, cessez de le recueillir. La vérification de l'âge et de l'identité peut être exigée par les conditions de votre permis, mais conserver une copie d'une pièce d'identité est une décision distincte, qui comporte ses propres risques.",
+     "Publiez un avis de confidentialité en langage clair à la caisse et sur votre site Web. Il doit préciser ce que vous recueillez, pourquoi, qui peut le consulter, combien de temps vous le conservez et qui joindre. Nommez un responsable de la protection des renseignements personnels, même dans une petite entreprise."
+    ]
+   },
+   {
+    "heading": "Des mesures de protection que le personnel peut réellement appliquer",
+    "paras": [
+     "Limitez l'accès selon le rôle, de sorte qu'un caissier voie ce dont il a besoin, et rien de plus. Utilisez des identifiants individuels, des mots de passe robustes et une authentification multifacteur pour les administrateurs. Assujettissez les exportations à une approbation et consignez qui a téléchargé quoi.",
+     "Choisissez des fournisseurs capables de vous dire où les données sont hébergées, comment elles sont chiffrées et comment ils gèrent leur suppression. Un système comme Budify peut restreindre l'accès aux champs selon le rôle et conserver des journaux d'accès, mais ce sont vos politiques qui déterminent l'usage de ces contrôles."
+    ]
+   },
+   {
+    "heading": "Fournisseurs, appareils et données que l'on oublie",
+    "paras": [
+     "Les renseignements personnels se trouvent à plus d'endroits que dans la base de données principale. Pensez aux chiffriers exportés, aux photos de documents, aux messages envoyés sur des téléphones personnels et aux enregistrements de vidéosurveillance. Dressez l'inventaire de ces emplacements et déterminez, pour chacun, qui en est responsable et quand il est supprimé. Le chiffrier oublié sur un lecteur partagé est une source classique d'exposition évitable.",
+     "Passez également en revue chaque fournisseur qui a accès à des renseignements personnels, y compris vos outils de point de vente, de comptabilité et de courriel. Vous demeurez responsable des renseignements que vous confiez à un fournisseur de services; recourez donc à des ententes écrites, demandez où les données sont traitées et tenez une liste des fournisseurs avec la date de votre dernier examen. Le traitement transfrontalier mérite une attention particulière dans votre avis et vos contrats."
+    ]
+   },
+   {
+    "heading": "Conservation, demandes d'accès et suppression",
+    "paras": [
+     "Établissez un calendrier de conservation par type de document : les données de transaction peuvent devoir être gardées pour des raisons comptables et réglementaires, alors que les coordonnées à des fins de marketing n'ont généralement pas à l'être. Mettez le calendrier par écrit et révisez-le chaque année.",
+     "Préparez une courte procédure pour les demandes d'accès et de rectification, avec un responsable désigné et un délai de réponse cible. Mettez-la à l'essai une fois au moyen d'une demande fictive. Le droit de la vie privée est nuancé et diffère d'une province à l'autre; faites donc examiner votre avis et vos procédures par un conseiller juridique qualifié. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-daily-cash-up-cad-reconciliation",
+  "title": "Fermeture de caisse quotidienne et rapprochement en CAD pour les magasins de détail",
+  "description": "Une routine de fin de journée pour détaillants canadiens : compter les caisses, rapprocher les lots de cartes, gérer les écarts, exporter des chiffres fiables.",
+  "keywords": [
+   "fermeture de caisse quotidienne commerce de détail canada",
+   "rapprochement caisse dollars canadiens",
+   "procédure de fermeture fin de journée",
+   "suivi des écarts de caisse",
+   "logiciel de finances détaillant cannabis canada"
+  ],
+  "sections": [
+   {
+    "heading": "Établissez une séquence de fermeture fixe",
+    "paras": [
+     "Une fermeture de caisse fiable commence par un ordre de travail fixe. Cessez les nouvelles ventes, imprimez ou ouvrez le rapport de caisse de la journée, comptez chaque tiroir en dollars canadiens (CAD) en présence d'une deuxième personne et consignez les décomptes avant de regarder ce que le système prévoit. Inscrivez la séquence sur une fiche plastifiée au bureau de la caisse, afin qu'un nouveau préposé à la fermeture suive les mêmes étapes qu'un employé expérimenté. Précisez qui compte, qui est témoin, qui signe et où les feuilles remplies sont classées. C'est la constance qui donne un sens aux tendances d'écarts d'une semaine à l'autre.",
+     "Il est important de compter à l'aveugle d'abord. Si la personne qui compte connaît déjà la cible, elle risque de s'ajuster inconsciemment. Consignez le fonds de caisse, le total compté, le total attendu et l'écart dans des champs distincts."
+    ]
+   },
+   {
+    "heading": "Rapprochez chaque mode de paiement de sa source",
+    "paras": [
+     "L'argent comptant n'est qu'un mode de paiement parmi d'autres. Rapprochez les totaux de débit et de crédit du rapport de règlement de votre terminal de paiement, et tout autre mode de paiement de son propre rapport. Les différences entre le point de vente et le terminal viennent souvent de transactions annulées ou inversées; vérifiez-les en premier.",
+     "Gardez une courte fiche de référence des causes courantes d'écarts : mauvais mode de paiement saisi, remboursement effectué dans un autre mode, paiements fractionnés et décalage du règlement. Elle aide les nouveaux employés à retracer l'erreur plus vite. Conservez la feuille de fermeture de caisse quotidienne avec le rapport du système et le règlement du terminal de la même date. Agrafez-les ou numérisez-les en un seul ensemble afin qu'un examinateur puisse suivre une journée complète, du tiroir à la banque, sans fouiller dans plusieurs dossiers."
+    ]
+   },
+   {
+    "heading": "Gérez les écarts sans tomber dans la chasse aux coupables",
+    "paras": [
+     "Fixez une tolérance pour les petits écarts et une procédure d'escalade claire pour les écarts plus importants. Un écart sous la tolérance est consigné et surveillé pour y déceler des tendances; au-delà, un gestionnaire examine l'activité de la caisse, les annulations et les remises du quart de travail.",
+     "Suivez les écarts par caisse, par quart de travail et par personne dans le temps. Une mauvaise soirée n'est que du bruit; le même scénario sur le même quart relève d'une question de processus. Un système comme Budify peut produire l'historique des écarts de chaque caisse, ce qui vous permet de voir la tendance sans bâtir de chiffriers."
+    ]
+   },
+   {
+    "heading": "Contrôles entourant la manipulation de l'argent comptant",
+    "paras": [
+     "C'est avec l'argent comptant que des contrôles simples rapportent le plus. Limitez le nombre de personnes pouvant ouvrir le coffre-fort, appliquez un double contrôle pour les gros décomptes, retirez l'excédent d'argent des caisses durant la journée et consignez chaque retrait avec une signature. Gardez le bureau de la caisse à l'abri des regards du public et assurez-vous que des caméras couvrent la zone de comptage, conformément aux conditions de sécurité de votre établissement.",
+     "Établissez une norme de fonds de caisse par caisse et consignez-la. Lorsqu'une caisse commence la journée avec un fonds différent, traitez-le comme un événement. De nombreux écarts persistants sont attribuables à des fonds de départ inégaux plutôt qu'à quelque chose de dramatique, et une courte règle écrite sur le fonds de caisse élimine un nombre surprenant de discussions à l'heure de la fermeture."
+    ]
+   },
+   {
+    "heading": "Dépôt bancaire et exportations",
+    "paras": [
+     "Préparez le dépôt avec un sac inviolable, un bordereau correspondant au total compté et un registre signé indiquant qui l'a préparé et qui l'a pris en charge. Rapprochez les dépôts du relevé bancaire chaque semaine.",
+     "Exportez le sommaire quotidien des ventes, des taxes et des modes de paiement dans le format que préfère votre comptable. Les taxes peuvent varier selon la province et l'article; demandez donc à votre comptable de confirmer la configuration. Verrouiller chaque journée fermée empêche les modifications ultérieures qui compromettraient votre rapprochement. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-inventory-cycle-counts-retail",
+  "title": "Inventaires tournants pour le commerce de détail autorisé : une routine hebdomadaire efficace",
+  "description": "Remplacez l'inventaire annuel par un inventaire tournant : calendriers, feuilles de comptage, règles d'écart et étapes de révision pour les magasins canadiens.",
+  "keywords": [
+   "inventaire tournant commerce de détail canada",
+   "gestion des stocks cannabis canada",
+   "routine d'inventaire physique magasin",
+   "contrôle des écarts d'inventaire",
+   "logiciel de décompte des stocks"
+  ],
+  "sections": [
+   {
+    "heading": "Pourquoi l'inventaire tournant l'emporte sur le grand inventaire",
+    "paras": [
+     "Un décompte annuel découvre les problèmes bien après qu'ils se soient produits, ce qui rend leurs causes presque impossibles à retracer. Un inventaire tournant vérifie une tranche du stock chaque semaine, de sorte que les erreurs sont repérées pendant que la piste est encore fraîche. Affichez le calendrier dans l'espace du personnel et cochez chaque zone une fois le comptage terminé. Un comptage manqué doit être reporté dans la semaine plutôt qu'abandonné, car les trous dans la rotation sont précisément là où se cachent les erreurs de longue date.",
+     "Pour un détaillant titulaire d'un permis, des décomptes réguliers appuient aussi vos obligations de tenue de registres en démontrant que les quantités du système et celles des tablettes concordent de façon continue."
+    ]
+   },
+   {
+    "heading": "Concevez la rotation",
+    "paras": [
+     "Divisez l'inventaire en zones ou en catégories de manière que chaque ligne soit comptée au moins une fois par mois, les lignes de plus grande valeur ou à rotation plus rapide étant comptées plus souvent. Un modèle simple consiste à compter une zone par jour, avec un balayage complet toutes les quatre semaines.",
+     "Gelez les mouvements de la zone pendant le comptage : pas de réception, pas de transfert. Si le magasin est ouvert, comptez pendant les heures creuses et notez les ventes survenues en cours de comptage afin de les déduire. Consignez l'heure à laquelle chaque zone a été comptée et le nom des compteurs, puis classez la feuille avec l'approbation de l'ajustement. Si un organisme de réglementation ou un vérificateur vous demande plus tard comment vous savez que les quantités de votre système sont fiables, cette chaîne de décomptes datés est votre réponse la plus directe."
+    ]
+   },
+   {
+    "heading": "Comptez correctement",
+    "paras": [
+     "Utilisez des feuilles de comptage à l'aveugle, qui énumèrent l'article sans indiquer la quantité attendue. Deux personnes comptent séparément; une troisième ne recompte que là où les résultats diffèrent. Notez le nom des compteurs et les heures.",
+     "Comptez en unités vendables et vérifiez aussi l'état et les dates de péremption, le cas échéant. Les articles endommagés ou périmés passent en quarantaine plutôt que de rester dans le total vendable."
+    ]
+   },
+   {
+    "heading": "Faire des décomptes une partie de la culture",
+    "paras": [
+     "L'inventaire tournant ne fonctionne que si le personnel le perçoit comme une routine plutôt que comme une accusation. Expliquez que le but est de repérer tôt les erreurs de processus, de les classer selon leur ampleur et de les corriger, et que personne ne sera sanctionné pour des erreurs de comptage commises de bonne foi. Faites tourner les compteurs afin qu'une même personne ne soit pas toujours responsable de la même zone.",
+     "Partagez les résultats ouvertement. Une note hebdomadaire d'une ligne indiquant l'exactitude par zone favorise une saine émulation et montre à l'équipe que ses efforts comptent. En quelques mois, l'exactitude augmente, les ajustements diminuent et l'inventaire annuel ou réglementaire devient une confirmation plutôt qu'une surprise."
+    ]
+   },
+   {
+    "heading": "Enquêtez et bouclez le dossier",
+    "paras": [
+     "Établissez une règle d'écart : tout écart supérieur à une faible tolérance déclenche la vérification des réceptions, des ventes, des retours et des transferts récents de l'article. Documentez la conclusion dans une note jointe au registre de comptage.",
+     "Approuvez les ajustements avec un code de motif et la signature d'un gestionnaire, puis examinez les tendances d'écarts chaque mois. Un système comme Budify peut générer des tâches de comptage et comparer les résultats au stock attendu, mais c'est la discipline de la routine qui produit l'exactitude. Vérifiez que votre approche respecte aussi les conditions de votre permis. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-age-verification-id-records",
+  "title": "Vérification de l'âge et registres des pièces d'identité aux comptoirs de vente",
+  "description": "Comment établir des procédures de vérification de l'âge et tenir des registres minimaux et défendables, sans trop recueillir de renseignements personnels.",
+  "keywords": [
+   "vérification de l'âge commerce de détail canada",
+   "procédure de vérification d'identité détaillant cannabis",
+   "logiciel de contrôle d'accès clients",
+   "registres de vérification de l'âge minimum",
+   "conformité comptoir de vente canada"
+  ],
+  "sections": [
+   {
+    "heading": "Séparez la vérification de la copie",
+    "paras": [
+     "On s'attend à ce que les détaillants titulaires d'un permis vérifient l'âge avant toute vente, et les conditions de votre permis ainsi que les règles provinciales en décrivent les modalités. Vérifier une pièce d'identité au comptoir et en conserver une copie sont deux gestes différents, et le second comporte un risque pour la vie privée. Révisez la procédure chaque fois que l'organisme de réglementation met à jour ses directives ou que les conditions de votre permis changent, et consignez la date de chaque révision. Le personnel devrait signer pour attester qu'il a lu la version en vigueur, de façon que vous puissiez démontrer quelle procédure s'appliquait à une date donnée.",
+     "Dans la plupart des cas, un registre indiquant que la vérification a été effectuée, par qui et quand est bien plus léger qu'une image conservée du document. Déterminez avec un conseiller juridique quelle approche vos conditions permettent."
+    ]
+   },
+   {
+    "heading": "Rédigez une procédure de comptoir",
+    "paras": [
+     "Documentez un court scénario reproductible : accueillir le client, demander une pièce d'identité, en vérifier la validité, comparer la photo, confirmer la date de naissance par rapport à l'âge minimum, et seulement ensuite poursuivre. Le personnel doit savoir exactement quoi faire lorsqu'un document est expiré, endommagé ou inconnu.",
+     "Prévoyez une procédure de refus. Un refus de vente devrait être consigné comme un événement avec la date, l'heure et l'employé, sans noter de détails inutiles sur la personne. Pensez aussi à l'expérience client. Une affiche claire à l'entrée expliquant que l'identité est vérifiée à chaque visite réduit les conversations délicates et appuie le personnel lorsqu'une personne s'oppose à la demande."
+    ]
+   },
+   {
+    "heading": "Configurez le système pour qu'il invite à agir, et pas seulement qu'il enregistre",
+    "paras": [
+     "Le meilleur contrôle est celui qu'on ne peut pas contourner. Configurez le point de vente de façon à exiger une confirmation de vérification avant de pouvoir conclure une transaction, et à ce que les exceptions nécessitent une dérogation d'un gestionnaire accompagnée d'un motif.",
+     "Un système comme Budify peut conserver le statut de vérification d'un membre ou d'un client avec un horodatage, ce qui évite la double saisie pour les membres de retour tout en gardant la trace de la personne qui les a vérifiés. La nécessité de revérifier à chaque visite dépend de vos conditions."
+    ]
+   },
+   {
+    "heading": "Gérer les cas limites au comptoir",
+    "paras": [
+     "Les cas limites causent le plus d'erreurs : pièces d'identité d'une autre province, documents étrangers, cartes usées et clients qui ont laissé leurs documents dans la voiture. Remettez au personnel un guide décisionnel écrit couvrant chaque cas, et précisez qu'en cas de doute, la réponse est de faire une pause et d'appeler le chef d'équipe, jamais de laisser passer le client.",
+     "N'oubliez pas que le comptoir est aussi un espace public. Effectuez les vérifications avec courtoisie et discrétion, évitez de lire des renseignements personnels à voix haute et gardez tout écran affichant des données de membres hors de la vue des autres clients. Les bonnes manières et les bonnes habitudes de protection de la vie privée vont de pair, et les inspecteurs peuvent constater les deux."
+    ]
+   },
+   {
+    "heading": "Former, vérifier et s'améliorer",
+    "paras": [
+     "Formez chaque nouvel employé avant son premier quart à la caisse et conservez des dossiers de formation signés. Rafraîchissez la formation chaque année et après tout incident.",
+     "Faites une vérification mensuelle : examinez un échantillon de transactions et confirmez que chacune comporte un événement de vérification. Communiquez les résultats à la personne responsable désignée du titulaire du permis. Les exigences diffèrent d'une province à l'autre; confirmez donc vos obligations auprès de l'organisme de réglementation ou d'un conseiller juridique local qualifié. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-staff-roles-permissions-pos",
+  "title": "Rôles et autorisations du personnel dans un système de point de vente : un modèle pratique",
+  "description": "Concevez des rôles à privilèges minimaux pour conseillers, chefs d'équipe et gestionnaires afin que approbations, annulations et exportations restent traçables.",
+  "keywords": [
+   "rôles et autorisations utilisateurs point de vente canada",
+   "contrôle d'accès du personnel commerce de détail",
+   "configuration à privilège minimal caisse",
+   "approbation des annulations et remboursements",
+   "logiciel détaillant cannabis canada"
+  ],
+  "sections": [
+   {
+    "heading": "Partez du poste, pas de la personne",
+    "paras": [
+     "Les rôles devraient refléter des tâches : vendre, recevoir, compter, approuver, produire des rapports et administrer. Dressez la liste de ce que fait réellement chaque poste de votre magasin chaque jour, puis associez les tâches aux rôles. Évitez de créer un accès particulier pour une personne parce que c'est commode cette semaine. Documentez le modèle de rôles dans un tableau simple qui indique chaque rôle, les actions qu'il peut exécuter et les approbations dont il a besoin. Transmettez-le aux gestionnaires afin que les demandes d'accès supplémentaire soient jugées en fonction du tableau plutôt qu'en fonction de la personne qui plaide le plus habilement.",
+     "Un petit magasin n'a peut-être besoin que de quatre rôles : caissier, commis à l'inventaire, chef d'équipe et gestionnaire, plus un compte de propriétaire ou d'administrateur réservé à un usage exceptionnel."
+    ]
+   },
+   {
+    "heading": "Limitez les actions à risque",
+    "paras": [
+     "Les actions qui nécessitent le plus de contrôle sont les annulations, les remboursements, les remises, les dérogations manuelles, les ajustements de stock, les exportations de données et les modifications d'utilisateurs. Exigez un code de motif pour chacune et un deuxième approbateur au-delà d'un seuil que vous fixez.",
+     "Personne ne devrait approuver son propre ajustement. Si votre dotation rend cela difficile, prévoyez un examen régulier par un gestionnaire de tous les éléments auto-approuvés à titre de contrôle compensatoire. Examinez attentivement les demandes d'accès temporaire. Si quelqu'un remplace un chef d'équipe pendant une semaine, attribuez le rôle avec une date de fin, consignez le motif et retirez-le à temps. Les accès temporaires expirés comptent parmi les constats les plus fréquents des examens d'accès."
+    ]
+   },
+   {
+    "heading": "Bonnes pratiques d'authentification",
+    "paras": [
+     "Chaque personne a un identifiant individuel; des caisses partagées avec un mot de passe commun rendent les pistes de vérification inutiles. Utilisez l'authentification multifacteur pour les administrateurs et pour toute personne ayant des droits d'exportation. N'oubliez pas que l'accès physique compte autant que l'accès au système. Un ordinateur de bureau laissé ouvert peut contourner tous les paramètres de rôles soigneusement établis. Utilisez des appareils ou des profils distincts pour l'administration, verrouillez automatiquement les écrans et conservez le compte administrateur dans un dossier scellé que deux personnes savent comment récupérer.",
+     "Activez le verrouillage automatique des écrans et un court délai d'expiration de session au comptoir. Un système comme Budify peut consigner chaque action sous un utilisateur nommé, ce qui n'a de valeur que si chacun utilise son propre compte."
+    ]
+   },
+   {
+    "heading": "Tester le modèle avant qu'il ne soit nécessaire",
+    "paras": [
+     "Une fois les rôles configurés, mettez-les à l'essai. Connectez-vous sous chaque rôle dans un environnement de formation et tentez chaque action à risque : annuler une vente conclue, modifier un coût, exporter une liste de clients, supprimer un utilisateur. Notez quelles tentatives ont été bloquées et lesquelles ont abouti, puis corrigez les lacunes.",
+     "Répétez le test après chaque mise à jour logicielle importante ou chaque modification de rôle. Un modèle d'autorisations correct en janvier peut avoir discrètement changé en juin, et un test de dix minutes par trimestre coûte bien moins cher que de découvrir le problème lors de l'examen d'un écart de stock."
+    ]
+   },
+   {
+    "heading": "Routine d'arrivée, de mutation et de départ",
+    "paras": [
+     "À l'embauche, créez le compte avec le rôle minimal et consignez l'achèvement de la formation. Lors d'un changement de poste, retirez les anciennes autorisations plutôt que d'en ajouter de nouvelles par-dessus. Au départ, désactivez les accès le jour même.",
+     "Passez en revue la liste complète des utilisateurs chaque trimestre avec le titulaire du permis ou le gestionnaire et consignez la date de l'examen. Alignez le modèle sur les conditions de votre permis et demandez conseil en cas de doute. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-sales-tax-reporting-provinces",
+  "title": "Configuration des taxes de vente et production de rapports dans les provinces pour les détaillants",
+  "description": "TPS, TVH, TVP et taxes provinciales varient d'un magasin à l'autre. Configurez proprement codes de taxe, rapports et exportations pour plusieurs provinces.",
+  "keywords": [
+   "taxes de vente point de vente canada",
+   "TPS TVH TVP rapports détaillant",
+   "comptabilité commerce de détail multiprovincial",
+   "configuration des codes de taxe caisse",
+   "comptabilité détaillant cannabis canada"
+  ],
+  "sections": [
+   {
+    "heading": "Le traitement fiscal est une décision de configuration, pas une décision de caisse",
+    "paras": [
+     "Les détaillants du Canada peuvent avoir à composer avec la TPS fédérale, la TVH harmonisée dans certaines provinces et des taxes provinciales dans d'autres, en plus d'autres prélèvements pouvant s'appliquer à des biens particuliers. Déterminer ce qui s'applique à quel article est une question pour votre comptable, pas pour votre caissier. Tenez un journal de chaque modification de paramètre fiscal, avec la date, la personne qui l'a faite, le motif et le document justificatif. Quand les chiffres semblent étranges des mois plus tard, le journal des modifications est le premier endroit où regarder.",
+     "Prenez la décision une seule fois, configurez-la dans le point de vente sous forme de codes de taxe et verrouillez-la afin que le personnel ne puisse pas modifier le traitement fiscal au comptoir."
+    ]
+   },
+   {
+    "heading": "Établissez une matrice fiscale par magasin",
+    "paras": [
+     "Créez une matrice simple avec les magasins en lignes et les catégories d'articles en colonnes. Dans chaque case, inscrivez le code de taxe confirmé par votre comptable. Datez la matrice et conservez les versions antérieures.",
+     "Quand un taux ou une règle change, mettez d'abord la matrice à jour, puis le système, puis effectuez une vente d'essai et comparez le reçu à vos attentes. Conservez le reçu d'essai au dossier. Testez volontairement les cas limites, notamment les remboursements sur des paniers mixtes, les remises appliquées à une partie de la vente et les transactions à cheval sur la date d'un changement de taux. Ces situations apparaissent rarement dans la formation habituelle, mais elles expliquent la plupart des corrections que les comptables finissent par apporter."
+    ]
+   },
+   {
+    "heading": "Rapprochez les taxes perçues des déclarations produites",
+    "paras": [
+     "À chaque période, exportez les taxes perçues par code et comparez-les aux chiffres de votre déclaration. Les différences proviennent généralement des remboursements, des annulations à cheval sur deux périodes ou d'articles mal codés. Documentez qui est chargé de surveiller les changements fiscaux dans chaque province et comment cette personne en est avisée. Abonnez-vous aux bulletins officiels, consultez votre comptable avant chaque fin de période et gardez une courte note de chaque confirmation reçue. Un responsable désigné évite que les changements de taux passent inaperçus.",
+     "Un système comme Budify peut produire des sommaires de taxes par magasin et par période, ce qui donne à votre teneur de livres un point de départ. Considérez ces rapports comme des intrants de votre processus comptable, et non comme des substituts."
+    ]
+   },
+   {
+    "heading": "Travailler avec votre comptable et votre teneur de livres",
+    "paras": [
+     "Convenez d'un calendrier et d'un format de rapports avec votre comptable avant la première vente de l'année. Les rapports dont il a besoin, le type de fichier et le jour du mois devraient être consignés par écrit. Un décalage à ce chapitre cause plus de frictions que n'importe quelle règle fiscale.",
+     "Transmettez chaque mois une liste des éléments inhabituels : dérogations manuelles, transactions exonérées de taxe, remboursements à cheval sur plusieurs périodes et tout article dont le code de taxe a été modifié. Ce sont les lignes les plus susceptibles d'exiger une explication, et les signaler tôt raccourcit le travail de fin d'exercice et réduit le risque de corrections ultérieures."
+    ]
+   },
+   {
+    "heading": "Clôturez les périodes proprement",
+    "paras": [
+     "Verrouillez les périodes closes afin que les modifications rétroactives soient impossibles, et documentez toute exception. Assurez-vous que les remboursements renvoient à la vente d'origine et à sa période.",
+     "Conservez les rapports justificatifs aussi longtemps que votre comptable et les règles applicables l'exigent. Les règles fiscales sont techniques et évoluent; fiez-vous donc à votre comptable ou à des conseillers qualifiés pour les détails. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-audit-ready-record-retention",
+  "title": "Calendriers de conservation des documents pour les détaillants titulaires d'un permis",
+  "description": "Établissez un calendrier de conservation clair pour les transactions, les stocks, le personnel et la vie privée afin de tout retrouver et d'éliminer le reste.",
+  "keywords": [
+   "calendrier de conservation des documents canada",
+   "préparation aux vérifications commerce de détail canada",
+   "conservation des registres de conformité cannabis",
+   "politique de conservation des documents détaillant",
+   "logiciel de gestion des documents"
+  ],
+  "sections": [
+   {
+    "heading": "Pourquoi un calendrier vaut mieux qu'une vague habitude",
+    "paras": [
+     "Tout garder indéfiniment crée un risque pour la vie privée et de l'encombrement. En garder trop peu vous rend incapable de répondre à un organisme de réglementation, à un vérificateur ou à une autorité fiscale. Un calendrier écrit fait de la voie du milieu un choix délibéré. Attribuez un responsable à chaque famille de documents et inscrivez les révisions à l'agenda. Sans responsable, les calendriers se dégradent : la politique existe sur papier, mais personne ne vérifie que l'élimination a bel et bien lieu ni que la durée minimale est vraiment respectée.",
+     "Le calendrier devrait indiquer chaque type de document, la durée de conservation, la raison, l'emplacement et la personne autorisée à l'éliminer."
+    ]
+   },
+   {
+    "heading": "Classez les documents par familles",
+    "paras": [
+     "Regroupez les documents en transactions et finances, inventaire et réception, personnel et formation, incidents, vie privée et demandes d'accès, et contrats. Chaque famille a souvent des durées minimales différentes, fixées par le droit fiscal, les conditions du permis ou les clauses contractuelles.",
+     "Ne devinez pas les durées. Interrogez votre comptable pour les documents financiers, et l'organisme de réglementation ou un conseiller juridique pour ceux qui touchent le permis, puis inscrivez la réponse et sa source dans le calendrier. Incluez au calendrier les contrats et la correspondance relative au permis. Ces documents survivent souvent aux systèmes qui les ont produits, et la perte des conditions initiales du permis ou d'une entente signée avec un fournisseur peut coûter cher lorsqu'une question surgit au sujet d'une ancienne décision."
+    ]
+   },
+   {
+    "heading": "Facilitez la recherche",
+    "paras": [
+     "Un document introuvable équivaut à un document manquant. Utilisez une dénomination cohérente, un stockage interrogeable et un index des documents clés. Testez la récupération en demandant à une personne peu familière de trouver un registre de réception précis du dernier trimestre. Un bon exercice est la simulation d'un an en arrière : une fois par année, demandez à un gestionnaire de récupérer un ensemble complet de documents pour une journée choisie au hasard il y a douze mois, couvrant les ventes, les réceptions, les ajustements, la fermeture de caisse et le personnel en service. Chronométrez l'exercice et notez ce qui manque. Les lacunes constatées deviennent la liste d'améliorations de l'an prochain, et le résultat montre si votre calendrier fonctionne en pratique.",
+     "Un système comme Budify peut conserver les transactions, les ajustements et les décomptes consultables par date, par utilisateur et par article, ce qui raccourcit le délai de réponse à une demande d'examen."
+    ]
+   },
+   {
+    "heading": "Hygiène numérique des documents conservés",
+    "paras": [
+     "Les documents numériques demandent eux aussi des soins. Gardez des copies de sauvegarde à un autre endroit, testez les restaurations et chiffrez les appareils contenant des renseignements personnels. Nommez les dossiers de façon cohérente et évitez de stocker des documents sur des comptes personnels ou des supports amovibles que personne ne suit.",
+     "Vérifiez qui a encore accès aux documents archivés, en particulier les anciens employés et les anciens fournisseurs. Archivé ne veut pas dire non protégé : l'accès aux anciens documents devrait être aussi contrôlé que l'accès aux documents courants, et il devrait être consigné chaque fois que c'est possible."
+    ]
+   },
+   {
+    "heading": "Élimination et suspensions pour raisons juridiques",
+    "paras": [
+     "Lorsqu'une durée de conservation prend fin, éliminez les documents de façon sécuritaire et consignez l'élimination. Le papier doit être déchiqueté, et les copies numériques supprimées des sauvegardes selon un cycle que vous pouvez décrire.",
+     "Si une inspection, un différend ou une enquête est en cours, suspendez l'élimination des documents concernés et notez la suspension. Les durées de conservation dépendent des faits; confirmez donc les vôtres auprès de professionnels qualifiés. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-multi-location-retail-operations",
+  "title": "Gérer plusieurs points de vente avec un seul système : les contrôles",
+  "description": "Des contrôles pour les exploitants de plusieurs magasins autorisés : rapports centralisés, autorisations par magasin, transferts de stock, procédures communes.",
+  "keywords": [
+   "exploitation commerce de détail multi-sites canada",
+   "gestion de point de vente multimagasin",
+   "transferts de stock entre magasins",
+   "rapports centralisés commerce de détail",
+   "exploitation détaillant titulaire de permis canada"
+  ],
+  "sections": [
+   {
+    "heading": "Visibilité centrale, responsabilité locale",
+    "paras": [
+     "Lorsqu'un exploitant ajoute un deuxième ou un troisième magasin autorisé, le propriétaire perd la capacité de tout voir en personne. Les rapports centralisés doivent prendre le relais, tandis que chaque magasin conserve une personne désignée responsable de ses registres. Remettez à chaque gérant de magasin un court tableau de bord mensuel comportant les mêmes cinq ou six indicateurs, comme l'écart, le taux d'annulation, l'exactitude de la fermeture, l'achèvement de la formation et les actions en suspens. Restez factuel et discutez des tendances plutôt que de mauvaises journées isolées.",
+     "Définissez les chiffres que le siège social examine chaque semaine : ventes par magasin, écarts, ajustements, remboursements et couverture des stocks. Tout le reste se règle localement."
+    ]
+   },
+   {
+    "heading": "Traitez chaque permis séparément",
+    "paras": [
+     "Chaque établissement détient habituellement son propre permis, et le stock ne peut pas simplement passer de l'un à l'autre sans respecter les règles applicables. Modélisez chaque magasin comme un emplacement distinct avec son propre inventaire, et traitez les déplacements entre magasins comme des transferts formels, avec un expéditeur, un destinataire et un registre.",
+     "Vérifiez auprès de votre organisme de réglementation ou d'un conseiller juridique si les transferts entre vos propres établissements autorisés sont permis et quels documents sont attendus avant de mettre en place le processus. Établissez des contacts partagés et une chaîne d'escalade couvrant tous les emplacements, y compris les numéros hors des heures d'ouverture de la personne responsable, du fournisseur du logiciel et du fournisseur de paiement par carte. Testez cette chaîne une fois par année pour que les numéros fonctionnent vraiment le moment venu."
+    ]
+   },
+   {
+    "heading": "Procédures normalisées avec exceptions documentées",
+    "paras": [
+     "Rédigez un seul ensemble de procédures pour l'ouverture, la fermeture, la réception, le comptage et la gestion des incidents, puis notez les endroits où une province ou un établissement exige une variante. La normalisation réduit le temps de formation et les erreurs. Dans la mesure du possible, utilisez le même fichier d'articles et la même dénomination dans tous les magasins, de façon que les rapports de groupe comparent des données comparables. Les articles en double ou nommés de façon incohérente sont la raison la plus courante pour laquelle les rapports multimagasins ne concordent pas. Confiez à une seule personne l'approbation des nouvelles fiches d'articles et examinez la liste chaque trimestre pour fusionner les doublons avant qu'ils ne faussent les chiffres.",
+     "Un système comme Budify peut appliquer des paramètres cohérents à l'ensemble des emplacements tout en permettant des différences propres à chaque magasin, ce qui garde les exceptions visibles au lieu de les enfouir dans les habitudes."
+    ]
+   },
+   {
+    "heading": "Traiter les problèmes qui touchent plusieurs magasins",
+    "paras": [
+     "Certains problèmes n'apparaissent que lorsqu'on compare les magasins : un emplacement avec des annulations anormalement élevées, un autre avec des écarts fréquents à la réception, un troisième avec une fermeture lente. Faites de la comparaison entre magasins un point permanent de l'ordre du jour et présentez les différences sous forme de questions plutôt que de verdicts. Il peut y avoir une bonne raison locale.",
+     "Lorsqu'un problème est attribué à un processus plutôt qu'à une personne, mettez à jour la procédure commune et informez tous les magasins. C'est le principal avantage de l'exploitation en groupe : chaque magasin s'améliore dès que l'un d'eux apprend quelque chose, pourvu que vous consigniez la leçon par écrit et vérifiiez qu'elle a été adoptée."
+    ]
+   },
+   {
+    "heading": "Rythme de gouvernance",
+    "paras": [
+     "Tenez un court appel hebdomadaire avec les gérants de magasin, en utilisant le même tableau de bord et le même ordre du jour. Examinez les valeurs aberrantes, pas les moyennes.",
+     "Instaurez un audit par les pairs chaque trimestre, de sorte que chaque gérant examine les registres d'un autre magasin. Cela diffuse les bonnes pratiques et fait ressortir tôt les problèmes. Confirmez toujours les obligations propres aux exploitations multimagasins auprès d'un conseiller juridique local qualifié. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-member-customer-accounts-privacy",
+  "title": "Comptes de clients et de membres : des dossiers allégés et confidentiels",
+  "description": "Comment gérer des comptes de clients ou de membres avec un minimum de données, un consentement clair et une suppression ordonnée, sans créer de risque.",
+  "keywords": [
+   "comptes clients commerce de détail canada",
+   "confidentialité des dossiers de membres",
+   "logiciel de gestion des membres canada",
+   "minimisation des données commerce de détail",
+   "registres de consentement détaillant"
+  ],
+  "sections": [
+   {
+    "heading": "Déterminez si vous avez besoin de comptes",
+    "paras": [
+     "Bien des ventes n'exigent aucun compte. Les comptes se justifient lorsqu'ils appuient quelque chose de concret, comme un statut de vérification répétée ou une exigence administrative de votre programme. Si la réponse est vague, gardez le processus anonyme. Rédigez une courte règle interne pour chaque champ de compte précisant qui peut le consulter et qui peut le modifier. Les caissiers ont rarement besoin de voir plus qu'un nom et un statut de vérification, et limiter l'affichage réduit le risque de divulgation fortuite au comptoir.",
+     "Chaque compte est une base de données de renseignements personnels que vous devez protéger, au sujet desquels vous devez répondre à des questions et que vous devrez un jour supprimer."
+    ]
+   },
+   {
+    "heading": "Choisissez le minimum de champs",
+    "paras": [
+     "Dressez la liste des champs de votre formulaire d'inscription et justifiez chacun. Un nom et un moyen de communication suffisent habituellement. Résistez à la tentation d'ajouter des champs facultatifs parce qu'ils pourraient servir un jour.",
+     "Gardez les détails sensibles hors des notes en texte libre. Dites au personnel de ne pas consigner d'observations personnelles sur les gens dans les champs de commentaires. Consignez la source de chaque compte, par exemple une inscription au comptoir ou une saisie par un administrateur. Si une personne conteste plus tard la manière dont ses renseignements ont été détenus, une source et une date claires rendent la conversation plus courte et la correction plus rapide."
+    ]
+   },
+   {
+    "heading": "Consentement et communications",
+    "paras": [
+     "Soyez explicite quant à ce que la personne accepte et conservez une trace du moment et de la manière dont le consentement a été donné. Les messages de service, comme un avis lié au compte, diffèrent des messages commerciaux, et le Canada a des règles sur les messages électroniques dont vous devriez discuter avec un conseiller juridique. Réfléchissez à la façon dont vous traiterez les comptes des personnes qui demandent à être oubliées. Décidez à l'avance quels documents vous devez conserver pour des raisons comptables ou réglementaires, et lesquels peuvent être supprimés ou anonymisés. Une réponse convenue d'avance permet au personnel de réagir rapidement et de façon cohérente, et évite les suppressions improvisées qui pourraient abîmer votre historique de transactions.",
+     "Rendez le désabonnement ou le retrait du consentement simple et efficace. Un système comme Budify peut stocker les horodatages de consentement et les préférences dans chaque compte, de sorte que le personnel ne s'en remet pas à sa mémoire."
+    ]
+   },
+   {
+    "heading": "Former le personnel à la manipulation des renseignements de compte",
+    "paras": [
+     "Le personnel est le principal contrôle de la vie privée. Apprenez-lui à vérifier à qui il parle avant de communiquer tout détail d'un compte, à éviter de discuter des membres devant d'autres personnes et à renvoyer les demandes inhabituelles au responsable de la protection des renseignements personnels. De courtes mises en situation fonctionnent mieux que des diapositives.",
+     "Incluez des règles claires sur les appareils personnels : aucune photo d'écran, aucune copie de listes de membres dans des applications de messagerie, aucun transfert d'exportations vers un courriel personnel. Intégrez ces règles à la documentation d'emploi et revoyez-les à chaque rappel annuel afin qu'elles demeurent familières."
+    ]
+   },
+   {
+    "heading": "Réviser et nettoyer",
+    "paras": [
+     "Une fois par année, passez en revue les comptes inactifs et supprimez ou anonymisez ceux dont vous n'avez plus besoin, dans le respect de votre calendrier de conservation. Consignez ce qui a été fait.",
+     "Traitez rapidement les demandes de rectification et d'accès à l'aide d'un modèle type. Les obligations en matière de protection de la vie privée varient; faites donc vérifier votre approche par un conseiller juridique qualifié. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-offline-resilience-pos-downtime",
+  "title": "Planifier les pannes du point de vente : rester conforme quand les systèmes tombent",
+  "description": "Un plan de panne pour les magasins canadiens : procédures hors ligne, solutions papier, reprise et rapprochement en cas de panne d'Internet ou de logiciel.",
+  "keywords": [
+   "plan de panne point de vente",
+   "point de vente hors ligne commerce de détail canada",
+   "continuité des activités technologie commerce de détail",
+   "procédure panne d'Internet magasin",
+   "résilience logiciel détaillant cannabis"
+  ],
+  "sections": [
+   {
+    "heading": "Partez du principe qu'une panne surviendra",
+    "paras": [
+     "Les pannes d'Internet, les défaillances de terminaux et les incidents logiciels finissent tous par arriver. Un plan de panne décide d'avance si le magasin continue de vendre, fait une pause ou applique un processus limité, afin que le personnel n'ait pas à improviser sous pression. Rangez la trousse de panne dans une boîte clairement étiquetée et vérifiez-la chaque mois : formulaires, stylos, liste d'articles imprimée, guide de secours du terminal de paiement et fiche des personnes-ressources. Une trousse à laquelle il manque un stylo le jour d'une panne est une trousse qui n'a jamais été testée.",
+     "Les conditions de votre permis peuvent limiter ce que vous pouvez faire manuellement. Vérifiez-les d'abord et faites examiner le plan par la personne responsable de la conformité."
+    ]
+   },
+   {
+    "heading": "Prévoir une solution papier",
+    "paras": [
+     "Gardez à chaque caisse des formulaires de panne préimprimés et numérotés : date, heure, employé, articles, quantités, mode de paiement, total et confirmation de la vérification de l'âge. Rangez-les avec un stylo et une planchette à pince dans un endroit connu.",
+     "Numérotez chaque formulaire et tenez un registre de ceux qui ont été distribués, pour qu'aucun ne disparaisse discrètement. Présentez le plan aux nouveaux employés lors de l'intégration et rappelez-le à tous chaque saison. Bien des problèmes durant les pannes viennent du fait que le personnel ignore l'existence d'un plan, plutôt que de la faiblesse du plan lui-même."
+    ]
+   },
+   {
+    "heading": "Reprise et ressaisie",
+    "paras": [
+     "Lorsque le service revient, saisissez les transactions de panne dans l'ordre, marquez-les comme saisies de panne et joignez le numéro du formulaire. Ne les mélangez pas aux ventes en direct avant d'avoir rapproché les formulaires du registre. Pensez aussi à l'alimentation électrique. Une courte panne peut arrêter en même temps les caisses, les terminaux et les routeurs. Un onduleur modeste sur le routeur et la caisse principale peut couvrir de brèves interruptions et laisser au personnel le temps de conclure proprement les transactions, ce qui est bien plus simple que de rapprocher plus tard une vente à moitié terminée.",
+     "Rapprochez les stocks après la ressaisie : les décomptes devraient correspondre aux quantités attendues une fois tous les formulaires saisis. Tout écart déclenche un examen avant la fermeture de la journée."
+    ]
+   },
+   {
+    "heading": "Communication pendant une panne",
+    "paras": [
+     "Décidez à l'avance qui avise qui. Le chef d'équipe informe le gestionnaire, le gestionnaire informe la personne responsable du titulaire du permis, et quelqu'un communique avec le fournisseur du logiciel et celui des paiements par carte. Préparez des scripts pour savoir quoi dire aux clients qui attendent, sur un ton calme et bref.",
+     "Consignez l'heure de début et de fin de chaque panne, la cause dans la mesure où elle est connue et les mesures prises. Avec le temps, ce journal montre si une amélioration de la connectivité ou une autre entente avec un fournisseur se justifie, et il constitue une preuve utile si un organisme de réglementation demande pourquoi les registres d'une période paraissent inhabituels."
+    ]
+   },
+   {
+    "heading": "S'exercer et s'améliorer",
+    "paras": [
+     "Faites un court exercice deux fois par année. Chronométrez-le, notez les points de confusion et mettez le plan à jour. Vérifiez que les terminaux de paiement ont leur propre solution de secours et que la connectivité de remplacement fonctionne.",
+     "Choisissez un logiciel assorti d'engagements clairs de disponibilité et de sauvegardes éprouvées, et demandez aux fournisseurs comment ils gèrent les incidents. Confirmez auprès d'un conseiller juridique local qualifié les éventuelles obligations d'aviser l'organisme de réglementation en cas de panne. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-breach-response-plan-retail",
+  "title": "Plan d'intervention en cas d'atteinte à la vie privée pour les détaillants canadiens",
+  "description": "À préparer avant un incident de confidentialité : rôles, confinement, évaluation, tenue de registres et décisions d'avis pour les magasins canadiens.",
+  "keywords": [
+   "intervention atteinte à la vie privée canada",
+   "LPRPDE registre des atteintes",
+   "plan violation de données commerce de détail",
+   "réponse aux incidents petite entreprise canada",
+   "sécurité des données clients détaillant"
+  ],
+  "sections": [
+   {
+    "heading": "Définissez ce qui constitue un incident",
+    "paras": [
+     "Un incident de confidentialité n'est pas seulement un piratage. Un téléphone perdu donnant accès aux dossiers de membres, un courriel envoyé au mauvais destinataire ou un ancien employé toujours connecté peuvent tous exposer des renseignements personnels. Tenez à jour un registre des systèmes qui contiennent des renseignements personnels, avec un responsable et une personne-ressource pour chacun. En cas d'incident, la première question est toujours de savoir où se trouvent les renseignements, et un registre exact fait gagner de précieuses heures.",
+     "Rédigez une définition d'une page et dites à chaque employé que l'on attend de lui qu'il signale rapidement, sans craindre de reproches."
+    ]
+   },
+   {
+    "heading": "Attribuez les rôles à l'avance",
+    "paras": [
+     "Nommez un responsable de l'incident, un contact technique, un contact pour les communications et un décideur, ainsi que des suppléants. Gardez les numéros de téléphone sur papier en plus de les avoir dans le système.",
+     "Incluez des contacts externes comme votre fournisseur de logiciel, votre assureur et votre conseiller juridique. Un fournisseur comme Budify, ou tout autre, devrait avoir un moyen documenté de joindre son contact en sécurité. Exercez-vous à signaler. Demandez au personnel ce qu'il ferait s'il remarquait qu'un courriel a été envoyé au mauvais client, et assurez-vous que la réponse est d'en aviser immédiatement le responsable de l'incident. Une culture de signalement rapide et sans reproches compte plus que n'importe quel contrôle technique."
+    ]
+   },
+   {
+    "heading": "Confiner, évaluer, consigner",
+    "paras": [
+     "La première heure est consacrée au confinement : révoquer les accès, changer les identifiants, isoler les appareils. Ensuite, évaluez quels renseignements sont en cause, à qui ils appartiennent et s'il existe un risque réel de préjudice grave. Le droit canadien de la vie privée prévoit des critères précis et des obligations de tenue de registres en cas d'atteinte; faites donc appel tôt à un conseiller juridique. Ne négligez pas les incidents physiques. Un ordinateur portable volé, un registre papier égaré ou un classeur non verrouillé peuvent entraîner les mêmes obligations qu'une attaque informatique. Gardez les documents papier sous clé, suivez les appareils qui contiennent des renseignements sur les membres et chiffrez les portables, de sorte qu'un appareil perdu soit un petit problème, et non un incident à déclarer.",
+     "Tenez un journal continu des heures, des mesures et des décisions. Même les incidents qui n'exigent pas d'avis devraient être consignés."
+    ]
+   },
+   {
+    "heading": "Gestion des preuves et communications",
+    "paras": [
+     "Préservez les preuves pendant que vous confinez l'incident. Faites des captures d'écran, conservez les journaux, notez les identifiants des appareils et évitez de réinitialiser les systèmes avant qu'un spécialiste ne vous ait conseillé. Une réinitialisation trop hâtive peut effacer justement l'information nécessaire pour savoir ce qui a été exposé.",
+     "Préparez un modèle de texte à l'intention des personnes touchées afin que, si un avis est nécessaire, il soit clair, factuel et exempt de spéculation. Dites ce qui s'est passé, quels renseignements étaient en cause, ce que vous avez fait et ce que les gens peuvent faire ensuite. Faites examiner le modèle à l'avance par un conseiller juridique."
+    ]
+   },
+   {
+    "heading": "Tirer des leçons et prévenir",
+    "paras": [
+     "Après la clôture de l'incident, tenez un bref bilan : ce qui a échoué, ce qui a fonctionné, ce qui doit changer. Mettez à jour la formation et les contrôles techniques, comme l'authentification multifacteur et des exportations plus strictement encadrées.",
+     "Mettez le plan à l'épreuve chaque année par un exercice sur table. Les seuils et les délais d'avis varient; confirmez-les donc auprès d'un conseiller juridique qualifié et de l'autorité de protection de la vie privée concernée. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-regulator-inspection-preparation",
+  "title": "Se préparer à l'inspection d'un organisme de réglementation : une routine pour détaillants",
+  "description": "Préparez l'inspection de votre établissement autorisé avec une liste permanente : documents, formation du personnel, registres de stock et accès au système.",
+  "keywords": [
+   "préparation inspection organisme de réglementation canada",
+   "liste de contrôle inspection détaillant cannabis",
+   "examen de conformité établissement autorisé",
+   "routine de conformité commerce de détail canada",
+   "registres prêts pour l'inspection"
+  ],
+  "sections": [
+   {
+    "heading": "La préparation à l'inspection est une habitude",
+    "paras": [
+     "Les organismes de réglementation des provinces et des territoires du Canada peuvent inspecter les établissements autorisés, et les détails varient selon le territoire. Les exploitants qui s'en tirent le mieux ne sont pas ceux qui étudient la veille, mais ceux dont les routines quotidiennes produisent déjà les registres. Désignez une personne-ressource unique pour chaque quart de travail afin qu'une visite inopinée se déroule dans le calme. Cette personne sait où est le cartable, qui appeler et comment ouvrir une session pour retrouver les documents, et elle a l'autorité d'interrompre les tâches courantes pour collaborer.",
+     "Commencez par noter ce qu'un inspecteur pourrait raisonnablement demander, en vous fondant sur les conditions de votre permis et les directives de l'organisme de réglementation."
+    ]
+   },
+   {
+    "heading": "Tenez un cartable d'inspection permanent",
+    "paras": [
+     "Gardez un cartable, numérique ou papier, contenant le permis, le plan d'aménagement, les coordonnées de la personne responsable, les documents de procédures, les registres de formation et les récents sommaires de rapprochement. Révisez-le chaque mois et notez la date.",
+     "Assurez-vous qu'au moins deux personnes savent où il se trouve et peuvent le présenter avec courtoisie et exactitude. Tenez un registre des visites indiquant la date, le nom et l'organisme de l'inspecteur, le personnel présent, ce qui a été demandé et ce qui a été fourni. Même une courte inscription constitue un historique utile et appuie votre version de ce qui a été discuté."
+    ]
+   },
+   {
+    "heading": "Répétez le déroulement le jour même",
+    "paras": [
+     "Informez tout le personnel : soyez courtois, vérifiez l'identité, appelez la personne responsable, ne devinez pas les réponses et notez les questions auxquelles vous ne pouvez pas répondre sur-le-champ. Désignez quelqu'un pour accompagner l'inspecteur et prendre des notes. Faites le tour de l'établissement chaque mois, liste d'inspection en main. Vérifiez que l'affichage obligatoire est en place, que les aires d'entreposage sont sécurisées comme vos conditions l'exigent, que l'équipement fonctionne et que les documents sont classés là où le personnel s'attend à les trouver. Une visite de trente minutes permet de corriger les problèmes simples avant que quiconque d'autre les remarque.",
+     "Exercez-vous à retrouver une transaction, un registre de réception et un historique d'ajustement en quelques minutes. Un système comme Budify peut chercher des documents par date et par utilisateur, mais seulement si le personnel sait s'en servir."
+    ]
+   },
+   {
+    "heading": "Documents courants sur lesquels les inspecteurs peuvent poser des questions",
+    "paras": [
+     "Sans prédire une inspection en particulier, il est utile d'être prêt à présenter les documents du permis, les listes du personnel avec les dates de formation, les procédures de vérification de l'âge et de gestion des incidents, les registres de réception et d'ajustement, les rapports de fermeture et les preuves des dispositifs de sécurité. Rassemblez-les dans un index unique indiquant l'emplacement de chacun.",
+     "Révisez l'index chaque mois et retirez tout ce qui est périmé. Un index ordonné et exact témoigne de compétence et réduit le stress de l'équipe. Si vous ne parvenez pas à produire rapidement un document, notez-le et corrigez le processus qui aurait dû faciliter sa recherche."
+    ]
+   },
+   {
+    "heading": "Assurer le suivi",
+    "paras": [
+     "Après toute inspection, consignez les constats, attribuez des responsables et des échéances, et confirmez par écrit ce qui a été convenu. Corrigez les causes profondes, et pas seulement le constat précis.",
+     "Partagez les leçons avec tous les magasins. Les obligations varient selon le territoire; confirmez donc vos droits et vos devoirs auprès d'un conseiller juridique local qualifié. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-shrinkage-variance-investigation",
+  "title": "Enquêter sur les écarts d'inventaire : une méthode équitable fondée sur les faits",
+  "description": "Une méthode structurée pour enquêter sur les écarts de stock à l'aide de données, de codes de motif et d'un processus équitable avant de tirer des conclusions.",
+  "keywords": [
+   "enquête sur les écarts d'inventaire",
+   "contrôle de la démarque inconnue commerce de détail canada",
+   "analyse des écarts de stock",
+   "piste de vérification d'inventaire",
+   "contrôle des stocks cannabis canada"
+  ],
+  "sections": [
+   {
+    "heading": "Distinguer le signal du bruit",
+    "paras": [
+     "Toutes les différences ne sont pas des vols. Bien des écarts viennent d'erreurs de réception, de fautes de saisie, de retours non consignés ou d'articles vendus sous le mauvais code. Commencez par présumer une faille de processus jusqu'à ce que les preuves disent le contraire. Consignez chaque enquête dans un dossier simple : article, période, écart, preuves examinées, conclusion et mesure prise. Garder les dossiers ensemble permet de voir les causes qui reviennent d'un mois à l'autre et appuie une norme cohérente dans tous les magasins.",
+     "Fixez une tolérance pour n'enquêter que sur les écarts significatifs, et suivez les petits pour y déceler des tendances."
+    ]
+   },
+   {
+    "heading": "Rassemblez les faits dans l'ordre",
+    "paras": [
+     "Pour l'article visé, extrayez les réceptions, les ventes, les retours, les transferts et les ajustements de la période écoulée depuis le dernier bon décompte. Disposez-les en ordre chronologique et recalculez le stock attendu.",
+     "Vérifiez aussi les articles voisins. Une permutation entre deux lignes semblables apparaîtra comme un excédent d'un côté et un manque de l'autre. Soyez prudent dans vos communications tant qu'une enquête est ouverte. Ne partagez les constats qu'avec ceux qui en ont besoin, évitez les spéculations dans les applications de messagerie et gardez un ton factuel. Un processus calme et cohérent protège à la fois l'entreprise et les personnes concernées."
+    ]
+   },
+   {
+    "heading": "Mettre les hypothèses à l'épreuve",
+    "paras": [
+     "Les causes courantes sont une erreur de comptage à la réception, un mauvais article numérisé à répétition, l'absence d'écriture de retour et un dommage non consigné. Testez chacune d'elles par rapport aux registres, puis recomptez physiquement. Lorsque des caméras font partie de vos dispositifs de sécurité, ne visionnez les enregistrements que dans le cadre d'un processus documenté, avec un examinateur nommé et un but déclaré, et respectez vos obligations de confidentialité quant à la durée de conservation des images et aux personnes autorisées à les voir. Les images peuvent confirmer ou écarter une hypothèse, mais elles ne devraient jamais être la première étape.",
+     "Si la tendance pointe vers des quarts, des caisses ou des personnes en particulier, saisissez-en le titulaire du permis et traitez le dossier dans le cadre d'un processus équitable et documenté. Évitez les accusations fondées sur les seules données."
+    ]
+   },
+   {
+    "heading": "Utiliser les tendances plutôt que les événements isolés",
+    "paras": [
+     "Un écart isolé en dit peu. Représentez les écarts par semaine, par catégorie et par quart de travail sur trois mois et cherchez des regroupements. Les regroupements pointent vers des causes, comme un nouveau fournisseur, un nouvel employé ou un processus modifié.",
+     "Partagez les constats avec l'équipe du magasin dans le cadre d'une conversation régulière. Quand le personnel voit que les données sont utilisées équitablement et qu'elles mènent à des correctifs de processus, il signale les erreurs plus tôt. C'est meilleur pour l'exactitude et pour le moral que n'importe quelle mesure de surveillance."
+    ]
+   },
+   {
+    "heading": "Corriger le processus",
+    "paras": [
+     "Clôturez chaque enquête par une conclusion, une mesure corrective et un responsable. Les correctifs typiques sont la réception par une deuxième personne, des invites au lecteur optique, des contrôles plus stricts des annulations et des étapes de quarantaine plus claires.",
+     "Un système comme Budify peut produire des rapports d'ajustements et d'annulations par utilisateur et par article, ce qui rend les tendances visibles. Les questions d'emploi et de droit criminel sont délicates; consultez donc un conseiller juridique qualifié avant d'agir en cas de soupçon d'inconduite. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-onboarding-new-store-software-launch",
+  "title": "Ouvrir un nouveau magasin autorisé : préparer le logiciel et les registres",
+  "description": "Une liste de préparation pour lancer un nouveau magasin autorisé au Canada : systèmes, rôles, données, formation et registres dès le premier jour.",
+  "keywords": [
+   "liste de contrôle ouverture nouveau magasin canada",
+   "logiciel ouverture magasin de détail",
+   "expansion détaillant titulaire de permis",
+   "mise en œuvre point de vente canada",
+   "croissance exploitant commerce de détail canada"
+  ],
+  "sections": [
+   {
+    "heading": "Partez du permis, pas du bail",
+    "paras": [
+     "Un nouveau magasin doit être prêt à respecter les conditions rattachées à son permis. Remontez à partir de ces conditions jusqu'à une liste des systèmes, des registres et des rôles nécessaires dès le premier jour d'exploitation. Établissez une liste de contrôle de lancement avec un responsable et une date pour chaque ligne et passez-la en revue deux fois par semaine durant le dernier mois. Les lignes typiques comprennent le réseau et le matériel de caisse, l'activation du terminal de paiement, la configuration des rôles, les codes de taxe, l'inventaire d'ouverture, la validation de la formation et le classement des documents de conformité.",
+     "Désignez un responsable du lancement et une date pour chaque élément. Ne fixez pas de date d'ouverture avant que les éléments de conformité soient prêts, car l'échéancier de l'organisme de réglementation ne bougera peut-être pas pour vous."
+    ]
+   },
+   {
+    "heading": "Configurez le système une seule fois, avec soin",
+    "paras": [
+     "Créez l'emplacement, les caisses, les codes de taxe, les rôles, les codes de motif et les calendriers de rapports. Reproduisez les paramètres éprouvés d'un magasin existant lorsque c'est approprié, puis ajustez-les pour la province.",
+     "Chargez la liste des articles et les quantités de départ au moyen d'une importation contrôlée. Comptez le stock physique de façon indépendante et rapprochez-le du solde d'ouverture avant la première vente. N'oubliez pas les éléments physiques, comme le papier de reçus, les imprimantes d'étiquettes, les balances étalonnées selon les exigences et un coffre-fort pour l'argent comptant. Les problèmes de matériel de dernière minute figurent parmi les raisons les plus courantes pour lesquelles de nouveaux magasins ouvrent avec des solutions de contournement qui deviennent des habitudes permanentes."
+    ]
+   },
+   {
+    "heading": "Former et répéter",
+    "paras": [
+     "Formez chaque employé à la caisse, à la réception, au comptage et à la fermeture, avec des dossiers signés. Faites une journée simulée complète, comprenant un remboursement, un refus après vérification de l'âge, un ajustement de stock et une fermeture de caisse. Planifiez aussi la relation avec les fournisseurs. Confirmez qui recevra les livraisons, quels documents les accompagneront et comment les écarts seront signalés. Faites un essai de réception avec une livraison fictive pendant la journée simulée, afin que l'équipe s'exerce à compter, à vérifier et à saisir le stock avant l'arrivée de la première vraie livraison.",
+     "Un système comme Budify peut exploiter un magasin en mode test pour que le personnel s'exerce sans toucher aux registres réels, si votre configuration le permet."
+    ]
+   },
+   {
+    "heading": "Migration des données et continuité des registres",
+    "paras": [
+     "Si du personnel ou des articles proviennent d'un magasin existant, planifiez soigneusement la migration des données. Exportez, nettoyez, faites correspondre les champs, importez dans un environnement de test et comparez les totaux avant de toucher au système en production. Gardez les fichiers sources inchangés et archivés.",
+     "Décidez comment traiter les registres historiques. Les anciennes transactions restent normalement rattachées à l'établissement d'origine, tandis que le nouveau magasin commence son propre historique. Documentez la date de bascule, la personne qui l'a approuvée et les soldes d'ouverture, afin que les registres du nouveau magasin reposent sur une base propre et explicable."
+    ]
+   },
+   {
+    "heading": "Les trente premiers jours",
+    "paras": [
+     "Faites un examen quotidien durant la première semaine : écarts, annulations, exactitude de la fermeture et toute solution de contournement inventée par le personnel. Corrigez les problèmes pendant que les habitudes se forment.",
+     "Tenez un bilan à trente jours avec le propriétaire et comparez les résultats à ceux des autres magasins. Confirmez les obligations restantes auprès de l'organisme de réglementation et d'un conseiller juridique local qualifié. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-gross-margin-reporting-by-category",
+  "title": "Rapports de marge et de catégorie pour les détaillants, en dollars canadiens",
+  "description": "Utilisez les rapports de marge par catégorie, de couverture des stocks et d'écoulement pour gérer un magasin canadien selon les faits, avec des coûts fiables.",
+  "keywords": [
+   "rapports de marge commerce de détail canada",
+   "rapport de rendement par catégorie",
+   "couverture des stocks et taux d'écoulement",
+   "tableau de bord financier détaillant CAD",
+   "rapports détaillant cannabis canada"
+  ],
+  "sections": [
+   {
+    "heading": "Commencez avec des données de coût propres",
+    "paras": [
+     "Les rapports de marge ne valent que ce que vaut le coût consigné à la réception. Inscrivez le coût complet en dollars canadiens (CAD) pour chaque ligne de livraison et veillez à ce que les corrections passent par des ajustements contrôlés, et non par un écrasement des données. Partagez chaque mois un court résumé avec toute l'équipe, centré sur une ou deux leçons opérationnelles, comme une catégorie qui génère des ajustements persistants ou un magasin dont les retours sont anormalement élevés. On améliore ce que l'on voit.",
+     "Convenez avec votre comptable de la façon de traiter le fret, la démarque et les radiations, de sorte que les chiffres des rapports de gestion concordent avec les livres."
+    ]
+   },
+   {
+    "heading": "Définissez les mesures une fois pour toutes",
+    "paras": [
+     "Rédigez les définitions de la marge brute, du taux d'écoulement et de la couverture des stocks et utilisez-les partout. La marge brute correspond au chiffre d'affaires moins le coût des marchandises vendues, exprimée en dollars et en pourcentage du chiffre d'affaires. La couverture des stocks indique combien de jours de ventes le stock actuel représente au rythme récent.",
+     "Produisez d'abord les rapports par catégorie plutôt que par ligne individuelle, pour voir la structure avant le détail. Archivez chaque dossier mensuel avec la période close afin de pouvoir reproduire les chiffres plus tard. Les rapports qui ne peuvent pas être régénérés, ou qui ont été modifiés à la main, sont difficiles à défendre quand quelqu'un conteste un chiffre."
+    ]
+   },
+   {
+    "heading": "Lisez le rapport en vous posant des questions",
+    "paras": [
+     "Demandez-vous : quelles catégories portent la marge, lesquelles immobilisent des liquidités, et où la couverture des stocks est-elle beaucoup plus longue que le reste? Comparez les magasins selon les mêmes définitions pour repérer les pratiques qui méritent d'être partagées. Utilisez un petit nombre de graphiques plutôt qu'une longue liste de tableaux : marge par catégorie, couverture des stocks par catégorie et écarts par magasin. Exprimez les axes en CAD et en pourcentages, étiquetez-les clairement et gardez la même présentation chaque mois, de sorte que les lecteurs sachent où regarder et repèrent les changements d'un coup d'œil.",
+     "Un système comme Budify peut produire des comparaisons par catégorie et par magasin à partir des données de transactions, mais l'interprétation revient toujours au gestionnaire qui connaît le contexte local."
+    ]
+   },
+   {
+    "heading": "Pièges courants en matière de rapports",
+    "paras": [
+     "Méfiez-vous du mélange des périodes, de la comparaison de magasins dont les définitions de catégories diffèrent et de l'oubli des retours. Un autre piège consiste à faire la moyenne de pourcentages entre magasins au lieu de calculer à partir du chiffre d'affaires total et du coût total. Chacun de ces pièges produit des chiffres plausibles, mais trompeurs.",
+     "Surveillez aussi les données de coût qui n'ont pas été mises à jour après un changement de fournisseur. Prévoyez chaque trimestre une révision des coûts de vos plus grandes catégories et comparez-les aux factures récentes des fournisseurs. Une petite erreur de coût répétée à chaque vente devient une grande erreur de rapport."
+    ]
+   },
+   {
+    "heading": "Établissez un rythme mensuel",
+    "paras": [
+     "Clôturez le mois, verrouillez la période, produisez le dossier et réunissez-vous trente minutes avec une courte liste d'actions. Vérifiez si les actions du mois dernier ont changé les chiffres.",
+     "Gardez les rapports factuels et internes. Toute déclaration externe sur le rendement financier devrait être examinée par votre comptable et votre conseiller juridique. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-choosing-retail-software-vendor-due-diligence",
+  "title": "Choisir un logiciel de vente au détail : la diligence raisonnable à l'égard des fournisseurs",
+  "description": "Les questions que les détaillants canadiens devraient poser aux fournisseurs de logiciels sur l'hébergement, les accès, les pistes de vérification et la sortie.",
+  "keywords": [
+   "logiciel détaillant cannabis canada",
+   "diligence raisonnable fournisseur de logiciel",
+   "liste de contrôle choix de fournisseur de point de vente",
+   "hébergement des données au canada logiciel de détail",
+   "examen de contrat de logiciel commerce de détail"
+  ],
+  "sections": [
+   {
+    "heading": "Définissez vos besoins avant les démonstrations",
+    "paras": [
+     "Dressez la liste de ce qui est indispensable : registres de transactions et de stock, accès selon les rôles, pistes de vérification, rapports et exportations. Dressez ensuite celle de ce qui est simplement souhaitable. Notez les fournisseurs selon la même liste. Demandez un exemple de piste de vérification pour un remboursement et pour un ajustement de stock, et vérifiez qu'elle indique l'utilisateur, l'heure, le motif et les valeurs avant et après. Une piste claire est l'une des fonctions les plus utiles pour la tenue des registres de conformité, et elle est facile à tester lors d'une démonstration.",
+     "Intégrez les conditions de votre permis et demandez à chaque fournisseur comment son système répond à ces besoins de tenue de registres, sans accepter l'affirmation que le logiciel vous rend conforme. La conformité demeure la responsabilité de l'exploitant."
+    ]
+   },
+   {
+    "heading": "Questions sur la sécurité et la vie privée",
+    "paras": [
+     "Demandez où les données sont hébergées, comment elles sont chiffrées, comment l'accès est contrôlé, comment fonctionnent les sauvegardes et dans quel délai les incidents sont signalés aux clients. Exigez des réponses écrites en langage clair.",
+     "Demandez leurs conditions de traitement des données et confirmez que la suppression sur demande est possible. Cela appuie vos propres obligations en matière de vie privée en vertu de la LPRPDE et de toute loi provinciale applicable. Examinez la feuille de route du fournisseur et son historique en matière d'avis de changement. Vous devez savoir comment les mises à jour sont communiquées, si vous pouvez les tester au préalable et ce qu'il advient de votre configuration. Les mauvaises surprises en pleine exploitation coûtent cher."
+    ]
+   },
+   {
+    "heading": "Exploitation et soutien",
+    "paras": [
+     "Comparez les heures de soutien à vos heures d'ouverture, ainsi que les engagements de réponse et la voie d'escalade. Demandez des références auprès d'exploitants de taille semblable et faites un essai avec des scénarios réels, comme un remboursement, un ajustement de stock et une fermeture de journée. Parlez directement à des clients actuels et demandez ce qui s'est mal passé durant l'intégration, pas seulement ce qui s'est bien passé. Demandez combien de temps il a fallu pour résoudre leur dernier problème de soutien sérieux et si le fournisseur a été franc quant à la cause. Les réponses honnêtes à ces deux questions en disent plus qu'un tableau de fonctionnalités.",
+     "Examinez l'intégration avec votre logiciel de comptabilité et vos terminaux de paiement. Un système comme Budify, comme tout outil, devrait être mis à l'essai avec ces flux de travail."
+    ]
+   },
+   {
+    "heading": "Mener un essai équitable",
+    "paras": [
+     "Rédigez trois ou quatre scénarios réalistes et faites-les exécuter par le même personnel sur chaque système présélectionné : recevoir une livraison avec un écart, traiter un remboursement, ajuster du stock endommagé et fermer la journée. Chronométrez chaque étape et notez où le personnel hésite.",
+     "Notez les résultats ensemble et incluez les personnes qui utiliseront le système chaque jour. Un outil un peu moins riche en fonctionnalités, mais plus facile à utiliser correctement, produit souvent de meilleurs registres qu'un outil complexe que le personnel contourne."
+    ]
+   },
+   {
+    "heading": "Contrat et sortie",
+    "paras": [
+     "Examinez la durée, le renouvellement, les clauses de modification des frais, les limites de responsabilité et la restitution des données à la sortie. Vous devriez pouvoir exporter vos propres registres dans un format exploitable.",
+     "Faites lire l'entente par un conseiller juridique avant de la signer, en particulier toute clause portant sur les données et la responsabilité. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ca-scaling-multi-store-operator-systems",
+  "title": "De un à plusieurs magasins : des systèmes qui tiennent le coup",
+  "description": "Ce qui cède quand un exploitant canadien dépasse un seul permis, et les systèmes, rapports et habitudes de gouvernance qui gardent des registres fiables.",
+  "keywords": [
+   "croissance exploitation commerce de détail canada",
+   "systèmes exploitant multimagasin",
+   "gouvernance croissance commerce de détail",
+   "expansion détaillant titulaire de permis canada",
+   "guide d'exploitation commerce de détail"
+  ],
+  "sections": [
+   {
+    "heading": "Ce qui cède en premier",
+    "paras": [
+     "Avec un seul magasin, c'est la mémoire du propriétaire qui tient le système ensemble. Avec trois, elle ne suffit plus. Les premières fissures apparaissent habituellement dans des routines de fermeture incohérentes, des limites d'approbation floues et des rapports que chaque gérant construit à sa façon. Nommez tôt un responsable central des opérations. Cette personne est responsable des normes, gère le calendrier de conformité et vérifie les magasins par rapport au guide d'exploitation. Sans elle, chaque gérant dérive vers ses propres habitudes, et la croissance multiplie l'incohérence.",
+     "La croissance exige que vous mettiez par écrit ce que fait le meilleur magasin et que vous en fassiez la norme pour tous."
+    ]
+   },
+   {
+    "heading": "Normaliser le cœur, assouplir la périphérie",
+    "paras": [
+     "Choisissez un petit ensemble de normes : plan comptable, dénomination des articles, codes de motif, définitions des rôles, routines de fermeture et de comptage. Maintenez-les constantes dans tous les magasins.",
+     "N'autorisez des variantes que là où les conditions de permis, les règles provinciales ou les particularités d'un établissement l'exigent, et consignez chaque variante avec son motif. Documentez les décisions au fur et à mesure. Un court guide d'exploitation expliquant le raisonnement derrière chaque norme aide les nouveaux gestionnaires à comprendre pourquoi les choses se font d'une certaine façon et réduit la tentation de défaire des contrôles solides au nom de la rapidité."
+    ]
+   },
+   {
+    "heading": "Des données et des rapports qui passent à l'échelle",
+    "paras": [
+     "Exigez une source unique de vérité pour les transactions et les stocks. Les rapports devraient en être générés automatiquement, et non reconstruits dans des chiffriers. Un système comme Budify peut regrouper plusieurs emplacements, mais la discipline d'un codage cohérent vous revient. L'argent comptant et la trésorerie méritent de l'attention à grande échelle. Un groupe a besoin d'une routine bancaire cohérente, de pouvoirs de signature clairs et d'un rapport hebdomadaire de la position de trésorerie. Chaque nouveau magasin immobilise du fonds de roulement avant de contribuer aux résultats; modélisez donc prudemment les coûts d'ouverture et comparez les dépenses réelles au plan après chaque lancement.",
+     "Bâtissez un petit dossier de gestion comportant les mêmes dix mesures pour chaque magasin, examiné selon un calendrier fixe."
+    ]
+   },
+   {
+    "heading": "Dette technologique et dette de processus",
+    "paras": [
+     "Une croissance rapide laisse derrière elle des raccourcis : fiches d'articles en double, contournements informels et chiffriers que seule une personne comprend. Prévoyez un court sprint de nettoyage après chaque ouverture pour fusionner les doublons, retirer les rôles inutilisés et documenter les contournements que vous avez décidé de garder.",
+     "Traitez cela comme de l'entretien courant plutôt que comme un échec. Un exploitant qui revisite ses systèmes tous les quelques mois garde une longueur d'avance sur les problèmes, et le magasin qui ouvrira l'an prochain héritera de bases propres plutôt que d'un fouillis accumulé."
+    ]
+   },
+   {
+    "heading": "Personnes et gouvernance",
+    "paras": [
+     "Embauchez et formez les gestionnaires au contrôle autant qu'au service à la clientèle. Remettez à chacun une matrice d'autorité claire et un partenaire d'audit parmi ses pairs.",
+     "Créez un calendrier de conformité avec des responsables pour chaque permis et révisez-le chaque mois. Revoyez chaque année vos politiques de vie privée et de tenue de registres. Au moment de vous étendre dans de nouvelles provinces, obtenez des conseils locaux sur les attentes de chaque organisme de réglementation. Il s'agit d'information générale à l'intention des exploitants et non de conseils juridiques; confirmez les exigences auprès d'un conseiller juridique local qualifié."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "audit-ready-records",
+  "title": "Des registres prêts pour la vérification : ce que les exploitants réglementés devraient consigner, et pourquoi",
+  "description": "Une liste de contrôle pratique des registres qui rendent les inspections et la production de rapports moins stressantes pour les exploitants réglementés.",
+  "keywords": [
+   "registres prêts pour la vérification",
+   "tenue de registres exploitant réglementé canada",
+   "liste de contrôle inspection conformité",
+   "piste de vérification mouvements de stock",
+   "registres de conformité logiciel de gestion"
+  ],
+  "sections": [
+   {
+    "heading": "Pourquoi les registres sont le véritable produit de la conformité",
+    "paras": [
+     "Les organismes de réglementation demandent rarement si vous avez l'intention de respecter les règles. Ils demandent des preuves que vous l'avez fait. Dans tous les marchés réglementés, les exploitants qui traversent bien les inspections sont ceux qui peuvent produire des registres complets, cohérents et horodatés en quelques heures plutôt qu'en quelques semaines.",
+     "Le présent guide est de l'information générale à l'intention des exploitants. Il ne constitue pas un avis juridique, et les registres que vous devez tenir dépendent de votre permis, de votre territoire et de votre organisme de réglementation."
+    ]
+   },
+   {
+    "heading": "Cinq catégories à consigner partout",
+    "paras": [
+     "Mouvements de stock : chaque réception, ajustement, transfert, retour et radiation, avec la personne qui l'a fait et le moment. Décomptes de stock : décomptes planifiés et ponctuels, quantité du système au moment du décompte, quantité comptée et écart expliqué.",
+     "Vérification des membres ou des clients : comment l'identité et l'admissibilité ont été vérifiées, quand et par qui. Transactions : ce qui a été enregistré au point de vente ou lors de la remise, y compris les annulations et les remboursements. Accès et modifications : qui a changé les prix, les limites, les autorisations ou le statut d'un membre."
+    ]
+   },
+   {
+    "heading": "Rendez le journal inviolable",
+    "paras": [
+     "Un registre que n'importe qui peut modifier discrètement est un risque. Privilégiez les systèmes où les changements créent une nouvelle entrée au lieu d'écraser l'ancienne, où les comptes d'utilisateurs sont individuels et où les exportations sont reproductibles.",
+     "Convenez d'une durée de conservation avec votre conseiller et mettez-la par écrit. Conservez ce que vous devez conserver; supprimez ce dont vous n'avez plus besoin, en particulier les renseignements personnels."
+    ]
+   },
+   {
+    "heading": "Exercez-vous à l'exportation avant d'en avoir besoin",
+    "paras": [
+     "Une fois par trimestre, choisissez une période et produisez les rapports qu'un organisme de réglementation pourrait raisonnablement demander. Si cela prend plus d'un après-midi, corrigez le processus pendant que personne n'attend après vous."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "blind-stock-counts",
+  "title": "Les décomptes de stock à l'aveugle : une méthode simple qui repère les problèmes tôt",
+  "description": "Comment fonctionnent les décomptes de stock à l'aveugle et les rapports d'écarts, et comment les déployer dans plusieurs emplacements sans complexité inutile.",
+  "keywords": [
+   "décompte de stock à l'aveugle",
+   "inventaire à l'aveugle commerce de détail",
+   "rapport d'écarts d'inventaire",
+   "contrôle des stocks multi-sites",
+   "méthode d'inventaire physique fiable"
+  ],
+  "sections": [
+   {
+    "heading": "Ce que veut dire « à l'aveugle »",
+    "paras": [
+     "Lors d'un décompte à l'aveugle, la personne qui compte ne voit pas la quantité que le système attend. Cela élimine la tentation de confirmer ce que dit l'écran et rend les décomptes plus fiables."
+    ]
+   },
+   {
+    "heading": "Une routine reproductible",
+    "paras": [
+     "Choisissez une portée (tous les articles ou une seule catégorie), gelez les mouvements de la zone comptée, comptez, puis n'examinez que les différences. Enquêtez sur les écarts supérieurs à un seuil convenu avant d'ajuster quoi que ce soit.",
+     "Consignez le motif de chaque ajustement. Avec le temps, les motifs eux-mêmes deviennent utiles : une démarque répétée dans une catégorie ou à un emplacement signale un problème de processus plutôt que de la malchance."
+    ]
+   },
+   {
+    "heading": "Le déployer dans plusieurs emplacements",
+    "paras": [
+     "Utilisez le même calendrier et les mêmes seuils à chaque emplacement, donnez aux compteurs leurs propres comptes et réservez l'approbation des ajustements aux gestionnaires. Comparez les écarts par emplacement, et pas seulement au total."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "membership-administration-basics",
+  "title": "Les bases de l'administration des adhésions pour les associations et les clubs",
+  "description": "Les registres, les limites et la documentation que les associations et les clubs de membres doivent généralement tenir à jour pour administrer rigoureusement.",
+  "keywords": [
+   "administration des adhésions club",
+   "registre des membres association",
+   "gestion des membres logiciel",
+   "limites d'attribution et statut des membres",
+   "protection des données des membres"
+  ],
+  "sections": [
+   {
+    "heading": "Un registre digne de confiance",
+    "paras": [
+     "Les organisations de membres sont, avant tout, des administrateurs. Un registre de membres fiable consigne qui a adhéré, quand, à quelles conditions et si l'adhésion est actuellement valide.",
+     "Les règles diffèrent selon les pays et les régions, et dans certains endroits l'activité de telles organisations est restreinte ou son statut juridique demeure incertain. Demandez toujours un avis juridique local; le présent article décrit l'administration, et non un droit d'exercer."
+    ]
+   },
+   {
+    "heading": "Statut, expiration et limites",
+    "paras": [
+     "Suivez automatiquement le statut et l'expiration des adhésions et rendez la désactivation immédiate. Si vos règles comportent des limites d'attribution, consignez chaque attribution au dossier du membre afin de pouvoir vérifier les limites avant la suivante."
+    ]
+   },
+   {
+    "heading": "Documentation et protection des données",
+    "paras": [
+     "Ne gardez que les documents dont vous avez besoin, stockez-les en toute sécurité et limitez l'accès selon le rôle. Les dossiers de membres peuvent être sensibles : convenez de durées de conservation, donnez suite aux demandes d'accès et de suppression, et veillez à ce que votre fournisseur de logiciel signe une entente de traitement des données."
+    ]
+   }
+  ]
+ }
+]

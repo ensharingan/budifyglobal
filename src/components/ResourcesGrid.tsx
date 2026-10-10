@@ -2,10 +2,10 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 
-export interface CardItem { slug: string; href: string; title: string; description: string; date: string; iso: string; read: string; category: string; keywords: string[]; cover: string | null }
+export interface CardItem { slug: string; href: string; title: string; description: string; date: string; iso: string; read: string; category: string; categoryLabel: string; lang: string; keywords: string[]; cover: string | null }
 interface Labels { all: string; search: string; more: string; none: string; shown: string }
 
-export default function ResourcesGrid({ items, categories, labels }: { items: CardItem[]; categories: string[]; labels: Labels }) {
+export default function ResourcesGrid({ items, categories, labels }: { items: CardItem[]; categories: { key: string; label: string }[]; labels: Labels }) {
   const [cat, setCat] = useState('');
   const [q, setQ] = useState('');
   const [n, setN] = useState(12);
@@ -15,25 +15,25 @@ export default function ResourcesGrid({ items, categories, labels }: { items: Ca
   }, [items, cat, q]);
   const chip = (on: boolean) => `rounded-full border px-4 py-1.5 text-sm font-semibold transition-colors ${on ? 'border-brand bg-brand text-white' : 'border-brand/20 bg-white text-ink hover:border-brand/50'}`;
   return (
-    <div lang="en">
+    <div>
       <div className="mb-8 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
         <div className="flex flex-wrap gap-2" role="group">
           <button type="button" aria-pressed={!cat} onClick={() => { setCat(''); setN(12); }} className={chip(!cat)}>{labels.all}</button>
-          {categories.map((c) => (<button key={c} type="button" aria-pressed={cat === c} onClick={() => { setCat(c); setN(12); }} className={chip(cat === c)}>{c}</button>))}
+          {categories.map((c) => (<button key={c.key} type="button" aria-pressed={cat === c.key} onClick={() => { setCat(c.key); setN(12); }} className={chip(cat === c.key)}>{c.label}</button>))}
         </div>
         <input type="search" value={q} onChange={(e) => { setQ(e.target.value); setN(12); }} placeholder={labels.search} aria-label={labels.search} className="min-h-[44px] w-full rounded-lg border border-brand/20 bg-white px-4 text-sm lg:w-72" />
       </div>
       {list.length === 0 && <p className="py-12 text-center text-ink-muted">{labels.none}</p>}
       <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {list.slice(0, n).map((a) => (
-          <li key={a.slug}>
+          <li key={a.slug} lang={a.lang}>
             <Link href={a.href} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-brand/10 bg-white transition-all hover:-translate-y-0.5 hover:border-brand/40 hover:shadow-lg">
               <div aria-hidden="true" className="relative h-40 overflow-hidden bg-gradient-to-br from-[#0b1f14] to-brand-dark">
                 {a.cover
                   // eslint-disable-next-line @next/next/no-img-element
                   ? <img src={a.cover} alt="" loading="lazy" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                  : <span className="absolute inset-0 flex items-center justify-center text-5xl font-extrabold text-white/15">{a.category.slice(0, 1)}</span>}
-                <span className="absolute left-3 top-3 rounded-full bg-white/95 px-3 py-1 text-xs font-bold text-brand-dark">{a.category}</span>
+                  : <span className="absolute inset-0 flex items-center justify-center text-5xl font-extrabold text-white/15">{a.categoryLabel.slice(0, 1)}</span>}
+                <span className="absolute left-3 top-3 rounded-full bg-white/95 px-3 py-1 text-xs font-bold text-brand-dark">{a.categoryLabel}</span>
               </div>
               <div className="flex flex-1 flex-col p-6">
                 <p className="text-xs text-ink-muted"><time dateTime={a.iso}>{a.date}</time> · {a.read}</p>

@@ -1,0 +1,1112 @@
+[
+ {
+  "slug": "es-member-register-spanish-associations",
+  "title": "Libro registro de socios en asociaciones españolas: guía práctica",
+  "description": "Cómo pueden las asociaciones sin ánimo de lucro en España mantener un libro registro de socios preciso y auditable: campos, control de cambios y revisiones.",
+  "keywords": [
+   "libro registro de socios",
+   "registro de socios asociación",
+   "software gestión de asociaciones",
+   "control de socios asociación sin ánimo de lucro",
+   "base de datos de socios club",
+   "historial de cambios libro de socios"
+  ],
+  "sections": [
+   {
+    "heading": "Por qué el libro de socios es lo primero",
+    "paras": [
+     "En una asociación sin ánimo de lucro española, el libro registro de socios es el documento que acredita quién pertenece a la entidad, desde cuándo y en qué categoría. La junta directiva, los auditores y las administraciones públicas se apoyan en él. Si está incompleto o es incoherente, casi cualquier otro registro, desde los libros de cuotas hasta las listas de asistencia a la asamblea, resulta difícil de defender.",
+     "Trate el libro como un registro controlado y no como una hoja de cálculo que cualquiera pueda editar. Decida quién puede crear, modificar y archivar asientos, y deje esa regla por escrito en sus procedimientos internos. Una única persona responsable, normalmente el secretario o la secretaria, debe custodiar el libro, con un suplente designado para las ausencias."
+    ]
+   },
+   {
+    "heading": "Campos que conviene recoger y campos que conviene evitar",
+    "paras": [
+     "Limite el libro a lo que realmente necesiten sus estatutos y su gestión: nombre completo, referencia del documento de identidad, datos de contacto, fecha de alta, categoría de socio, el acuerdo de la junta o la referencia del avalista que motivó la admisión, y el estado (activo, suspendido, baja voluntaria, expulsado). Añada un número de socio único que nunca se reutilice, ni siquiera tras una baja.",
+     "No recoja datos adicionales solo porque el formulario tenga hueco para ellos. La minimización de datos es un principio básico del RGPD y de la ley española de protección de datos (LOPDGDD), y cada campo extra es algo que debe proteger, justificar y, llegado el momento, eliminar. Las fotografías, las copias de documentos y las notas de texto libre exigen especial cautela y una finalidad claramente indicada."
+    ]
+   },
+   {
+    "heading": "Control de cambios y trazabilidad",
+    "paras": [
+     "Cada modificación debe registrar quién cambió qué, cuándo y por qué. En papel, esto significa correcciones fechadas y rubricadas que dejen legible el asiento original. En un sistema digital, significa un historial de solo adición: la corrección de un nombre debe dejar visible el valor anterior para los revisores autorizados en lugar de sobrescribirlo sin dejar rastro.",
+     "Vincule cada cambio de estado con el acto que lo respalda. Una baja voluntaria requiere la comunicación escrita del socio; una suspensión o una expulsión requieren el acta de la junta o de la asamblea que la acordó. Cuando un inspector o un socio pregunte por qué se dio de baja a alguien, debería poder abrir el asiento y llegar al documento justificativo en menos de un minuto."
+    ]
+   },
+   {
+    "heading": "Correcciones, duplicados y socios fallecidos",
+    "paras": [
+     "Los duplicados son el defecto más habitual de cualquier libro de socios: la misma persona introducida dos veces con grafías ligeramente distintas, o un socio que regresa y recibe un número nuevo. Antes de crear un asiento, busque por documento de identidad y apellidos. Si un antiguo socio vuelve a incorporarse, reactive el registro anterior con una nueva línea de estado en lugar de empezar de cero, de modo que el historial se mantenga continuo.",
+     "Gestione con cuidado los cambios de estado delicados. Cuando un socio fallezca o pierda la capacidad, anote la fecha y la fuente de la información, cierre sus accesos y aplique la tabla de conservación. Disponga de un procedimiento escrito breve para el secretario, de modo que estas situaciones se resuelvan con serenidad y siempre de la misma manera."
+    ]
+   },
+   {
+    "heading": "Rutina de revisión mensual y anual",
+    "paras": [
+     "Haga una comprobación mensual breve: las nuevas altas coinciden con las actas de la junta, no hay documentos de identidad duplicados, los socios con cuotas vencidas están señalados y todos los socios activos tienen un estado de cuota actualizado. Deje constancia de la propia comprobación, con fecha y el nombre de quien la realiza. Un sistema como Budify puede generar listados de excepciones para estas revisiones, pero el hábito importa más que la herramienta.",
+     "Una vez al año, antes de la asamblea general, concilie el libro con la contabilidad y con la lista de asistencia. El número de socios al corriente de pago debe coincidir en los tres. Tenga en cuenta las diferencias regionales: las exigencias de inscripción y de presentación de documentación varían entre comunidades autónomas, así que confirme sus obligaciones con el registro autonómico de asociaciones o con un asesor. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-closed-circle-admission-records",
+  "title": "Registros de admisión en asociaciones de círculo cerrado en España",
+  "description": "Cómo documentar la admisión de nuevos socios en una asociación sin ánimo de lucro: comprobaciones del avalista, decisiones de la junta y conservación.",
+  "keywords": [
+   "registro de admisión de socios",
+   "procedimiento de admisión asociación",
+   "libro de altas de socios",
+   "registro de avalistas asociación",
+   "gestión de club social cannábico",
+   "actas de admisión de socios"
+  ],
+  "sections": [
+   {
+    "heading": "Qué debe acreditar un registro de admisión",
+    "paras": [
+     "Una asociación que limita la pertenencia a un círculo definido y cerrado debe demostrar, socio por socio, que esa restricción se aplica de forma coherente. El registro de admisión es su prueba. Debe indicar quién presentó la solicitud, quién lo introdujo, qué comprobaciones se hicieron, quién decidió y en qué fecha surtió efecto la decisión.",
+     "Evite las aprobaciones informales por mensaje o los acuerdos verbales en la puerta. Si no está escrito y fechado, a efectos prácticos no ocurrió. Utilice un único formulario de admisión y un único libro de altas, para que cualquier revisor pueda comparar los asientos y detectar lagunas con rapidez."
+    ]
+   },
+   {
+    "heading": "El avalista y el paso de verificación",
+    "paras": [
+     "Muchas asociaciones exigen que un socio ya existente presente al candidato. Registre el número de socio del avalista, la fecha de la presentación y una breve nota que confirme que el avalista ratificó la relación. Así se crea una cadena trazable sin almacenar datos personales innecesarios de ninguna de las dos personas.",
+     "La verificación de identidad y de edad debe ajustarse a sus estatutos y a su reglamento interno. Anote que comprobó un documento de identidad, de qué tipo era y quién lo revisó, pero piénselo bien antes de conservar una copia escaneada. Si la conserva, defina dónde se almacena, quién puede abrirla y cuándo se eliminará."
+    ]
+   },
+   {
+    "heading": "Decisión de la junta y plazo de reflexión",
+    "paras": [
+     "La admisión suele ser una decisión de la junta directiva o de una comisión designada, y debe constar en el acta. Un buen hábito es dejar un breve plazo de reflexión entre la solicitud y la decisión, para que nadie sea admitido en el acto y bajo presión. Registre por separado la fecha de la solicitud y la de la decisión.",
+     "Cuando se rechaza a un candidato, conserve un breve registro de la decisión y del motivo, redactado en términos neutros. Esto protege a la junta si más adelante se cuestiona la decisión, y evita que otra persona reconsidere discretamente la misma solicitud."
+    ]
+   },
+   {
+    "heading": "Informar a la junta sobre las admisiones",
+    "paras": [
+     "Un resumen mensual de admisiones mantiene informada a la junta y crea un punto de control periódico. Enumere las solicitudes recibidas, las admisiones acordadas, los rechazos y las admisiones pendientes durante más tiempo del plazo acordado. Incluya el total de socios activos y compárelo con el máximo que haya fijado la junta, si lo hay.",
+     "Use el resumen para detectar desviaciones. Si las admisiones se resuelven más deprisa de lo que permite su propio plazo de reflexión, o si un mismo avalista aparece repetidamente, plantéelo en la siguiente reunión y deje constancia en acta. Pequeñas correcciones a tiempo evitan que una pauta acabe convirtiéndose más adelante en un problema de cumplimiento."
+    ]
+   },
+   {
+    "heading": "Documentos de bienvenida y acuses de recibo",
+    "paras": [
+     "En el momento de la admisión, los socios suelen aceptar los estatutos, el reglamento interno y el aviso de privacidad de la asociación. Archive la aceptación firmada o confirmada digitalmente en el asiento del socio, con el número de versión de cada documento. Así, cuando cambien las normas, podrá demostrar qué socios aceptaron qué versión.",
+     "Pruebe todo el expediente cada trimestre: tome una muestra de cinco admisiones recientes y compruebe que cada paso cuenta con su justificante. Las lagunas que se detectan en una muestra son baratas de corregir; las que detecta un inspector, no. Las normas difieren entre comunidades autónomas y municipios, así que compruebe las exigencias locales antes de fijar su procedimiento. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-minutes-and-books-spanish-associations",
+  "title": "Actas y libros oficiales de las asociaciones en España",
+  "description": "Cómo mantener en orden el libro de actas, el libro de socios y los libros contables: estructura, firmas, custodia y qué debe revisar la junta cada trimestre.",
+  "keywords": [
+   "libro de actas asociación",
+   "actas de junta directiva",
+   "libros obligatorios asociación sin ánimo de lucro",
+   "actas de asamblea general",
+   "registros de gobierno de asociaciones",
+   "libro de actas digital"
+  ],
+  "sections": [
+   {
+    "heading": "Los libros que se espera que lleve una asociación",
+    "paras": [
+     "En general, se espera que las asociaciones sin ánimo de lucro españolas lleven un libro registro de socios, una contabilidad y un libro de actas, además de lo que exijan sus propios estatutos. En conjunto, estos libros cuentan quiénes son los socios, qué se decidió y cómo se movió el dinero.",
+     "Consulte sus estatutos para conocer la lista exacta y la forma que deben adoptar los libros. Algunas entidades siguen llevando volúmenes encuadernados en papel y otras utilizan registros digitales. Ambas opciones pueden funcionar si el registro es completo, está fechado, es atribuible y está protegido frente a alteraciones, pero confirme cualquier requisito formal con su registro autonómico o con un asesor."
+    ]
+   },
+   {
+    "heading": "Redactar actas en las que se pueda confiar",
+    "paras": [
+     "Un buen acta recoge la fecha, el lugar, los asistentes, el quórum, el orden del día, cada acuerdo y el resultado de cualquier votación. No tiene por qué ser una transcripción. Procure un lenguaje neutro, con los acuerdos claramente separados del debate, y con los responsables y los plazos de cada acción identificados.",
+     "Distribuya un borrador en el plazo de una semana, mientras los recuerdos están frescos, apruébelo en la siguiente reunión y haga que lo firmen el secretario y el presidente. Numere correlativamente cada acta para que la falta de alguna resulte evidente. Si un acuerdo afecta a socios concretos, como una suspensión, limite los datos personales al mínimo imprescindible."
+    ]
+   },
+   {
+    "heading": "Vincular los acuerdos con otros registros",
+    "paras": [
+     "Las actas resultan más útiles cuando otros registros remiten a ellas. Un asiento de admisión debe citar la reunión de la junta que la autorizó; un cambio de cuota debe citar la asamblea que lo fijó; un gasto importante debe citar el acuerdo que lo autorizó. Esta referencia cruzada convierte archivos aislados en una pista de auditoría coherente.",
+     "Un método sencillo consiste en asignar a cada acuerdo una referencia corta, como 2026-JD-07 (año, órgano, número de orden). Utilice esa referencia en el libro de socios, en el libro de cuentas y en toda la correspondencia, y mantenga una hoja índice con todas las referencias, su fecha y su asunto."
+    ]
+   },
+   {
+    "heading": "Libros digitales y conservación a largo plazo",
+    "paras": [
+     "Cuando los libros se llevan en formato digital, considere el formato y la conservación como parte del buen gobierno. Exporte las actas firmadas a un formato estable como PDF, guarde el escaneado firmado junto al borrador editable y anote una suma de verificación o, al menos, el tamaño y la fecha del archivo, para que cualquier manipulación posterior sea detectable. Limite el acceso a los cargos de la junta.",
+     "Piense en el largo plazo. El software y los sistemas de almacenamiento cambian con los años, pero es posible que sus actas deban poder leerse mucho después. Compruebe que los archivos antiguos siguen abriéndose, migrelos cuando cambien los sistemas y mantenga un inventario único de registros que indique dónde se encuentra cada libro, ya sea físico o digital."
+    ]
+   },
+   {
+    "heading": "Lista de comprobación trimestral de la junta",
+    "paras": [
+     "Cada trimestre, el secretario puede repasar una lista breve: todas las reuniones celebradas constan en acta, todas las actas están firmadas, las acciones del trimestre anterior se han cerrado o trasladado, el índice está al día y existen copias de seguridad de los libros digitales cuya restauración se ha probado.",
+     "Guarde los originales en un lugar cerrado con llave, con acceso limitado a cargos concretos, y lleve un registro de quién los ha consultado. Los libros digitales deben contar con acceso por roles y con un historial de cambios conservado. La práctica varía según la región, así que verifique las normas locales antes de modificar la forma en que lleva los libros oficiales. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-stock-records-reconciliation-association",
+  "title": "Registros de existencias y conciliación del material de una asociación",
+  "description": "Cómo pueden las asociaciones llevar registros fiables del inventario de suministros y equipos: recepción, ajustes, recuentos y revisión de diferencias.",
+  "keywords": [
+   "registro de inventario asociación",
+   "conciliación de existencias",
+   "control de inventario club sin ánimo de lucro",
+   "registro de diferencias de recuento",
+   "control de stock interno asociación",
+   "software de inventario con trazabilidad"
+  ],
+  "sections": [
+   {
+    "heading": "Por qué una asociación necesita disciplina con sus existencias",
+    "paras": [
+     "Incluso una asociación sin ánimo de lucro posee bienes de los que debe rendir cuentas: material fungible, equipamiento, material impreso y, según la actividad y la normativa local, bienes regulados que exigen registros más estrictos. Sin un registro de existencias, las pérdidas pasan inadvertidas y el tesorero no puede explicar las diferencias entre el gasto y lo que se tiene.",
+     "El objetivo no es la optimización comercial, sino la trazabilidad: de cada artículo que se posee, debe poder decirse de dónde procede, dónde está ahora y qué ocurrió con cualquier diferencia. Tanto los reguladores como los socios esperan ese nivel de claridad de una entidad que gestiona recursos compartidos."
+    ]
+   },
+   {
+    "heading": "Recepción y registro de movimientos",
+    "paras": [
+     "Registre cada entrada el mismo día en que llega. Anote la descripción del artículo, la cantidad, el proveedor o el origen, la fecha, la persona que lo recibe y una referencia al documento justificativo, como un albarán o una factura. Rechace las entradas sin documentar hasta que alguien pueda explicarlas.",
+     "Registre de la misma forma cada salida y cada traslado interno, con un código de motivo y la persona responsable. Mantenga los códigos cortos y acordados de antemano: consumido, trasladado, dañado, caducado, devuelto, ajustado. Una lista de códigos limpia facilita mucho los informes posteriores."
+    ]
+   },
+   {
+    "heading": "Recuentos, diferencias y ajustes",
+    "paras": [
+     "Realice un recuento completo con una periodicidad fija, por ejemplo mensual, y recuentos puntuales semanales sobre un subconjunto rotatorio. Dos personas deben contar de forma independiente y después comparar. Anote la cantidad esperada, la cantidad contada y la diferencia de cada línea, con la fecha y el nombre de ambos contadores.",
+     "No corrija nunca una diferencia sobrescribiendo la cifra original. Contabilice un ajuste independiente y fechado, con una explicación y el nombre de quien lo aprueba. Fije una tolerancia adecuada al tipo de artículo y exija que se eleve a un miembro de la junta toda diferencia que la supere."
+    ]
+   },
+   {
+    "heading": "Almacenamiento, etiquetado y controles físicos",
+    "paras": [
+     "Los registros solo funcionan si el mundo físico está organizado para coincidir con ellos. Dé un nombre a cada ubicación de almacenamiento, agrupe los artículos similares, etiquete estantes y contenedores y limite las llaves o los códigos a personas concretas. Un almacén desordenado hace imposibles los recuentos exactos y encubre las pérdidas.",
+     "Anote quién tiene las llaves y cuándo cambian los códigos. Fotografíe la distribución del almacén tras cualquier reorganización y archive la foto con los registros de existencias, para que quienes cuentan sepan qué esperar. Cuando los artículos tengan fecha de caducidad o referencia de lote, regístrelos en la recepción y compruébelos en cada recuento."
+    ]
+   },
+   {
+    "heading": "Revisar las pautas a lo largo del tiempo",
+    "paras": [
+     "Una diferencia aislada importa menos que una pauta. Si la misma categoría muestra pérdidas pequeñas repetidas, o las diferencias se concentran en determinados turnos o ubicaciones, investigue el procedimiento antes de culpar a las personas. El etiquetado poco claro y el almacenamiento compartido son causas habituales.",
+     "Presente cada trimestre a la junta un resumen breve de existencias: situación inicial, entradas, movimientos, ajustes y situación final, con las diferencias relevantes explicadas. En el caso de los bienes regulados, compruebe qué exigen además las condiciones de su licencia o la normativa local. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-shrinkage-and-adjustment-log",
+  "title": "Cómo construir un registro de ajustes y discrepancias que resista una revisión",
+  "description": "Diseño del registro de ajustes que acompaña al inventario: códigos de motivo, aprobaciones, umbrales y revisión periódica para administradores de asociaciones.",
+  "keywords": [
+   "registro de ajustes de inventario",
+   "informe de discrepancias de stock",
+   "flujo de aprobación de diferencias",
+   "control de existencias asociación",
+   "códigos de motivo de inventario",
+   "software de auditoría de inventario"
+  ],
+  "sections": [
+   {
+    "heading": "El registro es su historial de credibilidad",
+    "paras": [
+     "Cuando las cantidades en existencia no coinciden con los libros, la explicación está en el registro de ajustes. Un registro bien llevado demuestra a los revisores que las diferencias se detectan, se investigan y las cierra alguien con autoridad, en lugar de darse de baja sin más.",
+     "Mantenga el registro separado del propio libro de existencias. El libro muestra las cifras; el registro cuenta la historia que hay detrás de cada cifra que hubo que modificar. Cada línea del registro debe poder rastrearse hasta un asiento del libro y viceversa."
+    ]
+   },
+   {
+    "heading": "Campos de cada asiento",
+    "paras": [
+     "Anote una referencia correlativa, la fecha y la hora, el artículo, la cantidad antes y después, la diferencia, un código de motivo, una explicación en texto libre, la persona que lo detectó, la persona que lo autorizó y cualquier referencia a una prueba de apoyo, como la foto de un embalaje dañado o un número de incidencia.",
+     "Utilice una lista cerrada de códigos de motivo y añada nuevos códigos solo por acuerdo de la junta. Un motivo de texto libre, por sí solo, hace imposible el análisis. Incluya un código explícito de sin explicar e informe de cuántos asientos lo llevan, porque un total creciente de casos sin explicar es una señal de alerta temprana."
+    ]
+   },
+   {
+    "heading": "Umbrales de aprobación",
+    "paras": [
+     "Defina por escrito los niveles. Por ejemplo, las diferencias pequeñas dentro de una tolerancia establecida puede autorizarlas el responsable del turno; las mayores requieren al tesorero; y todo lo que supere un límite definido pasa a la junta y consta en acta. Elija cifras acordes con sus propios volúmenes y revíselas cada año.",
+     "La separación de funciones es importante: quien contó no debe ser el único que apruebe el ajuste que propuso. Cuando haya poco personal, haga que un segundo miembro de la junta revise el registro en cada reunión y rubrique la página o el registro digital."
+    ]
+   },
+   {
+    "heading": "Usar el registro para mejorar los procedimientos",
+    "paras": [
+     "El registro es también una herramienta de aprendizaje. Cada trimestre, agrupe los asientos por código de motivo y por ubicación, y pregúntese qué cambio de proceso eliminaría la categoría más grande. A menudo es algo sencillo: una etiqueta que falta, una bandeja compartida, un recuento hecho con prisas a la hora del cierre.",
+     "Anote el cambio, su fecha y quién es responsable de él, y observe si el código correspondiente disminuye en el trimestre siguiente. Presentar a la junta esa comparación de antes y después demuestra que el registro impulsa un control real y no se limita a anotar pérdidas por puro trámite."
+    ]
+   },
+   {
+    "heading": "Revisar y cerrar el ciclo",
+    "paras": [
+     "Revise el registro cada mes. Busque códigos de motivo repetidos, horas o lugares que se repiten y asientos sin justificante. Deje constancia de la propia revisión, incluida cualquier acción de seguimiento y quién es su responsable.",
+     "A final de año, resuma el registro para la asamblea en términos sencillos: número de ajustes, cantidad total por código de motivo y medidas adoptadas. Si algún artículo está sujeto a normas específicas de conservación de registros por parte del regulador o de su autoridad autonómica, confirme el formato esperado con un asesor. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-sponsor-referral-records",
+  "title": "Registros de avalistas y presentaciones en la gestión de socios",
+  "description": "Por qué las asociaciones en España documentan quién presentó a cada socio, cómo guardar con seguridad los avales y cómo revisar las cadenas de presentación.",
+  "keywords": [
+   "registro de avalistas de socios",
+   "libro de presentaciones de socios",
+   "gestión de asociación de acceso restringido",
+   "verificación de nuevos socios asociación",
+   "control de acceso de socios",
+   "auditoría de avales de socios"
+  ],
+  "sections": [
+   {
+    "heading": "El papel del avalista en un círculo cerrado",
+    "paras": [
+     "Las asociaciones que limitan la pertenencia a un círculo cerrado suelen basarse en la presentación personal: un socio existente garantiza que conoce al candidato y que este entiende las normas de la asociación. El vínculo con el avalista forma así parte de su prueba de que la pertenencia no está abierta al público en general.",
+     "Un vínculo solo es útil si se registra de forma coherente. Guarde el número de socio del avalista, la fecha de la presentación y la referencia de admisión, no una nota suelta al margen. Conserve esa información en el expediente del candidato y refléjela también en el del avalista."
+    ]
+   },
+   {
+    "heading": "Fijar por escrito las reglas del aval",
+    "paras": [
+     "Deje por escrito quién puede ser avalista: por ejemplo, los socios activos con una antigüedad mínima y sin expedientes disciplinarios abiertos. Indique cuántos candidatos puede presentar un mismo socio en un periodo, para que el aval no se convierta en una puerta trasera hacia una expansión rápida.",
+     "Añada una declaración de que el avalista ha explicado al candidato los estatutos y el reglamento interno. Algunas juntas anotan además que el avalista asume cierto grado de responsabilidad por el comportamiento del socio presentado durante los primeros meses."
+    ]
+   },
+   {
+    "heading": "Revisar las cadenas de presentación",
+    "paras": [
+     "Una vez al trimestre, extraiga un listado de todas las admisiones con sus avalistas y busque anomalías: un socio que avala a un número inusualmente alto de candidatos, avales circulares o admisiones sin avalista registrado. Cada anomalía merece una explicación de una línea en las notas de la revisión.",
+     "Las cadenas también ayudan cuando algo sale mal. Si se suspende a un socio, la junta puede ver enseguida quién lo presentó y si otras relaciones requieren atención, sin tener que rebuscar entre archivos en papel o historiales de chat."
+    ]
+   },
+   {
+    "heading": "Gestionar disputas y avales retirados",
+    "paras": [
+     "A veces un avalista desea retirar su apoyo, o la relación entre avalista y candidato cambia tras la admisión. Prevea un formulario sencillo para ello y anote la fecha y el motivo en términos neutros. La junta decide si debe seguir alguna actuación, y esa decisión consta en acta.",
+     "De igual modo, si un avalista abandona la asociación, no borre el vínculo. Marque al avalista como antiguo, conserve la referencia histórica durante el periodo de conservación que haya fijado y valore si los socios presentados necesitan alguna atención adicional. Un trato coherente evita acusaciones de aplicación selectiva de las normas."
+    ]
+   },
+   {
+    "heading": "Privacidad y proporcionalidad",
+    "paras": [
+     "Los registros de avalistas vinculan a dos personas, así que aplique la minimización de datos conforme al RGPD y a la ley española de protección de datos. Almacene solo los números de socio y las fechas en las vistas habituales, y restrinja los nombres que hay detrás a los cargos que los necesiten.",
+     "Informe a los socios, en el aviso de privacidad, de que se registra la información del aval y con qué finalidad. Elimine o archive conforme a su calendario de conservación cuando termine la pertenencia correspondiente. Las exigencias locales difieren entre comunidades autónomas, así que verifique los detalles con un asesor. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-member-cards-and-entry-logs",
+  "title": "Carnés de socio y registros de entrada en los locales de una asociación",
+  "description": "Cómo controlar el acceso al local de una asociación con carnés de socio, un registro de puerta y una gestión clara de excepciones, respetando la privacidad.",
+  "keywords": [
+   "carné de socio asociación",
+   "registro de entradas local asociación",
+   "control de acceso club de socios",
+   "registro de invitados y visitas",
+   "verificación de socios en la puerta",
+   "registros de acceso al local de la asociación"
+  ],
+  "sections": [
+   {
+    "heading": "Por qué el control de acceso es una cuestión de registros",
+    "paras": [
+     "En una asociación exclusiva para socios, la puerta es donde las normas de pertenencia se encuentran con la realidad. Una comprobación del carné y un registro de entradas demuestran que solo accede quien figura en el libro de socios, y dan a la junta una base objetiva si surge alguna duda sobre quién estuvo presente un día concreto.",
+     "El registro no necesita recogerlo todo. Decida qué necesita, que normalmente son el número de socio, la fecha y la hora y la persona de servicio, y deje fuera todo aquello que no pueda justificar."
+    ]
+   },
+   {
+    "heading": "Diseño del carné",
+    "paras": [
+     "Un carné de socio útil lleva un nombre o número de socio, un indicador de caducidad o de vigencia y un código legible por máquina que remite al libro de socios. Evite imprimir datos sensibles. Un carné perdido debe poder anularse de inmediato, anotando la reposición y dejando sin validez el código antiguo.",
+     "Emita carnés solo cuando la admisión esté completa y las cuotas, abonadas. Lleve un registro de emisión de carnés: número de carné, número de socio, fecha de emisión, persona que lo emite y fecha de devolución o anulación. Concilie cada mes el número de carnés vigentes con el de socios activos."
+    ]
+   },
+   {
+    "heading": "Procedimientos de puerta y excepciones",
+    "paras": [
+     "Redacte un procedimiento de puerta breve: escanear o comprobar el carné, contrastarlo con la fotografía u otro identificador acordado, confirmar que el estado del socio es activo y registrar la entrada. Defina qué hace el equipo de puerta cuando el carné falla, el socio tiene la cuota vencida o la persona no tiene carné.",
+     "Las excepciones deben ser escasas y quedar registradas. Que se admitan o no invitados es una cuestión que depende de sus estatutos y de la normativa local; si se admiten, exija un registro previo de quién los invitó y lleve un libro de visitas separado del registro de socios."
+    ]
+   },
+   {
+    "heading": "Control de aforo y procedimientos de emergencia",
+    "paras": [
+     "El registro de entradas sirve también como recuento de personas. Si su local tiene un aforo máximo según las condiciones locales o sus propias normas, muestre la cifra actual al equipo de puerta y anote cualquier momento en que se alcance. Compruebe lo que exigen la licencia del local o las condiciones municipales en lugar de darlo por supuesto.",
+     "En una emergencia, el registro debe decirle quién está dentro. Mantenga un procedimiento de lista de evacuación imprimible y pruébelo. El personal debe saber dónde está la lista, quién la lee en voz alta y cómo se anotan las salidas. Haga un simulacro una vez al año y anote el resultado en el expediente de operaciones."
+    ]
+   },
+   {
+    "heading": "Conservación, revisión y privacidad",
+    "paras": [
+     "Los registros de entrada son datos personales. Fije un plazo de conservación que se corresponda con una finalidad declarada, como investigar incidentes o comprobar el aforo, y elimine o anonimice después. Restrinja el acceso a los cargos que lo necesiten y anote cada vez que se consulte el registro.",
+     "Revise cada semana en busca de anomalías: escaneos fallidos repetidos, entradas fuera del horario de apertura, carnés utilizados dos veces en rápida sucesión. Un sistema como Budify puede almacenar los datos de carnés y entradas con acceso por roles, pero sea cual sea la herramienta, su aviso de privacidad debe explicar el registro. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-renewals-lapses-and-offboarding",
+  "title": "Registros de renovaciones, impagos y bajas de socios",
+  "description": "Ciclo de vida del estado de los socios en asociaciones españolas: avisos de renovación, plazos de gracia, bajas voluntarias y cierre limpio de los registros.",
+  "keywords": [
+   "proceso de renovación de socios",
+   "registro de bajas de socios",
+   "gestión del estado de los socios",
+   "baja de socios y datos personales",
+   "control de cuotas anuales asociación",
+   "ciclo de vida del socio"
+  ],
+  "sections": [
+   {
+    "heading": "Defina primero el modelo de estados",
+    "paras": [
+     "Antes de controlar las renovaciones, acuerde la lista de estados que utiliza su asociación: solicitante, activo, con cuotas pendientes, suspendido, baja voluntaria, expulsado, fallecido. Cada estado debe tener una definición escrita y un responsable de la decisión designado. La ambigüedad en este punto causa la mayoría de las disputas posteriores.",
+     "Asegúrese de que el modelo se ajusta a sus estatutos. Si estos establecen que el impago durante un plazo determinado pone fin a la condición de socio, el proceso debe respetar esa redacción, incluido quién notifica al socio y de qué manera."
+    ]
+   },
+   {
+    "heading": "Avisos de renovación y plazos de gracia",
+    "paras": [
+     "Envíe recordatorios de renovación a intervalos fijos, por ejemplo treinta días antes, en la fecha de vencimiento y tras un breve plazo de gracia. Conserve una copia o un registro de cada aviso y del medio utilizado. Al socio que afirme que nunca se le avisó debe poder responderle con un registro fechado.",
+     "Aplique el mismo plazo de gracia a todos. Las excepciones, como un acuerdo por dificultades económicas, requieren una decisión de la junta que conste en acta. Unas reglas uniformes protegen a la asociación de acusaciones de favoritismo y dan sentido al informe de impagos del tesorero."
+    ]
+   },
+   {
+    "heading": "Baja voluntaria y expulsión",
+    "paras": [
+     "La baja voluntaria debe presentarse por escrito, con fecha y con acuse de recibo del secretario. Actualice el libro de socios en la fecha en que surta efecto y cancele las credenciales de acceso ese mismo día. Cuando la junta suspenda o expulse a un socio, anote la decisión, el procedimiento seguido y la fecha en que se informó al socio.",
+     "Respete los derechos procedimentales previstos en los estatutos, como el derecho a ser oído. Mantener la documentación ordenada no es burocracia por la burocracia; es lo que le permite defender la decisión si es impugnada."
+    ]
+   },
+   {
+    "heading": "Informar a la junta sobre el ciclo de vida",
+    "paras": [
+     "Un informe trimestral del ciclo de vida pone todo el proceso a la vista: nuevos socios, renovaciones completadas, impagos, bajas voluntarias, suspensiones y expulsiones, con recuentos por mes. Los totales deben cuadrar: socios iniciales más altas menos bajas es igual a socios finales.",
+     "Incluya un breve comentario sobre cualquier tendencia, como un aumento de los impagos tras un cambio de cuota. Concilie el recuento final con el libro de socios y con el libro de cuotas, y anote quién realizó esa conciliación. Las juntas que ven estas cifras con regularidad toman mejores decisiones que las que se guían por impresiones."
+    ]
+   },
+   {
+    "heading": "Dar de baja los datos",
+    "paras": [
+     "Cuando termina la condición de socio, no lo elimine todo de golpe. Algunos registros, como el historial de cuotas y el hecho de haber sido socio, pueden tener que conservarse por razones contables o por plazos de prescripción. Otros, como las preferencias de contacto y los registros de entrada, suelen poder eliminarse antes. Redacte una tabla de conservación y aplíquela.",
+     "Herramientas como Budify pueden marcar a un socio como archivado, retirar su acceso activo y programar la eliminación de campos por categorías, pero los plazos de conservación deben derivarse de su propio análisis conforme al RGPD y a la ley española de protección de datos. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-volunteer-rota-and-shift-handover",
+  "title": "Cuadrantes de voluntarios y relevo de turnos en asociaciones de socios",
+  "description": "Rutinas prácticas de cuadrantes, fichas de funciones y notas de relevo para que el local de la asociación funcione igual cuando cambian los equipos.",
+  "keywords": [
+   "relevo de turnos checklist",
+   "cuadrante de voluntarios asociación",
+   "gestión operativa de asociaciones",
+   "plantilla de notas de relevo",
+   "organización de turnos club",
+   "administración diaria de asociaciones"
+  ],
+  "sections": [
+   {
+    "heading": "Por qué el relevo es donde fallan los registros",
+    "paras": [
+     "Las asociaciones suelen funcionar con voluntarios y unos pocos empleados a tiempo parcial, lo que significa que la responsabilidad cambia de manos varias veces al día. La mayoría de los artículos extraviados, los movimientos sin registrar y las diferencias de caja sin explicar tienen su origen en un relevo en el que nadie sabía lo que ya se había hecho.",
+     "La solución es un relevo por escrito. No necesita ser largo, pero debe ser coherente, estar fechado y firmado tanto por la persona saliente como por la entrante."
+    ]
+   },
+   {
+    "heading": "Elaborar el cuadrante",
+    "paras": [
+     "Publique el cuadrante con al menos dos semanas de antelación, con suplentes designados para cada función. Dé a cada función una ficha de una página que enumere sus tareas, los registros que actualiza y de quién depende: control de puerta, caja, almacén, supervisor.",
+     "Lleve un registro de quién trabajó realmente, no solo de quién estaba programado. La asistencia real importa para las cuestiones de seguros, para cualquier revisión de incidentes y para cualquier acuerdo por el que la asociación reembolse gastos. La condición de empleado o de voluntario tiene consecuencias jurídicas, así que pida asesoramiento sobre cómo se vincula a cada persona."
+    ]
+   },
+   {
+    "heading": "Una nota de relevo que funcione",
+    "paras": [
+     "Utilice una única plantilla con epígrafes fijos: asuntos pendientes, incidencias desde el último turno, anomalías de existencias o equipos, situación de caja, llaves y estado de la alarma, y mensajes para la persona siguiente. Rellénela antes de marcharse, no de memoria al día siguiente.",
+     "La persona entrante la lee, comprueba la caja y los artículos de existencias que figuren y firma. Si las cifras no coinciden con la nota, la diferencia se anota en ese mismo momento con ambas personas presentes, lo que evita que la culpa recaiga sobre quien llegó después."
+    ]
+   },
+   {
+    "heading": "Formación, incorporación y registros de seguros",
+    "paras": [
+     "Todo voluntario debe completar una breve incorporación antes de trabajar solo: reglamento interno, procedimientos de emergencia, confidencialidad, uso del sistema de registros y a quién llamar. Anote la fecha, el contenido y el formador, y conserve en el expediente una constancia firmada.",
+     "Mantenga una lista de quién está formado para cada función y compruebe que siempre hay cobertura para todas ellas. Pregunte a su aseguradora o asesor cómo están cubiertos los voluntarios y el personal y si se necesitan registros de asistencia, y archive las pólizas junto con sus registros de operaciones para consultarlas fácilmente durante una auditoría."
+    ]
+   },
+   {
+    "heading": "Revisión mensual de las operaciones",
+    "paras": [
+     "Una vez al mes, un miembro de la junta debe leer una muestra de notas de relevo. Fíjese en los problemas repetidos, los campos sin rellenar y las firmas de la misma persona en ambos lados, lo que sugiere que la comprobación no se hizo realmente.",
+     "Incorpore las conclusiones a la formación. Un breve curso de actualización para voluntarios, con ejemplos reales anonimizados extraídos de las notas, aporta más a la coherencia que un manual extenso. Conserve las notas durante el periodo fijado en su calendario de conservación y guárdelas donde solo puedan leerlas los cargos autorizados. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-opening-closing-checklists",
+  "title": "Listas de comprobación de apertura y cierre del local de una asociación",
+  "description": "Diseñe listas de apertura y cierre sencillas y auditables que cubran local, equipos, registros y caja en asociaciones sin ánimo de lucro.",
+  "keywords": [
+   "checklist de apertura y cierre",
+   "procedimientos del local de la asociación",
+   "lista de comprobación de operaciones diarias",
+   "procedimiento de cierre de caja y registros",
+   "gestión del local de un club",
+   "trazabilidad de operaciones"
+  ],
+  "sections": [
+   {
+    "heading": "Para qué sirve una lista de comprobación",
+    "paras": [
+     "Una lista de comprobación convierte las buenas intenciones en un comportamiento repetible. En una asociación con voluntarios cambiantes, garantiza que el local es seguro, que los registros se actualizan y que no queda nada sin hacer al final del día. Además deja un rastro fechado que muestra a la junta cómo se gestiona realmente el local.",
+     "Limite cada lista a una página. Las listas largas se leen por encima; las cortas se usan. Separe la lista de apertura de la de cierre y asigne cada una a una función concreta."
+    ]
+   },
+   {
+    "heading": "Rutina de apertura",
+    "paras": [
+     "Una lista de apertura razonable abarca: alarma y llaves registradas, local inspeccionado en busca de cualquier cosa inusual, equipos de seguridad comprobados, dispositivos encendidos y conectados, nota de cierre del día anterior leída, fondo de caja contado y anotado, y libro de socios o sistema de acceso comprobado en funcionamiento.",
+     "Añada una línea para los requisitos locales, como exhibir los avisos exigidos o el reglamento interno donde los socios puedan verlos. Cada punto lleva una marca, las iniciales y la hora. Cualquier punto que no pueda marcarse pasa a ser un asiento en el registro de incidencias."
+    ]
+   },
+   {
+    "heading": "Rutina de cierre",
+    "paras": [
+     "La lista de cierre invierte el proceso: recuento final de la caja y de los artículos de existencias frente a los registros, registro de entradas conciliado con el número de personas anotadas como salidas, registros guardados y con copia de seguridad, residuos gestionados según sus procedimientos, equipos apagados, puertas cerradas y alarma conectada, llaves devueltas.",
+     "Exija dos personas para los recuentos de caja y de existencias siempre que sea posible. Cuando solo haya una persona disponible, fotografíe la hoja de recuento o regístrela en el sistema con marca de tiempo, y haga que el responsable la contrafirme a la mañana siguiente."
+    ]
+   },
+   {
+    "heading": "Mantener útil el rastro documental",
+    "paras": [
+     "Las listas cumplimentadas solo tienen valor si se pueden encontrar. Archívelas por fecha en una carpeta física o digital, con un índice mensual. Los formularios digitales deben registrar automáticamente el usuario y la marca de tiempo, y no deben permitir fechar con retraso sin que quede constancia visible de la edición.",
+     "Decida cuánto tiempo conservarlas. Las listas operativas rutinarias rara vez necesitan guardarse durante años, pero las relacionadas con una incidencia, una diferencia de caja o una inspección deben copiarse a ese expediente y conservarse durante su plazo. Anote la regla en su tabla de conservación."
+    ]
+   },
+   {
+    "heading": "Revisar y mejorar las listas",
+    "paras": [
+     "Recoja las listas cumplimentadas cada semana y busque lagunas. Una casilla que siempre está en blanco es innecesaria o se está ignorando; decida cuál de las dos cosas es y elimínela o haga que se cumpla. Actualice la plantilla tras cualquier incidencia para incorporar la lección aprendida.",
+     "Controle las versiones de cada plantilla con fecha y número, y conserve las antiguas. Si un inspector o una aseguradora le pregunta cuál era el procedimiento en un día determinado, podrá mostrar la lista vigente en ese momento. Compruebe si la licencia del local, las normas municipales o la póliza de seguro imponen requisitos adicionales. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-incident-log-and-house-rules",
+  "title": "Reglamento interno y registros de incidencias en asociaciones de socios españolas",
+  "description": "Cómo redactar un reglamento interno exigible y llevar un registro de incidencias que respalde decisiones justas de la junta en una asociación en España.",
+  "keywords": [
+   "reglamento de régimen interno asociación",
+   "registro de incidencias asociación",
+   "procedimiento de conducta de socios",
+   "informe de incidentes en el local",
+   "normas internas de un club",
+   "gobierno de asociaciones en España"
+  ],
+  "sections": [
+   {
+    "heading": "El reglamento interno como parte de los documentos de gobierno",
+    "paras": [
+     "La mayoría de las asociaciones en España adoptan un reglamento de régimen interno junto a sus estatutos. En él se fijan la conducta de los socios, el uso del local y las consecuencias de los incumplimientos. Solo son justas si los socios las han visto y aceptado, así que anote la versión que cada socio ha reconocido.",
+     "Redacte las normas en lenguaje claro y manténgalas breves. Las normas que nadie recuerda no pueden aplicarse de forma coherente. Haga que sea la junta, y no un voluntario a título individual, quien decida las sanciones."
+    ]
+   },
+   {
+    "heading": "Qué debe figurar en el registro de incidencias",
+    "paras": [
+     "Una incidencia es todo lo que queda fuera del funcionamiento normal: una disputa, un suceso de seguridad, un incumplimiento del reglamento, un equipo dañado, una diferencia de existencias o de caja, una preocupación en materia de protección de datos. Registre cada una con un número correlativo, fecha, hora, lugar, personas implicadas por número de socio, una descripción objetiva y la medida inmediata adoptada.",
+     "Ciñase a los hechos y evite opiniones o conjeturas. Escriba lo que se vio o se comunicó, por quién y qué se hizo. Esta es la disciplina más importante de todo registro de incidencias."
+    ]
+   },
+   {
+    "heading": "De la incidencia a la decisión",
+    "paras": [
+     "Cada incidencia tiene un responsable y un estado: abierta, en revisión, cerrada. Los asuntos menores puede cerrarlos el responsable de turno con una nota; los que afecten a la condición de un socio pasan a la junta. Antes de cualquier sanción, siga el procedimiento previsto en sus estatutos, incluida la notificación y la oportunidad de que el socio responda.",
+     "Conserve en el expediente la decisión, su fecha y la comunicación al socio. Si el asunto dio lugar a un cambio de procedimiento, anótelo también. Con el tiempo, esto construye un registro que la junta puede utilizar para mejorar las normas en lugar de limitarse a reaccionar."
+    ]
+   },
+   {
+    "heading": "Formar al equipo para redactar buenos asientos",
+    "paras": [
+     "La calidad de un registro de incidencias depende de las personas que lo redactan. Haga un breve ejercicio: dé a los voluntarios un suceso ficticio y pídales que lo registren, y compare después los asientos. Destaque la diferencia entre observación e interpretación y acuerden una redacción estándar.",
+     "Ponga en la recepción una tarjeta de consulta rápida con los campos mínimos y los contactos de escalado. Felicite los buenos asientos en las reuniones del equipo. Una cultura que registra los problemas sin buscar culpables produce mejor información que otra en la que la gente evita dejar las cosas por escrito."
+    ]
+   },
+   {
+    "heading": "Privacidad y revisión",
+    "paras": [
+     "Los registros de incidencias incluyen datos personales de personas que quizá no fueran socios. Restrinja el acceso, evite nombres innecesarios y fije un plazo de conservación. Cuando un incidente grave le obligue a informar a una autoridad, pida asesoramiento sobre el momento y el contenido.",
+     "Revise el registro cada trimestre. Cuente las incidencias por tipo y ubicación, compruebe que cada asunto abierto tiene responsable e informe a la junta de los totales sin datos personales. Un sistema como Budify puede almacenar incidencias vinculadas a números de socio con control de permisos, pero lo que hace valioso a cualquier registro es el hábito de anotar a tiempo y con objetividad. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-internal-accounting-for-associations",
+  "title": "Contabilidad interna de las asociaciones sin ánimo de lucro en España",
+  "description": "Contabilidad práctica para asociaciones sin ánimo de lucro: categorías de ingresos y gastos, justificantes, control de efectivo en euros y cierre mensual.",
+  "keywords": [
+   "contabilidad asociación sin ánimo de lucro",
+   "contabilidad de asociaciones en euros",
+   "funciones del tesorero de una asociación",
+   "contabilidad interna de asociaciones",
+   "cierre mensual contable asociación",
+   "libro de cuentas asociación"
+  ],
+  "sections": [
+   {
+    "heading": "Qué debe demostrar la contabilidad",
+    "paras": [
+     "Se espera que una asociación sin ánimo de lucro en España lleve una contabilidad que refleje la imagen fiel de su patrimonio, sus ingresos, sus gastos y sus resultados, y que la presente a sus socios. El formato exacto depende de su tamaño y de las normas contables aplicables a la entidad, así que pregunte a su asesor qué modelo le corresponde.",
+     "Sea cual sea el formato, el principio de fondo es el mismo: cada euro que entra o sale debe poder rastrearse hasta un documento y una decisión. Los tesoreros que mantienen sencillo este principio suelen tener ejercicios sin sobresaltos."
+    ]
+   },
+   {
+    "heading": "Plan de categorías",
+    "paras": [
+     "Defina una lista corta de categorías de ingresos, como cuotas de socios y donaciones, y de gastos, como alquiler, suministros, seguros, equipamiento, honorarios profesionales y administración. Añada líneas separadas para los fondos con destino específico. Mantenga la lista estable de un año a otro para que las comparaciones tengan sentido.",
+     "Evite una categoría genérica de varios que supere un umbral pequeño. Si más de unos pocos puntos porcentuales del gasto acaban ahí, es hora de crear una categoría propia."
+    ]
+   },
+   {
+    "heading": "Justificantes y aprobaciones",
+    "paras": [
+     "Conserve una factura o un recibo de cada gasto, archivado con la misma referencia que el asiento del libro. Fije límites de gasto: por debajo de un límite paga el tesorero; por encima se necesita un segundo firmante o un acuerdo de la junta, y se anota en el asiento el número del acta.",
+     "Pague desde la cuenta bancaria de la propia asociación, no desde cuentas personales. Cuando se maneje efectivo, cuéntelo dos veces, anote el recuento, ingréselo sin demora y conserve los resguardos de ingreso. Tenga presentes los impuestos: el tratamiento del IVA, de las retenciones y del impuesto sobre sociedades de las asociaciones depende de las circunstancias, así que busque asesoramiento personalizado en lugar de dar por supuesta una exención."
+    ]
+   },
+   {
+    "heading": "Presupuesto, fondos con destino específico y controles",
+    "paras": [
+     "Prepare un presupuesto anual para la asamblea y compare cada mes los resultados reales con él. Identifique los fondos entregados para un fin concreto y manténgalos visiblemente separados en el libro, de modo que pueda demostrarse que el gasto se corresponde con ese fin. Los importes no gastados deben trasladarse como fondos con destino específico.",
+     "Añada controles básicos: dos firmantes en la cuenta bancaria, rotación periódica de quién concilia y una regla por la que nadie aprueba sus propios gastos. Lleve un registro del inmovilizado con fecha de compra y ubicación. Estas medidas protegen tanto a los voluntarios como a la propia asociación."
+    ]
+   },
+   {
+    "heading": "El cierre mensual",
+    "paras": [
+     "A fin de mes, concilie el extracto bancario con el libro, revise las facturas pendientes de pago, compruebe que el efectivo en caja coincide con el libro de caja y bloquee el mes para que los asientos no puedan cambiar sin dejar rastro. Un resumen de una página para la junta debe mostrar ingresos, gastos, saldo y los asuntos que requieran decisión.",
+     "Archive los justificantes con una estructura ordenada y haga copia de seguridad de las copias digitales. Los plazos de conservación de los registros contables los fija la ley y varían según el tipo de documento, así que confírmelos en lugar de suponerlos. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-fee-ledger-and-cash-reconciliation",
+  "title": "Libros de cuotas y conciliación de caja en asociaciones",
+  "description": "Cómo controlar las cuotas por socio, conciliar a diario el efectivo y los cobros bancarios e informar a la junta de los impagos sin sorpresas contables.",
+  "keywords": [
+   "libro de cuotas de socios",
+   "conciliación de caja asociación",
+   "procedimiento de arqueo de caja diario",
+   "informe de cuotas impagadas",
+   "informes financieros de asociaciones en euros",
+   "software de control de cuotas"
+  ],
+  "sections": [
+   {
+    "heading": "Una línea de libro por socio y periodo",
+    "paras": [
+     "La forma más fiable de gestionar las cuotas es un libro con una línea por socio y periodo: importe debido, fecha de vencimiento, importe recibido, fecha de cobro, medio de pago y número de recibo. Los impagos pasan así a ser un simple filtro y no una labor de detective.",
+     "Los importes de las cuotas deben proceder de un acuerdo de la asamblea que conste en acta. No permita nunca que los voluntarios negocien importes por su cuenta en el mostrador; las excepciones van a la junta y se hacen constar en acta."
+    ]
+   },
+   {
+    "heading": "Recibos y manejo de efectivo",
+    "paras": [
+     "Emita un recibo numerado por cada pago, sea en efectivo, con tarjeta o por transferencia. Utilice numeración correlativa sin saltos; un recibo anulado se conserva y se marca como anulado, no se destruye. Mantenga pequeño el fondo de caja y anote su importe al inicio y al final de cada turno.",
+     "Haga ingresos con regularidad y evite tener sumas importantes en el local. Dos personas deben contar el efectivo al cierre, anotar el total y firmar. El manejo de efectivo en euros conlleva sus propios riesgos, así que acuerde un límite claro por encima del cual el efectivo se ingresa en el banco el mismo día."
+    ]
+   },
+   {
+    "heading": "Conciliación diaria",
+    "paras": [
+     "Al cierre, compare tres cifras: los recibos emitidos, los totales de efectivo y de tarjeta que realmente se tienen, y los apuntes del libro. Deben ser idénticas. Si no lo son, anote la diferencia de inmediato, investíguela el mismo día si es posible y no espere al fin de mes.",
+     "Una diferencia moderada causada por errores al dar el cambio debe registrarse y explicarse igual que las diferencias de existencias. Las pautas persistentes apuntan a necesidades de formación o a fallos del proceso. Un sistema como Budify puede generar un informe de fin de día que cuadre recibos y asientos del libro, lo que acorta este paso."
+    ]
+   },
+   {
+    "heading": "Devoluciones, correcciones y reclamaciones",
+    "paras": [
+     "Las cuotas pagadas por error o los importes mal anotados necesitan un camino claro. No borre nunca la línea original. Contabilice un asiento de reversión con referencia al original, el motivo y el aprobador, y después anote el importe correcto. Una devolución requiere el mismo nivel de aprobación que la fijación original de la cuota.",
+     "Si un socio discute un saldo, facilítele un extracto del libro que muestre cada cargo y cada pago con sus números de recibo. La mayoría de los desacuerdos desaparecen cuando ambas partes miran el mismo registro. Anote la reclamación y su resolución, e informe al tesorero de las pautas que se repitan."
+    ]
+   },
+   {
+    "heading": "Informes de impagos",
+    "paras": [
+     "Cada mes, elabore un listado de impagos con el número de socio, el importe adeudado, el tiempo de retraso y el último recordatorio enviado. Siempre que sea posible, comparta con la junta una versión sin nombres. Siga sus estatutos en cuanto a los recordatorios y a las consecuencias del impago.",
+     "Concilie cada trimestre el libro de cuotas con el libro de socios, de modo que todo socio activo tenga un estado de cuota y nadie del libro de cuotas haya desaparecido del libro de socios. Tenga en cuenta que el tratamiento fiscal y contable de las cuotas depende de sus circunstancias. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-annual-accounts-and-assembly-reporting",
+  "title": "Cuentas anuales e informes para la asamblea general de una asociación",
+  "description": "Prepare el informe del tesorero, las cuentas anuales y el dossier informativo para la asamblea general, con un calendario y una lista de revisión.",
+  "keywords": [
+   "cuentas anuales asociación",
+   "informe para la asamblea general",
+   "plantilla informe del tesorero",
+   "asamblea general de la asociación",
+   "estados financieros de asociaciones",
+   "cierre del ejercicio asociación sin ánimo de lucro"
+  ],
+  "sections": [
+   {
+    "heading": "Qué necesita ver la asamblea",
+    "paras": [
+     "La asamblea general de una asociación suele aprobar las cuentas anuales y la memoria de actividades, y decidir sobre el presupuesto. Los socios necesitan, por tanto, un dossier completo, comprensible y entregado con antelación suficiente a la reunión, según establezcan sus estatutos.",
+     "Elabore el dossier a partir de los registros que ya lleva: el libro de cuentas, las conciliaciones bancarias, el libro de socios y las actas. Si los registros del año se han mantenido al día cada mes, la preparación consiste en reunir, no en reconstruir."
+    ]
+   },
+   {
+    "heading": "Un calendario que funciona",
+    "paras": [
+     "Trabaje hacia atrás desde la fecha de la asamblea. Dos meses antes, termine el cierre del ejercicio y las confirmaciones bancarias. Seis semanas antes, elabore el borrador de las cuentas y el resumen de actividades. Cuatro semanas antes, haga que la junta revise y acuerde el dossier final. Dos semanas antes, envíe la convocatoria y la documentación por el medio que prescriban sus estatutos.",
+     "Deje constancia de cada paso en las actas o en un registro del proyecto. Compruebe con atención el plazo de convocatoria y las reglas de quórum de sus estatutos, porque una convocatoria defectuosa puede invalidar los acuerdos adoptados."
+    ]
+   },
+   {
+    "heading": "Contenido del informe del tesorero",
+    "paras": [
+     "Incluya los ingresos y gastos del año comparados con el presupuesto y con el ejercicio anterior, el saldo final, una nota sobre las cuotas impagadas, las operaciones importantes y los fondos con destino específico. Añada el número de socios al inicio y al final del año con las altas y las bajas, conciliado con el libro de socios.",
+     "Explique las desviaciones en lenguaje sencillo. Los socios rara vez se oponen a un déficit bien explicado; lo que rechazan son las sorpresas. Llame la atención sobre el presupuesto propuesto y sobre cualquier cambio de cuotas que requiera votación."
+    ]
+   },
+   {
+    "heading": "Preguntas de los socios y transparencia",
+    "paras": [
+     "Anticipe las preguntas que harán los socios: por qué subió un coste, adónde fue el saldo de caja, cómo se emplean las cuotas. Prepare respuestas breves con cifras y referencias documentales. Ofrezca a los socios una forma razonable de consultar los libros, conforme a sus estatutos y a sus obligaciones de privacidad.",
+     "Cuando las cuentas incluyan datos sobre personas, como pagos a personas concretas, aplique la proporcionalidad. Presente categorías y totales en el dossier y mantenga los detalles subyacentes a disposición de quienes tengan derecho a verlos. Unas respuestas claras y serenas generan confianza en la junta."
+    ]
+   },
+   {
+    "heading": "Después de la reunión",
+    "paras": [
+     "Haga constar en acta la aprobación, el recuento de votos y las preguntas planteadas. Firme y archive las cuentas definitivas junto con los justificantes. Actualice el registro de cargos si la asamblea eligió a alguien y presente los trámites que exija su registro autonómico o nacional de asociaciones.",
+     "Las obligaciones y los plazos de presentación difieren entre regiones y, a veces, entre tipos de asociación, así que confirme los suyos con el registro correspondiente o con un asesor. Conserve el dossier final durante el plazo aplicable a los registros contables. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-access-control-and-roles-gdpr",
+  "title": "Acceso por roles a los datos de los socios según el RGPD y la LOPDGDD",
+  "description": "Limite quién ve los datos de los socios en una asociación española: diseño de roles, mínimo privilegio, revisiones de acceso y registros conformes al RGPD.",
+  "keywords": [
+   "rgpd asociaciones datos de socios",
+   "cumplimiento lopdgdd asociación",
+   "control de acceso basado en roles",
+   "protección de datos de socios en españa",
+   "revisión de accesos y registro",
+   "delegado de protección de datos asociación"
+  ],
+  "sections": [
+   {
+    "heading": "Por qué importa el diseño del acceso",
+    "paras": [
+     "Las asociaciones guardan datos de identidad, de contacto y registros de participación que los socios esperan que permanezcan privados. Conforme al RGPD y a la ley española de protección de datos (LOPDGDD), la asociación es la responsable del tratamiento y debe demostrar que limita el acceso a lo que cada persona necesita. El fallo típico es una hoja de cálculo filtrada y compartida por chat.",
+     "Diseñe el acceso en torno a roles, no a personas. Las personas cambian, los roles permanecen, y las definiciones de los roles pueden ser revisadas y recogidas en acta por la junta."
+    ]
+   },
+   {
+    "heading": "Un modelo de roles sencillo",
+    "paras": [
+     "Empiece con cuatro o cinco roles: administrador (muy pocas personas), secretaría (libro de socios y actas), tesorería (cuotas y libro de cuentas), personal de puerta o recepción (solo comprobación de estado) y auditor de solo lectura. Para cada uno, enumere qué pantallas, exportaciones y archivos puede abrir.",
+     "Los roles de recepción deben ver únicamente lo necesario para confirmar que alguien es socio activo, no su dirección ni su historial de pagos. Las exportaciones del libro de socios completo deben limitarse a la secretaría y quedar registradas cada vez que se generen."
+    ]
+   },
+   {
+    "heading": "Altas, cambios y bajas de responsables",
+    "paras": [
+     "Vincule el acceso a la lista de cargos. Cuando alguien resulte elegido, recibe el acceso de su rol; cuando termine su mandato, el acceso se retira ese mismo día. Utilice cuentas individuales con contraseñas robustas y un segundo factor cuando esté disponible, y no comparta nunca un usuario.",
+     "Redacte una norma de uso aceptable de una página para los voluntarios que abarque la confidencialidad, los dispositivos personales, las fotografías de registros y qué hacer si sospechan un problema. Haga que cada persona la firme y archívela."
+    ]
+   },
+   {
+    "heading": "Dispositivos, aplicaciones de mensajería y papel",
+    "paras": [
+     "Muchas brechas en las organizaciones pequeñas proceden de herramientas cotidianas: teléfonos personales con listas de socios, grupos de chat usados para compartir fotos de documentos, libros impresos olvidados sobre una mesa. Fije normas para cada caso. Utilice cuentas gestionadas por la organización, bloqueo de pantalla y evite enviar datos personales por mensajería informal.",
+     "El papel merece la misma atención. Guarde los libros impresos bajo llave, destruya lo que ya no se necesite y registre cualquier salida del local. Incluya estas reglas en el mismo documento de uso aceptable y recuérdeselas a los voluntarios en cada sesión anual de actualización."
+    ]
+   },
+   {
+    "heading": "Revisión y registro",
+    "paras": [
+     "Cada trimestre, elabore una lista de quién tiene acceso a qué y pida a cada responsable de rol que la confirme. Retire todo lo que no sea necesario. Mantenga un registro de las acciones sensibles, como exportaciones, eliminaciones y cambios de permisos, y revíselo para detectar actividad inusual.",
+     "Valore si su asociación necesita un contacto o delegado de protección de datos designado; ello depende de sus actividades y de su tamaño, así que consulte con un asesor. Un sistema como Budify puede aplicar roles y registrar los eventos de acceso, pero las decisiones de política corresponden a su junta. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-retention-requests-and-breach-log",
+  "title": "Calendarios de conservación, solicitudes de socios y registros de brechas",
+  "description": "Fije plazos de conservación, atienda solicitudes de acceso y supresión y lleve un registro de brechas en su asociación conforme al RGPD y la LOPDGDD.",
+  "keywords": [
+   "calendario de conservación de datos asociación",
+   "derecho de acceso de socios rgpd",
+   "registro de brechas de seguridad",
+   "rgpd asociación sin ánimo de lucro españa",
+   "solicitudes de socios lopdgdd",
+   "política de supresión de datos personales"
+  ],
+  "sections": [
+   {
+    "heading": "Conservación: decidir, documentar y aplicar",
+    "paras": [
+     "Un calendario de conservación enumera cada categoría de registro, por qué la guarda, durante cuánto tiempo y qué ocurre al final. Algunos ejemplos son el libro de socios, el historial de cuotas, las actas, los registros de entrada, los registros de incidencias y los expedientes de los candidatos rechazados. Cada categoría justifica plazos distintos.",
+     "Algunos plazos vienen impuestos por normas contables o de prescripción, y otros por su propia finalidad. Pida a un asesor que confirme los mínimos exigidos, fije después plazos más cortos para todo lo demás y someta la tabla completa a la aprobación de la junta."
+    ]
+   },
+   {
+    "heading": "Aplicar la supresión en la práctica",
+    "paras": [
+     "Un calendario solo sirve si alguien lo ejecuta. Asigne a un cargo concreto la revisión trimestral de los elementos vencidos, su supresión o anonimización y el registro de lo realizado. Incluya las copias de seguridad en su planteamiento: los registros eliminados del sistema activo deben desaparecer de las copias en un ciclo determinado.",
+     "Lleve un breve registro de supresiones que muestre la categoría, la fecha y la persona responsable, sin repetir los datos personales eliminados."
+    ]
+   },
+   {
+    "heading": "Atender las solicitudes de los socios",
+    "paras": [
+     "Conforme al RGPD, los socios tienen derecho a acceder a sus datos, rectificarlos y, en los casos que proceda, solicitar su supresión o la limitación del tratamiento. Defina un único punto de contacto, un formulario o una dirección de correo, y un procedimiento: registrar la solicitud, verificar la identidad, localizar los datos, responder dentro del plazo legal y anotar el resultado.",
+     "No toda solicitud exige la supresión; algunos datos deben conservarse por razones legales y conviene explicarlo con claridad. Un libro de socios y un libro de cuentas ordenados hacen mucho más rápidas la búsqueda y la respuesta."
+    ]
+   },
+   {
+    "heading": "Documentar la base jurídica y los avisos",
+    "paras": [
+     "Para cada categoría de datos personales, anote la finalidad y la base jurídica en la que se apoya, y asegúrese de que su aviso de privacidad coincide. Los socios deben poder leer, en español sencillo o en la lengua cooficial correspondiente, qué datos recoge y por qué.",
+     "Revise el aviso cuando introduzca un proceso nuevo, como el registro de entradas o los carnés. Conserve versiones fechadas y anote qué socios recibieron cuál. Si duda de que una base sea adecuada, consulte a un asesor antes de empezar, no después de recibir una reclamación."
+    ]
+   },
+   {
+    "heading": "El registro de brechas",
+    "paras": [
+     "Una violación de la seguridad de los datos personales incluye la pérdida de un dispositivo, un correo enviado al destinatario equivocado y el acceso no autorizado. Mantenga un registro con la fecha en que se detectó, lo ocurrido, los datos y las personas afectados, la evaluación del riesgo, las medidas adoptadas y si se notificó a la autoridad de control o a los interesados.",
+     "Las normas de notificación están sujetas a plazos, así que decida de antemano quién evalúa los incidentes y quién contacta con la autoridad. Haga un simulacro breve cada año. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-choosing-association-software-checklist",
+  "title": "Cómo elegir software de administración para una asociación española",
+  "description": "Lista de evaluación neutral de software para gestionar socios, registros y cuentas en una asociación sin ánimo de lucro: datos, trazabilidad y exportaciones.",
+  "keywords": [
+   "software de gestión de asociaciones",
+   "programa para gestionar socios",
+   "comparativa software asociaciones sin ánimo de lucro",
+   "software de administración de clubes",
+   "alojamiento de datos en la ue asociación",
+   "software con registro de auditoría"
+  ],
+  "sections": [
+   {
+    "heading": "Parta de sus registros, no de las funcionalidades",
+    "paras": [
+     "Antes de mirar ningún producto, haga una lista de los registros que su asociación debe llevar: libro de socios, registros de admisión, actas, libro de cuotas, registros de existencias o equipos, registro de incidencias y registros de acceso. Anote después quién utiliza cada uno, con qué frecuencia y qué espera ver la junta.",
+     "El software es un medio para llevar esos registros con más fiabilidad. Si un producto no encaja con claridad en su lista, generará trabajo en lugar de ahorrarlo."
+    ]
+   },
+   {
+    "heading": "Preguntas sobre datos y alojamiento",
+    "paras": [
+     "Pregunte dónde se almacenan los datos y qué proveedor los trata. Para una asociación sujeta al RGPD, debe estar disponible un contrato de encargado del tratamiento, y debe conocer cualquier transferencia fuera del Espacio Económico Europeo. Pregunte cómo gestiona el proveedor la supresión al término del contrato.",
+     "Compruebe que puede exportarlo todo en formatos abiertos, como CSV, en cualquier momento. Una herramienta que retiene su libro de socios como rehén es un riesgo de gobierno. Pruebe una exportación durante el periodo de prueba y abra el archivo."
+    ]
+   },
+   {
+    "heading": "Trazabilidad, roles e informes",
+    "paras": [
+     "Busque un historial de cambios inalterable, permisos basados en roles e informes que se ajusten a sus necesidades: listados de socios con su estado, cuotas impagadas, resúmenes de movimientos de existencias, registros de ajustes y conciliaciones de fin de día. Una plataforma como Budify está construida en torno a estas funciones de llevanza de registros, pero compare cualquier candidata con la misma lista.",
+     "Pida una demostración con sus propios casos complicados: un socio que se da de baja y vuelve a incorporarse, una cuota corregida a posteriori, un recuento de existencias con diferencia. La forma en que un producto resuelve los casos límite le dice más que una lista de funciones."
+    ]
+   },
+   {
+    "heading": "Costes, condiciones de salida y continuidad",
+    "paras": [
+     "Compare el coste total a varios años, incluidos la puesta en marcha, la formación, los complementos y el soporte, y no solo el precio de cabecera. Pregunte qué ocurre al rescindir: de cuánto tiempo dispone para exportar, en qué formato y si los datos se eliminan y se confirma por escrito.",
+     "Compruebe la estabilidad del proveedor y las condiciones de soporte, incluido el horario de atención en su zona horaria y en su idioma. Pida un historial del servicio o una página de estado. Asegúrese de que al menos dos cargos saben cómo contactar con el soporte y disponen de las credenciales de administración."
+    ]
+   },
+   {
+    "heading": "Implantación y gobierno",
+    "paras": [
+     "Haga una prueba piloto con un grupo reducido durante un mes, en paralelo con sus registros actuales, y compare los resultados. Documente los procedimientos, forme a todos los roles y tenga un plan de marcha atrás. Deje constancia del acuerdo de la junta de adoptar la herramienta, junto con la evaluación de protección de datos.",
+     "Revise el acuerdo cada año: uso, incidencias, costes y si la herramienta sigue encajando. El software no sustituye el asesoramiento local sobre sus obligaciones, que varían según la comunidad autónoma y la actividad. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-backups-resilience-and-audit-trails",
+  "title": "Copias de seguridad, resiliencia sin conexión y trazabilidad de los registros de una asociación",
+  "description": "Resiliencia para los registros de una asociación: copias de seguridad, pruebas de restauración, plan sin conexión y trazabilidad ante cambios de equipo.",
+  "keywords": [
+   "copia de seguridad datos asociación",
+   "procedimiento de contingencia sin conexión",
+   "registro de auditoría de datos",
+   "prueba de restauración de copias",
+   "continuidad de actividad asociación",
+   "registros digitales en españa"
+  ],
+  "sections": [
+   {
+    "heading": "Cómo es un fallo en una asociación",
+    "paras": [
+     "Para una asociación pequeña, los riesgos realistas son un portátil perdido, un disco averiado, una cuenta bloqueada tras la salida de un cargo o una caída de internet en una tarde de mucha afluencia. Cada uno amenaza el libro de socios, el libro de cuentas o el procedimiento de puerta.",
+     "La resiliencia empieza por identificar qué registros son críticos y cuánto tiempo podría funcionar sin ellos. Déjelo por escrito; así la junta comprenderá por qué la rutina de copias merece atención."
+    ]
+   },
+   {
+    "heading": "La regla de las copias de seguridad",
+    "paras": [
+     "Aplique el método habitual 3-2-1: tres copias, en dos tipos de almacenamiento, y una de ellas fuera del local o en una cuenta de nube distinta. Automatice las copias y haga que un cargo concreto sea responsable de comprobar que se han ejecutado.",
+     "Cifre las copias y guarde las claves o contraseñas en un lugar al que puedan acceder al menos dos cargos. Una copia que nadie puede abrir no es una copia. Incluya exportaciones del libro de socios, del libro de cuentas y de los registros, y no solo del propio sistema."
+    ]
+   },
+   {
+    "heading": "Pruebas de restauración y plan alternativo sin conexión",
+    "paras": [
+     "Dos veces al año, restaure una copia en un dispositivo limpio y verifique que una muestra de registros está íntegra. Cronometre el ejercicio y anote el resultado. Los fallos que se descubren en una prueba cuestan una tarde; los que se descubren en una crisis cuestan mucho más.",
+     "Prepare un procedimiento sin conexión de una página para las caídas: hojas de entrada en papel con los mismos campos que el sistema, una regla sobre quién las introduce después y una forma de comprobar que no se perdió ningún asiento. Numere las hojas para que las lagunas sean visibles."
+    ]
+   },
+   {
+    "heading": "Recuperación de cuentas y personas clave",
+    "paras": [
+     "Depender de una sola persona es un riesgo silencioso. Documente quién tiene derechos de administrador, dónde se guardan los códigos de recuperación y cómo recupera la asociación el acceso si esa persona no está disponible. Guárdelos en un sobre sellado o en una caja fuerte digital gestionada a la que puedan acceder dos cargos.",
+     "Revise este acuerdo en cada cambio de junta. Una lista de comprobación breve que abarque cuentas de correo, nombres de dominio, banca, sistemas de registro y almacenamiento en la nube puede repasarse en una hora y evita un número sorprendente de emergencias."
+    ]
+   },
+   {
+    "heading": "Trazabilidad que perdura más allá de las personas",
+    "paras": [
+     "Una pista de auditoría registra quién hizo qué y cuándo. Asegúrese de que los usuarios habituales no puedan editar los registros, de que se conservan durante un periodo determinado y de que se revisan. Cuando un cargo se marcha, su cuenta se cierra en lugar de eliminarse, de modo que sus acciones pasadas sigan siendo atribuibles.",
+     "Trate también los registros como datos personales, con acceso y conservación definidos. Un sistema como Budify conserva el historial de cambios y los eventos de acceso, lo que ayuda en este sentido, aunque usted sigue siendo responsable de la política. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-capacity-governance-and-orderly-growth",
+  "title": "Límites de gobierno y crecimiento ordenado en asociaciones de socios",
+  "description": "Cómo planificar con responsabilidad el tamaño de la membresía, las listas de espera y la sucesión de cargos, con registros que acrediten decisiones deliberadas.",
+  "keywords": [
+   "gobierno de asociaciones en españa",
+   "planificación del número de socios",
+   "lista de espera de socios asociación",
+   "sucesión de cargos en la junta directiva",
+   "crecimiento de asociaciones sin ánimo de lucro",
+   "administración de asociaciones de socios"
+  ],
+  "sections": [
+   {
+    "heading": "El crecimiento como cuestión de gobierno",
+    "paras": [
+     "Para una asociación de socios, crecer no es simplemente hacer más de lo mismo. Más socios significan más registros, más cuotas que conciliar, más incidencias que anotar y una carga mayor para los voluntarios. Además, sus estatutos y su local pueden fijar límites prácticos o formales.",
+     "Trate cualquier aumento de tamaño como una decisión de la junta, recogida en acta con sus motivos y garantías, y no como algo que simplemente ocurre."
+    ]
+   },
+   {
+    "heading": "Fijar y documentar una política de aforo",
+    "paras": [
+     "Acuerde un máximo objetivo de socios y un máximo de personas en el local al mismo tiempo, basándose en sus estatutos, en las condiciones locales y en una valoración honesta de la capacidad de sus voluntarios. Revise las cifras cada año en la asamblea.",
+     "Compare cada mes las cifras reales con la política: socios activos, solicitantes en trámite y asistencia máxima. Si se acerca a un límite, la junta decide si suspende las admisiones, y esa suspensión queda registrada."
+    ]
+   },
+   {
+    "heading": "Listas de espera justas",
+    "paras": [
+     "Si no puede admitir a todos los que reúnen los requisitos, lleve una lista de espera fechada. Anote la fecha de la solicitud, el avalista y el orden de estudio, y aplique siempre los mismos criterios. Explique a los solicitantes cómo funciona la lista para que sus expectativas sean realistas.",
+     "Revise la lista cada trimestre y elimine las entradas que caduquen. Mantenga al mínimo los datos personales de la lista y elimine los de quienes retiren su solicitud."
+    ]
+   },
+   {
+    "heading": "Medir la carga de trabajo con honestidad",
+    "paras": [
+     "Antes de cualquier ampliación, mida la carga de su equipo: horas de voluntariado dedicadas a admisiones, conciliaciones, servicio de puerta e informes. Divídalas entre el número de voluntarios activos. Si siempre son las mismas pocas personas las que cargan con la mayor parte, el crecimiento empeorará el agotamiento y aumentará los errores.",
+     "Utilice estas cifras para fijar prioridades. Quizá la siguiente mejora no sea tener más socios, sino mejores herramientas, procedimientos más claros o un cargo adicional formado. Deje constancia del análisis y de la respuesta de la junta para que las juntas futuras entiendan el razonamiento."
+    ]
+   },
+   {
+    "heading": "Sucesión y continuidad",
+    "paras": [
+     "Muchas asociaciones se estancan cuando un cargo fundador se aparta y se lleva consigo el único conocimiento. Documente los procedimientos, mantenga un expediente de relevo para cada cargo y escalone los mandatos para que no se marchen todos a la vez.",
+     "Cuando cambien los cargos, entregue los libros, las cuentas y las credenciales en una reunión que conste en acta y notifique al registro correspondiente si procede. Los requisitos difieren entre regiones, así que confirme las obligaciones de presentación locales. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "es-regional-differences-multi-site-reporting",
+  "title": "Diferencias regionales e informes multicentro en España",
+  "description": "Las comunidades autónomas difieren en la administración de asociaciones. Construya un marco de registros adaptable a cada región y con informes consolidados.",
+  "keywords": [
+   "diferencias regionales asociaciones españa",
+   "normativa de asociaciones por comunidad autónoma",
+   "informes consolidados de asociaciones",
+   "registros de federaciones de asociaciones",
+   "informe consolidado entidad sin ánimo de lucro",
+   "cumplimiento normativo asociaciones españolas"
+  ],
+  "sections": [
+   {
+    "heading": "Por qué una plantilla nacional única no basta",
+    "paras": [
+     "Las comunidades autónomas españolas tienen sus propias prácticas administrativas, y las asociaciones pueden tratar al mismo tiempo con un registro autonómico, un ayuntamiento y organismos estatales. Las exigencias sobre libros, presentación de documentación y locales pueden variar de un territorio a otro.",
+     "Por eso, no dé por supuesto que un procedimiento que funciona en una región se traslada sin cambios a otra. Mantenga una ficha breve de requisitos regionales para cada lugar donde opere, revisada con un asesor."
+    ]
+   },
+   {
+    "heading": "Un núcleo común de registros",
+    "paras": [
+     "A pesar de las variaciones, los registros esenciales son muy parecidos en todas partes: libro de socios, registros de admisión, actas, contabilidad, registros de existencias o equipos, registros de incidencias y documentación de protección de datos. Estandarice estos y deje que la capa regional se superponga.",
+     "Utilice plantillas, códigos de motivo y convenciones de nomenclatura compartidos entre sedes para que los informes sean comparables. Así, las diferencias serán diferencias reales y no artefactos de cómo cada sede lleva sus libros."
+    ]
+   },
+   {
+    "heading": "La capa regional",
+    "paras": [
+     "Para cada sede, anote el registro en el que está inscrita la asociación, el calendario de presentaciones, las condiciones municipales aplicables al local y los contactos designados. Guarde en un único lugar las copias de la correspondencia oficial, indexadas por fecha y asunto.",
+     "Trate esta capa como un documento vivo. Cuando cambie una norma regional, anote la fecha en que tuvo conocimiento de ella, la opinión del asesor y el procedimiento interno que modificó como resultado."
+    ]
+   },
+   {
+    "heading": "Trabajar con asesores y contactos locales",
+    "paras": [
+     "Cuente con un asesor que conozca los registros y la práctica administrativa de cada región en la que opere. Acuerde qué le consultará cada año: confirmación de los calendarios de presentación, revisión de los estatutos tras los cambios y opinión sobre cualquier actividad nueva antes de iniciarla.",
+     "Lleve un registro del asesoramiento recibido con fecha, tema y conclusión. Cuando un miembro de la junta se marche, este registro preserva el conocimiento de la organización y demuestra que las decisiones se tomaron con el debido asesoramiento. Los consejos dependen de los hechos concretos, así que no los reutilice en otra región sin comprobarlo."
+    ]
+   },
+   {
+    "heading": "Informes consolidados para una federación o grupo",
+    "paras": [
+     "Si varias asociaciones cooperan en una federación, acuerden un dossier de informes: número de socios, cuotas impagadas, estado de la conciliación de existencias, número de incidencias y acciones de auditoría abiertas, en euros y unidades estándar. Elabórelo cada mes con la misma fecha de corte para todas las sedes.",
+     "Deje claro qué entidad es titular de cada dato y quién es el responsable del tratamiento conforme al RGPD en cada conjunto de datos; compartir datos dentro de una federación requiere una base adecuada y los acuerdos correspondientes. Un sistema multicentro como Budify puede consolidar los informes por sede, pero cada asociación conserva su propia personalidad jurídica y sus obligaciones. Esta es información general para operadores, no asesoramiento jurídico; confirme los requisitos con un asesor jurídico local cualificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "audit-ready-records",
+  "title": "Registros listos para auditoría: qué deben anotar los operadores regulados y por qué",
+  "description": "Una lista práctica de los registros que hacen que las inspecciones y la presentación de informes resulten menos estresantes para los operadores.",
+  "keywords": [
+   "registros listos para auditoría",
+   "trazabilidad de registros operador regulado",
+   "preparar una inspección",
+   "registro de movimientos de existencias",
+   "control de cumplimiento normativo",
+   "historial de cambios inalterable"
+  ],
+  "sections": [
+   {
+    "heading": "Por qué los registros son el verdadero producto del cumplimiento",
+    "paras": [
+     "Los reguladores rara vez preguntan si tiene intención de cumplir las normas. Piden pruebas de que lo ha hecho. En todos los mercados regulados, los operadores que superan bien las inspecciones son los que pueden presentar registros completos, coherentes y con marca de tiempo en cuestión de horas y no de semanas.",
+     "Esta guía es información general para operadores. No constituye asesoramiento jurídico, y los registros que debe conservar dependen de su licencia, de su jurisdicción y de su regulador."
+    ]
+   },
+   {
+    "heading": "Cinco categorías que conviene anotar siempre",
+    "paras": [
+     "Movimientos de existencias: cada entrada, ajuste, traslado, devolución y baja, con quién lo hizo y cuándo. Recuentos de existencias: recuentos programados y puntuales, la cantidad del sistema en ese momento, la cantidad contada y la diferencia explicada.",
+     "Verificación de socios o clientes: cómo se comprobaron la identidad y los requisitos de acceso, cuándo y por quién. Transacciones: lo que se registró en el punto de venta o de entrega, incluidas las anulaciones y las devoluciones. Accesos y cambios: quién modificó precios, límites, permisos o el estado de un socio."
+    ]
+   },
+   {
+    "heading": "Haga que el registro revele cualquier manipulación",
+    "paras": [
+     "Un registro que cualquiera puede editar sin dejar rastro es un riesgo. Prefiera sistemas en los que los cambios generen un asiento nuevo en lugar de sobrescribir el anterior, en los que las cuentas de usuario sean individuales y en los que las exportaciones sean reproducibles.",
+     "Acuerde con su asesor un plazo de conservación y déjelo por escrito. Conserve lo que deba; elimine lo que ya no necesite, especialmente los datos personales."
+    ]
+   },
+   {
+    "heading": "Ensaye la exportación antes de necesitarla",
+    "paras": [
+     "Una vez por trimestre, elija un intervalo de fechas y genere los informes que un regulador podría solicitar razonablemente. Si lleva más de una tarde, corrija el proceso mientras nadie le está esperando."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "blind-stock-counts",
+  "title": "Recuentos de existencias a ciegas: un método sencillo que detecta los problemas a tiempo",
+  "description": "Cómo funcionan los recuentos de existencias a ciegas y los informes de diferencias, y cómo implantarlos de forma ordenada en varios locales de su organización.",
+  "keywords": [
+   "recuento de existencias a ciegas",
+   "recuento de inventario ciego",
+   "informe de diferencias de inventario",
+   "control de stock en varios locales",
+   "auditoría de inventario periódica",
+   "ajustes de inventario con aprobación"
+  ],
+  "sections": [
+   {
+    "heading": "Qué significa “a ciegas”",
+    "paras": [
+     "En un recuento a ciegas, la persona que cuenta no ve la cantidad que el sistema espera. Esto elimina la tentación de confirmar lo que dice la pantalla y hace que los recuentos sean más fiables."
+    ]
+   },
+   {
+    "heading": "Una rutina repetible",
+    "paras": [
+     "Elija un alcance (todos los artículos o una sola categoría), congele los movimientos de la zona que se va a contar, cuente y revise después solo las diferencias. Investigue las diferencias superiores a un umbral acordado antes de ajustar nada.",
+     "Anote el motivo de cada ajuste. Con el tiempo, los propios motivos resultan útiles: unas pérdidas repetidas en una categoría o en un local apuntan a un problema de proceso y no a mala suerte."
+    ]
+   },
+   {
+    "heading": "Implantación en varios locales",
+    "paras": [
+     "Utilice el mismo calendario y los mismos umbrales en todos los locales, dé a quienes cuentan sus propias cuentas y reserve la aprobación de los ajustes para los responsables. Compare las diferencias por local, no solo en total."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "membership-administration-basics",
+  "title": "Fundamentos de la administración de socios para asociaciones y clubes",
+  "description": "Los registros, límites y documentación que las organizaciones de socios suelen necesitar mantener al día para una gestión ordenada.",
+  "keywords": [
+   "administración de socios",
+   "gestión de asociaciones y clubes",
+   "libro registro de socios",
+   "control de altas y bajas de socios",
+   "documentación de asociaciones",
+   "protección de datos de socios"
+  ],
+  "sections": [
+   {
+    "heading": "Un libro de socios en el que se pueda confiar",
+    "paras": [
+     "Las organizaciones de socios son, ante todo, administradoras. Un libro de socios fiable registra quién se incorporó, cuándo, en qué condiciones y si su condición de socio está vigente en este momento.",
+     "Las normas difieren según el país y la región, y en algunos lugares la actividad de estas organizaciones está restringida o es jurídicamente incierta. Pida siempre asesoramiento jurídico local; este artículo describe la administración, no el derecho a operar."
+    ]
+   },
+   {
+    "heading": "Estado, caducidad y límites",
+    "paras": [
+     "Controle automáticamente el estado y la caducidad de la condición de socio, y haga que la baja sea inmediata. Si sus normas incluyen límites de entrega, anote cada entrega en la ficha del socio para poder comprobar los límites antes de la siguiente."
+    ]
+   },
+   {
+    "heading": "Documentación y protección de datos",
+    "paras": [
+     "Conserve solo los documentos que necesite, guárdelos de forma segura y restrinja el acceso por roles. Los registros de socios pueden ser sensibles: acuerde plazos de conservación, atienda las solicitudes de acceso y supresión y asegúrese de que su proveedor de software firme un contrato de encargado del tratamiento."
+    ]
+   }
+  ]
+ }
+]

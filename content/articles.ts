@@ -97,3 +97,54 @@ export function articlesFor(cc: string): Article[] {
   return [...own, ...SHARED];
 }
 export function isPublishedIn(a: Article, cc: string) { return !a.markets || a.markets.includes(cc); }
+
+// ---- Translations (machine-translated drafts; professional review required before launch) ----
+import trEsUs from './articles/translations/es-us.json';
+import trEsEs from './articles/translations/es-es.json';
+import trFrCa from './articles/translations/fr-ca.json';
+import trFrCh from './articles/translations/fr-ch.json';
+import trDeDe from './articles/translations/de-de.json';
+import trDeCh from './articles/translations/de-ch.json';
+import trItCh from './articles/translations/it-ch.json';
+import trNlNl from './articles/translations/nl-nl.json';
+import trThTh from './articles/translations/th-th.json';
+import trAfZa from './articles/translations/af-za.json';
+import trZuZa from './articles/translations/zu-za.json';
+
+export interface Translation { slug: string; title: string; description: string; keywords: string[]; sections: { heading: string; paras: string[] }[] }
+const TR_FILES: Record<string, Translation[][]> = {
+  es: [trEsUs, trEsEs], fr: [trFrCa, trFrCh], de: [trDeDe, trDeCh], it: [trItCh], nl: [trNlNl], th: [trThTh], af: [trAfZa], zu: [trZuZa]
+};
+const TR: Record<string, Map<string, Translation>> = {};
+for (const [lang, files] of Object.entries(TR_FILES)) { TR[lang] = new Map(); for (const f of files) for (const t of f) TR[lang].set(t.slug, t); }
+
+export const CATEGORY_LABELS: Record<string, Record<string, string>> = {
+  es: { 'Records & compliance': 'Registros y cumplimiento', 'Stock & inventory': 'Stock e inventario', 'Membership & access': 'Socios y acceso', Operations: 'Operaciones', 'Finance & reporting': 'Finanzas e informes', 'Data protection': 'Protección de datos', Technology: 'Tecnología', Growth: 'Crecimiento' },
+  fr: { 'Records & compliance': 'Registres et conformité', 'Stock & inventory': 'Stocks et inventaire', 'Membership & access': 'Membres et accès', Operations: 'Opérations', 'Finance & reporting': 'Finances et rapports', 'Data protection': 'Protection des données', Technology: 'Technologie', Growth: 'Croissance' },
+  de: { 'Records & compliance': 'Dokumentation und Compliance', 'Stock & inventory': 'Bestand und Inventur', 'Membership & access': 'Mitglieder und Zutritt', Operations: 'Betrieb', 'Finance & reporting': 'Finanzen und Berichte', 'Data protection': 'Datenschutz', Technology: 'Technologie', Growth: 'Wachstum' },
+  it: { 'Records & compliance': 'Registri e conformità', 'Stock & inventory': 'Scorte e inventario', 'Membership & access': 'Membri e accessi', Operations: 'Operazioni', 'Finance & reporting': 'Finanza e report', 'Data protection': 'Protezione dei dati', Technology: 'Tecnologia', Growth: 'Crescita' },
+  nl: { 'Records & compliance': 'Registratie en compliance', 'Stock & inventory': 'Voorraad en inventaris', 'Membership & access': 'Leden en toegang', Operations: 'Operatie', 'Finance & reporting': 'Financiën en rapportage', 'Data protection': 'Gegevensbescherming', Technology: 'Technologie', Growth: 'Groei' },
+  th: { 'Records & compliance': 'การบันทึกและการปฏิบัติตามกฎ', 'Stock & inventory': 'สต็อกและสินค้าคงคลัง', 'Membership & access': 'สมาชิกและการเข้าถึง', Operations: 'การดำเนินงาน', 'Finance & reporting': 'การเงินและรายงาน', 'Data protection': 'การคุ้มครองข้อมูล', Technology: 'เทคโนโลยี', Growth: 'การเติบโต' },
+  af: { 'Records & compliance': 'Rekords en nakoming', 'Stock & inventory': 'Voorraad en inventaris', 'Membership & access': 'Lidmaatskap en toegang', Operations: 'Bedrywighede', 'Finance & reporting': 'Finansies en verslagdoening', 'Data protection': 'Databeskerming', Technology: 'Tegnologie', Growth: 'Groei' },
+  zu: { 'Records & compliance': 'Amarekhodi nokuthobela umthetho', 'Stock & inventory': 'Isitoko nezinto ezikhona', 'Membership & access': 'Ubulungu nokungena', Operations: 'Ukusebenza', 'Finance & reporting': 'Ezezimali nokubika', 'Data protection': 'Ukuvikelwa kwedatha', Technology: 'Ubuchwepheshe', Growth: 'Ukukhula' }
+};
+export const GRID_LABELS: Record<string, { all: string; search: string; more: string; none: string; shown: string }> = {
+  en: { all: 'All topics', search: 'Search guides', more: 'Load more', none: 'No guides match your search.', shown: 'Showing {n} of {total} guides' },
+  es: { all: 'Todos los temas', search: 'Buscar guías', more: 'Ver más', none: 'Ninguna guía coincide con la búsqueda.', shown: 'Mostrando {n} de {total} guías' },
+  fr: { all: 'Tous les sujets', search: 'Rechercher des guides', more: 'Voir plus', none: 'Aucun guide ne correspond à la recherche.', shown: '{n} guides affichés sur {total}' },
+  de: { all: 'Alle Themen', search: 'Ratgeber durchsuchen', more: 'Mehr laden', none: 'Keine Ratgeber gefunden.', shown: '{n} von {total} Ratgebern angezeigt' },
+  it: { all: 'Tutti gli argomenti', search: 'Cerca guide', more: 'Carica altre', none: 'Nessuna guida corrisponde alla ricerca.', shown: '{n} di {total} guide mostrate' },
+  nl: { all: 'Alle onderwerpen', search: 'Zoek in gidsen', more: 'Meer laden', none: 'Geen gidsen gevonden.', shown: '{n} van {total} gidsen getoond' },
+  th: { all: 'ทุกหัวข้อ', search: 'ค้นหาคู่มือ', more: 'โหลดเพิ่มเติม', none: 'ไม่พบคู่มือที่ตรงกับการค้นหา', shown: 'แสดง {n} จาก {total} คู่มือ' },
+  af: { all: 'Alle onderwerpe', search: 'Soek gidse', more: 'Laai meer', none: 'Geen gidse stem met jou soektog ooreen nie.', shown: '{n} van {total} gidse word gewys' },
+  zu: { all: 'Zonke izihloko', search: 'Sesha iziqondiso', more: 'Layisha okuningi', none: 'Azikho iziqondiso ezifanayo.', shown: 'Kuboniswa {n} kwezingu-{total} iziqondiso' }
+};
+
+/** Article text for a locale's language: translated when available, otherwise English. */
+export function localize(a: Article, locale: string): Article & { lang: string; translated: boolean } {
+  const lang = locale.split('-')[0];
+  const t = TR[lang]?.get(a.slug);
+  if (!t) return { ...a, lang: 'en', translated: false };
+  return { ...a, title: t.title, description: t.description, keywords: t.keywords, sections: t.sections, lang, translated: true };
+}
+export const categoryLabel = (cat: string | undefined, lang: string) => (cat ? CATEGORY_LABELS[lang]?.[cat] ?? cat : 'Guides');

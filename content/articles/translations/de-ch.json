@@ -1,0 +1,1002 @@
+[
+ {
+  "slug": "ch-pilot-participant-register-design",
+  "title": "Teilnehmerregister richtig aufbauen: Leitfaden für Schweizer Pilotprojekte",
+  "description": "So strukturieren Sie ein Teilnehmerregister für ein bewilligtes Pilotprojekt in der Schweiz: Felder, Kennungen, Statuswechsel und ein lückenloser Prüfpfad.",
+  "keywords": [
+   "teilnehmerregister pilotprojekt schweiz",
+   "pilotprojekt dokumentation schweiz",
+   "teilnehmerregister software",
+   "bewilligtes pilotprojekt verwaltung",
+   "pilotprojekt compliance unterlagen",
+   "teilnehmerregister vorlage studie"
+  ],
+  "sections": [
+   {
+    "heading": "Warum das Register das Rückgrat eines Pilotprojekts ist",
+    "paras": [
+     "Jedes bewilligte Pilotprojekt in der Schweiz stützt sich auf ein zentrales Dokument: das Teilnehmerregister. Wer das Projekt betreibt, sei es eine Partnergemeinde, eine Forschungseinrichtung oder eine Betreiberorganisation, muss früher oder später belegen können, wer teilgenommen hat, wann die Personen eingetreten sind, unter welchen Bedingungen und wann sie ausgeschieden sind. Ein vollständiges, konsistentes und nachvollziehbares Register beantwortet diese Fragen in Minuten statt in Tagen.",
+     "Gehen Sie von Ihrer Bewilligung und Ihrem Studienprotokoll aus, nicht von einer leeren Tabelle. Listen Sie alle Datenpunkte auf, die diese Unterlagen zu führen verlangen, und ergänzen Sie nur die betrieblichen Felder, die Sie wirklich benötigen. Das Register soll den Status einer Person im Projekt abbilden, nicht ihr ganzes Leben. Wer es von Anfang an schlank hält, erleichtert Datenschutz und Audits erheblich."
+    ]
+   },
+   {
+    "heading": "Diese Felder gehören ins Register",
+    "paras": [
+     "Ein praxistaugliches Register enthält in der Regel einen eindeutigen Teilnehmercode, das Eintrittsdatum, das Ergebnis der Eignungsprüfung mit Datum und durchführender Mitarbeitender, die unterzeichnete Version der Einwilligung, den aktuellen Status (aktiv, pausiert, ausgetreten, abgeschlossen) sowie das Datum jedes Statuswechsels. Ergänzen Sie den Standort oder Kanton des Eintritts, wenn Ihr Projekt mehrere Orte umfasst. Verwenden Sie einen Code ohne persönliche Bedeutung, damit Exporte intern zirkulieren können, ohne die Identität offenzulegen.",
+     "Führen Sie Identitätsdaten wie Name und Geburtsdatum in einer separaten, zugriffsgeschützten Tabelle, die über den Code verknüpft ist. Kontaktpräferenzen, etwa die Korrespondenzsprache Deutsch, Französisch oder Italienisch, sind nützliche betriebliche Felder. Vermeiden Sie Freitextfelder, die dazu verleiten, Meinungen oder sensible Details festzuhalten; verwenden Sie für Statuswechsel stattdessen kontrollierte Auswahllisten mit vorgegebenen Gründen."
+    ]
+   },
+   {
+    "heading": "Statuswechsel und Prüfpfad",
+    "paras": [
+     "Register scheitern bei Audits am häufigsten wegen stiller Änderungen. Wird eine Person pausiert oder tritt aus, muss der Datensatz zeigen, wer den Status wann und weshalb geändert hat, während der frühere Wert sichtbar bleibt. Wer eine Zelle überschreibt, vernichtet genau den Nachweis, den eine Prüfperson sehen will. Ob Datenbank oder spezialisiertes System: Bestehen Sie auf einer reinen Anfügehistorie für Status-, Einwilligungs- und Eignungsfelder.",
+     "Definieren Sie wenige zulässige Übergänge. Eine ausgetretene Person kann beispielsweise nicht ohne neuen Registereintrag und frische Einwilligung wieder auf aktiv gesetzt werden. Wenn Sie solche Regeln im System verankern, statt sich auf das Gedächtnis der Mitarbeitenden zu verlassen, sinkt die Fehlerquote in hektischen Phasen, und Sie haben eine einfache Antwort parat, wenn die Aufsichtsstelle fragt, wie Sie unbefugte Änderungen verhindern."
+    ]
+   },
+   {
+    "heading": "Häufige Fehler, die Sie vermeiden sollten",
+    "paras": [
+     "Ein häufiger Fehler ist ein doppelt geführtes Register in Tabelle und Datenbank, sodass zwei Wahrheiten auseinanderdriften. Bestimmen Sie ein einziges Master-Register und behandeln Sie alles andere als schreibgeschützten, datierten Auszug.",
+     "Ein weiterer Fehler ist das Erfassen von Feldern auf Vorrat. Jedes zusätzliche Feld muss gepflegt, geschützt und irgendwann gelöscht werden. Kann niemand die Entscheidung nennen, die von einem Feld abhängt, entfernen Sie es vor Projektbeginn."
+    ]
+   },
+   {
+    "heading": "Tägliche und monatliche Routinen",
+    "paras": [
+     "Bestimmen Sie pro Standort eine namentlich genannte Person, die das Register jeden Arbeitstag auf unvollständige Einträge prüft: fehlende Einwilligungsversionen, unerklärte Statuslücken oder doppelte Codes. Eine Kontrolle von fünf Minuten verhindert einen Berg von Korrekturen. Gleichen Sie am Monatsende die Zahl der aktiven Teilnehmenden mit einer allfälligen Obergrenze in Ihrer Bewilligung und mit den Zahlen anderer Stellen ab, etwa der Terminplanung und den Anwesenheitslisten.",
+     "Führen Sie einmal pro Quartal eine Stichprobe durch: Wählen Sie zehn Datensätze zufällig aus und verfolgen Sie jeden von der Eignungsprüfung über die Einwilligung bis zum aktuellen Status; prüfen Sie, ob alle Dokumente vorhanden und die Daten stimmig sind. Halten Sie das Ergebnis und allfällige Korrekturmassnahmen fest. Ein System wie Budify kann Statusverläufe und Änderungsprotokolle automatisch führen, die Kontrollroutine bleibt jedoch Aufgabe von Menschen. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-study-protocol-record-keeping-routines",
+  "title": "Studienprotokoll und Dokumentation: Eine praxisnahe Routine für Betreiber",
+  "description": "So setzen Sie ein Pilotstudienprotokoll in tägliche Dokumentationsaufgaben um: Versionskontrolle, Abweichungen, Visa und prüfbereite Akten in der Schweiz.",
+  "keywords": [
+   "studienprotokoll dokumentation pilotprojekt",
+   "abweichungsprotokoll pilotstudie",
+   "versionskontrolle verfahrensanweisungen",
+   "pilotprojekt unterlagen prüfbereit",
+   "studienakte führen schweiz",
+   "protokolleinhaltung betreiber checkliste"
+  ],
+  "sections": [
+   {
+    "heading": "Vom Protokolltext zu betrieblichen Aufgaben",
+    "paras": [
+     "Ein Studienprotokoll wird meist von Forschenden verfasst und vom Betriebspersonal einmal gelesen. Das Risiko: Seine Anforderungen werden nie zu Routineaufgaben. Setzen Sie sich mit dem Protokoll hin und ziehen Sie jeden Satz heraus, der eine Pflicht zum Aufzeichnen, Melden oder Aufbewahren enthält. Machen Sie daraus je eine Zeile einer Aufgabenliste mit Verantwortlichen, Häufigkeit und Ablageort.",
+     "Diese Übersetzungsarbeit deckt oft Lücken auf, etwa ein vorgeschriebenes Protokoll, das niemand führt, oder zwei Mitarbeitende, die je davon ausgehen, die andere Person verwahre ein Dokument. Erledigen Sie sie, bevor die erste teilnehmende Person eintritt, und wiederholen Sie sie bei jeder Protokolländerung. Führen Sie die entstandene Matrix als eigenes gelenktes Dokument."
+    ]
+   },
+   {
+    "heading": "Versionskontrolle für Protokoll und Verfahren",
+    "paras": [
+     "Pilotprojekte passen Dokumente laufend an, sobald sie dazulernen. Jede Änderung braucht eine Versionsnummer, ein Gültigkeitsdatum, eine kurze Beschreibung der Änderung und den Nachweis, dass das Personal informiert wurde. Bewahren Sie ersetzte Versionen auf, statt sie zu löschen, denn Sie müssen unter Umständen zeigen, welche Regeln an einem bestimmten Datum galten. Eine einfache Namenskonvention mit Version und Datum verhindert das verbreitete Problem, dass zwei Teams mit unterschiedlichen Dateien arbeiten.",
+     "Verknüpfen Sie Aufzeichnungen mit der Version, die bei ihrer Erstellung galt. Ändert sich ein Einwilligungsformular im März, soll das Register zeigen, welche Version jede Person unterzeichnet hat. Fragt eine Prüfperson nach einem Eintrag vom Februar, können Sie ohne Rätselraten antworten. Diese Verknüpfung gelingt in einem strukturierten System weit einfacher als in verstreuten Ordnern."
+    ]
+   },
+   {
+    "heading": "Abweichungen und Korrekturmassnahmen",
+    "paras": [
+     "Abweichungen vom Protokoll wird es geben; das eigentliche Problem ist, sie zu verschweigen. Legen Sie ein Abweichungsprotokoll an mit Datum, Beschreibung, entdeckender Person, Sofortmassnahme, Ursache und Korrekturmassnahme sowie dem Visum der verantwortlichen Führungsperson. Halten Sie die Sprache sachlich und kurz. Mitarbeitende sollen sich sicher fühlen, wenn sie melden; besprechen Sie das Protokoll deshalb in einer Teamsitzung, die auf die Verbesserung der Abläufe zielt und nicht auf Schuldzuweisung.",
+     "Stufen Sie Abweichungen nach Schweregrad gemäss Ihrem schriftlichen Verfahren ein und legen Sie im Voraus fest, welche der Aufsichtsstelle gemeldet werden müssen. Bei Unsicherheit über eine Meldepflicht fragen Sie Ihre Rechtsberatung oder die in der Bewilligung genannte Kontaktstelle, statt abzuwarten. Werten Sie das Protokoll jedes Quartal auf Trends aus: Wiederholte Abweichungen derselben Art deuten auf ein Verfahren hin, das neu gestaltet werden muss."
+    ]
+   },
+   {
+    "heading": "Rollen und Visa",
+    "paras": [
+     "Bestimmen Sie eine verantwortliche Person für die Protokolleinhaltung samt Stellvertretung und halten Sie deren Aufgaben schriftlich fest. Ohne Namen bleiben Aufgaben, die allen gehören, bei niemandem. Überprüfen Sie die Zuteilung bei jeder personellen Veränderung.",
+     "Setzen Sie Visa sparsam, aber aussagekräftig ein: Eine Führungsperson visiert das Abweichungsprotokoll monatlich, die verantwortliche Person die Quartalsprüfung. Unterschriften, die routinemässig ohne Lektüre erfolgen, haben keinen Beweiswert."
+    ]
+   },
+   {
+    "heading": "Die Akte jederzeit prüfbereit halten",
+    "paras": [
+     "Führen Sie ein Verzeichnis der Projektakte: Bewilligungsunterlagen, Protokollversionen, Schulungsnachweise des Personals, Register, Protokolle und die Korrespondenz mit den Behörden. Prüfen Sie das Verzeichnis monatlich und bestätigen Sie, dass jeder aufgeführte Eintrag vorhanden und aktuell ist. Eine Akte, die stets beinahe bereit ist, bedeutet weit weniger Stress als eine, die in der Woche vor einem Besuch hastig zusammengestellt wird.",
+     "Vereinbaren Sie die Aufbewahrungsfristen mit Ihrer Rechtsberatung, da sie von Ihrer Bewilligung und vom anwendbaren Recht abhängen, und vermerken Sie sie im Verzeichnis. Legen Sie fest, wer auf die Akte zugreifen darf, und protokollieren Sie jeden Zugriff auf sensible Teile. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-audit-ready-pilot-file-checklist",
+  "title": "Prüfbereite Pilotakte: Checkliste für Schweizer Betreiber",
+  "description": "Eine praxisnahe Checkliste, mit der Ihre Akte zum bewilligten Pilotprojekt inspektionsbereit bleibt: Dokumente, Protokolle, Visa und Verantwortlichkeiten.",
+  "keywords": [
+   "pilotprojekt audit checkliste schweiz",
+   "inspektion vorbereiten pilotprojekt",
+   "prüfbereite projektakte",
+   "schulungsnachweise personal dokumentieren",
+   "mock audit betreiber",
+   "aufsichtsstelle prüfung vorbereiten"
+  ],
+  "sections": [
+   {
+    "heading": "Was Prüfpersonen zuerst fragen",
+    "paras": [
+     "Inspektionen und Aufsichtsstellen wollen im Allgemeinen sehen, dass Sie tun, was Ihre Bewilligung vorsieht. Die ersten Fragen sind daher meist einfach: Wer ist verantwortlich, wo liegen die Unterlagen, und können Sie ein aktuelles Beispiel von Anfang bis Ende zeigen? Fallen die Antworten klar aus, verläuft der Rest des Besuchs in der Regel reibungsloser.",
+     "Bereiten Sie eine einseitige Übersicht vor, die die verantwortliche Person, Stellvertretungen, Standorte, Arbeitssprachen und den Ablageort jeder Unterlagenart nennt. Aktualisieren Sie sie bei jedem Personalwechsel. Diese eine Seite schafft oft mehr Vertrauen als ein dicker Ordner, weil sie zeigt, dass die Organisation ihr eigenes System versteht."
+    ]
+   },
+   {
+    "heading": "Das Kerndokumentenset",
+    "paras": [
+     "Gliedern Sie die Dokumente in fünf Bündel: Bewilligung und Korrespondenz, Protokoll und Verfahren, Personal und Schulung, betriebliche Register und Protokolle sowie Vorfall- und Abweichungsunterlagen. Bestimmen Sie für jedes Bündel eine verantwortliche Person und ein Überprüfungsintervall. Ein Schulungsnachweis sollte zeigen, wer wann von wem zu welcher Verfahrensversion geschult wurde, mit Unterschrift oder gleichwertiger Bestätigung.",
+     "Stellen Sie sicher, dass jedes gültige Verfahren in den Sprachen vorliegt, in denen Ihr Personal tatsächlich arbeitet. In der Schweiz arbeiten Teams häufig auf Deutsch, Französisch oder Italienisch, und ein Verfahren, das nur die Hälfte des Teams versteht, ist eine schwache Kontrolle. Führen Sie Übersetzungen unter derselben Versionskontrolle wie die Originale, damit sie nie auseinanderlaufen."
+    ]
+   },
+   {
+    "heading": "Einen Datensatz von Anfang bis Ende nachverfolgen",
+    "paras": [
+     "Die aufschlussreichste Übung ist die Rückverfolgung: Wählen Sie den Datensatz einer teilnehmenden Person und verfolgen Sie ihn durch Eintritt, Eignungsprüfung, Einwilligung, Statusverlauf und alle Exporte oder Berichte, in denen er enthalten war. Jeder Schritt sollte auf ein Nachweisdokument mit Datum und Urheber verweisen. Lücken, die Sie bei der eigenen Rückverfolgung finden, lassen sich günstig schliessen; Lücken, die bei einer Inspektion auffallen, nicht.",
+     "Wiederholen Sie die Rückverfolgung für eine Lagerbewegung, falls Ihr Projekt Bestände führt: vom Wareneingang über die Lagerunterlagen bis zum Abgleich. Notieren Sie jeden Schritt, bei dem jemand raten oder sich auf sein Gedächtnis verlassen musste, und machen Sie daraus einen dokumentierten Schritt. Bewahren Sie die Ergebnisse der Rückverfolgung selbst als Nachweis der internen Kontrolle auf."
+    ]
+   },
+   {
+    "heading": "Verhalten am Prüfungstag",
+    "paras": [
+     "Bestimmen Sie eine Person, die den Besuch begleitet, und eine, die Unterlagen beschafft, damit die Prüfperson nie warten muss. Beantworten Sie Fragen direkt und ehrlich, und wenn Sie etwas nicht wissen, sagen Sie es und versprechen Sie eine Antwort mit Termin, statt zu raten.",
+     "Führen Sie ein Protokoll darüber, was verlangt und gezeigt wurde. Halten Sie nach dem Besuch eine kurze Nachbesprechung ab, notieren Sie allfällige Zusagen und nehmen Sie sie mit Verantwortlichen in die Massnahmenliste auf."
+    ]
+   },
+   {
+    "heading": "Probelauf und Nachbereitung",
+    "paras": [
+     "Führen Sie zweimal jährlich eine Probeinspektion durch, und zwar mit einer Person, die nicht täglich im Projekt arbeitet, etwa einer Führungsperson eines anderen Standorts oder einer externen Beratung. Geben Sie ihr die Übersichtsseite und lassen Sie sie stichprobenweise Unterlagen anfordern. Messen Sie, wie lange das Auffinden dauert, und notieren Sie jedes Zögern.",
+     "Halten Sie die Erkenntnisse in einer Massnahmenliste mit Verantwortlichen und Terminen fest und besprechen Sie den Fortschritt an der nächsten Führungssitzung. Behandeln Sie die Checkliste als lebendes Dokument und nicht als einmaliges Vorhaben. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-daily-stock-reconciliation-pilot",
+  "title": "Täglicher Lagerabgleich für Standorte von Pilotprojekten",
+  "description": "Eine einfache tägliche Abgleichroutine für Bestände in bewilligten Pilotprojekten: Zählungen, Bewegungen, Differenzen und Visum, in Gramm und CHF.",
+  "keywords": [
+   "täglicher lagerabgleich pilotprojekt",
+   "bestandsdifferenzen dokumentieren",
+   "inventurroutine regulierte bestände",
+   "lagerzählung protokoll vorlage",
+   "bestandsabgleich software schweiz",
+   "funktionstrennung lager kontrolle"
+  ],
+  "sections": [
+   {
+    "heading": "Warum täglich abgleichen",
+    "paras": [
+     "Lagerdaten driften unbemerkt auseinander. Ein vergessener Eintrag am Montag wird am Freitag zu einer rätselhaften Fehlmenge, und am Monatsende erinnert sich niemand mehr an die Ursache. Ein täglicher Abgleich hält den Abstand zwischen physischem Bestand und Systemwert klein genug, um ihn erklären zu können. In einem regulierten Pilotprojekt, in dem Sie unter Umständen jede Einheit nachweisen müssen, gehört diese Disziplin zum Nachweis der Kontrolle.",
+     "Täglich muss nicht aufwendig heissen. Für die meisten Standorte dauert eine gezielte Zählung der am Tag bewegten Positionen plus eine rotierende Stichprobe des Restbestands fünfzehn bis zwanzig Minuten. Entscheidend ist, dass die Routine feststeht, schriftlich festgehalten ist und, sofern der Personalbestand es erlaubt, nicht von der Person durchgeführt wird, die den Grossteil der Tagesbewegungen erfasst hat."
+    ]
+   },
+   {
+    "heading": "Die Routine in fünf Schritten",
+    "paras": [
+     "Erstens: Schliessen Sie die Transaktionen des Tages ab, sodass keine Bewegung mehr in Bearbeitung ist. Zweitens: Drucken oder öffnen Sie die Sollmengen aus dem System. Drittens: Zählen Sie physisch, wobei bei Positionen mit höherem Risiko eine zweite Person mitprüft oder zumindest zusieht. Viertens: Erfassen Sie die gezählten Mengen gegenüber den Sollmengen und berechnen Sie jede Differenz. Fünftens: Unterzeichnen und datieren Sie das Blatt oder sein digitales Pendant mit beiden Namen.",
+     "Verwenden Sie durchgehend einheitliche Einheiten und Nachkommastellen. Wer in Gramm wiegt, während das System in Kilogramm führt, erzeugt klassischerweise scheinbare Differenzen. Legen Sie die Einheit pro Position einmal fest, dokumentieren Sie sie und nehmen Sie die Waagen in einen Kalibrierungsplan mit Nachweisen auf, denn eine Zählung ist nur so zuverlässig wie das Messgerät."
+    ]
+   },
+   {
+    "heading": "Umgang mit Differenzen",
+    "paras": [
+     "Legen Sie in Ihrem schriftlichen Verfahren Toleranzbänder fest: Differenzen innerhalb einer definierten Marge werden erfasst und kurz begründet; alles darüber löst eine Nachzählung, eine Prüfung der Tagesbewegungen und die Eskalation an eine Führungsperson aus. Passen Sie eine Menge nie an, nur damit das Blatt aufgeht. Jede Korrektur muss eine eigene, beschriftete Anpassung mit Grundcode und Genehmigung sein.",
+     "Halten Sie die Grundcodes kurz und aussagekräftig: Zählfehler, nicht erfasste Bewegung, beschädigter oder abgelaufener Artikel, Lieferantendifferenz, ungeklärt. Prüfen Sie die Kategorie «ungeklärt» wöchentlich. Häufen sich ungeklärte Differenzen bei derselben Position oder Schicht, ist das ein Signal für eine Prozessüberprüfung und kein Anlass für Schuldzuweisungen."
+    ]
+   },
+   {
+    "heading": "Schulung und Funktionstrennung",
+    "paras": [
+     "Neue Mitarbeitende sollten mehrere Abgleiche begleiten, bevor sie selbst einen allein durchführen, und die ausbildende Person bestätigt die Kompetenz mit ihrem Visum. Dokumentieren Sie dies in der Schulungsmatrix, damit Sie zeigen können, wer qualifiziert ist.",
+     "Trennen Sie, soweit die Teamgrösse es zulässt, die Personen, die Bewegungen erfassen, von jenen, die Zählungen prüfen. Wo das nicht möglich ist, ergänzen Sie eine regelmässige Überprüfung durch eine Führungsperson eines anderen Standorts; das stellt zu bescheidenen Kosten ein Stück Unabhängigkeit wieder her."
+    ]
+   },
+   {
+    "heading": "Berichterstattung und Werkzeuge",
+    "paras": [
+     "Fassen Sie die Abgleichergebnisse wöchentlich auf einer Seite zusammen: Anzahl der Zählungen, Anzahl der Differenzen, Gesamtsumme der Anpassungen und offene Abklärungen. Weisen Sie den Geldwert der Anpassungen für die Geschäftsleitung in CHF aus, auch wenn das Pilotprojekt nicht umsatzgetrieben ist, denn so erkennen Kolleginnen und Kollegen aus dem Finanzbereich Muster leichter. Bewahren Sie die Blätter nach derselben Aufbewahrungsregel auf wie die übrigen Projektunterlagen.",
+     "Ein System wie Budify kann gezählte und erwartete Mengen speichern und die Anpassungshistorie gegen Änderungen sperren. Welches Werkzeug Sie auch einsetzen: Stellen Sie sicher, dass es festhält, wer was wann getan hat. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-investigating-stock-variances",
+  "title": "Bestandsdifferenzen untersuchen, ohne zu raten",
+  "description": "Eine strukturierte Methode zur Untersuchung von Bestandsdifferenzen in einem bewilligten Pilotprojekt: Belege, Zeitverlauf, Ursache und Korrekturmassnahme.",
+  "keywords": [
+   "bestandsdifferenzen untersuchen",
+   "inventurdifferenz ursache finden",
+   "lagerdifferenz dokumentation",
+   "korrekturmassnahmen lager pilotprojekt",
+   "bestandsabweichung analyse vorlage",
+   "lagerdifferenzen software protokoll"
+  ],
+  "sections": [
+   {
+    "heading": "Jede Differenz als kleine Fallakte behandeln",
+    "paras": [
+     "Stimmt eine Zählung nicht mit dem Datensatz überein, ist der Impuls gross, so lange nachzuzählen, bis die Zahl passt. Besser ist es, eine kurze Fallakte zu eröffnen: Datum, betroffene Position, erwartete gegenüber gezählter Menge, zählende Person, letzte Person, die die Position bewegt hat. Das gibt der Untersuchung einen Ausgangspunkt und hinterlässt eine Spur, falls der Fall später überprüft wird.",
+     "Widerstehen Sie dem Drang, eine Ursache zu benennen, bevor Sie Belege gesammelt haben. Viele Differenzen entpuppen sich als Erfassungsfehler, etwa eine am falschen Standort verbuchte Umlagerung, und nicht als physischer Verlust. Wer die erste Stunde sachlich hält, vermeidet unfaire Annahmen über Kolleginnen und Kollegen und bleibt gegenüber der Geschäftsleitung und einer allfälligen Aufsichtsstelle glaubwürdig."
+    ]
+   },
+   {
+    "heading": "Den Zeitverlauf rekonstruieren",
+    "paras": [
+     "Holen Sie alle Bewegungen der Position seit der letzten übereinstimmenden Zählung zusammen: Wareneingänge, Umlagerungen, Anpassungen, Abschreibungen und allfällige Rücknahmen. Ordnen Sie sie zeitlich und mit der jeweils erfassenden Person. Vergleichen Sie sie mit Papierlieferscheinen, Übergabeblättern und Schichtplänen. Oft ist der Bruch sofort sichtbar: ein fehlender Eintrag, ein doppelter Eintrag oder ein Zahlendreher.",
+     "Erklärt der Zeitverlauf die Differenz nicht, dehnen Sie die Suche auf benachbarte Positionen mit ähnlichen Namen oder Einheiten aus, denn falsch bezeichnete Auswahlen kommen häufig vor. Prüfen Sie die Kalibrierungsnachweise der Waagen und jüngste Softwareänderungen. Dokumentieren Sie jede Prüfung, auch wenn sie nichts ergibt, denn ausgeschlossene Ursachen gehören zum Nachweis."
+    ]
+   },
+   {
+    "heading": "Ursache und Korrekturmassnahme",
+    "paras": [
+     "Sobald eine Ursache feststeht, fragen Sie, warum der Prozess sie zugelassen hat. Ein Zahlendreher verweist auf eine Eingabekontrolle, ein fehlender Wareneingang auf die Wareneingangsroutinen, wiederholte Falschbezeichnungen auf die Anordnung im Lager. Formulieren Sie die Korrekturmassnahme mit Verantwortlichen und Termin und prüfen Sie danach, ob sie ähnliche Differenzen tatsächlich verringert hat.",
+     "Unterscheiden Sie zwischen der Korrektur von Datensätzen und Massnahmen am Prozess. Die Korrektur des Datensatzes bereinigt den heutigen Saldo; die Änderung des Prozesses schützt den morgigen. Lässt sich eine Differenz gar nicht erklären, eskalieren Sie gemäss Ihrem schriftlichen Verfahren und prüfen Sie, ob nach Ihrer Bewilligung eine Meldung an die zuständige Behörde erforderlich ist. Fragen Sie bei Unsicherheit Ihre Rechtsberatung."
+    ]
+   },
+   {
+    "heading": "Ergebnisse kommunizieren",
+    "paras": [
+     "Teilen Sie die Schlussfolgerungen den Beteiligten mit, bevor sie in einem Bericht erscheinen. Oft liefern Kolleginnen und Kollegen das fehlende Detail, und ein fairer Umgang erhält die Bereitschaft des Teams, Probleme früh zu melden. Halten Sie den Ton auf den Prozess gerichtet.",
+     "Fassen Sie jeden abgeschlossenen Fall für die Geschäftsleitung in zwei bis drei Zeilen zusammen: was geschehen ist, der Betrag in CHF, soweit relevant, und was sich ändert. Eskalieren Sie umgehend, wenn der Fall auf vorsätzliches Fehlverhalten hindeutet, und ziehen Sie die Rechtsberatung bei, bevor Sie Massnahmen gegen eine Person ergreifen."
+    ]
+   },
+   {
+    "heading": "Aus Mustern lernen",
+    "paras": [
+     "Prüfen Sie abgeschlossene Fälle monatlich und kennzeichnen Sie sie nach Ursache, Position, Schicht und Standort. Muster zeigen sich rasch: Vielleicht entstehen die meisten Differenzen montags nach den Wochenendübergaben oder betreffen einen bestimmten Lagerbereich. Teilen Sie die Erkenntnisse dem Team in klaren Worten mit und konzentrieren Sie sich auf die Lösungen.",
+     "Legen Sie eine einfache Kennzahl fest, etwa den Anteil der Zählungen mit ungeklärten Differenzen, und beobachten Sie deren Entwicklung. Ein sinkender Wert zeigt, dass die Kontrollen wirken. Bewahren Sie die Untersuchungsakten so lange auf, wie Ihre Aufbewahrungsrichtlinie es verlangt. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-batch-lot-traceability-records",
+  "title": "Chargen- und Losrückverfolgbarkeit für regulierte Bestände",
+  "description": "So führen Sie Aufzeichnungen zur Chargen- und Losrückverfolgbarkeit, die Wareneingang, Lagerung, Umlagerung und Entsorgung in bewilligten Pilotbeständen verknüpfen.",
+  "keywords": [
+   "chargenrückverfolgbarkeit pilotprojekt",
+   "losnummer dokumentation lager",
+   "rückverfolgbarkeit regulierte bestände",
+   "chargenverwaltung software schweiz",
+   "rückrufübung lager durchführen",
+   "etikettierung chargen kennzeichnen"
+  ],
+  "sections": [
+   {
+    "heading": "Was Rückverfolgbarkeit in der Praxis bedeutet",
+    "paras": [
+     "Rückverfolgbarkeit ist die Fähigkeit, einen Artikel vom Moment des Eintreffens in Ihren Räumlichkeiten bis zum Verlassen Ihres Bestands zu verfolgen und zu sagen, wer ihn dazwischen gehandhabt hat. Für ein bewilligtes Pilotprojekt ist dies häufig eine ausdrückliche Erwartung der Aufsichtsstelle. Auch wo das nicht der Fall ist, bietet sie den besten Schutz, wenn Fragen zu einer bestimmten Menge auftauchen.",
+     "Stellen Sie sich jede Charge oder jedes Los als Lebensgeschichte mit wenigen festen Kapiteln vor: Wareneingang, Identifikation, Lagerung, interne Bewegung, Freigabe und gegebenenfalls Entsorgung oder Rückgabe. Ein Eintrag pro Kapitel mit Datum, Menge, Ort und Person genügt, um diese Geschichte zu rekonstruieren, ohne auf das Gedächtnis von irgendjemandem angewiesen zu sein."
+    ]
+   },
+   {
+    "heading": "Kennungen und Kennzeichnung",
+    "paras": [
+     "Vergeben Sie jeder Charge beim Wareneingang eine interne Kennung, auch wenn der Lieferant eine eigene mitliefert. Der interne Code sollte eindeutig und kurz sein und auf einem am Behälter angebrachten Etikett stehen. Erfassen Sie die Lieferantenreferenz daneben, um Querverweise zu ermöglichen. Vermeiden Sie die Wiederverwendung von Codes und etikettieren Sie nie um, ohne die Änderung zu protokollieren.",
+     "Halten Sie das Etikettenformat an allen Standorten einheitlich. Arbeitet Ihr Team auf Deutsch, Französisch und Italienisch, verwenden Sie Codes und Symbole statt Wörter, damit eine Kollegin oder ein Kollege an einem anderen Standort beim Lesen eines Etiketts nie im Zweifel ist. Testen Sie die Kennzeichnung, indem eine Person aus einer anderen Schicht eine Charge allein anhand von Code und Datensatz finden soll."
+    ]
+   },
+   {
+    "heading": "Bewegungen und Lagerorte",
+    "paras": [
+     "Protokollieren Sie jede interne Umlagerung, auch den Wechsel von einem Regal zum anderen, wenn Ihr Verfahren Lagerorte als kontrolliert behandelt. Erfassen Sie den Herkunfts- und Zielort, die Menge, die Uhrzeit und beide beteiligten Personen, sofern ein Vier-Augen-Prinzip gilt. Bewegungen zwischen Standorten erfordern dokumentierte Versand- und Empfangseinträge samt Kontrolle, dass die Mengen an beiden Enden übereinstimmen.",
+     "Gleichen Sie die Lagerortdaten regelmässig ab, indem Sie mit einer Liste durch das Lager gehen und bestätigen, dass sich jede Charge dort befindet, wo der Datensatz es angibt. Abweichungen zwischen erfasstem und tatsächlichem Ort sind Frühwarnzeichen für eine lockere Praxis. Behandeln Sie sie mit demselben Ernst wie Mengendifferenzen."
+    ]
+   },
+   {
+    "heading": "Ihre Rückverfolgbarkeit testen",
+    "paras": [
+     "Führen Sie einmal pro Quartal eine Rückrufübung durch: Wählen Sie eine Charge und listen Sie innerhalb einer festgelegten Zeit auf, wohin jede Teilmenge gelangt ist. Die Übung deckt Lücken in den Aufzeichnungen weit besser auf als die Lektüre von Verfahren. Halten Sie die benötigte Zeit und alle Mengen fest, die nicht nachgewiesen werden konnten.",
+     "Nutzen Sie die Ergebnisse, um Formulare und Schulungen zu verfeinern. Streben Sie an, die Auffindzeit jedes Quartal zu verkürzen, und bewahren Sie die Übungsberichte als Nachweis aktiver Kontrolle in der Projektakte auf."
+    ]
+   },
+   {
+    "heading": "Entsorgung, Rückgaben und Abschluss",
+    "paras": [
+     "Schliessen Sie jede Charge mit einem Schlusseintrag ab. Die Entsorgung braucht ein eigenes dokumentiertes Verfahren: Grund, Zeugen, Methode und Menge, mit Unterschrift. Rückgaben erfordern dieselbe Rückverfolgbarkeit wie Wareneingänge. Lassen Sie eine Charge nie einfach aus dem Bericht verschwinden; ein Nullsaldo mit Abschlusseintrag erzählt eine vollständige Geschichte.",
+     "Eine einzige verknüpfte Historie pro Charge macht Anfragen von Prüfpersonen schnell beantwortbar. Arbeiten Sie mit Papier oder Tabellen, ergänzen Sie einen Gegenkontrollschritt, damit Aufzeichnungen und Etiketten übereinstimmen. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-participant-enrolment-eligibility-checks",
+  "title": "Eintritt und Eignungsprüfung von Teilnehmenden korrekt dokumentieren",
+  "description": "Schritt für Schritt: Eintritt und Eignungsprüfungen in einem bewilligten Pilotprojekt dokumentieren, mit Einwilligungsversionen und Visum der Mitarbeitenden.",
+  "keywords": [
+   "eignungsprüfung teilnehmende dokumentieren",
+   "einwilligung versionen pilotprojekt",
+   "eintritt teilnehmende checkliste",
+   "teilnehmerverwaltung pilotprojekt schweiz",
+   "einwilligungserklärung mehrsprachig",
+   "eintrittsprozess software betreiber"
+  ],
+  "sections": [
+   {
+    "heading": "Der Eintritt als gelenkter Prozess",
+    "paras": [
+     "Mit dem Eintritt übernimmt das Projekt Verpflichtungen gegenüber einer Person, daher verdient er eine feste Abfolge. Halten Sie sie schriftlich fest: Information erteilt, Eignungskriterien geprüft, Einwilligung eingeholt, Registereintrag erstellt, Teilnehmercode vergeben. Jeder Schritt erzeugt einen Nachweis, und kein Schritt wird aus Bequemlichkeit übersprungen, auch nicht an einem hektischen Tag.",
+     "Nur Mitarbeitende, die in der aktuellen Verfahrensversion geschult sind, sollten Personen aufnehmen. Führen Sie eine Liste der berechtigten Mitarbeitenden mit ihren Schulungsdaten. Fällt jemand aus, muss die Vertretung aus dieser Liste stammen. Diese einfache Regel verhindert, dass eine ungeschulte Aushilfe einen kritischen Schritt ausführt."
+    ]
+   },
+   {
+    "heading": "Die Eignung dokumentieren",
+    "paras": [
+     "Die Eignungskriterien stammen aus Ihrer Bewilligung und Ihrem Protokoll, nicht aus lokaler Gewohnheit. Wandeln Sie sie in eine Checkliste um, die das Personal mit Datum und Namen der prüfenden Person abhakt. Erfassen Sie nur das Ergebnis und die Art des vorgelegten Dokuments, etwa dass ein Ausweis eingesehen wurde, und kopieren Sie keine Dokumente in die Akten, sofern Ihr Verfahren dies nicht ausdrücklich verlangt.",
+     "Hängen Kriterien von Daten oder vom Wohnsitz ab, halten Sie das Datum der Prüfung fest, denn Umstände ändern sich. Legen Sie fest, was geschieht, wenn jemand ein Kriterium nicht erfüllt: Das Ergebnis wird ohne unnötige Details erfasst, und die Person wird in ihrer Sprache informiert. Abgelehnte Bewerbende sollen nicht im aktiven Register verbleiben."
+    ]
+   },
+   {
+    "heading": "Einwilligung und Information in drei Sprachen",
+    "paras": [
+     "Einwilligungsformulare und Informationsblätter müssen in den Sprachen Ihrer Teilnehmenden vorliegen, in der Schweiz typischerweise Deutsch, Französisch oder Italienisch, und jede Version muss gelenkt sein. Erfassen Sie die unterzeichnete Version, das Datum und die anwesende Mitarbeitende oder den anwesenden Mitarbeiter. Ändert sich das Formular, planen Sie, wie bestehende Teilnehmende erneut informiert und erneut um Einwilligung gebeten werden, und dokumentieren Sie auch das.",
+     "Stellen Sie sicher, dass die Mitarbeitenden den Inhalt in der Sprache der teilnehmenden Person erklären können, oder organisieren Sie eine Dolmetschung und vermerken Sie dies. Eine Unterschrift unter einem Formular, das die Person nicht verstanden hat, ist ein schwacher Nachweis. Geben Sie der teilnehmenden Person eine Kopie und bewahren Sie das Original gemäss der Aufbewahrungsregel auf."
+    ]
+   },
+   {
+    "heading": "Ausnahmen und Austritte",
+    "paras": [
+     "Ausnahmen brauchen einen dokumentierten Weg. Kann eine Person beim ersten Besuch ein erforderliches Dokument nicht vorlegen, bleibt der Eintrag ausstehend und ein Termin zur Vervollständigung wird festgelegt. Keine Ausnahme darf dazu führen, dass jemand aktiv wird, bevor die Checkliste vollständig ist.",
+     "Austritte folgen einem eigenen kurzen Verfahren: Datum und Grundcode erfassen, den Code deaktivieren, die Person darüber informieren, was mit ihren Daten geschieht, und gemäss dem Aufbewahrungsplan archivieren."
+    ]
+   },
+   {
+    "heading": "Qualitätskontrollen und Werkzeuge",
+    "paras": [
+     "Prüfen Sie wöchentlich eine Stichprobe neuer Eintritte und kontrollieren Sie, ob alle fünf Nachweise vorhanden und stimmig sind. Achten Sie auf Muster wie fehlende Uhrzeiten oder wiederholte Auslassungen einer Mitarbeitenden oder eines Mitarbeiters, die auf Schulungsbedarf hindeuten. Lassen Sie die Erkenntnisse in Auffrischungsschulungen einfliessen.",
+     "Ein Mitgliedschaftsmodul in einem System wie Budify kann erforderliche Schritte erzwingen, bevor ein Teilnehmerdatensatz aktiv wird, und nimmt dem Gedächtnis die Last ab. Was auch immer Sie verwenden: Halten Sie an der Regel fest, dass unvollständige Eintritte im Status «ausstehend» bleiben. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-participant-ids-and-access-logs",
+  "title": "Teilnehmerkennungen und Zutrittsprotokolle: Anwesenheitsdaten sauber führen",
+  "description": "So gestalten Sie Teilnehmerkennungen und Zutrittsprotokolle für einen Pilotstandort: Anwesenheitsdaten, Besuchereinträge und Datensparsamkeit in der Praxis.",
+  "keywords": [
+   "zutrittsprotokoll pilotprojekt",
+   "teilnehmerkennung code vergeben",
+   "anwesenheitserfassung datensparsamkeit",
+   "check-in routine standort",
+   "besucherprotokoll führen",
+   "zutrittskontrolle datenschutz schweiz"
+  ],
+  "sections": [
+   {
+    "heading": "Der Zweck eines Zutrittsprotokolls",
+    "paras": [
+     "Ein Zutrittsprotokoll beantwortet eine enge Frage: Wer hat den Standort wann und mit welcher Berechtigung betreten? Es dient der Sicherheit, der Rechenschaftspflicht und in einem Pilotprojekt dem Nachweis, dass nur eingeschriebene Teilnehmende den Standort genutzt haben. Es ist kein Instrument zur Beobachtung der Gewohnheiten von Menschen und sollte mit dieser Grenze im Kopf gestaltet werden.",
+     "Legen Sie schriftlich fest, wozu das Protokoll dient, bevor Sie seinen Inhalt wählen. Soll es Teilnahmestatus und Kapazität bestätigen, braucht es Teilnehmercode, Datum, Uhrzeit und das Ergebnis der Kontrolle. Name, Foto oder ausführliche Notizen sind selten nötig und erhöhen das Risiko, ohne die Kontrolle zu verbessern."
+    ]
+   },
+   {
+    "heading": "Teilnehmerkennungen gestalten",
+    "paras": [
+     "Verwenden Sie einen Teilnehmercode, der zufällig oder fortlaufend ist und nicht aus Geburtsdatum oder Name abgeleitet wird. Drucken Sie ihn auf eine Karte oder zeigen Sie ihn digital an, mit einer Prüfziffer oder einem ähnlichen Merkmal, das Tippfehler erkennt. Führen Sie die Verknüpfung zu den persönlichen Angaben in einer separaten Tabelle, die nur einem kleinen Kreis zugänglich ist.",
+     "Planen Sie verlorene Karten ein: ein Ersatzprozess mit Identitätsprüfung, Deaktivierung des alten Codes und einem Protokolleintrag. Vergeben Sie nie denselben Code an eine andere Person. Tritt eine teilnehmende Person aus, wird der Code sofort deaktiviert, und das Protokoll zeigt das Datum."
+    ]
+   },
+   {
+    "heading": "Check-in-Routine und Ausnahmen",
+    "paras": [
+     "Am Eingang prüfen die Mitarbeitenden, ob der Code aktiv ist, ob die Person mit dem Ausweis übereinstimmt, den Sie nach Ihrem Verfahren führen, und ob die Kapazitätsregeln eingehalten sind. Das Ergebnis wird automatisch oder durch einen kurzen Eintrag erfasst. Halten Sie die Routine so kurz, dass Warteschlangen das Personal nicht dazu verleiten, sie zu überspringen.",
+     "Ausnahmen kommen vor: eine abgelaufene Karte, ein Systemausfall, ein Besucher mit legitimem Anliegen, etwa eine Prüfperson oder ein Handwerker. Sehen Sie ein Papierformular mit fortlaufenden Nummern als Rückfallebene vor und verlangen Sie, dass Rückfalleinträge am selben Tag ins System übertragen werden. Besuchende erhalten ein eigenes Protokoll mit Name, Organisation, Zweck und Begleitperson."
+    ]
+   },
+   {
+    "heading": "Typische Gestaltungsfehler",
+    "paras": [
+     "Vermeiden Sie ein gemeinsames Terminal-Login für alle Mitarbeitenden am Empfang, denn dann kann das Protokoll nicht zeigen, wer wen eingelassen hat. Vermeiden Sie Freitextbemerkungen beim Check-in, die persönliche Kommentare anziehen, die nicht in den Datensatz gehören.",
+     "Vermeiden Sie es, Zutrittsprotokolle unbegrenzt aufzubewahren, nur weil Speicherplatz günstig ist. Ein Protokoll, das über Monate nützlich ist, kann nach Jahren zur Belastung werden. Stimmen Sie die Aufbewahrungsdauer auf den Zweck ab und dokumentieren Sie sie."
+    ]
+   },
+   {
+    "heading": "Daten prüfen und ausmustern",
+    "paras": [
+     "Prüfen Sie das Protokoll wöchentlich auf Auffälligkeiten: Einträge mit deaktivierten Codes, Einträge ausserhalb der Öffnungszeiten, wiederholt fehlgeschlagene Kontrollen. Jede Auffälligkeit erhält eine kurze Notiz und bei Bedarf einen Vorfalleintrag. Berichten Sie der Geschäftsleitung monatlich nur Summen, etwa Anwesenheitszahlen und Kapazitätsspitzen.",
+     "Legen Sie eine Aufbewahrungsfrist für detaillierte Zutrittseinträge fest, vereinbaren Sie sie mit Ihrer Datenschutzberatung im Rahmen des DSG und löschen oder aggregieren Sie planmässig. Geplante Löschung und aggregierte Zählungen lassen sich automatisieren. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-multilingual-sops-de-fr-it",
+  "title": "Mehrsprachige SOPs für deutsch-, französisch- und italienischsprachige Teams",
+  "description": "So verfassen und pflegen Sie Standardarbeitsanweisungen auf Deutsch, Französisch und Italienisch für Pilotstandorte, mit Versionskontrolle und Schulungsnachweisen.",
+  "keywords": [
+   "mehrsprachige sop schweiz",
+   "standardarbeitsanweisungen übersetzen",
+   "arbeitsanweisungen deutsch französisch italienisch",
+   "sop versionskontrolle",
+   "schulungsmatrix mehrsprachig",
+   "verfahrensanweisungen pilotprojekt erstellen"
+  ],
+  "sections": [
+   {
+    "heading": "Die mehrsprachige Realität Schweizer Betriebe",
+    "paras": [
+     "Eine Schweizer Organisation kann ihren Hauptsitz auf Deutsch führen, einen Standort in der Romandie betreiben und Teilnehmende haben, zu denen auch Italienischsprachige gehören. Verfahren in nur einer Sprache machen die anderen von informellen Übersetzungen abhängig, und genau dort entstehen Missverständnisse. Bei regulierter Tätigkeit ist das eine Kontrollschwäche und keine Frage der Bequemlichkeit.",
+     "Klären Sie zunächst, wer für welches Verfahren welche Sprache braucht. Sicherheits-, Dokumentations- und Vorfallverfahren sollten in der Arbeitssprache jedes Standorts vorliegen. Führungsrichtlinien können in einer Leitsprache existieren, mit Zusammenfassungen in den anderen. Halten Sie diese Sprachmatrix schriftlich fest und überprüfen Sie sie jährlich."
+    ]
+   },
+   {
+    "heading": "Leittext und Übersetzungen",
+    "paras": [
+     "Bestimmen Sie für jedes Verfahren eine Leitsprache und behandeln Sie Übersetzungen als gelenkte Kopien. Der Leittext trägt die Versionsnummer; die Übersetzungen tragen dieselbe Nummer und verweisen darauf. Ändert sich der Leittext, gelten alle Übersetzungen als veraltet, bis sie aktualisiert und geprüft sind. Erlauben Sie nie, dass eine Übersetzung eigenständig bearbeitet wird.",
+     "Setzen Sie professionelle Übersetzende oder zweisprachige Mitarbeitende ein, die das Fachgebiet verstehen, und lassen Sie die Terminologie von einer zweiten Person prüfen. Erstellen Sie ein kurzes Glossar der Schlüsselbegriffe in allen Sprachen, damit Wörter wie Register, Charge oder Anpassung einheitlich wiedergegeben werden. Bewahren Sie das Glossar bei den Verfahren auf."
+    ]
+   },
+   {
+    "heading": "Verfahren schreiben, die befolgt werden",
+    "paras": [
+     "Gute Verfahren sind kurz, in nummerierten Schritten gegliedert, mit einer Handlung pro Schritt und der genannten verantwortlichen Rolle. Geben Sie am Ende jedes Schritts den zu erstellenden Nachweis an. Verwenden Sie Screenshots oder Formulare sparsam und halten Sie sie aktuell, denn veraltete Abbildungen untergraben das Vertrauen in das ganze Dokument.",
+     "Testen Sie jedes Verfahren, indem eine Person, die es normalerweise nicht ausführt, die Schritte ohne Hilfe befolgt. Notieren Sie, wo sie zögert. Überarbeiten Sie vor der Freigabe. Dieser Test deckt unausgesprochene Annahmen meist schneller auf als jede Überprüfungssitzung."
+    ]
+   },
+   {
+    "heading": "Steuerung und Überprüfungszyklus",
+    "paras": [
+     "Legen Sie einen Überprüfungszyklus fest, häufig jährlich, mit einer verantwortlichen Person je Verfahren. Die Überprüfung sollte den Inhalt mit den aktuellen Bewilligungsauflagen, den Vorfällen des vergangenen Jahres und den Rückmeldungen des Personals abgleichen. Halten Sie das Ergebnis auch dann fest, wenn sich nichts ändert.",
+     "Bieten Sie dem Personal einen einfachen Weg, Verbesserungen in der eigenen Sprache vorzuschlagen, und bestätigen Sie jeden Vorschlag. Verfahren, die Menschen mitgestalten durften, werden zuverlässiger befolgt."
+    ]
+   },
+   {
+    "heading": "Schulung und Nachweise",
+    "paras": [
+     "Halten Sie fest, wer zu welcher Version und in welcher Sprache geschult wurde, mit Datum und Schulungsperson. Nehmen Sie eine kurze Verständniskontrolle auf, etwa eine Vorführung der Aufgabe. Für temporäre Mitarbeitende und Teilzeitkräfte gilt die feste Regel, dass die Schulung vor der ersten selbstständigen Schicht erfolgt.",
+     "Gleichen Sie die Schulungsmatrix vierteljährlich mit dem Personalplan ab, um Lücken nach Personalwechseln zu erkennen. Ändert sich ein Verfahren, planen Sie Auffrischungsschulungen in allen Sprachen im selben Zeitraum, damit die Standorte nicht nach unterschiedlichen Regeln arbeiten. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-shift-handover-routines",
+  "title": "Schichtübergabe-Routinen, die Ihre Aufzeichnungen schützen",
+  "description": "Eine praxisnahe Übergaberoutine für Pilotstandorte: was übergeben wird, wie Sie es protokollieren und wie Sie Informationsverluste zwischen Schichten vermeiden.",
+  "keywords": [
+   "schichtübergabe protokoll vorlage",
+   "schichtübergabe checkliste",
+   "übergabeformular standort",
+   "informationsverlust schichtwechsel vermeiden",
+   "übergabe dokumentation betrieb",
+   "schichtübergabe digital oder papier"
+  ],
+  "sections": [
+   {
+    "heading": "Wo Informationen verloren gehen",
+    "paras": [
+     "Die meisten betrieblichen Fehler entstehen bei Übergängen. Die abtretende Person weiss, dass eine Zählung unterbrochen wurde, eine Karte als verloren gemeldet ist oder eine Lieferung noch auf ihre Prüfung wartet. Die übernehmende Person weiss es nicht und handelt nach dem Stand des Systems. Eine strukturierte Übergabe kostet zehn Minuten und beseitigt diese ganze Fehlerklasse.",
+     "Behandeln Sie die Übergabe als Dokumentationstätigkeit. Mündliche Gespräche sind als Ergänzung in Ordnung, doch der wesentliche Inhalt muss schriftlich festgehalten, datiert und von beiden Personen unterzeichnet werden, damit er überprüft werden kann, falls später etwas schiefgeht."
+    ]
+   },
+   {
+    "heading": "Ein einseitiges Übergabeformular",
+    "paras": [
+     "Gestalten Sie eine einzige Seite mit festen Rubriken: offene Aufgaben, ungeklärte Differenzen, Geräteprobleme, nachzuverfolgende Teilnehmerangelegenheiten, Sicherheitsbeobachtungen und Mitteilungen der Geschäftsleitung. Jede Rubrik enthält entweder eine Notiz oder das Wort «keine». Leere Felder sind nicht zulässig, denn leer könnte «vergessen» bedeuten.",
+     "Teilnehmerangelegenheiten werden im Sinne der Datensparsamkeit mit Codes statt Namen festgehalten. Bewahren Sie die detaillierten Angaben im dafür vorgesehenen Datensatz auf und verwenden Sie die Übergabenotiz nur als Verweis darauf. Diese Gewohnheit hält das Übergabedokument risikoarm, falls es auf einem Pult liegen bleibt."
+    ]
+   },
+   {
+    "heading": "Physische und Systemkontrollen",
+    "paras": [
+     "Verbinden Sie die schriftliche Übergabe mit einer kurzen physischen Routine: Bestätigen Sie, dass die Lager abgeschlossen sind, die Schlüssel vollständig sind, Kassen oder Zahlungsterminals gegebenenfalls in CHF abgeglichen sind und die an diesem Tag fälligen Zählungen erledigt wurden. Die übernehmende Person unterzeichnet erst, nachdem sie die übernommenen Punkte geprüft hat.",
+     "Prüfen Sie auch den Systemstatus: ausstehende Transaktionen, fehlgeschlagene Synchronisierungen, Backup-Meldungen und offene Warnungen. Ist das System zum Zeitpunkt der Übergabe ausgefallen, halten Sie dies fest und wechseln Sie zum Ersatzverfahren. Übergeben Sie Probleme nicht stillschweigend."
+    ]
+   },
+   {
+    "heading": "Digital oder auf Papier",
+    "paras": [
+     "Papierformulare sind robust und schnell, aber schwer zu durchsuchen und können verlegt werden. Digitale Formulare bieten Zeitstempel und Suchbarkeit, brauchen aber Geräte und Logins. Wählen Sie nach den Gegebenheiten des Standorts und halten Sie für Ausfälle eine Papier-Rückfallebene bereit.",
+     "Welche Form Sie auch wählen: Vereinheitlichen Sie die Rubriken über alle Standorte und Sprachen hinweg und schulen Sie jede neue Mitarbeitende und jeden neuen Mitarbeiter in der ersten Woche auf das Formular."
+    ]
+   },
+   {
+    "heading": "Die Übergaben auswerten",
+    "paras": [
+     "Eine Führungsperson sollte jeden Freitag die Übergabeformulare der Woche lesen und auf wiederkehrende Themen achten. Wiederholte Gerätestörungen, immer wieder verspätete Zählungen oder dieselbe ungeklärte Differenz deuten auf eine Ursache hin, die über die Schichtebene hinaus gelöst werden muss.",
+     "Bewahren Sie die Formulare in der Standortakte für die Dauer auf, die Ihre Aufbewahrungsregel vorsieht. Digitale Formulare mit Zeitstempel lassen sich leichter durchsuchen als Papier. Welches Format Sie auch wählen: Sorgen Sie dafür, dass alle dasselbe verwenden. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-multi-site-operations-across-cantons",
+  "title": "Pilotbetrieb an mehreren Standorten in verschiedenen Kantonen führen",
+  "description": "So halten Sie Aufzeichnungen, Bestände und Personaleinsatz an mehreren Standorten in verschiedenen Kantonen konsistent und beachten Ihre Bewilligung.",
+  "keywords": [
+   "mehrere standorte kantone pilotprojekt",
+   "multi-site betrieb schweiz",
+   "standortübergreifende qualitätssicherung",
+   "kantonale unterschiede bewilligung",
+   "zentrale aufsicht standorte",
+   "standortprofil vorlage betreiber"
+  ],
+  "sections": [
+   {
+    "heading": "Einheitlichkeit und lokale Gegebenheiten",
+    "paras": [
+     "Die Schweiz ist ein Bundesstaat, und Behörden in verschiedenen Kantonen können Bedingungen unterschiedlich festlegen oder auslegen. Wer mehrere Standorte betreibt, muss deshalb trennen, was allen Standorten gemeinsam ist, etwa Aufzeichnungsformate und Kontrollroutinen, und was lokal gilt, etwa Meldekontakte oder standortspezifische Auflagen der Bewilligung.",
+     "Erstellen Sie für jeden Standort ein einfaches Standortprofil: verantwortliche Person, geltende Auflagen, Sprache, Kontakt bei der zuständigen Behörde, Öffnungszeiten und Kapazität. Führen Sie es unter Versionskontrolle und überprüfen Sie es bei jeder Änderung der Auflagen. Gehen Sie nicht davon aus, dass etwas, das ein Kanton akzeptiert hat, auch in einem anderen akzeptiert wird; klären Sie dies vor Ort."
+    ]
+   },
+   {
+    "heading": "Ein gemeinsamer Kern an Aufzeichnungen",
+    "paras": [
+     "Legen Sie einen Mindestsatz an Aufzeichnungen fest, den jeder Standort im selben Format erstellen muss: Teilnehmerregister, Bestandsabgleich, Vorfallprotokoll, Abweichungsprotokoll, Schulungsmatrix und Übergabeformulare. Gemeinsame Formate ermöglichen die zentrale Prüfung ohne Übersetzung der Struktur, auch wenn sich die Freitexte je nach Sprache unterscheiden.",
+     "Verwenden Sie an allen Standorten dasselbe Format für Teilnehmercodes und dieselben Grundcodes. So lassen sich Differenzquoten zwischen Standorten vergleichen und ein Standort erkennen, der vom Standard abweicht. Zentrale Teams können dann unterstützen, statt zu kontrollieren."
+    ]
+   },
+   {
+    "heading": "Zentrale Aufsicht",
+    "paras": [
+     "Ernennen Sie eine zentrale Qualitätsverantwortliche oder einen zentralen Qualitätsverantwortlichen, die oder der die Wochenzusammenfassung und die monatliche Stichprobe der Aufzeichnungen jedes Standorts prüft. Wechseln Sie die geprüften Stichproben, damit jeder Standort regelmässig kontrolliert wird. Dokumentieren Sie die Prüfung samt Feststellungen und Nachverfolgung, denn sie belegt, dass die Geschäftsleitung das Projekt aktiv beaufsichtigt.",
+     "Planen Sie Standortbesuche und interne Audits mindestens einmal jährlich. Die besuchenden Personen sollten an jedem Standort dieselbe Checkliste verwenden, um die Vergleichbarkeit zu sichern. Teilen Sie bewährte Praktiken, die bei Besuchen entdeckt wurden, in kurzen Mitteilungen in den Sprachen der Standorte."
+    ]
+   },
+   {
+    "heading": "Kommunikation und Eskalation",
+    "paras": [
+     "Vereinbaren Sie wöchentlich ein kurzes Gespräch zwischen den Standortleitungen mit fester Traktandenliste: Vorfälle, Differenzen, Personal, anstehende Änderungen. Halten Sie Beschlüsse in einem gemeinsamen Protokoll in den benötigten Sprachen fest. Kurzer, regelmässiger Kontakt verhindert, dass die Standorte auseinanderdriften.",
+     "Definieren Sie eine Eskalationsleiter mit Namen und Reaktionszeiten, damit ein Standort bei einem Vorfall weiss, wen er anrufen muss und wann die Zentrale die Behörde informieren muss. Testen Sie die Kontaktdaten jedes Quartal."
+    ]
+   },
+   {
+    "heading": "Umlagerungen, Personal und Finanzen",
+    "paras": [
+     "Umlagerungen von Beständen zwischen Standorten erfordern Versand- und Empfangseinträge sowie einen Abgleich der Mengen auf dem Transportweg am Ende jedes Tages. Mitarbeitende, die zwischen Standorten wechseln, sollten bestätigen, dass sie in den lokalen Unterschieden geschult sind. Kosten pro Standort sind in CHF nach einer einheitlichen Verteilmethode auszuweisen, damit die Geschäftsleitung sieht, welche Standorte Unterstützung brauchen.",
+     "Zentralisierte Daten müssen Ihrem Datenschutzkonzept folgen: Beschränken Sie, wer in der Zentrale identifizierbare Teilnehmerdaten einsehen kann, und protokollieren Sie Zugriffe. Berechtigungen auf Standortebene in einem gemeinsamen System helfen, doch die Gestaltung der Berechtigungen bleibt Ihre Entscheidung. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-chf-reporting-vat-exports-pilot",
+  "title": "CHF-Reporting und MWST-taugliche Exporte für Pilotbetreiber",
+  "description": "So strukturieren Sie Finanzunterlagen und Exporte in CHF für ein Pilotprojekt: Kategorien, MWST-Kennzeichnung, Abstimmungen und buchhaltungsfreundliche Dateien.",
+  "keywords": [
+   "chf reporting pilotprojekt",
+   "mwst export buchhaltung",
+   "finanzunterlagen pilotprojekt schweiz",
+   "monatsabschluss checkliste kmu",
+   "zahlungsterminal abstimmung",
+   "kostenstellen standort auswertung"
+  ],
+  "sections": [
+   {
+    "heading": "Warum Finanzunterlagen im Pilotprojekt zählen",
+    "paras": [
+     "Auch ein Pilotprojekt, das nicht auf Gewinn ausgerichtet ist, hinterlässt eine finanzielle Spur: Personalkosten, Räumlichkeiten, Ausrüstung, Software, Versicherung, Tests und Verwaltung. Geldgeber, Partner und die Steuerbehörde können alle Zahlen verlangen, und jede Stelle möchte unter Umständen einen anderen Ausschnitt. Saubere Unterlagen erlauben es, alle aus einer einzigen Quelle zu bedienen.",
+     "Vereinbaren Sie zu Beginn, welche Berichte benötigt werden, wie oft und in welchem Format. Üblich sind eine monatliche Management-Zusammenfassung in CHF, ein Quartalsbericht für Partner und ein Jahresset für die Buchhaltung. Sind diese definiert, entfällt das hastige Zusammenstellen von Tabellen in letzter Minute."
+    ]
+   },
+   {
+    "heading": "Kategorien und Kennzeichnung",
+    "paras": [
+     "Entwerfen Sie einen Kontenplan der Kostenkategorien, der die Projektstruktur widerspiegelt: Personal, Räumlichkeiten, Ausrüstung, Software, Compliance und Audit, Schulung, Verbrauchsmaterial und Gemeinkosten. Kennzeichnen Sie jeden Eintrag mit dem Standort und gegebenenfalls der Finanzierungsquelle. Halten Sie die Kategorien das ganze Jahr über stabil, damit Vergleiche aussagekräftig bleiben.",
+     "Die Mehrwertsteuer (MWST) ist in der Schweiz ein Spezialgebiet mit unterschiedlichen Sätzen und Behandlungen. Kennzeichnen Sie jede Transaktion mit der steuerlichen Behandlung nach Rücksprache mit Ihrer Buchhaltung, statt zu raten, und bewahren Sie die zugehörigen Rechnungen auf. Hat Ihr Projekt Tätigkeiten mit unterschiedlicher Behandlung, trennen Sie diese von Anfang an in der Buchhaltung."
+    ]
+   },
+   {
+    "heading": "Abstimmungsroutinen",
+    "paras": [
+     "Stimmen Sie Bank- und Zahlungsterminaldaten mindestens monatlich mit der Buchhaltung ab. Differenzen werden wie Bestandsdifferenzen untersucht und dokumentiert. Nehmen Sie Zahlungen in Franken entgegen, erfassen Sie Abrechnungsdaten und Gebühren der Zahlungsanbieter getrennt von den Bruttobeträgen.",
+     "Führen Sie eine Abstimmungs-Checkliste: Kontoauszug abgeglichen, Terminalabschlüsse abgeglichen, offene Posten mit Alter aufgelistet, Anpassungen genehmigt. Eine zweite Person prüft und visiert. Das ist eine der einfachsten und wirksamsten Finanzkontrollen, die kleinen Teams zur Verfügung stehen."
+    ]
+   },
+   {
+    "heading": "Monatsabschluss-Routine",
+    "paras": [
+     "Verwenden Sie eine feste Checkliste für den Monatsabschluss: alle Rechnungen erfasst, Bank und Terminal abgestimmt, Lagerbewertung exportiert, Abgrenzungen geprüft, Bericht bis zu einem bestimmten Arbeitstag ausgestellt. Ein wiederholbarer Abschluss verringert Fehler und gibt Partnern verlässliche Termine.",
+     "Sperren Sie die Periode nach der Ausstellung und erfassen Sie spätere Korrekturen als separate Anpassungen im Folgemonat mit Begründung. So bleibt die Integrität bereits an Dritte weitergegebener Berichte gewahrt."
+    ]
+   },
+   {
+    "heading": "Exporte für Buchhaltung und Revision",
+    "paras": [
+     "Fragen Sie Ihre Buchhaltung, welche Dateiformate sie bevorzugt, und richten Sie einen wiederkehrenden Export mit einheitlicher Spaltenreihenfolge, einheitlichem Datumsformat und Währungsfeldern ein. Legen Sie ein Datenwörterbuch bei, das jede Spalte erklärt. Exportieren Sie stets bei gesperrter Periode, damit sich die Zahlen nach der Berichtsausstellung nicht mehr ändern.",
+     "Ein System wie Budify kann Transaktions- und Lagerwert-Exporte für einen gewählten Zeitraum erzeugen, die die Buchhaltung in die Bücher importieren kann. Prüfen Sie die ersten Exporte sorgfältig gegen die Quelldaten und bewahren Sie die Prüfung als Nachweis auf. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-budgeting-pilot-programme-costs",
+  "title": "Budgetierung eines Pilotprojekts: Kosten, Reserve und Reporting",
+  "description": "Praxisleitfaden zum Aufbau und zur Überwachung eines Pilotbudgets in CHF: Kostentreiber, Reserve, Abweichungsanalyse und Berichterstattung an Anspruchsgruppen.",
+  "keywords": [
+   "budget pilotprojekt erstellen",
+   "kostenplanung pilotprojekt chf",
+   "reserve budget pilotprojekt",
+   "budgetabweichung analyse",
+   "compliance kosten schätzen",
+   "budget reporting geldgeber"
+  ],
+  "sections": [
+   {
+    "heading": "Von den Tätigkeiten ausgehen, nicht von Gesamtsummen",
+    "paras": [
+     "Ein verlässliches Pilotbudget beginnt mit einer Liste der Tätigkeiten, die Bewilligung und Protokoll verlangen: Eintritt, Dokumentation, Bestandskontrolle, Personalschulung, interne Audits, Berichterstattung und Datenschutzmassnahmen. Schätzen Sie Zeit und Ressourcen für jede Tätigkeit und bewerten Sie sie in CHF. Top-down-Zahlen wie ein Prozentsatz einer angenommenen Gesamtsumme übersehen tendenziell den Compliance-Aufwand.",
+     "Schreiben Sie neben jede Zeile die Annahmen: Zahl der Teilnehmenden, Zahl der Standorte, Wochenstunden, Stundenansätze, Lizenzgebühren. Weicht die Realität ab, sehen Sie, welche Annahme nicht eingetroffen ist, statt vor einer rätselhaften Überschreitung zu stehen."
+    ]
+   },
+   {
+    "heading": "Kostentreiber im Blick behalten",
+    "paras": [
+     "Der Personalaufwand ist meist der grösste Treiber. Dokumentation und Schulung verbrauchen mehr Stunden, als Erstbetreiber erwarten, insbesondere in den ersten Monaten. Räumlichkeiten, Sicherheit, Versicherung und Gerätekalibrierung folgen. Software- und Speicherkosten sind vergleichsweise bescheiden, sollten aber über die gesamte Laufzeit budgetiert werden, einschliesslich der Datenaufbewahrung nach Projektende.",
+     "Fügen Sie Positionen für externe Beratung hinzu: Recht, Buchhaltung, Datenschutz und Übersetzung. In einem Land mit mehreren Landessprachen sind Übersetzung und Prüfung von Formularen und Verfahren ein wiederkehrender Kostenpunkt, der leicht vergessen geht."
+    ]
+   },
+   {
+    "heading": "Reserve und Szenarien",
+    "paras": [
+     "Nehmen Sie eine Reserveposition auf, häufig als Prozentsatz der Gesamtsumme ausgedrückt, und halten Sie fest, wofür sie gedacht ist. Bereiten Sie mindestens zwei Szenarien vor: geringere und höhere Beteiligung als geplant. Zeigen Sie, wie sich Personal und Kosten in jedem Fall verändern. Das hilft Entscheidungsträgern, fixe und variable Kosten zu unterscheiden.",
+     "Definieren Sie Auslöser für Massnahmen, zum Beispiel: Übersteigen die monatlichen Ausgaben den Plan zwei Monate in Folge um eine festgelegte Marge, wird eine Überprüfungssitzung einberufen. Vorab vereinbarte Auslöser ersparen Debatten darüber, ob eine Abweichung ernst ist."
+    ]
+   },
+   {
+    "heading": "Budget mit Aufzeichnungen verknüpfen",
+    "paras": [
+     "Verknüpfen Sie Budgetpositionen mit den betrieblichen Aufzeichnungen, die sie auslösen, etwa den erfassten Schulungsstunden oder der Zahl durchgeführter Abgleiche. Wächst ein Kostenpunkt, erklären die Aufzeichnungen oft den Grund, und Sie können den Prozess anpassen statt nur die Zahl.",
+     "Bewahren Sie die Belege für wesentliche Kosten in der Projektakte auf, nach Budgetposition geordnet, damit Fragen von Geldgebern rasch beantwortet werden können."
+    ]
+   },
+   {
+    "heading": "Überwachung und Berichterstattung",
+    "paras": [
+     "Vergleichen Sie monatlich Ist und Budget nach Kategorie und Standort. Erklären Sie Abweichungen in je einem Satz und trennen Sie zeitliche Verschiebungen von echten Überschreitungen. Prognostizieren Sie den Rest des Jahres, statt nur die Vergangenheit zu berichten.",
+     "Bewahren Sie die Budgetversionen auf: ursprünglich, überarbeitet, mit Datum und Begründung. Partner schätzen eine klare Erklärung der Änderungen. Richten Sie Ihr Berichtsformat nach den Erwartungen von Geldgebern oder Aufsichtsstellen und fragen Sie früh, was diese brauchen. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-data-minimisation-participant-records",
+  "title": "Datensparsamkeit bei Teilnehmerdaten nach dem DSG",
+  "description": "So wenden Sie Datensparsamkeit auf Teilnehmerregister und Protokolle in einem Schweizer Pilotprojekt an: Zweckzuordnung, Feldprüfung und sichere Exporte.",
+  "keywords": [
+   "datensparsamkeit teilnehmerdaten dsg",
+   "datenschutz pilotprojekt schweiz",
+   "dsg teilnehmerregister",
+   "zugriffsrechte rollen datenschutz",
+   "datenexport pseudonymisiert",
+   "datenschutz mitarbeitende schulung"
+  ],
+  "sections": [
+   {
+    "heading": "Was Datensparsamkeit von Ihnen verlangt",
+    "paras": [
+     "Das Schweizer Datenschutzrecht, allgemein als DSG bezeichnet, erwartet, dass Personendaten nur so weit bearbeitet werden, wie es für einen klaren Zweck nötig ist. Für ein Pilotprojekt heisst das: Jedes Feld in jedem Register soll vorhanden sein, weil Bewilligung, Protokoll oder ein echtes betriebliches Bedürfnis es verlangen. Bequemlichkeit allein ist kein guter Grund.",
+     "Weil die Beteiligung von Personen an einem regulierten Projekt selbst sensibel sein kann, gehört die Sorgfalt im Umgang mit ihren Angaben zu Ihrer Glaubwürdigkeit. Fragen Sie Ihre Datenschutzberatung, wie das Gesetz auf Ihren konkreten Sachverhalt anzuwenden ist; dieser Beitrag bietet eine praktische Methode und keine Auslegung des Gesetzes."
+    ]
+   },
+   {
+    "heading": "Zwecke den Feldern zuordnen",
+    "paras": [
+     "Erstellen Sie eine Tabelle mit drei Spalten: das Feld, der Zweck, dem es dient, und die zugrunde liegende Anforderung. Gehen Sie jedes Register, jedes Formular und jeden Export durch. Felder ohne Zweck werden aus Formularen und Datenbanken gelöscht. Felder mit Zweck, aber schwächerer Begründung prüfen Sie mit Ihrer Beratung.",
+     "Führen Sie die Zuordnung für jedes System durch, auch für Tabellen von Führungspersonen, E-Mail-Anhänge und Messaging-Gruppen. Schattenkopien sind der Ort, an dem Datensparsamkeit meist scheitert. Eine klare Regel, dass identifizierbare Teilnehmerdaten nur in bezeichneten Systemen liegen, lässt sich leichter durchsetzen als unzählige Einzelanweisungen."
+    ]
+   },
+   {
+    "heading": "Gestaltungsentscheide, die die Gefährdung verringern",
+    "paras": [
+     "Verwenden Sie in betrieblichen Dokumenten Teilnehmercodes, wobei die Schlüsseltabelle getrennt geführt wird. Bevorzugen Sie Bandbreiten oder Ja-Nein-Ergebnisse gegenüber exakten Werten, wo der Zweck es zulässt, zum Beispiel die Bestätigung der Eignung statt der Speicherung des zugrunde liegenden Dokuments. Beschränken Sie Freitextfelder und geben Sie dem Personal Hinweise, was nicht geschrieben werden darf.",
+     "Richten Sie rollenbasierte Zugriffe ein: Mitarbeitende am Empfang sehen, was sie für den Check-in brauchen, Führungspersonen sehen Aggregate, nur ein kleiner Kreis sieht Identitätsangaben. Protokollieren Sie jeden Zugriff auf die Identitätstabellen. Eingeschränkte Sichtbarkeit schützt die Teilnehmenden und bewahrt auch das Personal vor Verdacht, falls ein Vorfall eintritt."
+    ]
+   },
+   {
+    "heading": "Schulung und Kultur",
+    "paras": [
+     "Das Personal braucht praktische Regeln statt abstrakter Grundsätze: keine Register fotografieren, keine Teilnehmerlisten über Messenger-Apps verschicken, keine privaten Notizbücher führen. Erklären Sie, warum, und bieten Sie genehmigte Alternativen an.",
+     "Nehmen Sie den Datenschutz in die Einführung und in die jährlichen Auffrischungen auf und halten Sie die Teilnahme fest. Machen Sie es einfach, Fehler zu melden, etwa eine an die falsche Person gesendete E-Mail, damit sie umgehend beurteilt werden können."
+    ]
+   },
+   {
+    "heading": "Exporte und Weitergabe",
+    "paras": [
+     "Fragen Sie vor jedem Export, was die empfangende Stelle braucht und ob codierte oder aggregierte Daten genügen. Erstellen Sie Berichte für Partner und Evaluierende mit dem geringsten Detaillierungsgrad, der ihre Frage beantwortet. Halten Sie jede externe Bekanntgabe mit Datum, Empfänger, Inhalt und gesetzlicher oder vertraglicher Grundlage fest.",
+     "Überprüfen Sie Felder und Zugriffe alle sechs Monate und bei jeder Änderung des Protokolls. Dokumentieren Sie die Überprüfung. Die meisten Systeme erlauben es, einzustellen, welche Felder existieren und wer sie sehen darf, doch die Entscheidungen liegen bei Ihrer Organisation. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-retention-and-deletion-schedules",
+  "title": "Aufbewahrungs- und Löschfristen für Daten von Pilotprojekten",
+  "description": "So erstellen Sie einen Aufbewahrungs- und Löschplan für Pilotunterlagen: Kategorien, mit der Rechtsberatung festgelegte Fristen, Löschroutinen und Löschnachweise.",
+  "keywords": [
+   "aufbewahrungsfristen pilotprojekt",
+   "löschkonzept datenschutz schweiz",
+   "aufbewahrungsplan erstellen",
+   "löschprotokoll nachweis",
+   "datenlöschung teilnehmerdaten",
+   "anonymisierung kleine kohorten"
+  ],
+  "sections": [
+   {
+    "heading": "Warum ein Plan nötig ist",
+    "paras": [
+     "Zwei Anforderungen ziehen in entgegengesetzte Richtungen. Behörden und Protokolle verlangen unter Umständen, dass Sie bestimmte Unterlagen während einer festgelegten Frist aufbewahren; die Datenschutzgrundsätze besagen, Personendaten nicht länger als nötig zu behalten. Ein schriftlicher Aufbewahrungsplan versöhnt beides, indem er jeder Unterlagenart eine begründete Frist und eine Massnahme am Ende des Lebenszyklus zuweist.",
+     "Ohne Plan sammeln sich Daten tendenziell unbegrenzt in vergessenen Ordnern an, was Risiko und Kosten erhöht. Mit Plan wissen die Mitarbeitenden, was aufzubewahren ist, was zu löschen ist und wer in aussergewöhnlichen Fällen entscheidet."
+    ]
+   },
+   {
+    "heading": "Den Plan aufbauen",
+    "paras": [
+     "Listen Sie die Unterlagenkategorien auf: Teilnehmerregister, Einwilligungsformulare, Eignungsprüfungen, Zutrittsprotokolle, Lagerunterlagen, Finanzunterlagen, Vorfallprotokolle, Schulungsnachweise, Korrespondenz. Vermerken Sie für jede den Auslöser für den Fristbeginn, etwa das Ende der Teilnahme oder das Ende des Pilotprojekts, die Aufbewahrungsfrist und deren Quelle.",
+     "Aufbewahrungsfristen hängen von Ihrer Bewilligung, von Vertragsbedingungen und von gesetzlichen Pflichten wie den Buchführungsvorschriften ab. Übernehmen Sie keine Fristen aus einem anderen Land oder von einer Vorlage. Lassen Sie jede Frist von Ihrer Rechtsberatung bestätigen, halten Sie das Bestätigungsdatum fest und überprüfen Sie sie, wenn sich Anforderungen ändern."
+    ]
+   },
+   {
+    "heading": "Lösch- und Anonymisierungsroutinen",
+    "paras": [
+     "Planen Sie periodische Löschläufe ein, zum Beispiel vierteljährlich, mit einer namentlich genannten verantwortlichen Person. Der Lauf ermittelt Unterlagen, deren Frist abgelaufen ist, eine zweite Person prüft die Liste, die Löschung wird ausgeführt, und ein Protokolleintrag hält Datum, Kategorie und Anzahl fest. Beziehen Sie Backups und Kopien in die Routine ein oder dokumentieren Sie, wie sie ablaufen.",
+     "Werden danach aggregierte Zahlen benötigt, anonymisieren Sie statt zu löschen, und prüfen Sie, dass die Anonymisierung angesichts der kleinen Zahlen in einem Pilotprojekt eine Re-Identifizierung tatsächlich verhindert. Kleine Kohorten machen dies schwieriger, als es scheint; holen Sie Rat ein."
+    ]
+   },
+   {
+    "heading": "Steuerung des Plans",
+    "paras": [
+     "Bestimmen Sie eine verantwortliche Person für den Plan und überprüfen Sie ihn mindestens jährlich sowie bei jeder Änderung Ihrer Bewilligung oder Verträge. Halten Sie Versionen und Gründe für Änderungen fest, genau wie bei den Verfahren.",
+     "Bauen Sie die Behandlung von Ausnahmen in den Prozess ein: Eine Aufbewahrungssperre oder eine laufende Untersuchung kann die Löschung aussetzen. Dokumentieren Sie, wer eine Sperre anordnen darf, wie sie erfasst wird und wie sie aufgehoben wird."
+    ]
+   },
+   {
+    "heading": "Austritt von Teilnehmenden und Ende des Pilotprojekts",
+    "paras": [
+     "Wenn eine teilnehmende Person austritt, entscheiden Sie im Voraus, welche Unterlagen wie lange aufbewahrt werden müssen und welche sofort entfernt werden können. Informieren Sie die Person in klarer Sprache und in ihrer eigenen Sprache darüber, was bleibt und warum.",
+     "Führen Sie am Ende des Pilotprojekts einen Abschluss durch: letzter Abgleich, Archivierung der erforderlichen Unterlagen an einem gesicherten Ort, Löschung aller übrigen und eine von der verantwortlichen Person unterzeichnete Löschbestätigung. Ein System wie Budify kann die geplante Löschung unterstützen und das Löschprotokoll führen, der Plan selbst muss jedoch von Ihrer Rechtsberatung stammen. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-handling-data-subject-requests",
+  "title": "Datenanfragen von Teilnehmenden bearbeiten: Ablauf für Betreiber",
+  "description": "Ein klarer Ablauf, um Auskunfts-, Berichtigungs- oder Löschbegehren von Teilnehmenden in einem Schweizer Pilotprojekt entgegenzunehmen, zu prüfen und zu beantworten.",
+  "keywords": [
+   "auskunftsbegehren dsg bearbeiten",
+   "betroffenenrechte teilnehmende ablauf",
+   "löschbegehren datenschutz betreiber",
+   "identität prüfen auskunftsgesuch",
+   "anfragenprotokoll datenschutz",
+   "datenschutzanfragen vorlage antwort"
+  ],
+  "sections": [
+   {
+    "heading": "Vor der ersten Anfrage bereit sein",
+    "paras": [
+     "Teilnehmende haben nach dem Schweizer Datenschutzrecht, allgemein DSG genannt, Rechte an ihren Personendaten. Eine Anfrage kann per Brief, E-Mail oder am Empfang eintreffen, auf Deutsch, Französisch oder Italienisch. Wenn niemand weiss, was damit zu tun ist, verstreichen Fristen und das Vertrauen leidet. Bereiten Sie ein schriftliches Verfahren vor und stellen Sie sicher, dass alle Mitarbeitenden den ersten Schritt kennen: sofort an die benannte verantwortliche Person weiterleiten.",
+     "Benennen Sie diese Person und eine Stellvertretung, veröffentlichen Sie eine Kontaktadresse in der Teilnehmerinformation und halten Sie im Verfahren die Antwortfrist fest, die Ihre Beratung bestätigt hat. Verlassen Sie sich bei Fristen nicht auf Ihr Gedächtnis; fragen Sie die Rechtsberatung nach der korrekten Frist und dokumentieren Sie sie."
+    ]
+   },
+   {
+    "heading": "Erfassen, prüfen, abgrenzen",
+    "paras": [
+     "Eröffnen Sie am Tag des Eingangs einen Eintrag im Anfragenprotokoll: Datum, Kanal, Art der Anfrage, Sprache und zuständige Bearbeitung. Prüfen Sie die Identität der anfragenden Person verhältnismässig, ohne mehr Daten zu erheben als nötig. Ein Teilnehmercode plus eine nur ihr bekannte Referenz kann in manchen Fällen genügen; legen Sie dies in Ihrem Verfahren fest.",
+     "Bestimmen Sie den Umfang: In welchen Systemen, Registern, Protokollen und Postfächern könnten Daten der Person liegen? Eine für die Datensparsamkeit erstellte Datenlandkarte beschleunigt diesen Schritt. Durchsuchen Sie jeden Ort und halten Sie fest, dass die Suche stattgefunden hat, auch wenn nichts gefunden wird."
+    ]
+   },
+   {
+    "heading": "Die Antwort vorbereiten",
+    "paras": [
+     "Stellen Sie die Daten in lesbarer Form zusammen, entfernen Sie Angaben zu anderen Personen und prüfen Sie, ob eine gesetzliche oder vertragliche Pflicht Sie dazu verpflichtet, einen Teil der Anfrage aufzubewahren oder abzulehnen. Lassen Sie Nicht-Routinefälle vor dem Versand von der Rechtsberatung oder Ihrer Datenschutzberatung prüfen.",
+     "Verfassen Sie die Antwort in der Sprache der anfragenden Person, in einfachen Worten, und erklären Sie, was bereitgestellt, was zurückgehalten wurde und warum. Bei Berichtigungsbegehren ändern Sie den Datensatz mit sichtbarer Historie. Bei Löschbegehren wenden Sie den Aufbewahrungsplan an und teilen der Person mit, welche Unterlagen bestehen bleiben müssen."
+    ]
+   },
+   {
+    "heading": "Besondere Situationen",
+    "paras": [
+     "Manche Anfragen sind ungewöhnlich: von einer Vertretung, von einer ehemals teilnehmenden Person nach Ende des Pilotprojekts oder mit sehr weitem Umfang. Behandeln Sie diese als Nicht-Routinefälle und ziehen Sie vor der Antwort die Rechtsberatung bei.",
+     "Beschwerden über den Umgang mit Daten sollten gesondert protokolliert und von einer Person beantwortet werden, die an der ursprünglichen Bearbeitung nicht beteiligt war. Achten Sie auf Kontakt durch Aufsichtsbehörden und leiten Sie ihn sofort an die Geschäftsleitung weiter."
+    ]
+   },
+   {
+    "heading": "Den Kreis schliessen",
+    "paras": [
+     "Halten Sie das Datum der Antwort, den versandten Inhalt und die verwendete Methode fest. Bewahren Sie die Akte für die in Ihrem Aufbewahrungsplan festgelegte Dauer auf. Prüfen Sie das Protokoll vierteljährlich auf Muster, etwa viele Anfragen zum selben Thema, die auf unklare Teilnehmerinformationen hindeuten können.",
+     "Testen Sie das Verfahren einmal jährlich mit einer Probeanfrage, um zu sehen, wie lange es dauert und wo es stockt. Das Auffinden der Unterlagen einer Person anhand des Codes beschleunigt dies, doch die Antwort bleibt eine menschliche Entscheidung. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-choosing-compliance-software-checklist",
+  "title": "Compliance-Software auswählen: Checkliste für Pilotbetreiber",
+  "description": "Herstellerneutrale Checkliste zur Bewertung von Dokumentations- und Bestandssoftware für Pilotprojekte: Prüfpfade, Berechtigungen, Sprachen und Ausstieg.",
+  "keywords": [
+   "compliance software auswählen",
+   "dokumentationssoftware pilotprojekt",
+   "software auswahl checkliste betreiber",
+   "audit trail software anforderungen",
+   "bestandsverwaltung software schweiz",
+   "softwareanbieter vergleich anforderungskatalog"
+  ],
+  "sections": [
+   {
+    "heading": "Mit Anforderungen beginnen, nicht mit Demos",
+    "paras": [
+     "Bevor Sie mit einem Anbieter sprechen, halten Sie schriftlich fest, was Ihre Bewilligung, Ihr Protokoll und Ihre Verfahren vom System verlangen: Teilnehmerregister führen, Historien bewahren, Bestände steuern, Exporte erzeugen, Zugriffe einschränken. Stufen Sie jede Anforderung als zwingend oder wünschenswert ein. Vorführungen überzeugen, und eine vorbereitete Liste hält Sie davon ab, Funktionen zu beschaffen, die Sie nicht brauchen.",
+     "Beziehen Sie die Personen ein, die das System täglich nutzen werden, sowie die für Compliance verantwortliche Person. Anwendende bemerken Reibung im Arbeitsablauf; Compliance-Fachleute bemerken fehlende Kontrollen. Beide Sichtweisen zählen für den Entscheid."
+    ]
+   },
+   {
+    "heading": "Funktionen für Aufzeichnungen und Prüfpfad",
+    "paras": [
+     "Zu den zwingenden Funktionen gehören in der Regel reine Anfügehistorien für Schlüsselfelder, Benutzeridentifikation bei jeder Änderung, Zeitstempel, gesperrte Perioden für Finanz- und Lagerberichte sowie die Möglichkeit, vollständige Datensätze zu exportieren. Lassen Sie sich zeigen, was das System anzeigt, wenn ein Wert geändert und dann korrigiert wird. Verschwindet der frühere Wert, ist das ein Warnzeichen.",
+     "Prüfen Sie die Flexibilität der Berichte: Können Sie in den Formaten exportieren, die Ihre Buchhaltung und die Aufsichtsstelle verlangen, mit Daten, Beträgen in CHF und den von Ihnen verwendeten Einheiten? Fragen Sie, wie Korrekturen gehandhabt werden und ob Berichte für jedes vergangene Datum neu erzeugt werden können."
+    ]
+   },
+   {
+    "heading": "Zugriff, Sprachen und Datenstandort",
+    "paras": [
+     "Prüfen Sie rollenbasierte Berechtigungen, wo nötig auf Feldebene, individuelle Logins, starke Authentifizierung und Sitzungskontrollen. Fragen Sie, wo die Daten gehostet werden, wer darauf zugreifen kann und was im Supportfall geschieht. Schweizer und europäische Datenschutzerwartungen machen Fragen zu Datenstandort und Datenübermittlung wichtig; beziehen Sie Ihre Beratung ein.",
+     "Prüfen Sie die Sprachunterstützung der Oberfläche und der Ausdrucke auf Deutsch, Französisch und Italienisch. Mitarbeitende sollten nicht in einer Sprache arbeiten müssen, die sie nicht beherrschen, da dies die Fehlerquote erhöht. Testen Sie mit realen Beispielen einschliesslich Umlauten und Akzentzeichen."
+    ]
+   },
+   {
+    "heading": "Einführungsplanung",
+    "paras": [
+     "Planen Sie die Einführung in Phasen: Konfiguration, Datenmigration, Schulung, Parallelbetrieb, Inbetriebnahme. Ernennen Sie eine Projektverantwortliche oder einen Projektverantwortlichen und legen Sie für jede Phase Abnahmekriterien fest. Migrationen historischer Datensätze verdienen besondere Sorgfalt, mit Stichproben, die alte und neue Zahlen vergleichen.",
+     "Planen Sie Zeit für die Schulung des Personals in jeder Arbeitssprache ein und bewahren Sie die Schulungsnachweise auf. Halten Sie nach der Inbetriebnahme nach dreissig und neunzig Tagen eine Überprüfung ab, um Korrekturen aufzulisten und Verfahren zu aktualisieren."
+    ]
+   },
+   {
+    "heading": "Vertrag, Ausstieg und Test",
+    "paras": [
+     "Prüfen Sie den Vertrag auf Servicelevel, Backup-Zusagen, Meldung von Vorfällen, Unterauftragsbearbeiter und Ihre Rechte an Ihren Daten. Bestehen Sie auf einem definierten Ausstiegsweg: ein vollständiger Export in dokumentierten Formaten und die bestätigte Löschung danach. Ein System, das Sie nicht verlassen können, ist ein Risiko für die Kontinuität.",
+     "Führen Sie vor der Festlegung einen Test mit realistischen Daten durch. Definieren Sie die Erfolgskriterien im Voraus, zum Beispiel einen Abgleich abschliessen, einen Monatsabschluss-Export erzeugen und eine teilnehmende Person vom Eintritt bis zum Statuswechsel nachverfolgen. Ein System wie Budify sollte, wie jedes andere, an solchen Tests gemessen werden und nicht an Versprechen. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-backups-and-audit-trails",
+  "title": "Backups, Prüfpfade und Betriebskontinuität für Pilotunterlagen",
+  "description": "Schützen Sie Pilotunterlagen mit getesteten Backups, unveränderlichen Prüfpfaden und einem Kontinuitätsplan für Ausfälle, Geräteverlust und Abwesenheiten.",
+  "keywords": [
+   "backup konzept pilotprojekt",
+   "audit trail unveränderlich",
+   "betriebskontinuität plan kmu",
+   "datensicherung testen wiederherstellung",
+   "benutzerkonten zugriffsverwaltung",
+   "kontinuitätsplan systemausfall"
+  ],
+  "sections": [
+   {
+    "heading": "Unterlagen sind nur so gut wie ihre Wiederherstellung",
+    "paras": [
+     "Ein konformes Pilotprojekt setzt voraus, dass Unterlagen noch Jahre nach ihrer Erstellung verfügbar sind. Eine verlorene Datenbank, ein defekter Laptop oder ein Ransomware-Angriff können diesen Nachweis in Minuten auslöschen. Backups, Prüfpfade und ein Kontinuitätsplan sind kein Luxus; so halten Sie das Versprechen ein, das Sie in Ihrer Bewilligung gegeben haben, nämlich verlässliche Unterlagen zu führen.",
+     "Beginnen Sie mit einem Inventar der Systeme, die Projektunterlagen enthalten, einschliesslich Tabellen und Cloud-Laufwerken. Ordnen Sie sie nach Wichtigkeit und legen Sie fest, wie viel Datenverlust und Ausfallzeit jedes tolerieren kann. Diese beiden Zahlen bestimmen alle späteren Entscheide."
+    ]
+   },
+   {
+    "heading": "Backup-Konzept",
+    "paras": [
+     "Folgen Sie einem einfachen Muster: mehrere Kopien auf mindestens zwei Arten von Speichermedien, mindestens eine Kopie getrennt von der Hauptumgebung aufbewahrt und verschlüsselt. Automatisieren Sie den Zeitplan und protokollieren Sie jeden Lauf. Ein Backup, das niemand überwacht, kann monatelang unbemerkt fehlschlagen.",
+     "Testen Sie die Wiederherstellung mindestens zweimal jährlich, indem Sie eine Stichprobe in einer separaten Umgebung wiederherstellen und prüfen, ob Datensätze sich öffnen lassen und die Historie intakt ist. Bewahren Sie den Testbericht auf. Viele Organisationen entdecken Backup-Probleme erst an dem Tag, an dem sie die Daten brauchen."
+    ]
+   },
+   {
+    "heading": "Prüfpfade, denen Sie vertrauen können",
+    "paras": [
+     "Ein Prüfpfad hält fest, wer was wann getan hat. Damit er Wert hat, dürfen gewöhnliche Benutzende Einträge weder bearbeiten noch entfernen können, und auch Administratorhandlungen müssen protokolliert werden. Zeitstempel sollten aus einer verlässlichen Quelle stammen. Prüfen Sie den Pfad regelmässig auf ungewöhnliche Muster, etwa Änderungen zu ungewöhnlichen Zeiten oder durch gemeinsam genutzte Konten.",
+     "Verbieten Sie gemeinsame Logins. Jede Person hat ein individuelles Konto mit nur den erforderlichen Berechtigungen. Scheiden Mitarbeitende aus, deaktivieren Sie ihre Konten am selben Tag und dokumentieren Sie dies. Diese eine Gewohnheit schliesst viele Lücken."
+    ]
+   },
+   {
+    "heading": "Rollen und Verantwortlichkeiten",
+    "paras": [
+     "Benennen Sie je eine verantwortliche Person für Backups, Zugriffsverwaltung und Vorfallbewältigung, mit Stellvertretungen. Kleine Teams kombinieren Rollen oft, was akzeptabel ist, sofern die Aufgaben schriftlich festgehalten sind und Überprüfungen von jemand anderem durchgeführt werden.",
+     "Dokumentieren Sie die Kontakte der Dienstleister und die Schritte zur Eskalation technischer Vorfälle. Planen Sie eine jährliche Überprüfung der gesamten Sicherheitsvorkehrungen mit einer Beratung."
+    ]
+   },
+   {
+    "heading": "Kontinuitätsplanung",
+    "paras": [
+     "Verfassen Sie einen kurzen Kontinuitätsplan für Strom- oder Internetausfall, Systemausfall, Gerätediebstahl und Abwesenheit von Schlüsselpersonen. Nehmen Sie Papier-Rückfallformulare mit fortlaufenden Nummern auf, eine Regel, dass Rückfalleinträge innerhalb eines Tages ins System übertragen werden, sowie die Kontaktdaten von Anbieter und Beratung.",
+     "Proben Sie den Plan jährlich mit einem realistischen Szenario und halten Sie fest, was Sie gelernt haben. Berücksichtigen Sie den Datenschutzaspekt: Verlorene Geräte sollten verschlüsselt und aus der Ferne sperrbar sein, und Vorfälle mit Personendaten sollten Ihrem Verfahren für Datenschutzverletzungen folgen und mit der Rechtsberatung beurteilt werden. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-preparing-evaluation-reports-for-authorities",
+  "title": "Evaluationsberichte für Aufsichtsstellen vorbereiten",
+  "description": "So erstellen Sie klare, belegbasierte Periodenberichte für Aufsichtsstellen und Evaluierende, gestützt auf die Unterlagen, die Sie ohnehin führen.",
+  "keywords": [
+   "evaluationsbericht pilotprojekt",
+   "bericht aufsichtsstelle erstellen",
+   "kennzahlen pilotprojekt berichten",
+   "belegmappe evidence pack",
+   "periodenbericht behörde vorbereiten",
+   "berichtswesen betreiber qualitätskontrolle"
+  ],
+  "sections": [
+   {
+    "heading": "Aus Unterlagen berichten, nicht aus dem Gedächtnis",
+    "paras": [
+     "Berichte an Aufsichtsstellen und Evaluierende haben das grösste Gewicht, wenn sich jede Aussage auf eine Aufzeichnung zurückführen lässt. Bauen Sie die Berichtsstruktur früh auf und speisen Sie sie das ganze Jahr über aus Ihren Registern und Protokollen. Ein monatlicher Auszug der wichtigsten Zahlen kostet wenig Zeit und erspart Ihnen eine hektische Zusammenstellungsphase vor dem Stichtag.",
+     "Fragen Sie die empfangende Stelle, was sie braucht. Verlangen Sie Vorlage, Definitionen und Fristen schriftlich. Sind Definitionen mehrdeutig, etwa was als aktive teilnehmende Person gilt, vereinbaren Sie eine Auslegung und wenden Sie sie über alle Perioden hinweg einheitlich an."
+    ]
+   },
+   {
+    "heading": "Zentrale Kennzahlen",
+    "paras": [
+     "Typische Kennzahlen aus den betrieblichen Unterlagen sind die Zahl eingeschriebener und aktiver Teilnehmender pro Periode, Austritte, Erledigung der Protokollaufgaben, Abweichungen und Korrekturmassnahmen, Ergebnisse der Bestandsabgleiche, Vorfälle und die Schulungsabdeckung des Personals. Stellen Sie jede mit Definition und Datenquelle dar.",
+     "Halten Sie die Kennzahlen auf das Projekt bezogen und nicht auf Einzelpersonen. Verwenden Sie Aggregate und vermeiden Sie kleine Zellenzahlen, die Personen identifizieren könnten. Ihre Datenschutzberatung kann helfen, Schwellenwerte festzulegen, unterhalb derer Zahlen gruppiert oder unterdrückt werden."
+    ]
+   },
+   {
+    "heading": "Ehrlich schreiben",
+    "paras": [
+     "Nennen Sie Probleme. Ein Bericht, der Abweichungen aufführt, Ursachen erklärt und Korrekturmassnahmen zeigt, überzeugt mehr als einer, der Perfektion behauptet, was Lesende selten glauben. Benennen Sie Grenzen der Daten, etwa Zeiträume mit unvollständigem Protokoll, und was Sie dagegen unternommen haben.",
+     "Verwenden Sie eine einfache Sprache und kurze Absätze und stellen Sie Fassungen in der von der empfangenden Stelle verlangten Sprache bereit. Beträge in CHF sollten Periode und die Angabe enthalten, ob die Zahlen Steuern einschliessen. Lassen Sie jede Zahl von einer zweiten Person gegen ihre Quelle prüfen."
+    ]
+   },
+   {
+    "heading": "Zeitplan und Qualitätskontrolle",
+    "paras": [
+     "Planen Sie vom Stichtag rückwärts: Datenauszug, interne Prüfung, Prüfung durch die Beratung, Freigabe, Einreichung, jeweils mit Puffern. Bestätigen Sie Einreichungsweg und Dateiformat im Voraus, um technische Überraschungen am Tag selbst zu vermeiden.",
+     "Wenden Sie eine abschliessende Checkliste an: Zahlen stimmen mit den Quellen überein, Definitionen entsprechen früheren Berichten, Namen und Daten sind korrekt, die Sprache stimmt und es sind keine identifizierbaren Angaben durchgerutscht."
+    ]
+   },
+   {
+    "heading": "Belegmappen und Nachbereitung",
+    "paras": [
+     "Bereiten Sie eine Belegmappe mit Auszügen vor, die die zentralen Aussagen stützen, indexiert und auf Anfrage abrufbereit. Senden Sie nicht mehr als verlangt; liefern Sie das Angeforderte und weisen Sie darauf hin, dass weitere Unterlagen verfügbar sind.",
+     "Protokollieren Sie nach der Einreichung eingegangene Fragen und gegebene Antworten und verfolgen Sie Zusagen, die Sie gemacht haben. Halten Sie eine kurze interne Auswertung der Erkenntnisse ab. Schnelle Periodenauszüge schaffen Zeit, um die Qualität der Darstellung zu überprüfen. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "ch-pilot-wind-down-and-close-out",
+  "title": "Abschluss und Auflösung eines Pilotprojekts: Unterlagen, Bestände und Daten",
+  "description": "Abschlussplan für das Ende eines Pilotprojekts: Schlussabgleiche, Archivierung, Information der Teilnehmenden, Personalübergabe und Löschnachweise.",
+  "keywords": [
+   "pilotprojekt abschluss checkliste",
+   "projektende unterlagen archivieren",
+   "schlussabgleich bestand",
+   "löschnachweis datenlöschung",
+   "übergang pilotprojekt beenden",
+   "abschlussbericht pilotprojekt betreiber"
+  ],
+  "sections": [
+   {
+    "heading": "Das Ende von Anfang an planen",
+    "paras": [
+     "Jedes Pilotprojekt endet, sei es mit dem Übergang in einen neuen Rahmen, einer Verlängerung oder einem Stopp. In allen Fällen bleibt der Betreiber für Unterlagen, Bestände und Teilnehmerdaten verantwortlich. Ein Abschlussplan, der Monate im Voraus vorbereitet wird, vermeidet überstürzte Entscheide. Fragen Sie Ihre Aufsichtsstelle früh, welche Schritte sie bis wann erwartet.",
+     "Ernennen Sie eine Abschlussleitung, legen Sie den Zeitplan rückwärts vom Enddatum fest und listen Sie die Abhängigkeiten auf: Schlussberichte, letzte Eintritte, letzte Lagerbewegungen, letzte Zahlungen. Kommunizieren Sie den Plan dem Personal und, wo angebracht, den Teilnehmenden."
+    ]
+   },
+   {
+    "heading": "Teilnehmende und Kommunikation",
+    "paras": [
+     "Teilnehmende verdienen klare, rechtzeitige Informationen über das Ende des Projekts, das Schicksal ihrer Daten und die Ansprechstelle danach. Bereiten Sie Mitteilungen auf Deutsch, Französisch und Italienisch vor, lassen Sie sie von Ihrer Beratung prüfen und halten Sie fest, wann und wie sie versandt wurden.",
+     "Aktualisieren Sie das Register beim Austritt der Teilnehmenden mit Status und Datum. Stellen Sie sicher, dass Anfragen zu Betroffenenrechten, die um das Projektende eingehen, nach dem üblichen Standard bearbeitet werden. Kürzen Sie keine Verfahren, nur weil das Projekt endet."
+    ]
+   },
+   {
+    "heading": "Schlussbestand und Finanzen",
+    "paras": [
+     "Führen Sie einen letzten Bestandsabgleich mit zwei Unterzeichnenden und einem vollständigen Bericht durch. Dokumentieren Sie die Verwendung jeder verbleibenden Menge strikt nach Ihrer Bewilligung und den Anweisungen der zuständigen Behörde. Improvisieren Sie nie; fehlen Anweisungen, fragen Sie schriftlich nach und bewahren Sie die Antwort auf.",
+     "Begleichen Sie finanziell die offenen Rechnungen, stimmen Sie die Schlusskonten in CHF ab und erstellen Sie einen Abschlussbericht mit einem Vergleich zum Budget für jedes Jahr. Exportieren Sie Hauptbücher und Berichte in dokumentierten Formaten und übergeben Sie Ihrer Buchhaltung ein vollständiges Set."
+    ]
+   },
+   {
+    "heading": "Personal und Verträge",
+    "paras": [
+     "Das Personal braucht klare Informationen über seine Rolle während des Abschlusses und danach. Halten Sie sachkundige Personen verfügbar, bis Schlussabgleich und Archiv abgeschlossen sind, und dokumentieren Sie die Übergabe der Verantwortung an die Person, die weiterhin rechenschaftspflichtig bleibt.",
+     "Prüfen Sie Verträge mit Vermietern, Lieferanten und Softwareanbietern auf Kündigungsfristen und Klauseln zur Datenrückgabe und tragen Sie jedes Datum in die Agenda ein. Stellen Sie sicher, dass die Zugriffsrechte ausscheidender Mitarbeitender und Anbieter entzogen und protokolliert werden."
+    ]
+   },
+   {
+    "heading": "Archivierung, Löschung und Erkenntnisse",
+    "paras": [
+     "Überführen Sie aufzubewahrende Unterlagen in ein sicheres Archiv mit Index, Zugriffsliste und Ablaufdatum der Aufbewahrung. Löschen Sie den Rest gemäss Ihrem Plan und erstellen Sie eine unterzeichnete Löschbestätigung. Prüfen Sie, dass Backups, gemeinsame Laufwerke und E-Mail-Ordner erfasst sind.",
+     "Führen Sie eine Auswertung der Erkenntnisse durch, solange das Personal noch verfügbar ist, und halten Sie sie schriftlich fest: was funktioniert hat, was gescheitert ist, was Sie ändern würden. Diese Notizen sind wertvoll für jeden späteren Antrag oder ein Folgeprojekt. Ein System wie Budify kann vor dem Schliessen der Konten vollständige Historien für Archivzwecke exportieren. Dies ist eine allgemeine Information für Betreiber und keine Rechtsberatung; lassen Sie die Anforderungen von einer qualifizierten lokalen Rechtsberatung bestätigen."
+    ]
+   }
+  ]
+ }
+]

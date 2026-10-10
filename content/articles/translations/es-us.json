@@ -1,0 +1,1002 @@
+[
+ {
+  "slug": "us-track-and-trace-reconciliation-routine",
+  "title": "Rutina de conciliación con el sistema de trazabilidad para minoristas con licencia",
+  "description": "Rutina semanal para conciliar los registros del POS con los reportes estatales de trazabilidad, con responsables, evidencia y pasos de escalamiento.",
+  "keywords": [
+   "conciliación de trazabilidad estatal",
+   "reporte seed to sale para dispensarios",
+   "software de reportes de cumplimiento estatal",
+   "registros de cumplimiento de dispensario",
+   "rastro de auditoría minorista con licencia",
+   "conciliación de inventario y reportes"
+  ],
+  "sections": [
+   {
+    "heading": "Por qué la conciliación es una rutina y no un proyecto",
+    "paras": [
+     "La mayoría de los minoristas con licencia estatal reportan los movimientos de inventario a un sistema estatal de trazabilidad, o a un proveedor aprobado por el estado, de alguna manera. Los campos y los plazos exactos cambian de un estado a otro, por lo que este artículo se mantiene en términos generales. Lo que no cambia es el riesgo operativo: cuando los registros de su propio POS y el sistema estatal se desfasan, las diferencias pequeñas se convierten en grandes preguntas durante una inspección.",
+     "La solución es tratar la conciliación como una rutina programada, con un responsable designado, un día fijo y un resultado por escrito. Una frecuencia semanal funciona para muchas tiendas, con una revisión diaria más ligera en los días de alto volumen. El objetivo es simple: que cada movimiento de su sistema tenga una entrada correspondiente en el sistema de reportes, y que cada diferencia tenga una explicación documentada."
+    ]
+   },
+   {
+    "heading": "Arme el paquete semanal de conciliación",
+    "paras": [
+     "Comience con tres exportaciones tomadas a la misma hora de corte: los movimientos de artículos del POS, las existencias por ubicación y la vista de existencias del propio sistema de reportes. Colóquelas lado a lado en un solo libro de cálculo o informe. Anote la hora de corte en la primera página, porque un conteo hecho a las 4 p. m. nunca coincidirá con uno hecho al cierre.",
+     "Agregue una cuarta pestaña para excepciones. Cada fila registra el artículo, la diferencia de cantidad, la causa presunta, la persona que investigó y la fecha de resolución. Entre las causas típicas están una transacción anulada después de reportarse, una recepción capturada en la unidad equivocada o una transferencia registrada solo en uno de los lados. Clasificar las causas a lo largo del tiempo le muestra dónde es más débil el proceso."
+    ]
+   },
+   {
+    "heading": "Asigne responsables y fije límites de escalamiento",
+    "paras": [
+     "La conciliación falla cuando todos suponen que otra persona está revisando. Designe a un preparador, normalmente el encargado de inventario, y a un revisor, normalmente el gerente general o el oficial de cumplimiento. El preparador arma el paquete; el revisor lo aprueba con su firma. Separar ambos roles le da un control básico que tanto los reguladores como los prestamistas suelen esperar.",
+     "Defina por escrito los límites de escalamiento antes de necesitarlos. Por ejemplo, cualquier variación sin explicar por encima de un umbral que usted elija pasa el mismo día al oficial de cumplimiento, y cualquier patrón que se repita durante tres semanas activa una revisión del proceso. Los umbrales son política interna de su empresa, no una norma legal, así que defínalos con su abogado o consultor."
+    ]
+   },
+   {
+    "heading": "Errores comunes que debe evitar",
+    "paras": [
+     "Hay tres errores recurrentes. Primero, conciliar contra una exportación desactualizada, de modo que las diferencias son en realidad desfases de tiempo. Segundo, registrar un ajuste correctivo antes de conocer la causa, lo que oculta el error original. Tercero, dejar que las excepciones se arrastren semana tras semana hasta que nadie recuerda el contexto.",
+     "Contrarreste estos errores con una hora de corte fija, una regla que exija un código de motivo y un segundo aprobador para los ajustes, y un punto permanente en la agenda de la reunión semanal de gerencia para las excepciones antiguas. Hábitos pequeños como estos mantienen manejable la obligación de reportar estado por estado, incluso cuando cambia el personal."
+    ]
+   },
+   {
+    "heading": "Mantenga ordenado el rastro de evidencia",
+    "paras": [
+     "Guarde cada paquete firmado en una carpeta con fecha, junto con las exportaciones originales y no solo el resumen. Si un inspector le pregunta cómo concilió una semana en particular, usted debe poder abrir los archivos originales en menos de un minuto. Use nombres de archivo uniformes que incluyan la tienda, la fecha de cierre de la semana y la hora de corte.",
+     "Un sistema como Budify puede conservar en un solo lugar el historial de movimientos, los ajustes y la atribución por usuario, lo que acorta bastante el paso de exportación. Sea cual sea la herramienta, revise el período de conservación con su abogado, porque los requisitos estatales varían y lo más seguro es guardar los registros al menos durante el tiempo que exijan las condiciones de su licencia. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-record-retention-checklist-state-licensed",
+  "title": "Lista de verificación de conservación de registros para minoristas de cannabis con licencia estatal",
+  "description": "Elabore un calendario de conservación de transacciones, ajustes de inventario, expedientes del personal y trámites que resista una inspección estatal.",
+  "keywords": [
+   "conservación de registros de cannabis",
+   "requisitos de registros para dispensarios",
+   "documentación de minoristas con licencia estatal",
+   "registros listos para auditoría",
+   "lista de cumplimiento para cannabis",
+   "política de conservación de documentos"
+  ],
+  "sections": [
+   {
+    "heading": "Comience con un inventario de registros",
+    "paras": [
+     "Antes de fijar plazos de conservación, haga una lista de todos los tipos de registro que genera su tienda. Agrúpelos en transacciones, movimientos de inventario, documentos de recepción, expedientes de personal y capacitación, bitácoras de seguridad, registros de desechos o destrucción y correspondencia con el regulador. La mayoría de los operadores descubre dos o tres categorías que no controlaba formalmente, por lo general ajustes informales o aprobaciones verbales.",
+     "Para cada categoría, anote dónde se encuentra hoy, quién es el responsable y si se guarda en un sistema o en papel. Esta hoja es la columna vertebral de su calendario de conservación y también ayuda a los nuevos gerentes a entender qué debe poder presentar el negocio cuando se le solicite."
+    ]
+   },
+   {
+    "heading": "Fije los plazos según las condiciones de su licencia",
+    "paras": [
+     "En Estados Unidos, los requisitos de conservación los establece cada estado y, a veces, también la autoridad local. Algunas jurisdicciones especifican años para ciertos tipos de registro; otras son menos explícitas. No adivine. Lea las condiciones de su licencia y la normativa a la que remiten, y luego confirme su interpretación con un abogado que ejerza en su estado.",
+     "Cuando los requisitos no son claros, muchos operadores adoptan una regla interna conservadora, como guardar todo durante el plazo más largo que aplique a cualquier registro de la misma familia. Documente la regla y su justificación. Una política escrita que se cumple de forma constante es mucho más fácil de defender que eliminar documentos de manera improvisada."
+    ]
+   },
+   {
+    "heading": "Haga que los registros se puedan recuperar, no solo guardar",
+    "paras": [
+     "Conservar solo sirve si usted puede encontrar el registro. Indexe los archivos en papel por año y tipo, y nombre los archivos digitales de forma uniforme. En el caso de los datos del sistema, confirme que las exportaciones incluyan marcas de tiempo, identificadores de usuario y los valores anteriores y posteriores de cualquier cambio. Pruebe la recuperación cada trimestre: elija una transacción al azar de hace 18 meses y reconstruya su historia de principio a fin.",
+     "Planifique también la rotación del personal. Si solo una persona sabe dónde están las bitácoras de destrucción, eso es un riesgo. Incluya en su manual de operaciones una página índice breve que indique dónde está cada registro y nombre a un responsable suplente."
+    ]
+   },
+   {
+    "heading": "Una autoevaluación trimestral",
+    "paras": [
+     "Cada trimestre, el oficial de cumplimiento debe elegir cinco tipos de registro y demostrar que cada uno está completo, indexado y dentro de su plazo de conservación. La prueba es sencilla: ¿puede presentarlo en minutos y muestra quién hizo qué y cuándo?",
+     "Anote el resultado de la autoevaluación, incluida cualquier corrección. Con el paso de un año, esto forma un expediente pequeño pero convincente que demuestra que la gestión de registros se supervisa y no se da por sentada. Comparta el resumen con los dueños para que las decisiones de recursos reflejen las brechas reales."
+    ]
+   },
+   {
+    "heading": "Elimine los registros según el calendario",
+    "paras": [
+     "Cuando un registro supera su plazo de conservación, destrúyalo conforme a un procedimiento escrito y anote la destrucción. Los registros con datos de identidad de clientes merecen una eliminación segura, ya sea triturando el papel o borrando las copias digitales de todas las ubicaciones de respaldo que las contengan.",
+     "Suspenda cualquier destrucción programada cuando reciba una orden de conservación legal, una consulta del regulador o una notificación de disputa, y reanúdela solo cuando su abogado lo confirme. Una revisión anual breve del calendario lo mantiene alineado con los cambios regulatorios. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-regulator-inspection-readiness-walkthrough",
+  "title": "Preparación para inspecciones del regulador: un recorrido de registros para minoristas",
+  "description": "Prepare su tienda para una inspección sorpresa con una carpeta de documentos, sesiones por rol y un simulacro que detecta a tiempo las brechas.",
+  "keywords": [
+   "preparación para inspección de cannabis",
+   "lista de verificación de inspección regulatoria",
+   "preparación de auditoría para dispensarios con licencia",
+   "rutina del oficial de cumplimiento",
+   "registros para inspección del regulador estatal",
+   "simulacro de inspección para operadores"
+  ],
+  "sections": [
+   {
+    "heading": "Dé por hecho que la inspección será sin aviso",
+    "paras": [
+     "Los reguladores estatales y las autoridades locales suelen tener derecho a inspeccionar los locales con licencia con poca anticipación. Prepararse solo cuando se entera de que viene una visita es prepararse demasiado tarde. La preparación debe ser una condición permanente de la tienda, mantenida con hábitos breves y regulares.",
+     "Comience por designar a un responsable de inspección en cada turno. Esa persona sabe a quién llamar, dónde está la carpeta y cómo recibir con cortesía a los inspectores. El resto del personal debe saber que debe mantener la profesionalidad y remitir las preguntas al responsable en lugar de improvisar respuestas."
+    ]
+   },
+   {
+    "heading": "Arme la carpeta de inspección",
+    "paras": [
+     "Cree una carpeta física o digital segura con los documentos de su licencia, el plano del local, la lista vigente del personal con sus funciones, las políticas clave, los registros de capacitación, los paquetes de conciliación más recientes, las bitácoras de desechos y destrucción y los informes de incidentes. Agregue un índice de una página con la ubicación de cada elemento.",
+     "Mantenga la carpeta al día con una revisión mensual que compare su contenido con la operación real. Una lista de personal desactualizada o la falta de una revisión de política es un hallazgo frecuente y totalmente evitable. Ponga fecha a cada página para que el inspector vea de un vistazo el historial de revisiones."
+    ]
+   },
+   {
+    "heading": "Haga un simulacro cada trimestre",
+    "paras": [
+     "Pida a alguien ajeno al trabajo diario, como un dueño, un consultor o un gerente de otra sucursal, que haga el papel de inspector. Pídale que elija un día reciente y solicite las transacciones, los movimientos de inventario, las firmas de apertura y cierre y las bitácoras de acceso de ese día. Mida cuánto tarda en reunirlos.",
+     "Anote cada brecha en una bitácora de acciones correctivas con un responsable y una fecha límite. Entre las brechas comunes están ajustes sin código de motivo, expedientes de capacitación sin firmas y permisos de acceso que ya no corresponden a las funciones del puesto. Cerrar estos puntos antes de una visita real da confianza a todo el equipo."
+    ]
+   },
+   {
+    "heading": "Capacitación del personal de primera línea",
+    "paras": [
+     "El personal de primera línea no necesita conocimientos legales, pero sí debe saber lo básico: ser cortés, llamar al responsable de inspección, no ocultar ni mover nada y no adivinar cuando tenga dudas. Dé una sesión informativa de diez minutos al comienzo de cada trimestre.",
+     "Entregue a los jefes de turno una tarjeta plastificada con los pasos clave y los números de teléfono. Cuando las personas saben exactamente qué hacer, las inspecciones se vuelven eventos rutinarios y no sorpresas estresantes, y mejora la calidad de lo que se entrega."
+    ]
+   },
+   {
+    "heading": "Maneje la visita con calma",
+    "paras": [
+     "Durante una inspección real, lleve una bitácora de quién asistió, qué se solicitó y qué se entregó. Entregue copias en lugar de originales siempre que sea posible y anote todo lo que se lleven. Si no está de acuerdo con un hallazgo, responda por escrito después, por la vía correspondiente, en lugar de discutir en el piso de la tienda.",
+     "Después, haga una reunión de evaluación en un plazo de un día, actualice la bitácora de acciones correctivas y archive el informe del inspector junto con sus registros de cumplimiento. Un software de reportes, como Budify, puede exportar rápidamente historiales de movimientos y bitácoras de usuarios, pero el proceso humano importa igual. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-cycle-counting-retail-stockroom",
+  "title": "Conteo cíclico para bodegas de tiendas: un calendario práctico",
+  "description": "Sustituya los conteos totales por un calendario rotativo de conteo cíclico que mantenga exactas las existencias y rastree cada variación hasta su motivo.",
+  "keywords": [
+   "conteo cíclico en comercio minorista",
+   "conteos de inventario para dispensarios",
+   "exactitud de inventario en comercio regulado",
+   "seguimiento de variaciones de inventario",
+   "gestión de inventario de cannabis",
+   "calendario de conteo cíclico"
+  ],
+  "sections": [
+   {
+    "heading": "Por qué los conteos totales no bastan",
+    "paras": [
+     "Un único conteo total anual o trimestral le dice cuánto se equivocaron sus cifras cuando el daño ya está hecho. Para los minoristas regulados, donde las existencias normalmente deben coincidir con los registros de reporte, ese retraso sale caro. El conteo cíclico reparte el trabajo a lo largo del año y detecta errores mientras el rastro aún está fresco.",
+     "En lugar de cerrar la tienda un día, usted cuenta una porción pequeña del inventario cada día hábil o cada semana. En un mes, todos los artículos se han contado al menos una vez, y los de mayor rotación se han contado muchas veces. El negocio sigue operando y los datos se mantienen más limpios."
+    ]
+   },
+   {
+    "heading": "Diseñe el calendario de conteo",
+    "paras": [
+     "Divida su inventario en clases según la velocidad de rotación y el valor para el negocio. Los artículos de alta rotación pueden contarse cada semana, los de rotación moderada cada mes y los de baja rotación cada trimestre. Escriba el calendario como una agenda para que nadie tenga que decidir cada mañana qué contar.",
+     "Asigne los conteos a alguien que no haya recibido ni despachado esos artículos ese día. Una segunda persona verifica cualquier conteo que difiera del sistema por más de su tolerancia. Mantenga simples las reglas de tolerancia, por ejemplo cualquier diferencia en unidades enteras y un pequeño margen en artículos pesados, y pida a su oficial de cumplimiento que las apruebe."
+    ]
+   },
+   {
+    "heading": "Cuente a ciegas y registre con claridad",
+    "paras": [
+     "Los conteos a ciegas, en los que quien cuenta no ve la cantidad esperada, reducen la tentación de redondear hacia la cifra del sistema. Use una lista impresa o en tableta ordenada por ubicación física para que quien cuenta recorra la sala una sola vez y no tres.",
+     "Registre el conteo, quién contó, quién verificó, la hora y la ubicación. Cuando aparezca una variación, no ajuste de inmediato. Vuelva a contar, revise las recepciones, transferencias y anulaciones recientes y solo entonces registre un ajuste con un código de motivo. Una lista de ocho a diez códigos de motivo es suficiente y hace posible el análisis posterior."
+    ]
+   },
+   {
+    "heading": "Manejo de artículos pesados y a granel",
+    "paras": [
+     "Los artículos que se miden por peso necesitan reglas claras: qué báscula se usa, cómo se calibra, cómo se tara el envase y cuánto redondeo se permite. Anote el identificador de la báscula en cada conteo para poder rastrear un equipo defectuoso.",
+     "Calibre las básculas según un calendario fijo y guarde los certificados con sus registros. Cuente las unidades selladas completas y los envases abiertos por separado, para que las cantidades parciales no confundan el panorama. Convenciones claras facilitan interpretar y defender las variaciones."
+    ]
+   },
+   {
+    "heading": "Use los resultados para mejorar el proceso",
+    "paras": [
+     "Revise las variaciones cada mes por código de motivo, por turno y por ubicación. Si la mayoría de las diferencias provienen de errores de recepción, la solución es un procedimiento de recepción, no contar más. Si se concentran en un turno, la solución puede estar en la capacitación o la supervisión.",
+     "Las herramientas ayudan en esto. Un sistema como Budify puede guardar las sesiones de conteo, los ajustes y los códigos de motivo asociados a cada usuario, de modo que los patrones surjan sin trabajo manual en hojas de cálculo. Use lo que use, conserve los registros de conteo durante el período que exijan las condiciones de su licencia. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-shrinkage-investigation-workflow",
+  "title": "Flujo de investigación de mermas para tiendas de comercio regulado",
+  "description": "Flujo paso a paso para documentar, investigar y cerrar discrepancias de inventario, con criterios de escalamiento y la evidencia que debe conservar.",
+  "keywords": [
+   "merma de inventario en comercio regulado",
+   "investigación de discrepancias en dispensarios",
+   "documentación de pérdidas de inventario",
+   "variación de inventario de cannabis",
+   "registros de prevención de pérdidas",
+   "flujo de discrepancias de existencias"
+  ],
+  "sections": [
+   {
+    "heading": "Defina qué se considera una discrepancia",
+    "paras": [
+     "La merma es cualquier diferencia sin explicar entre lo que sus registros dicen que usted tiene y lo que hay físicamente en el estante o en la bóveda. En el comercio regulado importa más allá del margen, porque se espera que los registros sean exactos y las pérdidas sin explicar pueden implicar obligaciones de reporte según las condiciones de su licencia.",
+     "Escriba una definición breve en su política y fije umbrales internos que activen respuestas distintas. Una pequeña diferencia de redondeo puede requerir solo una nota del gerente, mientras que una variación mayor o repetida exige una investigación formal. Consulte con su abogado si alguna pérdida debe reportarse al regulador y en qué plazo."
+    ]
+   },
+   {
+    "heading": "Abra un expediente de inmediato",
+    "paras": [
+     "Apenas un nuevo conteo confirme la discrepancia, abra un caso numerado. Anote la fecha, el artículo, la cantidad, la ubicación, quién la detectó y el último conteo correcto conocido. Congele los ajustes relacionados hasta que se revise el caso, para que la evidencia no se sobrescriba con correcciones bien intencionadas.",
+     "Reúna primero los datos obvios: registros de recepción, transferencias, anulaciones, devoluciones y la bitácora de acceso al área de almacenamiento. Obtenga las grabaciones de las cámaras solo mediante el procedimiento correspondiente y con una segunda persona presente, de modo que la revisión quede documentada y sea defendible."
+    ]
+   },
+   {
+    "heading": "Investigue con una lista de verificación estructurada",
+    "paras": [
+     "Revise las causas de la más probable a la menos probable. Primero van los errores de captura: unidad equivocada, artículo equivocado, recepción duplicada. Después, los errores de proceso: transferencias registradas en un solo lado, desechos sin anotar, mercancía dañada apartada sin registro. Solo después de descartar estas causas debe considerar el robo o el desvío.",
+     "Entreviste al personal con neutralidad y deje constancia de que lo hizo. El tono debe orientarse a corregir el proceso, no a acusar a personas. Si la evidencia apunta a una conducta indebida, deténgase e involucre al dueño, al abogado y, cuando corresponda, a las autoridades, en lugar de continuar solo."
+    ]
+   },
+   {
+    "heading": "Prevenir es mejor que investigar",
+    "paras": [
+     "La mayoría de las pérdidas puede reducirse con el diseño: limite el acceso a las áreas de almacenamiento, exija manejo entre dos personas en los movimientos de alto riesgo y mantenga los desechos y la mercancía dañada en un lugar aparte y con registro. Los controles visibles también disuaden el mal uso casual.",
+     "Revise las tendencias cada trimestre con el dueño. Si una ubicación, un turno o un proceso aparece una y otra vez en los expedientes, cambie el control en lugar de repetir la misma investigación. La meta es tener menos casos, no solo cerrarlos más rápido."
+    ]
+   },
+   {
+    "heading": "Cierre el caso y corrija la causa",
+    "paras": [
+     "Todo caso termina con una conclusión escrita, un ajuste registrado con el número de caso como referencia y una acción correctiva si se encontró una falla en el proceso. Pida a un segundo gerente que firme el cierre. Conserve todo el expediente con sus registros de cumplimiento.",
+     "Dé seguimiento mensual a los casos: cuántos se abrieron, el promedio de días para cerrarlos y las causas principales. Un aumento en la cantidad o un cierre lento son señales tempranas de debilidad en los controles. Un software que registra los ajustes con usuario, hora y motivo, como Budify, agiliza el paso de la evidencia. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-receiving-and-quarantine-workflow",
+  "title": "Flujo de recepción y cuarentena para el inventario entrante",
+  "description": "Diseñe una recepción que compare manifiestos con conteos físicos, retenga las discrepancias en cuarentena y deje un registro limpio de cada entrada.",
+  "keywords": [
+   "flujo de recepción en comercio regulado",
+   "lista de verificación de recepción de inventario",
+   "verificación de manifiestos",
+   "inventario en cuarentena",
+   "procedimiento de recepción para dispensarios",
+   "registros de inventario entrante"
+  ],
+  "sections": [
+   {
+    "heading": "La exactitud se gana o se pierde en la recepción",
+    "paras": [
+     "Muchos problemas de inventario posteriores empiezan en la puerta de carga. Si una cantidad entrante se captura mal, todos los reportes siguientes heredan el error. Un proceso de recepción disciplinado es el control más económico que puede construir un operador minorista.",
+     "Defina un área de recepción, restrinja quién puede recibir y exija dos personas para cada envío entrante: una que cuente y otra que registre. Ambas firman o confirman digitalmente la recepción, de modo que la responsabilidad sea compartida y clara."
+    ]
+   },
+   {
+    "heading": "Verifique los documentos antes de abrir nada",
+    "paras": [
+     "Compare la documentación de transporte con lo que usted espera que llegue: remitente, descripción de los artículos, cantidades y cualquier identificador que exijan su estado o las condiciones de su licencia. Anote la hora, el nombre del conductor o mensajero y el estado de los sellos o el empaque.",
+     "Si los papeles no coinciden con lo esperado, no acepte el envío en el inventario disponible. Fotografíe el problema, anótelo en la bitácora de recepción y avise a su gerente y, cuando corresponda, al remitente. Su abogado puede indicarle si alguna diferencia debe reportarse."
+    ]
+   },
+   {
+    "heading": "Use un estado de cuarentena para todo lo dudoso",
+    "paras": [
+     "La cuarentena es un estado en su sistema y un lugar físico en la tienda. Los artículos con diferencia de conteo, empaque dañado o documentación faltante van allí, quedan excluidos del despacho y llevan una etiqueta de retención con un número de caso.",
+     "Fije un período máximo de retención, por ejemplo unos pocos días hábiles, después del cual el gerente debe resolver el caso: aceptar, corregir, devolver o desechar conforme a su procedimiento. Revise la lista de cuarentena en la reunión semanal para que nada pase inadvertido."
+    ]
+   },
+   {
+    "heading": "Capacitación y revisiones aleatorias",
+    "paras": [
+     "Recibir mercancía es una habilidad. El personal nuevo debe acompañar a un receptor con experiencia durante varios envíos antes de trabajar de forma independiente. Ponga en el escritorio de recepción una lista de verificación que cubra documentos, conteos, condición y registros.",
+     "Una vez al mes, un gerente debe volver a verificar un envío entrante al azar de la semana anterior y compararlo con el registro. Los hallazgos retroalimentan la capacitación. Con el tiempo, esto crea una reputación de ingreso exacto que respalda cada conciliación posterior."
+    ]
+   },
+   {
+    "heading": "Cierre el ciclo en sus registros",
+    "paras": [
+     "Después de la aceptación, registre la entrada de recepción con el número de documento, las cantidades, el receptor, el verificador y la hora. Coloque los artículos de inmediato en su ubicación de almacenamiento y anote esa ubicación, para que los conteos cíclicos posteriores puedan encontrarlos.",
+     "Concilie las entradas de recepción con sus obligaciones de reporte en la misma semana. Un sistema como Budify puede mantener indicadores de estado, como cuarentena y disponible, junto con el historial de movimientos, lo que impide que los artículos retenidos lleguen a la caja. Conserve los documentos de recepción durante el período de conservación exigido. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-customer-registry-eligibility-check-records",
+  "title": "Registro de clientes y constancias de verificación de elegibilidad para minoristas",
+  "description": "Cómo llevar un registro de clientes mínimo y exacto, y una constancia auditable de las verificaciones de edad y elegibilidad en la entrada y la caja.",
+  "keywords": [
+   "registros de verificación de elegibilidad de clientes",
+   "verificación de edad en dispensarios",
+   "software de registro de clientes",
+   "verificación de identificación en el POS",
+   "registros de clientes de comercio minorista",
+   "cumplimiento para minoristas con licencia estatal"
+  ],
+  "sections": [
+   {
+    "heading": "Para qué sirve el registro",
+    "paras": [
+     "En un comercio con licencia, el registro de clientes existe para respaldar las verificaciones de elegibilidad y conservar los registros que exigen las condiciones de su licencia. No es una base de datos de mercadotecnia, y tratarla como tal genera exposición en materia de privacidad y cumplimiento. Decida desde el principio qué debe contener el registro y qué no.",
+     "Muchos operadores capturan solo lo necesario: el hecho de que se verificó la elegibilidad, la fecha, el empleado y los datos de identificación mínimos que exigen sus reglas. Confirme con su abogado los requisitos exactos de su estado y localidad, porque varían."
+    ]
+   },
+   {
+    "heading": "Estandarice la verificación en la puerta y en la caja",
+    "paras": [
+     "Redacte un procedimiento de una página que indique quién verifica la elegibilidad, qué documentos son aceptables según sus reglas y qué se hace cuando un documento parece dudoso. Capacite a todos los empleados, incluido el personal temporal, y compruebe su comprensión con preguntas breves de casos prácticos.",
+     "Cuando haya una segunda verificación en la caja, haga que el sistema la solicite en lugar de depender de la memoria. Registre el resultado como una simple aprobación o rechazo, con el motivo del rechazo. Las bitácoras de rechazos son una evidencia valiosa de que sus controles funcionan."
+    ]
+   },
+   {
+    "heading": "Mantenga los datos al mínimo y seguros",
+    "paras": [
+     "Evite guardar imágenes de documentos de identidad a menos que una norma lo exija. Si las guarda, restrinja el acceso, cífrelas y fije una fecha de eliminación. Cada campo adicional es una responsabilidad adicional si ocurre una filtración.",
+     "Dé al personal de primera línea acceso solo a la pantalla que necesita. Los gerentes pueden ver más, y solo el oficial de cumplimiento o el dueño debe exportar el registro completo. Anote cada exportación. Revise la lista de accesos cada mes y elimine las cuentas que ya no se necesiten."
+    ]
+   },
+   {
+    "heading": "Manejo de casos especiales",
+    "paras": [
+     "Surgirán casos especiales: documentos vencidos, nombres que no coinciden exactamente, clientes que se oponen a la verificación. Decida de antemano cómo debe responder el personal y cuándo llamar a un gerente. La coherencia protege tanto a los clientes como al negocio.",
+     "Anote brevemente en una bitácora cada rechazo y cada escalamiento. Revise la bitácora cada mes para detectar patrones, por ejemplo una sola entrada que genera la mayoría de las disputas, y ajuste la señalización, la dotación de personal o la capacitación según corresponda."
+    ]
+   },
+   {
+    "heading": "Audite el proceso con regularidad",
+    "paras": [
+     "Una vez al mes, tome una muestra de entradas del registro y compárelas con la bitácora de elegibilidad y con las transacciones del día. Busque transacciones sin verificación correspondiente y verificaciones con campos incompletos.",
+     "Herramientas como Budify pueden exigir un paso de verificación obligatorio y guardar el resultado junto con la transacción, lo que agiliza el muestreo. Respete los requisitos estatales de privacidad aplicables a los datos de sus clientes y revíselos con su abogado cuando cambien las reglas. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-role-based-access-staff-managers",
+  "title": "Control de acceso por roles para el personal y los gerentes de tienda",
+  "description": "Configure roles de mínimo privilegio para personal de piso, jefes de turno, encargados de inventario y dueños, y revíselos con un calendario fijo.",
+  "keywords": [
+   "control de acceso por roles en POS",
+   "permisos de personal en software minorista",
+   "acceso de mínimo privilegio",
+   "roles de usuario en POS",
+   "control de acceso del personal de dispensario",
+   "lista de revisión de accesos"
+  ],
+  "sections": [
+   {
+    "heading": "Por qué importan los permisos en el comercio regulado",
+    "paras": [
+     "En una tienda cuyos registros pueden ser inspeccionados, quién puede hacer qué en el sistema es una cuestión de cumplimiento, no una preferencia de TI. Si todos los empleados pueden anular transacciones, ajustar inventario o exportar listas de clientes, usted no puede demostrar que sus controles son significativos.",
+     "El acceso basado en roles significa que usted asigna permisos a funciones del puesto y después asigna personas a los roles. Cuando alguien recibe un ascenso o se va, usted cambia una sola asignación en lugar de editar decenas de configuraciones individuales."
+    ]
+   },
+   {
+    "heading": "Diseñe de cuatro a seis roles",
+    "paras": [
+     "La mayoría de los operadores de una sola tienda puede cubrir sus necesidades con unos pocos roles. El personal de piso procesa transacciones y ve datos limitados de clientes. Los jefes de turno pueden aprobar anulaciones y atender las diferencias del cajón de efectivo. El personal de inventario puede recibir y contar, pero no aprobar sus propios ajustes. Los gerentes aprueban ajustes y generan informes. Los dueños y el oficial de cumplimiento tienen visibilidad total.",
+     "Revise cada rol con el principio del mínimo privilegio. Pregunte qué debe hacer la persona a diario y otorgue solo eso. Lo ocasional puede hacerlo un supervisor mediante un paso de aprobación."
+    ]
+   },
+   {
+    "heading": "Separe funciones donde es importante",
+    "paras": [
+     "Hay pares de acciones que nunca deberían estar en manos de una sola persona: crear y aprobar un ajuste, recibir y conciliar el mismo envío, o abrir y cerrar solo un cajón de efectivo. Incluso los equipos pequeños pueden lograrlo canalizando las aprobaciones al siguiente nivel.",
+     "Documente las reglas de separación en su manual de operaciones y haga que el software las aplique siempre que pueda. Un sistema como Budify admite permisos configurables y registra cada acción con su usuario, lo que ayuda a reconstruir los hechos más adelante."
+    ]
+   },
+   {
+    "heading": "Acceso de emergencia y temporal",
+    "paras": [
+     "A veces un gerente está ausente y alguien debe cubrirlo. Prevéalo con una elevación temporal documentada: quién la aprueba, cuánto dura y cómo se revierte. Evite compartir la contraseña de un gerente.",
+     "Anote cada elevación y revísela cada semana. Si la misma elevación se repite con frecuencia, el diseño del rol es incorrecto y debe corregirse. Un acceso temporal con fecha de vencimiento es mucho más seguro que soluciones permanentes que se acumulan en silencio."
+    ]
+   },
+   {
+    "heading": "Revise los accesos con un calendario fijo",
+    "paras": [
+     "Haga una revisión de accesos cada trimestre. Enumere todas las cuentas, su rol y su último inicio de sesión. Elimine las cuentas inactivas, confirme que las asignaciones de roles aún correspondan a las funciones del puesto y pida a cada gerente que firme la lista de su equipo.",
+     "Cancele el acceso el último día del empleado, no la semana siguiente. Los inicios de sesión compartidos impiden atribuir las acciones y deben prohibirse en su política. Conserve las firmas de las revisiones con sus registros de cumplimiento. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-opening-closing-checklists-pos",
+  "title": "Listas de verificación de apertura y cierre para tiendas de comercio regulado",
+  "description": "Listas prácticas de apertura y cierre que abarcan sistemas, efectivo, seguridad del inventario y firmas, para que cada turno deje un registro uniforme.",
+  "keywords": [
+   "lista de verificación de apertura y cierre",
+   "operaciones diarias de dispensario",
+   "procedimiento de cierre del día en POS",
+   "registros de firma de cierre de tienda",
+   "lista de entrega de turno",
+   "operaciones de comercio regulado"
+  ],
+  "sections": [
+   {
+    "heading": "Las listas crean uniformidad entre turnos",
+    "paras": [
+     "Cuando distintas personas abren y cierran, los detalles se desvían. Una lista de verificación hace explícito el estándar mínimo y crea un registro con fecha de que se cumplió. Para los minoristas regulados, esos registros son una evidencia útil si más adelante surgen preguntas.",
+     "Mantenga cada lista en una sola página. Una lista de 15 a 20 puntos que realmente se usa vale más que una de 60 que nadie lee. Revísela dos veces al año y elimine los pasos que ya no importen."
+    ]
+   },
+   {
+    "heading": "La lista de apertura",
+    "paras": [
+     "Confirme que el local está seguro y que se registró el estado de la alarma. Verifique que las cámaras y la grabación estén funcionando. Encienda el POS, compruebe la fecha y la hora, y confirme el fondo inicial del cajón de efectivo contra la nota de cierre de la noche anterior. Revise las marcas de retención o cuarentena que sigan vigentes y lea la nota de entrega.",
+     "El gerente de apertura firma con su nombre y la hora. Si algún punto no puede completarse, como una cámara fuera de línea, regístrelo y avise de inmediato al gerente en turno. Corregir y anotar es mejor que callar."
+    ]
+   },
+   {
+    "heading": "La lista de cierre",
+    "paras": [
+     "Genere el informe de fin de día y compárelo con el conteo de efectivo, los totales de tarjeta y cualquier otro medio de pago. Investigue las diferencias antes de irse y anote la causa aunque no esté resuelta. Realice cualquier conteo puntual programado y archívelo. Confirme que las áreas restringidas estén cerradas con llave y que las bitácoras de acceso no muestren entradas inusuales.",
+     "Cierre el turno del POS, haga una copia de respaldo o confirme que el respaldo automático se haya hecho, y bloquee los dispositivos. Una segunda persona presencia el cierre final del local y firma también. Escriba una nota breve de entrega para quien abra al día siguiente, con todo lo que haya quedado pendiente."
+    ]
+   },
+   {
+    "heading": "Adapte las listas a su local",
+    "paras": [
+     "Cada tienda tiene sus particularidades: una puerta trasera, una bóveda aparte, una bodega en otro piso. Recorra el local con la lista y agregue puntos propios de su distribución. Elimine todo lo que duplique otro control.",
+     "Pruebe los cambios durante una semana, reúna comentarios de quienes usan la lista y después finalícela. Es más probable que se complete con honestidad una lista elaborada por el equipo que una impuesta desde arriba."
+    ]
+   },
+   {
+    "heading": "Guarde y revise las firmas",
+    "paras": [
+     "Conserve las listas en un lugar uniforme, ya sea una carpeta con sujetapapeles o un formulario digital, e indexe por fecha. Una vez por semana, un gerente las revisa en busca de vacíos, como firmas faltantes o puntos sin resolver que se repiten.",
+     "Un sistema como Budify puede guardar el informe de fin de día junto con el turno y el usuario, lo que agiliza la revisión. Conserve las firmas durante el período que exijan las condiciones de su licencia. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-multi-location-operations-state-patchwork",
+  "title": "Operaciones en varias ubicaciones ante un mosaico de normas estatales",
+  "description": "Cómo estandarizar los procesos centrales en tiendas de varios estados y, a la vez, respetar las reglas, los reportes y los registros exigidos en cada lugar.",
+  "keywords": [
+   "operador de cannabis en varios estados",
+   "operaciones minoristas multisucursal",
+   "cumplimiento estado por estado",
+   "procedimientos operativos estándar para tiendas",
+   "software POS para varias sucursales",
+   "mosaico regulatorio en Estados Unidos"
+  ],
+  "sections": [
+   {
+    "heading": "El mosaico normativo es una restricción de diseño",
+    "paras": [
+     "En Estados Unidos no existe un estándar operativo nacional único para el comercio minorista de cannabis con licencia. Cada estado, y a menudo cada localidad, define sus propias condiciones de licencia, formatos de reporte y requisitos de registros. Un operador con sedes en varias jurisdicciones está, en la práctica, manejando varios programas de cumplimiento bajo una sola marca.",
+     "Acéptelo desde el principio. Tratar de imponer un mismo procedimiento en todas partes generará exceso de cumplimiento en algunos lugares o brechas en otros. El mejor enfoque es un núcleo común con complementos locales documentados."
+    ]
+   },
+   {
+    "heading": "Construya un núcleo y un complemento local",
+    "paras": [
+     "Defina el núcleo: lo que es válido en todas partes por ser buena práctica. Ejemplos son la recepción entre dos personas, el acceso basado en roles, la conciliación semanal, los códigos de motivo de los ajustes y las revisiones mensuales de accesos. Escríbalos una sola vez en un manual central.",
+     "Después redacte un complemento breve para cada jurisdicción que recoja las diferencias locales: sistema y plazos de reporte, períodos de conservación, reglas de verificación de elegibilidad y contactos de inspección. Pida al abogado local que revise cada complemento y féchelo. Asigne a cada uno un responsable que vigile las actualizaciones regulatorias."
+    ]
+   },
+   {
+    "heading": "Centralice la visibilidad, localice la autoridad",
+    "paras": [
+     "La oficina central debe ver los mismos tableros de todas las sedes: variaciones, ajustes, casos abiertos, estado de la capacitación y revisiones de accesos. Las métricas comunes permiten detectar rápido cuál es la sede más débil y compartir soluciones.",
+     "Dé a los gerentes de cada sede autoridad sobre la ejecución diaria, pero deje la aprobación de las acciones de alto riesgo, como los ajustes grandes, en manos de un responsable regional de cumplimiento. Un software que admita varias ubicaciones con configuraciones separadas, como Budify, ayuda a mantener este equilibrio. La moneda es el dólar estadounidense (USD) en todas partes, pero el tratamiento fiscal y las tarifas locales pueden diferir, así que lleve libros contables por sede."
+    ]
+   },
+   {
+    "heading": "Personal y comunicación",
+    "paras": [
+     "Designe a un responsable de cumplimiento para cada jurisdicción y a un coordinador de la oficina central que los reúna cada mes. Comparta entre las sedes los hallazgos de las inspecciones, los casi incidentes y las mejoras de proceso para que las lecciones se difundan.",
+     "Use un registro o sistema de tickets común para los asuntos entre sedes y levante actas. Cuando un estado cambia sus reglas, el coordinador puede ver rápido qué otras sedes tienen procesos similares y ponerlas al tanto. Así un mosaico se convierte en un portafolio manejable."
+    ]
+   },
+   {
+    "heading": "Gestione el cambio con método",
+    "paras": [
+     "Las reglas cambian. Fije un calendario para revisar cada complemento local al menos dos veces al año y suscríbase a los avisos del regulador de cada estado. Cuando cambie una regla, emita una nota de cambio breve, actualice la capacitación y confirme la implementación con una lista de verificación.",
+     "Lleve un registro de cambios con la fecha, la fuente, la acción tomada y la persona que la verificó. Durante una inspección, ese registro demuestra que usted gestiona el cumplimiento como una disciplina continua. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-sop-documentation-staff-training",
+  "title": "Documentación de procedimientos (SOP) y registros de capacitación para equipos de tienda",
+  "description": "Redacte procedimientos (SOP) que el personal sí siga, vincúlelos con constancias de capacitación y conserve un historial de versiones confiable.",
+  "keywords": [
+   "procedimientos operativos estándar para tiendas",
+   "registros de capacitación del personal y cumplimiento",
+   "documentación de SOP en comercio regulado",
+   "bitácora de capacitación de empleados",
+   "capacitación del personal de dispensario",
+   "control de versiones de procedimientos"
+  ],
+  "sections": [
+   {
+    "heading": "Escriba los procedimientos para quien realiza la tarea",
+    "paras": [
+     "Un buen procedimiento operativo estándar (SOP) es breve, específico y está escrito en el lenguaje del piso de la tienda. Indica quién hace qué, en qué orden y qué registro se genera. Si un empleado nuevo no puede seguirlo en su primera semana, vuelva a escribirlo.",
+     "Use pasos numerados, una acción por paso, e incluya capturas de pantalla o fotos cuando intervenga una pantalla o un lugar. Ponga el propósito y el responsable al inicio, y la fecha de revisión y el número de versión en el pie de página."
+    ]
+   },
+   {
+    "heading": "Dé prioridad a los procedimientos más importantes",
+    "paras": [
+     "Empiece por los vinculados al cumplimiento y al efectivo: verificaciones de elegibilidad, transacciones y anulaciones, recepción, ajustes, conteos cíclicos, manejo de desechos, cierre del día, reporte de incidentes y gestión de accesos. Los demás pueden venir después.",
+     "Revise cada uno frente a las condiciones de su licencia con su abogado, ya que las reglas locales determinan la redacción exacta. Mantenga un índice maestro con todos los SOP, su responsable, versión y próxima fecha de revisión, para que los documentos vencidos sean visibles."
+    ]
+   },
+   {
+    "heading": "Vincule la capacitación con cada SOP",
+    "paras": [
+     "La capacitación solo es evidencia si queda registrada. Para cada empleado y cada SOP, anote la fecha de capacitación, el capacitador, la versión y una firma de conformidad. Agregue una breve comprobación de comprensión, como tres preguntas de casos prácticos, y archive el resultado.",
+     "Cuando cambie un SOP, identifique quién debe recapacitarse y fije un plazo. No permita que el personal trabaje en un puesto hasta completar la capacitación requerida. Una matriz sencilla de nombres contra procedimientos muestra las brechas de inmediato."
+    ]
+   },
+   {
+    "heading": "Haga que los SOP estén vivos",
+    "paras": [
+     "Los SOP acumulan polvo si no se usan. Refiérase a ellos en las reuniones de equipo, en las revisiones de incidentes y en la inducción. Cuando ocurra un error, pregunte qué paso falló o faltaba y actualice el documento.",
+     "Anime al personal a sugerir cambios mediante un formulario sencillo o un canal de mensajes. Reconocer las sugerencias útiles genera compromiso. Una biblioteca de SOP viva y confiable es una de las señales más fuertes de una operación bien administrada y lista para inspección."
+    ]
+   },
+   {
+    "heading": "Conserve el historial de versiones y revise con regularidad",
+    "paras": [
+     "Archive las versiones reemplazadas en lugar de eliminarlas. Si ocurrió un incidente en marzo, usted debe poder mostrar qué procedimiento aplicaba entonces y quién había sido capacitado en él.",
+     "Revise los SOP cada año y después de cualquier incidente o hallazgo de una inspección. Las herramientas digitales, incluido un sistema como Budify para los pasos dentro del sistema, pueden reducir la ambigüedad al exigir campos y aprobaciones obligatorios. Conserve los registros de capacitación durante el período que exijan las condiciones de su licencia y sus obligaciones laborales. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-cost-allocation-records-280e-style-pressure",
+  "title": "Registros de asignación de costos bajo la presión fiscal del estilo 280E",
+  "description": "Por qué importan la asignación de costos, la valuación del inventario y la documentación para minoristas con licencia ante un trato fiscal federal restrictivo.",
+  "keywords": [
+   "asignación de costos 280E",
+   "registros contables de minoristas de cannabis",
+   "documentación del costo de los bienes vendidos",
+   "registros fiscales de dispensarios",
+   "método de costeo de inventario",
+   "contabilidad para cannabis"
+  ],
+  "sections": [
+   {
+    "heading": "La presión general sobre los márgenes",
+    "paras": [
+     "Los minoristas de cannabis con licencia en Estados Unidos suelen hablar de una disposición fiscal federal, conocida como 280E, que restringe las deducciones disponibles para los negocios que trafican sustancias controladas según la definición federal. Los detalles, y cualquier cambio en la política federal, son asunto de su asesor fiscal. Lo que importa en la operación es que la línea entre los costos que reducen la renta gravable y los que no se examina con lupa.",
+     "En la práctica, esto significa que la calidad de sus registros de costos afecta directamente su situación fiscal. Una asignación descuidada invita a disputas y ajustes. Una asignación cuidadosa, documentada de forma constante, deja a su asesor y a cualquier examinador un rastro claro que seguir."
+    ]
+   },
+   {
+    "heading": "Mantenga uniforme el costeo del inventario",
+    "paras": [
+     "Elija con su contador un método de costeo del inventario, como primeras entradas, primeras salidas (PEPS) o promedio ponderado, y aplíquelo de manera uniforme. Registre en USD el costo unitario de cada recepción, incluidos el flete y otros costos que su asesor indique que pueden capitalizarse en el inventario.",
+     "Su sistema de inventario debe guardar el costo por recepción y calcular el costo de los bienes vendidos en cada transacción. Cuando haya ajustes, como desechos o correcciones de conteo, regístrelos con códigos de motivo para que su contador vea cómo se reflejan en el libro mayor."
+    ]
+   },
+   {
+    "heading": "Asigne los costos compartidos con un método documentado",
+    "paras": [
+     "El alquiler, los servicios públicos, los sueldos y el software suelen compartirse entre actividades. Su asesor puede recomendar asignarlos por superficie, tiempo o número de empleados, según los hechos. Sea cual sea el método elegido, póngalo por escrito, aplíquelo de manera uniforme y conserve los datos de respaldo.",
+     "Los registros de tiempo importan cuando se asignan sueldos. Una hoja mensual breve que muestre qué empleados trabajaron en cada función, firmada por el gerente, es mucho más sólida que una estimación preparada al cierre del año. Guárdela junto con sus archivos de nómina."
+    ]
+   },
+   {
+    "heading": "Preguntas para su asesor",
+    "paras": [
+     "Prepare una lista breve para su asesor fiscal: qué costos se tratan como costos de inventario, cómo se asignan los gastos generales compartidos, qué documentación se espera y cómo podrían cambiar su enfoque las modificaciones de la política federal.",
+     "Lleve el paquete de evidencia del cierre mensual y pida una confirmación por escrito de los métodos. Conserve la correspondencia con sus registros. Los asesores solo pueden ser tan eficaces como los datos que usted les dé, así que unos registros limpios y uniformes son su mejor inversión."
+    ]
+   },
+   {
+    "heading": "Arme un paquete de evidencia de cierre mensual",
+    "paras": [
+     "Cada mes, reúna una exportación del costo de los bienes vendidos, la valuación del inventario final, los ajustes por código de motivo y los cálculos de asignación. Compare las variaciones con el mes anterior y anote las explicaciones.",
+     "Un sistema como Budify puede proporcionar las exportaciones de costos, movimientos y ajustes para el paquete, pero los criterios de asignación le corresponden a usted y a su asesor. La legislación fiscal en esta materia es compleja y cambia; esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-cash-handling-end-of-day-reconciliation",
+  "title": "Manejo de efectivo y conciliación de fin de día para operadores de tienda",
+  "description": "Controles para cajones, retiros a caja fuerte, depósitos y conciliación de fin de día en tiendas con alto volumen de efectivo y exigentes registros.",
+  "keywords": [
+   "controles de manejo de efectivo en tiendas",
+   "conciliación de fin de día en POS",
+   "administración de efectivo en dispensarios",
+   "procedimiento de depósito en caja fuerte",
+   "diferencia en cajón de efectivo",
+   "registros bancarios de comercio regulado"
+  ],
+  "sections": [
+   {
+    "heading": "Por qué el efectivo exige un cuidado extra",
+    "paras": [
+     "Muchos minoristas de cannabis con licencia aún manejan en efectivo una gran parte de sus transacciones debido a restricciones bancarias que varían según el estado y la institución. El efectivo aumenta los riesgos de error, robo y asalto, y atrae la atención de reguladores y bancos. Procedimientos sólidos protegen al personal, al negocio y a sus registros.",
+     "Comience con una política escrita que abarque los fondos iniciales de los cajones, quién puede manejar efectivo, cómo funcionan los retiros a caja fuerte y cómo se preparan y registran los depósitos. Manténgala breve y haga que cada empleado firme que la leyó."
+    ]
+   },
+   {
+    "heading": "Controle el cajón",
+    "paras": [
+     "Asigne cada cajón a un solo cajero por turno, con un fondo inicial contado y firmado por el cajero y un jefe de turno. No comparta cajones. Exija que un supervisor apruebe las anulaciones y las aperturas sin transacción, y regístrelas con sus motivos.",
+     "Fije un umbral de retiro para que el exceso de efectivo pase a la caja fuerte durante el turno. Use comprobantes de retiro con ambas firmas. Esto reduce la exposición a un asalto y simplifica la conciliación, porque cada retiro es un evento documentado y contable."
+    ]
+   },
+   {
+    "heading": "Concilie al cierre",
+    "paras": [
+     "Al cierre, el cajero cuenta el cajón con un testigo y después se genera el informe del sistema. Compare el efectivo esperado según el POS con el efectivo contado y anote cualquier diferencia en USD con su motivo. Siempre que sea posible, investigue antes de que el cajero se retire.",
+     "Dé seguimiento a las diferencias por persona y por turno a lo largo del tiempo. Una sola diferencia pequeña es normal; un patrón repetido merece orientación o revisión. No adopte la política de descontar el pago de forma automática, porque puede desalentar el reporte honesto y generar problemas de derecho laboral."
+    ]
+   },
+   {
+    "heading": "Seguridad y protección del personal",
+    "paras": [
+     "Las políticas de efectivo deben proteger primero a las personas. No lleve depósitos en horarios predecibles, varíe las rutas si usted mismo los traslada y considere un proveedor de transporte de valores cuando corresponda. Nunca espere que el personal se resista a un asalto.",
+     "Informe a todos los empleados qué hacer durante un incidente y revise los procedimientos después de cualquier suceso. Conserve los informes de incidentes con sus registros de cumplimiento. Procedimientos firmes y serenos reducen el riesgo y hacen mucho más limpia la conciliación posterior al evento."
+    ]
+   },
+   {
+    "heading": "Deposite y documente",
+    "paras": [
+     "Prepare los depósitos entre dos personas, séllelos, anote el monto y firme la bitácora. Cada semana, compare los registros de depósitos bancarios con sus conciliaciones diarias e investigue cualquier diferencia de monto o de fecha.",
+     "Guarde juntos por mes los informes diarios, los comprobantes de retiro, los recibos de depósito y los estados de cuenta bancarios. Un sistema como Budify puede proporcionar los totales por medio de pago y los informes de turno vinculados a los usuarios, lo que acelera la comparación. Confirme con su banco y su abogado los umbrales de reporte de efectivo y las reglas de conservación. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-month-end-close-accounting-export",
+  "title": "Cierre de fin de mes y exportaciones contables para operadores de tienda",
+  "description": "Calendario de cierre mensual para minoristas con licencia: exportaciones del POS, valuación de inventario, cuentas de impuestos y revisión previa al bloqueo.",
+  "keywords": [
+   "cierre de fin de mes en comercio minorista",
+   "exportación contable del POS",
+   "valuación mensual de inventario",
+   "integración de software contable para cannabis",
+   "lista de verificación de cierre contable",
+   "informes financieros de tienda"
+  ],
+  "sections": [
+   {
+    "heading": "Planifique el cierre como un proyecto",
+    "paras": [
+     "Un cierre mensual fluido empieza con un calendario. Fije metas por día hábil, por ejemplo exportaciones del POS el día uno, valuación del inventario el día dos, conciliaciones al día cuatro y revisión al día seis. Asigne responsables a cada tarea.",
+     "La regularidad en los plazos importa porque prestamistas, inversionistas, arrendadores y asesores fiscales pueden basarse en sus cifras. Un cierre predecible también facilita detectar anomalías, porque el proceso es el mismo cada mes."
+    ]
+   },
+   {
+    "heading": "Extraiga y revise los datos del POS",
+    "paras": [
+     "Exporte los totales diarios por medio de pago, los impuestos cobrados, los ajustes registrados como tales, las anulaciones, los reembolsos y los totales netos en USD. Compare la suma mensual con la suma de los informes de cierre diarios e investigue las diferencias.",
+     "Verifique que cada día tenga su informe de cierre y que ninguna transacción quede fuera del período. Las entradas con fecha retroactiva o los días reabiertos deben listarse y explicarse. Estas revisiones detectan la mayoría de los problemas antes de que lleguen al libro mayor."
+    ]
+   },
+   {
+    "heading": "Valúe el inventario y registre los ajustes",
+    "paras": [
+     "Tome la valuación del inventario final de su sistema a la hora de corte de fin de mes y compárela con el libro mayor. Revise los ajustes del mes por código de motivo, incluidos desechos, correcciones de conteo y transferencias, y confirme las aprobaciones.",
+     "Registre los asientos contables por el movimiento del inventario y del costo de los bienes vendidos, con referencias claras a los informes de respaldo. Su contador querrá ver los mismos documentos otra vez al cierre del año, así que archívelos por mes."
+    ]
+   },
+   {
+    "heading": "Errores comunes del cierre",
+    "paras": [
+     "Entre los errores frecuentes están las transacciones registradas en el período equivocado, los ajustes capturados sin respaldo, las cuentas de impuestos que no concuerdan con las declaraciones y una valuación de inventario que ignora cambios recientes de costo.",
+     "Una lista de verificación de cierre breve, firmada cada mes, detecta la mayoría de estos errores. Agregue algunas revisiones analíticas, como el margen bruto por categoría frente a meses anteriores, porque las variaciones inusuales suelen revelar un error de registro y no un cambio en el negocio."
+    ]
+   },
+   {
+    "heading": "Revise, bloquee y archive",
+    "paras": [
+     "Pida a alguien distinto del preparador que revise los saldos clave: efectivo, inventario, impuestos al consumo por pagar, obligaciones de nómina y saldos entre empresas si opera varias entidades. Investigue las variaciones frente al presupuesto o al mes anterior.",
+     "Bloquee el período en su sistema contable y archive las conciliaciones y las exportaciones. Si su POS puede exportar directamente a su plataforma contable, como lo hace Budify con archivos financieros estándar, verifique igualmente los totales a mano. El tratamiento fiscal depende de su estado y de su estructura. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-customer-data-minimization-retention",
+  "title": "Minimización y conservación de datos de clientes para minoristas con licencia",
+  "description": "Reduzca el riesgo recopilando menos datos de clientes, fijando límites de conservación y alineándose con las normas estatales de privacidad aplicables.",
+  "keywords": [
+   "minimización de datos de clientes",
+   "política de conservación de datos en tiendas",
+   "privacidad de clientes de dispensarios",
+   "ley estatal de privacidad para comercios",
+   "seguridad de datos personales en POS",
+   "protección de datos en comercio regulado"
+  ],
+  "sections": [
+   {
+    "heading": "Recopile solo lo que exige el propósito",
+    "paras": [
+     "El paso más eficaz para proteger los datos es evitar recopilarlos desde el principio. Para cada campo de sus registros de clientes, pregúntese qué propósito cumple y si una norma o una necesidad del negocio lo exige. Si la respuesta no es clara, elimine el campo.",
+     "Los datos de clientes que maneja un minorista de cannabis pueden ser sensibles en la práctica, porque el solo hecho de ser cliente puede importarle a la persona. Trate el registro con cuidado, limite quién puede verlo y evite reutilizarlo para fines ajenos."
+    ]
+   },
+   {
+    "heading": "Sepa qué normas de privacidad aplican",
+    "paras": [
+     "Estados Unidos no tiene una ley nacional única de privacidad que abarque todos los datos de clientes del comercio minorista. Existe, en cambio, un mosaico de leyes estatales de privacidad, normas sectoriales y estándares de protección al consumidor, y sus obligaciones dependen de su estado, su tamaño y lo que recopile. Algunas condiciones de licencia también imponen sus propias reglas sobre datos.",
+     "Pida a su abogado que identifique las normas que aplican a cada tienda y deje las conclusiones en un memorando breve. Revíselo cada año, porque la legislación estatal de privacidad sigue evolucionando."
+    ]
+   },
+   {
+    "heading": "Fije plazos de conservación y rutinas de eliminación",
+    "paras": [
+     "Para cada categoría de datos, defina cuánto tiempo los conserva y por qué. Los registros que exige la licencia pueden tener que guardarse durante un plazo fijado por el regulador; otros datos, como preferencias de mercadotecnia o datos de contacto no obligatorios, pueden conservarse menos tiempo o no conservarse.",
+     "Programe y anote las eliminaciones. La eliminación debe alcanzar también las copias de respaldo y las exportaciones, no solo el sistema en uso. Cuando un cliente pida ver o eliminar sus datos, tenga un proceso documentado, un responsable designado y un plazo de respuesta fijado por su abogado."
+    ]
+   },
+   {
+    "heading": "Un mapa breve de datos",
+    "paras": [
+     "Cree un mapa de datos de una página que enumere cada sistema que guarda información de clientes, qué campos contiene, quién tiene acceso y dónde están las copias de respaldo. Es el punto de partida de cualquier solicitud de privacidad, auditoría o respuesta a incidentes.",
+     "Actualice el mapa cuando incorpore una herramienta, como un formulario de encuesta o una plataforma de correo. Las copias de datos desconocidas son la causa más común de fallas de conservación, así que el mapa se paga solo la primera vez que necesite ubicar todo lo que existe sobre una persona."
+    ]
+   },
+   {
+    "heading": "Proteja los datos que conserva",
+    "paras": [
+     "Aplique controles de acceso, cifrado en tránsito y en reposo, autenticación sólida para los gerentes y una regla clara contra exportar datos a dispositivos personales. Revise a los proveedores externos que procesan datos de clientes y guarde su documentación de seguridad.",
+     "Capacite al personal sobre suplantación de identidad (phishing) y espionaje visual, ya que las personas suelen ser el punto débil. Un sistema como Budify puede limitar por rol la visibilidad de los campos de clientes y registrar cada exportación, lo que respalda la minimización en la práctica. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-pos-data-breach-incident-response-plan",
+  "title": "Plan de respuesta a incidentes ante una filtración de datos del POS",
+  "description": "Prepare un plan breve y práctico de respuesta a incidentes para operadores de tienda: detección, contención, decisiones de notificación y revisión posterior.",
+  "keywords": [
+   "plan de respuesta a filtración de datos",
+   "incidente de seguridad en POS",
+   "lista de verificación de respuesta a incidentes",
+   "notificación de filtraciones según la ley estatal",
+   "ciberseguridad para operadores de tienda",
+   "bitácora de incidentes de seguridad"
+  ],
+  "sections": [
+   {
+    "heading": "Planifique antes del incidente",
+    "paras": [
+     "Un incidente de datos en una tienda de comercio regulado puede afectar a la vez los registros de clientes, los datos del personal y el historial de transacciones. Responder bien depende de decisiones tomadas de antemano: quién dirige, a quién se llama y qué se anota por escrito.",
+     "Cree un plan de dos páginas. Designe a un responsable del incidente y a un suplente, enumere los teléfonos de su proveedor de TI, el proveedor del software, la aseguradora, el abogado y el banco, y guarde una copia impresa fuera de la red por si los sistemas no están disponibles."
+    ]
+   },
+   {
+    "heading": "Detecte y contenga",
+    "paras": [
+     "Entre los detonantes comunes están los inicios de sesión inusuales, los dispositivos desconocidos en la red, los mensajes de secuestro de datos (ransomware), las laptops o tabletas perdidas y las divulgaciones por correo enviadas por error. Capacite al personal para reportar de inmediato cualquier cosa sospechosa, sin temor a ser culpado.",
+     "Los pasos de contención son sencillos: desconectar los dispositivos afectados, desactivar las cuentas comprometidas, cambiar las credenciales compartidas y conservar las bitácoras. No borre los dispositivos antes de recibir asesoría forense, porque se pierde evidencia. Anote las horas y las acciones en una bitácora de incidentes a medida que ocurran los hechos."
+    ]
+   },
+   {
+    "heading": "Decida con su abogado sobre la notificación",
+    "paras": [
+     "Muchos estados tienen leyes de notificación de filtraciones que fijan detonantes, plazos y destinatarios. Estas varían según el estado, y un operador en varios estados puede enfrentar varios conjuntos a la vez. Las condiciones de su licencia también pueden exigir avisar al regulador en ciertos incidentes, y los bancos o aseguradoras pueden tener sus propios términos.",
+     "No adivine. Consulte pronto a su abogado, comparta los hechos de su bitácora y deje que determine a quién hay que avisar y cuándo. Prepare con antelación mensajes en lenguaje claro para clientes y personal, de modo que puedan adaptarse con rapidez."
+    ]
+   },
+   {
+    "heading": "Seguros y contratos con proveedores",
+    "paras": [
+     "Revise qué cubre su seguro cibernético, con qué rapidez debe reportar un siniestro y si debe recurrir a respondedores aprobados. Lea los contratos con proveedores para conocer sus obligaciones de notificar filtraciones, ya que su proveedor de software puede estar obligado a avisarle dentro de un plazo determinado.",
+     "Incluya en el plan impreso los números de póliza y los contactos de los contratos. Conocer estos datos de antemano ahorra horas críticas y evita incumplir sin querer las condiciones de la póliza en un momento de tensión."
+    ]
+   },
+   {
+    "heading": "Revise y mejore",
+    "paras": [
+     "Dentro de las dos semanas posteriores al cierre del incidente, haga una revisión. Documente la causa raíz, lo que funcionó y lo que no, y una lista de acciones con responsables y fechas. Actualice el plan, la capacitación y los controles técnicos.",
+     "Pruebe el plan con un ejercicio de simulación en mesa cada año. Elija un escenario, como la pérdida de la laptop de un gerente, y recorra cada paso. Un sistema como Budify y plataformas similares pueden proporcionar bitácoras de usuarios y accesos que respalden las investigaciones, así que confirme con su proveedor los plazos de conservación de las bitácoras. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-evaluating-pos-software-regulated-retail",
+  "title": "Cómo evaluar un software POS para comercio regulado: lista de criterios",
+  "description": "Lista neutral para comparar sistemas de POS e inventario: registros de cumplimiento, control de acceso, reportes y soporte, sin depender de la demostración.",
+  "keywords": [
+   "lista de evaluación de software POS",
+   "selección de POS para cannabis",
+   "requisitos de software para comercio regulado",
+   "selección de sistema de gestión de inventario",
+   "evaluación de proveedores de software",
+   "tecnología para dispensarios"
+  ],
+  "sections": [
+   {
+    "heading": "Empiece por sus requisitos, no por la demostración",
+    "paras": [
+     "Los proveedores muestran sus mejores pantallas. A los operadores les conviene más redactar primero una lista de requisitos, clasificados como indispensables, deseables y opcionales. Involucre al oficial de cumplimiento, al encargado de inventario, al responsable de finanzas y a un cajero de primera línea.",
+     "Incluya los problemas actuales, como conciliaciones lentas o rastros de auditoría débiles, y las reglas de su estado que atañen al software, como la integración de reportes o los formatos de registros. Su abogado puede confirmar cuáles son obligaciones reales y cuáles son suposiciones."
+    ]
+   },
+   {
+    "heading": "Pruebe los registros, no solo las cajas",
+    "paras": [
+     "Verifique cómo guarda el sistema el historial. ¿Puede ver quién cambió qué, cuándo y desde qué valor? ¿Los ajustes están vinculados a códigos de motivo y aprobaciones? ¿Puede exportar el historial de movimientos por rango de fechas en un formato utilizable?",
+     "Pida un entorno de pruebas y ejecute un escenario completo: recibir un envío, despachar artículos, anular una transacción, ajustar un conteo, cerrar el día y exportar los informes. Si algún paso requiere soluciones alternas con hojas de cálculo, anótelo como un riesgo."
+    ]
+   },
+   {
+    "heading": "Revise el control de acceso, la seguridad y el soporte",
+    "paras": [
+     "Revise la configuración de roles, las opciones de autenticación en dos pasos, los tiempos de inactividad de sesión y las bitácoras de auditoría. Pregunte dónde se alojan los datos, cómo funcionan los respaldos y qué pasa con sus datos si usted se va. Solicite la documentación de seguridad y lea los términos de datos del contrato.",
+     "Evalúe el soporte con honestidad: horarios en su zona horaria, metas de tiempo de respuesta y cómo se comunican las actualizaciones. Pregunte a clientes actuales de su estado cómo respondió el proveedor cuando cambiaron las reglas. Un sistema como Budify y sus competidores deberían poder responder estas preguntas con claridad."
+    ]
+   },
+   {
+    "heading": "Referencias y señales de alerta",
+    "paras": [
+     "Hable con al menos dos clientes actuales, de preferencia en su estado, y pregunte por las caídas del servicio, la calidad del soporte y cómo manejó el proveedor un cambio regulatorio. Pregunte qué les hubiera gustado saber antes de firmar.",
+     "Entre las señales de alerta están la resistencia a compartir la documentación de seguridad, la ausencia de un rastro de auditoría en los ajustes, la propiedad de los datos poco clara y la fuerte dependencia de desarrollos a la medida para reportes básicos. Tómelas muy en serio, porque cambiar de sistema más adelante es costoso y perturbador."
+    ]
+   },
+   {
+    "heading": "Planifique la transición y el costo total",
+    "paras": [
+     "Enumere los costos en USD de suscripción, equipos, implementación, migración de datos y capacitación. Planifique una operación en paralelo o una puesta en marcha por fases, y acuerde los criterios de aceptación antes de empezar a operar.",
+     "Mantenga accesibles los registros del sistema anterior durante su período de conservación. Confirme los términos de salida del contrato, incluidos los formatos de exportación de datos. Elabore un memorando de decisión que deje constancia de los criterios, las calificaciones y la justificación. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-integrating-pos-accounting-reporting-systems",
+  "title": "Integración de los sistemas de POS, contabilidad y reportes estatales",
+  "description": "Cómo conectar el POS, la contabilidad y las herramientas de reportes estatales, con atención al mapeo de datos, el manejo de errores y la responsabilidad.",
+  "keywords": [
+   "integración de POS y contabilidad",
+   "integración con sistema de reportes estatal",
+   "integración por API para operadores",
+   "mapeo de datos entre sistemas",
+   "integración de software para cannabis",
+   "automatización de conciliaciones"
+  ],
+  "sections": [
+   {
+    "heading": "Primero mapee el flujo de datos",
+    "paras": [
+     "Dibuje un diagrama sencillo de cómo circula la información entre su POS, su sistema de inventario, su plataforma contable y cualquier sistema estatal de reportes. Para cada flecha, anote qué datos se mueven, con qué frecuencia, en qué formato y quién es responsable de ellos.",
+     "El diagrama suele revelar capturas manuales repetidas, que es por donde entran los errores. También muestra dónde debería existir una única fuente de verdad. Por ejemplo, las cantidades de inventario deben provenir de un solo lugar, no de tres."
+    ]
+   },
+   {
+    "heading": "Estandarice los identificadores y los códigos",
+    "paras": [
+     "La integración depende de identificadores coherentes. Los códigos de artículo, los códigos de ubicación, los medios de pago y las categorías de impuestos deben significar lo mismo en todos los sistemas. Elabore una tabla de equivalencias y manténgala bajo control de cambios.",
+     "Cuando se crea un artículo o una ubicación nuevos, la tabla debe actualizarse el mismo día. Asigne un responsable, normalmente el encargado de operaciones o finanzas, e incluya la revisión de la tabla en su cierre mensual."
+    ]
+   },
+   {
+    "heading": "Prevea los errores",
+    "paras": [
+     "Las interfaces fallan: se cae una conexión, se rechaza un registro, cambia un campo. Defina cómo se detectan las fallas, a quién se avisa y cómo se reenvían los registros. Anote cada mensaje fallido y resuélvalo en un plazo establecido.",
+     "Genere un informe diario de excepciones con los registros que no se transfirieron. Una excepción sin resolver es una brecha de conciliación en espera. En el caso de los reportes estatales, confirme con su abogado y con la guía publicada por el regulador cómo se manejan los envíos tardíos o corregidos."
+    ]
+   },
+   {
+    "heading": "Seguridad de las conexiones",
+    "paras": [
+     "Las integraciones dependen de credenciales y tokens. Guárdelos en una bóveda administrada o en la configuración segura de la plataforma, nunca en hojas de cálculo compartidas. Use cuentas de servicio dedicadas con permisos mínimos y rote los secretos según un calendario.",
+     "Revise quién puede cambiar la configuración de las integraciones y anote esos cambios. Una conexión mal configurada puede reportar totales erróneos sin que nadie lo note, así que trate la administración de integraciones con el mismo cuidado que las aprobaciones financieras."
+    ]
+   },
+   {
+    "heading": "Pruebe, documente y revise",
+    "paras": [
+     "Antes de la puesta en marcha, pruebe con una semana realista de datos y compare los totales en cada etapa. Documente la integración, incluida la gestión de credenciales, los horarios y los contactos, y guárdela con sus registros de TI.",
+     "Revise la integración cada trimestre y después de cualquier actualización de software. Los sistemas que ofrecen exportaciones estándar o una API, como Budify, pueden reducir el trabajo a la medida, pero la responsabilidad de que todo sea correcto sigue siendo suya. Limite las credenciales de integración a los permisos mínimos necesarios. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-expanding-to-a-new-state-readiness",
+  "title": "Expansión a un nuevo estado: lista de preparación operativa",
+  "description": "Lista de planificación para operadores con licencia que entran a otro estado: condiciones de licencia, sistemas, personal, registros y gobernanza.",
+  "keywords": [
+   "expansión operativa a varios estados",
+   "preparación para entrar a un nuevo estado",
+   "lista de expansión para operadores de cannabis",
+   "planificación de crecimiento de operadores con licencia",
+   "lista de preparación regulatoria",
+   "planificación de apertura de tiendas"
+  ],
+  "sections": [
+   {
+    "heading": "Empiece con el abogado y la normativa",
+    "paras": [
+     "Entrar a un nuevo estado es entrar a un sistema regulatorio distinto. La elegibilidad, las reglas de propiedad, los procesos de solicitud y las condiciones de operación varían, y algunos estados restringen la participación de empresas de otros estados. No dé por hecho que su experiencia en otro lugar es transferible.",
+     "Contrate a un abogado local antes de invertir capital significativo. Pídale un resumen por escrito de los requisitos de operación: sistemas de reportes, conservación de registros, seguridad, registro del personal y práctica de inspección. Úselo como base del plan de preparación."
+    ]
+   },
+   {
+    "heading": "Elabore el plan de sistemas y registros",
+    "paras": [
+     "Decida cuáles de sus sistemas actuales se reutilizarán y qué debe cambiar para cumplir los requisitos locales de reportes y registros. Redacte el complemento de la jurisdicción para su manual de operaciones, como se describe en sus procedimientos para varias sedes.",
+     "Planifique la separación de datos. Los registros de clientes y transacciones de cada estado deben segregarse o etiquetarse con claridad para poder aplicar las reglas locales de conservación, acceso y reportes. Confirme que su software admita una configuración independiente por ubicación."
+    ]
+   },
+   {
+    "heading": "Prepare al personal y la gobernanza",
+    "paras": [
+     "Identifique quién dirigirá el cumplimiento a nivel local y cómo rendirá cuentas a la oficina central. Verifique si el estado exige registro, verificación de antecedentes o capacitación específica para el personal, y planifique el tiempo que esto toma.",
+     "Establezca un ritmo local de gobernanza: revisión semanal de operaciones, revisión mensual de cumplimiento y revisión trimestral de accesos. Presupueste tiempo de capacitación antes de la apertura y pruebe las listas de apertura y cierre en un ensayo."
+    ]
+   },
+   {
+    "heading": "Presupuesto, calendario y contingencias",
+    "paras": [
+     "Elabore un presupuesto en USD para licencias, obras, sistemas, capacitación, seguros y capital de trabajo, con márgenes para retrasos. Los plazos regulatorios suelen ser inciertos, así que evite comprometer fechas de apertura firmes con arrendadores o socios.",
+     "Dé seguimiento al avance con un plan de hitos e informe a los dueños cada mes. Si los hitos se retrasan, revise el plan en lugar de recortar la preparación de cumplimiento, ya que los atajos tempranos suelen convertirse en hallazgos costosos más adelante."
+    ]
+   },
+   {
+    "heading": "Haga una revisión de preparación y escalone la apertura",
+    "paras": [
+     "Antes de abrir, realice una inspección simulada que abarque registros, seguridad, capacitación y sistemas. Resuelva los hallazgos y pida a su abogado que confirme que el expediente está completo. Escalone las primeras semanas con supervisión adicional y conciliaciones diarias.",
+     "Fije de antemano criterios para dar luz verde o detener la apertura, y permita que el responsable de cumplimiento la suspenda si no se cumplen. Presupueste en USD un período de contingencia, ya que las aprobaciones y las inspecciones pueden tardar más de lo planeado. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "us-operational-kpis-regulated-retail",
+  "title": "Indicadores operativos para comercio regulado: qué medir y por qué",
+  "description": "Un conjunto compacto de indicadores para gerentes y dueños, centrado en exactitud, cumplimiento, control de efectivo y constancia del personal.",
+  "keywords": [
+   "indicadores clave de operaciones minoristas",
+   "métrica de exactitud de inventario",
+   "indicadores de cumplimiento en tiendas",
+   "tablero para operadores",
+   "métricas de desempeño de tienda",
+   "gestión de comercio regulado"
+  ],
+  "sections": [
+   {
+    "heading": "Mida primero lo que protege la licencia",
+    "paras": [
+     "Los operadores suelen medir los ingresos y poco más. En un entorno regulado, las métricas que protegen su licencia merecen la misma atención. Empiece con unas pocas que reflejen control, exactitud y constancia.",
+     "Limite el tablero a diez medidas o menos. Demasiados números diluyen la atención. Revise el conjunto cada mes con los gerentes y cada trimestre con los dueños, y retire las medidas que nunca provoquen una acción."
+    ]
+   },
+   {
+    "heading": "Medidas de exactitud y cumplimiento",
+    "paras": [
+     "La exactitud de los registros de inventario es la proporción de artículos contados que coinciden con las cantidades del sistema. Dele seguimiento por sesión de conteo cíclico y por ubicación. Agregue la puntualidad de la conciliación, es decir, la proporción de paquetes semanales completados y firmados a tiempo, y la antigüedad de los casos abiertos de investigación de discrepancias.",
+     "Incluya la finalización de las revisiones de accesos, la vigencia de la capacitación (la proporción de empleados con firmas vigentes en los SOP requeridos) y las tasas de cierre de acciones correctivas. Estas medidas muestran si el entorno de control se mantiene y no solo si fue diseñado."
+    ]
+   },
+   {
+    "heading": "Medidas de efectivo y transacciones",
+    "paras": [
+     "Dé seguimiento a la diferencia de efectivo por turno y por cajero, a las tasas de anulaciones y reembolsos y a la proporción de días cerrados con firma completa. Los picos inusuales ayudan a dirigir la orientación al personal y a revisar los controles.",
+     "Recuerde que estas medidas describen la salud del proceso, no son un reproche a personas. Compártalas abiertamente con el equipo y acuerden las explicaciones antes de sacar conclusiones. Un sistema como Budify puede reportar anulaciones, ajustes y diferencias por usuario y período, lo que elimina la compilación manual."
+    ]
+   },
+   {
+    "heading": "Cómo evitar métricas engañosas",
+    "paras": [
+     "Tenga cuidado con los promedios que ocultan valores atípicos y con las metas que premian el comportamiento equivocado. Una meta de diferencia de efectivo podría llevar al personal a ocultar pequeños errores, así que acompáñela con una medida de calidad del reporte.",
+     "Defina cada indicador por escrito, con su fórmula y su fuente de datos, para que todos lo calculen de la misma manera. Cada trimestre, audite una muestra de las cifras reportadas contra los registros de origen para mantener alta la confianza en el tablero."
+    ]
+   },
+   {
+    "heading": "Haga que los números impulsen la acción",
+    "paras": [
+     "Para cada indicador, fije un responsable, un rango objetivo y un detonante de escalamiento. Escriba la respuesta de antemano: por ejemplo, si la exactitud cae por debajo de la meta, aumenta la frecuencia de conteo en esa categoría.",
+     "Anote las decisiones en las actas de la reunión mensual para que las tendencias y las respuestas sean rastreables. Revise las metas cada año y mantenga la definición del tablero lo bastante estable como para comparar períodos. Los resultados financieros están en USD y pueden verse afectados por reglas fiscales y tarifas propias de cada estado. Esta es información general para operadores, no asesoría legal; confirme los requisitos con un abogado local calificado."
+    ]
+   }
+  ]
+ }
+]

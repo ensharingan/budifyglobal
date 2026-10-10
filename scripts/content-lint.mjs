@@ -44,6 +44,17 @@ for (const f of textFiles) {
   for (const { t, test, scope } of terms) if (test(src)) err(`${rel(f)}: banned term "${t}" (${scope})`);
 }
 
+// 2b) translated articles: apply banned terms for that language
+for (const f of walk(path.join(root, 'content', 'articles', 'translations'), ['.json'])) {
+  const lang = path.basename(f).split('-')[0];
+  const terms = termsForLang(lang);
+  const flat = flatten(JSON.parse(fs.readFileSync(f, 'utf8')));
+  for (const [key, val] of Object.entries(flat)) {
+    if (typeof val !== 'string') continue;
+    for (const { t, test, scope } of terms) if (test(val.toLowerCase())) err(`${rel(f)} → ${key}: banned term "${t}" (${scope})`);
+  }
+}
+
 // 3) imagery
 const manifest = readJson('content/images.manifest.json');
 const banned = new Set(cfg.global.bannedImageryTags.map((t) => t.toLowerCase()));

@@ -78,3 +78,6 @@ Each market in `compliance.config.json` has `visuals`: `"sa"` (default – the p
 
 ## Content rules (enforced by `content-lint`)
 No product/consumption imagery, strain or price listings, health claims, or youth-appealing content. Image tags come from `content/images.manifest.json` and must be in `allowedImageryTags`. Banned terms are per market and global.
+
+## Article translations
+`content/articles/translations/<lang>-<cc>.json` hold machine-translated drafts of the country articles (es, fr, de, it, nl, th, af, zu). They are served for the matching locale's language and linted against that language's banned terms. **Have a native-speaking professional/counsel review them before launch.** Locales without a translation (e.g. ca-ES) fall back to English with a notice.
