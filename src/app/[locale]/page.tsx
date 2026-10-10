@@ -3,6 +3,7 @@ import { initLocale, pageMeta } from '@/lib/page';
 import { marketOf } from '@/i18n/locales';
 import { LocaleLink } from '@/components/LocaleLink';
 import { Container, Section, Card, Accent, Pill, btnPrimary, btnSecondary, Notice } from '@/components/ui/Page';
+import FeatureShowcase, { type ShowcaseItem } from '@/components/FeatureShowcase';
 import DashboardMock from '@/components/DashboardMock';
 import JsonLd from '@/components/JsonLd';
 import { SITE_URL } from '@/lib/site';
@@ -11,7 +12,8 @@ import pricing from '@root/content/pricing.json';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) { return pageMeta(params, 'home', '/'); }
 
-const PILLARS = ['pos', 'membership', 'compliance', 'inventory', 'multistore'] as const;
+const SHOW = ['pos', 'membership', 'inventory', 'compliance', 'finance'] as const;
+const HAS_ASSOC = new Set(['pos', 'finance']);
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const locale = await initLocale(params);
@@ -21,6 +23,10 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const heroTitle = t(`hero.title.${pos}`);
   const longest = Math.max(...heroTitle.split(/\s+/).map((w) => w.length));
   const heroSize = longest >= 24 ? 'text-3xl sm:text-4xl lg:text-[2.1rem] xl:text-[2.3rem]' : longest >= 16 ? 'text-4xl sm:text-5xl lg:text-[2.9rem]' : 'text-4xl sm:text-5xl lg:text-[3.6rem]';
+  const showItems: ShowcaseItem[] = SHOW.map((k) => {
+    const base = HAS_ASSOC.has(k) && pos === 'association' ? `features.items.${k}.assoc` : `features.items.${k}`;
+    return { key: k, title: t(`${base}.title`), body: t(`${base}.body`), bullets: t.raw(`${base}.bullets`) as string[] };
+  });
   const lowest = (pricing.plans.starter.prices as Record<string, number>)[market.currency];
 
   return (
@@ -42,14 +48,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       </section>
 
       <Section title={t('home.pillarsTitle')} intro={t('home.pillarsIntro')}>
-        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {PILLARS.map((p) => (
-            <li key={p}><Card className="h-full border-t-4 border-t-brand">
-              <h3 className="text-lg font-semibold">{t(`home.pillars.${p}.title`)}</h3>
-              <p className="mt-2 text-sm text-ink-muted">{t(`home.pillars.${p}.body`)}</p>
-            </Card></li>
-          ))}
-        </ul>
+        <FeatureShowcase items={showItems} />
       </Section>
 
       <div className="bg-brand-soft"><Section title={t('home.audienceTitle')} intro={t('home.audienceIntro')}>
