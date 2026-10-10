@@ -3,20 +3,23 @@
 @tailwind utilities;
 
 :root {
-  --brand: 21 128 61;        /* #15803d – white text on it = 5.0:1 (AA) */
-  --brand-dark: 20 83 45;    /* #14532d – 9.7:1 on white */
-  --brand-soft: 240 253 244;
-  --ink: 15 23 42;           /* #0f172a */
-  --ink-muted: 71 85 105;    /* #475569 – 7.5:1 on white */
+  /* Palette matches the South African Budify site (#15803d / #166534 / #0b1f14 / mint) – all text pairings ≥4.5:1 */
+  --brand: 21 128 61;        /* #15803d – white text = 5.0:1 */
+  --brand-dark: 22 101 52;   /* #166534 – 7.1:1 on white */
+  --brand-soft: 240 250 243; /* #f0faf3 */
+  --ink: 11 31 20;           /* #0b1f14 */
+  --ink-muted: 62 84 70;     /* #3e5446 – 7.9:1 on white */
   --surface: 255 255 255;
-  --surface-alt: 248 250 252;
-  --line: 148 163 184;       /* decorative dividers only; input borders use ink-muted (≥3:1) */
-  --warn: 146 64 14;         /* #92400e on #fef3c7 = 6.4:1 */
+  --surface-alt: 247 252 248;
+  --line: 217 237 223;       /* #d9eddf – decorative dividers only */
+  --warn: 146 64 14;
   --warn-soft: 254 243 199;
 }
 
 html { scroll-padding-top: 5rem; scroll-padding-bottom: 8rem; -webkit-text-size-adjust: 100%; }
 body { background: rgb(var(--surface)); color: rgb(var(--ink)); font-family: 'Inter Variable', 'Noto Sans Thai', system-ui, sans-serif; line-height: 1.6; }
+h1, h2, h3, h4 { letter-spacing: -0.025em; }
+html[lang='th'] h1, html[lang='th'] h2, html[lang='th'] h3 { letter-spacing: 0; line-height: 1.35; }
 html[lang='th'] body { line-height: 1.8; }
 
 /* WCAG 2.4.7 / 2.4.11 / 2.4.13 – strong, never-obscured focus indicator */
@@ -29,6 +32,11 @@ html[lang='th'] body { line-height: 1.8; }
 
 /* Operator gate: hidden once the visitor has already confirmed (set before first paint by /gate-init.js) */
 html[data-gate='ok'] [data-age-gate] { display: none !important; }
+
+/* Soft organic shape behind hero imagery (as on the South African site) */
+.blob-shape { border-radius: 58% 42% 55% 45% / 48% 55% 45% 52%; }
+@keyframes bud-float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.bud-float { animation: bud-float 6s ease-in-out infinite; }
 
 main:focus { outline: none; }
 

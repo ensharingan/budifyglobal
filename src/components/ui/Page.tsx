@@ -1,5 +1,16 @@
 import type { ReactNode } from 'react';
 
+/** Renders the last word of a heading in the brand colour (skipped for single-word / unspaced scripts). */
+export function Accent({ text }: { text: string }) {
+  const i = text.lastIndexOf(' ');
+  if (i < 1 || text.split(' ').length < 3) return <>{text}</>;
+  return <>{text.slice(0, i + 1)}<span className="text-brand">{text.slice(i + 1)}</span></>;
+}
+
+export function Pill({ children }: { children: ReactNode }) {
+  return <span className="inline-flex items-center rounded-full border border-brand/20 bg-brand/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-dark">{children}</span>;
+}
+
 export function Container({ children, className = '' }: { children: ReactNode; className?: string }) {
   return <div className={`mx-auto w-full max-w-page px-4 sm:px-6 ${className}`}>{children}</div>;
 }
@@ -8,9 +19,9 @@ export function PageHeader({ title, intro, eyebrow, children }: { title: string;
   return (
     <div className="border-b border-line bg-gradient-to-b from-brand-soft to-white">
       <Container className="py-14 sm:py-20">
-        {eyebrow && <p className="text-sm font-semibold uppercase tracking-wide text-brand-dark">{eyebrow}</p>}
-        <h1 className="mt-2 max-w-3xl text-3xl font-bold tracking-tight sm:text-5xl">{title}</h1>
-        {intro && <p className="mt-4 max-w-3xl text-lg text-ink-muted">{intro}</p>}
+        {eyebrow && <Pill>{eyebrow}</Pill>}
+        <h1 className="mt-4 max-w-4xl text-4xl font-extrabold leading-[1.05] tracking-tight [overflow-wrap:anywhere] sm:text-5xl lg:text-6xl"><Accent text={title} /></h1>
+        {intro && <p className="mt-5 max-w-3xl text-lg text-ink-muted sm:text-xl">{intro}</p>}
         {children}
       </Container>
     </div>
@@ -19,9 +30,9 @@ export function PageHeader({ title, intro, eyebrow, children }: { title: string;
 
 export function Section({ title, intro, children, id }: { title?: string; intro?: string; children: ReactNode; id?: string }) {
   return (
-    <section id={id} className="py-12 sm:py-16">
+    <section id={id} className="py-14 sm:py-20">
       <Container>
-        {title && <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">{title}</h2>}
+        {title && <h2 className="text-3xl font-extrabold leading-tight tracking-tight [overflow-wrap:anywhere] sm:text-4xl"><Accent text={title} /></h2>}
         {intro && <p className="mt-3 max-w-3xl text-ink-muted">{intro}</p>}
         <div className={title ? 'mt-8' : ''}>{children}</div>
       </Container>
@@ -30,11 +41,11 @@ export function Section({ title, intro, children, id }: { title?: string; intro?
 }
 
 export function Card({ children, className = '' }: { children: ReactNode; className?: string }) {
-  return <div className={`rounded-xl border border-line bg-white p-6 shadow-sm ${className}`}>{children}</div>;
+  return <div className={`rounded-2xl border border-brand/10 bg-white p-6 transition-colors hover:border-brand/30 ${className}`}>{children}</div>;
 }
 
-export const btnPrimary = 'inline-flex min-h-[48px] items-center justify-center rounded-md bg-brand-dark px-6 py-3 font-semibold text-white hover:bg-brand';
-export const btnSecondary = 'inline-flex min-h-[48px] items-center justify-center rounded-md border-2 border-brand-dark bg-white px-6 py-3 font-semibold text-brand-dark hover:bg-brand-soft';
+export const btnPrimary = 'inline-flex min-h-[48px] items-center justify-center rounded-lg bg-brand px-8 py-4 text-sm font-bold uppercase tracking-wider text-white transition-colors hover:bg-brand-dark';
+export const btnSecondary = 'inline-flex min-h-[48px] items-center justify-center rounded-lg border-2 border-brand bg-white px-8 py-4 text-sm font-bold uppercase tracking-wider text-brand-dark transition-colors hover:bg-brand hover:text-white';
 
 export function Notice({ children, tone = 'info' }: { children: ReactNode; tone?: 'info' | 'warn' }) {
   return <p role="note" className={`rounded-md p-4 text-sm font-medium ${tone === 'warn' ? 'bg-warn-soft text-warn' : 'bg-brand-soft text-brand-dark'}`}>{children}</p>;

@@ -80,7 +80,7 @@ export default function AgeGate() {
             </label>
             {showErr && !checked && <p id="age-err" role="alert" className="mt-2 text-sm font-medium text-red-800">{t('mustConfirm')}</p>}
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-              <button type="button" onClick={enter} className="min-h-[44px] flex-1 rounded-md bg-brand-dark px-4 py-2 font-semibold text-white hover:bg-brand">{t('enter')}</button>
+              <button type="button" onClick={enter} className="min-h-[44px] flex-1 rounded-lg bg-brand px-4 py-2 text-sm font-bold uppercase tracking-wider text-white hover:bg-brand-dark">{t('enter')}</button>
               <button type="button" onClick={() => setDenied(true)} className="min-h-[44px] flex-1 rounded-md border-2 border-ink-muted bg-white px-4 py-2 font-semibold text-ink hover:bg-surface-alt">{t('leave')}</button>
             </div>
             <p className="mt-4 text-xs text-ink-muted">{t('cookieNote')}</p>

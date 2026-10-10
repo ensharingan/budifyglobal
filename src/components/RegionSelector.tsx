@@ -82,7 +82,7 @@ export default function RegionSelector({ options }: { options: RegionOption[] })
             </div>
             <p className="mt-4 text-xs text-ink-muted">{t('remember')}</p>
             <div className="mt-5 flex gap-3">
-              <button type="button" className="min-h-[44px] flex-1 rounded-md bg-brand-dark px-4 py-2 font-semibold text-white hover:bg-brand" onClick={() => { setOpen(false); switchLocale(chosen); }}>{t('go')}</button>
+              <button type="button" className="min-h-[44px] flex-1 rounded-lg bg-brand px-4 py-2 text-sm font-bold uppercase tracking-wider text-white hover:bg-brand-dark" onClick={() => { setOpen(false); switchLocale(chosen); }}>{t('go')}</button>
               <button type="button" className="min-h-[44px] flex-1 rounded-md border-2 border-ink-muted px-4 py-2 font-semibold hover:bg-surface-alt" onClick={() => { setOpen(false); btnRef.current?.focus(); }}>{t('close')}</button>
             </div>
           </div>

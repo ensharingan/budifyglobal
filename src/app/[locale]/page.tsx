@@ -2,7 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { initLocale, pageMeta } from '@/lib/page';
 import { marketOf } from '@/i18n/locales';
 import { LocaleLink } from '@/components/LocaleLink';
-import { Container, Section, Card, btnPrimary, btnSecondary, Notice } from '@/components/ui/Page';
+import { Container, Section, Card, Accent, Pill, btnPrimary, btnSecondary, Notice } from '@/components/ui/Page';
 import DashboardMock from '@/components/DashboardMock';
 import JsonLd from '@/components/JsonLd';
 import { SITE_URL } from '@/lib/site';
@@ -18,28 +18,31 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const t = await getTranslations();
   const market = marketOf(locale);
   const pos = market.positioning;
+  const heroTitle = t(`hero.title.${pos}`);
+  const longest = Math.max(...heroTitle.split(/\s+/).map((w) => w.length));
+  const heroSize = longest >= 24 ? 'text-3xl sm:text-4xl lg:text-[2.1rem] xl:text-[2.3rem]' : longest >= 16 ? 'text-4xl sm:text-5xl lg:text-[2.9rem]' : 'text-4xl sm:text-5xl lg:text-[3.6rem]';
   const lowest = (pricing.plans.starter.prices as Record<string, number>)[market.currency];
 
   return (
     <>
-      <section className="bg-gradient-to-b from-brand-soft to-white">
-        <Container className="grid items-center gap-10 py-14 sm:py-20 lg:grid-cols-2">
+      <section className="overflow-hidden bg-white">
+        <Container className="grid items-center gap-10 py-14 sm:py-20 lg:grid-cols-[1.02fr_1fr]">
           <div className="min-w-0">
-            <p className="text-sm font-semibold uppercase tracking-wide text-brand-dark">{t('hero.eyebrow')}</p>
-            <h1 className="hyphens-auto [overflow-wrap:anywhere] mt-3 text-4xl font-bold tracking-tight sm:text-5xl">{t(`hero.title.${pos}`)}</h1>
-            <p className="mt-5 text-lg text-ink-muted">{t(`hero.subtitle.${pos}`)}</p>
+            <Pill>{t('hero.eyebrow')}</Pill>
+            <h1 className={`hyphens-auto [overflow-wrap:anywhere] mt-5 font-extrabold leading-[1.06] tracking-tight ${heroSize}`}><Accent text={heroTitle} /></h1>
+            <p className="mt-6 max-w-xl text-lg text-ink-muted lg:text-xl">{t(`hero.subtitle.${pos}`)}</p>
             <div className="mt-8 flex flex-wrap gap-3">
               <LocaleLink href="/contact" className={btnPrimary}>{t('hero.ctaPrimary')}</LocaleLink>
               <LocaleLink href="/features" className={btnSecondary}>{t('hero.ctaSecondary')}</LocaleLink>
             </div>
-            <p className="mt-6 text-sm text-ink-muted">{t('hero.disclaimer')}</p>
+            <p className="mt-8 max-w-md border-t border-line pt-6 text-sm text-ink-muted">{t('hero.disclaimer')}</p>
           </div>
           <DashboardMock label={t('hero.mockLabel')} />
         </Container>
       </section>
 
       <Section title={t('home.pillarsTitle')} intro={t('home.pillarsIntro')}>
-        <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {PILLARS.map((p) => (
             <li key={p}><Card className="h-full border-t-4 border-t-brand">
               <h3 className="text-lg font-semibold">{t(`home.pillars.${p}.title`)}</h3>
@@ -49,7 +52,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </ul>
       </Section>
 
-      <Section title={t('home.audienceTitle')} intro={t('home.audienceIntro')}>
+      <div className="bg-brand-soft"><Section title={t('home.audienceTitle')} intro={t('home.audienceIntro')}>
         <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {market.solutions.map((s) => (
             <li key={s}><Card className="flex h-full flex-col">
@@ -59,16 +62,16 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             </Card></li>
           ))}
         </ul>
-      </Section>
+      </Section></div>
 
       <Section>
-        <div className="grid gap-8 rounded-2xl bg-brand-dark p-8 text-white on-dark sm:p-12 lg:grid-cols-[2fr_1fr] lg:items-center">
+        <div className="grid gap-8 rounded-3xl bg-brand-dark p-8 text-white on-dark sm:p-12 lg:grid-cols-[2fr_1fr] lg:items-center">
           <div>
-            <h2 className="text-2xl font-bold sm:text-3xl">{t('home.complianceTitle')}</h2>
+            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">{t('home.complianceTitle')}</h2>
             <p className="mt-3 max-w-2xl text-green-50">{t('home.complianceBody')}</p>
           </div>
           <div className="lg:text-end">
-            <LocaleLink href="/compliance" className="inline-flex min-h-[48px] items-center rounded-md bg-white px-6 py-3 font-semibold text-brand-dark hover:bg-brand-soft">{t('home.complianceCta')}</LocaleLink>
+            <LocaleLink href="/compliance" className="inline-flex min-h-[48px] items-center rounded-lg bg-white px-8 py-4 text-sm font-bold uppercase tracking-wider text-brand-dark hover:bg-brand-soft">{t('home.complianceCta')}</LocaleLink>
           </div>
         </div>
       </Section>

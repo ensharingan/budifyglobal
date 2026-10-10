@@ -29,7 +29,7 @@ export default function MobileNav({ items, cta }: { items: NavItem[]; cta: NavIt
             {items.map((i) => (
               <li key={i.href}><a href={i.href} onClick={() => setOpen(false)} className="block min-h-[44px] rounded-md px-3 py-3 font-medium hover:bg-surface-alt">{i.label}</a></li>
             ))}
-            <li><a href={cta.href} onClick={() => setOpen(false)} className="mt-2 block min-h-[44px] rounded-md bg-brand-dark px-3 py-3 text-center font-semibold text-white">{cta.label}</a></li>
+            <li><a href={cta.href} onClick={() => setOpen(false)} className="mt-2 block min-h-[44px] rounded-lg bg-brand px-3 py-3 text-center text-sm font-bold uppercase tracking-wider text-white">{cta.label}</a></li>
           </ul>
         </nav>
       )}

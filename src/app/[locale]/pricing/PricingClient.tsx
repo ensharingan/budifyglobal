@@ -10,7 +10,7 @@ export default function PricingClient({ plans, currency, discount }: { plans: Pl
   const locale = useLocale();
   const [annual, setAnnual] = useState(false);
   const fmt = new Intl.NumberFormat(locale, { style: 'currency', currency, maximumFractionDigits: 0 });
-  const tab = (active: boolean) => `min-h-[44px] rounded-md px-5 py-2 text-sm font-semibold ${active ? 'bg-brand-dark text-white' : 'border border-ink-muted bg-white text-ink'}`;
+  const tab = (active: boolean) => `min-h-[44px] rounded-full px-6 py-2 text-sm font-semibold ${active ? 'bg-brand text-white' : 'border border-ink-muted bg-white text-ink'}`;
   return (
     <div>
       <div role="group" aria-label={t('title')} className="inline-flex gap-2">
@@ -21,14 +21,14 @@ export default function PricingClient({ plans, currency, discount }: { plans: Pl
         {plans.map((p) => {
           const price = p.monthly === null ? null : Math.round(annual ? p.monthly * (1 - discount / 100) : p.monthly);
           return (
-            <li key={p.id} className={`flex flex-col rounded-xl border bg-white p-6 shadow-sm ${p.featured ? 'border-2 border-brand' : 'border-line'}`}>
-              {p.featured && <p className="mb-2 w-fit rounded-full bg-brand-soft px-3 py-1 text-xs font-semibold text-brand-dark">{t('popular')}</p>}
+            <li key={p.id} className={`flex flex-col rounded-2xl border bg-white p-7 ${p.featured ? 'border-2 border-brand bg-brand-soft' : 'border-brand/10'}`}>
+              {p.featured && <p className="mb-2 w-fit rounded-full bg-brand px-3 py-1 text-xs font-bold text-white">{t('popular')}</p>}
               <h2 className="text-xl font-bold">{t(`plans.${p.id}.name`)}</h2>
               <p className="text-sm text-ink-muted">{t(`plans.${p.id}.tagline`)}</p>
               <p className="mt-5">
-                {price === null ? <span className="text-3xl font-bold">{t('plans.enterprise.priceLabel')}</span> : (
+                {price === null ? <span className="text-4xl font-extrabold tracking-tight">{t('plans.enterprise.priceLabel')}</span> : (
                   <>
-                    <span className="text-4xl font-bold">{fmt.format(price)}</span>
+                    <span className="text-5xl font-extrabold tracking-tight">{fmt.format(price)}</span>
                     <span className="text-ink-muted"> {t('perMonth')}</span>
                     {annual && <span className="block text-sm text-ink-muted">{t('billedAnnually')}</span>}
                   </>
@@ -39,7 +39,7 @@ export default function PricingClient({ plans, currency, discount }: { plans: Pl
                   <li key={b} className="flex gap-2"><span aria-hidden="true" className="text-brand">✓</span><span>{b}</span></li>
                 ))}
               </ul>
-              <LocaleLink href="/contact" className={`mt-6 inline-flex min-h-[48px] items-center justify-center rounded-md px-5 py-3 font-semibold ${p.featured ? 'bg-brand-dark text-white hover:bg-brand' : 'border-2 border-brand-dark text-brand-dark hover:bg-brand-soft'}`}>
+              <LocaleLink href="/contact" className={`mt-6 inline-flex min-h-[48px] items-center justify-center rounded-lg px-5 py-3 text-sm font-bold uppercase tracking-wider ${p.featured ? 'bg-brand text-white hover:bg-brand-dark' : 'border-2 border-brand text-brand-dark hover:bg-brand hover:text-white'}`}>
                 {t(`plans.${p.id}.cta`)}
               </LocaleLink>
             </li>

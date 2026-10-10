@@ -151,7 +151,7 @@ export default function ContactForm({ privacyEmail, address, allowedTypes }: { p
 
         <div className="sm:col-span-2">
           <button type="submit" disabled={state === 'sending'}
-            className="min-h-[48px] rounded-md bg-brand-dark px-6 py-3 font-semibold text-white hover:bg-brand disabled:opacity-60">
+            className="min-h-[48px] rounded-lg bg-brand px-8 py-4 text-sm font-bold uppercase tracking-wider text-white hover:bg-brand-dark disabled:opacity-60">
             {state === 'sending' ? t('sending') : t('submit')}
           </button>
           <p className="mt-3 text-sm text-ink-muted">{t('businessOnly')}</p>

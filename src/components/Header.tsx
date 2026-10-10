@@ -23,13 +23,13 @@ export default async function Header() {
         <nav aria-label={t('primary')} className="hidden lg:block">
           <ul className="flex items-center gap-1">
             {items.map((i) => (
-              <li key={i.href}><a href={i.href} className="inline-flex min-h-[44px] items-center rounded-md px-3 text-sm font-medium text-ink hover:bg-surface-alt">{i.label}</a></li>
+              <li key={i.href}><a href={i.href} className="inline-flex min-h-[44px] items-center rounded-md px-3 text-sm font-semibold text-ink hover:text-brand-dark">{i.label}</a></li>
             ))}
           </ul>
         </nav>
         <div className="flex items-center gap-2">
           <RegionSelector options={options} />
-          <a href={cta.href} className="hidden min-h-[44px] items-center rounded-md bg-brand-dark px-4 text-sm font-semibold text-white hover:bg-brand lg:inline-flex">{cta.label}</a>
+          <a href={cta.href} className="hidden min-h-[44px] items-center rounded-lg bg-brand px-5 text-xs font-bold uppercase tracking-wider text-white hover:bg-brand-dark lg:inline-flex">{cta.label}</a>
           <MobileNav items={items} cta={cta} />
         </div>
       </div>
