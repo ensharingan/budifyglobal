@@ -1,5 +1,5 @@
 {
-  "_note": "Every image used on the site must be declared here with tags. The content linter fails the build if any tag is in compliance.config.json \u2192 global.bannedImageryTags, or if an image under /public is undeclared.",
+  "_note": "Every image used on the site must be declared here with tags. The content linter fails the build if any tag is in compliance.config.json → global.bannedImageryTags, or if an image under /public is undeclared.",
   "images": [
     {
       "path": "public/images/budify-logo.png",
@@ -18,11 +18,19 @@
     },
     {
       "path": "public/og.png",
-      "alt": "Budify \u2013 POS and membership software for regulated operators",
+      "alt": "Budify – POS and membership software for regulated operators",
       "tags": [
         "abstract",
         "logo"
       ]
+    },
+    {
+      "path": "public/brand/budify-logo.png",
+      "alt": "Budify POS",
+      "tags": [
+        "logo"
+      ],
+      "note": "Contains a leaf mark. Used in header/footer/age gate; counsel to confirm for markets with promotion bans (e.g. DE KCanG)."
     }
   ]
 }

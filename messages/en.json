@@ -875,6 +875,29 @@
           "desc": "Monitor sales, inventory, member activity and financials in real time from your dashboard."
         }
       }
+    },
+    "cards": {
+      "badge": "Digital member card",
+      "title1": "A membership card",
+      "title2": "that lives in their phone",
+      "body": "Every member gets a branded digital card with their tier, status and points – and a QR code your team scans at the counter for instant check-in. Add your own shop logo; no plastic to print or lose.",
+      "hint": "Tap the card to flip it",
+      "altFront": "Sample digital membership card showing tier, status and points",
+      "altBack": "Reverse of the sample membership card with a QR code for check-in",
+      "items": {
+        "qr": {
+          "title": "Scan to check in",
+          "desc": "Staff scan the QR code to verify the member and open their profile in seconds."
+        },
+        "tier": {
+          "title": "Tiers and points",
+          "desc": "Status, tier and points balance always up to date on the card."
+        },
+        "brand": {
+          "title": "Your brand on every card",
+          "desc": "Add your shop logo so the card looks like your club, not ours."
+        }
+      }
     }
   }
 }

@@ -3,7 +3,7 @@ import { initLocale, pageMeta } from '@/lib/page';
 import { marketOf } from '@/i18n/locales';
 import { LocaleLink } from '@/components/LocaleLink';
 import { Container, Section, Card, Accent, Pill, btnPrimary, btnSecondary, Notice } from '@/components/ui/Page';
-import { SaFeaturesSection, SaAboutSection, SaMobileSection, SaShippedSection, SaHowSection } from '@/components/sa/SaSections';
+import { SaFeaturesSection, SaAboutSection, SaMobileSection, SaCardsSection, SaShippedSection, SaHowSection } from '@/components/sa/SaSections';
 import FeatureShowcase, { type ShowcaseItem } from '@/components/FeatureShowcase';
 import DashboardMock, { type MockText } from '@/components/DashboardMock';
 import JsonLd from '@/components/JsonLd';
@@ -60,6 +60,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <>
           <SaFeaturesSection />
           <SaAboutSection revenue={money(4480)} />
+          <SaCardsSection />
           <SaMobileSection />
           <SaShippedSection />
           <SaHowSection />

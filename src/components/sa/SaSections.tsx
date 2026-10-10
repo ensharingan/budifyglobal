@@ -2,7 +2,8 @@ import { getTranslations } from 'next-intl/server';
 import { Container, Card, Pill, Accent } from '@/components/ui/Page';
 import Icon, { type IconName } from './Icon';
 import SaFeatures, { type SaFeature } from './SaFeatures';
-import { saImage, SA } from '@/lib/saImage';
+import { saImage } from '@/lib/saImage';
+import SaCards from './SaCards';
 
 const FEATURES: [string, IconName][] = [['pos', 'cart'], ['membership', 'id'], ['insights', 'chart'], ['inventory', 'stack'], ['finance', 'bank'], ['preorders', 'calendar'], ['comms', 'chat'], ['access', 'scan']];
 const SHIPPED: [string, IconName][] = [['batch', 'barcode'], ['consign', 'coin'], ['reports', 'file'], ['account', 'wallet'], ['refunds', 'refund'], ['returns', 'truck'], ['renewals', 'refresh'], ['counts', 'scales'], ['transfers', 'arrows']];
@@ -98,5 +99,25 @@ export async function SaHowSection() {
         {STEPS.map(([k, icon], n) => (<li key={k}><Card className="h-full"><div className="mb-5 flex items-start justify-between"><span className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand/10 text-brand-dark"><Icon name={icon} className="h-6 w-6" /></span><span aria-hidden="true" className="text-4xl font-black text-brand/20">0{n + 1}</span></div><h3 className="mb-2 font-bold">{t(`steps.${k}.title`)}</h3><p className="text-sm leading-relaxed text-ink-muted">{t(`steps.${k}.desc`)}</p></Card></li>))}
       </ol>
     </Container></section>
+  );
+}
+
+export async function SaCardsSection() {
+  const t = await getTranslations('sa.cards');
+  const front = saImage('card-front'), back = saImage('card-back');
+  if (!front || !back) return null;
+  const items: [string, IconName][] = [['qr', 'scan'], ['tier', 'chart'], ['brand', 'id']];
+  return (
+    <div className="bg-brand-soft"><section className="py-16 sm:py-24"><Container className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
+      <SaCards front={front} back={back} altFront={t('altFront')} altBack={t('altBack')} hint={t('hint')} />
+      <div>
+        <Pill>{t('badge')}</Pill>
+        <h2 className="mt-5 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl">{t('title1')}<br /><span className="text-brand">{t('title2')}</span></h2>
+        <p className="mt-6 text-ink-muted">{t('body')}</p>
+        <ul className="mt-8 flex flex-col gap-5">
+          {items.map(([k, icon]) => (<li key={k} className="flex items-start gap-4"><span className="flex h-11 w-11 flex-none items-center justify-center rounded-xl border border-brand/20 bg-white text-brand-dark"><Icon name={icon} /></span><div><h3 className="mb-1 text-sm font-bold">{t(`items.${k}.title`)}</h3><p className="text-xs leading-relaxed text-ink-muted">{t(`items.${k}.desc`)}</p></div></li>))}
+        </ul>
+      </div>
+    </Container></section></div>
   );
 }
