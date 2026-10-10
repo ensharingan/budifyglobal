@@ -16,18 +16,21 @@ const Head = ({ badge, children, intro }: { badge: string; children: React.React
 
 export async function SaFeaturesSection() {
   const t = await getTranslations('sa.features');
-  const items: SaFeature[] = FEATURES.map(([k, icon]) => ({ key: k, icon, title: t(`items.${k}.title`), short: t(`items.${k}.short`), desc: t(`items.${k}.desc`), bullets: t.raw(`items.${k}.bullets`) as string[], image: saImage(k, SA.features[k]) }));
+  const items: SaFeature[] = FEATURES.map(([k, icon]) => ({ key: k, icon, title: t(`items.${k}.title`), short: t(`items.${k}.short`), desc: t(`items.${k}.desc`), bullets: t.raw(`items.${k}.bullets`) as string[], image: saImage(k) }));
   return (<section className="py-16 sm:py-24"><Container><Head badge={t('badge')} intro={t('intro')}><Accent text={t('title')} /></Head><SaFeatures items={items} /></Container></section>);
 }
 
 export async function SaAboutSection({ revenue }: { revenue: string }) {
   const t = await getTranslations();
+  const aboutImg = saImage('about');
   return (
     <div className="bg-brand-soft"><section className="py-16 sm:py-24"><Container className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
       <div className="relative hidden lg:block">
         <div className="relative overflow-hidden rounded-2xl border border-brand/10">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={saImage('about', SA.about)} alt={t('sa.about.altPhoto')} loading="lazy" referrerPolicy="no-referrer" className="h-[520px] w-full object-cover object-top" />
+          {aboutImg
+            // eslint-disable-next-line @next/next/no-img-element
+            ? <img src={aboutImg} alt={t('sa.about.altPhoto')} loading="lazy" className="h-[520px] w-full object-cover object-top" />
+            : <div aria-hidden="true" className="h-[520px] w-full bg-gradient-to-br from-[#0b1f14] to-brand-dark" />}
           <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-brand-soft/80 via-transparent to-transparent" />
         </div>
         <div className="absolute inset-x-8 bottom-8 rounded-xl border border-brand/20 bg-white/95 p-5 backdrop-blur">
@@ -52,6 +55,7 @@ export async function SaAboutSection({ revenue }: { revenue: string }) {
 
 export async function SaMobileSection() {
   const t = await getTranslations('sa.mobile');
+  const m1 = saImage('mobile-1'), m2 = saImage('mobile-2');
   return (
     <section className="overflow-hidden py-16 sm:py-24"><Container className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
       <div>
@@ -64,10 +68,10 @@ export async function SaMobileSection() {
       </div>
       <div className="relative mx-auto flex max-w-md items-center justify-center gap-4 py-6">
         <div aria-hidden="true" className="absolute inset-0 -z-0 m-auto h-72 w-72 rounded-full bg-gradient-to-br from-[#cff1da] to-[#dff5b8] blur-2xl" />
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={saImage('mobile-1', SA.mobile[0])} alt={t('altScreen1')} loading="lazy" referrerPolicy="no-referrer" className="relative z-10 w-1/2 rounded-[2rem] border-4 border-ink shadow-2xl" />
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={saImage('mobile-2', SA.mobile[1])} alt={t('altScreen2')} loading="lazy" referrerPolicy="no-referrer" className="relative z-10 mt-12 w-[44%] rounded-[2rem] border-4 border-ink/80 shadow-xl" />
+        {m1 && (/* eslint-disable-next-line @next/next/no-img-element */
+        <img src={m1} alt={t('altScreen1')} loading="lazy" className="relative z-10 w-1/2 rounded-[2rem] border-4 border-ink shadow-2xl" />)}
+        {m2 && (/* eslint-disable-next-line @next/next/no-img-element */
+        <img src={m2} alt={t('altScreen2')} loading="lazy" className="relative z-10 mt-12 w-[44%] rounded-[2rem] border-4 border-ink/80 shadow-xl" />)}
       </div>
     </Container></section>
   );

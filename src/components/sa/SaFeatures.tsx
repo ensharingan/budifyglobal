@@ -1,8 +1,9 @@
 'use client';
 import { useId, useRef, useState, type KeyboardEvent } from 'react';
+import { Mock } from '../FeatureShowcase';
 import Icon, { type IconName } from './Icon';
 
-export interface SaFeature { key: string; icon: IconName; title: string; short: string; desc: string; bullets: string[]; image: string }
+export interface SaFeature { key: string; icon: IconName; title: string; short: string; desc: string; bullets: string[]; image: string | null }
 
 export default function SaFeatures({ items }: { items: SaFeature[] }) {
   const [i, setI] = useState(0);
@@ -36,7 +37,9 @@ export default function SaFeatures({ items }: { items: SaFeature[] }) {
         <div className="relative h-64 overflow-hidden bg-[#0b1f14] lg:h-72">
           {/* decorative: alt intentionally empty – the heading below names the feature */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img key={a.key} src={a.image} alt="" loading="lazy" referrerPolicy="no-referrer" className="h-full w-full object-cover object-top" />
+          {a.image
+            ? <img key={a.key} src={a.image} alt="" loading="lazy" className="h-full w-full object-cover object-top" />
+            : <div className="flex h-full items-center justify-center p-8"><div className="w-full max-w-sm"><Mock k={a.key} /></div></div>}
           <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-white via-white/30 to-transparent" />
         </div>
         <div className="p-6 sm:p-8">

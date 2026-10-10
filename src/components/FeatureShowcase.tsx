@@ -11,7 +11,7 @@ const Row = ({ w = 'w-24', accent = false }: { w?: string; accent?: boolean }) =
 );
 
 /** Abstract, text-free UI illustrations (no product imagery). */
-function Mock({ k }: { k: string }): ReactNode {
+export function Mock({ k }: { k: string }): ReactNode {
   if (k === 'pos') return (<div className="space-y-2.5"><Row w="w-28" /><Row w="w-20" /><Row w="w-32" /><div className="flex items-center justify-between pt-3"><span className="h-3 w-16 rounded bg-white/60" /><span className="h-8 w-28 rounded-lg bg-emerald-400" /></div></div>);
   if (k === 'membership') return (<div className="grid grid-cols-[auto_1fr] items-center gap-5"><div className="grid h-24 w-24 grid-cols-7 gap-px rounded-lg bg-white p-1.5">{'1111111100000111011101011010111011101001011111100000011011110010101011101101110001011111110101101'.slice(0, 49).split('').map((c, i) => <span key={i} className={c === '1' ? 'bg-[#0b1f14]' : ''} />)}</div><div className="space-y-2"><span className="block h-3.5 w-32 rounded bg-white/80" /><span className="block h-2 w-24 rounded bg-white/40" /><span className="inline-block h-6 w-16 rounded-full bg-emerald-400/90" /></div></div>);
   if (k === 'inventory') return (<div className="space-y-2.5"><Row w="w-24" /><Row w="w-32" accent /><Row w="w-20" /><div className="flex h-16 items-end gap-1.5 pt-2">{[40, 64, 48, 80, 56, 72, 90].map((h, i) => <span key={i} className="flex-1 rounded-t bg-emerald-400/70" style={{ height: `${h}%` }} />)}</div></div>);
