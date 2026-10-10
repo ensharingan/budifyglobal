@@ -1,6 +1,31 @@
 {
-  "full": ["en", "fr", "es", "de", "th", "zu"],
-  "core": ["it", "nl", "ca", "af"],
-  "coreNamespaces": ["nav", "ageGate", "cookie", "footer", "hero", "selector", "contact.consent"],
-  "ignoreKeyPrefixes": ["_"]
+  "full": [
+    "en",
+    "fr",
+    "es",
+    "de",
+    "th",
+    "zu"
+  ],
+  "core": [
+    "it",
+    "nl",
+    "ca",
+    "af"
+  ],
+  "coreNamespaces": [
+    "nav",
+    "ageGate",
+    "cookie",
+    "footer",
+    "hero",
+    "selector",
+    "contact.consent"
+  ],
+  "ignoreKeyPrefixes": [
+    "_"
+  ],
+  "englishOnlyNamespaces": [
+    "sa"
+  ]
 }

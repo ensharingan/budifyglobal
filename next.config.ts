@@ -21,7 +21,7 @@ const csp = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''} ${scriptHosts.join(' ')}`.trim(),
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob:",
+  "img-src 'self' data: blob: https://readdy.ai https://static.readdy.ai",
   "font-src 'self'",
   `connect-src 'self' ${connectHosts.join(' ')}${isDev ? ' ws:' : ''}`.trim(),
   `frame-src ${frameHosts.length ? frameHosts.join(' ') : "'none'"}`,

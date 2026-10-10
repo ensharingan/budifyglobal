@@ -1,0 +1,24 @@
+{
+  "_note": "Photographic visuals used by the 'sa' visual style (copied from budify.co.za \u2013 AI-generated, hotlinked). Run `npm run fetch-images` to self-host them in public/sa/ (recommended: avoids third-party requests before consent). These images show cannabis-themed scenes: counsel must approve per market before launch (see compliance.config.json \u2192 global.cannabisImageryApproval).",
+  "tags": [
+    "cannabis-themed",
+    "ai-generated",
+    "neon-lounge",
+    "app-screenshots"
+  ],
+  "features": {
+    "pos": "https://readdy.ai/api/search-image?query=cannabis%20dispensary%20modern%20point%20of%20sale%20terminal%20touchscreen%20dark%20background%20green%20neon%20accent%20professional%20retail%20technology%20checkout%20system%20sleek%20UI&width=600&height=400&seq=feat-pos-01&orientation=landscape",
+    "membership": "https://readdy.ai/api/search-image?query=digital%20membership%20card%20management%20system%20dark%20UI%20interface%20profile%20management%20cannabis%20club%20member%20database%20green%20accents%20clean%20minimal%20dashboard%20software&width=600&height=400&seq=feat-member-01&orientation=landscape",
+    "insights": "https://readdy.ai/api/search-image?query=dark%20analytics%20dashboard%20with%20charts%20graphs%20data%20visualization%20cannabis%20business%20insights%20member%20behavior%20tracking%20dark%20background%20neon%20green%20data%20lines%20premium%20SaaS%20interface&width=600&height=400&seq=feat-analytics-01&orientation=landscape",
+    "inventory": "https://readdy.ai/api/search-image?query=cannabis%20product%20inventory%20management%20system%20dark%20UI%20showing%20flower%20edibles%20oils%20stock%20levels%20categories%20professional%20dispensary%20software%20clean%20grid%20layout%20dark%20background&width=600&height=400&seq=feat-inventory-01&orientation=landscape",
+    "finance": "https://readdy.ai/api/search-image?query=financial%20dashboard%20dark%20theme%20profit%20loss%20charts%20bar%20graphs%20cannabis%20business%20revenue%20expense%20management%20professional%20SaaS%20interface%20dark%20background%20green%20accents%20minimal%20clean&width=600&height=400&seq=feat-finance-01&orientation=landscape",
+    "preorders": "https://readdy.ai/api/search-image?query=cannabis%20pre-order%20reservation%20system%20mobile%20app%20dark%20UI%20order%20management%20schedule%20pickup%20delivery%20modern%20interface%20green%20accent%20dark%20background%20minimal%20clean%20design&width=600&height=400&seq=feat-preorder-01&orientation=landscape",
+    "comms": "https://readdy.ai/api/search-image?query=member%20communication%20platform%20dark%20theme%20chat%20notifications%20push%20messaging%20cannabis%20club%20app%20interface%20clean%20modern%20mobile%20dashboard%20dark%20background%20neon%20green%20highlights&width=600&height=400&seq=feat-comm-01&orientation=landscape",
+    "access": "https://readdy.ai/api/search-image?query=biometric%20QR%20code%20access%20control%20system%20cannabis%20club%20entry%20technology%20dark%20background%20green%20scanning%20animation%20security%20facial%20recognition%20modern%20tech%20interface%20futuristic&width=600&height=400&seq=feat-access-01&orientation=landscape"
+  },
+  "about": "https://readdy.ai/api/search-image?query=modern%20cannabis%20lounge%20interior%20with%20sleek%20dark%20design%20ambient%20green%20neon%20lighting%20premium%20dispensary%20club%20atmosphere%20elegant%20members%20only%20private%20club%20sophisticated%20minimalist%20interior%20photography&width=700&height=600&seq=about-visual-01&orientation=portrait",
+  "mobile": [
+    "https://readdy.ai/api/search-image?query=cannabis%20club%20membership%20mobile%20app%20screen%20dark%20theme%20showing%20digital%20membership%20card%20QR%20code%20green%20neon%20accent%20profile%20photo%20tier%20level%20gold%20member%20modern%20sleek%20UI%20phone%20screenshot&width=400&height=720&seq=mobile-screen-01&orientation=portrait",
+    "https://readdy.ai/api/search-image?query=cannabis%20dispensary%20mobile%20app%20pre-order%20screen%20dark%20UI%20product%20catalog%20menu%20flower%20edibles%20list%20with%20prices%20green%20accents%20modern%20mobile%20interface%20clean%20design&width=360&height=640&seq=mobile-screen-02&orientation=portrait"
+  ]
+}

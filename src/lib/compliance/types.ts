@@ -14,6 +14,8 @@ export interface LegalSection { id: string; title: string; body: string }
 
 export interface Market {
   name: string;
+  /** 'sa' = photographic, cannabis-themed visuals copied from budify.co.za; 'neutral' = abstract illustrations only */
+  visuals: 'sa' | 'neutral';
   languages: string[];
   defaultLocale: string;
   minAge: number;

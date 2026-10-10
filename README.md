@@ -73,5 +73,8 @@ See `.env.example`: `NEXT_PUBLIC_SITE_URL`, `ALLOW_INDEXING`, `STRICT_LAUNCH`, a
 - [ ] Verify ad-platform policies before running any ads.
 - [ ] Only publish claims you can evidence (integrations, security, certifications, case studies).
 
+## Visual style per market (`visuals`)
+Each market in `compliance.config.json` has `visuals`: `"sa"` (default – the photographic, cannabis-themed look copied from budify.co.za: tabbed feature photos, lounge photo, member-app screens) or `"neutral"` (abstract, text-only illustrations). The `sa` photos are AI-generated images hotlinked from readdy.ai (see `content/sa-visuals.json`). **Self-host them** (avoids third-party requests before consent): run `npm run fetch-images` on a machine with normal internet access, commit `public/sa/`, redeploy. Counsel must approve cannabis-themed imagery per market (`global.cannabisImageryApproval`; `STRICT_LAUNCH=1` fails until it is filled in). New `sa.*` strings are English-only until translated (other languages fall back to English).
+
 ## Content rules (enforced by `content-lint`)
 No product/consumption imagery, strain or price listings, health claims, or youth-appealing content. Image tags come from `content/images.manifest.json` and must be in `allowedImageryTags`. Banned terms are per market and global.

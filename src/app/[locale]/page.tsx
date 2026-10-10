@@ -3,6 +3,7 @@ import { initLocale, pageMeta } from '@/lib/page';
 import { marketOf } from '@/i18n/locales';
 import { LocaleLink } from '@/components/LocaleLink';
 import { Container, Section, Card, Accent, Pill, btnPrimary, btnSecondary, Notice } from '@/components/ui/Page';
+import { SaFeaturesSection, SaAboutSection, SaMobileSection, SaShippedSection, SaHowSection } from '@/components/sa/SaSections';
 import FeatureShowcase, { type ShowcaseItem } from '@/components/FeatureShowcase';
 import DashboardMock, { type MockText } from '@/components/DashboardMock';
 import JsonLd from '@/components/JsonLd';
@@ -55,6 +56,16 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </Container>
       </section>
 
+      {market.visuals === 'sa' ? (
+        <>
+          <SaFeaturesSection />
+          <SaAboutSection revenue={money(4480)} />
+          <SaMobileSection />
+          <SaShippedSection />
+          <SaHowSection />
+        </>
+      ) : (
+        <>
       <div className="bg-brand-soft"><section className="py-14 sm:py-20"><Container className="grid items-center gap-10 lg:grid-cols-[1fr_1.1fr]">
         <div aria-hidden="true" className="relative min-h-[320px] overflow-hidden rounded-3xl bg-gradient-to-br from-[#07120b] via-[#0b1f14] to-[#14532d] p-6">
           <div className="absolute inset-0 opacity-30 [background-image:linear-gradient(rgba(74,222,128,.25)_1px,transparent_1px),linear-gradient(90deg,rgba(74,222,128,.25)_1px,transparent_1px)] [background-size:32px_32px]" />
@@ -77,6 +88,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       <Section title={t('home.pillarsTitle')} intro={t('home.pillarsIntro')}>
         <FeatureShowcase items={showItems} />
       </Section>
+
+        </>
+      )}
 
       <div className="bg-brand-soft"><Section title={t('home.audienceTitle')} intro={t('home.audienceIntro')}>
         <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

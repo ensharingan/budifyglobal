@@ -682,5 +682,199 @@
     "c3b": "Live dashboards and analytics for clear, fast decisions every day.",
     "c4t": "Better member experiences",
     "c4b": "Digital membership cards, QR validation and tools your members will actually use."
+  },
+  "sa": {
+    "features": {
+      "badge": "Platform features",
+      "title": "Everything your operation needs, built into one platform",
+      "intro": "From the moment a member walks in to the final cash-up at close, Budify handles every operation seamlessly.",
+      "items": {
+        "pos": {
+          "title": "Smart POS system",
+          "short": "Fast, member-aware checkout",
+          "desc": "Lightning-fast checkout with barcode and QR scanning. Member validation happens before every sale. Set tiered pricing per membership level, run multi-terminal workstations and issue digital or printed receipts instantly.",
+          "bullets": [
+            "Barcode + QR scanning",
+            "Member validation at checkout",
+            "Multi-terminal support",
+            "Digital & printed receipts"
+          ]
+        },
+        "membership": {
+          "title": "Membership management",
+          "short": "Full member lifecycle control",
+          "desc": "Manage full member profiles with identity verification, digital membership cards with QR codes, expiry tracking and instant deactivation. Upload signatures and supporting documents with ease.",
+          "bullets": [
+            "Verification & profiles",
+            "Digital QR membership cards",
+            "Expiry & status tracking",
+            "Signature & document uploads"
+          ]
+        },
+        "insights": {
+          "title": "Member insights & analytics",
+          "short": "Know your best members",
+          "desc": "Track visits, spending behaviour and preferences across your entire member base. Identify high-value members, monitor trends and build engagement with birthday tracking and personalised tools.",
+          "bullets": [
+            "Visit & spend tracking",
+            "High-value member identification",
+            "Purchase pattern analytics",
+            "Birthday & engagement tools"
+          ]
+        },
+        "inventory": {
+          "title": "Inventory & stock control",
+          "short": "Real-time stock intelligence",
+          "desc": "Real-time inventory across locations, with batch-level tracking. Receive every intake as its own batch with its own cost, track consignment stock back to the supplier, handle supplier returns and run blind stock counts against system quantities.",
+          "bullets": [
+            "Batch & SKU tracking (FIFO)",
+            "Consignment & supplier payouts",
+            "Supplier returns & payment terms",
+            "Stock counts with system variance"
+          ]
+        },
+        "finance": {
+          "title": "Financial management",
+          "short": "Complete financial clarity",
+          "desc": "Comprehensive sales tracking, expense management and P&L dashboards. Cost of sales and gross profit per location, members on account and refunds that land on the right cash-up – full financial visibility across every site.",
+          "bullets": [
+            "Cost of sales & GP reports",
+            "On-account member tabs",
+            "Smart refunds & store credit",
+            "Daily cash-up tools"
+          ]
+        },
+        "preorders": {
+          "title": "Pre-orders & reservations",
+          "short": "Members order before they arrive",
+          "desc": "Let members reserve items before arrival, schedule pickups and pre-order directly from the member app – reducing wait times and driving higher basket values.",
+          "bullets": [
+            "Reservations",
+            "Pickup scheduling",
+            "Order management",
+            "In-app pre-ordering"
+          ]
+        },
+        "comms": {
+          "title": "Communication & engagement",
+          "short": "Stay connected with members",
+          "desc": "In-app chat with members, push notifications for updates and automated membership renewal reminders keep your community engaged and coming back.",
+          "bullets": [
+            "In-app member chat",
+            "Push notifications",
+            "Member communications",
+            "Renewal reminders"
+          ]
+        },
+        "access": {
+          "title": "Smart access & validation",
+          "short": "Seamless, secure entry",
+          "desc": "QR code scanning for entry and purchase validation. Optional RFID and facial recognition integration (where lawful) provides enterprise-grade security with a frictionless member experience.",
+          "bullets": [
+            "QR entry & purchase scan",
+            "RFID integration",
+            "Facial recognition option",
+            "Instant member verification"
+          ]
+        }
+      }
+    },
+    "about": {
+      "title": "Next-gen operations for regulated businesses",
+      "body": "Budify is a next-generation SaaS platform built to help licensed operators streamline operations, stay organised and deliver premium member experiences. From point of sale to smart member validation, everything is connected in one system.",
+      "altPhoto": "Illustration of a modern members' lounge interior",
+      "revenueMeta": "Across 3 locations · 247 transactions"
+    },
+    "mobile": {
+      "badge": "Mobile app",
+      "title1": "The Budify experience",
+      "title2": "in your members' hands",
+      "body": "The Budify member app gives your community a premium digital experience – from their membership card to pre-ordering and personalised notifications.",
+      "altScreen1": "Member app screen showing a digital membership card",
+      "altScreen2": "Member app screen showing a pre-order list",
+      "items": {
+        "card": {
+          "title": "Digital membership card",
+          "desc": "The membership card is always in the member's pocket. Scan to enter, scan to pay – instant and secure."
+        },
+        "preorder": {
+          "title": "Pre-ordering",
+          "desc": "Browse, reserve and walk in to collect. Zero wait time, maximum convenience."
+        },
+        "chat": {
+          "title": "Notifications & chat",
+          "desc": "Receive updates, renewal reminders and chat directly with your organisation – all within the app."
+        },
+        "profile": {
+          "title": "Profile management",
+          "desc": "Update details, review the membership tier, transaction history and preferences anytime."
+        }
+      }
+    },
+    "shipped": {
+      "title": "Plus everything else we've shipped",
+      "intro": "Built with the operators using Budify every day.",
+      "items": {
+        "batch": {
+          "title": "Batch & SKU tracking",
+          "desc": "Receive each intake as its own batch with its own cost. Sales draw down FIFO, so cost of sales is accurate."
+        },
+        "consign": {
+          "title": "Consignment & supplier payouts",
+          "desc": "Every consignment sale is tracked back to the supplier batch. See exactly what you owe each supplier, per location, updated as you sell."
+        },
+        "reports": {
+          "title": "Tax & cost of sales reports",
+          "desc": "Revenue, cost of sales, gross profit and margin per location, plus line-by-line sales with supplier and batch – exportable for your accountant."
+        },
+        "account": {
+          "title": "On account for members",
+          "desc": "Let trusted members run a tab. The cashier sees what they already owe before ringing up, and payments settle oldest-first."
+        },
+        "refunds": {
+          "title": "Smart refunds",
+          "desc": "Full or partial refunds that put stock back, land on the right cash-up and can be paid out as store credit instead of cash."
+        },
+        "returns": {
+          "title": "Supplier returns & payment terms",
+          "desc": "Return stock to suppliers with a proper credit trail. Track payment due dates on terms orders and see what is overdue at a glance."
+        },
+        "renewals": {
+          "title": "Membership renewals at the POS",
+          "desc": "Set your own renewal rules. Renew in one tap at the till – the expiry date updates automatically."
+        },
+        "counts": {
+          "title": "Stock counts with system variance",
+          "desc": "Blind stock counts per location, compared against what the system calculated from receipts and sales – so shrinkage is visible, not hidden."
+        },
+        "transfers": {
+          "title": "Interstore transfers",
+          "desc": "Move stock between locations with a journal behind every movement, so each store's stock and value stay correct."
+        }
+      }
+    },
+    "how": {
+      "badge": "How it works",
+      "title": "Up and running in minutes",
+      "intro": "Budify is designed for fast onboarding. No lengthy setup, no technical expertise required.",
+      "steps": {
+        "s1": {
+          "title": "Sign up your business",
+          "desc": "Create your Budify account, configure your locations and set up your organisation's profile in minutes."
+        },
+        "s2": {
+          "title": "Add members & products",
+          "desc": "Import or add your member database, set up membership tiers and load your inventory."
+        },
+        "s3": {
+          "title": "Start selling & managing",
+          "desc": "Go live with your POS terminals, begin validating members and process transactions seamlessly."
+        },
+        "s4": {
+          "title": "Track everything live",
+          "desc": "Monitor sales, inventory, member activity and financials in real time from your dashboard."
+        }
+      }
+    }
   }
 }

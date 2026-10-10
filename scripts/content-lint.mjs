@@ -37,7 +37,7 @@ for (const f of walk(path.join(root, 'messages'), ['.json'])) {
 }
 
 // 2) English content & templates
-const textFiles = [...walk(path.join(root, 'content'), ['.ts', '.json'], ['images.manifest.json']), ...walk(path.join(root, 'src'), ['.ts', '.tsx']), ...walk(path.join(root, 'public'), ['.txt', '.md'])];
+const textFiles = [...walk(path.join(root, 'content'), ['.ts', '.json'], ['images.manifest.json', 'sa-visuals.json']), ...walk(path.join(root, 'src'), ['.ts', '.tsx']), ...walk(path.join(root, 'public'), ['.txt', '.md'])];
 for (const f of textFiles) {
   const src = fs.readFileSync(f, 'utf8').toLowerCase();
   const terms = termsForLang('en');
@@ -59,7 +59,7 @@ for (const img of manifest.images) {
   }
   if (!fs.existsSync(path.join(root, img.path))) err(`images.manifest: ${img.path} does not exist`);
 }
-for (const f of walk(path.join(root, 'public'), ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.avif', '.svg'])) {
+for (const f of walk(path.join(root, 'public'), ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.avif', '.svg'], [path.join('public', 'sa')])) {
   const r = rel(f);
   if (!declared.has(r)) err(`${r} is not declared in content/images.manifest.json`);
   for (const tok of path.basename(f).toLowerCase().split(/[^a-z0-9]+/)) if (banned.has(tok)) err(`${r}: filename contains banned imagery word "${tok}"`);
@@ -69,5 +69,11 @@ for (const f of walk(path.join(root, 'src'), ['.ts', '.tsx'])) {
   const s = fs.readFileSync(f, 'utf8');
   for (const m of s.matchAll(/['"`](\/images\/[^'"`]+)['"`]/g)) if (!declared.has('public' + m[1])) err(`${rel(f)}: references ${m[1]} which is not in the images manifest`);
   if (/<img\b/.test(s) && !/alt=/.test(s)) err(`${rel(f)}: <img> without alt`);
+}
+// 4) cannabis-themed 'sa' visuals (explicitly requested by the owner): warn, and fail under STRICT_LAUNCH until counsel approval is recorded
+const saMarkets = Object.entries(cfg.markets).filter(([, m]) => m.visuals === 'sa').map(([k]) => k);
+if (saMarkets.length && fs.existsSync(path.join(root, 'content/sa-visuals.json'))) {
+  const msg = `cannabis-themed 'sa' visuals are enabled for: ${saMarkets.join(', ')} – requires counsel approval (global.cannabisImageryApproval)`;
+  if (process.env.STRICT_LAUNCH === '1' && /TO BE COMPLETED/.test(cfg.global.cannabisImageryApproval ?? '[TO BE COMPLETED]')) err(msg); else warn(msg);
 }
 done();

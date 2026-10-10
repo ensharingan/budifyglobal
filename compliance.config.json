@@ -109,7 +109,8 @@
         ],
         "rtl": true
       }
-    ]
+    ],
+    "cannabisImageryApproval": "[TO BE COMPLETED – name of counsel / date approving cannabis-themed imagery per market]"
   },
   "languages": {
     "en": {
@@ -288,8 +289,10 @@
         "Do ad platform policies (Google, Meta, LinkedIn) permit our B2B software ads if we run any?",
         "Is the Do-Not-Sell/Share link plus GPC handling sufficient under CPRA regulations and the Colorado/Connecticut universal opt-out mechanism rules?",
         "TCPA: is our SMS consent wording and record-keeping sufficient for B2B contacts?",
-        "Is our DPA/CCPA service-provider language adequate for customers' member data?"
-      ]
+        "Is our DPA/CCPA service-provider language adequate for customers' member data?",
+        "Visual style: this market uses the cannabis-themed 'sa' visuals (AI-generated lounge/app imagery copied from budify.co.za). Is such imagery permissible in B2B software marketing here (e.g. DE KCanG advertising ban, TH, ES, NL, CH, GB/AU ad rules)? Set markets.US.visuals to 'neutral' to switch to abstract illustrations."
+      ],
+      "visuals": "sa"
     },
     "CA": {
       "name": "Canada",
@@ -398,8 +401,10 @@
         "Law 25: required content of the privacy policy, the named person in charge, and transfer impact assessments.",
         "Charter of the French Language: is fr-CA complete and 'at least equally available' (including legal pages, forms and emails)?",
         "CASL: validity of our express-consent wording and records; B2B exemptions that might apply.",
-        "Cannabis Act s.17 promotion limits: does B2B SaaS marketing to licence holders fall outside the promotion prohibition?"
-      ]
+        "Cannabis Act s.17 promotion limits: does B2B SaaS marketing to licence holders fall outside the promotion prohibition?",
+        "Visual style: this market uses the cannabis-themed 'sa' visuals (AI-generated lounge/app imagery copied from budify.co.za). Is such imagery permissible in B2B software marketing here (e.g. DE KCanG advertising ban, TH, ES, NL, CH, GB/AU ad rules)? Set markets.CA.visuals to 'neutral' to switch to abstract illustrations."
+      ],
+      "visuals": "sa"
     },
     "DE": {
       "name": "Germany",
@@ -492,8 +497,10 @@
         "Impressum content under DDG §5 for a non-German operator (representative, VAT ID, register entry).",
         "TDDDG §25: confirm equal-weight consent banner design and that strictly-necessary storage (age gate, consent log) is exempt.",
         "Which state data protection authority is competent, and do we need a German GDPR Art. 27 representative?",
-        "Whether DE legal pages must be exclusively in German to be effective."
-      ]
+        "Whether DE legal pages must be exclusively in German to be effective.",
+        "Visual style: this market uses the cannabis-themed 'sa' visuals (AI-generated lounge/app imagery copied from budify.co.za). Is such imagery permissible in B2B software marketing here (e.g. DE KCanG advertising ban, TH, ES, NL, CH, GB/AU ad rules)? Set markets.DE.visuals to 'neutral' to switch to abstract illustrations."
+      ],
+      "visuals": "sa"
     },
     "ES": {
       "name": "Spain",
@@ -588,8 +595,10 @@
         "Aviso legal content required by LSSI art. 10 for a non-Spanish provider.",
         "AEPD cookie guidance (2023 update): confirm banner layout and the 'reject all' prominence.",
         "Is Catalan (ca-ES) required for any legal page for Catalan users?",
-        "Do customers' member records count as special-category data, and what extra DPA terms are needed?"
-      ]
+        "Do customers' member records count as special-category data, and what extra DPA terms are needed?",
+        "Visual style: this market uses the cannabis-themed 'sa' visuals (AI-generated lounge/app imagery copied from budify.co.za). Is such imagery permissible in B2B software marketing here (e.g. DE KCanG advertising ban, TH, ES, NL, CH, GB/AU ad rules)? Set markets.ES.visuals to 'neutral' to switch to abstract illustrations."
+      ],
+      "visuals": "sa"
     },
     "NL": {
       "name": "Netherlands",
@@ -685,8 +694,10 @@
         "Does marketing POS software to coffeeshops conflict with the advertising ban (Opiumwet art. 3 / Opiumwet 'reclameverbod')?",
         "Which KvK/company details and which Dutch entity should appear on the site?",
         "Telecommunicatiewet 11.7a: confirm whether first-party analytics need consent.",
-        "Should experiment-shop (Wietexperiment) functionality be named, or only the generic 'closed-chain reporting export'?"
-      ]
+        "Should experiment-shop (Wietexperiment) functionality be named, or only the generic 'closed-chain reporting export'?",
+        "Visual style: this market uses the cannabis-themed 'sa' visuals (AI-generated lounge/app imagery copied from budify.co.za). Is such imagery permissible in B2B software marketing here (e.g. DE KCanG advertising ban, TH, ES, NL, CH, GB/AU ad rules)? Set markets.NL.visuals to 'neutral' to switch to abstract illustrations."
+      ],
+      "visuals": "sa"
     },
     "CH": {
       "name": "Switzerland",
@@ -776,8 +787,10 @@
         "Are pilot-trial operators the only legitimate customer segment in Switzerland, and does the new legislative framework change this?",
         "Impressum requirements and whether a Swiss entity or representative is needed under the nDSG (art. 14).",
         "Per-language legal pages: must all four languages carry legally binding text?",
-        "Opt-in versus opt-out for cookies under Swiss law (current setting is opt-in)."
-      ]
+        "Opt-in versus opt-out for cookies under Swiss law (current setting is opt-in).",
+        "Visual style: this market uses the cannabis-themed 'sa' visuals (AI-generated lounge/app imagery copied from budify.co.za). Is such imagery permissible in B2B software marketing here (e.g. DE KCanG advertising ban, TH, ES, NL, CH, GB/AU ad rules)? Set markets.CH.visuals to 'neutral' to switch to abstract illustrations."
+      ],
+      "visuals": "sa"
     },
     "GB": {
       "name": "United Kingdom",
@@ -866,8 +879,10 @@
       "openQuestions": [
         "Is the UK realistically a medical-only (clinic/pharmacy) market for us, and does our software fall within any MHRA/CQC expectations?",
         "ICO registration reference and the company details to show (Companies Act).",
-        "Wording compliance with the Human Medicines Regulations 2012 advertising rules."
-      ]
+        "Wording compliance with the Human Medicines Regulations 2012 advertising rules.",
+        "Visual style: this market uses the cannabis-themed 'sa' visuals (AI-generated lounge/app imagery copied from budify.co.za). Is such imagery permissible in B2B software marketing here (e.g. DE KCanG advertising ban, TH, ES, NL, CH, GB/AU ad rules)? Set markets.GB.visuals to 'neutral' to switch to abstract illustrations."
+      ],
+      "visuals": "sa"
     },
     "AU": {
       "name": "Australia",
@@ -956,8 +971,10 @@
         "Does the Privacy Act small-business exemption or the 2024 reform affect our policy content?",
         "TGA advertising rules: does any wording on this site qualify as advertising a therapeutic good?",
         "ABN/ACN details and whether an Australian entity is required.",
-        "Confirm that notice-only cookie consent is acceptable for AU (current setting) or use opt-in."
-      ]
+        "Confirm that notice-only cookie consent is acceptable for AU (current setting) or use opt-in.",
+        "Visual style: this market uses the cannabis-themed 'sa' visuals (AI-generated lounge/app imagery copied from budify.co.za). Is such imagery permissible in B2B software marketing here (e.g. DE KCanG advertising ban, TH, ES, NL, CH, GB/AU ad rules)? Set markets.AU.visuals to 'neutral' to switch to abstract illustrations."
+      ],
+      "visuals": "sa"
     },
     "TH": {
       "name": "Thailand",
@@ -1043,8 +1060,10 @@
         "Confirm the age threshold used in the gate (20) against the latest notification, including any 21+ guidance.",
         "PDPA: required content of the Thai-language notice; whether a representative or DPO is needed.",
         "Whether the Thai text must be the governing language for legal pages.",
-        "Any additional advertising restriction that reaches B2B software marketing."
-      ]
+        "Any additional advertising restriction that reaches B2B software marketing.",
+        "Visual style: this market uses the cannabis-themed 'sa' visuals (AI-generated lounge/app imagery copied from budify.co.za). Is such imagery permissible in B2B software marketing here (e.g. DE KCanG advertising ban, TH, ES, NL, CH, GB/AU ad rules)? Set markets.TH.visuals to 'neutral' to switch to abstract illustrations."
+      ],
+      "visuals": "sa"
     },
     "ZA": {
       "name": "South Africa",
@@ -1147,8 +1166,10 @@
         "Is the 'private club' positioning safe, or should POS references be reworded further?",
         "Information Officer name and registration; PAIA manual content (section 51 / Form).",
         "ECTA section 43 supplier information requirements for our entity.",
-        "Whether isiZulu and Afrikaans legal pages are required for validity or are courtesy translations only."
-      ]
+        "Whether isiZulu and Afrikaans legal pages are required for validity or are courtesy translations only.",
+        "Visual style: this market uses the cannabis-themed 'sa' visuals (AI-generated lounge/app imagery copied from budify.co.za). Is such imagery permissible in B2B software marketing here (e.g. DE KCanG advertising ban, TH, ES, NL, CH, GB/AU ad rules)? Set markets.ZA.visuals to 'neutral' to switch to abstract illustrations."
+      ],
+      "visuals": "sa"
     }
   }
 }

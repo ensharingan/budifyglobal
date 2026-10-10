@@ -54,7 +54,12 @@ function compareLang(lang, file, mode) {
     if (pa !== pb) err(`${rel}: "${key}" placeholders differ (en: ${pa || '–'} / ${lang}: ${pb || '–'})`);
   }
   if (mode === 'full') {
-    for (const key of Object.keys(enFlat)) if (!(key in flat)) err(`${rel}: missing key "${key}"`);
+    let pending = 0;
+    for (const key of Object.keys(enFlat)) if (!(key in flat)) {
+      if ((cfg.englishOnlyNamespaces ?? []).some((ns) => key.startsWith(ns + '.'))) { pending++; continue; }
+      err(`${rel}: missing key "${key}"`);
+    }
+    if (pending) warns.push(`${rel}: ${pending} keys in English-only namespaces (${(cfg.englishOnlyNamespaces ?? []).join(', ')}) fall back to English – translate before launch`);
   } else if (mode === 'core') {
     for (const key of Object.keys(enFlat)) {
       if (cfg.coreNamespaces.some((ns) => key === ns || key.startsWith(ns + '.')) && !(key in flat)) err(`${rel}: missing core key "${key}"`);

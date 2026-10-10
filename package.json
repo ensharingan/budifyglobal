@@ -8,6 +8,7 @@
     "check": "node scripts/check-compliance.mjs && node scripts/check-i18n.mjs && node scripts/content-lint.mjs",
     "audit-log": "node scripts/audit-log.mjs",
     "assumptions": "node scripts/gen-assumptions.mjs",
+    "fetch-images": "node scripts/fetch-sa-images.mjs",
     "prebuild": "npm run check && npm run audit-log",
     "build": "next build",
     "start": "next start",
