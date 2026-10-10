@@ -651,5 +651,36 @@
     "body": "Ikhasi olifunayo alikho noma lithuthiwe.",
     "home": "Iya ekhasini lasekhaya",
     "regions": "Khetha elinye izwe noma ulimi"
+  },
+  "mock": {
+    "glance": "Isifinyezo sanamuhla",
+    "newSale": "Ukuthengisa okusha",
+    "revenue": "Imali engenile namuhla",
+    "members": "Amalungu asebenzayo",
+    "openTabs": "Ama-akhawunti avuliwe",
+    "salesWeek": "Ukuthengisa kwale mpelasonto",
+    "recent": "Ukuthengisa kwakamuva",
+    "gold": "Ilungu le-Gold",
+    "silver": "Ilungu le-Silver",
+    "walkin": "Isihambeli",
+    "memberCard": "Ikhadi lelungu",
+    "tier": "Izinga le-Gold",
+    "active": "Kuyasebenza",
+    "posActive": "I-POS iyasebenza",
+    "terminals": "Amatheminali angu-3 ku-inthanethi",
+    "sample": "Idatha yesibonelo yokufanekisa"
+  },
+  "about": {
+    "badge": "Mayelana neBudify",
+    "title": "Ukusebenza kwesizukulwane esilandelayo kwabaqhubi abalawulwayo",
+    "body": "IBudify iwuhlaka lwesoftware esiza abaqhubi abanamalayisense ukwenza imisebenzi ibe lula, ukugcina amarekhodi alungile nokunikeza ulwazi olungcono emalungeni – kusuka e-point of sale kuya ekuqinisekisweni kwelungu, kusistimu eyodwa.",
+    "c1t": "Yakhelwe ukuthobela imithetho",
+    "c1b": "Yakhelwe ngokugcina amarekhodi nokubika, ukuze uthobele imithetho ekuhlobene nawe.",
+    "c2t": "Isistimu eyodwa yakho konke",
+    "c2b": "I-POS, ubulungu, isitoko, ezezimali nezokuxhumana kuwuhlaka olulodwa – akukho amathuluzi ahlukene.",
+    "c3t": "Ulwazi ngesikhathi sangempela",
+    "c3b": "Amadashibhodi nokuhlaziya bukhoma ukuze unqume ngokushesha nangokucacile.",
+    "c4t": "Ulwazi olungcono lwamalungu",
+    "c4b": "Amakhadi elungu edijithali, ukuqinisekiswa nge-QR namathuluzi amalungu azowasebenzisa ngempela."
   }
 }

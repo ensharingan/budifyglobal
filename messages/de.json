@@ -651,5 +651,36 @@
     "body": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
     "home": "Zur Startseite",
     "regions": "Anderes Land oder andere Sprache wählen"
+  },
+  "mock": {
+    "glance": "Heute im Überblick",
+    "newSale": "Neuer Verkauf",
+    "revenue": "Umsatz heute",
+    "members": "Aktive Mitglieder",
+    "openTabs": "Offene Konten",
+    "salesWeek": "Verkäufe diese Woche",
+    "recent": "Letzte Verkäufe",
+    "gold": "Gold-Mitglied",
+    "silver": "Silber-Mitglied",
+    "walkin": "Laufkundschaft",
+    "memberCard": "Mitgliedskarte",
+    "tier": "Gold-Stufe",
+    "active": "Aktiv",
+    "posActive": "Kasse aktiv",
+    "terminals": "3 Terminals online",
+    "sample": "Beispieldaten zur Illustration"
+  },
+  "about": {
+    "badge": "Über Budify",
+    "title": "Moderne Abläufe für regulierte Betreiber",
+    "body": "Budify ist eine Softwareplattform, die lizenzierten Betreibern hilft, Abläufe zu vereinfachen, Aufzeichnungen korrekt zu führen und Mitgliedern ein besseres Erlebnis zu bieten – von der Kasse bis zur Mitgliederprüfung in einem System.",
+    "c1t": "Für Compliance entwickelt",
+    "c1b": "Ausgerichtet auf Dokumentation und Berichtswesen, damit Sie die für Sie geltenden Vorgaben erfüllen können.",
+    "c2t": "Alles in einem System",
+    "c2b": "Kasse, Mitglieder, Bestand, Finanzen und Kommunikation in einer Plattform – ohne Insellösungen.",
+    "c3t": "Echtzeit-Einblicke",
+    "c3b": "Live-Dashboards und Auswertungen für schnelle, klare Entscheidungen.",
+    "c4t": "Besseres Mitgliedererlebnis",
+    "c4b": "Digitale Mitgliedskarten, QR-Prüfung und Werkzeuge, die Ihre Mitglieder wirklich nutzen."
   }
 }

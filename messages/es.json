@@ -651,5 +651,36 @@
     "body": "La página que busca no existe o ha cambiado de ubicación.",
     "home": "Ir a la página de inicio",
     "regions": "Elegir otro país o idioma"
+  },
+  "mock": {
+    "glance": "Resumen de hoy",
+    "newSale": "Nueva venta",
+    "revenue": "Ingresos de hoy",
+    "members": "Miembros activos",
+    "openTabs": "Cuentas abiertas",
+    "salesWeek": "Ventas de la semana",
+    "recent": "Ventas recientes",
+    "gold": "Miembro Oro",
+    "silver": "Miembro Plata",
+    "walkin": "Cliente de paso",
+    "memberCard": "Carné de miembro",
+    "tier": "Nivel Oro",
+    "active": "Activo",
+    "posActive": "TPV activo",
+    "terminals": "3 terminales en línea",
+    "sample": "Datos de ejemplo ilustrativos"
+  },
+  "about": {
+    "badge": "Sobre Budify",
+    "title": "Operaciones de nueva generación para operadores regulados",
+    "body": "Budify es una plataforma de software que ayuda a los operadores autorizados a simplificar su operativa, mantener registros precisos y ofrecer una mejor experiencia a los miembros – del punto de venta a la validación de miembros, en un solo sistema.",
+    "c1t": "Pensado para el cumplimiento",
+    "c1b": "Diseñado en torno al registro y la elaboración de informes, para que cumpla las normas que le aplican.",
+    "c2t": "Sistema todo en uno",
+    "c2b": "TPV, membresías, inventario, finanzas y comunicación en una sola plataforma – sin herramientas dispersas.",
+    "c3t": "Información en tiempo real",
+    "c3b": "Paneles y analítica en vivo para decidir con claridad y rapidez cada día.",
+    "c4t": "Mejor experiencia para los miembros",
+    "c4b": "Carnés digitales, validación por QR y herramientas que sus miembros usarán de verdad."
   }
 }

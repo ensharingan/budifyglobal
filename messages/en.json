@@ -651,5 +651,36 @@
     "body": "The page you are looking for does not exist or has moved.",
     "home": "Go to the home page",
     "regions": "Choose another country or language"
+  },
+  "mock": {
+    "glance": "Today at a glance",
+    "newSale": "New sale",
+    "revenue": "Today's revenue",
+    "members": "Active members",
+    "openTabs": "Open tabs",
+    "salesWeek": "Sales this week",
+    "recent": "Recent sales",
+    "gold": "Gold member",
+    "silver": "Silver member",
+    "walkin": "Walk-in guest",
+    "memberCard": "Member card",
+    "tier": "Gold tier",
+    "active": "Active",
+    "posActive": "POS active",
+    "terminals": "3 terminals online",
+    "sample": "Sample data for illustration"
+  },
+  "about": {
+    "badge": "About Budify",
+    "title": "Next-generation operations for regulated operators",
+    "body": "Budify is a software platform that helps licensed operators streamline operations, keep accurate records and deliver a better member experience – from point of sale to member validation, all in one system.",
+    "c1t": "Built for compliance",
+    "c1b": "Designed around record-keeping and reporting needs, so you can meet the rules that apply to you.",
+    "c2t": "All-in-one system",
+    "c2b": "POS, membership, inventory, finance and communications in a single platform – no patchwork tools.",
+    "c3t": "Real-time insights",
+    "c3b": "Live dashboards and analytics for clear, fast decisions every day.",
+    "c4t": "Better member experiences",
+    "c4b": "Digital membership cards, QR validation and tools your members will actually use."
   }
 }

@@ -651,5 +651,36 @@
     "body": "La page que vous cherchez n’existe pas ou a été déplacée.",
     "home": "Aller à la page d’accueil",
     "regions": "Choisir un autre pays ou une autre langue"
+  },
+  "mock": {
+    "glance": "Aperçu du jour",
+    "newSale": "Nouvelle vente",
+    "revenue": "Chiffre d'affaires du jour",
+    "members": "Membres actifs",
+    "openTabs": "Comptes ouverts",
+    "salesWeek": "Ventes de la semaine",
+    "recent": "Ventes récentes",
+    "gold": "Membre Or",
+    "silver": "Membre Argent",
+    "walkin": "Client de passage",
+    "memberCard": "Carte de membre",
+    "tier": "Niveau Or",
+    "active": "Actif",
+    "posActive": "Caisse active",
+    "terminals": "3 terminaux en ligne",
+    "sample": "Données fictives à titre d'illustration"
+  },
+  "about": {
+    "badge": "À propos de Budify",
+    "title": "Des opérations nouvelle génération pour les opérateurs réglementés",
+    "body": "Budify est une plateforme logicielle qui aide les opérateurs agréés à simplifier leurs opérations, tenir des registres fiables et offrir une meilleure expérience aux membres – du point de vente à la validation des membres, dans un seul système.",
+    "c1t": "Conçu pour la conformité",
+    "c1b": "Pensé autour de la tenue de registres et du reporting, pour respecter les règles qui vous concernent.",
+    "c2t": "Système tout-en-un",
+    "c2b": "Caisse, adhésions, stock, finance et communication sur une seule plateforme – sans outils disparates.",
+    "c3t": "Indicateurs en temps réel",
+    "c3b": "Tableaux de bord et analyses en direct pour décider vite et clairement.",
+    "c4t": "Une meilleure expérience membre",
+    "c4b": "Cartes de membre numériques, validation par QR et outils que vos membres utiliseront vraiment."
   }
 }

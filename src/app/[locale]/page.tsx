@@ -4,7 +4,7 @@ import { marketOf } from '@/i18n/locales';
 import { LocaleLink } from '@/components/LocaleLink';
 import { Container, Section, Card, Accent, Pill, btnPrimary, btnSecondary, Notice } from '@/components/ui/Page';
 import FeatureShowcase, { type ShowcaseItem } from '@/components/FeatureShowcase';
-import DashboardMock from '@/components/DashboardMock';
+import DashboardMock, { type MockText } from '@/components/DashboardMock';
 import JsonLd from '@/components/JsonLd';
 import { SITE_URL } from '@/lib/site';
 import { localizedPath } from '@/i18n/paths';
@@ -27,6 +27,14 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     const base = HAS_ASSOC.has(k) && pos === 'association' ? `features.items.${k}.assoc` : `features.items.${k}`;
     return { key: k, title: t(`${base}.title`), body: t(`${base}.body`), bullets: t.raw(`${base}.bullets`) as string[] };
   });
+  const money = (n: number) => new Intl.NumberFormat(locale, { style: 'currency', currency: market.currency, maximumFractionDigits: 0 }).format(n);
+  const mock: MockText = {
+    label: t('hero.mockLabel'), glance: t('mock.glance'), newSale: t('mock.newSale'), revenue: t('mock.revenue'), members: t('mock.members'), openTabs: t('mock.openTabs'),
+    salesWeek: t('mock.salesWeek'), recent: t('mock.recent'), memberCard: t('mock.memberCard'), tier: t('mock.tier'), active: t('mock.active'), posActive: t('mock.posActive'), terminals: t('mock.terminals'), sample: t('mock.sample'),
+    kpis: [[t('mock.revenue'), money(4480), '+18.4%'], [t('mock.members'), '1,284', '+42'], [t('mock.openTabs'), '12', money(640)]],
+    rows: [[t('mock.gold'), money(84)], [t('mock.silver'), money(37)], [t('mock.walkin'), money(52)], [t('mock.gold'), money(19)]]
+  };
+  const ABOUT = ['c1', 'c2', 'c3', 'c4'] as const;
   const lowest = (pricing.plans.starter.prices as Record<string, number>)[market.currency];
 
   return (
@@ -43,9 +51,28 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             </div>
             <p className="mt-8 max-w-md border-t border-line pt-6 text-sm text-ink-muted">{t('hero.disclaimer')}</p>
           </div>
-          <DashboardMock label={t('hero.mockLabel')} />
+          <DashboardMock m={mock} />
         </Container>
       </section>
+
+      <div className="bg-brand-soft"><section className="py-14 sm:py-20"><Container className="grid items-center gap-10 lg:grid-cols-[1fr_1.1fr]">
+        <div aria-hidden="true" className="relative min-h-[320px] overflow-hidden rounded-3xl bg-gradient-to-br from-[#07120b] via-[#0b1f14] to-[#14532d] p-6">
+          <div className="absolute inset-0 opacity-30 [background-image:linear-gradient(rgba(74,222,128,.25)_1px,transparent_1px),linear-gradient(90deg,rgba(74,222,128,.25)_1px,transparent_1px)] [background-size:32px_32px]" />
+          <div className="absolute inset-x-6 bottom-6 rounded-2xl bg-white/95 p-5 shadow-xl">
+            <div className="flex items-center justify-between text-sm font-bold"><span>{t('mock.revenue')}</span><span className="rounded-full bg-brand/10 px-2 py-0.5 text-xs text-brand-dark">+18.4%</span></div>
+            <div className="mt-2 text-3xl font-extrabold tracking-tight">{money(4480)}</div>
+            <div className="mt-3 h-2 rounded-full bg-brand/10"><div className="h-2 w-3/4 rounded-full bg-brand" /></div>
+          </div>
+        </div>
+        <div>
+          <Pill>{t('about.badge')}</Pill>
+          <h2 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">{t('about.title')}</h2>
+          <p className="mt-4 text-ink-muted">{t('about.body')}</p>
+          <ul className="mt-6 grid gap-4 sm:grid-cols-2">
+            {ABOUT.map((c) => (<li key={c}><Card className="h-full p-5"><h3 className="font-bold">{t(`about.${c}t`)}</h3><p className="mt-1.5 text-sm text-ink-muted">{t(`about.${c}b`)}</p></Card></li>))}
+          </ul>
+        </div>
+      </Container></section></div>
 
       <Section title={t('home.pillarsTitle')} intro={t('home.pillarsIntro')}>
         <FeatureShowcase items={showItems} />
