@@ -4,8 +4,8 @@ import { Mock } from '@/components/FeatureShowcase';
 const MAP: Record<string, string> = { dispensaries: 'pos', clubs: 'membership', groups: 'insights', 'white-label': 'finance' };
 
 /** Photo/panel for a solution. Uses self-hosted SA visuals when the market allows them, otherwise a text-free UI illustration. */
-export default function SolutionVisual({ type, sa, className = '' }: { type: string; sa: boolean; className?: string }) {
-  const id = MAP[type] ?? 'pos';
+export default function SolutionVisual({ type, sa, className = '', id: forced }: { type: string; sa: boolean; className?: string; id?: string }) {
+  const id = forced ?? MAP[type] ?? 'pos';
   const src = sa ? saImage(id) : null;
   return (
     <div aria-hidden="true" className={`relative overflow-hidden rounded-2xl border border-brand/15 bg-[#0b1f14] shadow-xl ${className}`}>
